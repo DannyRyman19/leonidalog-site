@@ -1,4 +1,4 @@
-# sunsetstate.djr.li
+# leonidalog.djr.li
 
 Static site for the Leonida Log app (repo and domain keep the Sunset State
 name): landing page, privacy policy, terms of use, support, and the content
@@ -17,4 +17,4 @@ the app reads over the air. Served by GitHub Pages, set up like
 
 ## DNS
 
-On the `djr.li` zone: `sunsetstate  CNAME  dannyryman19.github.io.`
+On the `djr.li` zone: `leonidalog  CNAME  dannyryman19.github.io.`
