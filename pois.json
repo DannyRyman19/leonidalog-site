@@ -1,0 +1,305 @@
+{
+  "version": 5,
+  "categories": [
+    {
+      "id": "collectible",
+      "label": "Collectibles",
+      "symbol": "star.fill",
+      "colorHex": "FF9E4A"
+    },
+    {
+      "id": "landmark",
+      "label": "Landmarks",
+      "symbol": "building.columns.fill",
+      "colorHex": "8B5CFF"
+    },
+    {
+      "id": "mission",
+      "label": "Missions",
+      "symbol": "flag.fill",
+      "colorHex": "FF3D8A",
+      "verb": "completed",
+      "chapterOrdered": true
+    },
+    {
+      "id": "activity",
+      "label": "Activities",
+      "symbol": "gamecontroller.fill",
+      "colorHex": "35E0C8",
+      "verb": "done"
+    },
+    {
+      "id": "achievements",
+      "label": "Trophies",
+      "symbol": "trophy.fill",
+      "colorHex": "FFD23D"
+    }
+  ],
+  "pois": [
+    {
+      "id": "lm-metro",
+      "title": "Metro Downtown",
+      "category": "landmark",
+      "nx": 0.66,
+      "ny": 0.34,
+      "region": "East Coast",
+      "note": "The city grid on the east coast.",
+      "guide": "Dev placeholder entry. At launch this becomes a real landmark with your own written description.",
+      "videoURL": "https://www.youtube.com/watch?v=QdBZY2fkU-0"
+    },
+    {
+      "id": "lm-lake",
+      "title": "Central Lake",
+      "category": "landmark",
+      "nx": 0.42,
+      "ny": 0.52,
+      "region": "Interior",
+      "note": "Big inland water surrounded by swamp.",
+      "guide": "Placeholder. Real entries get approach routes, nearby activities, and anything missable."
+    },
+    {
+      "id": "cl-001",
+      "title": "Collectible 001",
+      "category": "collectible",
+      "nx": 0.58,
+      "ny": 0.28,
+      "region": "North",
+      "guide": "Sample collectible. Launch entries include the exact spot, how to reach it, and any prerequisites."
+    },
+    {
+      "id": "cl-002",
+      "title": "Collectible 002",
+      "category": "collectible",
+      "nx": 0.47,
+      "ny": 0.4,
+      "region": "Interior",
+      "guide": "Sample collectible."
+    },
+    {
+      "id": "cl-003",
+      "title": "Collectible 003",
+      "category": "collectible",
+      "nx": 0.62,
+      "ny": 0.6,
+      "region": "South",
+      "guide": "Sample collectible."
+    },
+    {
+      "id": "cl-004",
+      "title": "Collectible 004",
+      "category": "collectible",
+      "nx": 0.57,
+      "ny": 0.86,
+      "region": "The Keys",
+      "guide": "Out on the island chain.",
+      "premium": true
+    },
+    {
+      "id": "ms-001",
+      "title": "Opening Mission",
+      "category": "mission",
+      "nx": 0.64,
+      "ny": 0.36,
+      "region": "East Coast",
+      "guide": "Sample mission entry. Gold requirements go here.",
+      "tiers": [
+        "Bronze",
+        "Silver",
+        "Gold"
+      ]
+    },
+    {
+      "id": "ms-002",
+      "title": "Swamp Job",
+      "category": "mission",
+      "nx": 0.4,
+      "ny": 0.6,
+      "region": "Interior",
+      "guide": "Sample mission that only unlocks once every collectible is found.",
+      "tiers": [
+        "Bronze",
+        "Silver",
+        "Gold"
+      ]
+    },
+    {
+      "id": "ac-001",
+      "title": "Beach Activity",
+      "category": "activity",
+      "nx": 0.72,
+      "ny": 0.44,
+      "region": "East Coast",
+      "guide": "Sample activity."
+    },
+    {
+      "id": "ac-002",
+      "title": "Keys Diving",
+      "category": "activity",
+      "nx": 0.66,
+      "ny": 0.88,
+      "region": "The Keys",
+      "guide": "Sample activity.",
+      "premium": true
+    },
+    {
+      "id": "tr-001",
+      "title": "First Steps",
+      "category": "achievements",
+      "guide": "Checklist-only item: no map pin. Trophies, stat challenges and story beats live here.",
+      "subgroup": "Story - Bronze"
+    },
+    {
+      "id": "tr-002",
+      "title": "State of Mind",
+      "category": "achievements",
+      "guide": "Tracks the Path to 100% figure itself: it ticks up as the ring fills.",
+      "tallyTarget": 100,
+      "subgroup": "Story - Gold"
+    },
+    {
+      "id": "tr-collector",
+      "title": "Collector",
+      "category": "achievements",
+      "tallyTarget": 4,
+      "subgroup": "Story - Silver",
+      "linkedCategories": [
+        "collectible"
+      ],
+      "guide": "Find every collectible. Ticks itself as you do - nothing to mark here."
+    },
+    {
+      "id": "tr-platinum",
+      "title": "Sunset Legend",
+      "category": "achievements",
+      "subgroup": "Story - Platinum",
+      "guide": "Earn every other trophy. Unlocks on its own the moment the last one does."
+    }
+  ],
+  "rules": {
+    "playedCategories": [
+      "mission"
+    ],
+    "platinum": "tr-platinum",
+    "groups": [
+      {
+        "name": "Story",
+        "tier": "hundred",
+        "weight": 0.6,
+        "color": "FFD23D"
+      },
+      {
+        "name": "Collectibles",
+        "tier": "hundred",
+        "weight": 0.25,
+        "color": "FF9E4A"
+      },
+      {
+        "name": "Activities",
+        "tier": "hundred",
+        "weight": 0.15,
+        "color": "35E0C8"
+      },
+      {
+        "name": "Exploration",
+        "tier": "hundredPlus",
+        "color": "8B5CFF"
+      },
+      {
+        "name": "Trophies",
+        "tier": "hundredPlus",
+        "color": "FF3D8A"
+      }
+    ],
+    "milestones": [
+      {
+        "id": "m-story",
+        "text": "Complete both story missions",
+        "target": 2,
+        "link": {
+          "type": "played",
+          "category": "mission"
+        },
+        "group": "Story",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-collectibles",
+        "text": "Find all 4 collectibles",
+        "target": 4,
+        "link": {
+          "type": "category",
+          "category": "collectible"
+        },
+        "group": "Collectibles",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-activities",
+        "text": "Try both activities",
+        "target": 2,
+        "link": {
+          "type": "category",
+          "category": "activity"
+        },
+        "group": "Activities",
+        "tier": "hundred"
+      },
+      {
+        "id": "mp-gold",
+        "text": "Gold medal both story missions",
+        "target": 2,
+        "link": {
+          "type": "goldMedals",
+          "category": "mission"
+        },
+        "group": "Exploration",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-landmarks",
+        "text": "Visit both landmarks",
+        "target": 2,
+        "link": {
+          "type": "category",
+          "category": "landmark"
+        },
+        "group": "Exploration",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-trophies",
+        "text": "Earn all 4 trophies",
+        "target": 4,
+        "link": {
+          "type": "category",
+          "category": "achievements"
+        },
+        "group": "Trophies",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      }
+    ],
+    "achievementLinks": {
+      "tr-collector": {
+        "type": "category",
+        "category": "collectible"
+      },
+      "tr-002": {
+        "type": "milestonePercent",
+        "tier": "hundred"
+      },
+      "tr-platinum": {
+        "type": "allOtherAchievements"
+      }
+    },
+    "unlockRequirements": {
+      "ms-002": {
+        "type": "categoryComplete",
+        "category": "collectible",
+        "label": "Collectibles"
+      }
+    }
+  }
+}

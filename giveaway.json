@@ -1,0 +1,49 @@
+{
+  "id": "gta6-dualsense-2026",
+  "version": 4,
+  "draft": true,
+  "title": "Win a GTA 6 DualSense",
+  "prize": "A DualSense wireless controller, Grand Theft Auto VI Black Limited Edition",
+  "image": "GiveawayPrize",
+  "summary": "Enter with your email for a chance to win the black limited edition controller. Free to enter, open worldwide (with a few exceptions), one entry per person.",
+  "opens": "2026-10-01T00:00:00Z",
+  "closes": "2026-12-31T23:59:59Z",
+  "drawDate": "2027-01-07T12:00:00Z",
+  "entryURL": "https://leonidalog-giveaway.rymandanny.workers.dev/api/giveaway/enter",
+  "minimumAge": 18,
+  "excludedCountries": [
+    "IT",
+    "BR",
+    "CU",
+    "IR",
+    "KP",
+    "SY",
+    "RU",
+    "BY"
+  ],
+  "countryConfirmations": {
+    "CA": "I don't live in Quebec",
+    "UA": "I don't live in Crimea or the Donetsk, Luhansk, Zaporizhzhia or Kherson regions"
+  },
+  "hiddenStorefronts": [
+    "ITA",
+    "BRA",
+    "RUS",
+    "BLR"
+  ],
+  "rules": [
+    "1. Promoter. This free prize draw (the \"Giveaway\") is run by Danny Ryman, {{PROMOTER_ADDRESS}}, the developer of Leonida Log (the \"Promoter\"). Contact: support@camotracker.djr.li.",
+    "2. No purchase necessary. Entry is free. Buying anything in the app, including Leonida Log Premium, does not give you an entry and does not improve your chances of winning.",
+    "3. Who can enter. Open to anyone aged 18 or over who has also reached the age of majority where they live, except residents of Italy, Brazil, the Canadian province of Quebec, and any country or region subject to UK or US sanctions (including Cuba, Iran, North Korea, Syria, Russia, Belarus, and Crimea and the Donetsk, Luhansk, Zaporizhzhia and Kherson regions of Ukraine). The Giveaway is void wherever it is prohibited or restricted by law. The Promoter and their household may not enter.",
+    "4. How to enter. Open the Leonida Log app, tap Enter the giveaway, give your email address and country, confirm the statements shown and submit. The Giveaway opens when Leonida Log first becomes available on the App Store and closes at 23:59 GMT on 31 December 2026. Entries received after that are not included.",
+    "5. One entry per person. Each person may enter once. Duplicate entries with the same email address are ignored. Entries made in bulk, automatically, through third parties or with false details are void, and the Promoter may disqualify anyone they reasonably believe has entered more than once.",
+    "6. The prize. One DualSense wireless controller, Grand Theft Auto VI Black Limited Edition (recommended retail price £74.99 / US$84.99), released on 19 November 2026. There is one prize and one winner. There is no cash alternative. If the prize becomes unavailable or cannot lawfully be sent to the winner's country, the Promoter may substitute a prize of equal or greater value, such as a PlayStation Store gift card.",
+    "7. The draw. One winner will be chosen at random from all valid entries on or before 7 January 2027, using a computer-based random draw that is logged so it can be verified.",
+    "8. Winner notification. The winner will be emailed within 7 days of the draw and must reply within 14 days with a postal address to claim the prize. If they do not reply in time, or are found to be ineligible, the prize is forfeited and a new winner is drawn in the same way. A winner resident in Canada must correctly answer a mathematical skill-testing question before the prize is awarded.",
+    "9. Delivery. The Promoter pays for shipping to the winner. The winner is responsible for any import duties, customs fees or taxes charged in their country. The Promoter is not responsible for delays or losses caused by the carrier once the prize has been dispatched.",
+    "10. Announcement. The winner's first name and country will be published in the Leonida Log app's News feed. The winner may ask for this not to be published.",
+    "11. Your data. Your email address and country are used only to run this Giveaway and to contact the winner. To stop bulk entries, the Promoter also stores a one-way hash of the IP address each entry was sent from. None of it is used for marketing, shared, or sold, and all of it is deleted within 30 days of the prize being claimed. The Promoter is the data controller.",
+    "12. Not affiliated. This Giveaway is not sponsored, endorsed or administered by, or associated with, Apple, Rockstar Games, Take-Two Interactive or Sony Interactive Entertainment. Grand Theft Auto, DualSense and PlayStation are trademarks of their respective owners. The prize photo is Sony Interactive Entertainment's.",
+    "13. General. The Promoter may cancel or amend the Giveaway if circumstances outside their reasonable control make it necessary, and will announce any change in the app. The Promoter's decision on anything about the Giveaway is final. These rules are governed by the law of England and Wales, without affecting any mandatory consumer rights you have where you live."
+  ]
+}
