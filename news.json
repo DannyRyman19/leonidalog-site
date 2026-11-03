@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "articles": [
     {
       "id": "preorders-live",
@@ -20,16 +20,16 @@
       "id": "preload-date-announced",
       "title": "Pre-load starts November 10",
       "date": "2026-11-03T15:00:00Z",
-      "body": "Rockstar has confirmed the pre-load times for Grand Theft Auto VI. On PlayStation 5, digital pre-loading begins on Tuesday, November 10 at midnight local time. On Xbox Series X|S it begins globally on Tuesday, November 10 at 12 a.m. GMT, so on the evening of November 9 in the Americas. Code-in-box versions for both consoles should be at retailers from November 12. Launch is November 19. We'll post again the moment pre-load goes live.",
-      "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10",
+      "body": "Rockstar has confirmed the times. On PlayStation 5, digital pre-load begins at midnight local time on Tuesday, November 10. On Xbox Series X|S it begins globally at 12 a.m. GMT on November 10, so on the evening of November 9 in the Americas. Code-in-box versions for both consoles should be at retailers from November 12. The game itself unlocks at midnight local time on November 19, in every region, on both consoles. We'll post again the moment pre-load goes live.",
+      "url": "https://support.rockstargames.com/articles/29jV3Cv2cCgvwM1XgtMO5o/grand-theft-auto-vi-regional-pre-load-and-release-times-on-playstation-5-and-xbox-series-x-or-s",
       "pinned": true
     },
     {
       "id": "preload-live",
       "title": "Preload is live",
       "date": "2026-11-10T00:00:00Z",
-      "body": "Pre-load for Grand Theft Auto VI is open. On PlayStation 5 it opens at midnight local time on November 10; on Xbox Series X|S it opened worldwide at 12 a.m. GMT. Buying a boxed copy? Code-in-box versions for both consoles should be at retailers from November 12, so redeem your code as soon as you have it. Pre-ordered digitally before November 20? Don't forget the Vintage Vice City Pack bonus is tied to that window. Launch is November 19.",
-      "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10",
+      "body": "Pre-load for Grand Theft Auto VI is open. On PlayStation 5 it opens at midnight local time on November 10; on Xbox Series X|S it opened worldwide at 12 a.m. GMT. Buying a boxed copy? Code-in-box versions for both consoles should be at retailers from November 12, so redeem your code as soon as you have it. Pre-ordered digitally before November 20? Don't forget the Vintage Vice City Pack bonus is tied to that window. The game unlocks at midnight local time on November 19.",
+      "url": "https://support.rockstargames.com/articles/29jV3Cv2cCgvwM1XgtMO5o/grand-theft-auto-vi-regional-pre-load-and-release-times-on-playstation-5-and-xbox-series-x-or-s",
       "pinned": true
     },
     {
