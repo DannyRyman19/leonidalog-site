@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "articles": [
     {
       "id": "preorders-live",
@@ -13,7 +13,7 @@
       "id": "ultimate-edition-contents",
       "title": "What's actually in the Ultimate Edition",
       "date": "2026-06-25T09:00:00Z",
-      "body": "Rockstar's confirmed the full Ultimate Edition list, and it's more than a car and an outfit: bonuses are threaded through Jason and Lucia's story, unlocking chapter by chapter rather than dumped in your inventory on day one. Confirmed so far: the '95 Grotti Cheetah, Hawk & Little Morgan revolvers with personalized weapon variants, Vice City styles, Jason's safehouse vehicles, the Ganado Retro Build, Rideout Customs mod shop, Sara's Unisex Salon, a Shitzu Squalo, the Stock 305 clothing store, a '67 Vapid Dominator buggy with garage, Electric Fang tattoo parlor, One-Eyed Willie's mod shop, Goodtime Gear, the PTT Youngin$ compound, and a classic car collection. No physical Ultimate Edition exists — physical Standard Edition owners upgrade digitally through the PlayStation or Microsoft store after redeeming their code.",
+      "body": "Rockstar's confirmed the full Ultimate Edition list, and it's more than a car and an outfit: bonuses are threaded through Jason and Lucia's story, unlocking chapter by chapter rather than dumped in your inventory on day one. Confirmed so far: the '95 Grotti Cheetah, Hawk & Little Morgan revolvers with personalized weapon variants, Vice City styles, Jason's safehouse vehicles, the Ganado Retro Build, Rideout Customs mod shop, Sara's Unisex Salon, a Shitzu Squalo, the Stock 305 clothing store, a '67 Vapid Dominator buggy with garage, Electric Fang tattoo parlor, One-Eyed Willie's mod shop, Goodtime Gear, the PTT Youngin$ compound, and a classic car collection. No physical Ultimate Edition exists: physical Standard Edition owners upgrade digitally through the PlayStation or Microsoft store after redeeming their code.",
       "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions"
     },
     {
@@ -38,13 +38,6 @@
       "date": "2026-06-15T16:00:00Z",
       "body": "The latest trailer gave the clearest look yet at Leonida (Vice City's neon sprawl, the Keys and the swampy interior), following protagonists Lucia Caminos and Jason Duval. The community's been dissecting every frame for map and mission clues ever since. We've logged every landmark we could pin so the map's ready to go on day one.",
       "url": "https://www.rockstargames.com/newswire"
-    },
-    {
-      "id": "launch-collectibles",
-      "title": "40 new collectibles mapped",
-      "date": "2026-11-20T09:00:00Z",
-      "body": "We just pushed 40 verified collectible locations across Vice City. Pull to refresh your map. Landmarks and Activities got the biggest additions, with more regions rolling in over the following days as the community maps them.",
-      "pinned": true
     }
   ]
 }
