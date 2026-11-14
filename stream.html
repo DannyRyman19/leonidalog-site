@@ -54,8 +54,10 @@
 
   <p class="lede">Leonida Log can show your progress live on Twitch, YouTube or
     Kick. Tick something off in the app and your ring updates on stream within
-    seconds, with the item you just found. It&rsquo;s free and works in OBS,
-    Streamlabs and anything else that takes a browser source.</p>
+    seconds, with the item you just found, a running count of what you&rsquo;ve
+    ticked off this stream, and a celebration at 25, 50, 75 and 100%. It&rsquo;s
+    free and works in OBS, Streamlabs and anything else that takes a browser
+    source.</p>
 
   <div class="card">
     <strong>It&rsquo;s early days.</strong> As more checklists and features
@@ -108,6 +110,9 @@
     <tr><th>Option</th><th>What it does</th></tr>
     <tr><td><code>scale=1.5</code></td><td>Makes everything bigger (or smaller, below 1). Handy on a 1440p or 4K canvas. Make the source size bigger by the same amount.</td></tr>
     <tr><td><code>recent=0</code></td><td>Never shows what you just ticked off. You can also switch this off in the app with <strong>Show what I just ticked off</strong>.</td></tr>
+    <tr><td><code>align=right</code></td><td>Lines everything up on the right edge, for an overlay on the right of the screen.</td></tr>
+    <tr><td><code>session=0</code></td><td>Hides the &ldquo;+12 this stream&rdquo; line. It counts from when OBS loads the overlay, so it starts at zero each stream.</td></tr>
+    <tr><td><code>celebrate=0</code></td><td>No gold banner and burst when you pass 25, 50, 75 or 100%, or finish a group.</td></tr>
     <tr><td><code>metric=hundredPlus</code></td><td>Shows 100%+ instead of the figure chosen in the app. <code>metric=pathTo100</code> does the reverse.</td></tr>
   </table>
 
@@ -122,6 +127,10 @@
   <p><strong>It shows the wrong run, or someone else has your link.</strong>
     In the app, tap <strong>Get a new link</strong>. The old one stops working
     straight away, so paste the new one into OBS.</p>
+  <p><strong>The &ldquo;this stream&rdquo; count reset.</strong> It starts again
+    whenever OBS reloads the overlay (for example with <em>Refresh browser when
+    scene becomes active</em> ticked). Leave that unticked on the overlay&rsquo;s
+    source.</p>
   <p><strong>It&rsquo;s cut off.</strong> Make the browser source bigger, using
     the sizes above (times your <code>scale</code>).</p>
 
