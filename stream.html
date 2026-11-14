@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stream overlay &middot; Leonida Log</title>
+<meta name="description" content="Put your Leonida Log progress on your Twitch, YouTube or Kick stream: a live 100% ring for OBS and Streamlabs. Free.">
+<link rel="icon" href="icon.png" type="image/png">
+<link rel="stylesheet" href="style.css">
+<style>
+  .steps { counter-reset: step; list-style: none; padding: 0; margin: 18px 0 8px; }
+  .steps li { counter-increment: step; position: relative; padding: 0 0 14px 44px; }
+  .steps li::before {
+    content: counter(step); position: absolute; left: 0; top: 1px;
+    width: 28px; height: 28px; border-radius: 50%; background: var(--raised);
+    border: 1px solid var(--rule); color: var(--gold); font-weight: 700;
+    font-size: 14px; line-height: 27px; text-align: center;
+  }
+  .layouts { display: grid; gap: 22px; margin: 22px 0 10px; }
+  .layout { background: var(--bg-2); border: 1px solid var(--rule); border-radius: 14px; padding: 16px 16px 14px; }
+  .layout h3 { margin: 0 0 2px; font-size: 17px; }
+  .layout p { margin: 0 0 12px; color: var(--dim); font-size: 14px; }
+  .stage {
+    position: relative; overflow: hidden; border-radius: 10px;
+    background: linear-gradient(160deg, #5b3a8a 0%, #c2457a 45%, #f39a52 78%, #2c6f86 100%);
+  }
+  .stage iframe { position: absolute; top: 0; left: 0; border: 0; transform-origin: 0 0; background: transparent; }
+  code { background: var(--raised); border: 1px solid var(--rule); border-radius: 5px; padding: 1px 6px; font-size: 14px; color: var(--text); }
+  table.opts { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 15px; }
+  table.opts th, table.opts td { text-align: left; padding: 9px 10px 9px 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  table.opts th { color: var(--dim); font-weight: 600; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; }
+  .cta { text-align: center; margin: 40px 0 0; }
+  .cta p { color: var(--dim); margin: 0 0 14px; }
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="inner">
+    <a class="wordmark" href="index.html"><img class="mark" src="icon.png" alt="">LEONIDA LOG</a>
+    <nav>
+      <a href="stream.html">Streamers</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="titleblock">
+    <p class="eyebrow">For streamers</p>
+    <h1>Put your 100% run on stream</h1>
+  </div>
+
+  <p class="lede">Leonida Log can show your progress live on Twitch, YouTube or
+    Kick. Tick something off in the app and your ring updates on stream within
+    seconds, with the item you just found. It&rsquo;s free and works in OBS,
+    Streamlabs and anything else that takes a browser source.</p>
+
+  <h2>Set it up</h2>
+  <ol class="steps">
+    <li>In Leonida Log, open <strong>More &rsaquo; Stream overlay</strong> and
+      switch on <strong>Show my progress on stream</strong>.</li>
+    <li>Tap <strong>Copy link</strong> and send it to the computer you stream
+      from (AirDrop, Notes or a message to yourself).</li>
+    <li>In OBS, add a <strong>Browser</strong> source and paste the link as its
+      URL. In Streamlabs, add a <strong>Browser Source</strong> widget. Set the
+      width and height for your layout (below).</li>
+    <li>Drag it into a corner over your gameplay. The background is transparent.</li>
+  </ol>
+  <p>Keep Leonida Log open on your phone while you play. The overlay updates
+    from the app, so a tick shows on stream as soon as the app sends it.</p>
+
+  <h2>Pick a layout</h2>
+  <p>Add <code>?layout=</code> to the end of your link to choose one. Leave it
+    off for the card. These previews run on made-up figures.</p>
+
+  <div class="layouts">
+    <div class="layout">
+      <h3>Card</h3>
+      <p>The default: ring, count and a QR code to the app. Source size 760&nbsp;&times;&nbsp;300.</p>
+      <div class="stage" data-w="760" data-h="300"><iframe title="Card layout preview" src="https://leonidalog.rymandanny.workers.dev/overlay/demo" width="760" height="300" loading="lazy"></iframe></div>
+    </div>
+    <div class="layout">
+      <h3>Vertical</h3>
+      <p>A tall column for the side of the screen or portrait streams. Add <code>?layout=vertical</code>. Source size 300&nbsp;&times;&nbsp;600.</p>
+      <div class="stage" data-w="300" data-h="600" data-max="300"><iframe title="Vertical layout preview" src="https://leonidalog.rymandanny.workers.dev/overlay/demo?layout=vertical" width="300" height="600" loading="lazy"></iframe></div>
+    </div>
+    <div class="layout">
+      <h3>Minimal</h3>
+      <p>Just the ring and the count, for a busy HUD. Add <code>?layout=minimal</code>. Source size 480&nbsp;&times;&nbsp;200.</p>
+      <div class="stage" data-w="480" data-h="200" data-max="480"><iframe title="Minimal layout preview" src="https://leonidalog.rymandanny.workers.dev/overlay/demo?layout=minimal" width="480" height="200" loading="lazy"></iframe></div>
+    </div>
+  </div>
+  <p>Want to try one in OBS first? Use
+    <code>https://leonidalog.rymandanny.workers.dev/overlay/demo</code>
+    (with any <code>?layout=</code>) as the URL. It shows the same made-up run.</p>
+
+  <h2>More options</h2>
+  <p>Join options with <code>&amp;</code>, for example <code>?layout=minimal&amp;scale=1.5</code>.</p>
+  <table class="opts">
+    <tr><th>Option</th><th>What it does</th></tr>
+    <tr><td><code>scale=1.5</code></td><td>Makes everything bigger (or smaller, below 1). Handy on a 1440p or 4K canvas. Make the source size bigger by the same amount.</td></tr>
+    <tr><td><code>recent=0</code></td><td>Never shows what you just ticked off. You can also switch this off in the app with <strong>Show what I just ticked off</strong>.</td></tr>
+    <tr><td><code>metric=hundredPlus</code></td><td>Shows 100%+ instead of the figure chosen in the app. <code>metric=pathTo100</code> does the reverse.</td></tr>
+  </table>
+
+  <h2>Something not right?</h2>
+  <p><strong>The overlay is blank.</strong> Check that
+    <strong>Show my progress on stream</strong> is on in the app, that you
+    copied the current link, and that Leonida Log has been opened since you
+    switched it on.</p>
+  <p><strong>It isn&rsquo;t updating.</strong> Open Leonida Log on your phone.
+    The overlay checks for new figures every 10 seconds, but the app has to be
+    open to send them.</p>
+  <p><strong>It shows the wrong run, or someone else has your link.</strong>
+    In the app, tap <strong>Get a new link</strong>. The old one stops working
+    straight away, so paste the new one into OBS.</p>
+  <p><strong>It&rsquo;s cut off.</strong> Make the browser source bigger, using
+    the sizes above (times your <code>scale</code>).</p>
+
+  <h2>What&rsquo;s shared</h2>
+  <p>While the overlay is on, your progress figures and the names of the last
+    few things you ticked off are sent to Leonida Log&rsquo;s server, and anyone
+    with your link can see them. Nothing else is. Switch it off in the app and
+    the overlay goes blank. See the <a href="privacy.html">privacy policy</a>.</p>
+
+  <div class="cta">
+    <p>Not got the app yet?</p>
+    <a class="appstore" href="https://apps.apple.com/app/id6795327732?pt=121683099&amp;mt=8&amp;ct=stream-guide">
+      <img src="appstore-badge.svg" alt="Download Leonida Log on the App Store" width="180" height="60">
+    </a>
+  </div>
+</main>
+
+<footer>
+  Unofficial and not affiliated with Rockstar Games or Take-Two Interactive.
+  All game names and trademarks belong to their respective owners.<br>
+  &copy; <span id="y">2026</span> Leonida Log &middot;
+  <a href="mailto:support@leonidalog.djr.li">support@leonidalog.djr.li</a>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</footer>
+<script>
+  // Scale each preview to fit its box, keeping the overlay's own proportions.
+  function fit() {
+    document.querySelectorAll('.stage').forEach(function (s) {
+      var w = +s.dataset.w, h = +s.dataset.h, max = +(s.dataset.max || w);
+      var box = Math.min(s.parentElement.clientWidth - 32, max);
+      var k = box / w;
+      s.style.width = box + 'px';
+      s.style.height = Math.round(h * k) + 'px';
+      s.querySelector('iframe').style.transform = 'scale(' + k + ')';
+    });
+  }
+  fit();
+  addEventListener('resize', fit);
+</script>
+</body>
+</html>
