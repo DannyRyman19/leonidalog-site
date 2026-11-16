@@ -100,15 +100,42 @@
       <div class="stage" data-w="480" data-h="240" data-max="480"><iframe title="Minimal layout preview" src="https://leonidalog.app/overlay/demo?layout=minimal" width="480" height="240" loading="lazy"></iframe></div>
     </div>
   </div>
+  <h2>Pick a style</h2>
+  <p>Add <code>style=</code> to choose the look. It works with any layout, for example
+    <code>?layout=minimal&amp;style=sunset</code>. Leave it off for Neon.</p>
+  <div class="layouts">
+    <div class="layout">
+      <h3>Neon</h3>
+      <p>The default: Vice City at night, dark purple with a coloured ring.</p>
+      <div class="stage" data-w="760" data-h="300"><iframe title="Neon style preview" src="https://leonidalog.app/overlay/demo" width="760" height="300" loading="lazy"></iframe></div>
+    </div>
+    <div class="layout">
+      <h3>Sunset</h3>
+      <p>The GTA VI pink-to-orange, with a white ring. Add <code>style=sunset</code>.</p>
+      <div class="stage" data-w="760" data-h="300"><iframe title="Sunset style preview" src="https://leonidalog.app/overlay/demo?style=sunset" width="760" height="300" loading="lazy"></iframe></div>
+    </div>
+    <div class="layout">
+      <h3>Glass</h3>
+      <p>See-through, so your game shows behind it. Add <code>style=glass</code>.</p>
+      <div class="stage" data-w="760" data-h="300"><iframe title="Glass style preview" src="https://leonidalog.app/overlay/demo?style=glass" width="760" height="300" loading="lazy"></iframe></div>
+    </div>
+    <div class="layout">
+      <h3>Clean</h3>
+      <p>Plain black and white, to sit with any stream's branding. Add <code>style=clean</code>.</p>
+      <div class="stage" data-w="760" data-h="300"><iframe title="Clean style preview" src="https://leonidalog.app/overlay/demo?style=clean" width="760" height="300" loading="lazy"></iframe></div>
+    </div>
+  </div>
+
   <p>Want to try one in OBS first? Use
     <code>https://leonidalog.app/overlay/demo</code>
-    (with any <code>?layout=</code>) as the URL. It shows the same made-up run.</p>
+    (with any <code>?layout=</code> or <code>style=</code>) as the URL. It shows the same made-up run.</p>
 
   <h2>More options</h2>
   <p>Join options with <code>&amp;</code>, for example <code>?layout=minimal&amp;scale=1.5</code>.</p>
   <table class="opts">
     <tr><th>Option</th><th>What it does</th></tr>
     <tr><td><code>scale=1.5</code></td><td>Makes everything bigger (or smaller, below 1). Handy on a 1440p or 4K canvas. Make the source size bigger by the same amount.</td></tr>
+    <tr><td><code>qr=0</code></td><td>Leaves the QR code off. Viewers can still find Leonida Log on the App Store, but the QR is the quickest way there.</td></tr>
     <tr><td><code>recent=0</code></td><td>Never shows what you just ticked off. You can also switch this off in the app with <strong>Show what I just ticked off</strong>.</td></tr>
     <tr><td><code>align=right</code></td><td>Lines everything up on the right edge, for an overlay on the right of the screen.</td></tr>
     <tr><td><code>session=0</code></td><td>Hides the &ldquo;+12 this stream&rdquo; line. It counts from when OBS loads the overlay, so it starts at zero each stream.</td></tr>
