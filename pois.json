@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "categories": [
     {
       "id": "landmark",
@@ -13,6 +13,15 @@
       "symbol": "gamecontroller.fill",
       "colorHex": "35E0C8",
       "verb": "done"
+    },
+    {
+      "id": "achievements",
+      "label": "Trophies",
+      "symbol": "trophy.fill",
+      "colorHex": "F5C542",
+      "chapterOrdered": true,
+      "verb": "earned",
+      "intro": "The full list of 55 trophies and achievements. Story and secret ones keep their names hidden here so nothing is spoiled."
     }
   ],
   "pois": [
@@ -135,6 +144,785 @@
       "title": "Wyman's Classic Car Collection",
       "category": "activity",
       "guide": "Track down abandoned classic and project cars across Leonida for Wyman, a collector and local fixer, and restore them. Four of the cars are Ultimate Edition only."
+    },
+    {
+      "id": "tr-01",
+      "title": "Vice Got a Price!",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Earn every other trophy in the game.",
+      "subgroup": "Single Player - Platinum",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "id": "tr-02",
+      "title": "Trophy 2",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Story trophy: finish one particular story mission.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": "tr-03",
+      "title": "Trophy 3",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Story trophy: finish chapter 1 of the story.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "id": "tr-04",
+      "title": "Trophy 4",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Story trophy: finish chapter 2 of the story.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "id": "tr-05",
+      "title": "Trophy 5",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Story trophy: finish chapter 3 of the story.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "id": "tr-06",
+      "title": "Trophy 6",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Story trophy: finish chapter 4 of the story.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "id": "tr-07",
+      "title": "Trophy 7",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Story trophy: finish the last mission of the story.",
+      "subgroup": "Single Player - Gold",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "50"
+        }
+      ]
+    },
+    {
+      "id": "tr-08",
+      "title": "Trophy 8",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Story trophy: finish one particular story mission.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "id": "tr-09",
+      "title": "Trophy 9",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Story trophy: finish one particular story mission.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "25"
+        }
+      ]
+    },
+    {
+      "id": "tr-10",
+      "title": "Trophy 10",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Story trophy: finish one particular story mission.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "id": "tr-11",
+      "title": "Trophy 11",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Story trophy: finish one particular story mission.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "id": "tr-12",
+      "title": "Trophy 12",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Story trophy: finish one particular story mission.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "25"
+        }
+      ]
+    },
+    {
+      "id": "tr-13",
+      "title": "Trophy 13",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Story trophy: finish one particular story mission.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "25"
+        }
+      ]
+    },
+    {
+      "id": "tr-14",
+      "title": "A Long Road",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Reach 100% completion.",
+      "subgroup": "Single Player - Gold",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "100"
+        }
+      ]
+    },
+    {
+      "id": "tr-15",
+      "title": "Cunning Stunts",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Land 250 stunts.",
+      "subgroup": "Single Player - Silver",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "40"
+        }
+      ],
+      "tallyTarget": 250
+    },
+    {
+      "id": "tr-16",
+      "title": "Master of None",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Have a go at every type of activity at least once.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "id": "tr-17",
+      "title": "The Shootist",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Get a gold medal in every Shooting Range challenge.",
+      "subgroup": "Single Player - Silver",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "40"
+        }
+      ]
+    },
+    {
+      "id": "tr-18",
+      "title": "Top Fun",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Win a Top Fun drone race at each of its locations.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "id": "tr-19",
+      "title": "Earn Cash, Not Kudos",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Win 20 different races.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "20"
+        }
+      ],
+      "tallyTarget": 20
+    },
+    {
+      "id": "tr-20",
+      "title": "Baited My Tackle",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Beat a rival angler in a fishing challenge.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "id": "tr-21",
+      "title": "Stick Fiddler",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Play an arcade game through to the end.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "id": "tr-22",
+      "title": "Trophy 22",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Strangers trophy: finish one stranger's full mission strand.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "id": "tr-23",
+      "title": "Trophy 23",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Strangers trophy: finish one stranger's full mission strand.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "id": "tr-24",
+      "title": "Trophy 24",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Strangers trophy: finish one stranger's full mission strand.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "id": "tr-25",
+      "title": "Strangers & Freaks",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Finish 8 strangers' mission strands around Leonida.",
+      "subgroup": "Single Player - Silver",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "30"
+        }
+      ],
+      "tallyTarget": 8
+    },
+    {
+      "id": "tr-26",
+      "title": "Trophy 26",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Strangers trophy: finish one stranger's full mission strand.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "id": "tr-27",
+      "title": "Trophy 27",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Strangers trophy: finish one stranger's full mission strand.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "id": "tr-28",
+      "title": "Positive Mental Attitude",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Meditate at every meditation spot in Leonida.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "id": "tr-29",
+      "title": "Fair Game",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Hunt down a unique animal for a stranger.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "id": "tr-30",
+      "title": "Don't Touch My Deck",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Complete 3 sets of collectible cards.",
+      "subgroup": "Single Player - Silver",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "30"
+        }
+      ],
+      "tallyTarget": 3
+    },
+    {
+      "id": "tr-31",
+      "title": "You WAiNKer!",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Use WAiNK at 100 locations.",
+      "subgroup": "Single Player - Silver",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "30"
+        }
+      ],
+      "tallyTarget": 100
+    },
+    {
+      "id": "tr-32",
+      "title": "One Last Thing",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Complete 50 Challenges.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "5"
+        }
+      ],
+      "tallyTarget": 50
+    },
+    {
+      "id": "tr-33",
+      "title": "Hot Together",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "With your partner, lose a 4-star wanted level and get away.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "id": "tr-34",
+      "title": "Retail Therapy",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "With your partner, rob 3 shops in a row without losing your wanted level in between.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "id": "tr-35",
+      "title": "Whip It Good",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Discover 100 vehicles.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "20"
+        }
+      ],
+      "tallyTarget": 100
+    },
+    {
+      "id": "tr-36",
+      "title": "Gunslinger",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Take down 5 enemies during a single use of Combat Focus.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "id": "tr-37",
+      "title": "Trophy 37",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Secret trophy. The game keeps this one hidden until you earn it.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "id": "tr-38",
+      "title": "Trophy 38",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Secret trophy. The game keeps this one hidden until you earn it.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "id": "tr-39",
+      "title": "Sneakthief",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Rob a jewelry store without being spotted.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "id": "tr-40",
+      "title": "Maximum Withdrawal",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Rob 5 bank vaults and get away each time.",
+      "subgroup": "Single Player - Silver",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "40"
+        }
+      ],
+      "tallyTarget": 5
+    },
+    {
+      "id": "tr-41",
+      "title": "A Classic Blitz Play",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Rob an armored truck and get away.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "10"
+        }
+      ]
+    },
+    {
+      "id": "tr-42",
+      "title": "The Goodtime State",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Explore the whole of Leonida.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "id": "tr-43",
+      "title": "Pest Control",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Rob an illegal operation run by each gang.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "id": "tr-44",
+      "title": "Trophy 44",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Secret trophy. The game keeps this one hidden until you earn it.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": "tr-45",
+      "title": "Trophy 45",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Secret trophy. The game keeps this one hidden until you earn it.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": "tr-46",
+      "title": "Trophy 46",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Secret trophy. The game keeps this one hidden until you earn it.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": "tr-47",
+      "title": "Trophy 47",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Secret trophy. The game keeps this one hidden until you earn it.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": "tr-48",
+      "title": "Trophy 48",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Secret trophy. The game keeps this one hidden until you earn it.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": "tr-49",
+      "title": "Trophy 49",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Secret trophy. The game keeps this one hidden until you earn it.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": "tr-50",
+      "title": "Trophy 50",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Secret trophy. The game keeps this one hidden until you earn it.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": "tr-51",
+      "title": "Trophy 51",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Secret trophy. The game keeps this one hidden until you earn it.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "5"
+        }
+      ]
+    },
+    {
+      "id": "tr-52",
+      "title": "Dime on the Dollar",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Launder $250,000 of marked bills through your contacts.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "20"
+        }
+      ]
+    },
+    {
+      "id": "tr-53",
+      "title": "Treat Yo Self",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Spend $100,000 in total across all shops.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "id": "tr-54",
+      "title": "Little Boxes",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Buy every garage property.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "15"
+        }
+      ]
+    },
+    {
+      "id": "tr-55",
+      "title": "On the Spot",
+      "category": "achievements",
+      "spoiler": true,
+      "guide": "Register 10 vehicles on the Scooter Bros app.",
+      "subgroup": "Single Player - Bronze",
+      "stats": [
+        {
+          "label": "Gamerscore",
+          "value": "15"
+        }
+      ],
+      "tallyTarget": 10
     }
   ],
   "rules": {
@@ -150,6 +938,11 @@
         "name": "Exploration",
         "tier": "hundredPlus",
         "color": "8B5CFF"
+      },
+      {
+        "name": "Trophies",
+        "tier": "hundredPlus",
+        "color": "F5C542"
       }
     ],
     "milestones": [
@@ -175,10 +968,27 @@
         "group": "Exploration",
         "tier": "hundredPlus",
         "section": "singlePlayer"
+      },
+      {
+        "id": "mp-trophies",
+        "text": "Earn all 55 trophies",
+        "target": 55,
+        "link": {
+          "type": "category",
+          "category": "achievements"
+        },
+        "group": "Trophies",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
       }
     ],
-    "achievementLinks": {},
-    "unlockRequirements": {}
+    "achievementLinks": {
+      "tr-01": {
+        "type": "allOtherAchievements"
+      }
+    },
+    "unlockRequirements": {},
+    "platinum": "tr-01"
   },
-  "_note": "Only what Rockstar has confirmed: the six named regions and the eleven activities (Game Informer, 29 Sep 2026, plus Wyman's Classic Car Collection). Missions, collectibles and trophies arrive on release day; until then their placeholders stay out of the live app."
+  "_note": "Confirmed content only. v7: the six named regions and the eleven activities (Game Informer, 29 Sep 2026, plus Wyman's Classic Car Collection). v8: the 55-trophy list (Xbox achievement data via Exophase, and Press Start's PS5 list, 18 Nov 2026); every new item is marked spoiler, and story and secret trophies have neutral titles."
 }
