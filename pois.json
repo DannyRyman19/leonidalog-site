@@ -1,5 +1,5 @@
 {
-  "version": 10,
+  "version": 11,
   "categories": [
     {
       "id": "landmark",
@@ -70,7 +70,8 @@
       "symbol": "rectangle.stack.fill",
       "colorHex": "FF9E4A",
       "verb": "collected",
-      "intro": "18 trading card sets, 480 cards in all, spread across Leonida. 100% needs 15 complete sets."
+      "intro": "18 trading card sets, 480 cards in all, spread across Leonida. 100% needs 15 complete sets.",
+      "collectible": true
     },
     {
       "id": "meditation",
@@ -78,7 +79,8 @@
       "symbol": "leaf.fill",
       "colorHex": "8BD17C",
       "verb": "done",
-      "intro": "18 meditations at 10 spots: most spots have two. 100% needs 15 of the 18; the trophy needs every spot."
+      "intro": "18 meditations at 10 spots: most spots have two. 100% needs 15 of the 18; the trophy needs every spot.",
+      "collectible": true
     },
     {
       "id": "playlists",
@@ -86,7 +88,8 @@
       "symbol": "music.note",
       "colorHex": "E86FBF",
       "verb": "collected",
-      "intro": "2 unique playlists, unlocked by finding their posters."
+      "intro": "2 unique playlists, unlocked by finding their posters.",
+      "collectible": true
     },
     {
       "id": "video-games",
@@ -153,12 +156,100 @@
       "intro": "13 race challenges, each with bronze, silver and gold. 100% needs gold in 10 of them."
     },
     {
-      "id": "challenges",
+      "id": "game-challenges",
       "label": "Challenges",
       "symbol": "checkmark.seal.fill",
       "colorHex": "FF9E4A",
       "verb": "done",
       "intro": "80 challenges in 8 groups of 10, all open from the start. 100% needs 70; a trophy needs 50. The game tracks them under Progress, Challenges."
+    },
+    {
+      "id": "flamingos",
+      "label": "Cocaine Flamingos",
+      "symbol": "bird.fill",
+      "colorHex": "FF6FA8",
+      "verb": "found",
+      "intro": "125 Cocaine Flamingos hidden around Leonida; 100% needs 100. Only the ones with a black and white beak count: shoot one to break it open. More are added as guides find them.",
+      "collectible": true
+    },
+    {
+      "id": "magazines",
+      "label": "Magazines, books & comics",
+      "symbol": "book.fill",
+      "colorHex": "C68BFF",
+      "verb": "found",
+      "intro": "27 magazines, books and comics. 100% needs 30 of these plus book swaps combined. Several are only there in early chapters. More are added as guides find them.",
+      "collectible": true
+    },
+    {
+      "id": "book-swaps",
+      "label": "Book swaps",
+      "symbol": "books.vertical.fill",
+      "colorHex": "C68BFF",
+      "verb": "found",
+      "intro": "7 little book swap boxes. They count with magazines, books and comics towards 100%. More are added as guides find them.",
+      "collectible": true
+    },
+    {
+      "id": "waink",
+      "label": "WAiNK scans",
+      "symbol": "camera.viewfinder",
+      "colorHex": "4AD9D9",
+      "verb": "found",
+      "intro": "Scan with the WAiNK app: 31 landmarks, 35 curiosities, 23 sculptures and No Flusher tags. 100% needs 100. Numbers follow the game's Progress menu. More are added as guides find them.",
+      "collectible": true
+    },
+    {
+      "id": "stunt-jumps",
+      "label": "Stunt jumps",
+      "symbol": "car.side.fill",
+      "colorHex": "FFB547",
+      "verb": "landed",
+      "intro": "130 stunt jumps. They count towards the stunts line of 100% (300 of 397 stunts, with under the bridges, knife flights and base jumps). More are added as guides find them.",
+      "collectible": true
+    },
+    {
+      "id": "unique-races",
+      "label": "Unique races",
+      "symbol": "flag.checkered",
+      "colorHex": "FF9E4A",
+      "verb": "won",
+      "intro": "40 unique races in 6 groups. 100% needs 30 wins; a trophy needs 20."
+    },
+    {
+      "id": "gang-ops",
+      "label": "Gang operations",
+      "symbol": "flame.fill",
+      "colorHex": "7BD389",
+      "verb": "cleared",
+      "intro": "39 illegal gang operations to clear. They open up through the story as you meet each gang. 100% needs all 39. Names stay hidden until you've done them. More are added as guides find them."
+    },
+    {
+      "id": "labs",
+      "label": "Drug labs",
+      "symbol": "flask.fill",
+      "colorHex": "7BD389",
+      "verb": "destroyed",
+      "intro": "14 synthetic drug labs to destroy with fire or explosives, from chapter 3. They count as optional tasks. Names stay hidden until you've done them. More are added as guides find them."
+    },
+    {
+      "id": "animals",
+      "label": "Animals",
+      "symbol": "pawprint.fill",
+      "colorHex": "8BD17C",
+      "verb": "studied",
+      "collectible": true,
+      "intro": "255 animals in 8 groups to study with binoculars (aim, then hold R1/RB). Each dog and cat breed counts on its own. 100% needs any 100. Species get their own rows as they're found; each group ends with a counter for the ones not listed yet."
+    },
+    {
+      "id": "kenton-sets",
+      "label": "Kenton's Treasures",
+      "symbol": "shippingbox.fill",
+      "colorHex": "3FA7D6",
+      "verb": "turned in",
+      "chapterOrdered": true,
+      "collectible": true,
+      "intro": "Kenton's shipwrecks: 6 wrecks off Key Lento and the Keys. Wreck 1 has 10 doubloons, and the other five have 30 treasures between them. Kenton marks each wreck on your map; find the treasures with the metal detector and hand them to him. 100% counts his sets (5 of 7 on the checklist). He's away for a while after chapter 1 and is back by chapter 3, and everything stays open after the story."
     }
   ],
   "pois": [
@@ -2738,6 +2829,7 @@
       "id": "md-01",
       "title": "Jason's House",
       "category": "meditation",
+      "subgroup": "Mariana County",
       "spoiler": true,
       "guide": "During chapter 1 only, on the balcony at Jason's house. Missable.",
       "region": "Mariana County",
@@ -2747,6 +2839,7 @@
       "id": "md-02",
       "title": "Smooth Sand (1 of 2)",
       "category": "meditation",
+      "subgroup": "Mariana County",
       "spoiler": true,
       "guide": "On a sandbar off the west coast of Capri. This spot has two meditations.",
       "region": "Mariana County"
@@ -2755,6 +2848,7 @@
       "id": "md-03",
       "title": "Smooth Sand (2 of 2)",
       "category": "meditation",
+      "subgroup": "Mariana County",
       "spoiler": true,
       "guide": "On a sandbar off the west coast of Capri. This spot has two meditations.",
       "region": "Mariana County"
@@ -2763,6 +2857,7 @@
       "id": "md-04",
       "title": "Swamp (1 of 2)",
       "category": "meditation",
+      "subgroup": "Kelly County",
       "spoiler": true,
       "guide": "On a wooden dock by a lookout tower in the middle of Buckskin Swamp. This spot has two meditations.",
       "region": "Kelly County"
@@ -2771,6 +2866,7 @@
       "id": "md-05",
       "title": "Swamp (2 of 2)",
       "category": "meditation",
+      "subgroup": "Kelly County",
       "spoiler": true,
       "guide": "On a wooden dock by a lookout tower in the middle of Buckskin Swamp. This spot has two meditations.",
       "region": "Kelly County"
@@ -2779,6 +2875,7 @@
       "id": "md-06",
       "title": "Worn Stone (1 of 2)",
       "category": "meditation",
+      "subgroup": "Kelly County",
       "spoiler": true,
       "guide": "On the Emerald River bank at Camp Moonflower. This spot has two meditations.",
       "region": "Kelly County"
@@ -2787,6 +2884,7 @@
       "id": "md-07",
       "title": "Worn Stone (2 of 2)",
       "category": "meditation",
+      "subgroup": "Kelly County",
       "spoiler": true,
       "guide": "On the Emerald River bank at Camp Moonflower. This spot has two meditations.",
       "region": "Kelly County"
@@ -2795,6 +2893,7 @@
       "id": "md-08",
       "title": "Red Rocks (1 of 2)",
       "category": "meditation",
+      "subgroup": "Kelly County",
       "spoiler": true,
       "guide": "In Manifest Canyon, near the train tracks by the highway. This spot has two meditations.",
       "region": "Kelly County"
@@ -2803,6 +2902,7 @@
       "id": "md-09",
       "title": "Red Rocks (2 of 2)",
       "category": "meditation",
+      "subgroup": "Kelly County",
       "spoiler": true,
       "guide": "In Manifest Canyon, near the train tracks by the highway. This spot has two meditations.",
       "region": "Kelly County"
@@ -2811,6 +2911,7 @@
       "id": "md-10",
       "title": "Water Wheel (1 of 2)",
       "category": "meditation",
+      "subgroup": "Lummox County",
       "spoiler": true,
       "guide": "At the waterwheel of the ruined paper mill in south Moreau. This spot has two meditations.",
       "region": "Lummox County"
@@ -2819,6 +2920,7 @@
       "id": "md-11",
       "title": "Water Wheel (2 of 2)",
       "category": "meditation",
+      "subgroup": "Lummox County",
       "spoiler": true,
       "guide": "At the waterwheel of the ruined paper mill in south Moreau. This spot has two meditations.",
       "region": "Lummox County"
@@ -2827,6 +2929,7 @@
       "id": "md-12",
       "title": "Jutting Cliff (1 of 2)",
       "category": "meditation",
+      "subgroup": "Lummox County",
       "spoiler": true,
       "guide": "By a tower above a mine in Mount Kalaga National Park. This spot has two meditations.",
       "region": "Lummox County"
@@ -2835,6 +2938,7 @@
       "id": "md-13",
       "title": "Jutting Cliff (2 of 2)",
       "category": "meditation",
+      "subgroup": "Lummox County",
       "spoiler": true,
       "guide": "By a tower above a mine in Mount Kalaga National Park. This spot has two meditations.",
       "region": "Lummox County"
@@ -2843,6 +2947,7 @@
       "id": "md-14",
       "title": "Waterfall (1 of 2)",
       "category": "meditation",
+      "subgroup": "Lummox County",
       "spoiler": true,
       "guide": "Northwest of Tallaloko, looking over a waterfall. This spot has two meditations.",
       "region": "Lummox County"
@@ -2851,6 +2956,7 @@
       "id": "md-15",
       "title": "Waterfall (2 of 2)",
       "category": "meditation",
+      "subgroup": "Lummox County",
       "spoiler": true,
       "guide": "Northwest of Tallaloko, looking over a waterfall. This spot has two meditations.",
       "region": "Lummox County"
@@ -2859,6 +2965,7 @@
       "id": "md-16",
       "title": "Seaside (1 of 2)",
       "category": "meditation",
+      "subgroup": "Leonard County",
       "spoiler": true,
       "guide": "On rocks by the beach east of Waning Sands. This spot has two meditations.",
       "region": "Leonard County"
@@ -2867,6 +2974,7 @@
       "id": "md-17",
       "title": "Seaside (2 of 2)",
       "category": "meditation",
+      "subgroup": "Leonard County",
       "spoiler": true,
       "guide": "On rocks by the beach east of Waning Sands. This spot has two meditations.",
       "region": "Leonard County"
@@ -2875,6 +2983,7 @@
       "id": "md-18",
       "title": "Ascent Mountain",
       "category": "meditation",
+      "subgroup": "Lummox County",
       "spoiler": true,
       "guide": "At the stone circle on the peak of Mount Kalaga. Opens up once you've done the others.",
       "region": "Lummox County"
@@ -2952,6 +3061,7 @@
       "id": "sr-01",
       "title": "3-Point Range",
       "category": "shooting-ranges",
+      "subgroup": "Griffin Shooting Range",
       "spoiler": true,
       "guide": "Griffin Shooting Range, northwest of Vice City. Shoot the targets fast at three weapon stations. 3 gold medals.",
       "tallyTarget": 3
@@ -2960,6 +3070,7 @@
       "id": "sr-02",
       "title": "Hook Range",
       "category": "shooting-ranges",
+      "subgroup": "Griffin Shooting Range",
       "spoiler": true,
       "guide": "Griffin Shooting Range, northwest of Vice City. Move through the course while shooting; watch for 5 red spinning targets. 3 gold medals.",
       "tallyTarget": 3
@@ -2968,6 +3079,7 @@
       "id": "sr-03",
       "title": "Loop Range",
       "category": "shooting-ranges",
+      "subgroup": "Griffin Shooting Range",
       "spoiler": true,
       "guide": "Griffin Shooting Range, northwest of Vice City. Like Hook Range; slow motion helps with the spinning targets. 3 gold medals.",
       "tallyTarget": 3
@@ -2976,6 +3088,7 @@
       "id": "sr-04",
       "title": "Maze Range",
       "category": "shooting-ranges",
+      "subgroup": "Griffin Shooting Range",
       "spoiler": true,
       "guide": "Griffin Shooting Range, northwest of Vice City. Like Hook and Loop, through a maze. 3 gold medals.",
       "tallyTarget": 3
@@ -2984,6 +3097,7 @@
       "id": "sr-05",
       "title": "Compound Range",
       "category": "shooting-ranges",
+      "subgroup": "Griffin Shooting Range",
       "spoiler": true,
       "guide": "Griffin Shooting Range, northwest of Vice City. Clear a building as targets pop up. 3 gold medals.",
       "tallyTarget": 3
@@ -2992,6 +3106,7 @@
       "id": "sr-06",
       "title": "Villa Range",
       "category": "shooting-ranges",
+      "subgroup": "Griffin Shooting Range",
       "spoiler": true,
       "guide": "Griffin Shooting Range, northwest of Vice City. Targets appear as you get close; plan a route through the houses. 3 gold medals.",
       "tallyTarget": 3
@@ -3000,6 +3115,7 @@
       "id": "sr-07",
       "title": "Market Range",
       "category": "shooting-ranges",
+      "subgroup": "Rodgers Ranch Shooting Range",
       "spoiler": true,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Quick pistol shooting; speed matters more than accuracy. 4 gold medals.",
       "tallyTarget": 4
@@ -3008,6 +3124,7 @@
       "id": "sr-08",
       "title": "Zombie Range",
       "category": "shooting-ranges",
+      "subgroup": "Rodgers Ranch Shooting Range",
       "spoiler": true,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Body shots build a score multiplier. 4 gold medals.",
       "tallyTarget": 4
@@ -3016,6 +3133,7 @@
       "id": "sr-09",
       "title": "Hunting Range",
       "category": "shooting-ranges",
+      "subgroup": "Rodgers Ranch Shooting Range",
       "spoiler": true,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Animal targets, bears included. 4 gold medals.",
       "tallyTarget": 4
@@ -3024,6 +3142,7 @@
       "id": "sr-10",
       "title": "Saloon Range",
       "category": "shooting-ranges",
+      "subgroup": "Rodgers Ranch Shooting Range",
       "spoiler": true,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Body shot, then head shot, on each enemy. 4 gold medals.",
       "tallyTarget": 4
@@ -3032,6 +3151,7 @@
       "id": "sr-11",
       "title": "Cops & Robbers Range",
       "category": "shooting-ranges",
+      "subgroup": "Rodgers Ranch Shooting Range",
       "spoiler": true,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Sniper rifle headshots; don't hit the cop. 4 gold medals.",
       "tallyTarget": 4
@@ -3040,6 +3160,7 @@
       "id": "sr-12",
       "title": "Alien Range",
       "category": "shooting-ranges",
+      "subgroup": "Rodgers Ranch Shooting Range",
       "spoiler": true,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Body shot, then head shot, on each target. 4 gold medals.",
       "tallyTarget": 4
@@ -3103,6 +3224,7 @@
       "id": "bj-01",
       "title": "Fleeca - Key Lento",
       "category": "bank-jobs",
+      "subgroup": "Small banks",
       "spoiler": true,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Mariana County"
@@ -3111,6 +3233,7 @@
       "id": "bj-02",
       "title": "Shorefront - Watson Bay",
       "category": "bank-jobs",
+      "subgroup": "Small banks",
       "spoiler": true,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Mariana County"
@@ -3119,6 +3242,7 @@
       "id": "bj-03",
       "title": "Gibson Brothers Bank",
       "category": "bank-jobs",
+      "subgroup": "Small banks",
       "spoiler": true,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Mariana County"
@@ -3127,6 +3251,7 @@
       "id": "bj-04",
       "title": "Lombank - Peacock Bay",
       "category": "bank-jobs",
+      "subgroup": "Small banks",
       "spoiler": true,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Vice-Dale County"
@@ -3135,6 +3260,7 @@
       "id": "bj-05",
       "title": "Fleeca - Peacock Bay",
       "category": "bank-jobs",
+      "subgroup": "Small banks",
       "spoiler": true,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Vice-Dale County"
@@ -3143,6 +3269,7 @@
       "id": "bj-06",
       "title": "Shorefront - Downtown",
       "category": "bank-jobs",
+      "subgroup": "Small banks",
       "spoiler": true,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Vice-Dale County"
@@ -3151,6 +3278,7 @@
       "id": "bj-07",
       "title": "Shorefront - Rockridge",
       "category": "bank-jobs",
+      "subgroup": "Small banks",
       "spoiler": true,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Vice-Dale County"
@@ -3159,6 +3287,7 @@
       "id": "bj-08",
       "title": "Lombank - Bayside",
       "category": "bank-jobs",
+      "subgroup": "Small banks",
       "spoiler": true,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Vice-Dale County"
@@ -3167,6 +3296,7 @@
       "id": "bj-09",
       "title": "Fleeca - Washington Beach",
       "category": "bank-jobs",
+      "subgroup": "Small banks",
       "spoiler": true,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Vice-Dale County"
@@ -3175,6 +3305,7 @@
       "id": "bj-10",
       "title": "Lombank - Ocean Beach",
       "category": "bank-jobs",
+      "subgroup": "Small banks",
       "spoiler": true,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Vice-Dale County"
@@ -3183,6 +3314,7 @@
       "id": "bj-11",
       "title": "Fleeca - Ocean Beach",
       "category": "bank-jobs",
+      "subgroup": "Small banks",
       "spoiler": true,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Vice-Dale County"
@@ -3191,6 +3323,7 @@
       "id": "bj-12",
       "title": "Shorefront - Ocean Beach",
       "category": "bank-jobs",
+      "subgroup": "Small banks",
       "spoiler": true,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Vice-Dale County"
@@ -3199,6 +3332,7 @@
       "id": "bj-13",
       "title": "Druthers State Bank",
       "category": "bank-jobs",
+      "subgroup": "Small banks",
       "spoiler": true,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Leonard County"
@@ -3207,6 +3341,7 @@
       "id": "bj-14",
       "title": "Shorefront - Ambrosia",
       "category": "bank-jobs",
+      "subgroup": "Small banks",
       "spoiler": true,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Kelly County"
@@ -3215,6 +3350,7 @@
       "id": "bj-15",
       "title": "Fleeca - VCIA (large)",
       "category": "bank-jobs",
+      "subgroup": "Large banks",
       "spoiler": true,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe.",
       "region": "Vice-Dale County"
@@ -3223,6 +3359,7 @@
       "id": "bj-16",
       "title": "Fleeca - Tequesta (large)",
       "category": "bank-jobs",
+      "subgroup": "Large banks",
       "spoiler": true,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe.",
       "region": "Vice-Dale County"
@@ -3231,6 +3368,7 @@
       "id": "bj-17",
       "title": "Lombank - Downtown (large)",
       "category": "bank-jobs",
+      "subgroup": "Large banks",
       "spoiler": true,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe.",
       "region": "Vice-Dale County"
@@ -3239,6 +3377,7 @@
       "id": "bj-18",
       "title": "Fleeca - Downtown (large)",
       "category": "bank-jobs",
+      "subgroup": "Large banks",
       "spoiler": true,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe.",
       "region": "Vice-Dale County"
@@ -3247,6 +3386,7 @@
       "id": "bj-19",
       "title": "Lombank - Ocean Beach (large, 1 of 2)",
       "category": "bank-jobs",
+      "subgroup": "Large banks",
       "spoiler": true,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe.",
       "region": "Vice-Dale County"
@@ -3255,6 +3395,7 @@
       "id": "bj-20",
       "title": "Fleeca - Ocean Beach (large)",
       "category": "bank-jobs",
+      "subgroup": "Large banks",
       "spoiler": true,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe.",
       "region": "Vice-Dale County"
@@ -3263,6 +3404,7 @@
       "id": "bj-21",
       "title": "Lombank - Ocean Beach (large, 2 of 2)",
       "category": "bank-jobs",
+      "subgroup": "Large banks",
       "spoiler": true,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe.",
       "region": "Vice-Dale County"
@@ -3271,6 +3413,7 @@
       "id": "bj-22",
       "title": "Shorefront - Ocean Beach (large)",
       "category": "bank-jobs",
+      "subgroup": "Large banks",
       "spoiler": true,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe.",
       "region": "Vice-Dale County"
@@ -3335,6 +3478,7 @@
       "id": "sg-01",
       "title": "The Siren's Chest",
       "category": "smash-grabs",
+      "subgroup": "Jewelry stores",
       "spoiler": true,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Mariana County"
@@ -3343,6 +3487,7 @@
       "id": "sg-02",
       "title": "Timeless Peculiars",
       "category": "smash-grabs",
+      "subgroup": "Pawn shops",
       "spoiler": true,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Mariana County"
@@ -3351,6 +3496,7 @@
       "id": "sg-03",
       "title": "Victoria Lee Jeweler",
       "category": "smash-grabs",
+      "subgroup": "Jewelry stores",
       "spoiler": true,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Mariana County"
@@ -3359,6 +3505,7 @@
       "id": "sg-04",
       "title": "Hamlet Pawn",
       "category": "smash-grabs",
+      "subgroup": "Pawn shops",
       "spoiler": true,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County"
@@ -3367,6 +3514,7 @@
       "id": "sg-05",
       "title": "Joyeria Empenos",
       "category": "smash-grabs",
+      "subgroup": "Pawn shops",
       "spoiler": true,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County"
@@ -3375,6 +3523,7 @@
       "id": "sg-06",
       "title": "Ernesto's Pawn",
       "category": "smash-grabs",
+      "subgroup": "Pawn shops",
       "spoiler": true,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County"
@@ -3383,6 +3532,7 @@
       "id": "sg-07",
       "title": "Donovan Banks & Co.",
       "category": "smash-grabs",
+      "subgroup": "Jewelry stores",
       "spoiler": true,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
@@ -3391,6 +3541,7 @@
       "id": "sg-08",
       "title": "Plush",
       "category": "smash-grabs",
+      "subgroup": "Jewelry stores",
       "spoiler": true,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
@@ -3399,6 +3550,7 @@
       "id": "sg-09",
       "title": "Pawn City",
       "category": "smash-grabs",
+      "subgroup": "Pawn shops",
       "spoiler": true,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County"
@@ -3407,6 +3559,7 @@
       "id": "sg-10",
       "title": "Icegem Diamonds & Watches",
       "category": "smash-grabs",
+      "subgroup": "Jewelry stores",
       "spoiler": true,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
@@ -3415,6 +3568,7 @@
       "id": "sg-11",
       "title": "Richardson Jewelry & Diamonds",
       "category": "smash-grabs",
+      "subgroup": "Jewelry stores",
       "spoiler": true,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
@@ -3423,6 +3577,7 @@
       "id": "sg-12",
       "title": "All That Glitters",
       "category": "smash-grabs",
+      "subgroup": "Jewelry stores",
       "spoiler": true,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
@@ -3431,6 +3586,7 @@
       "id": "sg-13",
       "title": "Peacock",
       "category": "smash-grabs",
+      "subgroup": "Jewelry stores",
       "spoiler": true,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
@@ -3439,6 +3595,7 @@
       "id": "sg-14",
       "title": "Fast Cash",
       "category": "smash-grabs",
+      "subgroup": "Pawn shops",
       "spoiler": true,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County"
@@ -3447,6 +3604,7 @@
       "id": "sg-15",
       "title": "The Jewelry Place",
       "category": "smash-grabs",
+      "subgroup": "Jewelry stores",
       "spoiler": true,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
@@ -3455,6 +3613,7 @@
       "id": "sg-16",
       "title": "Crown Jewels",
       "category": "smash-grabs",
+      "subgroup": "Jewelry stores",
       "spoiler": true,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
@@ -3463,6 +3622,7 @@
       "id": "sg-17",
       "title": "Dorado Pawn Shop",
       "category": "smash-grabs",
+      "subgroup": "Pawn shops",
       "spoiler": true,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County"
@@ -3471,6 +3631,7 @@
       "id": "sg-18",
       "title": "White Sands Jewelry Pawn",
       "category": "smash-grabs",
+      "subgroup": "Pawn shops",
       "spoiler": true,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County"
@@ -3479,6 +3640,7 @@
       "id": "sg-19",
       "title": "Down Town Pawn",
       "category": "smash-grabs",
+      "subgroup": "Pawn shops",
       "spoiler": true,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County"
@@ -3487,6 +3649,7 @@
       "id": "sg-20",
       "title": "Vice City Pawn",
       "category": "smash-grabs",
+      "subgroup": "Pawn shops",
       "spoiler": true,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County"
@@ -3495,6 +3658,7 @@
       "id": "sg-21",
       "title": "Pawn Stash",
       "category": "smash-grabs",
+      "subgroup": "Pawn shops",
       "spoiler": true,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County"
@@ -3503,6 +3667,7 @@
       "id": "sg-22",
       "title": "Blanc & Giroux",
       "category": "smash-grabs",
+      "subgroup": "Jewelry stores",
       "spoiler": true,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
@@ -3511,6 +3676,7 @@
       "id": "sg-23",
       "title": "Roval Jewelry",
       "category": "smash-grabs",
+      "subgroup": "Jewelry stores",
       "spoiler": true,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
@@ -3519,6 +3685,7 @@
       "id": "sg-24",
       "title": "Covgari",
       "category": "smash-grabs",
+      "subgroup": "Jewelry stores",
       "spoiler": true,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
@@ -3527,6 +3694,7 @@
       "id": "sg-25",
       "title": "Akoya Jewelers",
       "category": "smash-grabs",
+      "subgroup": "Jewelry stores",
       "spoiler": true,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
@@ -3535,6 +3703,7 @@
       "id": "sg-26",
       "title": "Marshal's",
       "category": "smash-grabs",
+      "subgroup": "Jewelry stores",
       "spoiler": true,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
@@ -3543,6 +3712,7 @@
       "id": "sg-27",
       "title": "Casa De Empeno",
       "category": "smash-grabs",
+      "subgroup": "Pawn shops",
       "spoiler": true,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County"
@@ -3551,6 +3721,7 @@
       "id": "sg-28",
       "title": "Rococo Rich",
       "category": "smash-grabs",
+      "subgroup": "Jewelry stores",
       "spoiler": true,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
@@ -3559,6 +3730,7 @@
       "id": "sg-29",
       "title": "Legendary Custom Jewelry",
       "category": "smash-grabs",
+      "subgroup": "Jewelry stores",
       "spoiler": true,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
@@ -3567,6 +3739,7 @@
       "id": "sg-30",
       "title": "Brilliant Cuts",
       "category": "smash-grabs",
+      "subgroup": "Jewelry stores",
       "spoiler": true,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Leonard County"
@@ -3575,6 +3748,7 @@
       "id": "sg-31",
       "title": "Skala",
       "category": "smash-grabs",
+      "subgroup": "Jewelry stores",
       "spoiler": true,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Leonard County"
@@ -3583,6 +3757,7 @@
       "id": "sg-32",
       "title": "Kowalski",
       "category": "smash-grabs",
+      "subgroup": "Jewelry stores",
       "spoiler": true,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Leonard County"
@@ -3591,6 +3766,7 @@
       "id": "sg-33",
       "title": "Buck's Jewelry & Pawn",
       "category": "smash-grabs",
+      "subgroup": "Pawn shops",
       "spoiler": true,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Kelly County"
@@ -3599,6 +3775,7 @@
       "id": "sg-34",
       "title": "Avery Pawn",
       "category": "smash-grabs",
+      "subgroup": "Pawn shops",
       "spoiler": true,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Kelly County"
@@ -3607,6 +3784,7 @@
       "id": "sg-35",
       "title": "Florence & Co.",
       "category": "smash-grabs",
+      "subgroup": "Pawn shops",
       "spoiler": true,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Kelly County"
@@ -3705,562 +3883,3316 @@
     {
       "id": "ch-01",
       "title": "Speed Kills",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Combat",
       "spoiler": true,
       "guide": "Combat challenge. 3 kills inside 30 seconds."
     },
     {
       "id": "ch-02",
       "title": "Melee Combat",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Combat",
       "spoiler": true,
       "guide": "Combat challenge. 5 melee takedowns in a row without dying."
     },
     {
       "id": "ch-03",
       "title": "Explosive Combat",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Combat",
       "spoiler": true,
       "guide": "Combat challenge. Hit 3 people with one explosive."
     },
     {
       "id": "ch-04",
       "title": "Headshots",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Combat",
       "spoiler": true,
       "guide": "Combat challenge. 4 headshot kills in one use of combat focus."
     },
     {
       "id": "ch-05",
       "title": "Drive-Bys",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Combat",
       "spoiler": true,
       "guide": "Combat challenge. 5 drive-by kills inside a minute without leaving the vehicle."
     },
     {
       "id": "ch-06",
       "title": "Stealth Sniping",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Combat",
       "spoiler": true,
       "guide": "Combat challenge. 7 sniper kills on unaware targets, without dying or being arrested."
     },
     {
       "id": "ch-07",
       "title": "Incendiary",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Combat",
       "spoiler": true,
       "guide": "Combat challenge. Hit 5 people with fire inside 15 seconds."
     },
     {
       "id": "ch-08",
       "title": "Revolver Headshots",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Combat",
       "spoiler": true,
       "guide": "Combat challenge. 6 revolver headshots without reloading or switching."
     },
     {
       "id": "ch-09",
       "title": "Long-Range Sniping",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Combat",
       "spoiler": true,
       "guide": "Combat challenge. 3 sniper kills inside 10 seconds from 300 ft or more."
     },
     {
       "id": "ch-10",
       "title": "High Explosive",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Combat",
       "spoiler": true,
       "guide": "Combat challenge. Hit 8 people with explosives inside 20 seconds without taking damage."
     },
     {
       "id": "ch-11",
       "title": "Mugging",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Criminal",
       "spoiler": true,
       "guide": "Criminal challenge. Rob 5 people on the street."
     },
     {
       "id": "ch-12",
       "title": "Stick Ups",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Criminal",
       "spoiler": true,
       "guide": "Criminal challenge. Rob 3 stores in one day without dying or being arrested."
     },
     {
       "id": "ch-13",
       "title": "Carjacking",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Criminal",
       "spoiler": true,
       "guide": "Criminal challenge. Carjack 3 vehicles and take them to a Pay 'n' Spray, same day."
     },
     {
       "id": "ch-14",
       "title": "Mugging Spree",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Criminal",
       "spoiler": true,
       "guide": "Criminal challenge. Take $500 from people on the street in one day."
     },
     {
       "id": "ch-15",
       "title": "Cop Car Theft",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Criminal",
       "spoiler": true,
       "guide": "Criminal challenge. Keep a wanted level for 5 minutes in a stolen police car."
     },
     {
       "id": "ch-16",
       "title": "Cop Weapon Theft",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Criminal",
       "spoiler": true,
       "guide": "Criminal challenge. Take weapons from the trunks of 5 different police cars."
     },
     {
       "id": "ch-17",
       "title": "Stick Up Spree",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Criminal",
       "spoiler": true,
       "guide": "Criminal challenge. Rob 2 stores in each of the 5 counties inside 20 minutes."
     },
     {
       "id": "ch-18",
       "title": "Cop Tow",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Criminal",
       "spoiler": true,
       "guide": "Criminal challenge. Tow an occupied police car 1 mile without stopping."
     },
     {
       "id": "ch-19",
       "title": "Carjacking Spree",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Criminal",
       "spoiler": true,
       "guide": "Criminal challenge. Register or respray stolen cars from 10 different makers inside 30 minutes."
     },
     {
       "id": "ch-20",
       "title": "Carjacking Pro",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Criminal",
       "spoiler": true,
       "guide": "Criminal challenge. Make $100,000 selling stolen vehicles in one day."
     },
     {
       "id": "ch-21",
       "title": "WAiNK Locations",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Exploration",
       "spoiler": true,
       "guide": "Exploration challenge. Scan any 4 landmarks, curiosities or sculptures."
     },
     {
       "id": "ch-22",
       "title": "Skyscrapers",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Exploration",
       "spoiler": true,
       "guide": "Exploration challenge. Reach the top of the 5 tallest skyscrapers in Vice-Dale County."
     },
     {
       "id": "ch-23",
       "title": "Collectible Cards",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Exploration",
       "spoiler": true,
       "guide": "Exploration challenge. Find 3 cards in each of the 5 counties."
     },
     {
       "id": "ch-24",
       "title": "Encyclopedia",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Exploration",
       "spoiler": true,
       "guide": "Exploration challenge. Discover 100 animals, vehicles and weapons."
     },
     {
       "id": "ch-25",
       "title": "Underwater Discoveries",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Exploration",
       "spoiler": true,
       "guide": "Exploration challenge. Explore 25 sights on the ocean floor."
     },
     {
       "id": "ch-26",
       "title": "Rail Tour",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Exploration",
       "spoiler": true,
       "guide": "Exploration challenge. Ride a train 1 mile in each of the 5 counties in one day."
     },
     {
       "id": "ch-27",
       "title": "Underwater Treasures",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Exploration",
       "spoiler": true,
       "guide": "Exploration challenge. Find 85 underwater treasures."
     },
     {
       "id": "ch-28",
       "title": "Black Hole Wrecks",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Exploration",
       "spoiler": true,
       "guide": "Exploration challenge. Find all 11 black hole wrecks."
     },
     {
       "id": "ch-29",
       "title": "Road Trip",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Exploration",
       "spoiler": true,
       "guide": "Exploration challenge. Drive to every city and town in Leonida in one day, stopping only to refuel."
     },
     {
       "id": "ch-30",
       "title": "Helipad Flyovers",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Exploration",
       "spoiler": true,
       "guide": "Exploration challenge. Fly 100 ft or lower over all 41 helipads in Vice City and Vice Beach inside 10 minutes."
     },
     {
       "id": "ch-31",
       "title": "Gym Member",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Fitness",
       "spoiler": true,
       "guide": "Fitness challenge. Join any gym."
     },
     {
       "id": "ch-32",
       "title": "Foot Travel",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Fitness",
       "spoiler": true,
       "guide": "Fitness challenge. Go 5 miles on foot in one day."
     },
     {
       "id": "ch-33",
       "title": "Pro Cyclist",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Fitness",
       "spoiler": true,
       "guide": "Fitness challenge. Cycle 15 miles in one day."
     },
     {
       "id": "ch-34",
       "title": "Pro Swimmer",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Fitness",
       "spoiler": true,
       "guide": "Fitness challenge. Swim 3 miles in one day."
     },
     {
       "id": "ch-35",
       "title": "Balanced Workout",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Fitness",
       "spoiler": true,
       "guide": "Fitness challenge. Use every type of gym equipment in one day."
     },
     {
       "id": "ch-36",
       "title": "Strength Regime",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Fitness",
       "spoiler": true,
       "guide": "Fitness challenge. Strength level 4 with both characters, 5 days in a row."
     },
     {
       "id": "ch-37",
       "title": "Cardio Regime",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Fitness",
       "spoiler": true,
       "guide": "Fitness challenge. Cardio level 4 with both characters, 5 days in a row."
     },
     {
       "id": "ch-38",
       "title": "Waning Sands Run",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Fitness",
       "spoiler": true,
       "guide": "Fitness challenge. Walk from the pier gate at the Tip to Waning Sands inside 13 minutes without taking damage."
     },
     {
       "id": "ch-39",
       "title": "Tequesta Swim",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Fitness",
       "spoiler": true,
       "guide": "Fitness challenge. Swim from Tequesta Retreat to Starfish Island inside 15 minutes."
     },
     {
       "id": "ch-40",
       "title": "Southwind Cycle",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Fitness",
       "spoiler": true,
       "guide": "Fitness challenge. Cycle from the Grayson guest house to the Southwind bar inside 22 minutes without falling off."
     },
     {
       "id": "ch-41",
       "title": "Vehicle Modder",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Shopping",
       "spoiler": true,
       "guide": "Shopping challenge. Buy 5 mods at a mod shop."
     },
     {
       "id": "ch-42",
       "title": "Grocery Shopper",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Shopping",
       "spoiler": true,
       "guide": "Shopping challenge. Spend over $250 at convenience and liquor stores in one day."
     },
     {
       "id": "ch-43",
       "title": "Well Armed",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Shopping",
       "spoiler": true,
       "guide": "Shopping challenge. Buy 3 sidearms and 3 longarms at Ammu-Nation."
     },
     {
       "id": "ch-44",
       "title": "Well Groomed",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Shopping",
       "spoiler": true,
       "guide": "Shopping challenge. Spend over $1,000 at barbers and salons."
     },
     {
       "id": "ch-45",
       "title": "Stylishly Armed",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Shopping",
       "spoiler": true,
       "guide": "Shopping challenge. Buy cosmetic upgrades for 5 sidearms and 5 longarms."
     },
     {
       "id": "ch-46",
       "title": "Well Dressed",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Shopping",
       "spoiler": true,
       "guide": "Shopping challenge. Spend over $5,000 on clothes."
     },
     {
       "id": "ch-47",
       "title": "Custom Ride",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Shopping",
       "spoiler": true,
       "guide": "Shopping challenge. Spend over $20,000 in one mod shop visit."
     },
     {
       "id": "ch-48",
       "title": "Heavily Armed",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Shopping",
       "spoiler": true,
       "guide": "Shopping challenge. Spend over $50,000 at Ammu-Nations."
     },
     {
       "id": "ch-49",
       "title": "Serious Modder",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Shopping",
       "spoiler": true,
       "guide": "Shopping challenge. Spend over $125,000 at mod shops."
     },
     {
       "id": "ch-50",
       "title": "Nest Egg",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Shopping",
       "spoiler": true,
       "guide": "Shopping challenge. Have $1,500,000 in your BuckMe checking account."
     },
     {
       "id": "ch-51",
       "title": "Basketball Rookie",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Sports",
       "spoiler": true,
       "guide": "Sports challenge. Score at 3 different hoops in one day."
     },
     {
       "id": "ch-52",
       "title": "Golf Rookie",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Sports",
       "spoiler": true,
       "guide": "Sports challenge. 18 holes at King Gator or Frontier mini golf inside 30 minutes, 3 under par or better."
     },
     {
       "id": "ch-53",
       "title": "Basketball Streak",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Sports",
       "spoiler": true,
       "guide": "Sports challenge. 10 baskets in a row inside 2 minutes."
     },
     {
       "id": "ch-54",
       "title": "Pool Streak",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Sports",
       "spoiler": true,
       "guide": "Sports challenge. Win pool at 3 places in one day without losing or quitting."
     },
     {
       "id": "ch-55",
       "title": "Basketball Tour",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Sports",
       "spoiler": true,
       "guide": "Sports challenge. Score a basket in every county."
     },
     {
       "id": "ch-56",
       "title": "Golf Pro",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Sports",
       "spoiler": true,
       "guide": "Sports challenge. 18 holes at both King Gator and Frontier in one day, par or better."
     },
     {
       "id": "ch-57",
       "title": "Triple Bank",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Sports",
       "spoiler": true,
       "guide": "Sports challenge. Bounce the cue ball off 3 cushions before potting a ball."
     },
     {
       "id": "ch-58",
       "title": "Basketball Pro",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Sports",
       "spoiler": true,
       "guide": "Sports challenge. Score at all 100 hoops in Leonida."
     },
     {
       "id": "ch-59",
       "title": "8-Ball Break",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Sports",
       "spoiler": true,
       "guide": "Sports challenge. Win at pool by sinking the 8-ball on the break."
     },
     {
       "id": "ch-60",
       "title": "Double Hole In One",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Sports",
       "spoiler": true,
       "guide": "Sports challenge. Two holes in one in a row in one game at King Gator or Frontier."
     },
     {
       "id": "ch-61",
       "title": "Alligator Kills",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Survival",
       "spoiler": true,
       "guide": "Survival challenge. Kill 3 wild alligators."
     },
     {
       "id": "ch-62",
       "title": "Big Fish",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Survival",
       "spoiler": true,
       "guide": "Survival challenge. Catch a fish of 20 lb or more."
     },
     {
       "id": "ch-63",
       "title": "Marksman",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Survival",
       "spoiler": true,
       "guide": "Survival challenge. Win a medal at both shooting ranges in one day."
     },
     {
       "id": "ch-64",
       "title": "Catch of the Day",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Survival",
       "spoiler": true,
       "guide": "Survival challenge. Catch 3 fish with each type of lure in one day."
     },
     {
       "id": "ch-65",
       "title": "Zoologist",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Survival",
       "spoiler": true,
       "guide": "Survival challenge. Study 20 animal species."
     },
     {
       "id": "ch-66",
       "title": "Angler",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Survival",
       "spoiler": true,
       "guide": "Survival challenge. Catch 4 species of fish inside 6 minutes."
     },
     {
       "id": "ch-67",
       "title": "Pro Marksman",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Survival",
       "spoiler": true,
       "guide": "Survival challenge. Gold in 3 shooting range events in a row without failing or quitting."
     },
     {
       "id": "ch-68",
       "title": "Hunting Spree",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Survival",
       "spoiler": true,
       "guide": "Survival challenge. Kill a boar, a rattlesnake and a panther inside 15 minutes without taking damage."
     },
     {
       "id": "ch-69",
       "title": "Pro Angler",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Survival",
       "spoiler": true,
       "guide": "Survival challenge. Catch every species of fish."
     },
     {
       "id": "ch-70",
       "title": "Legendary Hunter",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Survival",
       "spoiler": true,
       "guide": "Survival challenge. Kill all 8 unique animals."
     },
     {
       "id": "ch-71",
       "title": "Vehicle Discovery",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Vehicle",
       "spoiler": true,
       "guide": "Vehicle challenge. Discover 6 vehicles."
     },
     {
       "id": "ch-72",
       "title": "Wheelie",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Vehicle",
       "spoiler": true,
       "guide": "Vehicle challenge. Wheelie for a quarter of a mile."
     },
     {
       "id": "ch-73",
       "title": "Winning Streak",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Vehicle",
       "spoiler": true,
       "guide": "Vehicle challenge. Win 3 races: one in a muscle car, one in a sports car and one in a supercar."
     },
     {
       "id": "ch-74",
       "title": "Throttled",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Vehicle",
       "spoiler": true,
       "guide": "Vehicle challenge. Go over 100 mph in a motor vehicle for 2 minutes."
     },
     {
       "id": "ch-75",
       "title": "Drawbridge Jump",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Vehicle",
       "spoiler": true,
       "guide": "Vehicle challenge. Jump over a drawbridge 3 times, 100 ft or more, without leaving the vehicle."
     },
     {
       "id": "ch-76",
       "title": "Top Speed",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Vehicle",
       "spoiler": true,
       "guide": "Vehicle challenge. Hit 175 mph in a car, truck or motorcycle."
     },
     {
       "id": "ch-77",
       "title": "Train Landing",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Vehicle",
       "spoiler": true,
       "guide": "Vehicle challenge. Land a plane on a moving train without wrecking it."
     },
     {
       "id": "ch-78",
       "title": "Oceanarium Jump",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Vehicle",
       "spoiler": true,
       "guide": "Vehicle challenge. Parachute from half a mile up into the Oceanarium's orca or dolphin tank."
     },
     {
       "id": "ch-79",
       "title": "Rally Winner",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Vehicle",
       "spoiler": true,
       "guide": "Vehicle challenge. Win at the Mud Club, Gellhorn and Boone in one day, 3 wins in a row."
     },
     {
       "id": "ch-80",
       "title": "Train Jump",
-      "category": "challenges",
+      "category": "game-challenges",
+      "subgroup": "Vehicle",
       "spoiler": true,
       "guide": "Vehicle challenge. Jump a motorcycle 75 ft or more onto a moving train twice inside 20 minutes."
+    },
+    {
+      "id": "fl-001",
+      "title": "Flamingo 1",
+      "category": "flamingos",
+      "spoiler": true,
+      "guide": "Belpoint: the docks on the island's southeast side.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "fl-002",
+      "title": "Flamingo 2",
+      "category": "flamingos",
+      "spoiler": true,
+      "guide": "Belpoint: by the burning flamingo houses in the southeast, in front of the big white house.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "fl-003",
+      "title": "Flamingo 3",
+      "category": "flamingos",
+      "spoiler": true,
+      "guide": "Belpoint: same houses, at a corner of the small white house.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "fl-004",
+      "title": "Flamingo 4",
+      "category": "flamingos",
+      "spoiler": true,
+      "guide": "Belpoint: inside the burning flamingo container on the beach.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "fl-005",
+      "title": "Flamingo 5",
+      "category": "flamingos",
+      "spoiler": true,
+      "guide": "Belpoint: on the ground by the fire at the burning container.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "fl-006",
+      "title": "Flamingo 6",
+      "category": "flamingos",
+      "spoiler": true,
+      "guide": "Belpoint: on the yellow container in the water by the beach.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "fl-007",
+      "title": "Flamingo 7",
+      "category": "flamingos",
+      "spoiler": true,
+      "guide": "Watson Bay: southwest corner of the motel on the east edge, in the rubbish.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "fl-008",
+      "title": "Flamingo 8",
+      "category": "flamingos",
+      "spoiler": true,
+      "guide": "La Perle: ground floor in the middle of the C-shaped building northwest of Tyrone's apartment.",
+      "region": "Vice City"
+    },
+    {
+      "id": "mz-01",
+      "title": "Ashes of Glory",
+      "category": "magazines",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Key Lento: Jason's house, the table by the bed. Chapter 1 only.",
+      "region": "Mariana County",
+      "missable": true
+    },
+    {
+      "id": "mz-02",
+      "title": "Lethal By Design",
+      "category": "magazines",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Key Lento: Jason's house, the living room table. Chapter 1 only.",
+      "region": "Mariana County",
+      "missable": true
+    },
+    {
+      "id": "mz-03",
+      "title": "Orca: A Whole Different Animal",
+      "category": "magazines",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Key Lento: Jason's house, the table by the east window. Chapter 1 only.",
+      "region": "Mariana County",
+      "missable": true
+    },
+    {
+      "id": "mz-04",
+      "title": "Off the Hook",
+      "category": "magazines",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Key Lento: the tool shed under Jason's house. Chapter 1 only.",
+      "region": "Mariana County",
+      "missable": true
+    },
+    {
+      "id": "mz-05",
+      "title": "Body Copy",
+      "category": "magazines",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Key Lento: Jason's back deck, by the weights. Chapter 1 only.",
+      "region": "Mariana County",
+      "missable": true
+    },
+    {
+      "id": "mz-06",
+      "title": "RX Men",
+      "category": "magazines",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Key Lento: magazine rack in the 247 store.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "mz-07",
+      "title": "Help Me Help You Help Me",
+      "category": "magazines",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "guide": "Gellhorn: Starlet Motel reception table. Gone after chapter 2.",
+      "region": "Kelly County",
+      "missable": true
+    },
+    {
+      "id": "mz-08",
+      "title": "Wizard Wang",
+      "category": "magazines",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "guide": "Gellhorn: Starlet Motel cafeteria table. Gone after chapter 2.",
+      "region": "Kelly County",
+      "missable": true
+    },
+    {
+      "id": "mz-09",
+      "title": "Dicked Down Deep in Space",
+      "category": "magazines",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "guide": "Port Gellhorn: a trailer in the Lost Vista area, northwest of Station Garage.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "mz-10",
+      "title": "Passion B.C.",
+      "category": "magazines",
+      "subgroup": "Vice City",
+      "spoiler": true,
+      "guide": "Bayside: the apartment, by the bathtub. Gone after chapter 3.",
+      "region": "Vice City",
+      "missable": true
+    },
+    {
+      "id": "mz-11",
+      "title": "Two Pricks in the Bush",
+      "category": "magazines",
+      "subgroup": "Vice City",
+      "spoiler": true,
+      "guide": "Bayside: the apartment, on the table in front of the TV. Gone after chapter 3.",
+      "region": "Vice City",
+      "missable": true
+    },
+    {
+      "id": "mz-12",
+      "title": "Remote Strike",
+      "category": "magazines",
+      "subgroup": "Vice Beach",
+      "spoiler": true,
+      "guide": "Penmarch Isle, Washington Beach: the back room at Ajax Gym. From chapter 4.",
+      "region": "Vice Beach"
+    },
+    {
+      "id": "mz-13",
+      "title": "Foiled",
+      "category": "magazines",
+      "subgroup": "Leonard County",
+      "spoiler": true,
+      "guide": "Belville: on a bed in a garage on the north row of houses.",
+      "region": "Leonard County"
+    },
+    {
+      "id": "mz-14",
+      "title": "The Johnsons (Issue 1)",
+      "category": "magazines",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "guide": "Gellhorn: inside Alpha Gas, northeast of the Starlet Motel.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "mz-15",
+      "title": "The Cowboy's Prayer is to Die Young",
+      "category": "magazines",
+      "subgroup": "Lummox County",
+      "spoiler": true,
+      "guide": "Moreau: on the main room table of the unmarked building north of Taco Bomb West Kalaga.",
+      "region": "Lummox County"
+    },
+    {
+      "id": "mz-16",
+      "title": "Ratface (Issue 1)",
+      "category": "magazines",
+      "subgroup": "Vice City",
+      "spoiler": true,
+      "guide": "La Perle: magazine rack at Xero Food Mart.",
+      "region": "Vice City"
+    },
+    {
+      "id": "mz-17",
+      "title": "Special Friends Force (Issue 1)",
+      "category": "magazines",
+      "subgroup": "Vice City",
+      "spoiler": true,
+      "guide": "La Perle: magazine rack at Xero Food Mart.",
+      "region": "Vice City"
+    },
+    {
+      "id": "mz-18",
+      "title": "Lights, Camera, Affirmative Action",
+      "category": "magazines",
+      "subgroup": "Vice City",
+      "spoiler": true,
+      "guide": "Tequesta Retreat: on a table in the Pegassi Residences penthouse. Chapter 5.",
+      "region": "Vice City"
+    },
+    {
+      "id": "mz-19",
+      "title": "High Rollerz (Issue 37)",
+      "category": "magazines",
+      "subgroup": "Vice City",
+      "spoiler": true,
+      "guide": "Crosstown: Jack of Hearts club, second floor hallway west of the recording booths.",
+      "region": "Vice City"
+    },
+    {
+      "id": "mz-20",
+      "title": "BOMBAZO! (Issue 2342)",
+      "category": "magazines",
+      "subgroup": "Vice Beach",
+      "spoiler": true,
+      "guide": "Oldby Island, Washington Beach: magazine rack at Ron Stop'n'Snack.",
+      "region": "Vice Beach"
+    },
+    {
+      "id": "bs-1",
+      "title": "Outback Gas Junkie",
+      "category": "book-swaps",
+      "spoiler": true,
+      "guide": "Waning Sands: a little library book swap box.",
+      "region": "Leonard County"
+    },
+    {
+      "id": "wl-05",
+      "title": "Lawton Co. Paper Mill",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "guide": "Landmark 5. Scan it with WAiNK in Moreau.",
+      "region": "Lummox County"
+    },
+    {
+      "id": "wl-06",
+      "title": "Farmer Scrumpy's Apple Orchard",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "guide": "Landmark 6. Scan it with WAiNK in Manifest Canyon.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "wl-11",
+      "title": "Gellhorn Fun Fair",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "guide": "Landmark 11. Scan it with WAiNK in Port Gellhorn.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "wl-17",
+      "title": "Belpoint Lighthouse",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "guide": "Landmark 17. Scan it with WAiNK in Belpoint.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "wl-18",
+      "title": "Kalaga Lookout",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "guide": "Landmark 18. Scan it with WAiNK in Mount Kalaga National Park.",
+      "region": "Lummox County"
+    },
+    {
+      "id": "wl-21",
+      "title": "Dock Ring",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "guide": "Landmark 21. Scan it with WAiNK in Downtown.",
+      "region": "Vice City"
+    },
+    {
+      "id": "wl-22",
+      "title": "Grayson Assembly",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "guide": "Landmark 22. Scan it with WAiNK in Grayson.",
+      "region": "Lummox County"
+    },
+    {
+      "id": "wc-11",
+      "title": "Imperial Spanish Ruins",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "guide": "Curiosity 11. Scan it with WAiNK in Moreau.",
+      "region": "Lummox County"
+    },
+    {
+      "id": "wc-29",
+      "title": "Big Entrance",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "guide": "Curiosity 29. Scan it with WAiNK in Dalton Island.",
+      "region": "Vice Beach"
+    },
+    {
+      "id": "ws-07",
+      "title": "Triangler Sculpture",
+      "category": "waink",
+      "subgroup": "Sculptures",
+      "spoiler": true,
+      "guide": "Sculpture 7. Scan it with WAiNK in Corsair Key.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "ws-16",
+      "title": "Pixel Fountain",
+      "category": "waink",
+      "subgroup": "Sculptures",
+      "spoiler": true,
+      "guide": "Sculpture 16. Scan it with WAiNK in Tequesta.",
+      "region": "Vice City"
+    },
+    {
+      "id": "ws-19",
+      "title": "Neptune Rises",
+      "category": "waink",
+      "subgroup": "Sculptures",
+      "spoiler": true,
+      "guide": "Sculpture 19. Scan it with WAiNK in Washington Beach.",
+      "region": "Vice Beach"
+    },
+    {
+      "id": "ws-20",
+      "title": "Vice Museum of Art Sculpture",
+      "category": "waink",
+      "subgroup": "Sculptures",
+      "spoiler": true,
+      "guide": "Sculpture 20. Scan it with WAiNK in Washington Beach.",
+      "region": "Vice Beach"
+    },
+    {
+      "id": "ws-22",
+      "title": "Princes Robot Bubblegum Statue",
+      "category": "waink",
+      "subgroup": "Sculptures",
+      "spoiler": true,
+      "guide": "Sculpture 22. Scan it with WAiNK in Washington Beach.",
+      "region": "Vice Beach"
+    },
+    {
+      "id": "ws-23",
+      "title": "Monument of Leonidan Supremacy",
+      "category": "waink",
+      "subgroup": "Sculptures",
+      "spoiler": true,
+      "guide": "Sculpture 23. Scan it with WAiNK in Manifest Canyon.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "wf-01",
+      "title": "No Flusher tag",
+      "category": "waink",
+      "subgroup": "No Flusher tags",
+      "spoiler": true,
+      "guide": "Ocean Beach: spray-painted on the ground east of The Banana Hole's main bar. Scan it with WAiNK.",
+      "region": "Vice Beach"
+    },
+    {
+      "id": "sj-001",
+      "title": "Stunt jump: Mile Zero Air Station, southeast side",
+      "category": "stunt-jumps",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Mile Zero Air Station, southeast side.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "sj-002",
+      "title": "Stunt jump: Saltrock Bridge, west end",
+      "category": "stunt-jumps",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Saltrock Bridge, west end.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "sj-003",
+      "title": "Stunt jump: Saltrock Bridge, east end",
+      "category": "stunt-jumps",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Saltrock Bridge, east end.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "sj-004",
+      "title": "Stunt jump: Key Lento Bridge, west end",
+      "category": "stunt-jumps",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Key Lento Bridge, west end.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "sj-005",
+      "title": "Stunt jump: Key Lento Bridge, east end",
+      "category": "stunt-jumps",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Key Lento Bridge, east end.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "sj-006",
+      "title": "Stunt jump: Longneck Trail",
+      "category": "stunt-jumps",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Longneck Trail.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "sj-007",
+      "title": "Stunt jump: Nehrling River",
+      "category": "stunt-jumps",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Nehrling River.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "sj-008",
+      "title": "Stunt jump: A backyard in Hamlet",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "A backyard in Hamlet.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sj-009",
+      "title": "Stunt jump: The VCIA storage facility",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "The VCIA storage facility.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sj-010",
+      "title": "Stunt jump: The construction site on SW 4th Avenue",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "The construction site on SW 4th Avenue.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sj-011",
+      "title": "Stunt jump: Blackwell Sandrock",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Blackwell Sandrock.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sj-012",
+      "title": "Stunt jump: Apollo Aggregates, south section",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Apollo Aggregates, south section.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sj-013",
+      "title": "Stunt jump: The broken bridge in the west",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "The broken bridge in the west.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sj-014",
+      "title": "Stunt jump: Nolan Center parking lot",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Nolan Center parking lot.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sj-015",
+      "title": "Stunt jump: Lake Bonner construction site, east side",
+      "category": "stunt-jumps",
+      "subgroup": "Leonard County",
+      "spoiler": true,
+      "guide": "Lake Bonner construction site, east side.",
+      "region": "Leonard County"
+    },
+    {
+      "id": "sj-016",
+      "title": "Stunt jump: Lake Leonida lock, south side",
+      "category": "stunt-jumps",
+      "subgroup": "Leonard County",
+      "spoiler": true,
+      "guide": "Lake Leonida lock, south side.",
+      "region": "Leonard County"
+    },
+    {
+      "id": "sj-017",
+      "title": "Stunt jump: Richard Barebone overpass, south end",
+      "category": "stunt-jumps",
+      "subgroup": "Leonard County",
+      "spoiler": true,
+      "guide": "Richard Barebone overpass, south end.",
+      "region": "Leonard County"
+    },
+    {
+      "id": "sj-018",
+      "title": "Stunt jump: Gellhorn International Raceway",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "guide": "Gellhorn International Raceway.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "sj-019",
+      "title": "Stunt jump: Prairie Court",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "guide": "Prairie Court.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "sj-020",
+      "title": "Stunt jump: Starlet Motel construction site",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "guide": "Starlet Motel construction site.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "sj-021",
+      "title": "Stunt jump: Howe Dairy",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "guide": "Howe Dairy.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "sj-022",
+      "title": "Stunt jump: Saputka River",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "guide": "Saputka River.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "sj-023",
+      "title": "Stunt jump: The broken bridge in south Ambrosia",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "guide": "The broken bridge in south Ambrosia.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "sj-024",
+      "title": "Stunt jump: The broken bridge in north Moreau",
+      "category": "stunt-jumps",
+      "subgroup": "Lummox County",
+      "spoiler": true,
+      "guide": "The broken bridge in north Moreau.",
+      "region": "Lummox County"
+    },
+    {
+      "id": "ur-01",
+      "title": "Vice City street race, Salton (1 of 3)",
+      "category": "unique-races",
+      "subgroup": "Vice City street races",
+      "spoiler": true,
+      "guide": "Street races open up in chapter 3. Win it.",
+      "region": "Vice City"
+    },
+    {
+      "id": "ur-02",
+      "title": "Vice City street race, Salton (2 of 3)",
+      "category": "unique-races",
+      "subgroup": "Vice City street races",
+      "spoiler": true,
+      "guide": "Street races open up in chapter 3. Win it.",
+      "region": "Vice City"
+    },
+    {
+      "id": "ur-03",
+      "title": "Vice City street race, Salton (3 of 3)",
+      "category": "unique-races",
+      "subgroup": "Vice City street races",
+      "spoiler": true,
+      "guide": "Street races open up in chapter 3. Win it.",
+      "region": "Vice City"
+    },
+    {
+      "id": "ur-04",
+      "title": "Vice City street race, La Perle (1 of 2)",
+      "category": "unique-races",
+      "subgroup": "Vice City street races",
+      "spoiler": true,
+      "guide": "Street races open up in chapter 3. Win it.",
+      "region": "Vice City"
+    },
+    {
+      "id": "ur-05",
+      "title": "Vice City street race, La Perle (2 of 2)",
+      "category": "unique-races",
+      "subgroup": "Vice City street races",
+      "spoiler": true,
+      "guide": "Street races open up in chapter 3. Win it.",
+      "region": "Vice City"
+    },
+    {
+      "id": "ur-06",
+      "title": "Vice City street race, Ocean Beach (1 of 2)",
+      "category": "unique-races",
+      "subgroup": "Vice City street races",
+      "spoiler": true,
+      "guide": "Street races open up in chapter 3. Win it.",
+      "region": "Vice Beach"
+    },
+    {
+      "id": "ur-07",
+      "title": "Vice City street race, Ocean Beach (2 of 2)",
+      "category": "unique-races",
+      "subgroup": "Vice City street races",
+      "spoiler": true,
+      "guide": "Street races open up in chapter 3. Win it.",
+      "region": "Vice Beach"
+    },
+    {
+      "id": "ur-08",
+      "title": "Vice City street race, Gloriana Key (1 of 2)",
+      "category": "unique-races",
+      "subgroup": "Vice City street races",
+      "spoiler": true,
+      "guide": "Street races open up in chapter 3. Win it.",
+      "region": "Vice City"
+    },
+    {
+      "id": "ur-09",
+      "title": "Vice City street race, Gloriana Key (2 of 2)",
+      "category": "unique-races",
+      "subgroup": "Vice City street races",
+      "spoiler": true,
+      "guide": "Street races open up in chapter 3. Win it.",
+      "region": "Vice City"
+    },
+    {
+      "id": "ur-10",
+      "title": "Animal Crackers, Grayson (1 of 2)",
+      "category": "unique-races",
+      "subgroup": "Animal Crackers",
+      "spoiler": true,
+      "guide": "Win it.",
+      "region": "Lummox County"
+    },
+    {
+      "id": "ur-11",
+      "title": "Animal Crackers, Grayson (2 of 2)",
+      "category": "unique-races",
+      "subgroup": "Animal Crackers",
+      "spoiler": true,
+      "guide": "Win it.",
+      "region": "Lummox County"
+    },
+    {
+      "id": "ur-12",
+      "title": "Animal Crackers, Redshaw's (1 of 2)",
+      "category": "unique-races",
+      "subgroup": "Animal Crackers",
+      "spoiler": true,
+      "guide": "Win it.",
+      "region": "Lummox County"
+    },
+    {
+      "id": "ur-13",
+      "title": "Animal Crackers, Redshaw's (2 of 2)",
+      "category": "unique-races",
+      "subgroup": "Animal Crackers",
+      "spoiler": true,
+      "guide": "Win it.",
+      "region": "Lummox County"
+    },
+    {
+      "id": "ur-14",
+      "title": "Animal Crackers, Ranchers (1 of 2)",
+      "category": "unique-races",
+      "subgroup": "Animal Crackers",
+      "spoiler": true,
+      "guide": "Win it.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "ur-15",
+      "title": "Animal Crackers, Ranchers (2 of 2)",
+      "category": "unique-races",
+      "subgroup": "Animal Crackers",
+      "spoiler": true,
+      "guide": "Win it.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "ur-16",
+      "title": "Animal Crackers, Big Pine (1 of 2)",
+      "category": "unique-races",
+      "subgroup": "Animal Crackers",
+      "spoiler": true,
+      "guide": "Win it.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "ur-17",
+      "title": "Animal Crackers, Big Pine (2 of 2)",
+      "category": "unique-races",
+      "subgroup": "Animal Crackers",
+      "spoiler": true,
+      "guide": "Win it.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "ur-18",
+      "title": "Gellhorn International Raceway (1 of 11)",
+      "category": "unique-races",
+      "subgroup": "Gellhorn International Raceway",
+      "spoiler": true,
+      "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "ur-19",
+      "title": "Gellhorn International Raceway (2 of 11)",
+      "category": "unique-races",
+      "subgroup": "Gellhorn International Raceway",
+      "spoiler": true,
+      "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "ur-20",
+      "title": "Gellhorn International Raceway (3 of 11)",
+      "category": "unique-races",
+      "subgroup": "Gellhorn International Raceway",
+      "spoiler": true,
+      "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "ur-21",
+      "title": "Gellhorn International Raceway (4 of 11)",
+      "category": "unique-races",
+      "subgroup": "Gellhorn International Raceway",
+      "spoiler": true,
+      "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "ur-22",
+      "title": "Gellhorn International Raceway (5 of 11)",
+      "category": "unique-races",
+      "subgroup": "Gellhorn International Raceway",
+      "spoiler": true,
+      "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "ur-23",
+      "title": "Gellhorn International Raceway (6 of 11)",
+      "category": "unique-races",
+      "subgroup": "Gellhorn International Raceway",
+      "spoiler": true,
+      "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "ur-24",
+      "title": "Gellhorn International Raceway (7 of 11)",
+      "category": "unique-races",
+      "subgroup": "Gellhorn International Raceway",
+      "spoiler": true,
+      "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "ur-25",
+      "title": "Gellhorn International Raceway (8 of 11)",
+      "category": "unique-races",
+      "subgroup": "Gellhorn International Raceway",
+      "spoiler": true,
+      "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "ur-26",
+      "title": "Gellhorn International Raceway (9 of 11)",
+      "category": "unique-races",
+      "subgroup": "Gellhorn International Raceway",
+      "spoiler": true,
+      "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "ur-27",
+      "title": "Gellhorn International Raceway (10 of 11)",
+      "category": "unique-races",
+      "subgroup": "Gellhorn International Raceway",
+      "spoiler": true,
+      "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "ur-28",
+      "title": "Gellhorn International Raceway (11 of 11)",
+      "category": "unique-races",
+      "subgroup": "Gellhorn International Raceway",
+      "spoiler": true,
+      "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "ur-29",
+      "title": "Boone Speedway elimination race (1 of 2)",
+      "category": "unique-races",
+      "subgroup": "Boone Speedway",
+      "spoiler": true,
+      "guide": "Southwest corner of Hamlet. Win it.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "ur-30",
+      "title": "Boone Speedway elimination race (2 of 2)",
+      "category": "unique-races",
+      "subgroup": "Boone Speedway",
+      "spoiler": true,
+      "guide": "Southwest corner of Hamlet. Win it.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "ur-31",
+      "title": "Ambrosia Raceway demolition race (1 of 2)",
+      "category": "unique-races",
+      "subgroup": "Ambrosia Raceway",
+      "spoiler": true,
+      "guide": "North Ambrosia; it opens when you go near its marker. Win it.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "ur-32",
+      "title": "Ambrosia Raceway demolition race (2 of 2)",
+      "category": "unique-races",
+      "subgroup": "Ambrosia Raceway",
+      "spoiler": true,
+      "guide": "North Ambrosia; it opens when you go near its marker. Win it.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "ur-33",
+      "title": "Mud Club dirt track race (1 of 6)",
+      "category": "unique-races",
+      "subgroup": "Mud Club",
+      "spoiler": true,
+      "guide": "North Kelly County; opens in chapter 2. Win it.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "ur-34",
+      "title": "Mud Club dirt track race (2 of 6)",
+      "category": "unique-races",
+      "subgroup": "Mud Club",
+      "spoiler": true,
+      "guide": "North Kelly County; opens in chapter 2. Win it.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "ur-35",
+      "title": "Mud Club dirt track race (3 of 6)",
+      "category": "unique-races",
+      "subgroup": "Mud Club",
+      "spoiler": true,
+      "guide": "North Kelly County; opens in chapter 2. Win it.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "ur-36",
+      "title": "Mud Club dirt track race (4 of 6)",
+      "category": "unique-races",
+      "subgroup": "Mud Club",
+      "spoiler": true,
+      "guide": "North Kelly County; opens in chapter 2. Win it.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "ur-37",
+      "title": "Mud Club dirt track race (5 of 6)",
+      "category": "unique-races",
+      "subgroup": "Mud Club",
+      "spoiler": true,
+      "guide": "North Kelly County; opens in chapter 2. Win it.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "ur-38",
+      "title": "Mud Club dirt track race (6 of 6)",
+      "category": "unique-races",
+      "subgroup": "Mud Club",
+      "spoiler": true,
+      "guide": "North Kelly County; opens in chapter 2. Win it.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "ur-39",
+      "title": "Mud Club oval track race (1 of 2)",
+      "category": "unique-races",
+      "subgroup": "Mud Club",
+      "spoiler": true,
+      "guide": "North Kelly County; opens in chapter 2. Win it.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "ur-40",
+      "title": "Mud Club oval track race (2 of 2)",
+      "category": "unique-races",
+      "subgroup": "Mud Club",
+      "spoiler": true,
+      "guide": "North Kelly County; opens in chapter 2. Win it.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "go-01",
+      "title": "Gang operation 1",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation.",
+      "revealedTitle": "Fishing Shacks",
+      "revealedGuide": "Run by Kingfishers."
+    },
+    {
+      "id": "go-02",
+      "title": "Gang operation 2",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation.",
+      "revealedTitle": "Sunrise RV Park",
+      "revealedGuide": "Run by Kingfishers."
+    },
+    {
+      "id": "go-03",
+      "title": "Gang operation 3",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation.",
+      "revealedTitle": "Manatee Motel",
+      "revealedGuide": "Run by Kingfishers."
+    },
+    {
+      "id": "go-04",
+      "title": "Gang operation 4",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation.",
+      "revealedTitle": "Kingpin Bowling",
+      "revealedGuide": "Run by Kolts & Associates."
+    },
+    {
+      "id": "go-05",
+      "title": "Gang operation 5",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation.",
+      "revealedTitle": "June Warehouse",
+      "revealedGuide": "Run by Kolts & Associates."
+    },
+    {
+      "id": "go-06",
+      "title": "Gang operation 6",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation.",
+      "revealedTitle": "La Cascara Motel",
+      "revealedGuide": "Run by Kolts & Associates."
+    },
+    {
+      "id": "go-07",
+      "title": "Gang operation 7",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation.",
+      "revealedTitle": "Brooks Boatworks",
+      "revealedGuide": "Run by Kolts & Associates."
+    },
+    {
+      "id": "go-08",
+      "title": "Gang operation 8",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation. Its location isn't listed yet.",
+      "revealedTitle": "Gang operation 8",
+      "revealedGuide": "Run by Kolts & Associates. Not found yet."
+    },
+    {
+      "id": "go-09",
+      "title": "Gang operation 9",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation.",
+      "revealedTitle": "M7 Compound",
+      "revealedGuide": "Run by M7."
+    },
+    {
+      "id": "go-10",
+      "title": "Gang operation 10",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation. Its location isn't listed yet.",
+      "revealedTitle": "Gang operation 10",
+      "revealedGuide": "Run by M7. Not found yet."
+    },
+    {
+      "id": "go-11",
+      "title": "Gang operation 11",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation.",
+      "revealedTitle": "Palmer Fishing Warehouse",
+      "revealedGuide": "Run by La Polilla Negra."
+    },
+    {
+      "id": "go-12",
+      "title": "Gang operation 12",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation. Its location isn't listed yet.",
+      "revealedTitle": "Gang operation 12",
+      "revealedGuide": "Run by La Polilla Negra. Not found yet."
+    },
+    {
+      "id": "go-13",
+      "title": "Gang operation 13",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation.",
+      "revealedTitle": "Farm Fix Meth Lab",
+      "revealedGuide": "Run by Final Chapter."
+    },
+    {
+      "id": "go-14",
+      "title": "Gang operation 14",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation. Its location isn't listed yet.",
+      "revealedTitle": "Gang operation 14",
+      "revealedGuide": "Run by Final Chapter. Not found yet."
+    },
+    {
+      "id": "go-15",
+      "title": "Gang operation 15",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation.",
+      "revealedTitle": "Irons Building Supply",
+      "revealedGuide": "Run by Final Chapter."
+    },
+    {
+      "id": "go-16",
+      "title": "Gang operation 16",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation. Its location isn't listed yet.",
+      "revealedTitle": "Gang operation 16",
+      "revealedGuide": "Run by Final Chapter. Not found yet."
+    },
+    {
+      "id": "go-17",
+      "title": "Gang operation 17",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation.",
+      "revealedTitle": "Sound4Sound Studio",
+      "revealedGuide": "Run by San4San."
+    },
+    {
+      "id": "go-18",
+      "title": "Gang operation 18",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation. Its location isn't listed yet.",
+      "revealedTitle": "Gang operation 18",
+      "revealedGuide": "Run by San4San. Not found yet."
+    },
+    {
+      "id": "go-19",
+      "title": "Gang operation 19",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation. Its location isn't listed yet.",
+      "revealedTitle": "Gang operation 19",
+      "revealedGuide": "Run by San4San. Not found yet."
+    },
+    {
+      "id": "go-20",
+      "title": "Gang operation 20",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation.",
+      "revealedTitle": "JanJak's Garage",
+      "revealedGuide": "Run by San4San."
+    },
+    {
+      "id": "go-21",
+      "title": "Gang operation 21",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation. Its location isn't listed yet.",
+      "revealedTitle": "Gang operation 21",
+      "revealedGuide": "Run by San4San. Not found yet."
+    },
+    {
+      "id": "go-22",
+      "title": "Gang operation 22",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation. Its location isn't listed yet.",
+      "revealedTitle": "Gang operation 22",
+      "revealedGuide": "Run by PTT Youngin$. Not found yet."
+    },
+    {
+      "id": "go-23",
+      "title": "Gang operation 23",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation. Its location isn't listed yet.",
+      "revealedTitle": "Gang operation 23",
+      "revealedGuide": "Run by PTT Youngin$. Not found yet."
+    },
+    {
+      "id": "go-24",
+      "title": "Gang operation 24",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation. Its location isn't listed yet.",
+      "revealedTitle": "Gang operation 24",
+      "revealedGuide": "Run by The Guardia Brothers. Not found yet."
+    },
+    {
+      "id": "go-25",
+      "title": "Gang operation 25",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation.",
+      "revealedTitle": "Casa Guardia",
+      "revealedGuide": "Run by The Guardia Brothers."
+    },
+    {
+      "id": "go-26",
+      "title": "Gang operation 26",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation. Its location isn't listed yet.",
+      "revealedTitle": "Gang operation 26",
+      "revealedGuide": "Run by The Guardia Brothers. Not found yet."
+    },
+    {
+      "id": "go-27",
+      "title": "Gang operation 27",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation.",
+      "revealedTitle": "Exotic Animals Front",
+      "revealedGuide": "Run by other criminals."
+    },
+    {
+      "id": "go-28",
+      "title": "Gang operation 28",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation.",
+      "revealedTitle": "Slator Towing Inc",
+      "revealedGuide": "Run by other criminals."
+    },
+    {
+      "id": "go-29",
+      "title": "Gang operation 29",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation.",
+      "revealedTitle": "Chatfield Storage & Logistics",
+      "revealedGuide": "Run by other criminals."
+    },
+    {
+      "id": "go-30",
+      "title": "Gang operation 30",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation.",
+      "revealedTitle": "Leonida Carrier Warehouse",
+      "revealedGuide": "Run by other criminals."
+    },
+    {
+      "id": "go-31",
+      "title": "Gang operation 31",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation.",
+      "revealedTitle": "Cigar Import Front",
+      "revealedGuide": "Run by other criminals."
+    },
+    {
+      "id": "go-32",
+      "title": "Gang operation 32",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation.",
+      "revealedTitle": "Gas Station Meth Front",
+      "revealedGuide": "Run by other criminals."
+    },
+    {
+      "id": "go-33",
+      "title": "Gang operation 33",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation.",
+      "revealedTitle": "Backroom Weed Front",
+      "revealedGuide": "Run by other criminals."
+    },
+    {
+      "id": "go-34",
+      "title": "Gang operation 34",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation.",
+      "revealedTitle": "Carter Mining Boathouse",
+      "revealedGuide": "Run by other criminals."
+    },
+    {
+      "id": "go-35",
+      "title": "Gang operation 35",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation. Its location isn't listed yet.",
+      "revealedTitle": "Gang operation 35",
+      "revealedGuide": "Run by other criminals. Not found yet."
+    },
+    {
+      "id": "go-36",
+      "title": "Gang operation 36",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation. Its location isn't listed yet.",
+      "revealedTitle": "Gang operation 36",
+      "revealedGuide": "Run by other criminals. Not found yet."
+    },
+    {
+      "id": "go-37",
+      "title": "Gang operation 37",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation. Its location isn't listed yet.",
+      "revealedTitle": "Gang operation 37",
+      "revealedGuide": "Run by other criminals. Not found yet."
+    },
+    {
+      "id": "go-38",
+      "title": "Gang operation 38",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation. Its location isn't listed yet.",
+      "revealedTitle": "Gang operation 38",
+      "revealedGuide": "Run by other criminals. Not found yet."
+    },
+    {
+      "id": "go-39",
+      "title": "Gang operation 39",
+      "category": "gang-ops",
+      "spoiler": true,
+      "guide": "Clear the operation. Its location isn't listed yet.",
+      "revealedTitle": "Gang operation 39",
+      "revealedGuide": "Run by other criminals. Not found yet."
+    },
+    {
+      "id": "lb-01",
+      "title": "Drug lab 1",
+      "category": "labs",
+      "spoiler": true,
+      "guide": "Destroy the lab.",
+      "region": "Vice City",
+      "revealedTitle": "Kitty Litter lab 1",
+      "revealedGuide": "The first lab, a trailer in the middle of the southern block. Comes with the story."
+    },
+    {
+      "id": "lb-02",
+      "title": "Drug lab 2",
+      "category": "labs",
+      "spoiler": true,
+      "guide": "Destroy the lab.",
+      "region": "Vice City",
+      "revealedTitle": "Kitty Litter lab 2",
+      "revealedGuide": "Balsero: a garage on the north edge, about 3 guards."
+    },
+    {
+      "id": "lb-03",
+      "title": "Drug lab 3",
+      "category": "labs",
+      "spoiler": true,
+      "guide": "Destroy the lab.",
+      "region": "Vice City",
+      "revealedTitle": "Kitty Litter lab 3",
+      "revealedGuide": "Balsero: a garage in the middle building. The keypad code is on a nearby billboard."
+    },
+    {
+      "id": "lb-04",
+      "title": "Drug lab 4",
+      "category": "labs",
+      "spoiler": true,
+      "guide": "Destroy the lab.",
+      "region": "Vice City",
+      "revealedTitle": "Kitty Litter lab 4",
+      "revealedGuide": "Balsero: the second trailer from the south, with a guard and a van."
+    },
+    {
+      "id": "lb-05",
+      "title": "Drug lab 5",
+      "category": "labs",
+      "spoiler": true,
+      "guide": "Destroy the lab.",
+      "region": "Vice City",
+      "revealedTitle": "Kitty Litter lab 5",
+      "revealedGuide": "Central Rockridge: a garage in the middle, entered from the west alley."
+    },
+    {
+      "id": "lb-06",
+      "title": "Drug lab 6",
+      "category": "labs",
+      "spoiler": true,
+      "guide": "Destroy the lab.",
+      "region": "Vice City",
+      "revealedTitle": "Kitty Litter lab 6",
+      "revealedGuide": "Crosstown: a second-floor apartment on the north side."
+    },
+    {
+      "id": "lb-07",
+      "title": "Drug lab 7",
+      "category": "labs",
+      "spoiler": true,
+      "guide": "Destroy the lab.",
+      "region": "Vice City",
+      "revealedTitle": "Kitty Litter lab 7",
+      "revealedGuide": "Crosstown: a garage behind Cross My Heart Tattoos."
+    },
+    {
+      "id": "lb-08",
+      "title": "Drug lab 8",
+      "category": "labs",
+      "spoiler": true,
+      "guide": "Destroy the lab.",
+      "region": "Vice City",
+      "revealedTitle": "Kitty Litter lab 8",
+      "revealedGuide": "Crosstown: a garage on the east side of the middle building."
+    },
+    {
+      "id": "lb-09",
+      "title": "Drug lab 9",
+      "category": "labs",
+      "spoiler": true,
+      "guide": "Destroy the lab.",
+      "region": "Vice City",
+      "revealedTitle": "Kitty Litter lab 9",
+      "revealedGuide": "Decor District: a garage in the northwest building by the highway."
+    },
+    {
+      "id": "lb-10",
+      "title": "Drug lab 10",
+      "category": "labs",
+      "spoiler": true,
+      "guide": "Destroy the lab.",
+      "region": "Vice City",
+      "revealedTitle": "Kitty Litter lab 10",
+      "revealedGuide": "Little Cuba: the long building in the middle; pick or break the door."
+    },
+    {
+      "id": "lb-11",
+      "title": "Drug lab 11",
+      "category": "labs",
+      "spoiler": true,
+      "guide": "Destroy the lab.",
+      "region": "Vice City",
+      "revealedTitle": "Kitty Litter lab 11",
+      "revealedGuide": "Salton: an apartment, in through the open east window."
+    },
+    {
+      "id": "lb-12",
+      "title": "Drug lab 12",
+      "category": "labs",
+      "spoiler": true,
+      "guide": "Destroy the lab.",
+      "region": "Vice City",
+      "revealedTitle": "Kitty Litter lab 12",
+      "revealedGuide": "Tequesta: upper floor of the eastern C-shaped motel."
+    },
+    {
+      "id": "lb-13",
+      "title": "Drug lab 13",
+      "category": "labs",
+      "spoiler": true,
+      "guide": "Destroy the lab.",
+      "region": "Vice-Dale County",
+      "revealedTitle": "Kitty Litter lab 13",
+      "revealedGuide": "Vice-Dale: a trailer in the middle, in through the east window."
+    },
+    {
+      "id": "an-american-alligator",
+      "title": "American Alligator",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "imageURL": "https://leonidalog.app/images/animals/american-alligator.jpg",
+      "spoiler": true,
+      "guide": "Big swamp predator that hides well; keep your distance.",
+      "stats": [
+        {
+          "label": "Type",
+          "value": "Reptile"
+        },
+        {
+          "label": "Habitat",
+          "value": "Wetland"
+        },
+        {
+          "label": "Best weapon",
+          "value": "Shrewsbury SM-69"
+        },
+        {
+          "label": "In-game log",
+          "value": "Hunting, 2 of 61"
+        }
+      ]
+    },
+    {
+      "id": "an-american-crocodile",
+      "title": "American Crocodile",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "imageURL": "https://leonidalog.app/images/animals/american-crocodile.jpg",
+      "spoiler": true,
+      "guide": "Leonida's biggest reptile, at home in salt water along the coast.",
+      "stats": [
+        {
+          "label": "Type",
+          "value": "Reptile"
+        },
+        {
+          "label": "Habitat",
+          "value": "Coastal"
+        },
+        {
+          "label": "Best weapon",
+          "value": "Shrewsbury SM-69"
+        },
+        {
+          "label": "In-game log",
+          "value": "Hunting, 5 of 61"
+        }
+      ]
+    },
+    {
+      "id": "an-box-turtle",
+      "title": "Box Turtle",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "imageURL": "https://leonidalog.app/images/animals/box-turtle.jpg",
+      "spoiler": true,
+      "guide": "Small turtle that shuts itself inside its shell; easiest to find in the swamps.",
+      "stats": [
+        {
+          "label": "Type",
+          "value": "Reptile"
+        },
+        {
+          "label": "Best weapon",
+          "value": "Wortham W-22"
+        },
+        {
+          "label": "In-game log",
+          "value": "Hunting, 9 of 61"
+        }
+      ]
+    },
+    {
+      "id": "an-cane-toad",
+      "title": "Cane Toad",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "imageURL": "https://leonidalog.app/images/animals/cane-toad.jpg",
+      "spoiler": true,
+      "guide": "Huge toad that lives mostly in the swamps. A heavy gun spoils the pelt.",
+      "stats": [
+        {
+          "label": "Type",
+          "value": "Amphibian"
+        },
+        {
+          "label": "Habitat",
+          "value": "Coastal, Wetland"
+        },
+        {
+          "label": "Best weapon",
+          "value": "Wortham W-22"
+        },
+        {
+          "label": "In-game log",
+          "value": "Hunting, 11 of 61"
+        }
+      ]
+    },
+    {
+      "id": "an-green-iguana",
+      "title": "Green Iguana",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "imageURL": "https://leonidalog.app/images/animals/green-iguana.jpg",
+      "spoiler": true,
+      "guide": "Invasive lizard all over the warm south, towns included, usually near water.",
+      "stats": [
+        {
+          "label": "Type",
+          "value": "Reptile"
+        },
+        {
+          "label": "Best weapon",
+          "value": "Wortham W-22"
+        },
+        {
+          "label": "In-game log",
+          "value": "Hunting, 21 of 61"
+        }
+      ]
+    },
+    {
+      "id": "an-leonida-cottonmouth",
+      "title": "Leonida Cottonmouth",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "imageURL": "https://leonidalog.app/images/animals/leonida-cottonmouth.jpg",
+      "spoiler": true,
+      "guide": "Venomous swamp snake with dark bands around a thick body.",
+      "stats": [
+        {
+          "label": "Type",
+          "value": "Reptile"
+        },
+        {
+          "label": "Habitat",
+          "value": "Coastal, Wetland"
+        },
+        {
+          "label": "Best weapon",
+          "value": "Wortham W-22"
+        },
+        {
+          "label": "In-game log",
+          "value": "Hunting, 26 of 61"
+        }
+      ]
+    },
+    {
+      "id": "an-marsh-rabbit",
+      "title": "Marsh Rabbit",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "imageURL": "https://leonidalog.app/images/animals/marsh-rabbit.jpg",
+      "spoiler": true,
+      "guide": "Shy little rabbit of the swamps and southern coast; a light rifle does it.",
+      "stats": [
+        {
+          "label": "Type",
+          "value": "Mammal"
+        },
+        {
+          "label": "Habitat",
+          "value": "Coastal"
+        },
+        {
+          "label": "Best weapon",
+          "value": "Wortham W-22"
+        },
+        {
+          "label": "In-game log",
+          "value": "Hunting, 31 of 61"
+        }
+      ]
+    },
+    {
+      "id": "an-mottled-duck",
+      "title": "Mottled Duck",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "imageURL": "https://leonidalog.app/images/animals/mottled-duck.jpg",
+      "spoiler": true,
+      "guide": "Freshwater duck with a glossy blue patch on each wing.",
+      "stats": [
+        {
+          "label": "Type",
+          "value": "Bird"
+        },
+        {
+          "label": "Habitat",
+          "value": "Wetland"
+        },
+        {
+          "label": "Best weapon",
+          "value": "Wortham W-22"
+        },
+        {
+          "label": "In-game log",
+          "value": "Hunting, 33 of 61"
+        }
+      ]
+    },
+    {
+      "id": "an-north-american-river-otter",
+      "title": "North American River Otter",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "imageURL": "https://leonidalog.app/images/animals/north-american-river-otter.jpg",
+      "spoiler": true,
+      "guide": "Dark brown otter of the swamps, sometimes along rivers.",
+      "stats": [
+        {
+          "label": "Type",
+          "value": "Mammal"
+        },
+        {
+          "label": "Habitat",
+          "value": "Wetland"
+        },
+        {
+          "label": "Best weapon",
+          "value": "Wortham W-22"
+        },
+        {
+          "label": "In-game log",
+          "value": "Hunting, 36 of 61"
+        }
+      ]
+    },
+    {
+      "id": "an-softshell-turtle",
+      "title": "Softshell Turtle",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "imageURL": "https://leonidalog.app/images/animals/softshell-turtle.jpg",
+      "spoiler": true,
+      "guide": "Swamp turtle with a long snorkel nose; a light rifle is enough.",
+      "stats": [
+        {
+          "label": "Type",
+          "value": "Reptile"
+        },
+        {
+          "label": "Habitat",
+          "value": "Wetland"
+        },
+        {
+          "label": "Best weapon",
+          "value": "Wortham W-22"
+        },
+        {
+          "label": "In-game log",
+          "value": "Hunting, 46 of 61"
+        }
+      ]
+    },
+    {
+      "id": "an-spectacled-caiman",
+      "title": "Spectacled Caiman",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "imageURL": "https://leonidalog.app/images/animals/spectacled-caiman.jpg",
+      "spoiler": true,
+      "guide": "Smaller cousin of the alligator, just as tough.",
+      "stats": [
+        {
+          "label": "Type",
+          "value": "Reptile"
+        },
+        {
+          "label": "Habitat",
+          "value": "Wetland"
+        },
+        {
+          "label": "Best weapon",
+          "value": "Shrewsbury SM-69"
+        },
+        {
+          "label": "In-game log",
+          "value": "Hunting, 48 of 61"
+        }
+      ]
+    },
+    {
+      "id": "an-whitetail-deer",
+      "title": "Whitetail Deer",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "imageURL": "https://leonidalog.app/images/animals/whitetail-deer.jpg",
+      "spoiler": true,
+      "guide": "Grazes in woods, swamps and grassy lowlands. Spooks easily, so shoot from far off.",
+      "stats": [
+        {
+          "label": "Type",
+          "value": "Mammal"
+        },
+        {
+          "label": "Habitat",
+          "value": "Wetland"
+        },
+        {
+          "label": "Best weapon",
+          "value": "Shrewsbury SM-69"
+        },
+        {
+          "label": "In-game log",
+          "value": "Hunting, 52 of 61"
+        }
+      ]
+    },
+    {
+      "id": "an-wild-boar",
+      "title": "Wild Boar",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "imageURL": "https://leonidalog.app/images/animals/wild-boar.jpg",
+      "spoiler": true,
+      "guide": "Aggressive forager of woods and swamps, out mostly at night.",
+      "stats": [
+        {
+          "label": "Type",
+          "value": "Mammal"
+        },
+        {
+          "label": "Habitat",
+          "value": "Forest, Wetland"
+        },
+        {
+          "label": "Best weapon",
+          "value": "Shrewsbury SM-69"
+        },
+        {
+          "label": "In-game log",
+          "value": "Hunting, 53 of 61"
+        }
+      ]
+    },
+    {
+      "id": "an-atlantic-spadefish",
+      "title": "Atlantic Spadefish",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "imageURL": "https://leonidalog.app/images/animals/atlantic-spadefish.jpg",
+      "spoiler": true,
+      "guide": "Round, striped fish found along most of the coast.",
+      "stats": [
+        {
+          "label": "Water",
+          "value": "Marine"
+        },
+        {
+          "label": "Size",
+          "value": "Medium"
+        },
+        {
+          "label": "In-game log",
+          "value": "Fishing, 2 of 35"
+        }
+      ]
+    },
+    {
+      "id": "an-atlantic-spanish-mackerel",
+      "title": "Atlantic Spanish Mackerel",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "imageURL": "https://leonidalog.app/images/animals/atlantic-spanish-mackerel.jpg",
+      "spoiler": true,
+      "guide": "Slim silver fish with yellow spots, all along the coast.",
+      "stats": [
+        {
+          "label": "Water",
+          "value": "Marine"
+        },
+        {
+          "label": "Size",
+          "value": "Small"
+        },
+        {
+          "label": "In-game log",
+          "value": "Fishing, 3 of 35"
+        }
+      ]
+    },
+    {
+      "id": "an-atlantic-tarpon",
+      "title": "Atlantic Tarpon",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "spoiler": true,
+      "guide": "Big silver-green fish, in shallow and deep sea alike.",
+      "stats": [
+        {
+          "label": "Water",
+          "value": "Marine"
+        },
+        {
+          "label": "Size",
+          "value": "Large"
+        },
+        {
+          "label": "In-game log",
+          "value": "Fishing, 4 of 35"
+        }
+      ]
+    },
+    {
+      "id": "an-bluestriped-grunt",
+      "title": "Bluestriped Grunt",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "imageURL": "https://leonidalog.app/images/animals/bluestriped-grunt.jpg",
+      "spoiler": true,
+      "guide": "Yellow fish with bright blue stripes, in the warm southern waters.",
+      "stats": [
+        {
+          "label": "Water",
+          "value": "Marine"
+        },
+        {
+          "label": "Size",
+          "value": "Small"
+        },
+        {
+          "label": "In-game log",
+          "value": "Fishing, 9 of 35"
+        }
+      ]
+    },
+    {
+      "id": "an-cobia",
+      "title": "Cobia",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "imageURL": "https://leonidalog.app/images/animals/cobia.jpg",
+      "spoiler": true,
+      "guide": "Brown-banded fish of the deep sea around Leonida.",
+      "stats": [
+        {
+          "label": "Water",
+          "value": "Marine"
+        },
+        {
+          "label": "Size",
+          "value": "Large"
+        },
+        {
+          "label": "In-game log",
+          "value": "Fishing, 12 of 35"
+        }
+      ]
+    },
+    {
+      "id": "an-common-snook",
+      "title": "Common Snook",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "imageURL": "https://leonidalog.app/images/animals/common-snook.jpg",
+      "spoiler": true,
+      "guide": "Has a thin black stripe along its side; off the east coast.",
+      "stats": [
+        {
+          "label": "Water",
+          "value": "Marine"
+        },
+        {
+          "label": "Size",
+          "value": "Medium"
+        },
+        {
+          "label": "In-game log",
+          "value": "Fishing, 13 of 35"
+        }
+      ]
+    },
+    {
+      "id": "an-great-barracuda",
+      "title": "Great Barracuda",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "imageURL": "https://leonidalog.app/images/animals/great-barracuda.jpg",
+      "spoiler": true,
+      "guide": "Toothy silver-blue hunter off the south coast and in deeper water.",
+      "stats": [
+        {
+          "label": "Water",
+          "value": "Marine"
+        },
+        {
+          "label": "Size",
+          "value": "Large"
+        },
+        {
+          "label": "In-game log",
+          "value": "Fishing, 14 of 35"
+        }
+      ]
+    },
+    {
+      "id": "an-green-moray-eel",
+      "title": "Green Moray Eel",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "imageURL": "https://leonidalog.app/images/animals/green-moray-eel.jpg",
+      "spoiler": true,
+      "guide": "Green eel living in the coastal coral reefs.",
+      "stats": [
+        {
+          "label": "Water",
+          "value": "Marine"
+        },
+        {
+          "label": "Size",
+          "value": "Large"
+        },
+        {
+          "label": "In-game log",
+          "value": "Fishing, 16 of 35"
+        }
+      ]
+    },
+    {
+      "id": "an-hogfish",
+      "title": "Hogfish",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "imageURL": "https://leonidalog.app/images/animals/hogfish.jpg",
+      "spoiler": true,
+      "guide": "Pink fish with a pig-like snout, in warm coastal water.",
+      "stats": [
+        {
+          "label": "Water",
+          "value": "Marine"
+        },
+        {
+          "label": "Size",
+          "value": "Medium"
+        },
+        {
+          "label": "In-game log",
+          "value": "Fishing, 17 of 35"
+        }
+      ]
+    },
+    {
+      "id": "an-mahi-mahi",
+      "title": "Mahi-Mahi",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "imageURL": "https://leonidalog.app/images/animals/mahi-mahi.jpg",
+      "spoiler": true,
+      "guide": "Blue-green with a bulging head; reefs and deeper water.",
+      "stats": [
+        {
+          "label": "Water",
+          "value": "Marine"
+        },
+        {
+          "label": "Size",
+          "value": "Large"
+        },
+        {
+          "label": "In-game log",
+          "value": "Fishing, 22 of 35"
+        }
+      ]
+    },
+    {
+      "id": "an-northern-red-snapper",
+      "title": "Northern Red Snapper",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "imageURL": "https://leonidalog.app/images/animals/northern-red-snapper.jpg",
+      "spoiler": true,
+      "guide": "Bright red, thick-bodied fish, most common in the warmer south.",
+      "stats": [
+        {
+          "label": "Water",
+          "value": "Marine"
+        },
+        {
+          "label": "Size",
+          "value": "Medium"
+        },
+        {
+          "label": "In-game log",
+          "value": "Fishing, 23 of 35"
+        }
+      ]
+    },
+    {
+      "id": "an-spotted-moray-eel",
+      "title": "Spotted Moray Eel",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "imageURL": "https://leonidalog.app/images/animals/spotted-moray-eel.jpg",
+      "spoiler": true,
+      "guide": "Spotted eel hiding in the coastal reefs.",
+      "stats": [
+        {
+          "label": "Water",
+          "value": "Marine"
+        },
+        {
+          "label": "Size",
+          "value": "Medium"
+        },
+        {
+          "label": "In-game log",
+          "value": "Fishing, 30 of 35"
+        }
+      ]
+    },
+    {
+      "id": "an-stoplight-parrotfish",
+      "title": "Stoplight Parrotfish",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "imageURL": "https://leonidalog.app/images/animals/stoplight-parrotfish.jpg",
+      "spoiler": true,
+      "guide": "Colourful fish with a yellow spot near its gills.",
+      "stats": [
+        {
+          "label": "Water",
+          "value": "Marine"
+        },
+        {
+          "label": "Size",
+          "value": "Small"
+        },
+        {
+          "label": "In-game log",
+          "value": "Fishing, 31 of 35"
+        }
+      ]
+    },
+    {
+      "id": "an-yellowtail-snapper",
+      "title": "Yellowtail Snapper",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "imageURL": "https://leonidalog.app/images/animals/yellowtail-snapper.jpg",
+      "spoiler": true,
+      "guide": "Yellow forked tail; southern coast and deeper western water.",
+      "stats": [
+        {
+          "label": "Water",
+          "value": "Marine"
+        },
+        {
+          "label": "Size",
+          "value": "Small"
+        },
+        {
+          "label": "In-game log",
+          "value": "Fishing, 35 of 35"
+        }
+      ]
+    },
+    {
+      "id": "an-bottlenose-dolphin",
+      "title": "Bottlenose Dolphin",
+      "category": "animals",
+      "subgroup": "Mammals",
+      "imageURL": "https://leonidalog.app/images/animals/bottlenose-dolphin.jpg",
+      "spoiler": true,
+      "guide": "Common in the sea all around Leonida; long snout.",
+      "stats": [
+        {
+          "label": "In-game log",
+          "value": "Mammals, 5 of 18"
+        }
+      ]
+    },
+    {
+      "id": "an-short-beaked-common-dolphin",
+      "title": "Short-Beaked Common Dolphin",
+      "category": "animals",
+      "subgroup": "Mammals",
+      "imageURL": "https://leonidalog.app/images/animals/short-beaked-common-dolphin.jpg",
+      "spoiler": true,
+      "guide": "Smaller dolphin off the coast with an hourglass pattern on its side.",
+      "stats": [
+        {
+          "label": "In-game log",
+          "value": "Mammals, 16 of 18"
+        }
+      ]
+    },
+    {
+      "id": "an-balinese",
+      "title": "Balinese",
+      "category": "animals",
+      "subgroup": "Cats & dogs",
+      "imageURL": "https://leonidalog.app/images/animals/balinese.jpg",
+      "spoiler": true,
+      "guide": "Long-haired pet cat with blue eyes.",
+      "stats": [
+        {
+          "label": "In-game log",
+          "value": "Cats & dogs, 2 of 34"
+        }
+      ]
+    },
+    {
+      "id": "an-green-sea-turtle",
+      "title": "Green Sea Turtle",
+      "category": "animals",
+      "subgroup": "Reptiles & amphibians",
+      "spoiler": true,
+      "guide": "Biggest hard-shelled turtle, around reefs and the coast.",
+      "stats": [
+        {
+          "label": "In-game log",
+          "value": "Reptiles & amphibians, 4 of 6"
+        }
+      ]
+    },
+    {
+      "id": "an-american-crow",
+      "title": "American Crow",
+      "category": "animals",
+      "subgroup": "Birds",
+      "imageURL": "https://leonidalog.app/images/animals/american-crow.jpg",
+      "spoiler": true,
+      "guide": "Clever black bird on trees and rooftops everywhere.",
+      "stats": [
+        {
+          "label": "In-game log",
+          "value": "Birds, 3 of 60"
+        }
+      ]
+    },
+    {
+      "id": "an-american-white-pelican",
+      "title": "American White Pelican",
+      "category": "animals",
+      "subgroup": "Birds",
+      "imageURL": "https://leonidalog.app/images/animals/american-white-pelican.jpg",
+      "spoiler": true,
+      "guide": "The bigger of the two pelicans; swamps, rivers and coast.",
+      "stats": [
+        {
+          "label": "In-game log",
+          "value": "Birds, 9 of 60"
+        }
+      ]
+    },
+    {
+      "id": "an-caspian-tern",
+      "title": "Caspian Tern",
+      "category": "animals",
+      "subgroup": "Birds",
+      "imageURL": "https://leonidalog.app/images/animals/caspian-tern.jpg",
+      "spoiler": true,
+      "guide": "Large tern with a black cap and orange bill, all round the coast.",
+      "stats": [
+        {
+          "label": "In-game log",
+          "value": "Birds, 15 of 60"
+        }
+      ]
+    },
+    {
+      "id": "an-double-crested-cormorant",
+      "title": "Double-Crested Cormorant",
+      "category": "animals",
+      "subgroup": "Birds",
+      "imageURL": "https://leonidalog.app/images/animals/double-crested-cormorant.jpg",
+      "spoiler": true,
+      "guide": "Black water bird with a hooked bill and orange face.",
+      "stats": [
+        {
+          "label": "In-game log",
+          "value": "Birds, 19 of 60"
+        }
+      ]
+    },
+    {
+      "id": "an-eastern-brown-pelican",
+      "title": "Eastern Brown Pelican",
+      "category": "animals",
+      "subgroup": "Birds",
+      "imageURL": "https://leonidalog.app/images/animals/eastern-brown-pelican.jpg",
+      "spoiler": true,
+      "guide": "Coastal pelican, in towns too, that dives for fish.",
+      "stats": [
+        {
+          "label": "In-game log",
+          "value": "Birds, 20 of 60"
+        }
+      ]
+    },
+    {
+      "id": "an-great-blue-heron",
+      "title": "Great Blue Heron",
+      "category": "animals",
+      "subgroup": "Birds",
+      "imageURL": "https://leonidalog.app/images/animals/great-blue-heron.jpg",
+      "spoiler": true,
+      "guide": "Tall blue-grey wading bird of swamps and coast.",
+      "stats": [
+        {
+          "label": "In-game log",
+          "value": "Birds, 24 of 60"
+        }
+      ]
+    },
+    {
+      "id": "an-great-egret",
+      "title": "Great Egret",
+      "category": "animals",
+      "subgroup": "Birds",
+      "imageURL": "https://leonidalog.app/images/animals/great-egret.jpg",
+      "spoiler": true,
+      "guide": "Tall white wading bird with a long pointed bill, mostly in swamps.",
+      "stats": [
+        {
+          "label": "In-game log",
+          "value": "Birds, 25 of 60"
+        }
+      ]
+    },
+    {
+      "id": "an-laughing-gull",
+      "title": "Laughing Gull",
+      "category": "animals",
+      "subgroup": "Birds",
+      "imageURL": "https://leonidalog.app/images/animals/laughing-gull.jpg",
+      "spoiler": true,
+      "guide": "Gull with a black head and a cackling call, on the coast.",
+      "stats": [
+        {
+          "label": "In-game log",
+          "value": "Birds, 31 of 60"
+        }
+      ]
+    },
+    {
+      "id": "an-monk-parakeet",
+      "title": "Monk Parakeet",
+      "category": "animals",
+      "subgroup": "Birds",
+      "imageURL": "https://leonidalog.app/images/animals/monk-parakeet.jpg",
+      "spoiler": true,
+      "guide": "Small green parrot; look in the southern towns.",
+      "stats": [
+        {
+          "label": "In-game log",
+          "value": "Birds, 34 of 60"
+        }
+      ]
+    },
+    {
+      "id": "an-red-crowned-parrot",
+      "title": "Red-Crowned Parrot",
+      "category": "animals",
+      "subgroup": "Birds",
+      "imageURL": "https://leonidalog.app/images/animals/red-crowned-parrot.jpg",
+      "spoiler": true,
+      "guide": "Green parrot with a red forehead, a rare one.",
+      "stats": [
+        {
+          "label": "In-game log",
+          "value": "Birds, 44 of 60"
+        }
+      ]
+    },
+    {
+      "id": "an-red-tailed-hawk",
+      "title": "Red-Tailed Hawk",
+      "category": "animals",
+      "subgroup": "Birds",
+      "imageURL": "https://leonidalog.app/images/animals/red-tailed-hawk.jpg",
+      "spoiler": true,
+      "guide": "Big hawk with a red tail, mostly over forests.",
+      "stats": [
+        {
+          "label": "In-game log",
+          "value": "Birds, 46 of 60"
+        }
+      ]
+    },
+    {
+      "id": "an-roseate-spoonbill",
+      "title": "Roseate Spoonbill",
+      "category": "animals",
+      "subgroup": "Birds",
+      "imageURL": "https://leonidalog.app/images/animals/roseate-spoonbill.jpg",
+      "spoiler": true,
+      "guide": "Pink wading bird with a flat, spoon-shaped bill.",
+      "stats": [
+        {
+          "label": "In-game log",
+          "value": "Birds, 48 of 60"
+        }
+      ]
+    },
+    {
+      "id": "an-turkey-vulture",
+      "title": "Turkey Vulture",
+      "category": "animals",
+      "subgroup": "Birds",
+      "imageURL": "https://leonidalog.app/images/animals/turkey-vulture.jpg",
+      "spoiler": true,
+      "guide": "Brown scavenger with a bare red head.",
+      "stats": [
+        {
+          "label": "In-game log",
+          "value": "Birds, 56 of 60"
+        }
+      ]
+    },
+    {
+      "id": "an-whooping-crane",
+      "title": "Whooping Crane",
+      "category": "animals",
+      "subgroup": "Birds",
+      "imageURL": "https://leonidalog.app/images/animals/whooping-crane.jpg",
+      "spoiler": true,
+      "guide": "Tall white crane with black wingtips and a red forehead.",
+      "stats": [
+        {
+          "label": "In-game log",
+          "value": "Birds, 58 of 60"
+        }
+      ]
+    },
+    {
+      "id": "an-wood-stork",
+      "title": "Wood Stork",
+      "category": "animals",
+      "subgroup": "Birds",
+      "imageURL": "https://leonidalog.app/images/animals/wood-stork.jpg",
+      "spoiler": true,
+      "guide": "Bald-headed wading bird of the northern coast and swamps.",
+      "stats": [
+        {
+          "label": "In-game log",
+          "value": "Birds, 59 of 60"
+        }
+      ]
+    },
+    {
+      "id": "an-atlantic-goliath-grouper",
+      "title": "Atlantic Goliath Grouper",
+      "category": "animals",
+      "subgroup": "Aquatic",
+      "imageURL": "https://leonidalog.app/images/animals/atlantic-goliath-grouper.jpg",
+      "spoiler": true,
+      "guide": "Huge mottled brown fish of warm reefs.",
+      "stats": [
+        {
+          "label": "In-game log",
+          "value": "Aquatic, 2 of 18"
+        }
+      ]
+    },
+    {
+      "id": "an-moon-jellyfish",
+      "title": "Moon Jellyfish",
+      "category": "animals",
+      "subgroup": "Aquatic",
+      "imageURL": "https://leonidalog.app/images/animals/moon-jellyfish.jpg",
+      "spoiler": true,
+      "guide": "See-through jellyfish, usually in deeper water.",
+      "stats": [
+        {
+          "label": "In-game log",
+          "value": "Aquatic, 12 of 18"
+        }
+      ]
+    },
+    {
+      "id": "an-spotted-eagle-ray",
+      "title": "Spotted Eagle Ray",
+      "category": "animals",
+      "subgroup": "Aquatic",
+      "imageURL": "https://leonidalog.app/images/animals/spotted-eagle-ray.jpg",
+      "spoiler": true,
+      "guide": "Ray with white spots and a long tail, along the coast.",
+      "stats": [
+        {
+          "label": "In-game log",
+          "value": "Aquatic, 16 of 18"
+        }
+      ]
+    },
+    {
+      "id": "an-tiger-shark",
+      "title": "Tiger Shark",
+      "category": "animals",
+      "subgroup": "Aquatic",
+      "imageURL": "https://leonidalog.app/images/animals/tiger-shark.jpg",
+      "spoiler": true,
+      "guide": "Huge striped shark that hunts at night, in all of Leonida's seas.",
+      "stats": [
+        {
+          "label": "In-game log",
+          "value": "Aquatic, 17 of 18"
+        }
+      ]
+    },
+    {
+      "id": "an-hunts",
+      "title": "More hunting animals",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "guide": "Count the animals you've studied in the game's Hunting group that don't have their own row here yet. 13 of the group's 61 are listed above.",
+      "tallyTarget": 48
+    },
+    {
+      "id": "an-fish",
+      "title": "More fish",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "spoiler": true,
+      "guide": "Count the animals you've studied in the game's Fishing group that don't have their own row here yet. 14 of the group's 35 are listed above.",
+      "tallyTarget": 21
+    },
+    {
+      "id": "an-mammals",
+      "title": "More mammals",
+      "category": "animals",
+      "subgroup": "Mammals",
+      "spoiler": true,
+      "guide": "Count the animals you've studied in the game's Mammals group that don't have their own row here yet. 2 of the group's 18 are listed above.",
+      "tallyTarget": 16
+    },
+    {
+      "id": "an-cats-dogs",
+      "title": "More cats & dogs",
+      "category": "animals",
+      "subgroup": "Cats & dogs",
+      "spoiler": true,
+      "guide": "Count the animals you've studied in the game's Cats & dogs group that don't have their own row here yet. 1 of the group's 34 are listed above.",
+      "tallyTarget": 33
+    },
+    {
+      "id": "an-reptiles",
+      "title": "More reptiles & amphibians",
+      "category": "animals",
+      "subgroup": "Reptiles & amphibians",
+      "spoiler": true,
+      "guide": "Count the animals you've studied in the game's Reptiles & amphibians group that don't have their own row here yet. 1 of the group's 6 are listed above.",
+      "tallyTarget": 5
+    },
+    {
+      "id": "an-birds",
+      "title": "More birds",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "guide": "Count the animals you've studied in the game's Birds group that don't have their own row here yet. 15 of the group's 60 are listed above.",
+      "tallyTarget": 45
+    },
+    {
+      "id": "an-aquatic",
+      "title": "More aquatic animals",
+      "category": "animals",
+      "subgroup": "Aquatic",
+      "spoiler": true,
+      "guide": "Count the animals you've studied in the game's Aquatic group that don't have their own row here yet. 4 of the group's 18 are listed above.",
+      "tallyTarget": 14
+    },
+    {
+      "id": "an-other",
+      "title": "Other animals",
+      "category": "animals",
+      "subgroup": "Other",
+      "spoiler": true,
+      "guide": "Count the animals you've studied in the game's Other group. None of its 23 have their own row here yet.",
+      "tallyTarget": 23
+    },
+    {
+      "id": "kw-1",
+      "title": "Doubloons",
+      "category": "kenton-sets",
+      "subgroup": "Wreck 1: Nuestra Señora del Ocio",
+      "spoiler": true,
+      "guide": "Spanish cargo wreck off the coast of Key Lento, from Kenton's first job. Find all 10 doubloons with the metal detector and give them to Kenton.",
+      "tallyTarget": 10
+    },
+    {
+      "id": "kw-2-01",
+      "title": "Ancient Snuff Box",
+      "category": "kenton-sets",
+      "subgroup": "Wreck 2: Nuestra Señora de la Ética Laxa",
+      "spoiler": true,
+      "guide": "Treasure 1 of 5 from wreck 2, Nuestra Señora de la Ética Laxa, a Spanish wreck in the Leonida Keys. Find it with the metal detector and give it to Kenton."
+    },
+    {
+      "id": "kw-2-02",
+      "title": "Battered Doubloon",
+      "category": "kenton-sets",
+      "subgroup": "Wreck 2: Nuestra Señora de la Ética Laxa",
+      "spoiler": true,
+      "guide": "Treasure 2 of 5 from wreck 2, Nuestra Señora de la Ética Laxa, a Spanish wreck in the Leonida Keys. Find it with the metal detector and give it to Kenton."
+    },
+    {
+      "id": "kw-2-03",
+      "title": "Ceremonial Spoon",
+      "category": "kenton-sets",
+      "subgroup": "Wreck 2: Nuestra Señora de la Ética Laxa",
+      "spoiler": true,
+      "guide": "Treasure 3 of 5 from wreck 2, Nuestra Señora de la Ética Laxa, a Spanish wreck in the Leonida Keys. Find it with the metal detector and give it to Kenton."
+    },
+    {
+      "id": "kw-2-04",
+      "title": "Golden Chalice",
+      "category": "kenton-sets",
+      "subgroup": "Wreck 2: Nuestra Señora de la Ética Laxa",
+      "spoiler": true,
+      "guide": "Treasure 4 of 5 from wreck 2, Nuestra Señora de la Ética Laxa, a Spanish wreck in the Leonida Keys. Find it with the metal detector and give it to Kenton."
+    },
+    {
+      "id": "kw-2-05",
+      "title": "Golden Pendant",
+      "category": "kenton-sets",
+      "subgroup": "Wreck 2: Nuestra Señora de la Ética Laxa",
+      "spoiler": true,
+      "guide": "Treasure 5 of 5 from wreck 2, Nuestra Señora de la Ética Laxa, a Spanish wreck in the Leonida Keys. Find it with the metal detector and give it to Kenton."
+    },
+    {
+      "id": "kw-3-01",
+      "title": "Antique Candlestick",
+      "category": "kenton-sets",
+      "subgroup": "Wreck 3: Nuestra Señora de la Noche",
+      "spoiler": true,
+      "guide": "Treasure 1 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton."
+    },
+    {
+      "id": "kw-3-02",
+      "title": "Dragon Pipe",
+      "category": "kenton-sets",
+      "subgroup": "Wreck 3: Nuestra Señora de la Noche",
+      "spoiler": true,
+      "guide": "Treasure 2 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton."
+    },
+    {
+      "id": "kw-3-03",
+      "title": "Ivory Saint",
+      "category": "kenton-sets",
+      "subgroup": "Wreck 3: Nuestra Señora de la Noche",
+      "spoiler": true,
+      "guide": "Treasure 3 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton."
+    },
+    {
+      "id": "kw-3-04",
+      "title": "Pewter Gauntlet",
+      "category": "kenton-sets",
+      "subgroup": "Wreck 3: Nuestra Señora de la Noche",
+      "spoiler": true,
+      "guide": "Treasure 4 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton."
+    },
+    {
+      "id": "kw-3-05",
+      "title": "Purple Gemstone",
+      "category": "kenton-sets",
+      "subgroup": "Wreck 3: Nuestra Señora de la Noche",
+      "spoiler": true,
+      "guide": "Treasure 5 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton."
+    },
+    {
+      "id": "kw-3-06",
+      "title": "Serpentine Statue",
+      "category": "kenton-sets",
+      "subgroup": "Wreck 3: Nuestra Señora de la Noche",
+      "spoiler": true,
+      "guide": "Treasure 6 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton."
+    },
+    {
+      "id": "kw-3-07",
+      "title": "Stained Doubloon",
+      "category": "kenton-sets",
+      "subgroup": "Wreck 3: Nuestra Señora de la Noche",
+      "spoiler": true,
+      "guide": "Treasure 7 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton."
+    },
+    {
+      "id": "kw-4",
+      "title": "Treasures (wreck 4)",
+      "category": "kenton-sets",
+      "subgroup": "Wreck 4: Urca de Cinco Torres",
+      "spoiler": true,
+      "guide": "Spanish wreck in the Keys. Find its 6 treasures with the metal detector and give them to Kenton. The treasures get their own rows once they're named.",
+      "tallyTarget": 6
+    },
+    {
+      "id": "kw-5",
+      "title": "Treasures (wreck 5)",
+      "category": "kenton-sets",
+      "subgroup": "Wreck 5: Nuestra Señora Lujuriosa",
+      "spoiler": true,
+      "guide": "Spanish wreck off the Leonida coast. Find its 6 treasures with the metal detector and give them to Kenton. The treasures get their own rows once they're named.",
+      "tallyTarget": 6
+    },
+    {
+      "id": "kw-6",
+      "title": "Treasures (wreck 6)",
+      "category": "kenton-sets",
+      "subgroup": "Wreck 6: Urca de Santa Sierra",
+      "spoiler": true,
+      "guide": "Spanish wreck in South Leonida. Find its 6 treasures with the metal detector and give them to Kenton. The treasures get their own rows once they're named.",
+      "tallyTarget": 6
     }
   ],
   "rules": {
@@ -4625,7 +7557,7 @@
         "target": 70,
         "link": {
           "type": "category",
-          "category": "challenges"
+          "category": "game-challenges"
         },
         "group": "Exploration & activities",
         "tier": "hundred"
@@ -4896,5 +7828,5 @@
     "unlockRequirements": {},
     "platinum": "tr-01"
   },
-  "_note": "Confirmed content only. v7: the six named regions and the eleven activities (Game Informer, 29 Sep 2026, plus Wyman's Classic Car Collection). v8: the 55-trophy list (Xbox achievement data via Exophase, and Press Start's PS5 list, 18 Nov 2026); every new item is marked spoiler, and story and secret trophies have neutral titles. v9: the real names and how-tos behind the 27 neutral trophies, in revealedTitle/revealedGuide (shown by spoiler-shield builds once done or revealed). v10: 91 story missions (PowerPyx walkthrough, PC Gamer, Press Start), 39 Strangers & Freaks (PowerPyx), and the game's own 100% checklist as 34 items with the 100% thresholds (PowerPyx); the Path to 100% now follows that checklist, and the 11 activities moved to 100%+. Card sets, meditation, playlists, video games, pool, mini golf and shooting ranges are listed one by one (PowerPyx). Bank jobs, payday loans, Smash 'N' Grabs, race challenges and the 80 challenges are listed one by one too (PowerPyx)."
+  "_note": "Confirmed content only. v7: the six named regions and the eleven activities (Game Informer, 29 Sep 2026, plus Wyman's Classic Car Collection). v8: the 55-trophy list (Xbox achievement data via Exophase, and Press Start's PS5 list, 18 Nov 2026); every new item is marked spoiler, and story and secret trophies have neutral titles. v9: the real names and how-tos behind the 27 neutral trophies, in revealedTitle/revealedGuide (shown by spoiler-shield builds once done or revealed). v10: 91 story missions (PowerPyx walkthrough, PC Gamer, Press Start), 39 Strangers & Freaks (PowerPyx), and the game's own 100% checklist as 34 items with the 100% thresholds (PowerPyx); the Path to 100% now follows that checklist, and the 11 activities moved to 100%+. Card sets, meditation, playlists, video games, pool, mini golf and shooting ranges are listed one by one (PowerPyx). Bank jobs, payday loans, Smash 'N' Grabs, race challenges and the 80 challenges are listed one by one too (PowerPyx). v11: card sets, meditation and playlists are marked collectible, for Progress's Collectibles card. Also v11: lists PowerPyx is still filling in (flamingos, magazines, book swaps, WAiNK, stunt jumps, unique races, gang operations, drug labs) are listed item by item with what's known so far, alongside the 100% counter rows; more items get added as the lists grow. Animals: the game's 8 animal groups as counters (255 in all, PowerPyx), until a species list exists. From Danny's own in-game Progress captures (18 Nov): 50 animal species, and Kenton's 6 wrecks with 12 named treasures (descriptions in our own words)."
 }
