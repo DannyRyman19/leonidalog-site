@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "categories": [
     {
       "id": "landmark",
@@ -171,7 +171,9 @@
           "label": "Gamerscore",
           "value": "5"
         }
-      ]
+      ],
+      "revealedTitle": "Just Like Paradise",
+      "revealedGuide": "Finish the story mission Gone Fishing."
     },
     {
       "id": "tr-03",
@@ -185,7 +187,9 @@
           "label": "Gamerscore",
           "value": "20"
         }
-      ]
+      ],
+      "revealedTitle": "Paradise Lost",
+      "revealedGuide": "Finish chapter 1 of the story."
     },
     {
       "id": "tr-04",
@@ -199,7 +203,9 @@
           "label": "Gamerscore",
           "value": "20"
         }
-      ]
+      ],
+      "revealedTitle": "T**s Ass Drug Money",
+      "revealedGuide": "Finish chapter 2 of the story."
     },
     {
       "id": "tr-05",
@@ -213,7 +219,9 @@
           "label": "Gamerscore",
           "value": "20"
         }
-      ]
+      ],
+      "revealedTitle": "Vice City, Baby!",
+      "revealedGuide": "Finish chapter 3 of the story."
     },
     {
       "id": "tr-06",
@@ -227,7 +235,9 @@
           "label": "Gamerscore",
           "value": "20"
         }
-      ]
+      ],
+      "revealedTitle": "Top of the World, Ma",
+      "revealedGuide": "Finish chapter 4 of the story."
     },
     {
       "id": "tr-07",
@@ -241,7 +251,9 @@
           "label": "Gamerscore",
           "value": "50"
         }
-      ]
+      ],
+      "revealedTitle": "You Gotta Know When to Get Off",
+      "revealedGuide": "Finish the story's final mission."
     },
     {
       "id": "tr-08",
@@ -255,7 +267,9 @@
           "label": "Gamerscore",
           "value": "10"
         }
-      ]
+      ],
+      "revealedTitle": "Trust",
+      "revealedGuide": "Finish the story mission Breakfast Run."
     },
     {
       "id": "tr-09",
@@ -269,7 +283,9 @@
           "label": "Gamerscore",
           "value": "25"
         }
-      ]
+      ],
+      "revealedTitle": "Break the Bank",
+      "revealedGuide": "Finish the story mission The Cartel Heist."
     },
     {
       "id": "tr-10",
@@ -283,7 +299,9 @@
           "label": "Gamerscore",
           "value": "15"
         }
-      ]
+      ],
+      "revealedTitle": "Family Matters",
+      "revealedGuide": "Finish the story mission Child's Play."
     },
     {
       "id": "tr-11",
@@ -297,7 +315,9 @@
           "label": "Gamerscore",
           "value": "15"
         }
-      ]
+      ],
+      "revealedTitle": "DWNFALL",
+      "revealedGuide": "Finish the story mission Headliners."
     },
     {
       "id": "tr-12",
@@ -311,7 +331,9 @@
           "label": "Gamerscore",
           "value": "25"
         }
-      ]
+      ],
+      "revealedTitle": "Hi-Jacked",
+      "revealedGuide": "Finish the story mission VCIA Takedown."
     },
     {
       "id": "tr-13",
@@ -325,7 +347,9 @@
           "label": "Gamerscore",
           "value": "25"
         }
-      ]
+      ],
+      "revealedTitle": "Snow Storm",
+      "revealedGuide": "Finish the story mission Operation Savage Glory."
     },
     {
       "id": "tr-14",
@@ -453,7 +477,9 @@
           "label": "Gamerscore",
           "value": "15"
         }
-      ]
+      ],
+      "revealedTitle": "Road to Rehabilitation",
+      "revealedGuide": "Finish Andy's last stranger mission."
     },
     {
       "id": "tr-23",
@@ -467,7 +493,9 @@
           "label": "Gamerscore",
           "value": "15"
         }
-      ]
+      ],
+      "revealedTitle": "This Was No Boat Accident",
+      "revealedGuide": "Finish Kenton's last stranger mission."
     },
     {
       "id": "tr-24",
@@ -481,7 +509,9 @@
           "label": "Gamerscore",
           "value": "15"
         }
-      ]
+      ],
+      "revealedTitle": "The Lone Rider",
+      "revealedGuide": "Finish Billy's last stranger mission."
     },
     {
       "id": "tr-25",
@@ -510,7 +540,9 @@
           "label": "Gamerscore",
           "value": "20"
         }
-      ]
+      ],
+      "revealedTitle": "Supply & Demand",
+      "revealedGuide": "Finish Randy's last stranger mission."
     },
     {
       "id": "tr-27",
@@ -524,7 +556,9 @@
           "label": "Gamerscore",
           "value": "15"
         }
-      ]
+      ],
+      "revealedTitle": "Spin On This!",
+      "revealedGuide": "Finish Tyrone's last stranger mission."
     },
     {
       "id": "tr-28",
@@ -668,7 +702,9 @@
           "label": "Gamerscore",
           "value": "10"
         }
-      ]
+      ],
+      "revealedTitle": "Catch Me If You Can",
+      "revealedGuide": "Leave the VCIA by an exit they didn't plan for you."
     },
     {
       "id": "tr-38",
@@ -682,7 +718,9 @@
           "label": "Gamerscore",
           "value": "10"
         }
-      ]
+      ],
+      "revealedTitle": "Challenging Tank",
+      "revealedGuide": "Secret trophy tied to the Rhino tank. The game's only hint is that it gets hot inside one."
     },
     {
       "id": "tr-39",
@@ -767,7 +805,9 @@
           "label": "Gamerscore",
           "value": "5"
         }
-      ]
+      ],
+      "revealedTitle": "In The Beginning…",
+      "revealedGuide": "Have a cocktail somewhere with a view on Ocean Beach."
     },
     {
       "id": "tr-45",
@@ -781,7 +821,9 @@
           "label": "Gamerscore",
           "value": "5"
         }
-      ]
+      ],
+      "revealedTitle": "Capital Offense",
+      "revealedGuide": "Drive out of a vehicle showroom by smashing through its window."
     },
     {
       "id": "tr-46",
@@ -795,7 +837,9 @@
           "label": "Gamerscore",
           "value": "5"
         }
-      ]
+      ],
+      "revealedTitle": "Let's Go Bowling",
+      "revealedGuide": "Play a follow-through at the Kolt & Associates bowling alley."
     },
     {
       "id": "tr-47",
@@ -809,7 +853,9 @@
           "label": "Gamerscore",
           "value": "5"
         }
-      ]
+      ],
+      "revealedTitle": "Personal Best",
+      "revealedGuide": "Secret trophy. The game's only hint is a partnership with mass appeal."
     },
     {
       "id": "tr-48",
@@ -823,7 +869,9 @@
           "label": "Gamerscore",
           "value": "5"
         }
-      ]
+      ],
+      "revealedTitle": "Actions Speak Louder",
+      "revealedGuide": "Secret trophy for choices you make, for better or worse."
     },
     {
       "id": "tr-49",
@@ -837,7 +885,9 @@
           "label": "Gamerscore",
           "value": "5"
         }
-      ]
+      ],
+      "revealedTitle": "Bad Luck, I Guess",
+      "revealedGuide": "Secret trophy. The game's only hint is that the second time is the charm."
     },
     {
       "id": "tr-50",
@@ -851,7 +901,9 @@
           "label": "Gamerscore",
           "value": "5"
         }
-      ]
+      ],
+      "revealedTitle": "The Truth Is Out There",
+      "revealedGuide": "Secret trophy for a moment that leaves you wondering what just happened."
     },
     {
       "id": "tr-51",
@@ -865,7 +917,9 @@
           "label": "Gamerscore",
           "value": "5"
         }
-      ]
+      ],
+      "revealedTitle": "Ten Pin",
+      "revealedGuide": "Knock someone down with a melee attack during a drive-by."
     },
     {
       "id": "tr-52",
@@ -990,5 +1044,5 @@
     "unlockRequirements": {},
     "platinum": "tr-01"
   },
-  "_note": "Confirmed content only. v7: the six named regions and the eleven activities (Game Informer, 29 Sep 2026, plus Wyman's Classic Car Collection). v8: the 55-trophy list (Xbox achievement data via Exophase, and Press Start's PS5 list, 18 Nov 2026); every new item is marked spoiler, and story and secret trophies have neutral titles."
+  "_note": "Confirmed content only. v7: the six named regions and the eleven activities (Game Informer, 29 Sep 2026, plus Wyman's Classic Car Collection). v8: the 55-trophy list (Xbox achievement data via Exophase, and Press Start's PS5 list, 18 Nov 2026); every new item is marked spoiler, and story and secret trophies have neutral titles. v9: the real names and how-tos behind the 27 neutral trophies, in revealedTitle/revealedGuide (shown by spoiler-shield builds once done or revealed)."
 }
