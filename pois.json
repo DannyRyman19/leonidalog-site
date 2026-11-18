@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "categories": [
     {
       "id": "landmark",
@@ -22,6 +22,143 @@
       "chapterOrdered": true,
       "verb": "earned",
       "intro": "The full list of 55 trophies and achievements. Story and secret ones keep their names hidden here so nothing is spoiled."
+    },
+    {
+      "id": "missions",
+      "label": "Story missions",
+      "symbol": "film.fill",
+      "colorHex": "FF5C8A",
+      "chapterOrdered": true,
+      "verb": "completed",
+      "intro": "Every main story mission, in chapter order. Names stay hidden until you've played them."
+    },
+    {
+      "id": "stranger-missions",
+      "label": "Strangers & Freaks",
+      "symbol": "person.2.fill",
+      "colorHex": "FFD166",
+      "verb": "completed",
+      "intro": "Side missions from the strangers you meet around Leonida, one strand per stranger. Who they are stays hidden until you've played them."
+    },
+    {
+      "id": "tasks",
+      "label": "Tasks & robberies",
+      "symbol": "banknote.fill",
+      "colorHex": "7BD389",
+      "verb": "done",
+      "intro": "The game's own 100% checklist: optional tasks, stick ups, vaults and fencing. Each row counts up to what 100% needs. Bank jobs, payday loans and Smash 'N' Grabs have their own lists."
+    },
+    {
+      "id": "exploration",
+      "label": "Exploration & activities",
+      "symbol": "star.fill",
+      "colorHex": "FF9E4A",
+      "verb": "done",
+      "intro": "The rest of the game's own 100% checklist: each row counts up to what 100% needs, and the guide says how many there are in all. Card sets, meditation, playlists, video games, pool, mini golf and shooting ranges, race challenges and challenges have their own lists."
+    },
+    {
+      "id": "discovery",
+      "label": "Discovery",
+      "symbol": "binoculars.fill",
+      "colorHex": "4AB3FF",
+      "verb": "done",
+      "intro": "The game's own 100% checklist: vehicles, weapons and animals."
+    },
+    {
+      "id": "card-sets",
+      "label": "Card sets",
+      "symbol": "rectangle.stack.fill",
+      "colorHex": "FF9E4A",
+      "verb": "collected",
+      "intro": "18 trading card sets, 480 cards in all, spread across Leonida. 100% needs 15 complete sets."
+    },
+    {
+      "id": "meditation",
+      "label": "Meditation",
+      "symbol": "leaf.fill",
+      "colorHex": "8BD17C",
+      "verb": "done",
+      "intro": "18 meditations at 10 spots: most spots have two. 100% needs 15 of the 18; the trophy needs every spot."
+    },
+    {
+      "id": "playlists",
+      "label": "Unique playlists",
+      "symbol": "music.note",
+      "colorHex": "E86FBF",
+      "verb": "collected",
+      "intro": "2 unique playlists, unlocked by finding their posters."
+    },
+    {
+      "id": "video-games",
+      "label": "Video games",
+      "symbol": "gamecontroller",
+      "colorHex": "5FD3E8",
+      "verb": "played",
+      "intro": "4 video games to play through. Three are on the home console; one is an arcade machine."
+    },
+    {
+      "id": "mini-golf",
+      "label": "Mini golf",
+      "symbol": "flag.fill",
+      "colorHex": "9AD86B",
+      "verb": "played",
+      "intro": "3 mini golf courses. 100% needs 2 of them."
+    },
+    {
+      "id": "shooting-ranges",
+      "label": "Shooting ranges",
+      "symbol": "scope",
+      "colorHex": "F25F5C",
+      "verb": "done",
+      "intro": "12 shooting range challenges, 42 gold medals in all. Buy the $5 waiver pass from the range's clerk first. Count the golds per challenge."
+    },
+    {
+      "id": "pool",
+      "label": "Pool opponents",
+      "symbol": "circle.grid.3x3.fill",
+      "colorHex": "3FA7D6",
+      "verb": "beaten",
+      "intro": "7 pool opponents at bars around Leonida. 100% needs 5 of them."
+    },
+    {
+      "id": "bank-jobs",
+      "label": "Bank jobs",
+      "symbol": "building.columns.fill",
+      "colorHex": "7BD389",
+      "verb": "done",
+      "intro": "22 banks to rob: 14 small banks (cash drawer and safe) open up in chapter 3, and 8 large banks with a vault open up in chapter 4. 100% needs every one fully done."
+    },
+    {
+      "id": "payday-loans",
+      "label": "Payday loans",
+      "symbol": "dollarsign.circle.fill",
+      "colorHex": "7BD389",
+      "verb": "done",
+      "intro": "7 payday loan stores to rob, open from chapter 3. 100% needs all 7. Watch out for dye packs in the cash."
+    },
+    {
+      "id": "smash-grabs",
+      "label": "Smash 'N' Grabs",
+      "symbol": "diamond.fill",
+      "colorHex": "7BD389",
+      "verb": "done",
+      "intro": "35 pawn shops and jewelry stores. Pawn shops open up in chapter 2, jewelry stores in chapter 3. 100% needs 34 of the 35."
+    },
+    {
+      "id": "race-challenges",
+      "label": "Race challenges",
+      "symbol": "stopwatch.fill",
+      "colorHex": "FF9E4A",
+      "verb": "won",
+      "intro": "13 race challenges, each with bronze, silver and gold. 100% needs gold in 10 of them."
+    },
+    {
+      "id": "challenges",
+      "label": "Challenges",
+      "symbol": "checkmark.seal.fill",
+      "colorHex": "FF9E4A",
+      "verb": "done",
+      "intro": "80 challenges in 8 groups of 10, all open from the start. 100% needs 70; a trophy needs 50. The game tracks them under Progress, Challenges."
     }
   ],
   "pois": [
@@ -977,16 +1114,3181 @@
         }
       ],
       "tallyTarget": 10
+    },
+    {
+      "id": "ms-001",
+      "title": "Story mission 1",
+      "category": "missions",
+      "region": "Chapter 1",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 1.",
+      "revealedTitle": "Prologue",
+      "revealedGuide": "Chapter 1 story mission."
+    },
+    {
+      "id": "ms-002",
+      "title": "Story mission 2",
+      "category": "missions",
+      "region": "Chapter 1",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 1.",
+      "revealedTitle": "Gone Fishing",
+      "revealedGuide": "Chapter 1 story mission."
+    },
+    {
+      "id": "ms-003",
+      "title": "Story mission 3",
+      "category": "missions",
+      "region": "Chapter 1",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 1.",
+      "revealedTitle": "Gear Up",
+      "revealedGuide": "Chapter 1 story mission."
+    },
+    {
+      "id": "ms-004",
+      "title": "Story mission 4",
+      "category": "missions",
+      "region": "Chapter 1",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 1.",
+      "revealedTitle": "Just a Scratch",
+      "revealedGuide": "Chapter 1 story mission."
+    },
+    {
+      "id": "ms-005",
+      "title": "Story mission 5",
+      "category": "missions",
+      "region": "Chapter 1",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 1.",
+      "revealedTitle": "Lab Fees",
+      "revealedGuide": "Chapter 1 story mission."
+    },
+    {
+      "id": "ms-006",
+      "title": "Story mission 6",
+      "category": "missions",
+      "region": "Chapter 1",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 1.",
+      "revealedTitle": "Unwanted Attention",
+      "revealedGuide": "Chapter 1 story mission."
+    },
+    {
+      "id": "ms-007",
+      "title": "Story mission 7",
+      "category": "missions",
+      "region": "Chapter 1",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 1.",
+      "revealedTitle": "Pipework",
+      "revealedGuide": "Chapter 1 story mission."
+    },
+    {
+      "id": "ms-008",
+      "title": "Story mission 8",
+      "category": "missions",
+      "region": "Chapter 1",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 1.",
+      "revealedTitle": "Hey Arnold!",
+      "revealedGuide": "Chapter 1 story mission."
+    },
+    {
+      "id": "ms-009",
+      "title": "Story mission 9",
+      "category": "missions",
+      "region": "Chapter 1",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 1.",
+      "revealedTitle": "Island Dreams",
+      "revealedGuide": "Chapter 1 story mission."
+    },
+    {
+      "id": "ms-010",
+      "title": "Story mission 10",
+      "category": "missions",
+      "region": "Chapter 1",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 1.",
+      "revealedTitle": "Feng Shui",
+      "revealedGuide": "Chapter 1 story mission."
+    },
+    {
+      "id": "ms-011",
+      "title": "Story mission 11",
+      "category": "missions",
+      "region": "Chapter 1",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 1.",
+      "revealedTitle": "Coming Home",
+      "revealedGuide": "Chapter 1 story mission."
+    },
+    {
+      "id": "ms-012",
+      "title": "Story mission 12",
+      "category": "missions",
+      "region": "Chapter 1",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 1.",
+      "revealedTitle": "Buck Me",
+      "revealedGuide": "Chapter 1 story mission."
+    },
+    {
+      "id": "ms-013",
+      "title": "Story mission 13",
+      "category": "missions",
+      "region": "Chapter 1",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 1.",
+      "revealedTitle": "Clean Up After Donnie",
+      "revealedGuide": "Chapter 1 story mission."
+    },
+    {
+      "id": "ms-014",
+      "title": "Story mission 14",
+      "category": "missions",
+      "region": "Chapter 1",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 1.",
+      "revealedTitle": "Down to Earth",
+      "revealedGuide": "Chapter 1 story mission."
+    },
+    {
+      "id": "ms-015",
+      "title": "Story mission 15",
+      "category": "missions",
+      "region": "Chapter 1",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 1.",
+      "revealedTitle": "Clear Skies",
+      "revealedGuide": "Chapter 1 story mission."
+    },
+    {
+      "id": "ms-016",
+      "title": "Story mission 16",
+      "category": "missions",
+      "region": "Chapter 1",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 1.",
+      "revealedTitle": "Day Release",
+      "revealedGuide": "Chapter 1 story mission."
+    },
+    {
+      "id": "ms-017",
+      "title": "Story mission 17",
+      "category": "missions",
+      "region": "Chapter 1",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 1.",
+      "revealedTitle": "Swamped",
+      "revealedGuide": "Chapter 1 story mission."
+    },
+    {
+      "id": "ms-018",
+      "title": "Story mission 18",
+      "category": "missions",
+      "region": "Chapter 1",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 1.",
+      "revealedTitle": "Don Gone",
+      "revealedGuide": "Chapter 1 story mission."
+    },
+    {
+      "id": "ms-019",
+      "title": "Story mission 19",
+      "category": "missions",
+      "region": "Chapter 1",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 1.",
+      "revealedTitle": "Recalibration",
+      "revealedGuide": "Chapter 1 story mission."
+    },
+    {
+      "id": "ms-020",
+      "title": "Story mission 20",
+      "category": "missions",
+      "region": "Chapter 1",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 1.",
+      "revealedTitle": "Tourist Trap",
+      "revealedGuide": "Chapter 1 story mission."
+    },
+    {
+      "id": "ms-021",
+      "title": "Story mission 21",
+      "category": "missions",
+      "region": "Chapter 1",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 1.",
+      "revealedTitle": "Home Sweet Home",
+      "revealedGuide": "Chapter 1 story mission."
+    },
+    {
+      "id": "ms-022",
+      "title": "Story mission 22",
+      "category": "missions",
+      "region": "Chapter 1",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 1.",
+      "revealedTitle": "Discharge Time",
+      "revealedGuide": "Chapter 1 story mission."
+    },
+    {
+      "id": "ms-023",
+      "title": "Story mission 23",
+      "category": "missions",
+      "region": "Chapter 2",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 2.",
+      "revealedTitle": "What's in the Bag?",
+      "revealedGuide": "Chapter 2 story mission."
+    },
+    {
+      "id": "ms-024",
+      "title": "Story mission 24",
+      "category": "missions",
+      "region": "Chapter 2",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 2.",
+      "revealedTitle": "Ambulance Chaser",
+      "revealedGuide": "Chapter 2 story mission."
+    },
+    {
+      "id": "ms-025",
+      "title": "Story mission 25",
+      "category": "missions",
+      "region": "Chapter 2",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 2.",
+      "revealedTitle": "Just Moved In",
+      "revealedGuide": "Chapter 2 story mission."
+    },
+    {
+      "id": "ms-026",
+      "title": "Story mission 26",
+      "category": "missions",
+      "region": "Chapter 2",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 2.",
+      "revealedTitle": "Girls' Trip",
+      "revealedGuide": "Chapter 2 story mission."
+    },
+    {
+      "id": "ms-027",
+      "title": "Story mission 27",
+      "category": "missions",
+      "region": "Chapter 2",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 2.",
+      "revealedTitle": "Moses",
+      "revealedGuide": "Chapter 2 story mission."
+    },
+    {
+      "id": "ms-028",
+      "title": "Story mission 28",
+      "category": "missions",
+      "region": "Chapter 2",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 2.",
+      "revealedTitle": "Daily Driver",
+      "revealedGuide": "Chapter 2 story mission."
+    },
+    {
+      "id": "ms-029",
+      "title": "Story mission 29",
+      "category": "missions",
+      "region": "Chapter 2",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 2.",
+      "revealedTitle": "Slam Dunk",
+      "revealedGuide": "Chapter 2 story mission."
+    },
+    {
+      "id": "ms-030",
+      "title": "Story mission 30",
+      "category": "missions",
+      "region": "Chapter 2",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 2.",
+      "revealedTitle": "Breakfast Run",
+      "revealedGuide": "Chapter 2 story mission."
+    },
+    {
+      "id": "ms-031",
+      "title": "Story mission 31",
+      "category": "missions",
+      "region": "Chapter 2",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 2.",
+      "revealedTitle": "Coffee Break",
+      "revealedGuide": "Chapter 2 story mission."
+    },
+    {
+      "id": "ms-032",
+      "title": "Story mission 32",
+      "category": "missions",
+      "region": "Chapter 2",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 2.",
+      "revealedTitle": "Afternoon Delight",
+      "revealedGuide": "Chapter 2 story mission."
+    },
+    {
+      "id": "ms-033",
+      "title": "Story mission 33",
+      "category": "missions",
+      "region": "Chapter 2",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 2.",
+      "revealedTitle": "Checking Out",
+      "revealedGuide": "Chapter 2 story mission."
+    },
+    {
+      "id": "ms-034",
+      "title": "Story mission 34",
+      "category": "missions",
+      "region": "Chapter 3",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 3.",
+      "revealedTitle": "Welcome to Vice City",
+      "revealedGuide": "Chapter 3 story mission."
+    },
+    {
+      "id": "ms-035",
+      "title": "Story mission 35",
+      "category": "missions",
+      "region": "Chapter 3",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 3.",
+      "revealedTitle": "Dealer's Choice",
+      "revealedGuide": "Chapter 3 story mission."
+    },
+    {
+      "id": "ms-036",
+      "title": "Story mission 36",
+      "category": "missions",
+      "region": "Chapter 3",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 3.",
+      "revealedTitle": "Meet the Heders",
+      "revealedGuide": "Chapter 3 story mission."
+    },
+    {
+      "id": "ms-037",
+      "title": "Story mission 37",
+      "category": "missions",
+      "region": "Chapter 3",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 3.",
+      "revealedTitle": "Dubious Provenance",
+      "revealedGuide": "Chapter 3 story mission."
+    },
+    {
+      "id": "ms-038",
+      "title": "Story mission 38",
+      "category": "missions",
+      "region": "Chapter 3",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 3.",
+      "revealedTitle": "Mami Knows Best",
+      "revealedGuide": "Chapter 3 story mission."
+    },
+    {
+      "id": "ms-039",
+      "title": "Story mission 39",
+      "category": "missions",
+      "region": "Chapter 3",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 3.",
+      "revealedTitle": "South Leonida Real Estate",
+      "revealedGuide": "Chapter 3 story mission."
+    },
+    {
+      "id": "ms-040",
+      "title": "Story mission 40",
+      "category": "missions",
+      "region": "Chapter 3",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 3.",
+      "revealedTitle": "Tyrone",
+      "revealedGuide": "Chapter 3 story mission."
+    },
+    {
+      "id": "ms-041",
+      "title": "Story mission 41",
+      "category": "missions",
+      "region": "Chapter 3",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 3.",
+      "revealedTitle": "Here, Kitty Kitty",
+      "revealedGuide": "Chapter 3 story mission."
+    },
+    {
+      "id": "ms-042",
+      "title": "Story mission 42",
+      "category": "missions",
+      "region": "Chapter 3",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 3.",
+      "revealedTitle": "Car Service",
+      "revealedGuide": "Chapter 3 story mission."
+    },
+    {
+      "id": "ms-043",
+      "title": "Story mission 43",
+      "category": "missions",
+      "region": "Chapter 3",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 3.",
+      "revealedTitle": "Top Billing",
+      "revealedGuide": "Chapter 3 story mission."
+    },
+    {
+      "id": "ms-044",
+      "title": "Story mission 44",
+      "category": "missions",
+      "region": "Chapter 3",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 3.",
+      "revealedTitle": "Boobie Time",
+      "revealedGuide": "Chapter 3 story mission."
+    },
+    {
+      "id": "ms-045",
+      "title": "Story mission 45",
+      "category": "missions",
+      "region": "Chapter 3",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 3.",
+      "revealedTitle": "First Impressions",
+      "revealedGuide": "Chapter 3 story mission."
+    },
+    {
+      "id": "ms-046",
+      "title": "Story mission 46",
+      "category": "missions",
+      "region": "Chapter 3",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 3.",
+      "revealedTitle": "Caught Slipping",
+      "revealedGuide": "Chapter 3 story mission."
+    },
+    {
+      "id": "ms-047",
+      "title": "Story mission 47",
+      "category": "missions",
+      "region": "Chapter 3",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 3.",
+      "revealedTitle": "Crosstown Traffic",
+      "revealedGuide": "Chapter 3 story mission."
+    },
+    {
+      "id": "ms-048",
+      "title": "Story mission 48",
+      "category": "missions",
+      "region": "Chapter 3",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 3.",
+      "revealedTitle": "Credit Check",
+      "revealedGuide": "Chapter 3 story mission."
+    },
+    {
+      "id": "ms-049",
+      "title": "Story mission 49",
+      "category": "missions",
+      "region": "Chapter 3",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 3.",
+      "revealedTitle": "Steal the Zorrusso for Randy",
+      "revealedGuide": "Chapter 3 story mission."
+    },
+    {
+      "id": "ms-050",
+      "title": "Story mission 50",
+      "category": "missions",
+      "region": "Chapter 3",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 3.",
+      "revealedTitle": "Sinfrontera National Bank",
+      "revealedGuide": "Chapter 3 story mission."
+    },
+    {
+      "id": "ms-051",
+      "title": "Story mission 51",
+      "category": "missions",
+      "region": "Chapter 3",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 3.",
+      "revealedTitle": "Security Expert",
+      "revealedGuide": "Chapter 3 story mission."
+    },
+    {
+      "id": "ms-052",
+      "title": "Story mission 52",
+      "category": "missions",
+      "region": "Chapter 3",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 3.",
+      "revealedTitle": "Ride or Die",
+      "revealedGuide": "Chapter 3 story mission."
+    },
+    {
+      "id": "ms-053",
+      "title": "Story mission 53",
+      "category": "missions",
+      "region": "Chapter 3",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 3.",
+      "revealedTitle": "Company Property",
+      "revealedGuide": "Chapter 3 story mission."
+    },
+    {
+      "id": "ms-054",
+      "title": "Story mission 54",
+      "category": "missions",
+      "region": "Chapter 3",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 3.",
+      "revealedTitle": "The Missing Link",
+      "revealedGuide": "Chapter 3 story mission."
+    },
+    {
+      "id": "ms-055",
+      "title": "Story mission 55",
+      "category": "missions",
+      "region": "Chapter 3",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 3.",
+      "revealedTitle": "Safe Word",
+      "revealedGuide": "Chapter 3 story mission."
+    },
+    {
+      "id": "ms-056",
+      "title": "Story mission 56",
+      "category": "missions",
+      "region": "Chapter 3",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 3.",
+      "revealedTitle": "Cooties",
+      "revealedGuide": "Chapter 3 story mission."
+    },
+    {
+      "id": "ms-057",
+      "title": "Story mission 57",
+      "category": "missions",
+      "region": "Chapter 3",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 3.",
+      "revealedTitle": "Bricked Up",
+      "revealedGuide": "Chapter 3 story mission."
+    },
+    {
+      "id": "ms-058",
+      "title": "Story mission 58",
+      "category": "missions",
+      "region": "Chapter 3",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 3.",
+      "revealedTitle": "Hidden Charges",
+      "revealedGuide": "Chapter 3 story mission."
+    },
+    {
+      "id": "ms-059",
+      "title": "Story mission 59",
+      "category": "missions",
+      "region": "Chapter 3",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 3.",
+      "revealedTitle": "The Cartel Heist",
+      "revealedGuide": "Chapter 3 story mission."
+    },
+    {
+      "id": "ms-060",
+      "title": "Story mission 60",
+      "category": "missions",
+      "region": "Chapter 4",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 4.",
+      "revealedTitle": "Ocean Beach",
+      "revealedGuide": "Chapter 4 story mission."
+    },
+    {
+      "id": "ms-061",
+      "title": "Story mission 61",
+      "category": "missions",
+      "region": "Chapter 4",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 4.",
+      "revealedTitle": "Another Life",
+      "revealedGuide": "Chapter 4 story mission."
+    },
+    {
+      "id": "ms-062",
+      "title": "Story mission 62",
+      "category": "missions",
+      "region": "Chapter 4",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 4.",
+      "revealedTitle": "Company Cars",
+      "revealedGuide": "Chapter 4 story mission."
+    },
+    {
+      "id": "ms-063",
+      "title": "Story mission 63",
+      "category": "missions",
+      "region": "Chapter 4",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 4.",
+      "revealedTitle": "Lawyer Up",
+      "revealedGuide": "Chapter 4 story mission."
+    },
+    {
+      "id": "ms-064",
+      "title": "Story mission 64",
+      "category": "missions",
+      "region": "Chapter 4",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 4.",
+      "revealedTitle": "Party Hard",
+      "revealedGuide": "Chapter 4 story mission."
+    },
+    {
+      "id": "ms-065",
+      "title": "Story mission 65",
+      "category": "missions",
+      "region": "Chapter 4",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 4.",
+      "revealedTitle": "Heavy Lifting",
+      "revealedGuide": "Chapter 4 story mission."
+    },
+    {
+      "id": "ms-066",
+      "title": "Story mission 66",
+      "category": "missions",
+      "region": "Chapter 4",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 4.",
+      "revealedTitle": "Photo/Shoot",
+      "revealedGuide": "Chapter 4 story mission."
+    },
+    {
+      "id": "ms-067",
+      "title": "Story mission 67",
+      "category": "missions",
+      "region": "Chapter 4",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 4.",
+      "revealedTitle": "Making Gainz",
+      "revealedGuide": "Chapter 4 story mission."
+    },
+    {
+      "id": "ms-068",
+      "title": "Story mission 68",
+      "category": "missions",
+      "region": "Chapter 4",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 4.",
+      "revealedTitle": "Watch It",
+      "revealedGuide": "Chapter 4 story mission."
+    },
+    {
+      "id": "ms-069",
+      "title": "Story mission 69",
+      "category": "missions",
+      "region": "Chapter 4",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 4.",
+      "revealedTitle": "Cash Injections",
+      "revealedGuide": "Chapter 4 story mission."
+    },
+    {
+      "id": "ms-070",
+      "title": "Story mission 70",
+      "category": "missions",
+      "region": "Chapter 4",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 4.",
+      "revealedTitle": "Amateur Hour",
+      "revealedGuide": "Chapter 4 story mission."
+    },
+    {
+      "id": "ms-071",
+      "title": "Story mission 71",
+      "category": "missions",
+      "region": "Chapter 4",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 4.",
+      "revealedTitle": "Dirty Work",
+      "revealedGuide": "Chapter 4 story mission."
+    },
+    {
+      "id": "ms-072",
+      "title": "Story mission 72",
+      "category": "missions",
+      "region": "Chapter 4",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 4.",
+      "revealedTitle": "Too Much Baggage",
+      "revealedGuide": "Chapter 4 story mission."
+    },
+    {
+      "id": "ms-073",
+      "title": "Story mission 73",
+      "category": "missions",
+      "region": "Chapter 4",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 4.",
+      "revealedTitle": "Adventures in Babysitting",
+      "revealedGuide": "Chapter 4 story mission."
+    },
+    {
+      "id": "ms-074",
+      "title": "Story mission 74",
+      "category": "missions",
+      "region": "Chapter 4",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 4.",
+      "revealedTitle": "Fresh Evidence",
+      "revealedGuide": "Chapter 4 story mission."
+    },
+    {
+      "id": "ms-075",
+      "title": "Story mission 75",
+      "category": "missions",
+      "region": "Chapter 4",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 4.",
+      "revealedTitle": "Power Play",
+      "revealedGuide": "Chapter 4 story mission."
+    },
+    {
+      "id": "ms-076",
+      "title": "Story mission 76",
+      "category": "missions",
+      "region": "Chapter 4",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 4.",
+      "revealedTitle": "Child's Play",
+      "revealedGuide": "Chapter 4 story mission."
+    },
+    {
+      "id": "ms-077",
+      "title": "Story mission 77",
+      "category": "missions",
+      "region": "Chapter 4",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 4.",
+      "revealedTitle": "Headliners",
+      "revealedGuide": "Chapter 4 story mission."
+    },
+    {
+      "id": "ms-078",
+      "title": "Story mission 78",
+      "category": "missions",
+      "region": "Chapter 4",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 4.",
+      "revealedTitle": "Close Surveillance",
+      "revealedGuide": "Chapter 4 story mission."
+    },
+    {
+      "id": "ms-079",
+      "title": "Story mission 79",
+      "category": "missions",
+      "region": "Chapter 4",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 4.",
+      "revealedTitle": "Delivery Method",
+      "revealedGuide": "Chapter 4 story mission."
+    },
+    {
+      "id": "ms-080",
+      "title": "Story mission 80",
+      "category": "missions",
+      "region": "Chapter 4",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 4.",
+      "revealedTitle": "Team Building",
+      "revealedGuide": "Chapter 4 story mission."
+    },
+    {
+      "id": "ms-081",
+      "title": "Story mission 81",
+      "category": "missions",
+      "region": "Chapter 4",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 4.",
+      "revealedTitle": "Fully Catered",
+      "revealedGuide": "Chapter 4 story mission."
+    },
+    {
+      "id": "ms-082",
+      "title": "Story mission 82",
+      "category": "missions",
+      "region": "Chapter 4",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 4.",
+      "revealedTitle": "VCIA Takedown",
+      "revealedGuide": "Chapter 4 story mission."
+    },
+    {
+      "id": "ms-083",
+      "title": "Story mission 83",
+      "category": "missions",
+      "region": "Chapter 4",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 4.",
+      "revealedTitle": "Sunset",
+      "revealedGuide": "Chapter 4 story mission."
+    },
+    {
+      "id": "ms-084",
+      "title": "Story mission 84",
+      "category": "missions",
+      "region": "Chapter 4",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 4.",
+      "revealedTitle": "Starting From Zero",
+      "revealedGuide": "Chapter 4 story mission."
+    },
+    {
+      "id": "ms-085",
+      "title": "Story mission 85",
+      "category": "missions",
+      "region": "Chapter 5",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 5.",
+      "revealedTitle": "Bird in the Hand",
+      "revealedGuide": "Chapter 5 story mission."
+    },
+    {
+      "id": "ms-086",
+      "title": "Story mission 86",
+      "category": "missions",
+      "region": "Chapter 5",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 5.",
+      "revealedTitle": "Taking Liberties",
+      "revealedGuide": "Chapter 5 story mission."
+    },
+    {
+      "id": "ms-087",
+      "title": "Story mission 87",
+      "category": "missions",
+      "region": "Chapter 5",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 5.",
+      "revealedTitle": "VC Baby",
+      "revealedGuide": "Chapter 5 story mission."
+    },
+    {
+      "id": "ms-088",
+      "title": "Story mission 88",
+      "category": "missions",
+      "region": "Chapter 5",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 5.",
+      "revealedTitle": "Doggie Bag",
+      "revealedGuide": "Chapter 5 story mission."
+    },
+    {
+      "id": "ms-089",
+      "title": "Story mission 89",
+      "category": "missions",
+      "region": "Chapter 5",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 5.",
+      "revealedTitle": "Operation Savage Glory",
+      "revealedGuide": "Chapter 5 story mission."
+    },
+    {
+      "id": "ms-090",
+      "title": "Story mission 90",
+      "category": "missions",
+      "region": "Chapter 5",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 5.",
+      "revealedTitle": "Protective Custody",
+      "revealedGuide": "Chapter 5 story mission."
+    },
+    {
+      "id": "ms-091",
+      "title": "Story mission 91",
+      "category": "missions",
+      "region": "Chapter 5",
+      "spoiler": true,
+      "guide": "A main story mission in chapter 5.",
+      "revealedTitle": "The End of the Road",
+      "revealedGuide": "Chapter 5 story mission."
+    },
+    {
+      "id": "sf-01",
+      "title": "Side mission 1",
+      "category": "stranger-missions",
+      "givenBy": "Strand 01",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 1. Unlocks in chapter 1.",
+      "revealedTitle": "Get Shirley's Rum",
+      "revealedGuide": "Shirley's strand, mission 1 of 2. Unlocks in chapter 1. Doesn't count towards the Strangers & Freaks trophy. Missable: chapter 1 only.",
+      "missable": true
+    },
+    {
+      "id": "sf-02",
+      "title": "Side mission 2",
+      "category": "stranger-missions",
+      "givenBy": "Strand 01",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 1. Unlocks in chapter 1.",
+      "revealedTitle": "Steal the Scooter",
+      "revealedGuide": "Shirley's strand, mission 2 of 2. Unlocks in chapter 1. Doesn't count towards the Strangers & Freaks trophy. Missable: chapter 1 only.",
+      "missable": true
+    },
+    {
+      "id": "sf-03",
+      "title": "Side mission 3",
+      "category": "stranger-missions",
+      "givenBy": "Strand 02",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 2. Unlocks in chapter 1.",
+      "revealedTitle": "Search for the Skunk Ape",
+      "revealedGuide": "Kirk's strand, mission 1 of 3. Unlocks in chapter 1. Counts towards the Strangers & Freaks trophy. Night only."
+    },
+    {
+      "id": "sf-04",
+      "title": "Side mission 4",
+      "category": "stranger-missions",
+      "givenBy": "Strand 02",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 2. Unlocks in chapter 1.",
+      "revealedTitle": "Search for Tree Effigies",
+      "revealedGuide": "Kirk's strand, mission 2 of 3. Unlocks in chapter 1. Counts towards the Strangers & Freaks trophy."
+    },
+    {
+      "id": "sf-05",
+      "title": "Side mission 5",
+      "category": "stranger-missions",
+      "givenBy": "Strand 02",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 2. Unlocks in chapter 1.",
+      "revealedTitle": "Help Kirk Find Mr. Mangrove",
+      "revealedGuide": "Kirk's strand, mission 3 of 3. Unlocks in chapter 1. Counts towards the Strangers & Freaks trophy. Lucia only, at night."
+    },
+    {
+      "id": "sf-06",
+      "title": "Side mission 6",
+      "category": "stranger-missions",
+      "givenBy": "Strand 03",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 3. Unlocks in chapter 2.",
+      "revealedTitle": "Check Out McKittrick Farm",
+      "revealedGuide": "Kyle's strand, mission 1 of 3. Unlocks in chapter 2. Counts towards the Strangers & Freaks trophy."
+    },
+    {
+      "id": "sf-07",
+      "title": "Side mission 7",
+      "category": "stranger-missions",
+      "givenBy": "Strand 03",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 3. Unlocks in chapter 2.",
+      "revealedTitle": "Collect Chemicals for Kyle",
+      "revealedGuide": "Kyle's strand, mission 2 of 3. Unlocks in chapter 2. Counts towards the Strangers & Freaks trophy."
+    },
+    {
+      "id": "sf-08",
+      "title": "Side mission 8",
+      "category": "stranger-missions",
+      "givenBy": "Strand 03",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 3. Unlocks in chapter 2.",
+      "revealedTitle": "Buddy?",
+      "revealedGuide": "Kyle's strand, mission 3 of 3. Unlocks in chapter 2. Counts towards the Strangers & Freaks trophy."
+    },
+    {
+      "id": "sf-09",
+      "title": "Side mission 9",
+      "category": "stranger-missions",
+      "givenBy": "Strand 04",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 4. Unlocks in chapter 2.",
+      "revealedTitle": "Steal Vehicles for Moses",
+      "revealedGuide": "Moses's strand, mission 1 of 1. Unlocks in chapter 2. Counts towards the Strangers & Freaks trophy."
+    },
+    {
+      "id": "sf-10",
+      "title": "Side mission 10",
+      "category": "stranger-missions",
+      "givenBy": "Strand 05",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 5. Unlocks in chapter 2.",
+      "revealedTitle": "Veteran Hunted",
+      "revealedGuide": "Bret's strand, mission 1 of 2. Unlocks in chapter 2. Counts towards the Strangers & Freaks trophy. Jason only."
+    },
+    {
+      "id": "sf-11",
+      "title": "Side mission 11",
+      "category": "stranger-missions",
+      "givenBy": "Strand 05",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 5. Unlocks in chapter 2.",
+      "revealedTitle": "Bret's Hunting Decks",
+      "revealedGuide": "Bret's strand, mission 2 of 2. Unlocks in chapter 2. Counts towards the Strangers & Freaks trophy. Finish Bret's hunting target decks."
+    },
+    {
+      "id": "sf-12",
+      "title": "Side mission 12",
+      "category": "stranger-missions",
+      "givenBy": "Strand 06",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 6. Unlocks in chapter 2.",
+      "revealedTitle": "Thrillbillies",
+      "revealedGuide": "Billy's strand, mission 1 of 5. Unlocks in chapter 2. Doesn't count towards the Strangers & Freaks trophy."
+    },
+    {
+      "id": "sf-13",
+      "title": "Side mission 13",
+      "category": "stranger-missions",
+      "givenBy": "Strand 06",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 6. Unlocks in chapter 2.",
+      "revealedTitle": "Twist Wrist, Smash, Grab",
+      "revealedGuide": "Billy's strand, mission 2 of 5. Unlocks in chapter 2. Doesn't count towards the Strangers & Freaks trophy."
+    },
+    {
+      "id": "sf-14",
+      "title": "Side mission 14",
+      "category": "stranger-missions",
+      "givenBy": "Strand 06",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 6. Unlocks in chapter 2.",
+      "revealedTitle": "Mall Rats",
+      "revealedGuide": "Billy's strand, mission 3 of 5. Unlocks in chapter 2. Doesn't count towards the Strangers & Freaks trophy."
+    },
+    {
+      "id": "sf-15",
+      "title": "Side mission 15",
+      "category": "stranger-missions",
+      "givenBy": "Strand 06",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 6. Unlocks in chapter 2.",
+      "revealedTitle": "The Impaler",
+      "revealedGuide": "Billy's strand, mission 4 of 5. Unlocks in chapter 2. Doesn't count towards the Strangers & Freaks trophy."
+    },
+    {
+      "id": "sf-16",
+      "title": "Side mission 16",
+      "category": "stranger-missions",
+      "givenBy": "Strand 06",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 6. Unlocks in chapter 2.",
+      "revealedTitle": "Hometown Heroes",
+      "revealedGuide": "Billy's strand, mission 5 of 5. Unlocks in chapter 2. Doesn't count towards the Strangers & Freaks trophy."
+    },
+    {
+      "id": "sf-17",
+      "title": "Side mission 17",
+      "category": "stranger-missions",
+      "givenBy": "Strand 07",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 7. Unlocks in chapter 3.",
+      "revealedTitle": "Join a Street Race",
+      "revealedGuide": "Yago's strand, mission 1 of 4. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy."
+    },
+    {
+      "id": "sf-18",
+      "title": "Side mission 18",
+      "category": "stranger-missions",
+      "givenBy": "Strand 07",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 7. Unlocks in chapter 3.",
+      "revealedTitle": "Bumper to Bumper",
+      "revealedGuide": "Yago's strand, mission 2 of 4. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy. Jason only."
+    },
+    {
+      "id": "sf-19",
+      "title": "Side mission 19",
+      "category": "stranger-missions",
+      "givenBy": "Strand 07",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 7. Unlocks in chapter 3.",
+      "revealedTitle": "Race Against Yago",
+      "revealedGuide": "Yago's strand, mission 3 of 4. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy. Time-limited and missable.",
+      "missable": true
+    },
+    {
+      "id": "sf-20",
+      "title": "Side mission 20",
+      "category": "stranger-missions",
+      "givenBy": "Strand 07",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 7. Unlocks in chapter 3.",
+      "revealedTitle": "Brother to Brother",
+      "revealedGuide": "Yago's strand, mission 4 of 4. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy. Jason only."
+    },
+    {
+      "id": "sf-21",
+      "title": "Side mission 21",
+      "category": "stranger-missions",
+      "givenBy": "Strand 08",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 8. Unlocks in chapter 3.",
+      "revealedTitle": "Climbing the Cellerichain",
+      "revealedGuide": "Andy's strand, mission 1 of 5. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Lucia only. Three parts."
+    },
+    {
+      "id": "sf-22",
+      "title": "Side mission 22",
+      "category": "stranger-missions",
+      "givenBy": "Strand 08",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 8. Unlocks in chapter 3.",
+      "revealedTitle": "Pay the Cellerica Fee",
+      "revealedGuide": "Andy's strand, mission 2 of 5. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Lucia only."
+    },
+    {
+      "id": "sf-23",
+      "title": "Side mission 23",
+      "category": "stranger-missions",
+      "givenBy": "Strand 08",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 8. Unlocks in chapter 3.",
+      "revealedTitle": "Peach!",
+      "revealedGuide": "Andy's strand, mission 3 of 5. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Lucia only."
+    },
+    {
+      "id": "sf-24",
+      "title": "Side mission 24",
+      "category": "stranger-missions",
+      "givenBy": "Strand 08",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 8. Unlocks in chapter 3.",
+      "revealedTitle": "Read the Label",
+      "revealedGuide": "Andy's strand, mission 4 of 5. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Lucia only."
+    },
+    {
+      "id": "sf-25",
+      "title": "Side mission 25",
+      "category": "stranger-missions",
+      "givenBy": "Strand 08",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 8. Unlocks in chapter 3.",
+      "revealedTitle": "Puff Puff Pass",
+      "revealedGuide": "Andy's strand, mission 5 of 5. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Lucia only."
+    },
+    {
+      "id": "sf-26",
+      "title": "Side mission 26",
+      "category": "stranger-missions",
+      "givenBy": "Strand 09",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 9. Unlocks in chapter 3.",
+      "revealedTitle": "Yasmani's Jewelry Jobs",
+      "revealedGuide": "Yasmani's strand, mission 1 of 4. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy."
+    },
+    {
+      "id": "sf-27",
+      "title": "Side mission 27",
+      "category": "stranger-missions",
+      "givenBy": "Strand 09",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 9. Unlocks in chapter 3.",
+      "revealedTitle": "Yasmani's ATM Jobs",
+      "revealedGuide": "Yasmani's strand, mission 2 of 4. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy."
+    },
+    {
+      "id": "sf-28",
+      "title": "Side mission 28",
+      "category": "stranger-missions",
+      "givenBy": "Strand 09",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 9. Unlocks in chapter 3.",
+      "revealedTitle": "Yasmani's Payday Loans Jobs",
+      "revealedGuide": "Yasmani's strand, mission 3 of 4. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy."
+    },
+    {
+      "id": "sf-29",
+      "title": "Side mission 29",
+      "category": "stranger-missions",
+      "givenBy": "Strand 09",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 9. Unlocks in chapter 3.",
+      "revealedTitle": "Tail the Security Van",
+      "revealedGuide": "Yasmani's strand, mission 4 of 4. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy."
+    },
+    {
+      "id": "sf-30",
+      "title": "Side mission 30",
+      "category": "stranger-missions",
+      "givenBy": "Strand 10",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 10. Unlocks in chapter 3.",
+      "revealedTitle": "Randy's Wish List",
+      "revealedGuide": "Randy's strand, mission 1 of 1. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy."
+    },
+    {
+      "id": "sf-31",
+      "title": "Side mission 31",
+      "category": "stranger-missions",
+      "givenBy": "Strand 11",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 11. Unlocks in chapter 3.",
+      "revealedTitle": "Take Out Kitty Litter",
+      "revealedGuide": "Tyrone's strand, mission 1 of 2. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Shut down the Kitty Litter labs."
+    },
+    {
+      "id": "sf-32",
+      "title": "Side mission 32",
+      "category": "stranger-missions",
+      "givenBy": "Strand 11",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 11. Unlocks in chapter 3.",
+      "revealedTitle": "Spin On This",
+      "revealedGuide": "Tyrone's strand, mission 2 of 2. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy."
+    },
+    {
+      "id": "sf-33",
+      "title": "Side mission 33",
+      "category": "stranger-missions",
+      "givenBy": "Strand 12",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 12. Unlocks in chapter 3.",
+      "revealedTitle": "Dunk's Robbery Tips",
+      "revealedGuide": "Dunk's strand, mission 1 of 1. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy."
+    },
+    {
+      "id": "sf-34",
+      "title": "Side mission 34",
+      "category": "stranger-missions",
+      "givenBy": "Strand 13",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 13. Unlocks in chapter 4.",
+      "revealedTitle": "Attend Eddie Acosta's Party",
+      "revealedGuide": "Eddie Acosta's strand, mission 1 of 1. Unlocks in chapter 4. Doesn't count towards the Strangers & Freaks trophy."
+    },
+    {
+      "id": "sf-35",
+      "title": "Side mission 35",
+      "category": "stranger-missions",
+      "givenBy": "Strand 14",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 14. Unlocks in chapter 4.",
+      "revealedTitle": "The Last Mile: Passing the Torch",
+      "revealedGuide": "Pilot Pete's strand, mission 1 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only."
+    },
+    {
+      "id": "sf-36",
+      "title": "Side mission 36",
+      "category": "stranger-missions",
+      "givenBy": "Strand 14",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 14. Unlocks in chapter 4.",
+      "revealedTitle": "The Last Mile: Backseat Pilot",
+      "revealedGuide": "Pilot Pete's strand, mission 2 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only."
+    },
+    {
+      "id": "sf-37",
+      "title": "Side mission 37",
+      "category": "stranger-missions",
+      "givenBy": "Strand 14",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 14. Unlocks in chapter 4.",
+      "revealedTitle": "Pete's Deliveries: Southpoint Airfield",
+      "revealedGuide": "Pilot Pete's strand, mission 3 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only."
+    },
+    {
+      "id": "sf-38",
+      "title": "Side mission 38",
+      "category": "stranger-missions",
+      "givenBy": "Strand 14",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 14. Unlocks in chapter 4.",
+      "revealedTitle": "Pete's Deliveries: Avery Allen & Co.",
+      "revealedGuide": "Pilot Pete's strand, mission 4 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only."
+    },
+    {
+      "id": "sf-39",
+      "title": "Side mission 39",
+      "category": "stranger-missions",
+      "givenBy": "Strand 14",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 14. Unlocks in chapter 4.",
+      "revealedTitle": "Deliver Packages",
+      "revealedGuide": "Pilot Pete's strand, mission 5 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only."
+    },
+    {
+      "id": "tk-optional-tasks",
+      "title": "Optional tasks",
+      "category": "tasks",
+      "spoiler": true,
+      "guide": "Complete 100 optional tasks. Strangers & Freaks side missions count towards these.",
+      "tallyTarget": 100
+    },
+    {
+      "id": "tk-gang-ops",
+      "title": "Illegal gang operations",
+      "category": "tasks",
+      "spoiler": true,
+      "guide": "Clear all 39 illegal gang operations.",
+      "tallyTarget": 39
+    },
+    {
+      "id": "tk-stick-ups",
+      "title": "Stick ups",
+      "category": "tasks",
+      "spoiler": true,
+      "guide": "Hold up 50 of the 91 stores you can rob.",
+      "tallyTarget": 50
+    },
+    {
+      "id": "tk-vaults",
+      "title": "Bank vaults",
+      "category": "tasks",
+      "spoiler": true,
+      "guide": "Hit all 8 bank vaults.",
+      "tallyTarget": 8
+    },
+    {
+      "id": "tk-fence-narcotics",
+      "title": "Fence $100,000 of narcotics",
+      "category": "tasks",
+      "spoiler": true,
+      "guide": "Sell $100,000 worth of narcotics through fences."
+    },
+    {
+      "id": "tk-fence-jewelry",
+      "title": "Fence $100,000 of jewelry",
+      "category": "tasks",
+      "spoiler": true,
+      "guide": "Sell $100,000 worth of jewelry through fences."
+    },
+    {
+      "id": "tk-fence-bills",
+      "title": "Fence $250,000 of marked bills",
+      "category": "tasks",
+      "spoiler": true,
+      "guide": "Launder $250,000 of marked bills through your contacts."
+    },
+    {
+      "id": "tk-fence-vehicles",
+      "title": "Fence $200,000 of vehicles",
+      "category": "tasks",
+      "spoiler": true,
+      "guide": "Sell $200,000 worth of vehicles through fences."
+    },
+    {
+      "id": "ex-kenton-sets",
+      "title": "Kenton sets",
+      "category": "exploration",
+      "spoiler": true,
+      "guide": "Complete 5 of Kenton's 7 sets.",
+      "tallyTarget": 5
+    },
+    {
+      "id": "ex-waink",
+      "title": "WAiNK scans",
+      "category": "exploration",
+      "spoiler": true,
+      "guide": "Scan 100 things with the WAiNK app: there are 31 landmarks, 35 curiosities, 23 sculptures and 23 No Flusher tags.",
+      "tallyTarget": 100
+    },
+    {
+      "id": "ex-underwater",
+      "title": "Underwater discoveries",
+      "category": "exploration",
+      "spoiler": true,
+      "guide": "Find all 33 discoveries on the sea floor.",
+      "tallyTarget": 33
+    },
+    {
+      "id": "ex-magazines",
+      "title": "Magazines, books & comics",
+      "category": "exploration",
+      "spoiler": true,
+      "guide": "Collect 30 of the 34 (27 magazines plus 7 book swap boxes).",
+      "tallyTarget": 30
+    },
+    {
+      "id": "ex-flamingos",
+      "title": "Cocaine Flamingos",
+      "category": "exploration",
+      "spoiler": true,
+      "guide": "Find 100 of the 125 flamingo collectibles.",
+      "tallyTarget": 100
+    },
+    {
+      "id": "ex-styles",
+      "title": "Styles",
+      "category": "exploration",
+      "spoiler": true,
+      "guide": "Discover 70 of the 79 styles.",
+      "tallyTarget": 70
+    },
+    {
+      "id": "ex-unique-races",
+      "title": "Unique races won",
+      "category": "exploration",
+      "spoiler": true,
+      "guide": "Win 30 of the 40 unique races.",
+      "tallyTarget": 30
+    },
+    {
+      "id": "ex-hoops",
+      "title": "Basketball hoops",
+      "category": "exploration",
+      "spoiler": true,
+      "guide": "Score at 90 of the 100 basketball hoops.",
+      "tallyTarget": 90
+    },
+    {
+      "id": "ex-drone-trials",
+      "title": "Top Fun drone time trials",
+      "category": "exploration",
+      "spoiler": true,
+      "guide": "Complete all 42 drone time trials at the 14 locations.",
+      "tallyTarget": 42
+    },
+    {
+      "id": "ex-stunts",
+      "title": "Stunts",
+      "category": "exploration",
+      "spoiler": true,
+      "guide": "Complete 300 of the 397 stunts: 130 stunt jumps, 202 under the bridges, 40 knife flights and 25 base jumps.",
+      "tallyTarget": 300
+    },
+    {
+      "id": "ex-bret-decks",
+      "title": "Bret's target decks",
+      "category": "exploration",
+      "spoiler": true,
+      "guide": "Complete all 15 of Bret's hunting target decks.",
+      "tallyTarget": 15
+    },
+    {
+      "id": "dc-vehicles",
+      "title": "Base model vehicles",
+      "category": "discovery",
+      "spoiler": true,
+      "guide": "Discover 200 of the 277 base model vehicles.",
+      "tallyTarget": 200
+    },
+    {
+      "id": "dc-weapons",
+      "title": "Standard issue weapons",
+      "category": "discovery",
+      "spoiler": true,
+      "guide": "Collect 50 of the 66 standard issue weapons (53 guns, 9 melee, 4 explosives).",
+      "tallyTarget": 50
+    },
+    {
+      "id": "dc-animals",
+      "title": "Animals",
+      "category": "discovery",
+      "spoiler": true,
+      "guide": "Study 100 of the 255 animals.",
+      "tallyTarget": 100
+    },
+    {
+      "id": "cs-01",
+      "title": "Vice City Flamingos",
+      "category": "card-sets",
+      "spoiler": true,
+      "guide": "A set of 24 trading cards. Count the cards as you find them.",
+      "tallyTarget": 24
+    },
+    {
+      "id": "cs-02",
+      "title": "Vice City Narcos",
+      "category": "card-sets",
+      "spoiler": true,
+      "guide": "A set of 24 trading cards. Count the cards as you find them.",
+      "tallyTarget": 24
+    },
+    {
+      "id": "cs-03",
+      "title": "Vice City Manatees",
+      "category": "card-sets",
+      "spoiler": true,
+      "guide": "A set of 24 trading cards. Count the cards as you find them.",
+      "tallyTarget": 24
+    },
+    {
+      "id": "cs-04",
+      "title": "Vice City Club De Futbol",
+      "category": "card-sets",
+      "spoiler": true,
+      "guide": "A set of 30 trading cards. Count the cards as you find them.",
+      "tallyTarget": 30
+    },
+    {
+      "id": "cs-05",
+      "title": "Liberty City Swingers",
+      "category": "card-sets",
+      "spoiler": true,
+      "guide": "A set of 24 trading cards. Count the cards as you find them.",
+      "tallyTarget": 24
+    },
+    {
+      "id": "cs-06",
+      "title": "Liberty City Penetrators",
+      "category": "card-sets",
+      "spoiler": true,
+      "guide": "A set of 24 trading cards. Count the cards as you find them.",
+      "tallyTarget": 24
+    },
+    {
+      "id": "cs-07",
+      "title": "Liberty City Wrath",
+      "category": "card-sets",
+      "spoiler": true,
+      "guide": "A set of 24 trading cards. Count the cards as you find them.",
+      "tallyTarget": 24
+    },
+    {
+      "id": "cs-08",
+      "title": "Los Santos Corkers",
+      "category": "card-sets",
+      "spoiler": true,
+      "guide": "A set of 24 trading cards. Count the cards as you find them.",
+      "tallyTarget": 24
+    },
+    {
+      "id": "cs-09",
+      "title": "Los Santos Panic",
+      "category": "card-sets",
+      "spoiler": true,
+      "guide": "A set of 24 trading cards. Count the cards as you find them.",
+      "tallyTarget": 24
+    },
+    {
+      "id": "cs-10",
+      "title": "Los Santos Pounders",
+      "category": "card-sets",
+      "spoiler": true,
+      "guide": "A set of 24 trading cards. Count the cards as you find them.",
+      "tallyTarget": 24
+    },
+    {
+      "id": "cs-11",
+      "title": "Backyard Wrestling",
+      "category": "card-sets",
+      "spoiler": true,
+      "guide": "A set of 12 trading cards. Count the cards as you find them.",
+      "tallyTarget": 12
+    },
+    {
+      "id": "cs-12",
+      "title": "America's Next Top Hooker",
+      "category": "card-sets",
+      "spoiler": true,
+      "guide": "A set of 24 trading cards. Count the cards as you find them.",
+      "tallyTarget": 24
+    },
+    {
+      "id": "cs-13",
+      "title": "Delights Dancers",
+      "category": "card-sets",
+      "spoiler": true,
+      "guide": "A set of 18 trading cards. Count the cards as you find them.",
+      "tallyTarget": 18
+    },
+    {
+      "id": "cs-14",
+      "title": "Jack of Hearts Dancers",
+      "category": "card-sets",
+      "spoiler": true,
+      "guide": "A set of 36 trading cards. Count the cards as you find them.",
+      "tallyTarget": 36
+    },
+    {
+      "id": "cs-15",
+      "title": "Nine1Nine Dancers",
+      "category": "card-sets",
+      "spoiler": true,
+      "guide": "A set of 36 trading cards. Count the cards as you find them.",
+      "tallyTarget": 36
+    },
+    {
+      "id": "cs-16",
+      "title": "The Legends of Ratface",
+      "category": "card-sets",
+      "spoiler": true,
+      "guide": "A set of 36 trading cards. Count the cards as you find them.",
+      "tallyTarget": 36
+    },
+    {
+      "id": "cs-17",
+      "title": "Right Wing: America's Hero",
+      "category": "card-sets",
+      "spoiler": true,
+      "guide": "A set of 36 trading cards. Count the cards as you find them.",
+      "tallyTarget": 36
+    },
+    {
+      "id": "cs-18",
+      "title": "Ed Comics Universe",
+      "category": "card-sets",
+      "spoiler": true,
+      "guide": "A set of 36 trading cards. Count the cards as you find them.",
+      "tallyTarget": 36
+    },
+    {
+      "id": "md-01",
+      "title": "Jason's House",
+      "category": "meditation",
+      "spoiler": true,
+      "guide": "During chapter 1 only, on the balcony at Jason's house. Missable.",
+      "region": "Mariana County",
+      "missable": true
+    },
+    {
+      "id": "md-02",
+      "title": "Smooth Sand (1 of 2)",
+      "category": "meditation",
+      "spoiler": true,
+      "guide": "On a sandbar off the west coast of Capri. This spot has two meditations.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "md-03",
+      "title": "Smooth Sand (2 of 2)",
+      "category": "meditation",
+      "spoiler": true,
+      "guide": "On a sandbar off the west coast of Capri. This spot has two meditations.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "md-04",
+      "title": "Swamp (1 of 2)",
+      "category": "meditation",
+      "spoiler": true,
+      "guide": "On a wooden dock by a lookout tower in the middle of Buckskin Swamp. This spot has two meditations.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "md-05",
+      "title": "Swamp (2 of 2)",
+      "category": "meditation",
+      "spoiler": true,
+      "guide": "On a wooden dock by a lookout tower in the middle of Buckskin Swamp. This spot has two meditations.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "md-06",
+      "title": "Worn Stone (1 of 2)",
+      "category": "meditation",
+      "spoiler": true,
+      "guide": "On the Emerald River bank at Camp Moonflower. This spot has two meditations.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "md-07",
+      "title": "Worn Stone (2 of 2)",
+      "category": "meditation",
+      "spoiler": true,
+      "guide": "On the Emerald River bank at Camp Moonflower. This spot has two meditations.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "md-08",
+      "title": "Red Rocks (1 of 2)",
+      "category": "meditation",
+      "spoiler": true,
+      "guide": "In Manifest Canyon, near the train tracks by the highway. This spot has two meditations.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "md-09",
+      "title": "Red Rocks (2 of 2)",
+      "category": "meditation",
+      "spoiler": true,
+      "guide": "In Manifest Canyon, near the train tracks by the highway. This spot has two meditations.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "md-10",
+      "title": "Water Wheel (1 of 2)",
+      "category": "meditation",
+      "spoiler": true,
+      "guide": "At the waterwheel of the ruined paper mill in south Moreau. This spot has two meditations.",
+      "region": "Lummox County"
+    },
+    {
+      "id": "md-11",
+      "title": "Water Wheel (2 of 2)",
+      "category": "meditation",
+      "spoiler": true,
+      "guide": "At the waterwheel of the ruined paper mill in south Moreau. This spot has two meditations.",
+      "region": "Lummox County"
+    },
+    {
+      "id": "md-12",
+      "title": "Jutting Cliff (1 of 2)",
+      "category": "meditation",
+      "spoiler": true,
+      "guide": "By a tower above a mine in Mount Kalaga National Park. This spot has two meditations.",
+      "region": "Lummox County"
+    },
+    {
+      "id": "md-13",
+      "title": "Jutting Cliff (2 of 2)",
+      "category": "meditation",
+      "spoiler": true,
+      "guide": "By a tower above a mine in Mount Kalaga National Park. This spot has two meditations.",
+      "region": "Lummox County"
+    },
+    {
+      "id": "md-14",
+      "title": "Waterfall (1 of 2)",
+      "category": "meditation",
+      "spoiler": true,
+      "guide": "Northwest of Tallaloko, looking over a waterfall. This spot has two meditations.",
+      "region": "Lummox County"
+    },
+    {
+      "id": "md-15",
+      "title": "Waterfall (2 of 2)",
+      "category": "meditation",
+      "spoiler": true,
+      "guide": "Northwest of Tallaloko, looking over a waterfall. This spot has two meditations.",
+      "region": "Lummox County"
+    },
+    {
+      "id": "md-16",
+      "title": "Seaside (1 of 2)",
+      "category": "meditation",
+      "spoiler": true,
+      "guide": "On rocks by the beach east of Waning Sands. This spot has two meditations.",
+      "region": "Leonard County"
+    },
+    {
+      "id": "md-17",
+      "title": "Seaside (2 of 2)",
+      "category": "meditation",
+      "spoiler": true,
+      "guide": "On rocks by the beach east of Waning Sands. This spot has two meditations.",
+      "region": "Leonard County"
+    },
+    {
+      "id": "md-18",
+      "title": "Ascent Mountain",
+      "category": "meditation",
+      "spoiler": true,
+      "guide": "At the stone circle on the peak of Mount Kalaga. Opens up once you've done the others.",
+      "region": "Lummox County"
+    },
+    {
+      "id": "pl-sniper",
+      "title": "The Sniper of La Perle",
+      "category": "playlists",
+      "spoiler": true,
+      "guide": "Find its 4 posters: by the cashier at Aunt Zola's Soul Food, by the door at TWA Ponya Tattoo and by the clerk at Drip Drops (all in La Perle), and on a crate in the east recording booth on the second floor of the Jack of Hearts club in Crosstown.",
+      "region": "Vice City",
+      "tallyTarget": 4
+    },
+    {
+      "id": "pl-vault",
+      "title": "The Vault Radio",
+      "category": "playlists",
+      "spoiler": true,
+      "guide": "Find the red poster just inside the entrance of The Vault nightclub, downtown.",
+      "region": "Vice City"
+    },
+    {
+      "id": "vg-1",
+      "title": "Tenebrae Lux",
+      "category": "video-games",
+      "spoiler": true,
+      "guide": "On the home console. You play it during a chapter 1 story mission; not available in chapter 2."
+    },
+    {
+      "id": "vg-2",
+      "title": "Street Trash III",
+      "category": "video-games",
+      "spoiler": true,
+      "guide": "On the home console. Not available in chapter 2."
+    },
+    {
+      "id": "vg-3",
+      "title": "Time Jackers Rewind",
+      "category": "video-games",
+      "spoiler": true,
+      "guide": "On the home console. Not available in chapter 2."
+    },
+    {
+      "id": "vg-4",
+      "title": "Bang For Your Buck",
+      "category": "video-games",
+      "spoiler": true,
+      "guide": "On arcade machines, for example outside Bargain World in Port Gellhorn."
+    },
+    {
+      "id": "mg-1",
+      "title": "King Gator Adventure Golf",
+      "category": "mini-golf",
+      "spoiler": true,
+      "guide": "Mini golf course in Buckskin Swamp.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "mg-2",
+      "title": "Frontier Adventure Golf",
+      "category": "mini-golf",
+      "spoiler": true,
+      "guide": "Mini golf course in Waning Sands.",
+      "region": "Leonard County"
+    },
+    {
+      "id": "mg-3",
+      "title": "Dino Golf Challenge",
+      "category": "mini-golf",
+      "spoiler": true,
+      "guide": "Mini golf course in Frogswater.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "sr-01",
+      "title": "3-Point Range",
+      "category": "shooting-ranges",
+      "spoiler": true,
+      "guide": "Griffin Shooting Range, northwest of Vice City. Shoot the targets fast at three weapon stations. 3 gold medals.",
+      "tallyTarget": 3
+    },
+    {
+      "id": "sr-02",
+      "title": "Hook Range",
+      "category": "shooting-ranges",
+      "spoiler": true,
+      "guide": "Griffin Shooting Range, northwest of Vice City. Move through the course while shooting; watch for 5 red spinning targets. 3 gold medals.",
+      "tallyTarget": 3
+    },
+    {
+      "id": "sr-03",
+      "title": "Loop Range",
+      "category": "shooting-ranges",
+      "spoiler": true,
+      "guide": "Griffin Shooting Range, northwest of Vice City. Like Hook Range; slow motion helps with the spinning targets. 3 gold medals.",
+      "tallyTarget": 3
+    },
+    {
+      "id": "sr-04",
+      "title": "Maze Range",
+      "category": "shooting-ranges",
+      "spoiler": true,
+      "guide": "Griffin Shooting Range, northwest of Vice City. Like Hook and Loop, through a maze. 3 gold medals.",
+      "tallyTarget": 3
+    },
+    {
+      "id": "sr-05",
+      "title": "Compound Range",
+      "category": "shooting-ranges",
+      "spoiler": true,
+      "guide": "Griffin Shooting Range, northwest of Vice City. Clear a building as targets pop up. 3 gold medals.",
+      "tallyTarget": 3
+    },
+    {
+      "id": "sr-06",
+      "title": "Villa Range",
+      "category": "shooting-ranges",
+      "spoiler": true,
+      "guide": "Griffin Shooting Range, northwest of Vice City. Targets appear as you get close; plan a route through the houses. 3 gold medals.",
+      "tallyTarget": 3
+    },
+    {
+      "id": "sr-07",
+      "title": "Market Range",
+      "category": "shooting-ranges",
+      "spoiler": true,
+      "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Quick pistol shooting; speed matters more than accuracy. 4 gold medals.",
+      "tallyTarget": 4
+    },
+    {
+      "id": "sr-08",
+      "title": "Zombie Range",
+      "category": "shooting-ranges",
+      "spoiler": true,
+      "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Body shots build a score multiplier. 4 gold medals.",
+      "tallyTarget": 4
+    },
+    {
+      "id": "sr-09",
+      "title": "Hunting Range",
+      "category": "shooting-ranges",
+      "spoiler": true,
+      "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Animal targets, bears included. 4 gold medals.",
+      "tallyTarget": 4
+    },
+    {
+      "id": "sr-10",
+      "title": "Saloon Range",
+      "category": "shooting-ranges",
+      "spoiler": true,
+      "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Body shot, then head shot, on each enemy. 4 gold medals.",
+      "tallyTarget": 4
+    },
+    {
+      "id": "sr-11",
+      "title": "Cops & Robbers Range",
+      "category": "shooting-ranges",
+      "spoiler": true,
+      "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Sniper rifle headshots; don't hit the cop. 4 gold medals.",
+      "tallyTarget": 4
+    },
+    {
+      "id": "sr-12",
+      "title": "Alien Range",
+      "category": "shooting-ranges",
+      "spoiler": true,
+      "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Body shot, then head shot, on each target. 4 gold medals.",
+      "tallyTarget": 4
+    },
+    {
+      "id": "po-1",
+      "title": "Skeeter's",
+      "category": "pool",
+      "spoiler": true,
+      "guide": "South edge of Hamlet, on the south side of the building.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "po-2",
+      "title": "Zotico's",
+      "category": "pool",
+      "spoiler": true,
+      "guide": "West edge of Balsero, on the east side of the bar.",
+      "region": "Vice City"
+    },
+    {
+      "id": "po-3",
+      "title": "The Thirsty Wolf",
+      "category": "pool",
+      "spoiler": true,
+      "guide": "Northwest edge of Belville, on the north side of the building.",
+      "region": "Leonard County"
+    },
+    {
+      "id": "po-4",
+      "title": "Jacob's Tavern",
+      "category": "pool",
+      "spoiler": true,
+      "guide": "East side of Milport, beside a Pay 'n' Spray.",
+      "region": "Lummox County"
+    },
+    {
+      "id": "po-5",
+      "title": "Delights Cabaret",
+      "category": "pool",
+      "spoiler": true,
+      "guide": "In the middle of the building in Port Gellhorn. You can come back later if you miss it in chapter 2.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "po-6",
+      "title": "Kowaachobee Cafe & Bar",
+      "category": "pool",
+      "spoiler": true,
+      "guide": "Off the highway in Buckskin Swamp, on the west side.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "po-7",
+      "title": "Pool opponent 7",
+      "category": "pool",
+      "spoiler": true,
+      "guide": "Not found yet."
+    },
+    {
+      "id": "bj-01",
+      "title": "Fleeca - Key Lento",
+      "category": "bank-jobs",
+      "spoiler": true,
+      "guide": "Small bank: empty the cash drawer and the safe.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "bj-02",
+      "title": "Shorefront - Watson Bay",
+      "category": "bank-jobs",
+      "spoiler": true,
+      "guide": "Small bank: empty the cash drawer and the safe.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "bj-03",
+      "title": "Gibson Brothers Bank",
+      "category": "bank-jobs",
+      "spoiler": true,
+      "guide": "Small bank: empty the cash drawer and the safe.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "bj-04",
+      "title": "Lombank - Peacock Bay",
+      "category": "bank-jobs",
+      "spoiler": true,
+      "guide": "Small bank: empty the cash drawer and the safe.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "bj-05",
+      "title": "Fleeca - Peacock Bay",
+      "category": "bank-jobs",
+      "spoiler": true,
+      "guide": "Small bank: empty the cash drawer and the safe.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "bj-06",
+      "title": "Shorefront - Downtown",
+      "category": "bank-jobs",
+      "spoiler": true,
+      "guide": "Small bank: empty the cash drawer and the safe.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "bj-07",
+      "title": "Shorefront - Rockridge",
+      "category": "bank-jobs",
+      "spoiler": true,
+      "guide": "Small bank: empty the cash drawer and the safe.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "bj-08",
+      "title": "Lombank - Bayside",
+      "category": "bank-jobs",
+      "spoiler": true,
+      "guide": "Small bank: empty the cash drawer and the safe.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "bj-09",
+      "title": "Fleeca - Washington Beach",
+      "category": "bank-jobs",
+      "spoiler": true,
+      "guide": "Small bank: empty the cash drawer and the safe.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "bj-10",
+      "title": "Lombank - Ocean Beach",
+      "category": "bank-jobs",
+      "spoiler": true,
+      "guide": "Small bank: empty the cash drawer and the safe.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "bj-11",
+      "title": "Fleeca - Ocean Beach",
+      "category": "bank-jobs",
+      "spoiler": true,
+      "guide": "Small bank: empty the cash drawer and the safe.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "bj-12",
+      "title": "Shorefront - Ocean Beach",
+      "category": "bank-jobs",
+      "spoiler": true,
+      "guide": "Small bank: empty the cash drawer and the safe.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "bj-13",
+      "title": "Druthers State Bank",
+      "category": "bank-jobs",
+      "spoiler": true,
+      "guide": "Small bank: empty the cash drawer and the safe.",
+      "region": "Leonard County"
+    },
+    {
+      "id": "bj-14",
+      "title": "Shorefront - Ambrosia",
+      "category": "bank-jobs",
+      "spoiler": true,
+      "guide": "Small bank: empty the cash drawer and the safe.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "bj-15",
+      "title": "Fleeca - VCIA (large)",
+      "category": "bank-jobs",
+      "spoiler": true,
+      "guide": "Large bank: hit the vault as well as the cash drawer and the safe.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "bj-16",
+      "title": "Fleeca - Tequesta (large)",
+      "category": "bank-jobs",
+      "spoiler": true,
+      "guide": "Large bank: hit the vault as well as the cash drawer and the safe.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "bj-17",
+      "title": "Lombank - Downtown (large)",
+      "category": "bank-jobs",
+      "spoiler": true,
+      "guide": "Large bank: hit the vault as well as the cash drawer and the safe.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "bj-18",
+      "title": "Fleeca - Downtown (large)",
+      "category": "bank-jobs",
+      "spoiler": true,
+      "guide": "Large bank: hit the vault as well as the cash drawer and the safe.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "bj-19",
+      "title": "Lombank - Ocean Beach (large, 1 of 2)",
+      "category": "bank-jobs",
+      "spoiler": true,
+      "guide": "Large bank: hit the vault as well as the cash drawer and the safe.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "bj-20",
+      "title": "Fleeca - Ocean Beach (large)",
+      "category": "bank-jobs",
+      "spoiler": true,
+      "guide": "Large bank: hit the vault as well as the cash drawer and the safe.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "bj-21",
+      "title": "Lombank - Ocean Beach (large, 2 of 2)",
+      "category": "bank-jobs",
+      "spoiler": true,
+      "guide": "Large bank: hit the vault as well as the cash drawer and the safe.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "bj-22",
+      "title": "Shorefront - Ocean Beach (large)",
+      "category": "bank-jobs",
+      "spoiler": true,
+      "guide": "Large bank: hit the vault as well as the cash drawer and the safe.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "pd-1",
+      "title": "Quick Buck - Hamlet",
+      "category": "payday-loans",
+      "spoiler": true,
+      "guide": "Rob the store and get away.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "pd-2",
+      "title": "Payline Loans 247",
+      "category": "payday-loans",
+      "spoiler": true,
+      "guide": "Rob the store and get away.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "pd-3",
+      "title": "Payday Loans Store - Southside",
+      "category": "payday-loans",
+      "spoiler": true,
+      "guide": "Rob the store and get away.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "pd-4",
+      "title": "Payday Loans Store - Little Cuba",
+      "category": "payday-loans",
+      "spoiler": true,
+      "guide": "Rob the store and get away.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "pd-5",
+      "title": "Payday Loans Store - Rockridge",
+      "category": "payday-loans",
+      "spoiler": true,
+      "guide": "Rob the store and get away.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "pd-6",
+      "title": "Quick Buck - La Perle",
+      "category": "payday-loans",
+      "spoiler": true,
+      "guide": "Rob the store and get away.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "pd-7",
+      "title": "Cash Flow",
+      "category": "payday-loans",
+      "spoiler": true,
+      "guide": "Rob the store and get away.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "sg-01",
+      "title": "The Siren's Chest",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Jewelry store: smash the cases and grab the jewelry.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "sg-02",
+      "title": "Timeless Peculiars",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Pawn shop: smash the cases and grab the goods.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "sg-03",
+      "title": "Victoria Lee Jeweler",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Jewelry store: smash the cases and grab the jewelry.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "sg-04",
+      "title": "Hamlet Pawn",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Pawn shop: smash the cases and grab the goods.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sg-05",
+      "title": "Joyeria Empenos",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Pawn shop: smash the cases and grab the goods.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sg-06",
+      "title": "Ernesto's Pawn",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Pawn shop: smash the cases and grab the goods.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sg-07",
+      "title": "Donovan Banks & Co.",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Jewelry store: smash the cases and grab the jewelry.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sg-08",
+      "title": "Plush",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Jewelry store: smash the cases and grab the jewelry.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sg-09",
+      "title": "Pawn City",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Pawn shop: smash the cases and grab the goods.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sg-10",
+      "title": "Icegem Diamonds & Watches",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Jewelry store: smash the cases and grab the jewelry.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sg-11",
+      "title": "Richardson Jewelry & Diamonds",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Jewelry store: smash the cases and grab the jewelry.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sg-12",
+      "title": "All That Glitters",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Jewelry store: smash the cases and grab the jewelry.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sg-13",
+      "title": "Peacock",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Jewelry store: smash the cases and grab the jewelry.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sg-14",
+      "title": "Fast Cash",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Pawn shop: smash the cases and grab the goods.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sg-15",
+      "title": "The Jewelry Place",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Jewelry store: smash the cases and grab the jewelry.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sg-16",
+      "title": "Crown Jewels",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Jewelry store: smash the cases and grab the jewelry.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sg-17",
+      "title": "Dorado Pawn Shop",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Pawn shop: smash the cases and grab the goods.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sg-18",
+      "title": "White Sands Jewelry Pawn",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Pawn shop: smash the cases and grab the goods.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sg-19",
+      "title": "Down Town Pawn",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Pawn shop: smash the cases and grab the goods.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sg-20",
+      "title": "Vice City Pawn",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Pawn shop: smash the cases and grab the goods.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sg-21",
+      "title": "Pawn Stash",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Pawn shop: smash the cases and grab the goods.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sg-22",
+      "title": "Blanc & Giroux",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Jewelry store: smash the cases and grab the jewelry.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sg-23",
+      "title": "Roval Jewelry",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Jewelry store: smash the cases and grab the jewelry.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sg-24",
+      "title": "Covgari",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Jewelry store: smash the cases and grab the jewelry.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sg-25",
+      "title": "Akoya Jewelers",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Jewelry store: smash the cases and grab the jewelry.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sg-26",
+      "title": "Marshal's",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Jewelry store: smash the cases and grab the jewelry.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sg-27",
+      "title": "Casa De Empeno",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Pawn shop: smash the cases and grab the goods.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sg-28",
+      "title": "Rococo Rich",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Jewelry store: smash the cases and grab the jewelry.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sg-29",
+      "title": "Legendary Custom Jewelry",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Jewelry store: smash the cases and grab the jewelry.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "sg-30",
+      "title": "Brilliant Cuts",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Jewelry store: smash the cases and grab the jewelry.",
+      "region": "Leonard County"
+    },
+    {
+      "id": "sg-31",
+      "title": "Skala",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Jewelry store: smash the cases and grab the jewelry.",
+      "region": "Leonard County"
+    },
+    {
+      "id": "sg-32",
+      "title": "Kowalski",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Jewelry store: smash the cases and grab the jewelry.",
+      "region": "Leonard County"
+    },
+    {
+      "id": "sg-33",
+      "title": "Buck's Jewelry & Pawn",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Pawn shop: smash the cases and grab the goods.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "sg-34",
+      "title": "Avery Pawn",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Pawn shop: smash the cases and grab the goods.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "sg-35",
+      "title": "Florence & Co.",
+      "category": "smash-grabs",
+      "spoiler": true,
+      "guide": "Pawn shop: smash the cases and grab the goods.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "rc-01",
+      "title": "Ambrosia Raceway Trial",
+      "category": "race-challenges",
+      "spoiler": true,
+      "guide": "Tick it off when you get the gold medal."
+    },
+    {
+      "id": "rc-02",
+      "title": "Hamlet BMX Stunt Run",
+      "category": "race-challenges",
+      "spoiler": true,
+      "guide": "Tick it off when you get the gold medal."
+    },
+    {
+      "id": "rc-03",
+      "title": "Boone Speedway Trial",
+      "category": "race-challenges",
+      "spoiler": true,
+      "guide": "Tick it off when you get the gold medal."
+    },
+    {
+      "id": "rc-04",
+      "title": "Gellhorn Raceway Trial",
+      "category": "race-challenges",
+      "spoiler": true,
+      "guide": "Tick it off when you get the gold medal."
+    },
+    {
+      "id": "rc-05",
+      "title": "Gellhorn Dragway Trial",
+      "category": "race-challenges",
+      "spoiler": true,
+      "guide": "Tick it off when you get the gold medal."
+    },
+    {
+      "id": "rc-06",
+      "title": "Kalaga Cycling Trial",
+      "category": "race-challenges",
+      "spoiler": true,
+      "guide": "Tick it off when you get the gold medal."
+    },
+    {
+      "id": "rc-07",
+      "title": "Mud Club Air Time Stunt Run",
+      "category": "race-challenges",
+      "spoiler": true,
+      "guide": "Tick it off when you get the gold medal."
+    },
+    {
+      "id": "rc-08",
+      "title": "Mud Club Drag Trial",
+      "category": "race-challenges",
+      "spoiler": true,
+      "guide": "Tick it off when you get the gold medal."
+    },
+    {
+      "id": "rc-09",
+      "title": "Mud Club Hill Climb Trial",
+      "category": "race-challenges",
+      "spoiler": true,
+      "guide": "Tick it off when you get the gold medal."
+    },
+    {
+      "id": "rc-10",
+      "title": "Mud Club Dirt Track Trial",
+      "category": "race-challenges",
+      "spoiler": true,
+      "guide": "Tick it off when you get the gold medal."
+    },
+    {
+      "id": "rc-11",
+      "title": "Mud Club Oval Trial",
+      "category": "race-challenges",
+      "spoiler": true,
+      "guide": "Tick it off when you get the gold medal."
+    },
+    {
+      "id": "rc-12",
+      "title": "Mud Club Swamp Run Trial",
+      "category": "race-challenges",
+      "spoiler": true,
+      "guide": "Tick it off when you get the gold medal."
+    },
+    {
+      "id": "rc-13",
+      "title": "Waning Sands Motocross Stunt Run",
+      "category": "race-challenges",
+      "spoiler": true,
+      "guide": "Tick it off when you get the gold medal."
+    },
+    {
+      "id": "ch-01",
+      "title": "Speed Kills",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Combat challenge. 3 kills inside 30 seconds."
+    },
+    {
+      "id": "ch-02",
+      "title": "Melee Combat",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Combat challenge. 5 melee takedowns in a row without dying."
+    },
+    {
+      "id": "ch-03",
+      "title": "Explosive Combat",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Combat challenge. Hit 3 people with one explosive."
+    },
+    {
+      "id": "ch-04",
+      "title": "Headshots",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Combat challenge. 4 headshot kills in one use of combat focus."
+    },
+    {
+      "id": "ch-05",
+      "title": "Drive-Bys",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Combat challenge. 5 drive-by kills inside a minute without leaving the vehicle."
+    },
+    {
+      "id": "ch-06",
+      "title": "Stealth Sniping",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Combat challenge. 7 sniper kills on unaware targets, without dying or being arrested."
+    },
+    {
+      "id": "ch-07",
+      "title": "Incendiary",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Combat challenge. Hit 5 people with fire inside 15 seconds."
+    },
+    {
+      "id": "ch-08",
+      "title": "Revolver Headshots",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Combat challenge. 6 revolver headshots without reloading or switching."
+    },
+    {
+      "id": "ch-09",
+      "title": "Long-Range Sniping",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Combat challenge. 3 sniper kills inside 10 seconds from 300 ft or more."
+    },
+    {
+      "id": "ch-10",
+      "title": "High Explosive",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Combat challenge. Hit 8 people with explosives inside 20 seconds without taking damage."
+    },
+    {
+      "id": "ch-11",
+      "title": "Mugging",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Criminal challenge. Rob 5 people on the street."
+    },
+    {
+      "id": "ch-12",
+      "title": "Stick Ups",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Criminal challenge. Rob 3 stores in one day without dying or being arrested."
+    },
+    {
+      "id": "ch-13",
+      "title": "Carjacking",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Criminal challenge. Carjack 3 vehicles and take them to a Pay 'n' Spray, same day."
+    },
+    {
+      "id": "ch-14",
+      "title": "Mugging Spree",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Criminal challenge. Take $500 from people on the street in one day."
+    },
+    {
+      "id": "ch-15",
+      "title": "Cop Car Theft",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Criminal challenge. Keep a wanted level for 5 minutes in a stolen police car."
+    },
+    {
+      "id": "ch-16",
+      "title": "Cop Weapon Theft",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Criminal challenge. Take weapons from the trunks of 5 different police cars."
+    },
+    {
+      "id": "ch-17",
+      "title": "Stick Up Spree",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Criminal challenge. Rob 2 stores in each of the 5 counties inside 20 minutes."
+    },
+    {
+      "id": "ch-18",
+      "title": "Cop Tow",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Criminal challenge. Tow an occupied police car 1 mile without stopping."
+    },
+    {
+      "id": "ch-19",
+      "title": "Carjacking Spree",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Criminal challenge. Register or respray stolen cars from 10 different makers inside 30 minutes."
+    },
+    {
+      "id": "ch-20",
+      "title": "Carjacking Pro",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Criminal challenge. Make $100,000 selling stolen vehicles in one day."
+    },
+    {
+      "id": "ch-21",
+      "title": "WAiNK Locations",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Exploration challenge. Scan any 4 landmarks, curiosities or sculptures."
+    },
+    {
+      "id": "ch-22",
+      "title": "Skyscrapers",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Exploration challenge. Reach the top of the 5 tallest skyscrapers in Vice-Dale County."
+    },
+    {
+      "id": "ch-23",
+      "title": "Collectible Cards",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Exploration challenge. Find 3 cards in each of the 5 counties."
+    },
+    {
+      "id": "ch-24",
+      "title": "Encyclopedia",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Exploration challenge. Discover 100 animals, vehicles and weapons."
+    },
+    {
+      "id": "ch-25",
+      "title": "Underwater Discoveries",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Exploration challenge. Explore 25 sights on the ocean floor."
+    },
+    {
+      "id": "ch-26",
+      "title": "Rail Tour",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Exploration challenge. Ride a train 1 mile in each of the 5 counties in one day."
+    },
+    {
+      "id": "ch-27",
+      "title": "Underwater Treasures",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Exploration challenge. Find 85 underwater treasures."
+    },
+    {
+      "id": "ch-28",
+      "title": "Black Hole Wrecks",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Exploration challenge. Find all 11 black hole wrecks."
+    },
+    {
+      "id": "ch-29",
+      "title": "Road Trip",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Exploration challenge. Drive to every city and town in Leonida in one day, stopping only to refuel."
+    },
+    {
+      "id": "ch-30",
+      "title": "Helipad Flyovers",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Exploration challenge. Fly 100 ft or lower over all 41 helipads in Vice City and Vice Beach inside 10 minutes."
+    },
+    {
+      "id": "ch-31",
+      "title": "Gym Member",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Fitness challenge. Join any gym."
+    },
+    {
+      "id": "ch-32",
+      "title": "Foot Travel",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Fitness challenge. Go 5 miles on foot in one day."
+    },
+    {
+      "id": "ch-33",
+      "title": "Pro Cyclist",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Fitness challenge. Cycle 15 miles in one day."
+    },
+    {
+      "id": "ch-34",
+      "title": "Pro Swimmer",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Fitness challenge. Swim 3 miles in one day."
+    },
+    {
+      "id": "ch-35",
+      "title": "Balanced Workout",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Fitness challenge. Use every type of gym equipment in one day."
+    },
+    {
+      "id": "ch-36",
+      "title": "Strength Regime",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Fitness challenge. Strength level 4 with both characters, 5 days in a row."
+    },
+    {
+      "id": "ch-37",
+      "title": "Cardio Regime",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Fitness challenge. Cardio level 4 with both characters, 5 days in a row."
+    },
+    {
+      "id": "ch-38",
+      "title": "Waning Sands Run",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Fitness challenge. Walk from the pier gate at the Tip to Waning Sands inside 13 minutes without taking damage."
+    },
+    {
+      "id": "ch-39",
+      "title": "Tequesta Swim",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Fitness challenge. Swim from Tequesta Retreat to Starfish Island inside 15 minutes."
+    },
+    {
+      "id": "ch-40",
+      "title": "Southwind Cycle",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Fitness challenge. Cycle from the Grayson guest house to the Southwind bar inside 22 minutes without falling off."
+    },
+    {
+      "id": "ch-41",
+      "title": "Vehicle Modder",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Shopping challenge. Buy 5 mods at a mod shop."
+    },
+    {
+      "id": "ch-42",
+      "title": "Grocery Shopper",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Shopping challenge. Spend over $250 at convenience and liquor stores in one day."
+    },
+    {
+      "id": "ch-43",
+      "title": "Well Armed",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Shopping challenge. Buy 3 sidearms and 3 longarms at Ammu-Nation."
+    },
+    {
+      "id": "ch-44",
+      "title": "Well Groomed",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Shopping challenge. Spend over $1,000 at barbers and salons."
+    },
+    {
+      "id": "ch-45",
+      "title": "Stylishly Armed",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Shopping challenge. Buy cosmetic upgrades for 5 sidearms and 5 longarms."
+    },
+    {
+      "id": "ch-46",
+      "title": "Well Dressed",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Shopping challenge. Spend over $5,000 on clothes."
+    },
+    {
+      "id": "ch-47",
+      "title": "Custom Ride",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Shopping challenge. Spend over $20,000 in one mod shop visit."
+    },
+    {
+      "id": "ch-48",
+      "title": "Heavily Armed",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Shopping challenge. Spend over $50,000 at Ammu-Nations."
+    },
+    {
+      "id": "ch-49",
+      "title": "Serious Modder",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Shopping challenge. Spend over $125,000 at mod shops."
+    },
+    {
+      "id": "ch-50",
+      "title": "Nest Egg",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Shopping challenge. Have $1,500,000 in your BuckMe checking account."
+    },
+    {
+      "id": "ch-51",
+      "title": "Basketball Rookie",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Sports challenge. Score at 3 different hoops in one day."
+    },
+    {
+      "id": "ch-52",
+      "title": "Golf Rookie",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Sports challenge. 18 holes at King Gator or Frontier mini golf inside 30 minutes, 3 under par or better."
+    },
+    {
+      "id": "ch-53",
+      "title": "Basketball Streak",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Sports challenge. 10 baskets in a row inside 2 minutes."
+    },
+    {
+      "id": "ch-54",
+      "title": "Pool Streak",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Sports challenge. Win pool at 3 places in one day without losing or quitting."
+    },
+    {
+      "id": "ch-55",
+      "title": "Basketball Tour",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Sports challenge. Score a basket in every county."
+    },
+    {
+      "id": "ch-56",
+      "title": "Golf Pro",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Sports challenge. 18 holes at both King Gator and Frontier in one day, par or better."
+    },
+    {
+      "id": "ch-57",
+      "title": "Triple Bank",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Sports challenge. Bounce the cue ball off 3 cushions before potting a ball."
+    },
+    {
+      "id": "ch-58",
+      "title": "Basketball Pro",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Sports challenge. Score at all 100 hoops in Leonida."
+    },
+    {
+      "id": "ch-59",
+      "title": "8-Ball Break",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Sports challenge. Win at pool by sinking the 8-ball on the break."
+    },
+    {
+      "id": "ch-60",
+      "title": "Double Hole In One",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Sports challenge. Two holes in one in a row in one game at King Gator or Frontier."
+    },
+    {
+      "id": "ch-61",
+      "title": "Alligator Kills",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Survival challenge. Kill 3 wild alligators."
+    },
+    {
+      "id": "ch-62",
+      "title": "Big Fish",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Survival challenge. Catch a fish of 20 lb or more."
+    },
+    {
+      "id": "ch-63",
+      "title": "Marksman",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Survival challenge. Win a medal at both shooting ranges in one day."
+    },
+    {
+      "id": "ch-64",
+      "title": "Catch of the Day",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Survival challenge. Catch 3 fish with each type of lure in one day."
+    },
+    {
+      "id": "ch-65",
+      "title": "Zoologist",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Survival challenge. Study 20 animal species."
+    },
+    {
+      "id": "ch-66",
+      "title": "Angler",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Survival challenge. Catch 4 species of fish inside 6 minutes."
+    },
+    {
+      "id": "ch-67",
+      "title": "Pro Marksman",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Survival challenge. Gold in 3 shooting range events in a row without failing or quitting."
+    },
+    {
+      "id": "ch-68",
+      "title": "Hunting Spree",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Survival challenge. Kill a boar, a rattlesnake and a panther inside 15 minutes without taking damage."
+    },
+    {
+      "id": "ch-69",
+      "title": "Pro Angler",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Survival challenge. Catch every species of fish."
+    },
+    {
+      "id": "ch-70",
+      "title": "Legendary Hunter",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Survival challenge. Kill all 8 unique animals."
+    },
+    {
+      "id": "ch-71",
+      "title": "Vehicle Discovery",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Vehicle challenge. Discover 6 vehicles."
+    },
+    {
+      "id": "ch-72",
+      "title": "Wheelie",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Vehicle challenge. Wheelie for a quarter of a mile."
+    },
+    {
+      "id": "ch-73",
+      "title": "Winning Streak",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Vehicle challenge. Win 3 races: one in a muscle car, one in a sports car and one in a supercar."
+    },
+    {
+      "id": "ch-74",
+      "title": "Throttled",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Vehicle challenge. Go over 100 mph in a motor vehicle for 2 minutes."
+    },
+    {
+      "id": "ch-75",
+      "title": "Drawbridge Jump",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Vehicle challenge. Jump over a drawbridge 3 times, 100 ft or more, without leaving the vehicle."
+    },
+    {
+      "id": "ch-76",
+      "title": "Top Speed",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Vehicle challenge. Hit 175 mph in a car, truck or motorcycle."
+    },
+    {
+      "id": "ch-77",
+      "title": "Train Landing",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Vehicle challenge. Land a plane on a moving train without wrecking it."
+    },
+    {
+      "id": "ch-78",
+      "title": "Oceanarium Jump",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Vehicle challenge. Parachute from half a mile up into the Oceanarium's orca or dolphin tank."
+    },
+    {
+      "id": "ch-79",
+      "title": "Rally Winner",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Vehicle challenge. Win at the Mud Club, Gellhorn and Boone in one day, 3 wins in a row."
+    },
+    {
+      "id": "ch-80",
+      "title": "Train Jump",
+      "category": "challenges",
+      "spoiler": true,
+      "guide": "Vehicle challenge. Jump a motorcycle 75 ft or more onto a moving train twice inside 20 minutes."
     }
   ],
   "rules": {
     "playedCategories": [],
     "groups": [
       {
-        "name": "Activities",
+        "name": "Story",
         "tier": "hundred",
-        "weight": 1.0,
-        "color": "35E0C8"
+        "weight": 0.4,
+        "color": "FF5C8A"
+      },
+      {
+        "name": "Tasks & robberies",
+        "tier": "hundred",
+        "weight": 0.2,
+        "color": "7BD389"
+      },
+      {
+        "name": "Exploration & activities",
+        "tier": "hundred",
+        "weight": 0.3,
+        "color": "FF9E4A"
+      },
+      {
+        "name": "Discovery",
+        "tier": "hundred",
+        "weight": 0.1,
+        "color": "4AB3FF"
       },
       {
         "name": "Exploration",
@@ -997,9 +4299,439 @@
         "name": "Trophies",
         "tier": "hundredPlus",
         "color": "F5C542"
+      },
+      {
+        "name": "Activities",
+        "tier": "hundredPlus",
+        "color": "35E0C8"
+      },
+      {
+        "name": "Side missions",
+        "tier": "hundredPlus",
+        "color": "FFD166"
       }
     ],
     "milestones": [
+      {
+        "id": "m-story",
+        "text": "Finish the story (91 missions)",
+        "target": 91,
+        "link": {
+          "type": "category",
+          "category": "missions"
+        },
+        "group": "Story",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-tk-optional-tasks",
+        "text": "Optional tasks",
+        "target": 1,
+        "link": {
+          "type": "items",
+          "category": "tasks",
+          "ids": [
+            "tk-optional-tasks"
+          ]
+        },
+        "group": "Tasks & robberies",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-tk-gang-ops",
+        "text": "Illegal gang operations",
+        "target": 1,
+        "link": {
+          "type": "items",
+          "category": "tasks",
+          "ids": [
+            "tk-gang-ops"
+          ]
+        },
+        "group": "Tasks & robberies",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-tk-stick-ups",
+        "text": "Stick ups",
+        "target": 1,
+        "link": {
+          "type": "items",
+          "category": "tasks",
+          "ids": [
+            "tk-stick-ups"
+          ]
+        },
+        "group": "Tasks & robberies",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-tk-vaults",
+        "text": "Bank vaults",
+        "target": 1,
+        "link": {
+          "type": "items",
+          "category": "tasks",
+          "ids": [
+            "tk-vaults"
+          ]
+        },
+        "group": "Tasks & robberies",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-tk-fence-narcotics",
+        "text": "Fence $100,000 of narcotics",
+        "target": 1,
+        "link": {
+          "type": "items",
+          "category": "tasks",
+          "ids": [
+            "tk-fence-narcotics"
+          ]
+        },
+        "group": "Tasks & robberies",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-tk-fence-jewelry",
+        "text": "Fence $100,000 of jewelry",
+        "target": 1,
+        "link": {
+          "type": "items",
+          "category": "tasks",
+          "ids": [
+            "tk-fence-jewelry"
+          ]
+        },
+        "group": "Tasks & robberies",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-tk-fence-bills",
+        "text": "Fence $250,000 of marked bills",
+        "target": 1,
+        "link": {
+          "type": "items",
+          "category": "tasks",
+          "ids": [
+            "tk-fence-bills"
+          ]
+        },
+        "group": "Tasks & robberies",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-tk-fence-vehicles",
+        "text": "Fence $200,000 of vehicles",
+        "target": 1,
+        "link": {
+          "type": "items",
+          "category": "tasks",
+          "ids": [
+            "tk-fence-vehicles"
+          ]
+        },
+        "group": "Tasks & robberies",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-bank-jobs",
+        "text": "Bank jobs: all 22",
+        "target": 22,
+        "link": {
+          "type": "category",
+          "category": "bank-jobs"
+        },
+        "group": "Tasks & robberies",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-payday-loans",
+        "text": "Payday loans: all 7",
+        "target": 7,
+        "link": {
+          "type": "category",
+          "category": "payday-loans"
+        },
+        "group": "Tasks & robberies",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-smash-grabs",
+        "text": "Smash 'N' Grabs: 34 of 35",
+        "target": 34,
+        "link": {
+          "type": "category",
+          "category": "smash-grabs"
+        },
+        "group": "Tasks & robberies",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-ex-kenton-sets",
+        "text": "Kenton sets",
+        "target": 1,
+        "link": {
+          "type": "items",
+          "category": "exploration",
+          "ids": [
+            "ex-kenton-sets"
+          ]
+        },
+        "group": "Exploration & activities",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-ex-waink",
+        "text": "WAiNK scans",
+        "target": 1,
+        "link": {
+          "type": "items",
+          "category": "exploration",
+          "ids": [
+            "ex-waink"
+          ]
+        },
+        "group": "Exploration & activities",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-ex-underwater",
+        "text": "Underwater discoveries",
+        "target": 1,
+        "link": {
+          "type": "items",
+          "category": "exploration",
+          "ids": [
+            "ex-underwater"
+          ]
+        },
+        "group": "Exploration & activities",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-ex-magazines",
+        "text": "Magazines, books & comics",
+        "target": 1,
+        "link": {
+          "type": "items",
+          "category": "exploration",
+          "ids": [
+            "ex-magazines"
+          ]
+        },
+        "group": "Exploration & activities",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-ex-flamingos",
+        "text": "Cocaine Flamingos",
+        "target": 1,
+        "link": {
+          "type": "items",
+          "category": "exploration",
+          "ids": [
+            "ex-flamingos"
+          ]
+        },
+        "group": "Exploration & activities",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-ex-styles",
+        "text": "Styles",
+        "target": 1,
+        "link": {
+          "type": "items",
+          "category": "exploration",
+          "ids": [
+            "ex-styles"
+          ]
+        },
+        "group": "Exploration & activities",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-ex-unique-races",
+        "text": "Unique races won",
+        "target": 1,
+        "link": {
+          "type": "items",
+          "category": "exploration",
+          "ids": [
+            "ex-unique-races"
+          ]
+        },
+        "group": "Exploration & activities",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-race-challenges",
+        "text": "Race challenge golds: 10 of 13",
+        "target": 10,
+        "link": {
+          "type": "category",
+          "category": "race-challenges"
+        },
+        "group": "Exploration & activities",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-ex-hoops",
+        "text": "Basketball hoops",
+        "target": 1,
+        "link": {
+          "type": "items",
+          "category": "exploration",
+          "ids": [
+            "ex-hoops"
+          ]
+        },
+        "group": "Exploration & activities",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-ex-drone-trials",
+        "text": "Top Fun drone time trials",
+        "target": 1,
+        "link": {
+          "type": "items",
+          "category": "exploration",
+          "ids": [
+            "ex-drone-trials"
+          ]
+        },
+        "group": "Exploration & activities",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-ex-stunts",
+        "text": "Stunts",
+        "target": 1,
+        "link": {
+          "type": "items",
+          "category": "exploration",
+          "ids": [
+            "ex-stunts"
+          ]
+        },
+        "group": "Exploration & activities",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-challenges",
+        "text": "Challenges: 70 of 80",
+        "target": 70,
+        "link": {
+          "type": "category",
+          "category": "challenges"
+        },
+        "group": "Exploration & activities",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-ex-bret-decks",
+        "text": "Bret's target decks",
+        "target": 1,
+        "link": {
+          "type": "items",
+          "category": "exploration",
+          "ids": [
+            "ex-bret-decks"
+          ]
+        },
+        "group": "Exploration & activities",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-card-sets",
+        "text": "Card sets: 15 of 18",
+        "target": 15,
+        "link": {
+          "type": "category",
+          "category": "card-sets"
+        },
+        "group": "Exploration & activities",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-meditation",
+        "text": "Meditation: 15 of 18",
+        "target": 15,
+        "link": {
+          "type": "category",
+          "category": "meditation"
+        },
+        "group": "Exploration & activities",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-playlists",
+        "text": "Unique playlists",
+        "target": 2,
+        "link": {
+          "type": "category",
+          "category": "playlists"
+        },
+        "group": "Exploration & activities",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-video-games",
+        "text": "Video games",
+        "target": 4,
+        "link": {
+          "type": "category",
+          "category": "video-games"
+        },
+        "group": "Exploration & activities",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-pool",
+        "text": "Pool opponents: 5 of 7",
+        "target": 5,
+        "link": {
+          "type": "category",
+          "category": "pool"
+        },
+        "group": "Exploration & activities",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-mini-golf",
+        "text": "Mini golf: 2 of 3",
+        "target": 2,
+        "link": {
+          "type": "category",
+          "category": "mini-golf"
+        },
+        "group": "Exploration & activities",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-shooting-ranges",
+        "text": "Shooting range golds: all 42",
+        "target": 12,
+        "link": {
+          "type": "category",
+          "category": "shooting-ranges"
+        },
+        "group": "Exploration & activities",
+        "tier": "hundred"
+      },
+      {
+        "id": "m-discovery",
+        "text": "Discovery (3 checklist lines)",
+        "target": 3,
+        "link": {
+          "type": "category",
+          "category": "discovery"
+        },
+        "group": "Discovery",
+        "tier": "hundred"
+      },
       {
         "id": "m-activities",
         "text": "Try all 11 activities",
@@ -1009,7 +4741,8 @@
           "category": "activity"
         },
         "group": "Activities",
-        "tier": "hundred"
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
       },
       {
         "id": "mp-landmarks",
@@ -1034,15 +4767,134 @@
         "group": "Trophies",
         "tier": "hundredPlus",
         "section": "singlePlayer"
+      },
+      {
+        "id": "mp-strangers",
+        "text": "Finish 37 Strangers & Freaks missions",
+        "target": 37,
+        "link": {
+          "type": "category",
+          "category": "stranger-missions"
+        },
+        "group": "Side missions",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
       }
     ],
     "achievementLinks": {
       "tr-01": {
         "type": "allOtherAchievements"
+      },
+      "tr-02": {
+        "type": "played",
+        "id": "ms-002"
+      },
+      "tr-03": {
+        "type": "played",
+        "id": "ms-022"
+      },
+      "tr-04": {
+        "type": "played",
+        "id": "ms-033"
+      },
+      "tr-05": {
+        "type": "played",
+        "id": "ms-059"
+      },
+      "tr-06": {
+        "type": "played",
+        "id": "ms-084"
+      },
+      "tr-07": {
+        "type": "played",
+        "id": "ms-091"
+      },
+      "tr-08": {
+        "type": "played",
+        "id": "ms-030"
+      },
+      "tr-09": {
+        "type": "played",
+        "id": "ms-059"
+      },
+      "tr-10": {
+        "type": "played",
+        "id": "ms-076"
+      },
+      "tr-11": {
+        "type": "played",
+        "id": "ms-077"
+      },
+      "tr-12": {
+        "type": "played",
+        "id": "ms-082"
+      },
+      "tr-13": {
+        "type": "played",
+        "id": "ms-089"
+      },
+      "tr-22": {
+        "type": "played",
+        "id": "sf-25"
+      },
+      "tr-24": {
+        "type": "played",
+        "id": "sf-16"
+      },
+      "tr-26": {
+        "type": "played",
+        "id": "sf-30"
+      },
+      "tr-27": {
+        "type": "played",
+        "id": "sf-32"
+      },
+      "tr-29": {
+        "type": "played",
+        "id": "sf-11"
+      },
+      "tr-17": {
+        "type": "allCollected",
+        "ids": [
+          "sr-01",
+          "sr-02",
+          "sr-03",
+          "sr-04",
+          "sr-05",
+          "sr-06",
+          "sr-07",
+          "sr-08",
+          "sr-09",
+          "sr-10",
+          "sr-11",
+          "sr-12"
+        ]
+      },
+      "tr-28": {
+        "type": "allCollected",
+        "ids": [
+          "md-02",
+          "md-03",
+          "md-04",
+          "md-05",
+          "md-06",
+          "md-07",
+          "md-08",
+          "md-09",
+          "md-10",
+          "md-11",
+          "md-12",
+          "md-13",
+          "md-14",
+          "md-15",
+          "md-16",
+          "md-17",
+          "md-18"
+        ]
       }
     },
     "unlockRequirements": {},
     "platinum": "tr-01"
   },
-  "_note": "Confirmed content only. v7: the six named regions and the eleven activities (Game Informer, 29 Sep 2026, plus Wyman's Classic Car Collection). v8: the 55-trophy list (Xbox achievement data via Exophase, and Press Start's PS5 list, 18 Nov 2026); every new item is marked spoiler, and story and secret trophies have neutral titles. v9: the real names and how-tos behind the 27 neutral trophies, in revealedTitle/revealedGuide (shown by spoiler-shield builds once done or revealed)."
+  "_note": "Confirmed content only. v7: the six named regions and the eleven activities (Game Informer, 29 Sep 2026, plus Wyman's Classic Car Collection). v8: the 55-trophy list (Xbox achievement data via Exophase, and Press Start's PS5 list, 18 Nov 2026); every new item is marked spoiler, and story and secret trophies have neutral titles. v9: the real names and how-tos behind the 27 neutral trophies, in revealedTitle/revealedGuide (shown by spoiler-shield builds once done or revealed). v10: 91 story missions (PowerPyx walkthrough, PC Gamer, Press Start), 39 Strangers & Freaks (PowerPyx), and the game's own 100% checklist as 34 items with the 100% thresholds (PowerPyx); the Path to 100% now follows that checklist, and the 11 activities moved to 100%+. Card sets, meditation, playlists, video games, pool, mini golf and shooting ranges are listed one by one (PowerPyx). Bank jobs, payday loans, Smash 'N' Grabs, race challenges and the 80 challenges are listed one by one too (PowerPyx)."
 }
