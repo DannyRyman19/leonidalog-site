@@ -1,5 +1,5 @@
 {
-  "version": 11,
+  "version": 12,
   "categories": [
     {
       "id": "landmark",
@@ -70,7 +70,7 @@
       "symbol": "rectangle.stack.fill",
       "colorHex": "FF9E4A",
       "verb": "collected",
-      "intro": "18 trading card sets, 480 cards in all, spread across Leonida. 100% needs 15 complete sets.",
+      "intro": "18 trading card sets, 480 cards in all, spread across Leonida. 100% needs 15 complete sets. The Don't Touch My Deck trophy needs 3.",
       "collectible": true
     },
     {
@@ -79,7 +79,7 @@
       "symbol": "leaf.fill",
       "colorHex": "8BD17C",
       "verb": "done",
-      "intro": "18 meditations at 10 spots: most spots have two. 100% needs 15 of the 18; the trophy needs every spot.",
+      "intro": "18 meditations at 10 spots: most spots have two. 100% needs 15 of the 18; the Positive Mental Attitude trophy needs every spot.",
       "collectible": true
     },
     {
@@ -97,7 +97,7 @@
       "symbol": "gamecontroller",
       "colorHex": "5FD3E8",
       "verb": "played",
-      "intro": "4 video games to play through. Three are on the home console; one is an arcade machine."
+      "intro": "4 video games to play through. Three are on the home console; one is an arcade machine. Finishing any one of them earns the Stick Fiddler trophy."
     },
     {
       "id": "mini-golf",
@@ -161,7 +161,7 @@
       "symbol": "checkmark.seal.fill",
       "colorHex": "FF9E4A",
       "verb": "done",
-      "intro": "80 challenges in 8 groups of 10, all open from the start. 100% needs 70; a trophy needs 50. The game tracks them under Progress, Challenges."
+      "intro": "80 challenges in 8 groups of 10, all open from the start. 100% needs 70; the One Last Thing trophy needs 50. The game tracks them under Progress, Challenges."
     },
     {
       "id": "flamingos",
@@ -196,7 +196,7 @@
       "symbol": "camera.viewfinder",
       "colorHex": "4AD9D9",
       "verb": "found",
-      "intro": "Scan with the WAiNK app: 31 landmarks, 35 curiosities, 23 sculptures and No Flusher tags. 100% needs 100. Numbers follow the game's Progress menu. More are added as guides find them.",
+      "intro": "Scan with the WAiNK app: 31 landmarks, 35 curiosities, 23 sculptures and No Flusher tags. 100% needs 100. Numbers follow the game's Progress menu. More are added as guides find them. The You WAiNKer! trophy needs 100.",
       "collectible": true
     },
     {
@@ -205,7 +205,7 @@
       "symbol": "car.side.fill",
       "colorHex": "FFB547",
       "verb": "landed",
-      "intro": "130 stunt jumps. They count towards the stunts line of 100% (300 of 397 stunts, with under the bridges, knife flights and base jumps). More are added as guides find them.",
+      "intro": "130 stunt jumps. They count towards the stunts line of 100% (300 of 397 stunts, with under the bridges, knife flights and base jumps). More are added as guides find them. Stunt jumps also count towards the Cunning Stunts trophy (250 stunts).",
       "collectible": true
     },
     {
@@ -214,7 +214,7 @@
       "symbol": "flag.checkered",
       "colorHex": "FF9E4A",
       "verb": "won",
-      "intro": "40 unique races in 6 groups. 100% needs 30 wins; a trophy needs 20."
+      "intro": "40 unique races in 6 groups. 100% needs 30 wins; the Earn Cash, Not Kudos trophy needs 20."
     },
     {
       "id": "gang-ops",
@@ -2120,10 +2120,12 @@
       "id": "sf-01",
       "title": "Side mission 1",
       "category": "stranger-missions",
+      "completeBefore": "chapter 2",
       "givenBy": "Strand 01",
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 1. Unlocks in chapter 1.",
       "revealedTitle": "Get Shirley's Rum",
+      "revealedGivenBy": "Shirley",
       "revealedGuide": "Shirley's strand, mission 1 of 2. Unlocks in chapter 1. Doesn't count towards the Strangers & Freaks trophy. Missable: chapter 1 only.",
       "missable": true
     },
@@ -2131,10 +2133,12 @@
       "id": "sf-02",
       "title": "Side mission 2",
       "category": "stranger-missions",
+      "completeBefore": "chapter 2",
       "givenBy": "Strand 01",
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 1. Unlocks in chapter 1.",
       "revealedTitle": "Steal the Scooter",
+      "revealedGivenBy": "Shirley",
       "revealedGuide": "Shirley's strand, mission 2 of 2. Unlocks in chapter 1. Doesn't count towards the Strangers & Freaks trophy. Missable: chapter 1 only.",
       "missable": true
     },
@@ -2146,6 +2150,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 2. Unlocks in chapter 1.",
       "revealedTitle": "Search for the Skunk Ape",
+      "revealedGivenBy": "Kirk",
       "revealedGuide": "Kirk's strand, mission 1 of 3. Unlocks in chapter 1. Counts towards the Strangers & Freaks trophy. Night only."
     },
     {
@@ -2156,6 +2161,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 2. Unlocks in chapter 1.",
       "revealedTitle": "Search for Tree Effigies",
+      "revealedGivenBy": "Kirk",
       "revealedGuide": "Kirk's strand, mission 2 of 3. Unlocks in chapter 1. Counts towards the Strangers & Freaks trophy."
     },
     {
@@ -2166,6 +2172,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 2. Unlocks in chapter 1.",
       "revealedTitle": "Help Kirk Find Mr. Mangrove",
+      "revealedGivenBy": "Kirk",
       "revealedGuide": "Kirk's strand, mission 3 of 3. Unlocks in chapter 1. Counts towards the Strangers & Freaks trophy. Lucia only, at night."
     },
     {
@@ -2176,6 +2183,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 3. Unlocks in chapter 2.",
       "revealedTitle": "Check Out McKittrick Farm",
+      "revealedGivenBy": "Kyle",
       "revealedGuide": "Kyle's strand, mission 1 of 3. Unlocks in chapter 2. Counts towards the Strangers & Freaks trophy."
     },
     {
@@ -2186,6 +2194,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 3. Unlocks in chapter 2.",
       "revealedTitle": "Collect Chemicals for Kyle",
+      "revealedGivenBy": "Kyle",
       "revealedGuide": "Kyle's strand, mission 2 of 3. Unlocks in chapter 2. Counts towards the Strangers & Freaks trophy."
     },
     {
@@ -2196,6 +2205,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 3. Unlocks in chapter 2.",
       "revealedTitle": "Buddy?",
+      "revealedGivenBy": "Kyle",
       "revealedGuide": "Kyle's strand, mission 3 of 3. Unlocks in chapter 2. Counts towards the Strangers & Freaks trophy."
     },
     {
@@ -2206,6 +2216,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 4. Unlocks in chapter 2.",
       "revealedTitle": "Steal Vehicles for Moses",
+      "revealedGivenBy": "Moses",
       "revealedGuide": "Moses's strand, mission 1 of 1. Unlocks in chapter 2. Counts towards the Strangers & Freaks trophy."
     },
     {
@@ -2216,6 +2227,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 5. Unlocks in chapter 2.",
       "revealedTitle": "Veteran Hunted",
+      "revealedGivenBy": "Bret",
       "revealedGuide": "Bret's strand, mission 1 of 2. Unlocks in chapter 2. Counts towards the Strangers & Freaks trophy. Jason only."
     },
     {
@@ -2226,6 +2238,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 5. Unlocks in chapter 2.",
       "revealedTitle": "Bret's Hunting Decks",
+      "revealedGivenBy": "Bret",
       "revealedGuide": "Bret's strand, mission 2 of 2. Unlocks in chapter 2. Counts towards the Strangers & Freaks trophy. Finish Bret's hunting target decks."
     },
     {
@@ -2236,6 +2249,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 6. Unlocks in chapter 2.",
       "revealedTitle": "Thrillbillies",
+      "revealedGivenBy": "Billy",
       "revealedGuide": "Billy's strand, mission 1 of 5. Unlocks in chapter 2. Doesn't count towards the Strangers & Freaks trophy."
     },
     {
@@ -2246,6 +2260,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 6. Unlocks in chapter 2.",
       "revealedTitle": "Twist Wrist, Smash, Grab",
+      "revealedGivenBy": "Billy",
       "revealedGuide": "Billy's strand, mission 2 of 5. Unlocks in chapter 2. Doesn't count towards the Strangers & Freaks trophy."
     },
     {
@@ -2256,6 +2271,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 6. Unlocks in chapter 2.",
       "revealedTitle": "Mall Rats",
+      "revealedGivenBy": "Billy",
       "revealedGuide": "Billy's strand, mission 3 of 5. Unlocks in chapter 2. Doesn't count towards the Strangers & Freaks trophy."
     },
     {
@@ -2266,6 +2282,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 6. Unlocks in chapter 2.",
       "revealedTitle": "The Impaler",
+      "revealedGivenBy": "Billy",
       "revealedGuide": "Billy's strand, mission 4 of 5. Unlocks in chapter 2. Doesn't count towards the Strangers & Freaks trophy."
     },
     {
@@ -2276,6 +2293,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 6. Unlocks in chapter 2.",
       "revealedTitle": "Hometown Heroes",
+      "revealedGivenBy": "Billy",
       "revealedGuide": "Billy's strand, mission 5 of 5. Unlocks in chapter 2. Doesn't count towards the Strangers & Freaks trophy."
     },
     {
@@ -2286,6 +2304,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 7. Unlocks in chapter 3.",
       "revealedTitle": "Join a Street Race",
+      "revealedGivenBy": "Yago",
       "revealedGuide": "Yago's strand, mission 1 of 4. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy."
     },
     {
@@ -2296,6 +2315,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 7. Unlocks in chapter 3.",
       "revealedTitle": "Bumper to Bumper",
+      "revealedGivenBy": "Yago",
       "revealedGuide": "Yago's strand, mission 2 of 4. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy. Jason only."
     },
     {
@@ -2306,6 +2326,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 7. Unlocks in chapter 3.",
       "revealedTitle": "Race Against Yago",
+      "revealedGivenBy": "Yago",
       "revealedGuide": "Yago's strand, mission 3 of 4. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy. Time-limited and missable.",
       "missable": true
     },
@@ -2317,6 +2338,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 7. Unlocks in chapter 3.",
       "revealedTitle": "Brother to Brother",
+      "revealedGivenBy": "Yago",
       "revealedGuide": "Yago's strand, mission 4 of 4. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy. Jason only."
     },
     {
@@ -2327,6 +2349,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 8. Unlocks in chapter 3.",
       "revealedTitle": "Climbing the Cellerichain",
+      "revealedGivenBy": "Andy",
       "revealedGuide": "Andy's strand, mission 1 of 5. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Lucia only. Three parts."
     },
     {
@@ -2337,6 +2360,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 8. Unlocks in chapter 3.",
       "revealedTitle": "Pay the Cellerica Fee",
+      "revealedGivenBy": "Andy",
       "revealedGuide": "Andy's strand, mission 2 of 5. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Lucia only."
     },
     {
@@ -2347,6 +2371,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 8. Unlocks in chapter 3.",
       "revealedTitle": "Peach!",
+      "revealedGivenBy": "Andy",
       "revealedGuide": "Andy's strand, mission 3 of 5. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Lucia only."
     },
     {
@@ -2357,6 +2382,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 8. Unlocks in chapter 3.",
       "revealedTitle": "Read the Label",
+      "revealedGivenBy": "Andy",
       "revealedGuide": "Andy's strand, mission 4 of 5. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Lucia only."
     },
     {
@@ -2367,6 +2393,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 8. Unlocks in chapter 3.",
       "revealedTitle": "Puff Puff Pass",
+      "revealedGivenBy": "Andy",
       "revealedGuide": "Andy's strand, mission 5 of 5. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Lucia only."
     },
     {
@@ -2377,6 +2404,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 9. Unlocks in chapter 3.",
       "revealedTitle": "Yasmani's Jewelry Jobs",
+      "revealedGivenBy": "Yasmani",
       "revealedGuide": "Yasmani's strand, mission 1 of 4. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy."
     },
     {
@@ -2387,6 +2415,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 9. Unlocks in chapter 3.",
       "revealedTitle": "Yasmani's ATM Jobs",
+      "revealedGivenBy": "Yasmani",
       "revealedGuide": "Yasmani's strand, mission 2 of 4. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy."
     },
     {
@@ -2397,6 +2426,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 9. Unlocks in chapter 3.",
       "revealedTitle": "Yasmani's Payday Loans Jobs",
+      "revealedGivenBy": "Yasmani",
       "revealedGuide": "Yasmani's strand, mission 3 of 4. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy."
     },
     {
@@ -2407,6 +2437,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 9. Unlocks in chapter 3.",
       "revealedTitle": "Tail the Security Van",
+      "revealedGivenBy": "Yasmani",
       "revealedGuide": "Yasmani's strand, mission 4 of 4. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy."
     },
     {
@@ -2417,6 +2448,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 10. Unlocks in chapter 3.",
       "revealedTitle": "Randy's Wish List",
+      "revealedGivenBy": "Randy",
       "revealedGuide": "Randy's strand, mission 1 of 1. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy."
     },
     {
@@ -2427,6 +2459,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 11. Unlocks in chapter 3.",
       "revealedTitle": "Take Out Kitty Litter",
+      "revealedGivenBy": "Tyrone",
       "revealedGuide": "Tyrone's strand, mission 1 of 2. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Shut down the Kitty Litter labs."
     },
     {
@@ -2437,6 +2470,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 11. Unlocks in chapter 3.",
       "revealedTitle": "Spin On This",
+      "revealedGivenBy": "Tyrone",
       "revealedGuide": "Tyrone's strand, mission 2 of 2. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy."
     },
     {
@@ -2447,6 +2481,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 12. Unlocks in chapter 3.",
       "revealedTitle": "Dunk's Robbery Tips",
+      "revealedGivenBy": "Dunk",
       "revealedGuide": "Dunk's strand, mission 1 of 1. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy."
     },
     {
@@ -2457,6 +2492,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 13. Unlocks in chapter 4.",
       "revealedTitle": "Attend Eddie Acosta's Party",
+      "revealedGivenBy": "Eddie Acosta",
       "revealedGuide": "Eddie Acosta's strand, mission 1 of 1. Unlocks in chapter 4. Doesn't count towards the Strangers & Freaks trophy."
     },
     {
@@ -2467,6 +2503,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 14. Unlocks in chapter 4.",
       "revealedTitle": "The Last Mile: Passing the Torch",
+      "revealedGivenBy": "Pilot Pete",
       "revealedGuide": "Pilot Pete's strand, mission 1 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only."
     },
     {
@@ -2477,6 +2514,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 14. Unlocks in chapter 4.",
       "revealedTitle": "The Last Mile: Backseat Pilot",
+      "revealedGivenBy": "Pilot Pete",
       "revealedGuide": "Pilot Pete's strand, mission 2 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only."
     },
     {
@@ -2487,6 +2525,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 14. Unlocks in chapter 4.",
       "revealedTitle": "Pete's Deliveries: Southpoint Airfield",
+      "revealedGivenBy": "Pilot Pete",
       "revealedGuide": "Pilot Pete's strand, mission 3 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only."
     },
     {
@@ -2497,6 +2536,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 14. Unlocks in chapter 4.",
       "revealedTitle": "Pete's Deliveries: Avery Allen & Co.",
+      "revealedGivenBy": "Pilot Pete",
       "revealedGuide": "Pilot Pete's strand, mission 4 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only."
     },
     {
@@ -2507,6 +2547,7 @@
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 14. Unlocks in chapter 4.",
       "revealedTitle": "Deliver Packages",
+      "revealedGivenBy": "Pilot Pete",
       "revealedGuide": "Pilot Pete's strand, mission 5 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only."
     },
     {
@@ -2829,6 +2870,7 @@
       "id": "md-01",
       "title": "Jason's House",
       "category": "meditation",
+      "completeBefore": "chapter 2",
       "subgroup": "Mariana County",
       "spoiler": true,
       "guide": "During chapter 1 only, on the balcony at Jason's house. Missable.",
@@ -3352,7 +3394,7 @@
       "category": "bank-jobs",
       "subgroup": "Large banks",
       "spoiler": true,
-      "guide": "Large bank: hit the vault as well as the cash drawer and the safe.",
+      "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
       "region": "Vice-Dale County"
     },
     {
@@ -3361,7 +3403,7 @@
       "category": "bank-jobs",
       "subgroup": "Large banks",
       "spoiler": true,
-      "guide": "Large bank: hit the vault as well as the cash drawer and the safe.",
+      "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
       "region": "Vice-Dale County"
     },
     {
@@ -3370,7 +3412,7 @@
       "category": "bank-jobs",
       "subgroup": "Large banks",
       "spoiler": true,
-      "guide": "Large bank: hit the vault as well as the cash drawer and the safe.",
+      "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
       "region": "Vice-Dale County"
     },
     {
@@ -3379,7 +3421,7 @@
       "category": "bank-jobs",
       "subgroup": "Large banks",
       "spoiler": true,
-      "guide": "Large bank: hit the vault as well as the cash drawer and the safe.",
+      "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
       "region": "Vice-Dale County"
     },
     {
@@ -3388,7 +3430,7 @@
       "category": "bank-jobs",
       "subgroup": "Large banks",
       "spoiler": true,
-      "guide": "Large bank: hit the vault as well as the cash drawer and the safe.",
+      "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
       "region": "Vice-Dale County"
     },
     {
@@ -3397,7 +3439,7 @@
       "category": "bank-jobs",
       "subgroup": "Large banks",
       "spoiler": true,
-      "guide": "Large bank: hit the vault as well as the cash drawer and the safe.",
+      "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
       "region": "Vice-Dale County"
     },
     {
@@ -3406,7 +3448,7 @@
       "category": "bank-jobs",
       "subgroup": "Large banks",
       "spoiler": true,
-      "guide": "Large bank: hit the vault as well as the cash drawer and the safe.",
+      "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
       "region": "Vice-Dale County"
     },
     {
@@ -3415,7 +3457,7 @@
       "category": "bank-jobs",
       "subgroup": "Large banks",
       "spoiler": true,
-      "guide": "Large bank: hit the vault as well as the cash drawer and the safe.",
+      "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
       "region": "Vice-Dale County"
     },
     {
@@ -4588,6 +4630,7 @@
       "id": "mz-01",
       "title": "Ashes of Glory",
       "category": "magazines",
+      "completeBefore": "chapter 2",
       "subgroup": "Mariana County",
       "spoiler": true,
       "guide": "Key Lento: Jason's house, the table by the bed. Chapter 1 only.",
@@ -4598,6 +4641,7 @@
       "id": "mz-02",
       "title": "Lethal By Design",
       "category": "magazines",
+      "completeBefore": "chapter 2",
       "subgroup": "Mariana County",
       "spoiler": true,
       "guide": "Key Lento: Jason's house, the living room table. Chapter 1 only.",
@@ -4608,6 +4652,7 @@
       "id": "mz-03",
       "title": "Orca: A Whole Different Animal",
       "category": "magazines",
+      "completeBefore": "chapter 2",
       "subgroup": "Mariana County",
       "spoiler": true,
       "guide": "Key Lento: Jason's house, the table by the east window. Chapter 1 only.",
@@ -4618,6 +4663,7 @@
       "id": "mz-04",
       "title": "Off the Hook",
       "category": "magazines",
+      "completeBefore": "chapter 2",
       "subgroup": "Mariana County",
       "spoiler": true,
       "guide": "Key Lento: the tool shed under Jason's house. Chapter 1 only.",
@@ -4628,6 +4674,7 @@
       "id": "mz-05",
       "title": "Body Copy",
       "category": "magazines",
+      "completeBefore": "chapter 2",
       "subgroup": "Mariana County",
       "spoiler": true,
       "guide": "Key Lento: Jason's back deck, by the weights. Chapter 1 only.",
@@ -4647,6 +4694,7 @@
       "id": "mz-07",
       "title": "Help Me Help You Help Me",
       "category": "magazines",
+      "completeBefore": "chapter 3",
       "subgroup": "Kelly County",
       "spoiler": true,
       "guide": "Gellhorn: Starlet Motel reception table. Gone after chapter 2.",
@@ -4657,6 +4705,7 @@
       "id": "mz-08",
       "title": "Wizard Wang",
       "category": "magazines",
+      "completeBefore": "chapter 3",
       "subgroup": "Kelly County",
       "spoiler": true,
       "guide": "Gellhorn: Starlet Motel cafeteria table. Gone after chapter 2.",
@@ -4676,6 +4725,7 @@
       "id": "mz-10",
       "title": "Passion B.C.",
       "category": "magazines",
+      "completeBefore": "chapter 4",
       "subgroup": "Vice City",
       "spoiler": true,
       "guide": "Bayside: the apartment, by the bathtub. Gone after chapter 3.",
@@ -4686,6 +4736,7 @@
       "id": "mz-11",
       "title": "Two Pricks in the Bush",
       "category": "magazines",
+      "completeBefore": "chapter 4",
       "subgroup": "Vice City",
       "spoiler": true,
       "guide": "Bayside: the apartment, on the table in front of the TV. Gone after chapter 3.",
@@ -7823,10 +7874,107 @@
           "md-17",
           "md-18"
         ]
+      },
+      "tr-19": {
+        "type": "category",
+        "category": "unique-races"
+      },
+      "tr-30": {
+        "type": "category",
+        "category": "card-sets"
+      },
+      "tr-32": {
+        "type": "category",
+        "category": "game-challenges"
+      },
+      "tr-40": {
+        "type": "itemsFloor",
+        "ids": [
+          "bj-15",
+          "bj-16",
+          "bj-17",
+          "bj-18",
+          "bj-19",
+          "bj-20",
+          "bj-21",
+          "bj-22"
+        ]
+      },
+      "tr-31": {
+        "type": "itemsFloor",
+        "ids": [
+          "wl-05",
+          "wl-06",
+          "wl-11",
+          "wl-17",
+          "wl-18",
+          "wl-21",
+          "wl-22",
+          "wc-11",
+          "wc-29",
+          "ws-07",
+          "ws-16",
+          "ws-19",
+          "ws-20",
+          "ws-22",
+          "ws-23",
+          "wf-01"
+        ]
+      },
+      "tr-15": {
+        "type": "itemsFloor",
+        "ids": [
+          "sj-001",
+          "sj-002",
+          "sj-003",
+          "sj-004",
+          "sj-005",
+          "sj-006",
+          "sj-007",
+          "sj-008",
+          "sj-009",
+          "sj-010",
+          "sj-011",
+          "sj-012",
+          "sj-013",
+          "sj-014",
+          "sj-015",
+          "sj-016",
+          "sj-017",
+          "sj-018",
+          "sj-019",
+          "sj-020",
+          "sj-021",
+          "sj-022",
+          "sj-023",
+          "sj-024"
+        ]
+      },
+      "tr-25": {
+        "type": "itemsFloor",
+        "ids": [
+          "sf-05",
+          "sf-08",
+          "sf-09",
+          "sf-11",
+          "sf-20",
+          "sf-30",
+          "sf-33",
+          "sf-39"
+        ]
+      },
+      "tr-21": {
+        "type": "playedAnyOf",
+        "ids": [
+          "vg-1",
+          "vg-2",
+          "vg-3",
+          "vg-4"
+        ]
       }
     },
     "unlockRequirements": {},
     "platinum": "tr-01"
   },
-  "_note": "Confirmed content only. v7: the six named regions and the eleven activities (Game Informer, 29 Sep 2026, plus Wyman's Classic Car Collection). v8: the 55-trophy list (Xbox achievement data via Exophase, and Press Start's PS5 list, 18 Nov 2026); every new item is marked spoiler, and story and secret trophies have neutral titles. v9: the real names and how-tos behind the 27 neutral trophies, in revealedTitle/revealedGuide (shown by spoiler-shield builds once done or revealed). v10: 91 story missions (PowerPyx walkthrough, PC Gamer, Press Start), 39 Strangers & Freaks (PowerPyx), and the game's own 100% checklist as 34 items with the 100% thresholds (PowerPyx); the Path to 100% now follows that checklist, and the 11 activities moved to 100%+. Card sets, meditation, playlists, video games, pool, mini golf and shooting ranges are listed one by one (PowerPyx). Bank jobs, payday loans, Smash 'N' Grabs, race challenges and the 80 challenges are listed one by one too (PowerPyx). v11: card sets, meditation and playlists are marked collectible, for Progress's Collectibles card. Also v11: lists PowerPyx is still filling in (flamingos, magazines, book swaps, WAiNK, stunt jumps, unique races, gang operations, drug labs) are listed item by item with what's known so far, alongside the 100% counter rows; more items get added as the lists grow. Animals: the game's 8 animal groups as counters (255 in all, PowerPyx), until a species list exists. From Danny's own in-game Progress captures (18 Nov): 50 animal species, and Kenton's 6 wrecks with 12 named treasures (descriptions in our own words)."
+  "_note": "Confirmed content only. v7: the six named regions and the eleven activities (Game Informer, 29 Sep 2026, plus Wyman's Classic Car Collection). v8: the 55-trophy list (Xbox achievement data via Exophase, and Press Start's PS5 list, 18 Nov 2026); every new item is marked spoiler, and story and secret trophies have neutral titles. v9: the real names and how-tos behind the 27 neutral trophies, in revealedTitle/revealedGuide (shown by spoiler-shield builds once done or revealed). v10: 91 story missions (PowerPyx walkthrough, PC Gamer, Press Start), 39 Strangers & Freaks (PowerPyx), and the game's own 100% checklist as 34 items with the 100% thresholds (PowerPyx); the Path to 100% now follows that checklist, and the 11 activities moved to 100%+. Card sets, meditation, playlists, video games, pool, mini golf and shooting ranges are listed one by one (PowerPyx). Bank jobs, payday loans, Smash 'N' Grabs, race challenges and the 80 challenges are listed one by one too (PowerPyx). v11: card sets, meditation and playlists are marked collectible, for Progress's Collectibles card. Also v11: lists PowerPyx is still filling in (flamingos, magazines, book swaps, WAiNK, stunt jumps, unique races, gang operations, drug labs) are listed item by item with what's known so far, alongside the 100% counter rows; more items get added as the lists grow. Animals: the game's 8 animal groups as counters (255 in all, PowerPyx), until a species list exists. From Danny's own in-game Progress captures (18 Nov): 50 animal species, and Kenton's 6 wrecks with 12 named treasures (descriptions in our own words). v12: Danny's post-v11 refinements (sub-categories, animal stats and pictures, challenges' own category id) under a new version, so apps that already applied v11 pick them up. v12 also links trophies to the lists they count: races, card sets, challenges, vaults, WAiNK, stunt jumps, Strangers & Freaks strands and video games."
 }
