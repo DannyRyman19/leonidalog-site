@@ -1,4 +1,410 @@
 {
-  "version": 0,
-  "cheats": []
+  "version": 1,
+  "cheats": [
+    {
+      "id": "cash-250k",
+      "group": "player",
+      "name": {
+        "en": "$250,000"
+      },
+      "detail": {
+        "en": "Adds $250,000 to your cash."
+      },
+      "note": {
+        "en": "Finish the story."
+      },
+      "pad": [
+        "UP",
+        "RIGHT",
+        "DOWN",
+        "LEFT",
+        "UP",
+        "LEFT",
+        "DOWN",
+        "RIGHT"
+      ]
+    },
+    {
+      "id": "raise-heat",
+      "group": "player",
+      "name": {
+        "en": "Raise Heat Level"
+      },
+      "detail": {
+        "en": "Raises the heat level across the map."
+      },
+      "note": {
+        "en": "Lose a 3-star wanted level 25 times."
+      },
+      "pad": [
+        "LEFT",
+        "DOWN",
+        "RIGHT",
+        "DOWN",
+        "UP",
+        "DOWN",
+        "UP"
+      ]
+    },
+    {
+      "id": "unlimited-focus",
+      "group": "player",
+      "name": {
+        "en": "Unlimited Focus"
+      },
+      "detail": {
+        "en": "Focus never runs out."
+      },
+      "note": {
+        "en": "Finish the story."
+      },
+      "pad": [
+        "DOWN",
+        "UP",
+        "UP",
+        "DOWN",
+        "UP",
+        "DOWN",
+        "UP",
+        "DOWN",
+        "UP",
+        "RIGHT"
+      ]
+    },
+    {
+      "id": "body-armor",
+      "group": "player",
+      "name": {
+        "en": "Body Armor"
+      },
+      "detail": {
+        "en": "Adds body armor to your loadout."
+      },
+      "note": {
+        "en": "Complete 100 workouts."
+      },
+      "pad": [
+        "DOWN",
+        "UP",
+        "LEFT",
+        "UP",
+        "UP",
+        "UP",
+        "UP",
+        "UP",
+        "DOWN",
+        "DOWN"
+      ]
+    },
+    {
+      "id": "max-ammo",
+      "group": "weapons",
+      "name": {
+        "en": "Max Ammo"
+      },
+      "detail": {
+        "en": "Fills every weapon's ammo."
+      },
+      "note": {
+        "en": "Win 25 medals, bronze or better, at shooting ranges."
+      },
+      "pad": [
+        "DOWN",
+        "UP",
+        "RIGHT",
+        "DOWN",
+        "LEFT",
+        "LEFT",
+        "UP",
+        "UP",
+        "DOWN",
+        "LEFT"
+      ]
+    },
+    {
+      "id": "infinite-ammo",
+      "group": "weapons",
+      "name": {
+        "en": "Infinite Ammo"
+      },
+      "detail": {
+        "en": "Ammo never runs out."
+      },
+      "note": {
+        "en": "Win 25 medals, silver or better, at shooting ranges."
+      },
+      "pad": [
+        "DOWN",
+        "UP",
+        "RIGHT",
+        "DOWN",
+        "LEFT",
+        "LEFT",
+        "UP",
+        "DOWN",
+        "DOWN",
+        "DOWN"
+      ]
+    },
+    {
+      "id": "no-reload",
+      "group": "weapons",
+      "name": {
+        "en": "No Reload"
+      },
+      "detail": {
+        "en": "Ammo never runs out and you never reload."
+      },
+      "note": {
+        "en": "Win 25 gold medals at shooting ranges."
+      },
+      "pad": [
+        "DOWN",
+        "UP",
+        "RIGHT",
+        "DOWN",
+        "LEFT",
+        "LEFT",
+        "UP",
+        "DOWN",
+        "DOWN",
+        "UP"
+      ]
+    },
+    {
+      "id": "attack-force",
+      "group": "weapons",
+      "name": {
+        "en": "Attack Force"
+      },
+      "detail": {
+        "en": "Bullets and melee hits launch whatever they hit."
+      },
+      "note": {
+        "en": "Finish the story."
+      },
+      "pad": [
+        "DOWN",
+        "UP",
+        "LEFT",
+        "LEFT",
+        "RIGHT",
+        "DOWN",
+        "DOWN",
+        "UP",
+        "DOWN"
+      ]
+    },
+    {
+      "id": "exploding-balls",
+      "group": "weapons",
+      "name": {
+        "en": "Exploding Balls"
+      },
+      "detail": {
+        "en": "Sports balls explode on impact."
+      },
+      "note": {
+        "en": "Hit 20 enemies with explosive damage."
+      },
+      "pad": [
+        "DOWN",
+        "UP",
+        "LEFT",
+        "LEFT",
+        "RIGHT",
+        "DOWN",
+        "DOWN",
+        "UP",
+        "RIGHT"
+      ]
+    },
+    {
+      "id": "vehicle-force",
+      "group": "weapons",
+      "name": {
+        "en": "Vehicle Force"
+      },
+      "detail": {
+        "en": "Anything your vehicle hits is launched."
+      },
+      "note": {
+        "en": "Kill 25 enemies with a vehicle."
+      },
+      "pad": [
+        "DOWN",
+        "UP",
+        "LEFT",
+        "LEFT",
+        "RIGHT",
+        "DOWN",
+        "LEFT",
+        "UP",
+        "DOWN"
+      ]
+    },
+    {
+      "id": "spawn-boomazoom",
+      "group": "vehicles",
+      "name": {
+        "en": "Maibatsu Boomazoom"
+      },
+      "detail": {
+        "en": "Spawns a Maibatsu Boomazoom."
+      },
+      "note": {
+        "en": "Complete 5 shopping challenges."
+      },
+      "pad": [
+        "LEFT",
+        "UP",
+        "RIGHT",
+        "DOWN",
+        "LEFT",
+        "LEFT",
+        "UP",
+        "LEFT"
+      ]
+    },
+    {
+      "id": "spawn-mtl-pumper",
+      "group": "vehicles",
+      "name": {
+        "en": "MTL Pumper"
+      },
+      "detail": {
+        "en": "Spawns an MTL Pumper."
+      },
+      "pad": [
+        "LEFT",
+        "UP",
+        "RIGHT",
+        "DOWN",
+        "LEFT",
+        "RIGHT",
+        "RIGHT",
+        "UP"
+      ]
+    },
+    {
+      "id": "spawn-hvy-bulldozer",
+      "group": "vehicles",
+      "name": {
+        "en": "HVY Bulldozer"
+      },
+      "detail": {
+        "en": "Spawns an HVY Bulldozer."
+      },
+      "note": {
+        "en": "Discover the HVY Bulldozer in the Progress menu."
+      },
+      "pad": [
+        "LEFT",
+        "UP",
+        "RIGHT",
+        "DOWN",
+        "LEFT",
+        "RIGHT",
+        "RIGHT",
+        "DOWN"
+      ]
+    },
+    {
+      "id": "cycle-weather",
+      "group": "world",
+      "name": {
+        "en": "Cycle Weather"
+      },
+      "detail": {
+        "en": "Changes the weather."
+      },
+      "note": {
+        "en": "Finish the story."
+      },
+      "pad": [
+        "DOWN",
+        "RIGHT",
+        "UP",
+        "DOWN",
+        "RIGHT",
+        "UP",
+        "RIGHT"
+      ]
+    },
+    {
+      "id": "filter-cataclysm",
+      "group": "world",
+      "name": {
+        "en": "Cataclysm"
+      },
+      "detail": {
+        "en": "Screen filter: fills the world with murky smoke."
+      },
+      "note": {
+        "en": "Discover Martha's Vamos in the Progress menu."
+      },
+      "pad": [
+        "DOWN",
+        "DOWN",
+        "UP",
+        "RIGHT",
+        "RIGHT",
+        "UP",
+        "LEFT",
+        "LEFT",
+        "RIGHT",
+        "RIGHT"
+      ]
+    },
+    {
+      "id": "filter-dollhouse",
+      "group": "world",
+      "name": {
+        "en": "Dollhouse"
+      },
+      "detail": {
+        "en": "Screen filter: vivid colours in a narrow frame."
+      },
+      "note": {
+        "en": "Spend 8 hours with your partner."
+      },
+      "pad": [
+        "DOWN",
+        "DOWN",
+        "UP",
+        "RIGHT",
+        "RIGHT",
+        "UP",
+        "LEFT",
+        "LEFT",
+        "DOWN",
+        "RIGHT"
+      ]
+    },
+    {
+      "id": "filter-faded-glory",
+      "group": "world",
+      "name": {
+        "en": "Faded Glory"
+      },
+      "detail": {
+        "en": "Screen filter: an old colour TV look."
+      },
+      "note": {
+        "en": "Rob 50 stores with your partner."
+      },
+      "pad": [
+        "DOWN",
+        "DOWN",
+        "UP",
+        "RIGHT",
+        "RIGHT",
+        "UP",
+        "LEFT",
+        "LEFT",
+        "LEFT",
+        "RIGHT"
+      ]
+    }
+  ]
 }
