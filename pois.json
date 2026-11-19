@@ -1,6 +1,10 @@
 {
-  "version": 17,
-  "notice": {"id": "early-days-1", "title": "Early days", "body": "GTA VI is brand new and we're still mapping it. Some items are missing, and some lists may change as we check them, so you might need to tick a few things again. We'll post here when the guide is complete."},
+  "version": 18,
+  "notice": {
+    "id": "early-days-1",
+    "title": "Early days",
+    "body": "GTA VI is brand new and we're still mapping it. Some items are missing, and some lists may change as we check them, so you might need to tick a few things again. We'll post here when the guide is complete."
+  },
   "categories": [
     {
       "id": "landmark",
@@ -259,7 +263,7 @@
       "verb": "studied",
       "chapterOrdered": true,
       "collectible": true,
-      "intro": "255 animals in 8 groups to study with binoculars (aim, then hold R1/RB). Each dog and cat breed counts on its own. 100% needs any 100. Species get their own rows as they're found; each group ends with a counter for the ones not listed yet."
+      "intro": "255 animals in 8 groups to study with binoculars (aim, then hold R1/RB). Each dog and cat breed counts on its own. 100% needs any 100. Species get their own rows as they're found; groups not fully listed yet end with a counter for the rest."
     },
     {
       "id": "vehicles",
@@ -270,6 +274,15 @@
       "chapterOrdered": true,
       "collectible": true,
       "intro": "The game's Vehicles log, section by section, with each model's base stats. A vehicle is discovered once you've been in it. Cars and service vehicles come in 15 classes; bikes, watercraft and aircraft are one list each. That's 277 models, and the game's 100% checklist needs 200 base models. Each section ends with a counter for the ones not listed yet. The Standout sets aren't here yet."
+    },
+    {
+      "id": "standout-vehicles",
+      "label": "Standout vehicles",
+      "symbol": "car.side.fill",
+      "colorHex": "5AA9E6",
+      "verb": "found",
+      "collectible": true,
+      "intro": "Unique vehicles parked at set spots around Leonida, plus two lists of cars you're asked to find. Each one is pinned on the map."
     },
     {
       "id": "kenton-sets",
@@ -3780,7 +3793,7 @@
     },
     {
       "id": "po-2",
-      "nx": 0.5260,
+      "nx": 0.526,
       "ny": 0.4851,
       "title": "Zotico's",
       "category": "pool",
@@ -4554,7 +4567,7 @@
     },
     {
       "id": "rc-03",
-      "nx": 0.5130,
+      "nx": 0.513,
       "ny": 0.6943,
       "title": "Boone Speedway Trial",
       "category": "race-challenges",
@@ -4582,7 +4595,7 @@
     {
       "id": "rc-06",
       "nx": 0.5036,
-      "ny": 0.2060,
+      "ny": 0.206,
       "title": "Kalaga Cycling Trial",
       "category": "race-challenges",
       "spoiler": true,
@@ -6273,7 +6286,7 @@
     {
       "id": "ur-01",
       "nx": 0.6021,
-      "ny": 0.5470,
+      "ny": 0.547,
       "title": "Vice City street race, Salton (1 of 3)",
       "category": "unique-races",
       "subgroup": "Vice City street races",
@@ -6294,7 +6307,7 @@
     },
     {
       "id": "ur-03",
-      "nx": 0.6020,
+      "nx": 0.602,
       "ny": 0.5471,
       "title": "Vice City street race, Salton (3 of 3)",
       "category": "unique-races",
@@ -6316,7 +6329,7 @@
     },
     {
       "id": "ur-05",
-      "nx": 0.6370,
+      "nx": 0.637,
       "ny": 0.4289,
       "title": "Vice City street race, La Perle (2 of 2)",
       "category": "unique-races",
@@ -6328,7 +6341,7 @@
     {
       "id": "ur-06",
       "nx": 0.7403,
-      "ny": 0.4590,
+      "ny": 0.459,
       "title": "Vice City street race, Ocean Beach (1 of 2)",
       "category": "unique-races",
       "subgroup": "Vice City street races",
@@ -6339,7 +6352,7 @@
     {
       "id": "ur-07",
       "nx": 0.7402,
-      "ny": 0.4590,
+      "ny": 0.459,
       "title": "Vice City street race, Ocean Beach (2 of 2)",
       "category": "unique-races",
       "subgroup": "Vice City street races",
@@ -6350,7 +6363,7 @@
     {
       "id": "ur-08",
       "nx": 0.7024,
-      "ny": 0.6170,
+      "ny": 0.617,
       "title": "Vice City street race, Gloriana Key (1 of 2)",
       "category": "unique-races",
       "subgroup": "Vice City street races",
@@ -6430,7 +6443,7 @@
     {
       "id": "ur-16",
       "nx": 0.4322,
-      "ny": 0.6500,
+      "ny": 0.65,
       "title": "Animal Crackers, Big Pine (1 of 2)",
       "category": "unique-races",
       "subgroup": "Animal Crackers",
@@ -6440,7 +6453,7 @@
     },
     {
       "id": "ur-17",
-      "nx": 0.4320,
+      "nx": 0.432,
       "ny": 0.6499,
       "title": "Animal Crackers, Big Pine (2 of 2)",
       "category": "unique-races",
@@ -6627,7 +6640,7 @@
     },
     {
       "id": "ur-34",
-      "nx": 0.4650,
+      "nx": 0.465,
       "ny": 0.2931,
       "title": "Mud Club dirt track race (2 of 6)",
       "category": "unique-races",
@@ -6661,7 +6674,7 @@
     {
       "id": "ur-37",
       "nx": 0.4654,
-      "ny": 0.2930,
+      "ny": 0.293,
       "title": "Mud Club dirt track race (5 of 6)",
       "category": "unique-races",
       "subgroup": "Mud Club",
@@ -6715,7 +6728,7 @@
     },
     {
       "id": "dt-01-2",
-      "nx": 0.5560,
+      "nx": 0.556,
       "ny": 0.6926,
       "title": "Power Station South",
       "category": "drone-trials",
@@ -6737,7 +6750,7 @@
     },
     {
       "id": "dt-02-1",
-      "nx": 0.4650,
+      "nx": 0.465,
       "ny": 0.6728,
       "title": "Leonida RC Raceway",
       "category": "drone-trials",
@@ -6804,7 +6817,7 @@
     {
       "id": "dt-04-1",
       "nx": 0.4562,
-      "ny": 0.4810,
+      "ny": 0.481,
       "title": "Kowaachobee Village",
       "category": "drone-trials",
       "subgroup": "Buckskin Swamp",
@@ -6815,7 +6828,7 @@
     {
       "id": "dt-04-2",
       "nx": 0.4565,
-      "ny": 0.4810,
+      "ny": 0.481,
       "title": "Swampy Sal's Safari Park",
       "category": "drone-trials",
       "subgroup": "Buckskin Swamp",
@@ -6826,7 +6839,7 @@
     {
       "id": "dt-04-3",
       "nx": 0.4568,
-      "ny": 0.4810,
+      "ny": 0.481,
       "title": "Camp Moonflower",
       "category": "drone-trials",
       "subgroup": "Buckskin Swamp",
@@ -6891,7 +6904,7 @@
     },
     {
       "id": "dt-06-3",
-      "nx": 0.6710,
+      "nx": 0.671,
       "ny": 0.5184,
       "title": "Wildland Zoo",
       "category": "drone-trials",
@@ -6935,7 +6948,7 @@
     },
     {
       "id": "dt-08-1",
-      "nx": 0.7370,
+      "nx": 0.737,
       "ny": 0.4131,
       "title": "Leaf Links",
       "category": "drone-trials",
@@ -6958,7 +6971,7 @@
     {
       "id": "dt-08-3",
       "nx": 0.7371,
-      "ny": 0.4130,
+      "ny": 0.413,
       "title": "St. Vitus Medical Center",
       "category": "drone-trials",
       "subgroup": "Vice Beach",
@@ -7056,7 +7069,7 @@
     },
     {
       "id": "dt-11-3",
-      "nx": 0.3870,
+      "nx": 0.387,
       "ny": 0.2758,
       "title": "Port Gellhorn",
       "category": "drone-trials",
@@ -7078,7 +7091,7 @@
     {
       "id": "dt-12-2",
       "nx": 0.2963,
-      "ny": 0.2750,
+      "ny": 0.275,
       "title": "Draper Refinery East",
       "category": "drone-trials",
       "subgroup": "Draper Island",
@@ -7141,7 +7154,7 @@
     },
     {
       "id": "dt-14-2",
-      "nx": 0.6320,
+      "nx": 0.632,
       "ny": 0.2182,
       "title": "Rushwood Logging",
       "category": "drone-trials",
@@ -9926,13 +9939,455 @@
       ]
     },
     {
+      "id": "an-albino-spectacled-caiman",
+      "title": "Albino Spectacled Caiman",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Hunting"
+        }
+      ]
+    },
+    {
+      "id": "an-american-black-bear",
+      "title": "American Black Bear",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Hunting"
+        }
+      ]
+    },
+    {
+      "id": "an-corn-snake",
+      "title": "Corn Snake",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Hunting"
+        }
+      ]
+    },
+    {
+      "id": "an-eastern-coral-snake",
+      "title": "Eastern Coral Snake",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Hunting"
+        }
+      ]
+    },
+    {
+      "id": "an-eastern-cottontail-rabbit",
+      "title": "Eastern Cottontail Rabbit",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Hunting"
+        }
+      ]
+    },
+    {
+      "id": "an-eastern-spotted-skunk",
+      "title": "Eastern Spotted Skunk",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Hunting"
+        }
+      ]
+    },
+    {
+      "id": "an-gloriana-opossum",
+      "title": "Gloriana Opossum",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Hunting"
+        }
+      ]
+    },
+    {
+      "id": "an-gray-fox",
+      "title": "Gray Fox",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Hunting"
+        }
+      ]
+    },
+    {
+      "id": "an-gulf-coast-box-turtle",
+      "title": "Gulf Coast Box Turtle",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Hunting"
+        }
+      ]
+    },
+    {
+      "id": "an-leonida-black-bobcat",
+      "title": "Leonida Black Bobcat",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Hunting"
+        }
+      ]
+    },
+    {
+      "id": "an-leonida-bobcat",
+      "title": "Leonida Bobcat",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Hunting"
+        }
+      ]
+    },
+    {
+      "id": "an-leonida-black-panther",
+      "title": "Leonida Black Panther",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Hunting"
+        }
+      ]
+    },
+    {
+      "id": "an-leonida-panther",
+      "title": "Leonida Panther",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Hunting"
+        }
+      ]
+    },
+    {
+      "id": "an-nile-monitor",
+      "title": "Nile Monitor",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Hunting"
+        }
+      ]
+    },
+    {
+      "id": "an-nine-banded-armadillo",
+      "title": "Nine-Banded Armadillo",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Hunting"
+        }
+      ]
+    },
+    {
+      "id": "an-northern-albino-raccoon",
+      "title": "Northern Albino Raccoon",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Hunting"
+        }
+      ]
+    },
+    {
+      "id": "an-northern-silver-coyote",
+      "title": "Northern Silver Coyote",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Hunting"
+        }
+      ]
+    },
+    {
+      "id": "an-piebald-whitetail-buck",
+      "title": "Piebald Whitetail Buck",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Hunting"
+        }
+      ]
+    },
+    {
+      "id": "an-snapping-turtle",
+      "title": "Snapping Turtle",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Hunting"
+        }
+      ]
+    },
+    {
+      "id": "an-white-river-otter",
+      "title": "White River Otter",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Hunting"
+        }
+      ]
+    },
+    {
+      "id": "an-unique-swamp-alligator",
+      "title": "Unique Swamp Alligator",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Hunting"
+        }
+      ]
+    },
+    {
+      "id": "an-unique-black-bear",
+      "title": "Unique Black Bear",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Hunting"
+        }
+      ]
+    },
+    {
+      "id": "an-unique-wild-boar",
+      "title": "Unique Wild Boar",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Hunting"
+        }
+      ]
+    },
+    {
+      "id": "an-unique-coyote",
+      "title": "Unique Coyote",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Hunting"
+        }
+      ]
+    },
+    {
+      "id": "an-unique-crocodile",
+      "title": "Unique Crocodile",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Hunting"
+        }
+      ]
+    },
+    {
+      "id": "an-unique-buck",
+      "title": "Unique Buck",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Hunting"
+        }
+      ]
+    },
+    {
+      "id": "an-unique-white-fox",
+      "title": "Unique White Fox",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Hunting"
+        }
+      ]
+    },
+    {
+      "id": "an-unique-panther",
+      "title": "Unique Panther",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Hunting"
+        }
+      ]
+    },
+    {
       "id": "an-hunts",
       "title": "More hunting animals",
       "category": "animals",
       "subgroup": "Hunting",
       "spoiler": true,
-      "guide": "Count the animals you've studied in the game's Hunting group that don't have their own row here yet. 28 of the group's 61 are listed above.",
-      "tallyTarget": 33
+      "guide": "Count the animals you've studied in the game's Hunting group that don't have their own row here yet. 56 of the group's 61 are listed above.",
+      "tallyTarget": 5
+    },
+    {
+      "id": "an-american-eel",
+      "title": "American Eel",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Fishing"
+        }
+      ]
+    },
+    {
+      "id": "an-black-grouper",
+      "title": "Black Grouper",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Fishing"
+        }
+      ]
+    },
+    {
+      "id": "an-lake-chubsucker",
+      "title": "Lake Chubsucker",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Fishing"
+        }
+      ]
+    },
+    {
+      "id": "an-largemouth-bass",
+      "title": "Largemouth Bass",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Fishing"
+        }
+      ]
+    },
+    {
+      "id": "an-permit",
+      "title": "Permit",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Fishing"
+        }
+      ]
+    },
+    {
+      "id": "an-redbreast-sunfish",
+      "title": "Redbreast Sunfish",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Fishing"
+        }
+      ]
     },
     {
       "id": "an-fish",
@@ -9940,8 +10395,151 @@
       "category": "animals",
       "subgroup": "Fishing",
       "spoiler": true,
-      "guide": "Count the animals you've studied in the game's Fishing group that don't have their own row here yet. 17 of the group's 35 are listed above.",
-      "tallyTarget": 18
+      "guide": "Count the animals you've studied in the game's Fishing group that don't have their own row here yet. 23 of the group's 35 are listed above.",
+      "tallyTarget": 12
+    },
+    {
+      "id": "an-american-quarter-horse",
+      "title": "American Quarter Horse",
+      "category": "animals",
+      "subgroup": "Mammals",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Mammals"
+        }
+      ]
+    },
+    {
+      "id": "an-bengal-tiger",
+      "title": "Bengal Tiger",
+      "category": "animals",
+      "subgroup": "Mammals",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Mammals"
+        }
+      ]
+    },
+    {
+      "id": "an-big-brown-bat",
+      "title": "Big Brown Bat",
+      "category": "animals",
+      "subgroup": "Mammals",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Mammals"
+        }
+      ]
+    },
+    {
+      "id": "an-chimpanzee",
+      "title": "Chimpanzee",
+      "category": "animals",
+      "subgroup": "Mammals",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Mammals"
+        }
+      ]
+    },
+    {
+      "id": "an-gulf-coast-sheep",
+      "title": "Gulf Coast Sheep",
+      "category": "animals",
+      "subgroup": "Mammals",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Mammals"
+        }
+      ]
+    },
+    {
+      "id": "an-house-mouse",
+      "title": "House Mouse",
+      "category": "animals",
+      "subgroup": "Mammals",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Mammals"
+        }
+      ]
+    },
+    {
+      "id": "an-leonida-manatee",
+      "title": "Leonida Manatee",
+      "category": "animals",
+      "subgroup": "Mammals",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Mammals"
+        }
+      ]
+    },
+    {
+      "id": "an-orca",
+      "title": "Orca",
+      "category": "animals",
+      "subgroup": "Mammals",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Mammals"
+        }
+      ]
+    },
+    {
+      "id": "an-american-yorkshire-pig",
+      "title": "American Yorkshire Pig",
+      "category": "animals",
+      "subgroup": "Mammals",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Mammals"
+        }
+      ]
+    },
+    {
+      "id": "an-rhesus-macaque",
+      "title": "Rhesus Macaque",
+      "category": "animals",
+      "subgroup": "Mammals",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Mammals"
+        }
+      ]
+    },
+    {
+      "id": "an-white-headed-capuchin",
+      "title": "White-Headed Capuchin",
+      "category": "animals",
+      "subgroup": "Mammals",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Mammals"
+        }
+      ]
     },
     {
       "id": "an-mammals",
@@ -9949,8 +10547,216 @@
       "category": "animals",
       "subgroup": "Mammals",
       "spoiler": true,
-      "guide": "Count the animals you've studied in the game's Mammals group that don't have their own row here yet. 5 of the group's 18 are listed above.",
-      "tallyTarget": 13
+      "guide": "Count the animals you've studied in the game's Mammals group that don't have their own row here yet. 16 of the group's 18 are listed above.",
+      "tallyTarget": 2
+    },
+    {
+      "id": "an-american-shorthair",
+      "title": "American Shorthair",
+      "category": "animals",
+      "subgroup": "Cats & dogs",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Cats & dogs"
+        }
+      ]
+    },
+    {
+      "id": "an-bombay",
+      "title": "Bombay",
+      "category": "animals",
+      "subgroup": "Cats & dogs",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Cats & dogs"
+        }
+      ]
+    },
+    {
+      "id": "an-american-foxhound",
+      "title": "American Foxhound",
+      "category": "animals",
+      "subgroup": "Cats & dogs",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Cats & dogs"
+        }
+      ]
+    },
+    {
+      "id": "an-australian-shepherd",
+      "title": "Australian Shepherd",
+      "category": "animals",
+      "subgroup": "Cats & dogs",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Cats & dogs"
+        }
+      ]
+    },
+    {
+      "id": "an-belgian-malinois",
+      "title": "Belgian Malinois",
+      "category": "animals",
+      "subgroup": "Cats & dogs",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Cats & dogs"
+        }
+      ]
+    },
+    {
+      "id": "an-border-collie",
+      "title": "Border Collie",
+      "category": "animals",
+      "subgroup": "Cats & dogs",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Cats & dogs"
+        }
+      ]
+    },
+    {
+      "id": "an-boxer",
+      "title": "Boxer",
+      "category": "animals",
+      "subgroup": "Cats & dogs",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Cats & dogs"
+        }
+      ]
+    },
+    {
+      "id": "an-catahoula-cur",
+      "title": "Catahoula Cur",
+      "category": "animals",
+      "subgroup": "Cats & dogs",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Cats & dogs"
+        }
+      ]
+    },
+    {
+      "id": "an-chihuahua",
+      "title": "Chihuahua",
+      "category": "animals",
+      "subgroup": "Cats & dogs",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Cats & dogs"
+        }
+      ]
+    },
+    {
+      "id": "an-french-bulldog",
+      "title": "French Bulldog",
+      "category": "animals",
+      "subgroup": "Cats & dogs",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Cats & dogs"
+        }
+      ]
+    },
+    {
+      "id": "an-gloriana-dog",
+      "title": "Gloriana Dog",
+      "category": "animals",
+      "subgroup": "Cats & dogs",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Cats & dogs"
+        }
+      ]
+    },
+    {
+      "id": "an-labrador-retriever",
+      "title": "Labrador Retriever",
+      "category": "animals",
+      "subgroup": "Cats & dogs",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Cats & dogs"
+        }
+      ]
+    },
+    {
+      "id": "an-maltese-dog",
+      "title": "Maltese Dog",
+      "category": "animals",
+      "subgroup": "Cats & dogs",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Cats & dogs"
+        }
+      ]
+    },
+    {
+      "id": "an-rottweiler",
+      "title": "Rottweiler",
+      "category": "animals",
+      "subgroup": "Cats & dogs",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Cats & dogs"
+        }
+      ]
+    },
+    {
+      "id": "an-standard-poodle",
+      "title": "Standard Poodle",
+      "category": "animals",
+      "subgroup": "Cats & dogs",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Cats & dogs"
+        }
+      ]
+    },
+    {
+      "id": "an-yorkshire-terrier",
+      "title": "Yorkshire Terrier",
+      "category": "animals",
+      "subgroup": "Cats & dogs",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Cats & dogs"
+        }
+      ]
     },
     {
       "id": "an-cats-dogs",
@@ -9958,26 +10764,580 @@
       "category": "animals",
       "subgroup": "Cats & dogs",
       "spoiler": true,
-      "guide": "Count the animals you've studied in the game's Cats & dogs group that don't have their own row here yet. 8 of the group's 34 are listed above.",
-      "tallyTarget": 26
+      "guide": "Count the animals you've studied in the game's Cats & dogs group that don't have their own row here yet. 24 of the group's 34 are listed above.",
+      "tallyTarget": 10
     },
     {
-      "id": "an-reptiles",
-      "title": "More reptiles & amphibians",
+      "id": "an-american-bullfrog",
+      "title": "American Bullfrog",
       "category": "animals",
       "subgroup": "Reptiles & amphibians",
       "spoiler": true,
-      "guide": "Count the animals you've studied in the game's Reptiles & amphibians group that don't have their own row here yet. 1 of the group's 6 are listed above.",
-      "tallyTarget": 5
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Reptiles & amphibians"
+        }
+      ]
     },
     {
-      "id": "an-birds",
-      "title": "More birds",
+      "id": "an-gopher-tortoise",
+      "title": "Gopher Tortoise",
+      "category": "animals",
+      "subgroup": "Reptiles & amphibians",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Reptiles & amphibians"
+        }
+      ]
+    },
+    {
+      "id": "an-green-tree-frog",
+      "title": "Green Tree Frog",
+      "category": "animals",
+      "subgroup": "Reptiles & amphibians",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Reptiles & amphibians"
+        }
+      ]
+    },
+    {
+      "id": "an-southern-leopard-frog",
+      "title": "Southern Leopard Frog",
+      "category": "animals",
+      "subgroup": "Reptiles & amphibians",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Reptiles & amphibians"
+        }
+      ]
+    },
+    {
+      "id": "an-southern-toad",
+      "title": "Southern Toad",
+      "category": "animals",
+      "subgroup": "Reptiles & amphibians",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Reptiles & amphibians"
+        }
+      ]
+    },
+    {
+      "id": "an-american-anhinga",
+      "title": "American Anhinga",
       "category": "animals",
       "subgroup": "Birds",
       "spoiler": true,
-      "guide": "Count the animals you've studied in the game's Birds group that don't have their own row here yet. 28 of the group's 60 are listed above.",
-      "tallyTarget": 32
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-american-barn-owl",
+      "title": "American Barn Owl",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-american-flamingo",
+      "title": "American Flamingo",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-american-goldfinch",
+      "title": "American Goldfinch",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-american-herring-gull",
+      "title": "American Herring Gull",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-american-pekin-duck",
+      "title": "American Pekin Duck",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-black-capped-chickadee",
+      "title": "Black-Capped Chickadee",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-blue-and-yellow-macaw",
+      "title": "Blue-and-Yellow Macaw",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-crested-caracara",
+      "title": "Crested Caracara",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-cubalaya-chicken",
+      "title": "Cubalaya Chicken",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-eastern-great-horned-owl",
+      "title": "Eastern Great Horned Owl",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-golden-eagle",
+      "title": "Golden Eagle",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-house-finch",
+      "title": "House Finch",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-indian-peacock",
+      "title": "Indian Peacock",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-killdeer",
+      "title": "Killdeer",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-magnificent-frigatebird",
+      "title": "Magnificent Frigatebird",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-northern-cardinal",
+      "title": "Northern Cardinal",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-northern-gannet",
+      "title": "Northern Gannet",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-northern-mockingbird",
+      "title": "Northern Mockingbird",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-orchard-oriole",
+      "title": "Orchard Oriole",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-peregrine-falcon",
+      "title": "Peregrine Falcon",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-purple-gallinule",
+      "title": "Purple Gallinule",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-red-shouldered-hawk",
+      "title": "Red-Shouldered Hawk",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-rock-pigeon",
+      "title": "Rock Pigeon",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-sanderling",
+      "title": "Sanderling",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-scarlet-macaw",
+      "title": "Scarlet Macaw",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-scrub-jay",
+      "title": "Scrub Jay",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-spot-breasted-oriole",
+      "title": "Spot-Breasted Oriole",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-spotted-sandpiper",
+      "title": "Spotted Sandpiper",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-trumpeter-swan",
+      "title": "Trumpeter Swan",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-western-osprey",
+      "title": "Western Osprey",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-yellow-crested-cockatoo",
+      "title": "Yellow-Crested Cockatoo",
+      "category": "animals",
+      "subgroup": "Birds",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Birds"
+        }
+      ]
+    },
+    {
+      "id": "an-atlantic-stingray",
+      "title": "Atlantic Stingray",
+      "category": "animals",
+      "subgroup": "Aquatic",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Aquatic"
+        }
+      ]
+    },
+    {
+      "id": "an-blacktip-shark",
+      "title": "Blacktip Shark",
+      "category": "animals",
+      "subgroup": "Aquatic",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Aquatic"
+        }
+      ]
+    },
+    {
+      "id": "an-blue-land-crab",
+      "title": "Blue Land Crab",
+      "category": "animals",
+      "subgroup": "Aquatic",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Aquatic"
+        }
+      ]
+    },
+    {
+      "id": "an-giant-oceanic-manta-ray",
+      "title": "Giant Oceanic Manta Ray",
+      "category": "animals",
+      "subgroup": "Aquatic",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Aquatic"
+        }
+      ]
+    },
+    {
+      "id": "an-koi",
+      "title": "Koi",
+      "category": "animals",
+      "subgroup": "Aquatic",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Aquatic"
+        }
+      ]
+    },
+    {
+      "id": "an-leonida-stone-crab",
+      "title": "Leonida Stone Crab",
+      "category": "animals",
+      "subgroup": "Aquatic",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Aquatic"
+        }
+      ]
+    },
+    {
+      "id": "an-yellowtail-damselfish",
+      "title": "Yellowtail Damselfish",
+      "category": "animals",
+      "subgroup": "Aquatic",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Aquatic"
+        }
+      ]
     },
     {
       "id": "an-aquatic",
@@ -9985,8 +11345,73 @@
       "category": "animals",
       "subgroup": "Aquatic",
       "spoiler": true,
-      "guide": "Count the animals you've studied in the game's Aquatic group that don't have their own row here yet. 6 of the group's 18 are listed above.",
-      "tallyTarget": 12
+      "guide": "Count the animals you've studied in the game's Aquatic group that don't have their own row here yet. 13 of the group's 18 are listed above.",
+      "tallyTarget": 5
+    },
+    {
+      "id": "an-burmese-python",
+      "title": "Burmese Python",
+      "category": "animals",
+      "subgroup": "Other",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Other"
+        }
+      ]
+    },
+    {
+      "id": "an-mutated-american-crocodile",
+      "title": "Mutated American Crocodile",
+      "category": "animals",
+      "subgroup": "Other",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Other"
+        }
+      ]
+    },
+    {
+      "id": "an-mutated-eastern-brown-pelican",
+      "title": "Mutated Eastern Brown Pelican",
+      "category": "animals",
+      "subgroup": "Other",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Other"
+        }
+      ]
+    },
+    {
+      "id": "an-mutated-american-herring-gull",
+      "title": "Mutated American Herring Gull",
+      "category": "animals",
+      "subgroup": "Other",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Other"
+        }
+      ]
+    },
+    {
+      "id": "an-mutated-mottled-duck",
+      "title": "Mutated Mottled Duck",
+      "category": "animals",
+      "subgroup": "Other",
+      "spoiler": true,
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Other"
+        }
+      ]
     },
     {
       "id": "an-other",
@@ -9994,8 +11419,8 @@
       "category": "animals",
       "subgroup": "Other",
       "spoiler": true,
-      "guide": "Count the animals you've studied in the game's Other group. None of its 23 have their own row here yet.",
-      "tallyTarget": 23
+      "guide": "Count the animals you've studied in the game's Other group that don't have their own row here yet. 5 of the group's 23 are listed above.",
+      "tallyTarget": 18
     },
     {
       "id": "vh-declasse-akane",
@@ -13644,6 +15069,915 @@
       "spoiler": true,
       "guide": "Count the aircraft you've discovered that don't have their own row here yet. 3 of the 16 are listed above.",
       "tallyTarget": 13
+    },
+    {
+      "id": "sv-01",
+      "title": "BF Blood Moon Bandito",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.5097,
+      "ny": 0.702
+    },
+    {
+      "id": "sv-02",
+      "title": "Declasse Ghosts Exposed Parkland",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.3338,
+      "ny": 0.5258
+    },
+    {
+      "id": "sv-03",
+      "title": "Brute Cherry Popper Boxville",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.4643,
+      "ny": 0.6532
+    },
+    {
+      "id": "sv-04",
+      "title": "Vapid Beer Monster Marshall",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.4753,
+      "ny": 0.2787
+    },
+    {
+      "id": "sv-05",
+      "title": "Lure Predator Rainbow Ripple L20S",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.469,
+      "ny": 0.7989
+    },
+    {
+      "id": "sv-06",
+      "title": "Albany Driveshaft Devanity",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.5451,
+      "ny": 0.2338
+    },
+    {
+      "id": "sv-07",
+      "title": "Mer-Can Blast",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.3682,
+      "ny": 0.5295
+    },
+    {
+      "id": "sv-08",
+      "title": "Annis '95 Hellion",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.5651,
+      "ny": 0.1624
+    },
+    {
+      "id": "sv-09",
+      "title": "Vapid Shrimp and Save Shifter",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.5269,
+      "ny": 0.842
+    },
+    {
+      "id": "sv-10",
+      "title": "Canis Nancy's Crawler",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.4407,
+      "ny": 0.1515
+    },
+    {
+      "id": "sv-11",
+      "title": "Karin Busted Cheater Rebel",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.3194,
+      "ny": 0.3436
+    },
+    {
+      "id": "sv-12",
+      "title": "Bravado Tropic Dawn Youga",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.5633,
+      "ny": 0.8096
+    },
+    {
+      "id": "sv-13",
+      "title": "BF Sludge Wraith Injection",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.4809,
+      "ny": 0.2723
+    },
+    {
+      "id": "sv-14",
+      "title": "Invetero Enforcer Coquette",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.3145,
+      "ny": 0.5197
+    },
+    {
+      "id": "sv-15",
+      "title": "Hauners Ridgway",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.3816,
+      "ny": 0.6088
+    },
+    {
+      "id": "sv-16",
+      "title": "Bravado Third Eye Youga",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.3901,
+      "ny": 0.187
+    },
+    {
+      "id": "sv-17",
+      "title": "Bravado Copperheads Gauntlet",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.5395,
+      "ny": 0.3151
+    },
+    {
+      "id": "sv-18",
+      "title": "LCC Midnight Sun Avarus",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.5266,
+      "ny": 0.6928
+    },
+    {
+      "id": "sv-19",
+      "title": "Brute Boxville",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.6857,
+      "ny": 0.2959
+    },
+    {
+      "id": "sv-20",
+      "title": "Maibatsu Speedy Boomazoom",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.6134,
+      "ny": 0.528
+    },
+    {
+      "id": "sv-21",
+      "title": "Dinka Verus",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.4304,
+      "ny": 0.2287
+    },
+    {
+      "id": "sv-22",
+      "title": "Pegassi Gold Rope Infernus",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.5312,
+      "ny": 0.2994
+    },
+    {
+      "id": "sv-23",
+      "title": "Sirius '61 Sungrazer",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.4314,
+      "ny": 0.677
+    },
+    {
+      "id": "sv-24",
+      "title": "Airgator Dr Sheehan's Airboat",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.4707,
+      "ny": 0.7316
+    },
+    {
+      "id": "sv-25",
+      "title": "Bravado Bison 1800",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.5433,
+      "ny": 0.1308
+    },
+    {
+      "id": "sv-26",
+      "title": "Lapwing Stolen Valor 300-H",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.3688,
+      "ny": 0.6458
+    },
+    {
+      "id": "sv-27",
+      "title": "Nagasaki Rudolph Tao",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.5293,
+      "ny": 0.8334
+    },
+    {
+      "id": "sv-28",
+      "title": "Declasse Beach Candy Bobcat",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.3389,
+      "ny": 0.5886
+    },
+    {
+      "id": "sv-29",
+      "title": "Ocelot Bloodless Jugular",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.5986,
+      "ny": 0.374
+    },
+    {
+      "id": "sv-30",
+      "title": "Seashark Westbound Azure",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.469,
+      "ny": 0.7224
+    },
+    {
+      "id": "sv-31",
+      "title": "Walter Ghost Cruiser",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.352,
+      "ny": 0.3727
+    },
+    {
+      "id": "sv-32",
+      "title": "Vapid Finns Reclaimer",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.6081,
+      "ny": 0.1762
+    },
+    {
+      "id": "sv-33",
+      "title": "Declasse Fruit Outlet Walton",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.3388,
+      "ny": 0.3478
+    },
+    {
+      "id": "sv-34",
+      "title": "Vapid Red Hot Hustler",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.3098,
+      "ny": 0.5274
+    },
+    {
+      "id": "sv-35",
+      "title": "Classique Emancipator Stallion",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.4885,
+      "ny": 0.3277
+    },
+    {
+      "id": "sv-36",
+      "title": "Bravado Circles of Hell Youga",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.3498,
+      "ny": 0.3094
+    },
+    {
+      "id": "sv-37",
+      "title": "Declasse Cousin Carlo's Akane",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.5158,
+      "ny": 0.8537
+    },
+    {
+      "id": "sv-38",
+      "title": "Declasse Bugstars Burrito",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.3385,
+      "ny": 0.5301
+    },
+    {
+      "id": "sv-39",
+      "title": "Taci Ragno",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.6922,
+      "ny": 0.3048
+    },
+    {
+      "id": "sv-40",
+      "title": "Pegassi Valiant Tempesta",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.7606,
+      "ny": 0.4511
+    },
+    {
+      "id": "sv-41",
+      "title": "Nagasaki Hung Carbos RS",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.5753,
+      "ny": 0.3373
+    },
+    {
+      "id": "sv-42",
+      "title": "Maibatsu MyWays Manchez",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.4454,
+      "ny": 0.1568
+    },
+    {
+      "id": "sv-43",
+      "title": "Declasse Martha's Vamos",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.4677,
+      "ny": 0.1131
+    },
+    {
+      "id": "sv-44",
+      "title": "Tuff Immortal BMX",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.538,
+      "ny": 0.682
+    },
+    {
+      "id": "sv-45",
+      "title": "Vapid Smush Ganado",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.3864,
+      "ny": 0.4825
+    },
+    {
+      "id": "sv-46",
+      "title": "Vapid Rumpo",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.5758,
+      "ny": 0.6708
+    },
+    {
+      "id": "sv-47",
+      "title": "Western Magma Cliffhanger",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.4167,
+      "ny": 0.6731
+    },
+    {
+      "id": "sv-48",
+      "title": "Declasse Flower Powered Rancher",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.5466,
+      "ny": 0.2029
+    },
+    {
+      "id": "sv-49",
+      "title": "Declasse Mountain Yosemite",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.4713,
+      "ny": 0.6787
+    },
+    {
+      "id": "sv-50",
+      "title": "Dundreary Cherry Bomb Chino",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.5987,
+      "ny": 0.518
+    },
+    {
+      "id": "sv-51",
+      "title": "Vapid Firebug Dominator",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.3249,
+      "ny": 0.3297
+    },
+    {
+      "id": "sv-52",
+      "title": "Airgator Naughty Boy Airboat",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.4786,
+      "ny": 0.4618
+    },
+    {
+      "id": "sv-53",
+      "title": "Declasse Truther Burrito",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.6212,
+      "ny": 0.2152
+    },
+    {
+      "id": "sv-54",
+      "title": "Declasse Red Apple Orchard Rancher",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.3765,
+      "ny": 0.261
+    },
+    {
+      "id": "sv-55",
+      "title": "Buckingham Volatus",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.5756,
+      "ny": 0.1641
+    },
+    {
+      "id": "sv-56",
+      "title": "Del Perro Midsummer Erode",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.4616,
+      "ny": 0.1207
+    },
+    {
+      "id": "sv-57",
+      "title": "Vapid Grady's Slamvan",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.4879,
+      "ny": 0.126
+    },
+    {
+      "id": "sv-58",
+      "title": "Granforma Tsunami Zorrusso",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.6155,
+      "ny": 0.6593
+    },
+    {
+      "id": "sv-59",
+      "title": "Benefactor Nightlight Schafer",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.6121,
+      "ny": 0.5053
+    },
+    {
+      "id": "sv-60",
+      "title": "Western Searing Zombie Bobber",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.6096,
+      "ny": 0.3394
+    },
+    {
+      "id": "sv-61",
+      "title": "Vapid Brimstone Golfer",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.7129,
+      "ny": 0.4059
+    },
+    {
+      "id": "sv-62",
+      "title": "Seashark Hydroblast",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.4672,
+      "ny": 0.7331
+    },
+    {
+      "id": "sv-63",
+      "title": "Pfister Class Act Comet",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.6994,
+      "ny": 0.5086
+    },
+    {
+      "id": "sv-64",
+      "title": "Declasse Caliente Picador",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.4703,
+      "ny": 0.6297
+    },
+    {
+      "id": "sv-65",
+      "title": "Bravado Third Eye Youga",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.3871,
+      "ny": 0.1887
+    },
+    {
+      "id": "sv-66",
+      "title": "Vapid Cultivator Sandking",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.3987,
+      "ny": 0.5843
+    },
+    {
+      "id": "sv-67",
+      "title": "LCC Monarch Avarus",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.567,
+      "ny": 0.3302
+    },
+    {
+      "id": "sv-68",
+      "title": "Del Perro Scorcher",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.5667,
+      "ny": 0.1467
+    },
+    {
+      "id": "sv-69",
+      "title": "Albany Teniente Manana",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.5433,
+      "ny": 0.6968
+    },
+    {
+      "id": "sv-70",
+      "title": "Pegassi Charred Toros",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.6303,
+      "ny": 0.4407
+    },
+    {
+      "id": "sv-71",
+      "title": "Sirius Holdout Sungrazer",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.5089,
+      "ny": 0.3394
+    },
+    {
+      "id": "sv-72",
+      "title": "Bravado Elven Queen Youga",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.3279,
+      "ny": 0.4854
+    },
+    {
+      "id": "sv-73",
+      "title": "Progen Purple Drank Emerus",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.6735,
+      "ny": 0.5073
+    },
+    {
+      "id": "sv-74",
+      "title": "Vapid Truth & Justice Caracara",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.3432,
+      "ny": 0.3503
+    },
+    {
+      "id": "sv-75",
+      "title": "Truffade Andrew Node's Thrax",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.7098,
+      "ny": 0.5039
+    },
+    {
+      "id": "sv-76",
+      "title": "Maibatsu Tropical Manchez",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.5829,
+      "ny": 0.6175
+    },
+    {
+      "id": "sv-77",
+      "title": "Bravado Devil's Rope Gauntlet",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.5294,
+      "ny": 0.3232
+    },
+    {
+      "id": "sv-78",
+      "title": "Camus Black Moth Kamacho",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.4378,
+      "ny": 0.6739
+    },
+    {
+      "id": "sv-79",
+      "title": "Declasse Pink Gin Tulip",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.6049,
+      "ny": 0.4658
+    },
+    {
+      "id": "sv-80",
+      "title": "Imponte Bloodbath Phoenix",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.5968,
+      "ny": 0.593
+    },
+    {
+      "id": "sv-81",
+      "title": "Buckingham Bourbon Windsor",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.6483,
+      "ny": 0.4295
+    },
+    {
+      "id": "sv-82",
+      "title": "Progen Royal Ruby Emerus",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.6941,
+      "ny": 0.465
+    },
+    {
+      "id": "sv-83",
+      "title": "Vapid Smuggler Caracara",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.3391,
+      "ny": 0.3139
+    },
+    {
+      "id": "sv-84",
+      "title": "Canis Gunrunner Kamacho",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.5523,
+      "ny": 0.4926
+    },
+    {
+      "id": "sv-85",
+      "title": "Albany Verdant Buccaneer",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.5997,
+      "ny": 0.1709
+    },
+    {
+      "id": "sv-randy-01",
+      "title": "Bravado Banshee",
+      "category": "standout-vehicles",
+      "subgroup": "Vehicle requests (1)",
+      "spoiler": true,
+      "nx": 0.5861,
+      "ny": 0.6159
+    },
+    {
+      "id": "sv-randy-02",
+      "title": "Granforma Zorrusso",
+      "category": "standout-vehicles",
+      "subgroup": "Vehicle requests (1)",
+      "spoiler": true,
+      "nx": 0.7701,
+      "ny": 0.5191
+    },
+    {
+      "id": "sv-randy-03",
+      "title": "Piccia Furia",
+      "category": "standout-vehicles",
+      "subgroup": "Vehicle requests (1)",
+      "spoiler": true,
+      "nx": 0.6132,
+      "ny": 0.6646
+    },
+    {
+      "id": "sv-randy-04",
+      "title": "Pegassi Vitello",
+      "category": "standout-vehicles",
+      "subgroup": "Vehicle requests (1)",
+      "spoiler": true,
+      "nx": 0.7017,
+      "ny": 0.3373
+    },
+    {
+      "id": "sv-randy-05",
+      "title": "Pegassi '96 Infernus",
+      "category": "standout-vehicles",
+      "subgroup": "Vehicle requests (1)",
+      "spoiler": true,
+      "nx": 0.6253,
+      "ny": 0.487
+    },
+    {
+      "id": "sv-randy-06",
+      "title": "Invetero Coquette D10",
+      "category": "standout-vehicles",
+      "subgroup": "Vehicle requests (1)",
+      "spoiler": true,
+      "nx": 0.6739,
+      "ny": 0.509
+    },
+    {
+      "id": "sv-randy-07",
+      "title": "Pegassi Tempesta",
+      "category": "standout-vehicles",
+      "subgroup": "Vehicle requests (1)",
+      "spoiler": true,
+      "nx": 0.57,
+      "ny": 0.175
+    },
+    {
+      "id": "sv-randy-08",
+      "title": "Ascot Paragon",
+      "category": "standout-vehicles",
+      "subgroup": "Vehicle requests (1)",
+      "spoiler": true,
+      "nx": 0.587,
+      "ny": 0.3514
+    },
+    {
+      "id": "sv-randy-09",
+      "title": "Bravado Gauntlet Hellfire",
+      "category": "standout-vehicles",
+      "subgroup": "Vehicle requests (1)",
+      "spoiler": true,
+      "nx": 0.5425,
+      "ny": 0.6972
+    },
+    {
+      "id": "sv-moses-01",
+      "title": "Canis '82 Crawler",
+      "category": "standout-vehicles",
+      "subgroup": "Vehicle requests (2)",
+      "spoiler": true,
+      "nx": 0.35,
+      "ny": 0.3034
+    },
+    {
+      "id": "sv-moses-02",
+      "title": "BF '77 Bandito",
+      "category": "standout-vehicles",
+      "subgroup": "Vehicle requests (2)",
+      "spoiler": true,
+      "nx": 0.492,
+      "ny": 0.4376
+    },
+    {
+      "id": "sv-moses-03",
+      "title": "Declasse Yosemite 1500",
+      "category": "standout-vehicles",
+      "subgroup": "Vehicle requests (2)",
+      "spoiler": true,
+      "nx": 0.3241,
+      "ny": 0.3401
+    },
+    {
+      "id": "sv-moses-04",
+      "title": "Western Nightblade",
+      "category": "standout-vehicles",
+      "subgroup": "Vehicle requests (2)",
+      "spoiler": true,
+      "nx": 0.5166,
+      "ny": 0.329
+    },
+    {
+      "id": "sv-moses-05",
+      "title": "Karin '85 Futo",
+      "category": "standout-vehicles",
+      "subgroup": "Vehicle requests (2)",
+      "spoiler": true,
+      "nx": 0.2834,
+      "ny": 0.2948
+    },
+    {
+      "id": "sv-moses-06",
+      "title": "Declasse '74 Vamos",
+      "category": "standout-vehicles",
+      "subgroup": "Vehicle requests (2)",
+      "spoiler": true,
+      "nx": 0.4142,
+      "ny": 0.1748
+    },
+    {
+      "id": "sv-moses-07",
+      "title": "Annis '95 Hellion",
+      "category": "standout-vehicles",
+      "subgroup": "Vehicle requests (2)",
+      "spoiler": true,
+      "nx": 0.3419,
+      "ny": 0.3855
     },
     {
       "id": "kw-1",
