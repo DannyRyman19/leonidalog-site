@@ -1,5 +1,5 @@
 {
-  "version": 13,
+  "version": 15,
   "categories": [
     {
       "id": "landmark",
@@ -207,6 +207,15 @@
       "colorHex": "FFB547",
       "verb": "landed",
       "intro": "130 stunt jumps. They count towards the stunts line of 100% (300 of 397 stunts, with under the bridges, knife flights and base jumps). More are added as guides find them. Stunt jumps also count towards the Cunning Stunts trophy (250 stunts).",
+      "collectible": true
+    },
+    {
+      "id": "hoops",
+      "label": "Basketball hoops",
+      "symbol": "basketball.fill",
+      "colorHex": "FF8A3D",
+      "verb": "scored",
+      "intro": "100 basketball hoops around Leonida; 100% needs a score at 90 different ones. The same hoop twice only counts once. More are added as guides find them.",
       "collectible": true
     },
     {
@@ -2922,6 +2931,8 @@
       "completeBefore": "chapter 2",
       "subgroup": "Mariana County",
       "spoiler": true,
+      "nx": 0.555,
+      "ny": 0.825,
       "guide": "During chapter 1 only, on the balcony at Jason's house. Missable.",
       "region": "Mariana County",
       "missable": true
@@ -2932,6 +2943,8 @@
       "category": "meditation",
       "subgroup": "Mariana County",
       "spoiler": true,
+      "nx": 0.278,
+      "ny": 0.522,
       "guide": "On a sandbar off the west coast of Capri. This spot has two meditations.",
       "region": "Mariana County"
     },
@@ -2941,6 +2954,8 @@
       "category": "meditation",
       "subgroup": "Mariana County",
       "spoiler": true,
+      "nx": 0.278,
+      "ny": 0.522,
       "guide": "On a sandbar off the west coast of Capri. This spot has two meditations.",
       "region": "Mariana County"
     },
@@ -2950,6 +2965,8 @@
       "category": "meditation",
       "subgroup": "Kelly County",
       "spoiler": true,
+      "nx": 0.477,
+      "ny": 0.445,
       "guide": "On a wooden dock by a lookout tower in the middle of Buckskin Swamp. This spot has two meditations.",
       "region": "Kelly County"
     },
@@ -2959,6 +2976,8 @@
       "category": "meditation",
       "subgroup": "Kelly County",
       "spoiler": true,
+      "nx": 0.477,
+      "ny": 0.445,
       "guide": "On a wooden dock by a lookout tower in the middle of Buckskin Swamp. This spot has two meditations.",
       "region": "Kelly County"
     },
@@ -2968,6 +2987,8 @@
       "category": "meditation",
       "subgroup": "Kelly County",
       "spoiler": true,
+      "nx": 0.453,
+      "ny": 0.43,
       "guide": "On the Emerald River bank at Camp Moonflower. This spot has two meditations.",
       "region": "Kelly County"
     },
@@ -2977,6 +2998,8 @@
       "category": "meditation",
       "subgroup": "Kelly County",
       "spoiler": true,
+      "nx": 0.453,
+      "ny": 0.43,
       "guide": "On the Emerald River bank at Camp Moonflower. This spot has two meditations.",
       "region": "Kelly County"
     },
@@ -2986,6 +3009,8 @@
       "category": "meditation",
       "subgroup": "Kelly County",
       "spoiler": true,
+      "nx": 0.406,
+      "ny": 0.29,
       "guide": "In Manifest Canyon, near the train tracks by the highway. This spot has two meditations.",
       "region": "Kelly County"
     },
@@ -2995,6 +3020,8 @@
       "category": "meditation",
       "subgroup": "Kelly County",
       "spoiler": true,
+      "nx": 0.406,
+      "ny": 0.29,
       "guide": "In Manifest Canyon, near the train tracks by the highway. This spot has two meditations.",
       "region": "Kelly County"
     },
@@ -3004,6 +3031,8 @@
       "category": "meditation",
       "subgroup": "Lummox County",
       "spoiler": true,
+      "nx": 0.477,
+      "ny": 0.19,
       "guide": "At the waterwheel of the ruined paper mill in south Moreau. This spot has two meditations.",
       "region": "Lummox County"
     },
@@ -3013,6 +3042,8 @@
       "category": "meditation",
       "subgroup": "Lummox County",
       "spoiler": true,
+      "nx": 0.477,
+      "ny": 0.19,
       "guide": "At the waterwheel of the ruined paper mill in south Moreau. This spot has two meditations.",
       "region": "Lummox County"
     },
@@ -3022,6 +3053,8 @@
       "category": "meditation",
       "subgroup": "Lummox County",
       "spoiler": true,
+      "nx": 0.516,
+      "ny": 0.2,
       "guide": "By a tower above a mine in Mount Kalaga National Park. This spot has two meditations.",
       "region": "Lummox County"
     },
@@ -3031,6 +3064,8 @@
       "category": "meditation",
       "subgroup": "Lummox County",
       "spoiler": true,
+      "nx": 0.516,
+      "ny": 0.2,
       "guide": "By a tower above a mine in Mount Kalaga National Park. This spot has two meditations.",
       "region": "Lummox County"
     },
@@ -3040,6 +3075,8 @@
       "category": "meditation",
       "subgroup": "Lummox County",
       "spoiler": true,
+      "nx": 0.545,
+      "ny": 0.182,
       "guide": "Northwest of Tallaloko, looking over a waterfall. This spot has two meditations.",
       "region": "Lummox County"
     },
@@ -3049,6 +3086,8 @@
       "category": "meditation",
       "subgroup": "Lummox County",
       "spoiler": true,
+      "nx": 0.545,
+      "ny": 0.182,
       "guide": "Northwest of Tallaloko, looking over a waterfall. This spot has two meditations.",
       "region": "Lummox County"
     },
@@ -3058,6 +3097,8 @@
       "category": "meditation",
       "subgroup": "Leonard County",
       "spoiler": true,
+      "nx": 0.672,
+      "ny": 0.3,
       "guide": "On rocks by the beach east of Waning Sands. This spot has two meditations.",
       "region": "Leonard County"
     },
@@ -3067,6 +3108,8 @@
       "category": "meditation",
       "subgroup": "Leonard County",
       "spoiler": true,
+      "nx": 0.672,
+      "ny": 0.3,
       "guide": "On rocks by the beach east of Waning Sands. This spot has two meditations.",
       "region": "Leonard County"
     },
@@ -3076,6 +3119,8 @@
       "category": "meditation",
       "subgroup": "Lummox County",
       "spoiler": true,
+      "nx": 0.495,
+      "ny": 0.225,
       "guide": "At the stone circle on the peak of Mount Kalaga. Opens up once you've done the others.",
       "region": "Lummox County"
     },
@@ -3137,6 +3182,8 @@
       "title": "Frontier Adventure Golf",
       "category": "mini-golf",
       "spoiler": true,
+      "nx": 0.66,
+      "ny": 0.343,
       "guide": "Mini golf course in Waning Sands.",
       "region": "Leonard County"
     },
@@ -3154,6 +3201,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: 3-Point Range",
       "spoiler": true,
+      "nx": 0.534,
+      "ny": 0.461,
       "guide": "Griffin Shooting Range, northwest of Vice City. Shoot the targets fast at three weapon stations. Challenge 1 of 3 here; tick it once you have its gold medal."
     },
     {
@@ -3162,6 +3211,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: 3-Point Range",
       "spoiler": true,
+      "nx": 0.534,
+      "ny": 0.461,
       "guide": "Griffin Shooting Range, northwest of Vice City. Shoot the targets fast at three weapon stations. Challenge 2 of 3 here; tick it once you have its gold medal."
     },
     {
@@ -3170,6 +3221,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: 3-Point Range",
       "spoiler": true,
+      "nx": 0.534,
+      "ny": 0.461,
       "guide": "Griffin Shooting Range, northwest of Vice City. Shoot the targets fast at three weapon stations. Challenge 3 of 3 here; tick it once you have its gold medal."
     },
     {
@@ -3178,6 +3231,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Hook Range",
       "spoiler": true,
+      "nx": 0.534,
+      "ny": 0.461,
       "guide": "Griffin Shooting Range, northwest of Vice City. Move through the course while shooting; watch for 5 red spinning targets. Challenge 1 of 3 here; tick it once you have its gold medal."
     },
     {
@@ -3186,6 +3241,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Hook Range",
       "spoiler": true,
+      "nx": 0.534,
+      "ny": 0.461,
       "guide": "Griffin Shooting Range, northwest of Vice City. Move through the course while shooting; watch for 5 red spinning targets. Challenge 2 of 3 here; tick it once you have its gold medal."
     },
     {
@@ -3194,6 +3251,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Hook Range",
       "spoiler": true,
+      "nx": 0.534,
+      "ny": 0.461,
       "guide": "Griffin Shooting Range, northwest of Vice City. Move through the course while shooting; watch for 5 red spinning targets. Challenge 3 of 3 here; tick it once you have its gold medal."
     },
     {
@@ -3202,6 +3261,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Loop Range",
       "spoiler": true,
+      "nx": 0.534,
+      "ny": 0.461,
       "guide": "Griffin Shooting Range, northwest of Vice City. Like Hook Range; slow motion helps with the spinning targets. Challenge 1 of 3 here; tick it once you have its gold medal."
     },
     {
@@ -3210,6 +3271,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Loop Range",
       "spoiler": true,
+      "nx": 0.534,
+      "ny": 0.461,
       "guide": "Griffin Shooting Range, northwest of Vice City. Like Hook Range; slow motion helps with the spinning targets. Challenge 2 of 3 here; tick it once you have its gold medal."
     },
     {
@@ -3218,6 +3281,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Loop Range",
       "spoiler": true,
+      "nx": 0.534,
+      "ny": 0.461,
       "guide": "Griffin Shooting Range, northwest of Vice City. Like Hook Range; slow motion helps with the spinning targets. Challenge 3 of 3 here; tick it once you have its gold medal."
     },
     {
@@ -3226,6 +3291,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Maze Range",
       "spoiler": true,
+      "nx": 0.534,
+      "ny": 0.461,
       "guide": "Griffin Shooting Range, northwest of Vice City. Like Hook and Loop, through a maze. Challenge 1 of 3 here; tick it once you have its gold medal."
     },
     {
@@ -3234,6 +3301,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Maze Range",
       "spoiler": true,
+      "nx": 0.534,
+      "ny": 0.461,
       "guide": "Griffin Shooting Range, northwest of Vice City. Like Hook and Loop, through a maze. Challenge 2 of 3 here; tick it once you have its gold medal."
     },
     {
@@ -3242,6 +3311,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Maze Range",
       "spoiler": true,
+      "nx": 0.534,
+      "ny": 0.461,
       "guide": "Griffin Shooting Range, northwest of Vice City. Like Hook and Loop, through a maze. Challenge 3 of 3 here; tick it once you have its gold medal."
     },
     {
@@ -3250,6 +3321,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Compound Range",
       "spoiler": true,
+      "nx": 0.534,
+      "ny": 0.461,
       "guide": "Griffin Shooting Range, northwest of Vice City. Clear a building as targets pop up. Challenge 1 of 3 here; tick it once you have its gold medal."
     },
     {
@@ -3258,6 +3331,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Compound Range",
       "spoiler": true,
+      "nx": 0.534,
+      "ny": 0.461,
       "guide": "Griffin Shooting Range, northwest of Vice City. Clear a building as targets pop up. Challenge 2 of 3 here; tick it once you have its gold medal."
     },
     {
@@ -3266,6 +3341,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Compound Range",
       "spoiler": true,
+      "nx": 0.534,
+      "ny": 0.461,
       "guide": "Griffin Shooting Range, northwest of Vice City. Clear a building as targets pop up. Challenge 3 of 3 here; tick it once you have its gold medal."
     },
     {
@@ -3274,6 +3351,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Villa Range",
       "spoiler": true,
+      "nx": 0.534,
+      "ny": 0.461,
       "guide": "Griffin Shooting Range, northwest of Vice City. Targets appear as you get close; plan a route through the houses. Challenge 1 of 3 here; tick it once you have its gold medal."
     },
     {
@@ -3282,6 +3361,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Villa Range",
       "spoiler": true,
+      "nx": 0.534,
+      "ny": 0.461,
       "guide": "Griffin Shooting Range, northwest of Vice City. Targets appear as you get close; plan a route through the houses. Challenge 2 of 3 here; tick it once you have its gold medal."
     },
     {
@@ -3290,6 +3371,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Villa Range",
       "spoiler": true,
+      "nx": 0.534,
+      "ny": 0.461,
       "guide": "Griffin Shooting Range, northwest of Vice City. Targets appear as you get close; plan a route through the houses. Challenge 3 of 3 here; tick it once you have its gold medal."
     },
     {
@@ -3298,6 +3381,8 @@
       "category": "shooting-ranges",
       "subgroup": "Rodgers Ranch: Market Range",
       "spoiler": true,
+      "nx": 0.365,
+      "ny": 0.31,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Quick shooting; speed matters more than accuracy. The beginner challenge, number 1 of 4 here; tick it once you have its gold medal.",
       "stats": [
         {
@@ -3316,6 +3401,8 @@
       "category": "shooting-ranges",
       "subgroup": "Rodgers Ranch: Market Range",
       "spoiler": true,
+      "nx": 0.365,
+      "ny": 0.31,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Quick shooting; speed matters more than accuracy. The intermediate challenge, number 2 of 4 here; tick it once you have its gold medal.",
       "stats": [
         {
@@ -3334,6 +3421,8 @@
       "category": "shooting-ranges",
       "subgroup": "Rodgers Ranch: Market Range",
       "spoiler": true,
+      "nx": 0.365,
+      "ny": 0.31,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Quick shooting; speed matters more than accuracy. The advanced challenge, number 3 of 4 here; tick it once you have its gold medal.",
       "stats": [
         {
@@ -3352,6 +3441,8 @@
       "category": "shooting-ranges",
       "subgroup": "Rodgers Ranch: Market Range",
       "spoiler": true,
+      "nx": 0.365,
+      "ny": 0.31,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Quick shooting; speed matters more than accuracy. The master challenge, number 4 of 4 here; tick it once you have its gold medal.",
       "stats": [
         {
@@ -3370,6 +3461,8 @@
       "category": "shooting-ranges",
       "subgroup": "Rodgers Ranch: Zombie Range",
       "spoiler": true,
+      "nx": 0.365,
+      "ny": 0.31,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Body shots build a score multiplier. The beginner challenge, number 1 of 4 here; tick it once you have its gold medal.",
       "stats": [
         {
@@ -3388,6 +3481,8 @@
       "category": "shooting-ranges",
       "subgroup": "Rodgers Ranch: Zombie Range",
       "spoiler": true,
+      "nx": 0.365,
+      "ny": 0.31,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Body shots build a score multiplier. The intermediate challenge, number 2 of 4 here; tick it once you have its gold medal.",
       "stats": [
         {
@@ -3406,6 +3501,8 @@
       "category": "shooting-ranges",
       "subgroup": "Rodgers Ranch: Zombie Range",
       "spoiler": true,
+      "nx": 0.365,
+      "ny": 0.31,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Body shots build a score multiplier. The advanced challenge, number 3 of 4 here; tick it once you have its gold medal.",
       "stats": [
         {
@@ -3424,6 +3521,8 @@
       "category": "shooting-ranges",
       "subgroup": "Rodgers Ranch: Zombie Range",
       "spoiler": true,
+      "nx": 0.365,
+      "ny": 0.31,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Body shots build a score multiplier. The master challenge, number 4 of 4 here; tick it once you have its gold medal.",
       "stats": [
         {
@@ -3442,6 +3541,8 @@
       "category": "shooting-ranges",
       "subgroup": "Rodgers Ranch: Hunting Range",
       "spoiler": true,
+      "nx": 0.365,
+      "ny": 0.31,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Animal targets, bears included. The beginner challenge, number 1 of 4 here; tick it once you have its gold medal.",
       "stats": [
         {
@@ -3456,6 +3557,8 @@
       "category": "shooting-ranges",
       "subgroup": "Rodgers Ranch: Hunting Range",
       "spoiler": true,
+      "nx": 0.365,
+      "ny": 0.31,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Animal targets, bears included. The intermediate challenge, number 2 of 4 here; tick it once you have its gold medal.",
       "stats": [
         {
@@ -3470,6 +3573,8 @@
       "category": "shooting-ranges",
       "subgroup": "Rodgers Ranch: Hunting Range",
       "spoiler": true,
+      "nx": 0.365,
+      "ny": 0.31,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Animal targets, bears included. The advanced challenge, number 3 of 4 here; tick it once you have its gold medal.",
       "stats": [
         {
@@ -3484,6 +3589,8 @@
       "category": "shooting-ranges",
       "subgroup": "Rodgers Ranch: Hunting Range",
       "spoiler": true,
+      "nx": 0.365,
+      "ny": 0.31,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Animal targets, bears included. The master challenge, number 4 of 4 here; tick it once you have its gold medal.",
       "stats": [
         {
@@ -3498,6 +3605,8 @@
       "category": "shooting-ranges",
       "subgroup": "Rodgers Ranch: Saloon Range",
       "spoiler": true,
+      "nx": 0.365,
+      "ny": 0.31,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Body shot, then head shot, on each enemy. The beginner challenge, number 1 of 4 here; tick it once you have its gold medal.",
       "stats": [
         {
@@ -3516,6 +3625,8 @@
       "category": "shooting-ranges",
       "subgroup": "Rodgers Ranch: Saloon Range",
       "spoiler": true,
+      "nx": 0.365,
+      "ny": 0.31,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Body shot, then head shot, on each enemy. The intermediate challenge, number 2 of 4 here; tick it once you have its gold medal."
     },
     {
@@ -3524,6 +3635,8 @@
       "category": "shooting-ranges",
       "subgroup": "Rodgers Ranch: Saloon Range",
       "spoiler": true,
+      "nx": 0.365,
+      "ny": 0.31,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Body shot, then head shot, on each enemy. The advanced challenge, number 3 of 4 here; tick it once you have its gold medal."
     },
     {
@@ -3532,6 +3645,8 @@
       "category": "shooting-ranges",
       "subgroup": "Rodgers Ranch: Saloon Range",
       "spoiler": true,
+      "nx": 0.365,
+      "ny": 0.31,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Body shot, then head shot, on each enemy. The master challenge, number 4 of 4 here; tick it once you have its gold medal."
     },
     {
@@ -3540,6 +3655,8 @@
       "category": "shooting-ranges",
       "subgroup": "Rodgers Ranch: Cops & Robbers Range",
       "spoiler": true,
+      "nx": 0.365,
+      "ny": 0.31,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Sniper rifle headshots; don't hit the cop. The beginner challenge, number 1 of 4 here; tick it once you have its gold medal."
     },
     {
@@ -3548,6 +3665,8 @@
       "category": "shooting-ranges",
       "subgroup": "Rodgers Ranch: Cops & Robbers Range",
       "spoiler": true,
+      "nx": 0.365,
+      "ny": 0.31,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Sniper rifle headshots; don't hit the cop. The intermediate challenge, number 2 of 4 here; tick it once you have its gold medal.",
       "stats": [
         {
@@ -3566,6 +3685,8 @@
       "category": "shooting-ranges",
       "subgroup": "Rodgers Ranch: Cops & Robbers Range",
       "spoiler": true,
+      "nx": 0.365,
+      "ny": 0.31,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Sniper rifle headshots; don't hit the cop. The advanced challenge, number 3 of 4 here; tick it once you have its gold medal.",
       "stats": [
         {
@@ -3584,6 +3705,8 @@
       "category": "shooting-ranges",
       "subgroup": "Rodgers Ranch: Cops & Robbers Range",
       "spoiler": true,
+      "nx": 0.365,
+      "ny": 0.31,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Sniper rifle headshots; don't hit the cop. The master challenge, number 4 of 4 here; tick it once you have its gold medal.",
       "stats": [
         {
@@ -3602,6 +3725,8 @@
       "category": "shooting-ranges",
       "subgroup": "Rodgers Ranch: Alien Range",
       "spoiler": true,
+      "nx": 0.365,
+      "ny": 0.31,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Body shot, then head shot, on each target. The beginner challenge, number 1 of 4 here; tick it once you have its gold medal."
     },
     {
@@ -3610,6 +3735,8 @@
       "category": "shooting-ranges",
       "subgroup": "Rodgers Ranch: Alien Range",
       "spoiler": true,
+      "nx": 0.365,
+      "ny": 0.31,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Body shot, then head shot, on each target. The intermediate challenge, number 2 of 4 here; tick it once you have its gold medal."
     },
     {
@@ -3618,6 +3745,8 @@
       "category": "shooting-ranges",
       "subgroup": "Rodgers Ranch: Alien Range",
       "spoiler": true,
+      "nx": 0.365,
+      "ny": 0.31,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Body shot, then head shot, on each target. The advanced challenge, number 3 of 4 here; tick it once you have its gold medal."
     },
     {
@@ -3626,6 +3755,8 @@
       "category": "shooting-ranges",
       "subgroup": "Rodgers Ranch: Alien Range",
       "spoiler": true,
+      "nx": 0.365,
+      "ny": 0.31,
       "guide": "Rodgers Ranch Shooting Range, northeast of Port Gellhorn. Body shot, then head shot, on each target. The master challenge, number 4 of 4 here; tick it once you have its gold medal."
     },
     {
@@ -3633,6 +3764,8 @@
       "title": "Skeeter's",
       "category": "pool",
       "spoiler": true,
+      "nx": 0.54,
+      "ny": 0.722,
       "guide": "South edge of Hamlet, on the south side of the building.",
       "region": "Mariana County"
     },
@@ -3649,6 +3782,8 @@
       "title": "The Thirsty Wolf",
       "category": "pool",
       "spoiler": true,
+      "nx": 0.569,
+      "ny": 0.332,
       "guide": "Northwest edge of Belville, on the north side of the building.",
       "region": "Leonard County"
     },
@@ -3657,6 +3792,8 @@
       "title": "Jacob's Tavern",
       "category": "pool",
       "spoiler": true,
+      "nx": 0.615,
+      "ny": 0.203,
       "guide": "East side of Milport, beside a Pay 'n' Spray.",
       "region": "Lummox County"
     },
@@ -3665,6 +3802,8 @@
       "title": "Delights Cabaret",
       "category": "pool",
       "spoiler": true,
+      "nx": 0.351,
+      "ny": 0.349,
       "guide": "In the middle of the building in Port Gellhorn. You can come back later if you miss it in chapter 2.",
       "region": "Kelly County"
     },
@@ -3689,6 +3828,8 @@
       "category": "bank-jobs",
       "subgroup": "Small banks",
       "spoiler": true,
+      "nx": 0.536,
+      "ny": 0.835,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Mariana County"
     },
@@ -3698,6 +3839,8 @@
       "category": "bank-jobs",
       "subgroup": "Small banks",
       "spoiler": true,
+      "nx": 0.417,
+      "ny": 0.691,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Mariana County"
     },
@@ -3707,6 +3850,8 @@
       "category": "bank-jobs",
       "subgroup": "Small banks",
       "spoiler": true,
+      "nx": 0.318,
+      "ny": 0.518,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Mariana County"
     },
@@ -3716,6 +3861,8 @@
       "category": "bank-jobs",
       "subgroup": "Small banks",
       "spoiler": true,
+      "nx": 0.604,
+      "ny": 0.617,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Vice-Dale County"
     },
@@ -3725,6 +3872,8 @@
       "category": "bank-jobs",
       "subgroup": "Small banks",
       "spoiler": true,
+      "nx": 0.607,
+      "ny": 0.612,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Vice-Dale County"
     },
@@ -3734,6 +3883,8 @@
       "category": "bank-jobs",
       "subgroup": "Small banks",
       "spoiler": true,
+      "nx": 0.63,
+      "ny": 0.537,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Vice-Dale County"
     },
@@ -3743,6 +3894,8 @@
       "category": "bank-jobs",
       "subgroup": "Small banks",
       "spoiler": true,
+      "nx": 0.602,
+      "ny": 0.485,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Vice-Dale County"
     },
@@ -3752,6 +3905,8 @@
       "category": "bank-jobs",
       "subgroup": "Small banks",
       "spoiler": true,
+      "nx": 0.654,
+      "ny": 0.448,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Vice-Dale County"
     },
@@ -3761,6 +3916,8 @@
       "category": "bank-jobs",
       "subgroup": "Small banks",
       "spoiler": true,
+      "nx": 0.745,
+      "ny": 0.436,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Vice-Dale County"
     },
@@ -3770,6 +3927,8 @@
       "category": "bank-jobs",
       "subgroup": "Small banks",
       "spoiler": true,
+      "nx": 0.758,
+      "ny": 0.461,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Vice-Dale County"
     },
@@ -3779,6 +3938,8 @@
       "category": "bank-jobs",
       "subgroup": "Small banks",
       "spoiler": true,
+      "nx": 0.757,
+      "ny": 0.497,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Vice-Dale County"
     },
@@ -3788,6 +3949,8 @@
       "category": "bank-jobs",
       "subgroup": "Small banks",
       "spoiler": true,
+      "nx": 0.755,
+      "ny": 0.511,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Vice-Dale County"
     },
@@ -3797,6 +3960,8 @@
       "category": "bank-jobs",
       "subgroup": "Small banks",
       "spoiler": true,
+      "nx": 0.598,
+      "ny": 0.381,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Leonard County"
     },
@@ -3806,6 +3971,8 @@
       "category": "bank-jobs",
       "subgroup": "Small banks",
       "spoiler": true,
+      "nx": 0.532,
+      "ny": 0.308,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Kelly County"
     },
@@ -3815,6 +3982,8 @@
       "category": "bank-jobs",
       "subgroup": "Large banks",
       "spoiler": true,
+      "nx": 0.584,
+      "ny": 0.545,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
       "region": "Vice-Dale County"
     },
@@ -3824,6 +3993,8 @@
       "category": "bank-jobs",
       "subgroup": "Large banks",
       "spoiler": true,
+      "nx": 0.623,
+      "ny": 0.582,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
       "region": "Vice-Dale County"
     },
@@ -3833,6 +4004,8 @@
       "category": "bank-jobs",
       "subgroup": "Large banks",
       "spoiler": true,
+      "nx": 0.639,
+      "ny": 0.539,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
       "region": "Vice-Dale County"
     },
@@ -3842,6 +4015,8 @@
       "category": "bank-jobs",
       "subgroup": "Large banks",
       "spoiler": true,
+      "nx": 0.633,
+      "ny": 0.531,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
       "region": "Vice-Dale County"
     },
@@ -3851,6 +4026,8 @@
       "category": "bank-jobs",
       "subgroup": "Large banks",
       "spoiler": true,
+      "nx": 0.756,
+      "ny": 0.523,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
       "region": "Vice-Dale County"
     },
@@ -3860,6 +4037,8 @@
       "category": "bank-jobs",
       "subgroup": "Large banks",
       "spoiler": true,
+      "nx": 0.758,
+      "ny": 0.518,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
       "region": "Vice-Dale County"
     },
@@ -3869,6 +4048,8 @@
       "category": "bank-jobs",
       "subgroup": "Large banks",
       "spoiler": true,
+      "nx": 0.741,
+      "ny": 0.509,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
       "region": "Vice-Dale County"
     },
@@ -3878,6 +4059,8 @@
       "category": "bank-jobs",
       "subgroup": "Large banks",
       "spoiler": true,
+      "nx": 0.755,
+      "ny": 0.461,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
       "region": "Vice-Dale County"
     },
@@ -3886,6 +4069,8 @@
       "title": "Quick Buck - Hamlet",
       "category": "payday-loans",
       "spoiler": true,
+      "nx": 0.543,
+      "ny": 0.71,
       "guide": "Rob the store and get away.",
       "region": "Vice-Dale County"
     },
@@ -3894,6 +4079,8 @@
       "title": "Payline Loans 247",
       "category": "payday-loans",
       "spoiler": true,
+      "nx": 0.551,
+      "ny": 0.687,
       "guide": "Rob the store and get away.",
       "region": "Vice-Dale County"
     },
@@ -3902,6 +4089,8 @@
       "title": "Payday Loans Store - Southside",
       "category": "payday-loans",
       "spoiler": true,
+      "nx": 0.58,
+      "ny": 0.625,
       "guide": "Rob the store and get away.",
       "region": "Vice-Dale County"
     },
@@ -3910,6 +4099,8 @@
       "title": "Payday Loans Store - Little Cuba",
       "category": "payday-loans",
       "spoiler": true,
+      "nx": 0.6,
+      "ny": 0.503,
       "guide": "Rob the store and get away.",
       "region": "Vice-Dale County"
     },
@@ -3918,6 +4109,8 @@
       "title": "Payday Loans Store - Rockridge",
       "category": "payday-loans",
       "spoiler": true,
+      "nx": 0.603,
+      "ny": 0.472,
       "guide": "Rob the store and get away.",
       "region": "Vice-Dale County"
     },
@@ -3926,6 +4119,8 @@
       "title": "Quick Buck - La Perle",
       "category": "payday-loans",
       "spoiler": true,
+      "nx": 0.638,
+      "ny": 0.448,
       "guide": "Rob the store and get away.",
       "region": "Vice-Dale County"
     },
@@ -3934,6 +4129,8 @@
       "title": "Cash Flow",
       "category": "payday-loans",
       "spoiler": true,
+      "nx": 0.349,
+      "ny": 0.332,
       "guide": "Rob the store and get away.",
       "region": "Kelly County"
     },
@@ -3943,6 +4140,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
+      "nx": 0.505,
+      "ny": 0.868,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Mariana County"
     },
@@ -3952,6 +4151,8 @@
       "category": "smash-grabs",
       "subgroup": "Pawn shops",
       "spoiler": true,
+      "nx": 0.426,
+      "ny": 0.699,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Mariana County"
     },
@@ -3961,6 +4162,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
+      "nx": 0.327,
+      "ny": 0.516,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Mariana County"
     },
@@ -3970,6 +4173,8 @@
       "category": "smash-grabs",
       "subgroup": "Pawn shops",
       "spoiler": true,
+      "nx": 0.542,
+      "ny": 0.709,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County"
     },
@@ -3979,6 +4184,8 @@
       "category": "smash-grabs",
       "subgroup": "Pawn shops",
       "spoiler": true,
+      "nx": 0.579,
+      "ny": 0.641,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County"
     },
@@ -3988,6 +4195,8 @@
       "category": "smash-grabs",
       "subgroup": "Pawn shops",
       "spoiler": true,
+      "nx": 0.582,
+      "ny": 0.633,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County"
     },
@@ -3997,6 +4206,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
+      "nx": 0.6,
+      "ny": 0.617,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
     },
@@ -4006,6 +4217,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
+      "nx": 0.624,
+      "ny": 0.579,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
     },
@@ -4015,6 +4228,8 @@
       "category": "smash-grabs",
       "subgroup": "Pawn shops",
       "spoiler": true,
+      "nx": 0.596,
+      "ny": 0.549,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County"
     },
@@ -4024,6 +4239,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
+      "nx": 0.638,
+      "ny": 0.533,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
     },
@@ -4033,6 +4250,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
+      "nx": 0.635,
+      "ny": 0.528,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
     },
@@ -4042,6 +4261,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
+      "nx": 0.656,
+      "ny": 0.521,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
     },
@@ -4051,6 +4272,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
+      "nx": 0.654,
+      "ny": 0.513,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
     },
@@ -4060,6 +4283,8 @@
       "category": "smash-grabs",
       "subgroup": "Pawn shops",
       "spoiler": true,
+      "nx": 0.608,
+      "ny": 0.508,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County"
     },
@@ -4069,6 +4294,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
+      "nx": 0.531,
+      "ny": 0.489,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
     },
@@ -4078,6 +4305,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
+      "nx": 0.529,
+      "ny": 0.485,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
     },
@@ -4087,6 +4316,8 @@
       "category": "smash-grabs",
       "subgroup": "Pawn shops",
       "spoiler": true,
+      "nx": 0.611,
+      "ny": 0.492,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County"
     },
@@ -4096,6 +4327,8 @@
       "category": "smash-grabs",
       "subgroup": "Pawn shops",
       "spoiler": true,
+      "nx": 0.604,
+      "ny": 0.468,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County"
     },
@@ -4105,6 +4338,8 @@
       "category": "smash-grabs",
       "subgroup": "Pawn shops",
       "spoiler": true,
+      "nx": 0.622,
+      "ny": 0.477,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County"
     },
@@ -4114,6 +4349,8 @@
       "category": "smash-grabs",
       "subgroup": "Pawn shops",
       "spoiler": true,
+      "nx": 0.627,
+      "ny": 0.469,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County"
     },
@@ -4123,6 +4360,8 @@
       "category": "smash-grabs",
       "subgroup": "Pawn shops",
       "spoiler": true,
+      "nx": 0.629,
+      "ny": 0.44,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County"
     },
@@ -4132,6 +4371,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
+      "nx": 0.653,
+      "ny": 0.412,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
     },
@@ -4141,6 +4382,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
+      "nx": 0.648,
+      "ny": 0.406,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
     },
@@ -4150,6 +4393,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
+      "nx": 0.655,
+      "ny": 0.403,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
     },
@@ -4159,6 +4404,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
+      "nx": 0.75,
+      "ny": 0.45,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
     },
@@ -4168,6 +4415,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
+      "nx": 0.768,
+      "ny": 0.46,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
     },
@@ -4177,6 +4426,8 @@
       "category": "smash-grabs",
       "subgroup": "Pawn shops",
       "spoiler": true,
+      "nx": 0.755,
+      "ny": 0.467,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County"
     },
@@ -4186,6 +4437,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
+      "nx": 0.755,
+      "ny": 0.489,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
     },
@@ -4195,6 +4448,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
+      "nx": 0.749,
+      "ny": 0.516,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County"
     },
@@ -4204,6 +4459,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
+      "nx": 0.609,
+      "ny": 0.382,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Leonard County"
     },
@@ -4213,6 +4470,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
+      "nx": 0.663,
+      "ny": 0.329,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Leonard County"
     },
@@ -4222,6 +4481,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
+      "nx": 0.66,
+      "ny": 0.324,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Leonard County"
     },
@@ -4231,6 +4492,8 @@
       "category": "smash-grabs",
       "subgroup": "Pawn shops",
       "spoiler": true,
+      "nx": 0.352,
+      "ny": 0.372,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Kelly County"
     },
@@ -4240,6 +4503,8 @@
       "category": "smash-grabs",
       "subgroup": "Pawn shops",
       "spoiler": true,
+      "nx": 0.351,
+      "ny": 0.335,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Kelly County"
     },
@@ -4249,6 +4514,8 @@
       "category": "smash-grabs",
       "subgroup": "Pawn shops",
       "spoiler": true,
+      "nx": 0.53,
+      "ny": 0.299,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Kelly County"
     },
@@ -4264,6 +4531,8 @@
       "title": "Hamlet BMX Stunt Run",
       "category": "race-challenges",
       "spoiler": true,
+      "nx": 0.541,
+      "ny": 0.682,
       "guide": "Tick it off when you get the gold medal."
     },
     {
@@ -4278,6 +4547,8 @@
       "title": "Gellhorn Raceway Trial",
       "category": "race-challenges",
       "spoiler": true,
+      "nx": 0.334,
+      "ny": 0.417,
       "guide": "Tick it off when you get the gold medal."
     },
     {
@@ -4285,6 +4556,8 @@
       "title": "Gellhorn Dragway Trial",
       "category": "race-challenges",
       "spoiler": true,
+      "nx": 0.335,
+      "ny": 0.388,
       "guide": "Tick it off when you get the gold medal."
     },
     {
@@ -4377,6 +4650,8 @@
       "title": "Waning Sands Motocross Stunt Run",
       "category": "race-challenges",
       "spoiler": true,
+      "nx": 0.648,
+      "ny": 0.275,
       "guide": "Tick it off when you get the gold medal."
     },
     {
@@ -5024,6 +5299,8 @@
       "title": "Flamingo 1",
       "category": "flamingos",
       "spoiler": true,
+      "nx": 0.268,
+      "ny": 0.548,
       "guide": "Belpoint: the docks on the island's southeast side.",
       "region": "Mariana County"
     },
@@ -5032,6 +5309,8 @@
       "title": "Flamingo 2",
       "category": "flamingos",
       "spoiler": true,
+      "nx": 0.266,
+      "ny": 0.546,
       "guide": "Belpoint: by the burning flamingo houses in the southeast, in front of the big white house.",
       "region": "Mariana County"
     },
@@ -5040,6 +5319,8 @@
       "title": "Flamingo 3",
       "category": "flamingos",
       "spoiler": true,
+      "nx": 0.265,
+      "ny": 0.545,
       "guide": "Belpoint: same houses, at a corner of the small white house.",
       "region": "Mariana County"
     },
@@ -5048,6 +5329,8 @@
       "title": "Flamingo 4",
       "category": "flamingos",
       "spoiler": true,
+      "nx": 0.264,
+      "ny": 0.548,
       "guide": "Belpoint: inside the burning flamingo container on the beach.",
       "region": "Mariana County"
     },
@@ -5056,6 +5339,8 @@
       "title": "Flamingo 5",
       "category": "flamingos",
       "spoiler": true,
+      "nx": 0.264,
+      "ny": 0.549,
       "guide": "Belpoint: on the ground by the fire at the burning container.",
       "region": "Mariana County"
     },
@@ -5064,6 +5349,8 @@
       "title": "Flamingo 6",
       "category": "flamingos",
       "spoiler": true,
+      "nx": 0.263,
+      "ny": 0.55,
       "guide": "Belpoint: on the yellow container in the water by the beach.",
       "region": "Mariana County"
     },
@@ -5072,6 +5359,8 @@
       "title": "Flamingo 7",
       "category": "flamingos",
       "spoiler": true,
+      "nx": 0.425,
+      "ny": 0.686,
       "guide": "Watson Bay: southwest corner of the motel on the east edge, in the rubbish.",
       "region": "Mariana County"
     },
@@ -5080,6 +5369,8 @@
       "title": "Flamingo 8",
       "category": "flamingos",
       "spoiler": true,
+      "nx": 0.607,
+      "ny": 0.449,
       "guide": "La Perle: ground floor in the middle of the C-shaped building northwest of Tyrone's apartment.",
       "region": "Vice City"
     },
@@ -5202,6 +5493,8 @@
       "completeBefore": "chapter 2",
       "subgroup": "Mariana County",
       "spoiler": true,
+      "nx": 0.555,
+      "ny": 0.825,
       "guide": "Key Lento: Jason's house, the table by the bed. Chapter 1 only.",
       "region": "Mariana County",
       "missable": true
@@ -5213,6 +5506,8 @@
       "completeBefore": "chapter 2",
       "subgroup": "Mariana County",
       "spoiler": true,
+      "nx": 0.555,
+      "ny": 0.826,
       "guide": "Key Lento: Jason's house, the living room table. Chapter 1 only.",
       "region": "Mariana County",
       "missable": true
@@ -5224,6 +5519,8 @@
       "completeBefore": "chapter 2",
       "subgroup": "Mariana County",
       "spoiler": true,
+      "nx": 0.556,
+      "ny": 0.825,
       "guide": "Key Lento: Jason's house, the table by the east window. Chapter 1 only.",
       "region": "Mariana County",
       "missable": true
@@ -5235,6 +5532,8 @@
       "completeBefore": "chapter 2",
       "subgroup": "Mariana County",
       "spoiler": true,
+      "nx": 0.555,
+      "ny": 0.824,
       "guide": "Key Lento: the tool shed under Jason's house. Chapter 1 only.",
       "region": "Mariana County",
       "missable": true
@@ -5246,6 +5545,8 @@
       "completeBefore": "chapter 2",
       "subgroup": "Mariana County",
       "spoiler": true,
+      "nx": 0.556,
+      "ny": 0.826,
       "guide": "Key Lento: Jason's back deck, by the weights. Chapter 1 only.",
       "region": "Mariana County",
       "missable": true
@@ -5256,6 +5557,8 @@
       "category": "magazines",
       "subgroup": "Mariana County",
       "spoiler": true,
+      "nx": 0.548,
+      "ny": 0.832,
       "guide": "Key Lento: magazine rack in the 247 store.",
       "region": "Mariana County"
     },
@@ -5266,6 +5569,8 @@
       "completeBefore": "chapter 3",
       "subgroup": "Kelly County",
       "spoiler": true,
+      "nx": 0.402,
+      "ny": 0.391,
       "guide": "Gellhorn: Starlet Motel reception table. Gone after chapter 2.",
       "region": "Kelly County",
       "missable": true
@@ -5277,6 +5582,8 @@
       "completeBefore": "chapter 3",
       "subgroup": "Kelly County",
       "spoiler": true,
+      "nx": 0.403,
+      "ny": 0.393,
       "guide": "Gellhorn: Starlet Motel cafeteria table. Gone after chapter 2.",
       "region": "Kelly County",
       "missable": true
@@ -5287,6 +5594,8 @@
       "category": "magazines",
       "subgroup": "Kelly County",
       "spoiler": true,
+      "nx": 0.335,
+      "ny": 0.355,
       "guide": "Port Gellhorn: a trailer in the Lost Vista area, northwest of Station Garage.",
       "region": "Kelly County"
     },
@@ -5297,6 +5606,8 @@
       "completeBefore": "chapter 4",
       "subgroup": "Vice City",
       "spoiler": true,
+      "nx": 0.629,
+      "ny": 0.47,
       "guide": "Bayside: the apartment, by the bathtub. Gone after chapter 3.",
       "region": "Vice City",
       "missable": true
@@ -5308,6 +5619,8 @@
       "completeBefore": "chapter 4",
       "subgroup": "Vice City",
       "spoiler": true,
+      "nx": 0.629,
+      "ny": 0.471,
       "guide": "Bayside: the apartment, on the table in front of the TV. Gone after chapter 3.",
       "region": "Vice City",
       "missable": true
@@ -5318,6 +5631,8 @@
       "category": "magazines",
       "subgroup": "Vice Beach",
       "spoiler": true,
+      "nx": 0.745,
+      "ny": 0.435,
       "guide": "Penmarch Isle, Washington Beach: the back room at Ajax Gym. From chapter 4.",
       "region": "Vice Beach"
     },
@@ -5327,6 +5642,8 @@
       "category": "magazines",
       "subgroup": "Leonard County",
       "spoiler": true,
+      "nx": 0.605,
+      "ny": 0.38,
       "guide": "Belville: on a bed in a garage on the north row of houses.",
       "region": "Leonard County"
     },
@@ -5336,6 +5653,8 @@
       "category": "magazines",
       "subgroup": "Kelly County",
       "spoiler": true,
+      "nx": 0.41,
+      "ny": 0.384,
       "guide": "Gellhorn: inside Alpha Gas, northeast of the Starlet Motel.",
       "region": "Kelly County"
     },
@@ -5345,6 +5664,8 @@
       "category": "magazines",
       "subgroup": "Lummox County",
       "spoiler": true,
+      "nx": 0.469,
+      "ny": 0.198,
       "guide": "Moreau: on the main room table of the unmarked building north of Taco Bomb West Kalaga.",
       "region": "Lummox County"
     },
@@ -5354,6 +5675,8 @@
       "category": "magazines",
       "subgroup": "Vice City",
       "spoiler": true,
+      "nx": 0.61,
+      "ny": 0.452,
       "guide": "La Perle: magazine rack at Xero Food Mart.",
       "region": "Vice City"
     },
@@ -5363,6 +5686,8 @@
       "category": "magazines",
       "subgroup": "Vice City",
       "spoiler": true,
+      "nx": 0.611,
+      "ny": 0.453,
       "guide": "La Perle: magazine rack at Xero Food Mart.",
       "region": "Vice City"
     },
@@ -5372,6 +5697,8 @@
       "category": "magazines",
       "subgroup": "Vice City",
       "spoiler": true,
+      "nx": 0.651,
+      "ny": 0.579,
       "guide": "Tequesta Retreat: on a table in the Pegassi Residences penthouse. Chapter 5.",
       "region": "Vice City"
     },
@@ -5381,6 +5708,8 @@
       "category": "magazines",
       "subgroup": "Vice City",
       "spoiler": true,
+      "nx": 0.618,
+      "ny": 0.471,
       "guide": "Crosstown: Jack of Hearts club, second floor hallway west of the recording booths.",
       "region": "Vice City"
     },
@@ -5390,6 +5719,8 @@
       "category": "magazines",
       "subgroup": "Vice Beach",
       "spoiler": true,
+      "nx": 0.756,
+      "ny": 0.468,
       "guide": "Oldby Island, Washington Beach: magazine rack at Ron Stop'n'Snack.",
       "region": "Vice Beach"
     },
@@ -5416,6 +5747,8 @@
       "title": "Outback Gas Junkie",
       "category": "book-swaps",
       "spoiler": true,
+      "nx": 0.664,
+      "ny": 0.337,
       "guide": "Waning Sands: a little library book swap box.",
       "region": "Leonard County"
     },
@@ -5425,6 +5758,8 @@
       "category": "waink",
       "subgroup": "Landmarks",
       "spoiler": true,
+      "nx": 0.466,
+      "ny": 0.158,
       "guide": "Landmark 5. Scan it with WAiNK in Moreau.",
       "region": "Lummox County"
     },
@@ -5434,6 +5769,8 @@
       "category": "waink",
       "subgroup": "Landmarks",
       "spoiler": true,
+      "nx": 0.378,
+      "ny": 0.264,
       "guide": "Landmark 6. Scan it with WAiNK in Manifest Canyon.",
       "region": "Kelly County"
     },
@@ -5443,6 +5780,8 @@
       "category": "waink",
       "subgroup": "Landmarks",
       "spoiler": true,
+      "nx": 0.343,
+      "ny": 0.365,
       "guide": "Landmark 11. Scan it with WAiNK in Port Gellhorn.",
       "region": "Kelly County"
     },
@@ -5452,6 +5791,8 @@
       "category": "waink",
       "subgroup": "Landmarks",
       "spoiler": true,
+      "nx": 0.266,
+      "ny": 0.551,
       "guide": "Landmark 17. Scan it with WAiNK in Belpoint.",
       "region": "Mariana County"
     },
@@ -5461,6 +5802,8 @@
       "category": "waink",
       "subgroup": "Landmarks",
       "spoiler": true,
+      "nx": 0.465,
+      "ny": 0.206,
       "guide": "Landmark 18. Scan it with WAiNK in Mount Kalaga National Park.",
       "region": "Lummox County"
     },
@@ -5470,6 +5813,8 @@
       "category": "waink",
       "subgroup": "Landmarks",
       "spoiler": true,
+      "nx": 0.671,
+      "ny": 0.521,
       "guide": "Landmark 21. Scan it with WAiNK in Downtown.",
       "region": "Vice City"
     },
@@ -5479,6 +5824,8 @@
       "category": "waink",
       "subgroup": "Landmarks",
       "spoiler": true,
+      "nx": 0.395,
+      "ny": 0.183,
       "guide": "Landmark 22. Scan it with WAiNK in Grayson.",
       "region": "Lummox County"
     },
@@ -5506,6 +5853,8 @@
       "category": "waink",
       "subgroup": "Curiosities",
       "spoiler": true,
+      "nx": 0.44,
+      "ny": 0.217,
       "guide": "Curiosity 11. Scan it with WAiNK in Moreau.",
       "region": "Lummox County"
     },
@@ -5515,6 +5864,8 @@
       "category": "waink",
       "subgroup": "Curiosities",
       "spoiler": true,
+      "nx": 0.76,
+      "ny": 0.605,
       "guide": "Curiosity 29. Scan it with WAiNK in Dalton Island.",
       "region": "Vice Beach"
     },
@@ -5533,6 +5884,8 @@
       "category": "waink",
       "subgroup": "Sculptures",
       "spoiler": true,
+      "nx": 0.597,
+      "ny": 0.762,
       "guide": "Sculpture 7. Scan it with WAiNK in Corsair Key.",
       "region": "Mariana County"
     },
@@ -5542,6 +5895,8 @@
       "category": "waink",
       "subgroup": "Sculptures",
       "spoiler": true,
+      "nx": 0.632,
+      "ny": 0.571,
       "guide": "Sculpture 16. Scan it with WAiNK in Tequesta.",
       "region": "Vice City"
     },
@@ -5551,6 +5906,8 @@
       "category": "waink",
       "subgroup": "Sculptures",
       "spoiler": true,
+      "nx": 0.742,
+      "ny": 0.39,
       "guide": "Sculpture 19. Scan it with WAiNK in Washington Beach.",
       "region": "Vice Beach"
     },
@@ -5560,6 +5917,8 @@
       "category": "waink",
       "subgroup": "Sculptures",
       "spoiler": true,
+      "nx": 0.759,
+      "ny": 0.451,
       "guide": "Sculpture 20. Scan it with WAiNK in Washington Beach.",
       "region": "Vice Beach"
     },
@@ -5569,6 +5928,8 @@
       "category": "waink",
       "subgroup": "Sculptures",
       "spoiler": true,
+      "nx": 0.768,
+      "ny": 0.448,
       "guide": "Sculpture 22. Scan it with WAiNK in Washington Beach.",
       "region": "Vice Beach"
     },
@@ -5578,6 +5939,8 @@
       "category": "waink",
       "subgroup": "Sculptures",
       "spoiler": true,
+      "nx": 0.376,
+      "ny": 0.25,
       "guide": "Sculpture 23. Scan it with WAiNK in Manifest Canyon.",
       "region": "Kelly County"
     },
@@ -5596,6 +5959,8 @@
       "category": "waink",
       "subgroup": "No Flusher tags",
       "spoiler": true,
+      "nx": 0.762,
+      "ny": 0.506,
       "guide": "Ocean Beach: spray-painted on the ground east of The Banana Hole's main bar. Scan it with WAiNK.",
       "region": "Vice Beach"
     },
@@ -5605,6 +5970,8 @@
       "category": "stunt-jumps",
       "subgroup": "Mariana County",
       "spoiler": true,
+      "nx": 0.335,
+      "ny": 0.882,
       "guide": "Mile Zero Air Station, southeast side.",
       "region": "Mariana County"
     },
@@ -5614,6 +5981,8 @@
       "category": "stunt-jumps",
       "subgroup": "Mariana County",
       "spoiler": true,
+      "nx": 0.366,
+      "ny": 0.877,
       "guide": "Saltrock Bridge, west end.",
       "region": "Mariana County"
     },
@@ -5623,6 +5992,8 @@
       "category": "stunt-jumps",
       "subgroup": "Mariana County",
       "spoiler": true,
+      "nx": 0.394,
+      "ny": 0.889,
       "guide": "Saltrock Bridge, east end.",
       "region": "Mariana County"
     },
@@ -5632,6 +6003,8 @@
       "category": "stunt-jumps",
       "subgroup": "Mariana County",
       "spoiler": true,
+      "nx": 0.488,
+      "ny": 0.876,
       "guide": "Key Lento Bridge, west end.",
       "region": "Mariana County"
     },
@@ -5641,6 +6014,8 @@
       "category": "stunt-jumps",
       "subgroup": "Mariana County",
       "spoiler": true,
+      "nx": 0.487,
+      "ny": 0.875,
       "guide": "Key Lento Bridge, east end.",
       "region": "Mariana County"
     },
@@ -5650,6 +6025,8 @@
       "category": "stunt-jumps",
       "subgroup": "Mariana County",
       "spoiler": true,
+      "nx": 0.508,
+      "ny": 0.774,
       "guide": "Longneck Trail.",
       "region": "Mariana County"
     },
@@ -5659,6 +6036,8 @@
       "category": "stunt-jumps",
       "subgroup": "Mariana County",
       "spoiler": true,
+      "nx": 0.41,
+      "ny": 0.542,
       "guide": "Nehrling River.",
       "region": "Mariana County"
     },
@@ -5668,6 +6047,8 @@
       "category": "stunt-jumps",
       "subgroup": "Vice-Dale County",
       "spoiler": true,
+      "nx": 0.523,
+      "ny": 0.684,
       "guide": "A backyard in Hamlet.",
       "region": "Vice-Dale County"
     },
@@ -5677,6 +6058,8 @@
       "category": "stunt-jumps",
       "subgroup": "Vice-Dale County",
       "spoiler": true,
+      "nx": 0.589,
+      "ny": 0.59,
       "guide": "The VCIA storage facility.",
       "region": "Vice-Dale County"
     },
@@ -5686,6 +6069,8 @@
       "category": "stunt-jumps",
       "subgroup": "Vice-Dale County",
       "spoiler": true,
+      "nx": 0.621,
+      "ny": 0.565,
       "guide": "The construction site on SW 4th Avenue.",
       "region": "Vice-Dale County"
     },
@@ -5695,6 +6080,8 @@
       "category": "stunt-jumps",
       "subgroup": "Vice-Dale County",
       "spoiler": true,
+      "nx": 0.647,
+      "ny": 0.463,
       "guide": "Blackwell Sandrock.",
       "region": "Vice-Dale County"
     },
@@ -5704,6 +6091,8 @@
       "category": "stunt-jumps",
       "subgroup": "Vice-Dale County",
       "spoiler": true,
+      "nx": 0.573,
+      "ny": 0.487,
       "guide": "Apollo Aggregates, south section.",
       "region": "Vice-Dale County"
     },
@@ -5713,6 +6102,8 @@
       "category": "stunt-jumps",
       "subgroup": "Vice-Dale County",
       "spoiler": true,
+      "nx": 0.419,
+      "ny": 0.52,
       "guide": "The broken bridge in the west.",
       "region": "Vice-Dale County"
     },
@@ -5722,6 +6113,8 @@
       "category": "stunt-jumps",
       "subgroup": "Vice-Dale County",
       "spoiler": true,
+      "nx": 0.744,
+      "ny": 0.466,
       "guide": "Nolan Center parking lot.",
       "region": "Vice-Dale County"
     },
@@ -5731,6 +6124,8 @@
       "category": "stunt-jumps",
       "subgroup": "Leonard County",
       "spoiler": true,
+      "nx": 0.675,
+      "ny": 0.365,
       "guide": "Lake Bonner construction site, east side.",
       "region": "Leonard County"
     },
@@ -5740,6 +6135,8 @@
       "category": "stunt-jumps",
       "subgroup": "Leonard County",
       "spoiler": true,
+      "nx": 0.563,
+      "ny": 0.328,
       "guide": "Lake Leonida lock, south side.",
       "region": "Leonard County"
     },
@@ -5749,6 +6146,8 @@
       "category": "stunt-jumps",
       "subgroup": "Leonard County",
       "spoiler": true,
+      "nx": 0.655,
+      "ny": 0.255,
       "guide": "Richard Barebone overpass, south end.",
       "region": "Leonard County"
     },
@@ -5758,6 +6157,8 @@
       "category": "stunt-jumps",
       "subgroup": "Kelly County",
       "spoiler": true,
+      "nx": 0.355,
+      "ny": 0.465,
       "guide": "Gellhorn International Raceway.",
       "region": "Kelly County"
     },
@@ -5767,6 +6168,8 @@
       "category": "stunt-jumps",
       "subgroup": "Kelly County",
       "spoiler": true,
+      "nx": 0.345,
+      "ny": 0.338,
       "guide": "Prairie Court.",
       "region": "Kelly County"
     },
@@ -5776,6 +6179,8 @@
       "category": "stunt-jumps",
       "subgroup": "Kelly County",
       "spoiler": true,
+      "nx": 0.405,
+      "ny": 0.352,
       "guide": "Starlet Motel construction site.",
       "region": "Kelly County"
     },
@@ -5785,6 +6190,8 @@
       "category": "stunt-jumps",
       "subgroup": "Kelly County",
       "spoiler": true,
+      "nx": 0.42,
+      "ny": 0.358,
       "guide": "Howe Dairy.",
       "region": "Kelly County"
     },
@@ -5794,6 +6201,8 @@
       "category": "stunt-jumps",
       "subgroup": "Kelly County",
       "spoiler": true,
+      "nx": 0.423,
+      "ny": 0.31,
       "guide": "Saputka River.",
       "region": "Kelly County"
     },
@@ -5803,6 +6212,8 @@
       "category": "stunt-jumps",
       "subgroup": "Kelly County",
       "spoiler": true,
+      "nx": 0.515,
+      "ny": 0.38,
       "guide": "The broken bridge in south Ambrosia.",
       "region": "Kelly County"
     },
@@ -5812,8 +6223,19 @@
       "category": "stunt-jumps",
       "subgroup": "Lummox County",
       "spoiler": true,
+      "nx": 0.499,
+      "ny": 0.11,
       "guide": "The broken bridge in north Moreau.",
       "region": "Lummox County"
+    },
+    {
+      "id": "hp-001",
+      "title": "Basketball hoop",
+      "category": "hoops",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Key Lento: at the foot of the stairs up to Jason's house on Peach Palm Drive. Score a basket.",
+      "region": "Mariana County"
     },
     {
       "id": "ur-01",
@@ -5974,6 +6396,8 @@
       "category": "unique-races",
       "subgroup": "Gellhorn International Raceway",
       "spoiler": true,
+      "nx": 0.334,
+      "ny": 0.417,
       "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
       "region": "Kelly County"
     },
@@ -5983,6 +6407,8 @@
       "category": "unique-races",
       "subgroup": "Gellhorn International Raceway",
       "spoiler": true,
+      "nx": 0.334,
+      "ny": 0.417,
       "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
       "region": "Kelly County"
     },
@@ -5992,6 +6418,8 @@
       "category": "unique-races",
       "subgroup": "Gellhorn International Raceway",
       "spoiler": true,
+      "nx": 0.334,
+      "ny": 0.417,
       "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
       "region": "Kelly County"
     },
@@ -6001,6 +6429,8 @@
       "category": "unique-races",
       "subgroup": "Gellhorn International Raceway",
       "spoiler": true,
+      "nx": 0.334,
+      "ny": 0.417,
       "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
       "region": "Kelly County"
     },
@@ -6010,6 +6440,8 @@
       "category": "unique-races",
       "subgroup": "Gellhorn International Raceway",
       "spoiler": true,
+      "nx": 0.334,
+      "ny": 0.417,
       "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
       "region": "Kelly County"
     },
@@ -6019,6 +6451,8 @@
       "category": "unique-races",
       "subgroup": "Gellhorn International Raceway",
       "spoiler": true,
+      "nx": 0.334,
+      "ny": 0.417,
       "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
       "region": "Kelly County"
     },
@@ -6028,6 +6462,8 @@
       "category": "unique-races",
       "subgroup": "Gellhorn International Raceway",
       "spoiler": true,
+      "nx": 0.334,
+      "ny": 0.417,
       "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
       "region": "Kelly County"
     },
@@ -6037,6 +6473,8 @@
       "category": "unique-races",
       "subgroup": "Gellhorn International Raceway",
       "spoiler": true,
+      "nx": 0.334,
+      "ny": 0.417,
       "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
       "region": "Kelly County"
     },
@@ -6046,6 +6484,8 @@
       "category": "unique-races",
       "subgroup": "Gellhorn International Raceway",
       "spoiler": true,
+      "nx": 0.334,
+      "ny": 0.417,
       "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
       "region": "Kelly County"
     },
@@ -6055,6 +6495,8 @@
       "category": "unique-races",
       "subgroup": "Gellhorn International Raceway",
       "spoiler": true,
+      "nx": 0.334,
+      "ny": 0.417,
       "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
       "region": "Kelly County"
     },
@@ -6064,6 +6506,8 @@
       "category": "unique-races",
       "subgroup": "Gellhorn International Raceway",
       "spoiler": true,
+      "nx": 0.334,
+      "ny": 0.417,
       "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
       "region": "Kelly County"
     },
@@ -6555,6 +6999,8 @@
       "title": "Gang operation 1",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.445,
+      "ny": 0.749,
       "guide": "Clear the operation.",
       "revealedTitle": "Fishing Shacks",
       "revealedGuide": "Run by Kingfishers."
@@ -6564,6 +7010,8 @@
       "title": "Gang operation 2",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.496,
+      "ny": 0.752,
       "guide": "Clear the operation.",
       "revealedTitle": "Sunrise RV Park",
       "revealedGuide": "Run by Kingfishers."
@@ -6573,6 +7021,8 @@
       "title": "Gang operation 3",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.519,
+      "ny": 0.733,
       "guide": "Clear the operation.",
       "revealedTitle": "Manatee Motel",
       "revealedGuide": "Run by Kingfishers."
@@ -6582,6 +7032,8 @@
       "title": "Gang operation 4",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.35,
+      "ny": 0.366,
       "guide": "Clear the operation.",
       "revealedTitle": "Kingpin Bowling",
       "revealedGuide": "Run by Kolts & Associates."
@@ -6591,6 +7043,8 @@
       "title": "Gang operation 5",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.345,
+      "ny": 0.349,
       "guide": "Clear the operation.",
       "revealedTitle": "June Warehouse",
       "revealedGuide": "Run by Kolts & Associates."
@@ -6600,6 +7054,8 @@
       "title": "Gang operation 6",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.327,
+      "ny": 0.329,
       "guide": "Clear the operation.",
       "revealedTitle": "La Cascara Motel",
       "revealedGuide": "Run by Kolts & Associates."
@@ -6609,6 +7065,8 @@
       "title": "Gang operation 7",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.342,
+      "ny": 0.31,
       "guide": "Clear the operation.",
       "revealedTitle": "Brooks Boatworks",
       "revealedGuide": "Run by Kolts & Associates."
@@ -6618,6 +7076,8 @@
       "title": "Gang operation 8",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.352,
+      "ny": 0.311,
       "guide": "Clear the operation. Its location isn't listed yet.",
       "revealedTitle": "Gang operation 8",
       "revealedGuide": "Run by Kolts & Associates. Not found yet."
@@ -6627,6 +7087,8 @@
       "title": "Gang operation 9",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.546,
+      "ny": 0.705,
       "guide": "Clear the operation.",
       "revealedTitle": "M7 Compound",
       "revealedGuide": "Run by M7."
@@ -6636,6 +7098,8 @@
       "title": "Gang operation 10",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.602,
+      "ny": 0.172,
       "guide": "Clear the operation. Its location isn't listed yet.",
       "revealedTitle": "Gang operation 10",
       "revealedGuide": "Run by M7. Not found yet."
@@ -6645,6 +7109,8 @@
       "title": "Gang operation 11",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.402,
+      "ny": 0.684,
       "guide": "Clear the operation.",
       "revealedTitle": "Palmer Fishing Warehouse",
       "revealedGuide": "Run by La Polilla Negra."
@@ -6663,6 +7129,8 @@
       "title": "Gang operation 13",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.61,
+      "ny": 0.341,
       "guide": "Clear the operation.",
       "revealedTitle": "Farm Fix Meth Lab",
       "revealedGuide": "Run by Final Chapter."
@@ -6672,6 +7140,8 @@
       "title": "Gang operation 14",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.569,
+      "ny": 0.331,
       "guide": "Clear the operation. Its location isn't listed yet.",
       "revealedTitle": "Gang operation 14",
       "revealedGuide": "Run by Final Chapter. Not found yet."
@@ -6681,6 +7151,8 @@
       "title": "Gang operation 15",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.519,
+      "ny": 0.329,
       "guide": "Clear the operation.",
       "revealedTitle": "Irons Building Supply",
       "revealedGuide": "Run by Final Chapter."
@@ -6699,6 +7171,8 @@
       "title": "Gang operation 17",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.65,
+      "ny": 0.431,
       "guide": "Clear the operation.",
       "revealedTitle": "Sound4Sound Studio",
       "revealedGuide": "Run by San4San."
@@ -6708,6 +7182,8 @@
       "title": "Gang operation 18",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.631,
+      "ny": 0.449,
       "guide": "Clear the operation. Its location isn't listed yet.",
       "revealedTitle": "Gang operation 18",
       "revealedGuide": "Run by San4San. Not found yet."
@@ -6717,6 +7193,8 @@
       "title": "Gang operation 19",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.62,
+      "ny": 0.452,
       "guide": "Clear the operation. Its location isn't listed yet.",
       "revealedTitle": "Gang operation 19",
       "revealedGuide": "Run by San4San. Not found yet."
@@ -6726,6 +7204,8 @@
       "title": "Gang operation 20",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.607,
+      "ny": 0.467,
       "guide": "Clear the operation.",
       "revealedTitle": "JanJak's Garage",
       "revealedGuide": "Run by San4San."
@@ -6735,6 +7215,8 @@
       "title": "Gang operation 21",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.594,
+      "ny": 0.489,
       "guide": "Clear the operation. Its location isn't listed yet.",
       "revealedTitle": "Gang operation 21",
       "revealedGuide": "Run by San4San. Not found yet."
@@ -6744,6 +7226,8 @@
       "title": "Gang operation 22",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.586,
+      "ny": 0.626,
       "guide": "Clear the operation. Its location isn't listed yet.",
       "revealedTitle": "Gang operation 22",
       "revealedGuide": "Run by PTT Youngin$. Not found yet."
@@ -6753,6 +7237,8 @@
       "title": "Gang operation 23",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.584,
+      "ny": 0.643,
       "guide": "Clear the operation. Its location isn't listed yet.",
       "revealedTitle": "Gang operation 23",
       "revealedGuide": "Run by PTT Youngin$. Not found yet."
@@ -6762,6 +7248,8 @@
       "title": "Gang operation 24",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.597,
+      "ny": 0.512,
       "guide": "Clear the operation. Its location isn't listed yet.",
       "revealedTitle": "Gang operation 24",
       "revealedGuide": "Run by The Guardia Brothers. Not found yet."
@@ -6771,6 +7259,8 @@
       "title": "Gang operation 25",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.611,
+      "ny": 0.503,
       "guide": "Clear the operation.",
       "revealedTitle": "Casa Guardia",
       "revealedGuide": "Run by The Guardia Brothers."
@@ -6780,6 +7270,8 @@
       "title": "Gang operation 26",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.59,
+      "ny": 0.491,
       "guide": "Clear the operation. Its location isn't listed yet.",
       "revealedTitle": "Gang operation 26",
       "revealedGuide": "Run by The Guardia Brothers. Not found yet."
@@ -6789,6 +7281,8 @@
       "title": "Gang operation 27",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.547,
+      "ny": 0.826,
       "guide": "Clear the operation.",
       "revealedTitle": "Exotic Animals Front",
       "revealedGuide": "Run by other criminals."
@@ -6798,6 +7292,8 @@
       "title": "Gang operation 28",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.599,
+      "ny": 0.594,
       "guide": "Clear the operation.",
       "revealedTitle": "Slator Towing Inc",
       "revealedGuide": "Run by other criminals."
@@ -6807,6 +7303,8 @@
       "title": "Gang operation 29",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.677,
+      "ny": 0.507,
       "guide": "Clear the operation.",
       "revealedTitle": "Chatfield Storage & Logistics",
       "revealedGuide": "Run by other criminals."
@@ -6816,6 +7314,8 @@
       "title": "Gang operation 30",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.553,
+      "ny": 0.493,
       "guide": "Clear the operation.",
       "revealedTitle": "Leonida Carrier Warehouse",
       "revealedGuide": "Run by other criminals."
@@ -6825,6 +7325,8 @@
       "title": "Gang operation 31",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.617,
+      "ny": 0.464,
       "guide": "Clear the operation.",
       "revealedTitle": "Cigar Import Front",
       "revealedGuide": "Run by other criminals."
@@ -6834,6 +7336,8 @@
       "title": "Gang operation 32",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.501,
+      "ny": 0.386,
       "guide": "Clear the operation.",
       "revealedTitle": "Gas Station Meth Front",
       "revealedGuide": "Run by other criminals."
@@ -6843,6 +7347,8 @@
       "title": "Gang operation 33",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.353,
+      "ny": 0.363,
       "guide": "Clear the operation.",
       "revealedTitle": "Backroom Weed Front",
       "revealedGuide": "Run by other criminals."
@@ -6852,6 +7358,8 @@
       "title": "Gang operation 34",
       "category": "gang-ops",
       "spoiler": true,
+      "nx": 0.475,
+      "ny": 0.097,
       "guide": "Clear the operation.",
       "revealedTitle": "Carter Mining Boathouse",
       "revealedGuide": "Run by other criminals."
