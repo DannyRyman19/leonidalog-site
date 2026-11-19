@@ -1,5 +1,5 @@
 {
-  "version": 19,
+  "version": 20,
   "notice": {
     "id": "early-days-1",
     "title": "Early days",
@@ -18132,7 +18132,9 @@
       "subgroup": "Wreck 1: Nuestra Señora del Ocio",
       "spoiler": true,
       "guide": "Spanish cargo wreck off the coast of Key Lento, from Kenton's first job. Find all 10 doubloons with the metal detector and give them to Kenton.",
-      "tallyTarget": 10
+      "tallyTarget": 10,
+      "nx": 0.6455,
+      "ny": 0.7911
     },
     {
       "id": "kw-2-01",
@@ -18140,7 +18142,9 @@
       "category": "kenton-sets",
       "subgroup": "Wreck 2: Nuestra Señora de la Ética Laxa",
       "spoiler": true,
-      "guide": "Treasure 1 of 5 from wreck 2, Nuestra Señora de la Ética Laxa, a Spanish wreck in the Leonida Keys. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 1 of 5 from wreck 2, Nuestra Señora de la Ética Laxa, a Spanish wreck in the Leonida Keys. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5097,
+      "ny": 0.9012
     },
     {
       "id": "kw-2-02",
@@ -18148,7 +18152,9 @@
       "category": "kenton-sets",
       "subgroup": "Wreck 2: Nuestra Señora de la Ética Laxa",
       "spoiler": true,
-      "guide": "Treasure 2 of 5 from wreck 2, Nuestra Señora de la Ética Laxa, a Spanish wreck in the Leonida Keys. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 2 of 5 from wreck 2, Nuestra Señora de la Ética Laxa, a Spanish wreck in the Leonida Keys. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5097,
+      "ny": 0.9012
     },
     {
       "id": "kw-2-03",
@@ -18156,7 +18162,9 @@
       "category": "kenton-sets",
       "subgroup": "Wreck 2: Nuestra Señora de la Ética Laxa",
       "spoiler": true,
-      "guide": "Treasure 3 of 5 from wreck 2, Nuestra Señora de la Ética Laxa, a Spanish wreck in the Leonida Keys. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 3 of 5 from wreck 2, Nuestra Señora de la Ética Laxa, a Spanish wreck in the Leonida Keys. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5097,
+      "ny": 0.9012
     },
     {
       "id": "kw-2-04",
@@ -18164,7 +18172,9 @@
       "category": "kenton-sets",
       "subgroup": "Wreck 2: Nuestra Señora de la Ética Laxa",
       "spoiler": true,
-      "guide": "Treasure 4 of 5 from wreck 2, Nuestra Señora de la Ética Laxa, a Spanish wreck in the Leonida Keys. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 4 of 5 from wreck 2, Nuestra Señora de la Ética Laxa, a Spanish wreck in the Leonida Keys. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5097,
+      "ny": 0.9012
     },
     {
       "id": "kw-2-05",
@@ -18172,7 +18182,9 @@
       "category": "kenton-sets",
       "subgroup": "Wreck 2: Nuestra Señora de la Ética Laxa",
       "spoiler": true,
-      "guide": "Treasure 5 of 5 from wreck 2, Nuestra Señora de la Ética Laxa, a Spanish wreck in the Leonida Keys. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 5 of 5 from wreck 2, Nuestra Señora de la Ética Laxa, a Spanish wreck in the Leonida Keys. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5097,
+      "ny": 0.9012
     },
     {
       "id": "kw-3-01",
@@ -18180,7 +18192,9 @@
       "category": "kenton-sets",
       "subgroup": "Wreck 3: Nuestra Señora de la Noche",
       "spoiler": true,
-      "guide": "Treasure 1 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 1 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5376,
+      "ny": 0.8844
     },
     {
       "id": "kw-3-02",
@@ -18188,7 +18202,9 @@
       "category": "kenton-sets",
       "subgroup": "Wreck 3: Nuestra Señora de la Noche",
       "spoiler": true,
-      "guide": "Treasure 2 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 2 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5376,
+      "ny": 0.8844
     },
     {
       "id": "kw-3-03",
@@ -18196,7 +18212,9 @@
       "category": "kenton-sets",
       "subgroup": "Wreck 3: Nuestra Señora de la Noche",
       "spoiler": true,
-      "guide": "Treasure 3 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 3 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5376,
+      "ny": 0.8844
     },
     {
       "id": "kw-3-04",
@@ -18204,7 +18222,9 @@
       "category": "kenton-sets",
       "subgroup": "Wreck 3: Nuestra Señora de la Noche",
       "spoiler": true,
-      "guide": "Treasure 4 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 4 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5376,
+      "ny": 0.8844
     },
     {
       "id": "kw-3-05",
@@ -18212,7 +18232,9 @@
       "category": "kenton-sets",
       "subgroup": "Wreck 3: Nuestra Señora de la Noche",
       "spoiler": true,
-      "guide": "Treasure 5 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 5 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5376,
+      "ny": 0.8844
     },
     {
       "id": "kw-3-06",
@@ -18220,7 +18242,9 @@
       "category": "kenton-sets",
       "subgroup": "Wreck 3: Nuestra Señora de la Noche",
       "spoiler": true,
-      "guide": "Treasure 6 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 6 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5376,
+      "ny": 0.8844
     },
     {
       "id": "kw-3-07",
@@ -18228,7 +18252,9 @@
       "category": "kenton-sets",
       "subgroup": "Wreck 3: Nuestra Señora de la Noche",
       "spoiler": true,
-      "guide": "Treasure 7 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 7 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5376,
+      "ny": 0.8844
     },
     {
       "id": "kw-4",
@@ -18237,7 +18263,9 @@
       "subgroup": "Wreck 4: Urca de Cinco Torres",
       "imageURL": "https://leonidalog.app/images/kenton/ancient-ceremonial-mask.jpg",
       "spoiler": true,
-      "guide": "Treasure 1 of 6 from wreck 4, Urca de Cinco Torres, a Spanish treasure ship wrecked in the Keys. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 1 of 6 from wreck 4, Urca de Cinco Torres, a Spanish treasure ship wrecked in the Keys. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5419,
+      "ny": 0.8662
     },
     {
       "id": "kw-4-02",
@@ -18246,7 +18274,9 @@
       "subgroup": "Wreck 4: Urca de Cinco Torres",
       "imageURL": "https://leonidalog.app/images/kenton/ceremonial-plate.jpg",
       "spoiler": true,
-      "guide": "Treasure 2 of 6 from wreck 4, Urca de Cinco Torres, a Spanish treasure ship wrecked in the Keys. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 2 of 6 from wreck 4, Urca de Cinco Torres, a Spanish treasure ship wrecked in the Keys. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5419,
+      "ny": 0.8662
     },
     {
       "id": "kw-4-03",
@@ -18255,7 +18285,9 @@
       "subgroup": "Wreck 4: Urca de Cinco Torres",
       "imageURL": "https://leonidalog.app/images/kenton/golden-glove.jpg",
       "spoiler": true,
-      "guide": "Treasure 3 of 6 from wreck 4, Urca de Cinco Torres, a Spanish treasure ship wrecked in the Keys. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 3 of 6 from wreck 4, Urca de Cinco Torres, a Spanish treasure ship wrecked in the Keys. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5419,
+      "ny": 0.8662
     },
     {
       "id": "kw-4-04",
@@ -18264,7 +18296,9 @@
       "subgroup": "Wreck 4: Urca de Cinco Torres",
       "imageURL": "https://leonidalog.app/images/kenton/jade-eye-cup.jpg",
       "spoiler": true,
-      "guide": "Treasure 4 of 6 from wreck 4, Urca de Cinco Torres, a Spanish treasure ship wrecked in the Keys. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 4 of 6 from wreck 4, Urca de Cinco Torres, a Spanish treasure ship wrecked in the Keys. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5419,
+      "ny": 0.8662
     },
     {
       "id": "kw-4-05",
@@ -18273,7 +18307,9 @@
       "subgroup": "Wreck 4: Urca de Cinco Torres",
       "imageURL": "https://leonidalog.app/images/kenton/rusty-doubloon.jpg",
       "spoiler": true,
-      "guide": "Treasure 5 of 6 from wreck 4, Urca de Cinco Torres, a Spanish treasure ship wrecked in the Keys. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 5 of 6 from wreck 4, Urca de Cinco Torres, a Spanish treasure ship wrecked in the Keys. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5419,
+      "ny": 0.8662
     },
     {
       "id": "kw-4-06",
@@ -18282,7 +18318,9 @@
       "subgroup": "Wreck 4: Urca de Cinco Torres",
       "imageURL": "https://leonidalog.app/images/kenton/sacred-necklace.jpg",
       "spoiler": true,
-      "guide": "Treasure 6 of 6 from wreck 4, Urca de Cinco Torres, a Spanish treasure ship wrecked in the Keys. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 6 of 6 from wreck 4, Urca de Cinco Torres, a Spanish treasure ship wrecked in the Keys. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5419,
+      "ny": 0.8662
     },
     {
       "id": "kw-5",
@@ -18291,7 +18329,9 @@
       "subgroup": "Wreck 5: Nuestra Señora Lujuriosa",
       "imageURL": "https://leonidalog.app/images/kenton/ceremonial-bowl.jpg",
       "spoiler": true,
-      "guide": "Treasure 1 of 6 from wreck 5, Nuestra Señora Lujuriosa, a Spanish cargo ship wrecked off the Leonida coast. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 1 of 6 from wreck 5, Nuestra Señora Lujuriosa, a Spanish cargo ship wrecked off the Leonida coast. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5319,
+      "ny": 0.8711
     },
     {
       "id": "kw-5-02",
@@ -18300,7 +18340,9 @@
       "subgroup": "Wreck 5: Nuestra Señora Lujuriosa",
       "imageURL": "https://leonidalog.app/images/kenton/ceremonial-knife.jpg",
       "spoiler": true,
-      "guide": "Treasure 2 of 6 from wreck 5, Nuestra Señora Lujuriosa, a Spanish cargo ship wrecked off the Leonida coast. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 2 of 6 from wreck 5, Nuestra Señora Lujuriosa, a Spanish cargo ship wrecked off the Leonida coast. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5319,
+      "ny": 0.8711
     },
     {
       "id": "kw-5-03",
@@ -18309,7 +18351,9 @@
       "subgroup": "Wreck 5: Nuestra Señora Lujuriosa",
       "imageURL": "https://leonidalog.app/images/kenton/golden-llama.jpg",
       "spoiler": true,
-      "guide": "Treasure 3 of 6 from wreck 5, Nuestra Señora Lujuriosa, a Spanish cargo ship wrecked off the Leonida coast. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 3 of 6 from wreck 5, Nuestra Señora Lujuriosa, a Spanish cargo ship wrecked off the Leonida coast. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5319,
+      "ny": 0.8711
     },
     {
       "id": "kw-5-04",
@@ -18318,7 +18362,9 @@
       "subgroup": "Wreck 5: Nuestra Señora Lujuriosa",
       "imageURL": "https://leonidalog.app/images/kenton/golden-statuette.jpg",
       "spoiler": true,
-      "guide": "Treasure 4 of 6 from wreck 5, Nuestra Señora Lujuriosa, a Spanish cargo ship wrecked off the Leonida coast. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 4 of 6 from wreck 5, Nuestra Señora Lujuriosa, a Spanish cargo ship wrecked off the Leonida coast. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5319,
+      "ny": 0.8711
     },
     {
       "id": "kw-5-05",
@@ -18327,7 +18373,9 @@
       "subgroup": "Wreck 5: Nuestra Señora Lujuriosa",
       "imageURL": "https://leonidalog.app/images/kenton/jade-lobe-tankard.jpg",
       "spoiler": true,
-      "guide": "Treasure 5 of 6 from wreck 5, Nuestra Señora Lujuriosa, a Spanish cargo ship wrecked off the Leonida coast. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 5 of 6 from wreck 5, Nuestra Señora Lujuriosa, a Spanish cargo ship wrecked off the Leonida coast. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5319,
+      "ny": 0.8711
     },
     {
       "id": "kw-5-06",
@@ -18336,7 +18384,9 @@
       "subgroup": "Wreck 5: Nuestra Señora Lujuriosa",
       "imageURL": "https://leonidalog.app/images/kenton/shiny-doubloon.jpg",
       "spoiler": true,
-      "guide": "Treasure 6 of 6 from wreck 5, Nuestra Señora Lujuriosa, a Spanish cargo ship wrecked off the Leonida coast. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 6 of 6 from wreck 5, Nuestra Señora Lujuriosa, a Spanish cargo ship wrecked off the Leonida coast. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5319,
+      "ny": 0.8711
     },
     {
       "id": "kw-6",
@@ -18345,7 +18395,9 @@
       "subgroup": "Wreck 6: Urca de Santa Sierra",
       "imageURL": "https://leonidalog.app/images/kenton/brass-spyglass.jpg",
       "spoiler": true,
-      "guide": "Treasure 1 of 6 from wreck 6, Urca de Santa Sierra, a Spanish ship sunk off South Leonida. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 1 of 6 from wreck 6, Urca de Santa Sierra, a Spanish ship sunk off South Leonida. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5785,
+      "ny": 0.8771
     },
     {
       "id": "kw-6-02",
@@ -18354,7 +18406,9 @@
       "subgroup": "Wreck 6: Urca de Santa Sierra",
       "imageURL": "https://leonidalog.app/images/kenton/dividing-compass.jpg",
       "spoiler": true,
-      "guide": "Treasure 2 of 6 from wreck 6, Urca de Santa Sierra, a Spanish ship sunk off South Leonida. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 2 of 6 from wreck 6, Urca de Santa Sierra, a Spanish ship sunk off South Leonida. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5785,
+      "ny": 0.8771
     },
     {
       "id": "kw-6-03",
@@ -18363,7 +18417,9 @@
       "subgroup": "Wreck 6: Urca de Santa Sierra",
       "imageURL": "https://leonidalog.app/images/kenton/ornate-pocket-watch.jpg",
       "spoiler": true,
-      "guide": "Treasure 3 of 6 from wreck 6, Urca de Santa Sierra, a Spanish ship sunk off South Leonida. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 3 of 6 from wreck 6, Urca de Santa Sierra, a Spanish ship sunk off South Leonida. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5785,
+      "ny": 0.8771
     },
     {
       "id": "kw-6-04",
@@ -18372,7 +18428,9 @@
       "subgroup": "Wreck 6: Urca de Santa Sierra",
       "imageURL": "https://leonidalog.app/images/kenton/santa-sierra-bell.jpg",
       "spoiler": true,
-      "guide": "Treasure 4 of 6 from wreck 6, Urca de Santa Sierra, a Spanish ship sunk off South Leonida. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 4 of 6 from wreck 6, Urca de Santa Sierra, a Spanish ship sunk off South Leonida. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5785,
+      "ny": 0.8771
     },
     {
       "id": "kw-6-05",
@@ -18381,7 +18439,9 @@
       "subgroup": "Wreck 6: Urca de Santa Sierra",
       "imageURL": "https://leonidalog.app/images/kenton/silver-hip-flask.jpg",
       "spoiler": true,
-      "guide": "Treasure 5 of 6 from wreck 6, Urca de Santa Sierra, a Spanish ship sunk off South Leonida. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 5 of 6 from wreck 6, Urca de Santa Sierra, a Spanish ship sunk off South Leonida. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5785,
+      "ny": 0.8771
     },
     {
       "id": "kw-6-06",
@@ -18390,7 +18450,9 @@
       "subgroup": "Wreck 6: Urca de Santa Sierra",
       "imageURL": "https://leonidalog.app/images/kenton/worn-doubloon.jpg",
       "spoiler": true,
-      "guide": "Treasure 6 of 6 from wreck 6, Urca de Santa Sierra, a Spanish ship sunk off South Leonida. Find it with the metal detector and give it to Kenton."
+      "guide": "Treasure 6 of 6 from wreck 6, Urca de Santa Sierra, a Spanish ship sunk off South Leonida. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.5785,
+      "ny": 0.8771
     }
   ],
   "rules": {
