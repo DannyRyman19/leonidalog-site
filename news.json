@@ -1,36 +1,12 @@
 {
-  "version": 6,
+  "version": 7,
   "articles": [
-    {
-      "id": "preorders-live",
-      "title": "Pre-orders are live: Standard & Ultimate Edition",
-      "date": "2026-06-24T09:00:00Z",
-      "body": "Grand Theft Auto VI is now open for pre-order on PlayStation 5 and Xbox Series X|S. Two editions: Standard Edition (the game) and Ultimate Edition (the game plus a large bundle of in-story bonus content). Already got the Standard Edition? The Ultimate Edition Upgrade is a separate purchase you can make any time after redeeming your code, so there's no need to decide before launch. Digital pre-orders made before November 20 also come with the Vintage Vice City Pack: a '55 Vapid Stanier Sedan and garage, period outfits and hairstyles, an exclusive weapon pattern, and one month of GTA+. One thing to watch: digital code redemption is tied to your platform account's region, so buy from your own region's store to avoid activation issues.",
-      "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions",
-      "pinned": true
-    },
     {
       "id": "ultimate-edition-contents",
       "title": "What's actually in the Ultimate Edition",
       "date": "2026-06-25T09:00:00Z",
       "body": "Rockstar's confirmed the full Ultimate Edition list, and it's more than a car and an outfit: bonuses are threaded through Jason and Lucia's story, unlocking chapter by chapter rather than dumped in your inventory on day one. Confirmed so far: the '95 Grotti Cheetah, Hawk & Little Morgan revolvers with personalized weapon variants, Vice City styles, Jason's safehouse vehicles, the Ganado Retro Build, Rideout Customs mod shop, Sara's Unisex Salon, a Shitzu Squalo, the Stock 305 clothing store, a '67 Vapid Dominator buggy with garage, Electric Fang tattoo parlor, One-Eyed Willie's mod shop, Goodtime Gear, the PTT Youngin$ compound, and a classic car collection. No physical Ultimate Edition exists: physical Standard Edition owners upgrade digitally through the PlayStation or Microsoft store after redeeming their code.",
       "url": "https://support.rockstargames.com/articles/4QfG4FmZCf5W1gS8jy4UVT/grand-theft-auto-vi-platform-editions-and-versions"
-    },
-    {
-      "id": "preload-date-announced",
-      "title": "Pre-load starts November 10",
-      "date": "2026-11-03T15:00:00Z",
-      "body": "Rockstar has confirmed the times. On PlayStation 5, digital pre-load begins at midnight local time on Tuesday, November 10. On Xbox Series X|S it begins globally at 12 a.m. GMT on November 10, so on the evening of November 9 in the Americas. Code-in-box versions for both consoles should be at retailers from November 12. The game itself unlocks at midnight local time on November 19, in every region, on both consoles. We'll post again the moment pre-load goes live.",
-      "url": "https://support.rockstargames.com/articles/29jV3Cv2cCgvwM1XgtMO5o/grand-theft-auto-vi-regional-pre-load-and-release-times-on-playstation-5-and-xbox-series-x-or-s",
-      "pinned": true
-    },
-    {
-      "id": "preload-live",
-      "title": "Preload is live",
-      "date": "2026-11-10T00:00:00Z",
-      "body": "Pre-load for Grand Theft Auto VI is open. On PlayStation 5 it opens at midnight local time on November 10; on Xbox Series X|S it opened worldwide at 12 a.m. GMT. Buying a boxed copy? Code-in-box versions for both consoles should be at retailers from November 12, so redeem your code as soon as you have it. Pre-ordered digitally before November 20? Don't forget the Vintage Vice City Pack bonus is tied to that window. The game unlocks at midnight local time on November 19.",
-      "url": "https://support.rockstargames.com/articles/29jV3Cv2cCgvwM1XgtMO5o/grand-theft-auto-vi-regional-pre-load-and-release-times-on-playstation-5-and-xbox-series-x-or-s",
-      "pinned": true
     },
     {
       "id": "gameplay-trailer",
