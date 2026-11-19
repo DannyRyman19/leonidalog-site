@@ -1,5 +1,5 @@
 {
-  "version": 20,
+  "version": 21,
   "notice": {
     "id": "early-days-1",
     "title": "Early days",
@@ -5795,8 +5795,56 @@
       "spoiler": true,
       "nx": 0.664,
       "ny": 0.337,
-      "guide": "Waning Sands: a little library book swap box.",
+      "guide": "Waning Sands: mushroom-shaped box outside a cream house on Mamey Cir. Book: Outback Gas Junkie.",
       "region": "Leonard County"
+    },
+    {
+      "id": "bs-2",
+      "title": "The Wizard's Ruin: Loud Clap of the Night",
+      "category": "book-swaps",
+      "spoiler": true,
+      "guide": "Watson Bay: white house with a flag at Beaumont Ave and Longship Dr.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "bs-3",
+      "title": "Killer Prom",
+      "category": "book-swaps",
+      "spoiler": true,
+      "guide": "Key Lento: turtle-shaped box by the road outside a blue house on Dolphin Dr.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "bs-4",
+      "title": "Thighlander: A Tale of True Scotsman",
+      "category": "book-swaps",
+      "spoiler": true,
+      "guide": "Southside: red house at SW 3rd Ave and SW 12th Ave.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "bs-5",
+      "title": "Humanity vs Space",
+      "category": "book-swaps",
+      "spoiler": true,
+      "guide": "Ambrosia: boat-shaped box by two trees on Reservoir St, southwest shore of Lake Leonida.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "bs-6",
+      "title": "Goodnight, Dollface, Goodnight",
+      "category": "book-swaps",
+      "spoiler": true,
+      "guide": "Vespucci Island: lighthouse-shaped box outside a villa at Neptune Cir and Rialto Cswy.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "bs-7",
+      "title": "Badlands Revenge",
+      "category": "book-swaps",
+      "spoiler": true,
+      "guide": "Capri: coffin-shaped box outside the Halloween house at Fortuna St and Viola St.",
+      "region": "Mariana County"
     },
     {
       "id": "wl-05",
@@ -8044,12 +8092,903 @@
     },
     {
       "id": "hp-001",
-      "title": "Basketball hoop",
+      "title": "Jason's house",
       "category": "hoops",
       "subgroup": "Mariana County",
       "spoiler": true,
       "guide": "Key Lento: at the foot of the stairs up to Jason's house on Peach Palm Drive. Score a basket.",
       "region": "Mariana County"
+    },
+    {
+      "id": "hp-002",
+      "title": "Slator Towing lot",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Slator Towing yard (a chop shop). Hoop on a metal beam where cars are stripped; ball by the east gate.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-003",
+      "title": "Jackal's Track",
+      "category": "hoops",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Northwest car park of Jackal's Track and Football Field, on a post by the grass.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "hp-004",
+      "title": "Chestnut Dr",
+      "category": "hoops",
+      "subgroup": "Lummox County",
+      "spoiler": true,
+      "guide": "Green house on Chestnut Dr near I-297, corner of the driveway opposite the garage.",
+      "region": "Lummox County"
+    },
+    {
+      "id": "hp-005",
+      "title": "U-shaped apartments",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Courtyard of a U-shaped apartment block, middle of the yard by a picnic table.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-006",
+      "title": "Magnolia Rd",
+      "category": "hoops",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "guide": "Two-storey green duplex on Magnolia Rd, corner of the front parking space.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "hp-007",
+      "title": "Clovis Way, Capri",
+      "category": "hoops",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Yellow house on Clovis Way, Capri, beside the driveway.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "hp-008",
+      "title": "Red Lotus, Key Lento",
+      "category": "hoops",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Back courtyard of the Red Lotus store, south Key Lento, by the gap in the fence.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "hp-009",
+      "title": "Reservoir St, east Ambrosia",
+      "category": "hoops",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "guide": "House on Reservoir St on the east edge of Ambrosia, in front of the garage.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "hp-010",
+      "title": "Catalan Island villa",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Big villa on the west side of Catalan Island, corner of the driveway.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-011",
+      "title": "Northwest Capri villa",
+      "category": "hoops",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Big villa on Capri's northwest peninsula, driveway corner by the garage.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "hp-012",
+      "title": "NW 24th Pl, Balsero",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Small blue house on NW 24th Pl, southwest Balsero, driveway corner by the road.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-013",
+      "title": "Key Lento beach court",
+      "category": "hoops",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Beach-side court in east Key Lento, end of the court.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "hp-014",
+      "title": "Fairview Dr cul-de-sac",
+      "category": "hoops",
+      "subgroup": "Leonard County",
+      "spoiler": true,
+      "guide": "End of the Fairview Dr cul-de-sac, Waning Sands, between two brick driveways.",
+      "region": "Leonard County"
+    },
+    {
+      "id": "hp-015",
+      "title": "Coconut Cove Ct, Capri",
+      "category": "hoops",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Waterfront house on Coconut Cove Ct, west Capri, driveway edge by the garage.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "hp-016",
+      "title": "Shorebeach Rd park",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Small park off Shorebeach Rd, east Washington Beach, end of the path.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-017",
+      "title": "Delamore Dr mansion",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Mansion on Delamore Dr opposite Leaf Links, beside the driveway hedge.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-018",
+      "title": "Fire Station 35",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Fire Rescue Station No. 35, central Port Vice City, between the garage doors.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-019",
+      "title": "I-404 courts (1)",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Courts under the I-404 bridge behind PeeWees (Northbrook Dr / NW 4th Ave): east court, south hoop.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-020",
+      "title": "Northeast Vespucci villa",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Villa on the northeast of Vespucci Island, north side by the garage.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-021",
+      "title": "SW 17th St by VCIA",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Small blue house at SW 17th St and SW 7th Ave near VCIA, end of the driveway.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-022",
+      "title": "I-404 courts (2)",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Courts under the I-404 bridge behind PeeWees: east court, north hoop.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-023",
+      "title": "Waning Sands mall",
+      "category": "hoops",
+      "subgroup": "Leonard County",
+      "spoiler": true,
+      "guide": "East courtyard of the big outdoor mall in south Waning Sands, by Baller World.",
+      "region": "Leonard County"
+    },
+    {
+      "id": "hp-024",
+      "title": "Reservoir St riverside",
+      "category": "hoops",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "guide": "Small riverside house on Reservoir St, northeast Ambrosia, above the garage.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "hp-025",
+      "title": "Vice Rowing Club",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Gloriana Key Rd, south Gloriana Key, outside the Vice Rowing Club.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-026",
+      "title": "Overkeel Boatyard",
+      "category": "hoops",
+      "subgroup": "Lummox County",
+      "spoiler": true,
+      "guide": "Courtyard in front of Overkeel Boatyard & Marina, East Lummox County.",
+      "region": "Lummox County"
+    },
+    {
+      "id": "hp-027",
+      "title": "Neptune Cir villa",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Villa off Neptune Cir in central Vespucci Island.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-028",
+      "title": "Tubbs Pl, Peacock Estates",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Mansion on Tubbs Pl, northwest Peacock Estates, on its own post.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-029",
+      "title": "Palladia Ln, Peacock Estates",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Southernmost mansion in Peacock Estates (Palladia Ln), between the garage doors.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-030",
+      "title": "Northbrook Dr riverside",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Green riverside house off Northbrook Dr, southwest Little Cuba.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-031",
+      "title": "SR-25 bridge apartments",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Apartment car park beside the SR-25 river bridge, central Little Cuba.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-032",
+      "title": "Fairview Dr white house",
+      "category": "hoops",
+      "subgroup": "Leonard County",
+      "spoiler": true,
+      "guide": "White house mid-way along Fairview Dr (east side), Waning Sands, middle of the driveway.",
+      "region": "Leonard County"
+    },
+    {
+      "id": "hp-033",
+      "title": "Ambrosia fun centre (1)",
+      "category": "hoops",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "guide": "Outdoor entertainment centre, north Ambrosia: northeast end of the court.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "hp-034",
+      "title": "Kamar Devon Community Center",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Behind the abandoned Kamar Devon Community Center, north Southside.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-035",
+      "title": "Watson Bay blue house",
+      "category": "hoops",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Big blue house with a boat trailer, north Watson Bay, on the side of the house.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "hp-036",
+      "title": "Sahara Arena",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Courtyard between Eris and the Sahara Arena, Downtown Vice City, in a white ring.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-037",
+      "title": "Peach Palm Dr green house",
+      "category": "hoops",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Green house on Peach Palm Dr opposite Gambit Bay, Key Lento, above the garage.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "hp-038",
+      "title": "Westbrook Dr, Salton",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Yellow-and-stone house on Westbrook Dr, Salton, near VCIA, end of the driveway.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-039",
+      "title": "Seabell Ave, Watson Bay",
+      "category": "hoops",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Long beige house on Seabell Ave opposite a construction entrance, above the garage.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "hp-040",
+      "title": "Belville park (1)",
+      "category": "hoops",
+      "subgroup": "Leonard County",
+      "spoiler": true,
+      "guide": "Lakeside park, north Belville: west court, north pole.",
+      "region": "Leonard County"
+    },
+    {
+      "id": "hp-041",
+      "title": "Stone Hill Sawmill",
+      "category": "hoops",
+      "subgroup": "Lummox County",
+      "spoiler": true,
+      "guide": "Side of the Stone Hill Sawmill, north Mount Kalaga National Park.",
+      "region": "Lummox County"
+    },
+    {
+      "id": "hp-042",
+      "title": "Dolphin Dr grey house",
+      "category": "hoops",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Flat grey house off Dolphin Dr, north Key Lento, above the garage.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "hp-043",
+      "title": "Sunset Dr, Key Lento",
+      "category": "hoops",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "West-coast house on Sunset Dr, Key Lento, between the patio awning and stairs.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "hp-044",
+      "title": "Washington Beach roof court (1)",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Lower roof of a big building, east Washington Beach: east end of the court.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-045",
+      "title": "Cangrejo St, Southwind",
+      "category": "hoops",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Small blue beach house at the end of Cangrejo St near Mile Zero Air Station.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "hp-046",
+      "title": "Langosta St, Southwind",
+      "category": "hoops",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Small yellow beach house on Langosta St opposite the Shoreman Ships boatyard.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "hp-047",
+      "title": "Leonida State Prison",
+      "category": "hoops",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "guide": "Recreation yard of Leonida State Prison, south Kelly County, by the fence.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "hp-048",
+      "title": "Mamey Cir arched house",
+      "category": "hoops",
+      "subgroup": "Leonard County",
+      "spoiler": true,
+      "guide": "White arched house on the east side of Mamey Cir, edge of the driveway.",
+      "region": "Leonard County"
+    },
+    {
+      "id": "hp-049",
+      "title": "Dolphin Dr fish house",
+      "category": "hoops",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Brown house with a big fish over the door on Dolphin Dr, northeast Key Lento.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "hp-050",
+      "title": "Ocean Sound Rd condos",
+      "category": "hoops",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Coastal condo block at Ocean Sound Rd and Dolphin Dr, Key Lento.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "hp-051",
+      "title": "Belville park (2)",
+      "category": "hoops",
+      "subgroup": "Leonard County",
+      "spoiler": true,
+      "guide": "Lakeside park, north Belville: east court, south pole.",
+      "region": "Leonard County"
+    },
+    {
+      "id": "hp-052",
+      "title": "Orchard Ave, Port Gellhorn",
+      "category": "hoops",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "guide": "Blue-and-yellow house on the Orchard Ave bend, south Port Gellhorn.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "hp-053",
+      "title": "Pink villa court",
+      "category": "hoops",
+      "subgroup": "Leonard County",
+      "spoiler": true,
+      "guide": "Pink court by a gated pink villa on an island, east Waning Sands.",
+      "region": "Leonard County"
+    },
+    {
+      "id": "hp-054",
+      "title": "South Starfish Island villa",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Beige villa on the south side of Starfish Island, left of the driveway.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-055",
+      "title": "Tanglewood Ln trailer",
+      "category": "hoops",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "guide": "Mobile home off Tanglewood Ln, central Port Gellhorn, middle of the driveway.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "hp-056",
+      "title": "Fire Station 8",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "City of Vice Fire Rescue Station No. 8, north side of Peacock Bay, on the northwest wall.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-057",
+      "title": "I-97 courts (1)",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Courts under the I-97 bridge east of VCIA: north court, northwest hoop.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-058",
+      "title": "Mamey Cir north",
+      "category": "hoops",
+      "subgroup": "Leonard County",
+      "spoiler": true,
+      "guide": "White house on the north stretch of Mamey Cir, south Waning Sands.",
+      "region": "Leonard County"
+    },
+    {
+      "id": "hp-059",
+      "title": "I-97 courts (2)",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Courts under the I-97 bridge east of VCIA: north court, southeast hoop.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-060",
+      "title": "Oceanarium",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Maintenance building at the Vice City Oceanarium, Catalan Key.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-061",
+      "title": "Washington Beach roof court (2)",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Lower roof of a big building, east Washington Beach: west end of the court.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-062",
+      "title": "Pelican River shack",
+      "category": "hoops",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Shack on the Pelican River, east Watson Bay, on a carport beam.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "hp-063",
+      "title": "Harmony Dr, Belville",
+      "category": "hoops",
+      "subgroup": "Leonard County",
+      "spoiler": true,
+      "guide": "Blue-and-white house on Harmony Dr, south downtown Belville.",
+      "region": "Leonard County"
+    },
+    {
+      "id": "hp-064",
+      "title": "Hamlet prison B-wing",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Hamlet Correctional Institution, yard in front of B-wing.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-065",
+      "title": "Hamlet prison A-wing",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Hamlet Correctional Institution, yard in front of A-wing.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-066",
+      "title": "I-404 courts (3)",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Courts under the I-404 bridge behind PeeWees: west court, south hoop.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-067",
+      "title": "Lake Tallaloko house",
+      "category": "hoops",
+      "subgroup": "Lummox County",
+      "spoiler": true,
+      "guide": "Dog-filled, messy house on the east side of Lake Tallaloko, front yard.",
+      "region": "Lummox County"
+    },
+    {
+      "id": "hp-068",
+      "title": "Grace Ave, Belville",
+      "category": "hoops",
+      "subgroup": "Leonard County",
+      "spoiler": true,
+      "guide": "Light blue house on Grace Ave, north Belville, above the garage.",
+      "region": "Leonard County"
+    },
+    {
+      "id": "hp-069",
+      "title": "Port Vice City court (1)",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Corner court in central Port Vice City: northeast hoop.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-070",
+      "title": "Maple Ln, Ambrosia",
+      "category": "hoops",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "guide": "House on Maple Ln, west Ambrosia.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "hp-071",
+      "title": "Bare With Me roof",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Roof of the Bare With Me club, Balsero, in the corner.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-072",
+      "title": "Belville park (3)",
+      "category": "hoops",
+      "subgroup": "Leonard County",
+      "spoiler": true,
+      "guide": "Lakeside park, north Belville: west court, south pole.",
+      "region": "Leonard County"
+    },
+    {
+      "id": "hp-073",
+      "title": "Port Vice City court (2)",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Corner court in central Port Vice City: southwest hoop.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-074",
+      "title": "I-97 courts (3)",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Courts under the I-97 bridge east of VCIA: south court, southeast hoop.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-075",
+      "title": "I-97 courts (4)",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Courts under the I-97 bridge east of VCIA: south court, northwest hoop.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-076",
+      "title": "Peacock Estates south island",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Mansion on the south island of Peacock Estates, small court in the yard.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-077",
+      "title": "Ambrosia fun centre (2)",
+      "category": "hoops",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "guide": "Outdoor entertainment centre, north Ambrosia: southwest end of the court.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "hp-078",
+      "title": "Belville park (4)",
+      "category": "hoops",
+      "subgroup": "Leonard County",
+      "spoiler": true,
+      "guide": "Lakeside park, north Belville: east court, north pole.",
+      "region": "Leonard County"
+    },
+    {
+      "id": "hp-079",
+      "title": "Avery Allen airfield",
+      "category": "hoops",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "guide": "Avery Allen & Co. Aviation Services, North Kelly County, by the main building.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "hp-080",
+      "title": "Leith River villa",
+      "category": "hoops",
+      "subgroup": "Leonard County",
+      "spoiler": true,
+      "guide": "Yellow villa on the west bank of the Leith River, Waning Sands.",
+      "region": "Leonard County"
+    },
+    {
+      "id": "hp-081",
+      "title": "North Starfish Island mansion (1)",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Mansion on the north side of Starfish Island, edge of the driveway.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-082",
+      "title": "I-404 courts (4)",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Courts under the I-404 bridge behind PeeWees: west court, north hoop.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-083",
+      "title": "Samba Pl courtyard",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Courtyard at Samba Pl and NW 8th Pl, central Vice City.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-084",
+      "title": "Delamore Dr court (1)",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Front-lawn court of a mansion on southeast Delamore Dr opposite Leaf Links.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-085",
+      "title": "Delamore Dr court (2)",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Same front-lawn court on Delamore Dr: the other hoop.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-086",
+      "title": "Hummingbird Park",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Wide concrete path just south of the middle of Hummingbird Park.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-087",
+      "title": "North Starfish Island mansion (2)",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Waterfront mansion on north Starfish Island, front court, behind leaves.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-088",
+      "title": "Hamlet prison kitchens (1)",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Hamlet Correctional Institution, southeast yard by the kitchens.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-089",
+      "title": "Vice Beach garage roof (1)",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Roof of the car park by the big apartment block, west Vice Beach: centre hoop.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-090",
+      "title": "Vice Beach garage roof (2)",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Same car park roof: east pole.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-091",
+      "title": "Vice Beach garage roof (3)",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Same car park roof: west pole.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-092",
+      "title": "Port Gellhorn courts (1)",
+      "category": "hoops",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "guide": "Gellhorn Ave and Washburn Ave: north court, northwest pole.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "hp-093",
+      "title": "Port Gellhorn courts (2)",
+      "category": "hoops",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "guide": "Gellhorn Ave and Washburn Ave: north court, southeast pole.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "hp-094",
+      "title": "Port Gellhorn courts (3)",
+      "category": "hoops",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "guide": "Gellhorn Ave and Washburn Ave: south court, northwest pole.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "hp-095",
+      "title": "Port Gellhorn courts (4)",
+      "category": "hoops",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "guide": "Gellhorn Ave and Washburn Ave: south court, southeast pole.",
+      "region": "Kelly County"
+    },
+    {
+      "id": "hp-096",
+      "title": "Bantam Boxing Gym",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Yard behind Bantam Boxing Gym on Pusley Ln, south Hamlet.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-097",
+      "title": "Crastenburg resort",
+      "category": "hoops",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "guide": "Behind the Crastenburg resort at Surfside Dr and Nautilus Ln, south Key Lento.",
+      "region": "Mariana County"
+    },
+    {
+      "id": "hp-098",
+      "title": "Kalaga hills shed",
+      "category": "hoops",
+      "subgroup": "Lummox County",
+      "spoiler": true,
+      "guide": "Red roadside shed in the north hills of Mount Kalaga National Park, inside wall.",
+      "region": "Lummox County"
+    },
+    {
+      "id": "hp-099",
+      "title": "Hamlet prison kitchens (2)",
+      "category": "hoops",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "guide": "Hamlet Correctional Institution, southeast yard by the kitchens: the other hoop.",
+      "region": "Vice-Dale County"
+    },
+    {
+      "id": "hp-100",
+      "title": "North Belville mansion",
+      "category": "hoops",
+      "subgroup": "Leonard County",
+      "spoiler": true,
+      "guide": "Mansion in the north Belville suburbs, beside the driveway by a golf cart.",
+      "region": "Leonard County"
     },
     {
       "id": "ur-01",
