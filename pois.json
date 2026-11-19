@@ -1,5 +1,5 @@
 {
-  "version": 18,
+  "version": 19,
   "notice": {
     "id": "early-days-1",
     "title": "Early days",
@@ -5882,7 +5882,9 @@
       "subgroup": "Landmarks",
       "spoiler": true,
       "guide": "Landmark (menu number not known yet). Scan it with WAiNK in Emerald Springs, east of the Emerald River; it stands above the trees.",
-      "region": "Kelly County"
+      "region": "Kelly County",
+      "nx": 0.4584,
+      "ny": 0.3959
     },
     {
       "id": "wl-hoffman-observatory",
@@ -5891,7 +5893,9 @@
       "subgroup": "Landmarks",
       "spoiler": true,
       "guide": "Landmark (menu number not known yet). Scan it with WAiNK on the hilltop in the west of North Kelly County, looking over Vice City.",
-      "region": "Kelly County"
+      "region": "Kelly County",
+      "nx": 0.4465,
+      "ny": 0.2597
     },
     {
       "id": "wc-11",
@@ -5922,7 +5926,9 @@
       "subgroup": "Curiosities",
       "spoiler": true,
       "guide": "Curiosity (menu number not known yet). Scan it with WAiNK on the sandy north end of the largest Permit Keys island.",
-      "region": "Leonida Keys"
+      "region": "Leonida Keys",
+      "nx": 0.3681,
+      "ny": 0.839
     },
     {
       "id": "ws-07",
@@ -5997,7 +6003,9 @@
       "subgroup": "Sculptures",
       "spoiler": true,
       "guide": "Sculpture (menu number not known yet). Scan it with WAiNK at the southwest tip of Key Lento, just off the Sunbelt Highway.",
-      "region": "Mariana County"
+      "region": "Mariana County",
+      "nx": 0.4973,
+      "ny": 0.8685
     },
     {
       "id": "wf-01",
@@ -6009,6 +6017,706 @@
       "ny": 0.506,
       "guide": "Ocean Beach: spray-painted on the ground east of The Banana Hole's main bar. Scan it with WAiNK.",
       "region": "Vice Beach"
+    },
+    {
+      "id": "wl-fleeca-field",
+      "title": "Fleeca Field",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.5878,
+      "ny": 0.474
+    },
+    {
+      "id": "wl-downtown-periscope",
+      "title": "Downtown Periscope",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.652,
+      "ny": 0.542
+    },
+    {
+      "id": "wl-old-goliath",
+      "title": "Old Goliath",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.4998,
+      "ny": 0.315
+    },
+    {
+      "id": "wl-howe-dairy-farm-s-big-udder",
+      "title": "Howe Dairy Farm's Big Udder",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.4151,
+      "ny": 0.3584
+    },
+    {
+      "id": "wl-outlaw-s-cabin",
+      "title": "Outlaw's Cabin",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.4905,
+      "ny": 0.1201
+    },
+    {
+      "id": "wl-bobcat-key-experimental-home",
+      "title": "Bobcat Key Experimental Home",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.3391,
+      "ny": 0.6475
+    },
+    {
+      "id": "wl-pelican-valley-observation-tower",
+      "title": "Pelican Valley Observation Tower",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.4799,
+      "ny": 0.6621
+    },
+    {
+      "id": "wl-bonanza-giant",
+      "title": "Bonanza Giant",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.4615,
+      "ny": 0.1209
+    },
+    {
+      "id": "wl-grayson-cairns",
+      "title": "Grayson Cairns",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.455,
+      "ny": 0.2105
+    },
+    {
+      "id": "wl-unidentified-building",
+      "title": "Unidentified Building",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "region": "Leonard County",
+      "nx": 0.6756,
+      "ny": 0.2613
+    },
+    {
+      "id": "wl-st-lucia-lighthouse",
+      "title": "St. Lucia Lighthouse",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.7027,
+      "ny": 0.2095
+    },
+    {
+      "id": "wl-wild-hog-point-radar-base",
+      "title": "Wild Hog Point Radar Base",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.291,
+      "ny": 0.3663
+    },
+    {
+      "id": "wl-sahara-arena",
+      "title": "Sahara Arena",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.6502,
+      "ny": 0.5019
+    },
+    {
+      "id": "wl-tallaloko-amphitheater",
+      "title": "Tallaloko Amphitheater",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.5443,
+      "ny": 0.1746
+    },
+    {
+      "id": "wl-thicc-herbie",
+      "title": "Thicc Herbie",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.4208,
+      "ny": 0.8848
+    },
+    {
+      "id": "wl-riquezas-keys-radome",
+      "title": "Riquezas Keys Radome",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.2615,
+      "ny": 0.8679
+    },
+    {
+      "id": "wl-aqua-stadium",
+      "title": "Aqua Stadium",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.6984,
+      "ny": 0.6175
+    },
+    {
+      "id": "wl-tucker-s-citrus-farms-water-tower",
+      "title": "Tucker's Citrus Farms Water Tower",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.4721,
+      "ny": 0.3789
+    },
+    {
+      "id": "wl-derelict-spy-vessel",
+      "title": "Derelict Spy Vessel",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.3886,
+      "ny": 0.8627
+    },
+    {
+      "id": "wl-badger-r-d-tower",
+      "title": "Badger R&D Tower",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.5349,
+      "ny": 0.8274
+    },
+    {
+      "id": "wl-iaa-s-friends-of-freedom",
+      "title": "IAA's Friends of Freedom",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.6505,
+      "ny": 0.5295
+    },
+    {
+      "id": "wl-courtland-park-stadium",
+      "title": "Courtland Park Stadium",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.6553,
+      "ny": 0.6213
+    },
+    {
+      "id": "wl-vice-city-sign",
+      "title": "Vice City Sign",
+      "category": "waink",
+      "subgroup": "Landmarks",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.4792,
+      "ny": 0.5498
+    },
+    {
+      "id": "wc-dino-golf",
+      "title": "Dino Golf",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.442,
+      "ny": 0.3361
+    },
+    {
+      "id": "wc-anti-sugar-residence",
+      "title": "Anti Sugar Residence",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.5084,
+      "ny": 0.3398
+    },
+    {
+      "id": "wc-intriguing-substance",
+      "title": "Intriguing Substance",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.6037,
+      "ny": 0.1804
+    },
+    {
+      "id": "wc-abismo-key-carcass",
+      "title": "Abismo Key Carcass",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.443,
+      "ny": 0.898
+    },
+    {
+      "id": "wc-pet-cemetery",
+      "title": "Pet Cemetery",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.3868,
+      "ny": 0.1971
+    },
+    {
+      "id": "wc-goose-key-carcass",
+      "title": "Goose Key Carcass",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.3353,
+      "ny": 0.8174
+    },
+    {
+      "id": "wc-plunge-masters-deep-sea-chalet",
+      "title": "Plunge Masters Deep Sea Chalet",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.5212,
+      "ny": 0.841
+    },
+    {
+      "id": "wc-deserted-home",
+      "title": "Deserted Home",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.4635,
+      "ny": 0.4254
+    },
+    {
+      "id": "wc-mermaid-display",
+      "title": "Mermaid Display",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.6779,
+      "ny": 0.6074
+    },
+    {
+      "id": "wc-desert-island-piano",
+      "title": "Desert Island Piano",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.4737,
+      "ny": 0.8025
+    },
+    {
+      "id": "wc-wreck-of-the-meerwunder",
+      "title": "Wreck of the Meerwunder",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.4039,
+      "ny": 0.1215
+    },
+    {
+      "id": "wc-belville-topiary",
+      "title": "Belville Topiary",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.6132,
+      "ny": 0.3945
+    },
+    {
+      "id": "wc-vibrant-pond",
+      "title": "Vibrant Pond",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.4974,
+      "ny": 0.7855
+    },
+    {
+      "id": "wc-dead-sharks",
+      "title": "Dead Sharks",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.4605,
+      "ny": 0.7688
+    },
+    {
+      "id": "wc-christmas-house",
+      "title": "Christmas House",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.5284,
+      "ny": 0.8332
+    },
+    {
+      "id": "wc-c0-b8-engine",
+      "title": "C0-B8 Engine",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.4568,
+      "ny": 0.1373
+    },
+    {
+      "id": "wc-hovercraft-crash",
+      "title": "Hovercraft Crash",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.2103,
+      "ny": 0.4391
+    },
+    {
+      "id": "wc-fairy-lane",
+      "title": "Fairy Lane",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.3954,
+      "ny": 0.1988
+    },
+    {
+      "id": "wc-promotional-sand-vehicles",
+      "title": "Promotional Sand Vehicles",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.7704,
+      "ny": 0.5087
+    },
+    {
+      "id": "wc-spaceship-house",
+      "title": "Spaceship House",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.5082,
+      "ny": 0.3235
+    },
+    {
+      "id": "wc-camp-moonflower",
+      "title": "Camp Moonflower",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.4618,
+      "ny": 0.4333
+    },
+    {
+      "id": "wc-halloween-house",
+      "title": "Halloween House",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.3343,
+      "ny": 0.5256
+    },
+    {
+      "id": "wc-wetman-bay-carcass",
+      "title": "Wetman Bay Carcass",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.4396,
+      "ny": 0.7569
+    },
+    {
+      "id": "wc-selkie-hole",
+      "title": "Selkie Hole",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.4411,
+      "ny": 0.3929
+    },
+    {
+      "id": "wc-beach-party-site",
+      "title": "Beach Party Site",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.3715,
+      "ny": 0.8354
+    },
+    {
+      "id": "wc-lovers-lookout",
+      "title": "Lovers Lookout",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.4178,
+      "ny": 0.2298
+    },
+    {
+      "id": "wc-c0-b8-fairing",
+      "title": "C0-B8 Fairing",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.3971,
+      "ny": 0.134
+    },
+    {
+      "id": "wc-fossilized-prints",
+      "title": "Fossilized Prints",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.4484,
+      "ny": 0.1591
+    },
+    {
+      "id": "wc-noflusher-homestead",
+      "title": "NoFlusher Homestead",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.4261,
+      "ny": 0.739
+    },
+    {
+      "id": "wc-c0-b8-debris",
+      "title": "C0-B8 Debris",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.3711,
+      "ny": 0.1457
+    },
+    {
+      "id": "wc-unidentified-animal-pen-uap",
+      "title": "Unidentified Animal Pen (UAP)",
+      "category": "waink",
+      "subgroup": "Curiosities",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.4217,
+      "ny": 0.6711
+    },
+    {
+      "id": "ws-leonida-snow",
+      "title": "Leonida Snow",
+      "category": "waink",
+      "subgroup": "Sculptures",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.6495,
+      "ny": 0.5451
+    },
+    {
+      "id": "ws-mother-rushwood",
+      "title": "Mother Rushwood",
+      "category": "waink",
+      "subgroup": "Sculptures",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.6214,
+      "ny": 0.1842
+    },
+    {
+      "id": "ws-gimme-all-your-oil",
+      "title": "Gimme All Your Oil",
+      "category": "waink",
+      "subgroup": "Sculptures",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.6632,
+      "ny": 0.4249
+    },
+    {
+      "id": "ws-grassrivers-visitor-center-statue",
+      "title": "Grassrivers Visitor Center Statue",
+      "category": "waink",
+      "subgroup": "Sculptures",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.5321,
+      "ny": 0.762
+    },
+    {
+      "id": "ws-flam-gummies",
+      "title": "Flam Gummies",
+      "category": "waink",
+      "subgroup": "Sculptures",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.6639,
+      "ny": 0.4914
+    },
+    {
+      "id": "ws-catalan-blvd-garden",
+      "title": "Catalan Blvd Garden",
+      "category": "waink",
+      "subgroup": "Sculptures",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.6558,
+      "ny": 0.4528
+    },
+    {
+      "id": "ws-large-lure",
+      "title": "Large Lure",
+      "category": "waink",
+      "subgroup": "Sculptures",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.7474,
+      "ny": 0.541
+    },
+    {
+      "id": "ws-monument-of-leonida",
+      "title": "Monument of Leonida",
+      "category": "waink",
+      "subgroup": "Sculptures",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.3708,
+      "ny": 0.3486
+    },
+    {
+      "id": "ws-the-grand-turkey-of-capri",
+      "title": "The Grand Turkey of Capri",
+      "category": "waink",
+      "subgroup": "Sculptures",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.335,
+      "ny": 0.5081
+    },
+    {
+      "id": "ws-colossus",
+      "title": "Colossus",
+      "category": "waink",
+      "subgroup": "Sculptures",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.61,
+      "ny": 0.6217
+    },
+    {
+      "id": "ws-the-wonder-whale",
+      "title": "The Wonder Whale",
+      "category": "waink",
+      "subgroup": "Sculptures",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.5202,
+      "ny": 0.8474
+    },
+    {
+      "id": "ws-thrillbilly-mascot",
+      "title": "Thrillbilly Mascot",
+      "category": "waink",
+      "subgroup": "Sculptures",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.4256,
+      "ny": 0.3101
+    },
+    {
+      "id": "ws-blanco-memorial",
+      "title": "Blanco Memorial",
+      "category": "waink",
+      "subgroup": "Sculptures",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.7088,
+      "ny": 0.4788
+    },
+    {
+      "id": "ws-chariot-to-valhalla",
+      "title": "Chariot to Valhalla",
+      "category": "waink",
+      "subgroup": "Sculptures",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.4254,
+      "ny": 0.175
+    },
+    {
+      "id": "ws-junkyard-t-rex",
+      "title": "Junkyard T-Rex",
+      "category": "waink",
+      "subgroup": "Sculptures",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.5357,
+      "ny": 0.1503
+    },
+    {
+      "id": "ws-buckskin-swamp-totem",
+      "title": "Buckskin Swamp Totem",
+      "category": "waink",
+      "subgroup": "Sculptures",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.4603,
+      "ny": 0.469
     },
     {
       "id": "sj-001",
@@ -6273,6 +6981,1066 @@
       "ny": 0.11,
       "guide": "The broken bridge in north Moreau.",
       "region": "Lummox County"
+    },
+    {
+      "id": "sj-interstate-404",
+      "title": "Stunt jump: Interstate 404",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.4911,
+      "ny": 0.5138
+    },
+    {
+      "id": "sj-ocean-beach-marina",
+      "title": "Stunt jump: Ocean Beach Marina",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.7451,
+      "ny": 0.5393
+    },
+    {
+      "id": "sj-mile-zero-air-station-south",
+      "title": "Stunt jump: Mile Zero Air Station South",
+      "category": "stunt-jumps",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.3047,
+      "ny": 0.8855
+    },
+    {
+      "id": "sj-mud-club-pond",
+      "title": "Stunt jump: Mud Club Pond",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.4744,
+      "ny": 0.2929
+    },
+    {
+      "id": "sj-mastodon-u-s-a",
+      "title": "Stunt jump: Mastodon U.S.A",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.6438,
+      "ny": 0.4414
+    },
+    {
+      "id": "sj-vcia-gator-parking",
+      "title": "Stunt jump: VCIA Gator Parking",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.5601,
+      "ny": 0.5658
+    },
+    {
+      "id": "sj-goliath-global-quarry-railroad",
+      "title": "Stunt jump: Goliath Global Quarry Railroad",
+      "category": "stunt-jumps",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.4639,
+      "ny": 0.6112
+    },
+    {
+      "id": "sj-cargo-road-construction",
+      "title": "Stunt jump: Cargo Road Construction",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.5806,
+      "ny": 0.6061
+    },
+    {
+      "id": "sj-dalton-island-sculpture-park",
+      "title": "Stunt jump: Dalton Island Sculpture Park",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.7623,
+      "ny": 0.5917
+    },
+    {
+      "id": "sj-vice-dale-police-parking",
+      "title": "Stunt jump: Vice-Dale Police Parking",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.6269,
+      "ny": 0.4875
+    },
+    {
+      "id": "sj-apollo-aggregates-quarry",
+      "title": "Stunt jump: Apollo Aggregates Quarry",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.5691,
+      "ny": 0.6626
+    },
+    {
+      "id": "sj-prairie-court",
+      "title": "Stunt jump: Prairie Court",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.342,
+      "ny": 0.3387
+    },
+    {
+      "id": "sj-shoreline-park-amphitheater",
+      "title": "Stunt jump: Shoreline Park Amphitheater",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.6608,
+      "ny": 0.5356
+    },
+    {
+      "id": "sj-lake-bonner-construction-west",
+      "title": "Stunt jump: Lake Bonner Construction West",
+      "category": "stunt-jumps",
+      "subgroup": "Leonard County",
+      "spoiler": true,
+      "region": "Leonard County",
+      "nx": 0.6624,
+      "ny": 0.3536
+    },
+    {
+      "id": "sj-waste-transfer-services-south",
+      "title": "Stunt jump: Waste Transfer Services South",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.5533,
+      "ny": 0.4363
+    },
+    {
+      "id": "sj-vcia-storage-facility",
+      "title": "Stunt jump: VCIA Storage Facility",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.5865,
+      "ny": 0.5883
+    },
+    {
+      "id": "sj-schlott-construction-west-vice-dale",
+      "title": "Stunt jump: Schlott Construction West Vice-Dale",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.4663,
+      "ny": 0.5048
+    },
+    {
+      "id": "sj-lake-leonida-lock-southwest",
+      "title": "Stunt jump: Lake Leonida Lock Southwest",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.5486,
+      "ny": 0.3233
+    },
+    {
+      "id": "sj-waste-transfer-services-north",
+      "title": "Stunt jump: Waste Transfer Services North",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.5521,
+      "ny": 0.4208
+    },
+    {
+      "id": "sj-abandoned-radio-station",
+      "title": "Stunt jump: Abandoned Radio Station",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.2944,
+      "ny": 0.3662
+    },
+    {
+      "id": "sj-apollo-aggregates-south",
+      "title": "Stunt jump: Apollo Aggregates South",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.5709,
+      "ny": 0.4857
+    },
+    {
+      "id": "sj-gellhorn-roadworks-east",
+      "title": "Stunt jump: Gellhorn Roadworks East",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.393,
+      "ny": 0.3437
+    },
+    {
+      "id": "sj-goliath-global-quarry-storage",
+      "title": "Stunt jump: Goliath Global Quarry Storage",
+      "category": "stunt-jumps",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.4685,
+      "ny": 0.5836
+    },
+    {
+      "id": "sj-lake-leonida-lock-east",
+      "title": "Stunt jump: Lake Leonida Lock East",
+      "category": "stunt-jumps",
+      "subgroup": "Leonard County",
+      "spoiler": true,
+      "region": "Leonard County",
+      "nx": 0.5998,
+      "ny": 0.2945
+    },
+    {
+      "id": "sj-north-kelly-county-ledge",
+      "title": "Stunt jump: North Kelly County Ledge",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.454,
+      "ny": 0.2809
+    },
+    {
+      "id": "sj-gellhorn-drive-in-theatre",
+      "title": "Stunt jump: Gellhorn Drive-In Theatre",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.3418,
+      "ny": 0.3273
+    },
+    {
+      "id": "sj-kalaga-pond",
+      "title": "Stunt jump: Kalaga Pond",
+      "category": "stunt-jumps",
+      "subgroup": "Lummox County",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.4879,
+      "ny": 0.1807
+    },
+    {
+      "id": "sj-peregrine-bay-coastal",
+      "title": "Stunt jump: Peregrine Bay Coastal",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.5748,
+      "ny": 0.7274
+    },
+    {
+      "id": "sj-goliath-global-quarry-conveyor",
+      "title": "Stunt jump: Goliath Global Quarry Conveyor",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.4572,
+      "ny": 0.5608
+    },
+    {
+      "id": "sj-waste-transfer-services-pond",
+      "title": "Stunt jump: Waste Transfer Services Pond",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.5521,
+      "ny": 0.4065
+    },
+    {
+      "id": "sj-tequesta-mvp-park",
+      "title": "Stunt jump: Tequesta MVP Park",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.6291,
+      "ny": 0.5857
+    },
+    {
+      "id": "sj-banner-hotel-spa-parking",
+      "title": "Stunt jump: Banner Hotel & Spa Parking",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.5849,
+      "ny": 0.562
+    },
+    {
+      "id": "sj-gellhorn-campsite",
+      "title": "Stunt jump: Gellhorn Campsite",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.3861,
+      "ny": 0.38
+    },
+    {
+      "id": "sj-gellhorn-hilltop",
+      "title": "Stunt jump: Gellhorn Hilltop",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.3694,
+      "ny": 0.3777
+    },
+    {
+      "id": "sj-county-route-62-roadworks",
+      "title": "Stunt jump: County Route 62 Roadworks",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.4861,
+      "ny": 0.3712
+    },
+    {
+      "id": "sj-thundergolf",
+      "title": "Stunt jump: Thundergolf",
+      "category": "stunt-jumps",
+      "subgroup": "Leonard County",
+      "spoiler": true,
+      "region": "Leonard County",
+      "nx": 0.6621,
+      "ny": 0.3115
+    },
+    {
+      "id": "sj-lake-leonida-lock-northwest",
+      "title": "Stunt jump: Lake Leonida Lock Northwest",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.5413,
+      "ny": 0.2647
+    },
+    {
+      "id": "sj-go-postal",
+      "title": "Stunt jump: Go Postal",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.5068,
+      "ny": 0.5787
+    },
+    {
+      "id": "sj-west-vice-dale-county-landfill",
+      "title": "Stunt jump: West Vice-Dale County Landfill",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.4787,
+      "ny": 0.5269
+    },
+    {
+      "id": "sj-port-vice-city-plus-parking",
+      "title": "Stunt jump: Port Vice City Plus Parking",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.68,
+      "ny": 0.55
+    },
+    {
+      "id": "sj-kalaga-ramp",
+      "title": "Stunt jump: Kalaga Ramp",
+      "category": "stunt-jumps",
+      "subgroup": "Lummox County",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.4636,
+      "ny": 0.1907
+    },
+    {
+      "id": "sj-gator-plaza-parking",
+      "title": "Stunt jump: Gator Plaza Parking",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.5732,
+      "ny": 0.6477
+    },
+    {
+      "id": "sj-kalaga-river",
+      "title": "Stunt jump: Kalaga River",
+      "category": "stunt-jumps",
+      "subgroup": "Lummox County",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.5322,
+      "ny": 0.2352
+    },
+    {
+      "id": "sj-vcia-concourse",
+      "title": "Stunt jump: VCIA Concourse",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.5722,
+      "ny": 0.572
+    },
+    {
+      "id": "sj-lake-leonida-lock-west",
+      "title": "Stunt jump: Lake Leonida Lock West",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.5385,
+      "ny": 0.2894
+    },
+    {
+      "id": "sj-mount-kalaga-lookout-point",
+      "title": "Stunt jump: Mount Kalaga Lookout Point",
+      "category": "stunt-jumps",
+      "subgroup": "Lummox County",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.5376,
+      "ny": 0.2203
+    },
+    {
+      "id": "sj-ocean-beach-mvp-park-north",
+      "title": "Stunt jump: Ocean Beach MVP Park North",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.7468,
+      "ny": 0.4509
+    },
+    {
+      "id": "sj-schlott-construction-key-lento",
+      "title": "Stunt jump: Schlott Construction Key Lento",
+      "category": "stunt-jumps",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.531,
+      "ny": 0.8356
+    },
+    {
+      "id": "sj-dock-coal-company-freeway",
+      "title": "Stunt jump: Dock Coal Company Freeway",
+      "category": "stunt-jumps",
+      "subgroup": "Lummox County",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.5017,
+      "ny": 0.1556
+    },
+    {
+      "id": "sj-bonanza-harbor",
+      "title": "Stunt jump: Bonanza Harbor",
+      "category": "stunt-jumps",
+      "subgroup": "Lummox County",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.4695,
+      "ny": 0.1041
+    },
+    {
+      "id": "sj-ocean-beach-plus-parking",
+      "title": "Stunt jump: Ocean Beach Plus Parking",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.7531,
+      "ny": 0.5094
+    },
+    {
+      "id": "sj-north-kelly-county-railroad",
+      "title": "Stunt jump: North Kelly County Railroad",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.4395,
+      "ny": 0.2855
+    },
+    {
+      "id": "sj-vice-city-parking-department-tequesta",
+      "title": "Stunt jump: Vice City Parking Department Tequesta",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.616,
+      "ny": 0.6025
+    },
+    {
+      "id": "sj-the-free-state-of-henry-perculay",
+      "title": "Stunt jump: The Free State of Henry Perculay",
+      "category": "stunt-jumps",
+      "subgroup": "Lummox County",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.546,
+      "ny": 0.2265
+    },
+    {
+      "id": "sj-richard-barebone-overpass-north",
+      "title": "Stunt jump: Richard Barebone Overpass North",
+      "category": "stunt-jumps",
+      "subgroup": "Lummox County",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.6446,
+      "ny": 0.237
+    },
+    {
+      "id": "sj-west-kalaga-logging",
+      "title": "Stunt jump: West Kalaga Logging",
+      "category": "stunt-jumps",
+      "subgroup": "Lummox County",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.4914,
+      "ny": 0.1862
+    },
+    {
+      "id": "sj-mariner-s-highway",
+      "title": "Stunt jump: Mariner's Highway",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.6679,
+      "ny": 0.5514
+    },
+    {
+      "id": "sj-waste-transfer-services-lake",
+      "title": "Stunt jump: Waste Transfer Services Lake",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.5687,
+      "ny": 0.4039
+    },
+    {
+      "id": "sj-goliath-global-quarry-lakeside",
+      "title": "Stunt jump: Goliath Global Quarry Lakeside",
+      "category": "stunt-jumps",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.4304,
+      "ny": 0.579
+    },
+    {
+      "id": "sj-kalaga-roadside",
+      "title": "Stunt jump: Kalaga Roadside",
+      "category": "stunt-jumps",
+      "subgroup": "Lummox County",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.5687,
+      "ny": 0.2108
+    },
+    {
+      "id": "sj-ocean-beach-mvp-park-south",
+      "title": "Stunt jump: Ocean Beach MVP Park South",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.7619,
+      "ny": 0.5051
+    },
+    {
+      "id": "sj-grayson-rail-tunnel",
+      "title": "Stunt jump: Grayson Rail Tunnel",
+      "category": "stunt-jumps",
+      "subgroup": "Lummox County",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.4163,
+      "ny": 0.1763
+    },
+    {
+      "id": "sj-vice-beach-police-headquarters",
+      "title": "Stunt jump: Vice Beach Police Headquarters",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.7417,
+      "ny": 0.5072
+    },
+    {
+      "id": "sj-interstate-97-east",
+      "title": "Stunt jump: Interstate 97 East",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.6414,
+      "ny": 0.422
+    },
+    {
+      "id": "sj-macalister-gold-mine",
+      "title": "Stunt jump: Macalister Gold Mine",
+      "category": "stunt-jumps",
+      "subgroup": "Lummox County",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.4753,
+      "ny": 0.1302
+    },
+    {
+      "id": "sj-gellhorn-roadworks-west",
+      "title": "Stunt jump: Gellhorn Roadworks West",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.3675,
+      "ny": 0.3319
+    },
+    {
+      "id": "sj-us-route-82-construction",
+      "title": "Stunt jump: US Route 82 Construction",
+      "category": "stunt-jumps",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.4476,
+      "ny": 0.6275
+    },
+    {
+      "id": "sj-anderson-murphy-construction",
+      "title": "Stunt jump: Anderson Murphy Construction",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.5565,
+      "ny": 0.673
+    },
+    {
+      "id": "sj-la-perle-parking-lot",
+      "title": "Stunt jump: La Perle Parking Lot",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.6117,
+      "ny": 0.4482
+    },
+    {
+      "id": "sj-peacock-estate",
+      "title": "Stunt jump: Peacock Estate",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.6019,
+      "ny": 0.6564
+    },
+    {
+      "id": "sj-vice-city-parking-department-downtown",
+      "title": "Stunt jump: Vice City Parking Department Downtown",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.6189,
+      "ny": 0.5524
+    },
+    {
+      "id": "sj-nolan-center-parking",
+      "title": "Stunt jump: Nolan Center Parking",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.7428,
+      "ny": 0.4644
+    },
+    {
+      "id": "sj-kelly-river",
+      "title": "Stunt jump: Kelly River",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.4919,
+      "ny": 0.3684
+    },
+    {
+      "id": "sj-manifest-canyon-trail-west",
+      "title": "Stunt jump: Manifest Canyon Trail West",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.3988,
+      "ny": 0.2885
+    },
+    {
+      "id": "sj-kalaga-ridge",
+      "title": "Stunt jump: Kalaga Ridge",
+      "category": "stunt-jumps",
+      "subgroup": "Lummox County",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.4343,
+      "ny": 0.2138
+    },
+    {
+      "id": "sj-skorpen-brothers-recycling",
+      "title": "Stunt jump: Skorpen Brothers Recycling",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.5584,
+      "ny": 0.6231
+    },
+    {
+      "id": "sj-southpoint-airfield",
+      "title": "Stunt jump: Southpoint Airfield",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.5284,
+      "ny": 0.7582
+    },
+    {
+      "id": "sj-sixth-harper-parking",
+      "title": "Stunt jump: Sixth & Harper Parking",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.7498,
+      "ny": 0.5068
+    },
+    {
+      "id": "sj-mount-kalaga-visitor-center",
+      "title": "Stunt jump: Mount Kalaga Visitor Center",
+      "category": "stunt-jumps",
+      "subgroup": "Lummox County",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.5052,
+      "ny": 0.1851
+    },
+    {
+      "id": "sj-valdemar-on-the-river-parking-north",
+      "title": "Stunt jump: Valdemar on the River Parking North",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.6129,
+      "ny": 0.5401
+    },
+    {
+      "id": "sj-moreau-coal-mound",
+      "title": "Stunt jump: Moreau Coal Mound",
+      "category": "stunt-jumps",
+      "subgroup": "Lummox County",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.5099,
+      "ny": 0.1426
+    },
+    {
+      "id": "sj-ocean-sound-road",
+      "title": "Stunt jump: Ocean Sound Road",
+      "category": "stunt-jumps",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.5977,
+      "ny": 0.7598
+    },
+    {
+      "id": "sj-vice-city-parking-department-ocean-beach",
+      "title": "Stunt jump: Vice City Parking Department Ocean Beach",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.7597,
+      "ny": 0.4909
+    },
+    {
+      "id": "sj-south-ambrosia-water-treatment",
+      "title": "Stunt jump: South Ambrosia Water Treatment",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.4985,
+      "ny": 0.3339
+    },
+    {
+      "id": "sj-dolly-and-darrel-zimmermann-parking",
+      "title": "Stunt jump: Dolly and Darrel Zimmermann Parking",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.7285,
+      "ny": 0.4269
+    },
+    {
+      "id": "sj-valdemar-on-the-river-parking-south",
+      "title": "Stunt jump: Valdemar on the River Parking South",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.6145,
+      "ny": 0.5401
+    },
+    {
+      "id": "sj-hoopla-construction",
+      "title": "Stunt jump: Hoopla Construction",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.772,
+      "ny": 0.4374
+    },
+    {
+      "id": "sj-manifest-canyon",
+      "title": "Stunt jump: Manifest Canyon",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.4024,
+      "ny": 0.2684
+    },
+    {
+      "id": "sj-opulence-construction",
+      "title": "Stunt jump: Opulence Construction",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.6719,
+      "ny": 0.412
+    },
+    {
+      "id": "sj-goliath-global-quarry-heap",
+      "title": "Stunt jump: Goliath Global Quarry Heap",
+      "category": "stunt-jumps",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "region": "Mariana County",
+      "nx": 0.4534,
+      "ny": 0.5868
+    },
+    {
+      "id": "sj-gellhorn-international-raceway",
+      "title": "Stunt jump: Gellhorn International Raceway",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.3516,
+      "ny": 0.4651
+    },
+    {
+      "id": "sj-downtown-mvp-park",
+      "title": "Stunt jump: Downtown MVP Park",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.6463,
+      "ny": 0.5524
+    },
+    {
+      "id": "sj-7777-ocean-beach-parking",
+      "title": "Stunt jump: 7777 Ocean Beach Parking",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.7404,
+      "ny": 0.4597
+    },
+    {
+      "id": "sj-interstate-97-west",
+      "title": "Stunt jump: Interstate 97 West",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.6398,
+      "ny": 0.4194
+    },
+    {
+      "id": "sj-draper-island",
+      "title": "Stunt jump: Draper Island",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.3005,
+      "ny": 0.2743
+    },
+    {
+      "id": "sj-tequesta-park-in",
+      "title": "Stunt jump: Tequesta Park In",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.6559,
+      "ny": 0.5754
+    },
+    {
+      "id": "sj-vcia-north-central-gate",
+      "title": "Stunt jump: VCIA North Central Gate",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.531,
+      "ny": 0.5312
+    },
+    {
+      "id": "sj-vice-city-parking-department-salton",
+      "title": "Stunt jump: Vice City Parking Department Salton",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.5968,
+      "ny": 0.5802
+    },
+    {
+      "id": "sj-moreau-broken-bridge",
+      "title": "Stunt jump: Moreau Broken Bridge",
+      "category": "stunt-jumps",
+      "subgroup": "Lummox County",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.5184,
+      "ny": 0.1435
+    },
+    {
+      "id": "sj-axiom-house",
+      "title": "Stunt jump: Axiom House",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.2803,
+      "ny": 0.2731
+    },
+    {
+      "id": "sj-cruda-y-asi",
+      "title": "Stunt jump: Cruda Y Asi",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.7431,
+      "ny": 0.5008
+    },
+    {
+      "id": "sj-harrison-harbor-parking",
+      "title": "Stunt jump: Harrison Harbor Parking",
+      "category": "stunt-jumps",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "nx": 0.7399,
+      "ny": 0.5096
+    },
+    {
+      "id": "sj-us-route-628",
+      "title": "Stunt jump: US Route 628",
+      "category": "stunt-jumps",
+      "subgroup": "Lummox County",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.5149,
+      "ny": 0.1407
+    },
+    {
+      "id": "sj-manifest-canyon-trail-east",
+      "title": "Stunt jump: Manifest Canyon Trail East",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.4074,
+      "ny": 0.2853
+    },
+    {
+      "id": "sj-the-hog-house",
+      "title": "Stunt jump: The Hog House",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.395,
+      "ny": 0.4712
+    },
+    {
+      "id": "sj-millport-harbor",
+      "title": "Stunt jump: Millport Harbor",
+      "category": "stunt-jumps",
+      "subgroup": "Lummox County",
+      "spoiler": true,
+      "region": "Lummox County",
+      "nx": 0.6257,
+      "ny": 0.1859
     },
     {
       "id": "hp-001",
@@ -7779,7 +9547,9 @@
           "label": "Log entry",
           "value": "2 of 61"
         }
-      ]
+      ],
+      "nx": 0.4758,
+      "ny": 0.4797
     },
     {
       "id": "an-american-crocodile",
@@ -7810,7 +9580,9 @@
           "label": "Log entry",
           "value": "5 of 61"
         }
-      ]
+      ],
+      "nx": 0.6361,
+      "ny": 0.6743
     },
     {
       "id": "an-american-red-fox",
@@ -7841,7 +9613,9 @@
           "label": "Log entry",
           "value": "6 of 61"
         }
-      ]
+      ],
+      "nx": 0.3926,
+      "ny": 0.3128
     },
     {
       "id": "an-black-fox",
@@ -7872,7 +9646,9 @@
           "label": "Log entry",
           "value": "7 of 61"
         }
-      ]
+      ],
+      "nx": 0.4793,
+      "ny": 0.7286
     },
     {
       "id": "an-box-turtle",
@@ -7899,7 +9675,9 @@
           "label": "Log entry",
           "value": "9 of 61"
         }
-      ]
+      ],
+      "nx": 0.7211,
+      "ny": 0.6017
     },
     {
       "id": "an-canada-goose",
@@ -7930,7 +9708,9 @@
           "label": "Log entry",
           "value": "10 of 61"
         }
-      ]
+      ],
+      "nx": 0.3917,
+      "ny": 0.6301
     },
     {
       "id": "an-cane-toad",
@@ -7961,7 +9741,9 @@
           "label": "Log entry",
           "value": "11 of 61"
         }
-      ]
+      ],
+      "nx": 0.4971,
+      "ny": 0.5936
     },
     {
       "id": "an-eastern-diamondback-rattlesnake",
@@ -7992,7 +9774,9 @@
           "label": "Log entry",
           "value": "15 of 61"
         }
-      ]
+      ],
+      "nx": 0.5694,
+      "ny": 0.6135
     },
     {
       "id": "an-eastern-gray-squirrel",
@@ -8019,7 +9803,9 @@
           "label": "Log entry",
           "value": "16 of 61"
         }
-      ]
+      ],
+      "nx": 0.4998,
+      "ny": 0.4853
     },
     {
       "id": "an-golden-fox",
@@ -8050,7 +9836,9 @@
           "label": "Log entry",
           "value": "19 of 61"
         }
-      ]
+      ],
+      "nx": 0.4007,
+      "ny": 0.3247
     },
     {
       "id": "an-green-iguana",
@@ -8077,7 +9865,9 @@
           "label": "Log entry",
           "value": "21 of 61"
         }
-      ]
+      ],
+      "nx": 0.4773,
+      "ny": 0.4844
     },
     {
       "id": "an-leonida-cottonmouth",
@@ -8108,7 +9898,9 @@
           "label": "Log entry",
           "value": "26 of 61"
         }
-      ]
+      ],
+      "nx": 0.4747,
+      "ny": 0.7067
     },
     {
       "id": "an-leonida-kingsnake",
@@ -8135,7 +9927,9 @@
           "label": "Log entry",
           "value": "27 of 61"
         }
-      ]
+      ],
+      "nx": 0.5004,
+      "ny": 0.6095
     },
     {
       "id": "an-leonida-wild-turkey",
@@ -8166,7 +9960,9 @@
           "label": "Log entry",
           "value": "29 of 61"
         }
-      ]
+      ],
+      "nx": 0.4981,
+      "ny": 0.637
     },
     {
       "id": "an-leonida-wild-white-tom",
@@ -8197,7 +9993,9 @@
           "label": "Log entry",
           "value": "30 of 61"
         }
-      ]
+      ],
+      "nx": 0.4912,
+      "ny": 0.1198
     },
     {
       "id": "an-marsh-rabbit",
@@ -8228,7 +10026,9 @@
           "label": "Log entry",
           "value": "31 of 61"
         }
-      ]
+      ],
+      "nx": 0.5123,
+      "ny": 0.4865
     },
     {
       "id": "an-mottled-duck",
@@ -8259,7 +10059,9 @@
           "label": "Log entry",
           "value": "33 of 61"
         }
-      ]
+      ],
+      "nx": 0.5084,
+      "ny": 0.5055
     },
     {
       "id": "an-north-american-river-otter",
@@ -8290,7 +10092,9 @@
           "label": "Log entry",
           "value": "36 of 61"
         }
-      ]
+      ],
+      "nx": 0.4975,
+      "ny": 0.7283
     },
     {
       "id": "an-northern-black-coyote",
@@ -8321,7 +10125,9 @@
           "label": "Log entry",
           "value": "38 of 61"
         }
-      ]
+      ],
+      "nx": 0.4772,
+      "ny": 0.7329
     },
     {
       "id": "an-northern-coyote",
@@ -8352,7 +10158,9 @@
           "label": "Log entry",
           "value": "39 of 61"
         }
-      ]
+      ],
+      "nx": 0.4768,
+      "ny": 0.7286
     },
     {
       "id": "an-northern-raccoon",
@@ -8379,7 +10187,9 @@
           "label": "Log entry",
           "value": "40 of 61"
         }
-      ]
+      ],
+      "nx": 0.6032,
+      "ny": 0.4862
     },
     {
       "id": "an-nutria",
@@ -8410,7 +10220,9 @@
           "label": "Log entry",
           "value": "42 of 61"
         }
-      ]
+      ],
+      "nx": 0.5195,
+      "ny": 0.7203
     },
     {
       "id": "an-round-tailed-muskrat",
@@ -8441,7 +10253,9 @@
           "label": "Log entry",
           "value": "44 of 61"
         }
-      ]
+      ],
+      "nx": 0.5066,
+      "ny": 0.4853
     },
     {
       "id": "an-softshell-turtle",
@@ -8472,7 +10286,9 @@
           "label": "Log entry",
           "value": "46 of 61"
         }
-      ]
+      ],
+      "nx": 0.4757,
+      "ny": 0.7066
     },
     {
       "id": "an-spectacled-caiman",
@@ -8503,7 +10319,9 @@
           "label": "Log entry",
           "value": "48 of 61"
         }
-      ]
+      ],
+      "nx": 0.4661,
+      "ny": 0.7074
     },
     {
       "id": "an-whitetail-deer",
@@ -8534,7 +10352,9 @@
           "label": "Log entry",
           "value": "52 of 61"
         }
-      ]
+      ],
+      "nx": 0.5085,
+      "ny": 0.6039
     },
     {
       "id": "an-wild-boar",
@@ -8565,7 +10385,9 @@
           "label": "Log entry",
           "value": "53 of 61"
         }
-      ]
+      ],
+      "nx": 0.4943,
+      "ny": 0.6503
     },
     {
       "id": "an-atlantic-spadefish",
@@ -8592,7 +10414,9 @@
           "label": "Log entry",
           "value": "2 of 35"
         }
-      ]
+      ],
+      "nx": 0.6261,
+      "ny": 0.8447
     },
     {
       "id": "an-atlantic-spanish-mackerel",
@@ -8646,7 +10470,9 @@
           "label": "Log entry",
           "value": "4 of 35"
         }
-      ]
+      ],
+      "nx": 0.6413,
+      "ny": 0.7893
     },
     {
       "id": "an-bluestriped-grunt",
@@ -8673,7 +10499,9 @@
           "label": "Log entry",
           "value": "9 of 35"
         }
-      ]
+      ],
+      "nx": 0.5381,
+      "ny": 0.8666
     },
     {
       "id": "an-cobia",
@@ -8700,7 +10528,9 @@
           "label": "Log entry",
           "value": "12 of 35"
         }
-      ]
+      ],
+      "nx": 0.5381,
+      "ny": 0.8666
     },
     {
       "id": "an-common-snook",
@@ -8727,7 +10557,9 @@
           "label": "Log entry",
           "value": "13 of 35"
         }
-      ]
+      ],
+      "nx": 0.6445,
+      "ny": 0.7925
     },
     {
       "id": "an-great-barracuda",
@@ -8754,7 +10586,9 @@
           "label": "Log entry",
           "value": "14 of 35"
         }
-      ]
+      ],
+      "nx": 0.6434,
+      "ny": 0.7913
     },
     {
       "id": "an-green-moray-eel",
@@ -8781,7 +10615,9 @@
           "label": "Log entry",
           "value": "16 of 35"
         }
-      ]
+      ],
+      "nx": 0.5274,
+      "ny": 0.871
     },
     {
       "id": "an-hogfish",
@@ -8808,7 +10644,9 @@
           "label": "Log entry",
           "value": "17 of 35"
         }
-      ]
+      ],
+      "nx": 0.6413,
+      "ny": 0.7893
     },
     {
       "id": "an-littlehead-porgy",
@@ -8835,7 +10673,9 @@
           "label": "Log entry",
           "value": "21 of 35"
         }
-      ]
+      ],
+      "nx": 0.5533,
+      "ny": 0.792
     },
     {
       "id": "an-mahi-mahi",
@@ -8916,7 +10756,9 @@
           "label": "Log entry",
           "value": "25 of 35"
         }
-      ]
+      ],
+      "nx": 0.624,
+      "ny": 0.8383
     },
     {
       "id": "an-spotted-moray-eel",
@@ -8943,7 +10785,9 @@
           "label": "Log entry",
           "value": "30 of 35"
         }
-      ]
+      ],
+      "nx": 0.5348,
+      "ny": 0.8858
     },
     {
       "id": "an-stoplight-parrotfish",
@@ -8970,7 +10814,9 @@
           "label": "Log entry",
           "value": "31 of 35"
         }
-      ]
+      ],
+      "nx": 0.6258,
+      "ny": 0.843
     },
     {
       "id": "an-tiger-grouper",
@@ -8997,7 +10843,9 @@
           "label": "Log entry",
           "value": "33 of 35"
         }
-      ]
+      ],
+      "nx": 0.4866,
+      "ny": 0.8542
     },
     {
       "id": "an-yellowtail-snapper",
@@ -9024,7 +10872,9 @@
           "label": "Log entry",
           "value": "35 of 35"
         }
-      ]
+      ],
+      "nx": 0.5295,
+      "ny": 0.8689
     },
     {
       "id": "an-alpine-goat",
@@ -9043,7 +10893,9 @@
           "label": "Log entry",
           "value": "1 of 18"
         }
-      ]
+      ],
+      "nx": 0.4141,
+      "ny": 0.6163
     },
     {
       "id": "an-bottlenose-dolphin",
@@ -9081,7 +10933,9 @@
           "label": "Log entry",
           "value": "6 of 18"
         }
-      ]
+      ],
+      "nx": 0.6044,
+      "ny": 0.4857
     },
     {
       "id": "an-holstein-cattle",
@@ -9100,7 +10954,9 @@
           "label": "Log entry",
           "value": "9 of 18"
         }
-      ]
+      ],
+      "nx": 0.4263,
+      "ny": 0.3629
     },
     {
       "id": "an-short-beaked-common-dolphin",
@@ -9233,7 +11089,9 @@
           "label": "Log entry",
           "value": "18 of 34"
         }
-      ]
+      ],
+      "nx": 0.6082,
+      "ny": 0.5353
     },
     {
       "id": "an-doberman-pinscher",
@@ -9252,7 +11110,9 @@
           "label": "Log entry",
           "value": "26 of 34"
         }
-      ]
+      ],
+      "nx": 0.7158,
+      "ny": 0.4886
     },
     {
       "id": "an-german-shepherd",
@@ -9271,7 +11131,9 @@
           "label": "Log entry",
           "value": "28 of 34"
         }
-      ]
+      ],
+      "nx": 0.6095,
+      "ny": 0.5308
     },
     {
       "id": "an-green-sea-turtle",
@@ -9290,7 +11152,9 @@
           "label": "Log entry",
           "value": "4 of 6"
         }
-      ]
+      ],
+      "nx": 0.6251,
+      "ny": 0.8404
     },
     {
       "id": "an-american-crow",
@@ -9309,7 +11173,9 @@
           "label": "Log entry",
           "value": "3 of 60"
         }
-      ]
+      ],
+      "nx": 0.4973,
+      "ny": 0.4866
     },
     {
       "id": "an-american-robin",
@@ -9328,7 +11194,9 @@
           "label": "Log entry",
           "value": "7 of 60"
         }
-      ]
+      ],
+      "nx": 0.4962,
+      "ny": 0.6315
     },
     {
       "id": "an-american-white-ibis",
@@ -9347,7 +11215,9 @@
           "label": "Log entry",
           "value": "8 of 60"
         }
-      ]
+      ],
+      "nx": 0.4745,
+      "ny": 0.7101
     },
     {
       "id": "an-american-white-pelican",
@@ -9366,7 +11236,9 @@
           "label": "Log entry",
           "value": "9 of 60"
         }
-      ]
+      ],
+      "nx": 0.4792,
+      "ny": 0.6728
     },
     {
       "id": "an-bald-eagle",
@@ -9385,7 +11257,9 @@
           "label": "Log entry",
           "value": "10 of 60"
         }
-      ]
+      ],
+      "nx": 0.473,
+      "ny": 0.4864
     },
     {
       "id": "an-black-vulture",
@@ -9404,7 +11278,9 @@
           "label": "Log entry",
           "value": "12 of 60"
         }
-      ]
+      ],
+      "nx": 0.5815,
+      "ny": 0.6321
     },
     {
       "id": "an-blue-jay",
@@ -9423,7 +11299,9 @@
           "label": "Log entry",
           "value": "13 of 60"
         }
-      ]
+      ],
+      "nx": 0.6253,
+      "ny": 0.5777
     },
     {
       "id": "an-caspian-tern",
@@ -9442,7 +11320,9 @@
           "label": "Log entry",
           "value": "15 of 60"
         }
-      ]
+      ],
+      "nx": 0.6453,
+      "ny": 0.6717
     },
     {
       "id": "an-common-loon",
@@ -9461,7 +11341,9 @@
           "label": "Log entry",
           "value": "16 of 60"
         }
-      ]
+      ],
+      "nx": 0.5045,
+      "ny": 0.7295
     },
     {
       "id": "an-double-crested-cormorant",
@@ -9480,7 +11362,9 @@
           "label": "Log entry",
           "value": "19 of 60"
         }
-      ]
+      ],
+      "nx": 0.6072,
+      "ny": 0.6852
     },
     {
       "id": "an-eastern-brown-pelican",
@@ -9499,7 +11383,9 @@
           "label": "Log entry",
           "value": "20 of 60"
         }
-      ]
+      ],
+      "nx": 0.7121,
+      "ny": 0.4822
     },
     {
       "id": "an-glossy-ibis",
@@ -9518,7 +11404,9 @@
           "label": "Log entry",
           "value": "22 of 60"
         }
-      ]
+      ],
+      "nx": 0.5087,
+      "ny": 0.4879
     },
     {
       "id": "an-great-blue-heron",
@@ -9537,7 +11425,9 @@
           "label": "Log entry",
           "value": "24 of 60"
         }
-      ]
+      ],
+      "nx": 0.4781,
+      "ny": 0.676
     },
     {
       "id": "an-great-egret",
@@ -9556,7 +11446,9 @@
           "label": "Log entry",
           "value": "25 of 60"
         }
-      ]
+      ],
+      "nx": 0.4752,
+      "ny": 0.7256
     },
     {
       "id": "an-house-sparrow",
@@ -9575,7 +11467,9 @@
           "label": "Log entry",
           "value": "28 of 60"
         }
-      ]
+      ],
+      "nx": 0.6044,
+      "ny": 0.4833
     },
     {
       "id": "an-laughing-gull",
@@ -9594,7 +11488,9 @@
           "label": "Log entry",
           "value": "31 of 60"
         }
-      ]
+      ],
+      "nx": 0.6094,
+      "ny": 0.6161
     },
     {
       "id": "an-leghorn-chicken",
@@ -9613,7 +11509,9 @@
           "label": "Log entry",
           "value": "32 of 60"
         }
-      ]
+      ],
+      "nx": 0.3781,
+      "ny": 0.2643
     },
     {
       "id": "an-monk-parakeet",
@@ -9632,7 +11530,9 @@
           "label": "Log entry",
           "value": "34 of 60"
         }
-      ]
+      ],
+      "nx": 0.5529,
+      "ny": 0.81
     },
     {
       "id": "an-new-world-oriole",
@@ -9651,7 +11551,9 @@
           "label": "Log entry",
           "value": "35 of 60"
         }
-      ]
+      ],
+      "nx": 0.4061,
+      "ny": 0.4894
     },
     {
       "id": "an-red-bellied-woodpecker",
@@ -9670,7 +11572,9 @@
           "label": "Log entry",
           "value": "42 of 60"
         }
-      ]
+      ],
+      "nx": 0.5667,
+      "ny": 0.1383
     },
     {
       "id": "an-red-cockaded-woodpecker",
@@ -9689,7 +11593,9 @@
           "label": "Log entry",
           "value": "43 of 60"
         }
-      ]
+      ],
+      "nx": 0.5994,
+      "ny": 0.1509
     },
     {
       "id": "an-red-crowned-parrot",
@@ -9708,7 +11614,9 @@
           "label": "Log entry",
           "value": "44 of 60"
         }
-      ]
+      ],
+      "nx": 0.7446,
+      "ny": 0.5778
     },
     {
       "id": "an-red-tailed-hawk",
@@ -9727,7 +11635,9 @@
           "label": "Log entry",
           "value": "46 of 60"
         }
-      ]
+      ],
+      "nx": 0.5231,
+      "ny": 0.6151
     },
     {
       "id": "an-roseate-spoonbill",
@@ -9746,7 +11656,9 @@
           "label": "Log entry",
           "value": "48 of 60"
         }
-      ]
+      ],
+      "nx": 0.496,
+      "ny": 0.7051
     },
     {
       "id": "an-tricolored-heron",
@@ -9765,7 +11677,9 @@
           "label": "Log entry",
           "value": "54 of 60"
         }
-      ]
+      ],
+      "nx": 0.4723,
+      "ny": 0.7184
     },
     {
       "id": "an-turkey-vulture",
@@ -9784,7 +11698,9 @@
           "label": "Log entry",
           "value": "56 of 60"
         }
-      ]
+      ],
+      "nx": 0.4053,
+      "ny": 0.2764
     },
     {
       "id": "an-whooping-crane",
@@ -9803,7 +11719,9 @@
           "label": "Log entry",
           "value": "58 of 60"
         }
-      ]
+      ],
+      "nx": 0.4994,
+      "ny": 0.5035
     },
     {
       "id": "an-wood-stork",
@@ -9822,7 +11740,9 @@
           "label": "Log entry",
           "value": "59 of 60"
         }
-      ]
+      ],
+      "nx": 0.4755,
+      "ny": 0.7078
     },
     {
       "id": "an-atlantic-goliath-grouper",
@@ -9841,7 +11761,9 @@
           "label": "Log entry",
           "value": "2 of 18"
         }
-      ]
+      ],
+      "nx": 0.5961,
+      "ny": 0.8662
     },
     {
       "id": "an-great-hammerhead-shark",
@@ -9860,7 +11782,9 @@
           "label": "Log entry",
           "value": "9 of 18"
         }
-      ]
+      ],
+      "nx": 0.5381,
+      "ny": 0.8666
     },
     {
       "id": "an-moon-jellyfish",
@@ -9917,7 +11841,9 @@
           "label": "Log entry",
           "value": "16 of 18"
         }
-      ]
+      ],
+      "nx": 0.5348,
+      "ny": 0.8858
     },
     {
       "id": "an-tiger-shark",
@@ -9949,7 +11875,9 @@
           "label": "Category",
           "value": "Hunting"
         }
-      ]
+      ],
+      "nx": 0.503,
+      "ny": 0.6593
     },
     {
       "id": "an-american-black-bear",
@@ -9962,7 +11890,9 @@
           "label": "Category",
           "value": "Hunting"
         }
-      ]
+      ],
+      "nx": 0.4236,
+      "ny": 0.6155
     },
     {
       "id": "an-corn-snake",
@@ -9975,7 +11905,9 @@
           "label": "Category",
           "value": "Hunting"
         }
-      ]
+      ],
+      "nx": 0.3367,
+      "ny": 0.8352
     },
     {
       "id": "an-eastern-coral-snake",
@@ -9988,7 +11920,9 @@
           "label": "Category",
           "value": "Hunting"
         }
-      ]
+      ],
+      "nx": 0.5675,
+      "ny": 0.6141
     },
     {
       "id": "an-eastern-cottontail-rabbit",
@@ -10001,7 +11935,9 @@
           "label": "Category",
           "value": "Hunting"
         }
-      ]
+      ],
+      "nx": 0.4989,
+      "ny": 0.596
     },
     {
       "id": "an-eastern-spotted-skunk",
@@ -10014,7 +11950,9 @@
           "label": "Category",
           "value": "Hunting"
         }
-      ]
+      ],
+      "nx": 0.5075,
+      "ny": 0.6038
     },
     {
       "id": "an-gloriana-opossum",
@@ -10027,7 +11965,9 @@
           "label": "Category",
           "value": "Hunting"
         }
-      ]
+      ],
+      "nx": 0.5213,
+      "ny": 0.5017
     },
     {
       "id": "an-gray-fox",
@@ -10040,7 +11980,9 @@
           "label": "Category",
           "value": "Hunting"
         }
-      ]
+      ],
+      "nx": 0.5061,
+      "ny": 0.7726
     },
     {
       "id": "an-gulf-coast-box-turtle",
@@ -10053,7 +11995,9 @@
           "label": "Category",
           "value": "Hunting"
         }
-      ]
+      ],
+      "nx": 0.3699,
+      "ny": 0.6507
     },
     {
       "id": "an-leonida-black-bobcat",
@@ -10066,7 +12010,9 @@
           "label": "Category",
           "value": "Hunting"
         }
-      ]
+      ],
+      "nx": 0.3518,
+      "ny": 0.6252
     },
     {
       "id": "an-leonida-bobcat",
@@ -10079,7 +12025,9 @@
           "label": "Category",
           "value": "Hunting"
         }
-      ]
+      ],
+      "nx": 0.3475,
+      "ny": 0.616
     },
     {
       "id": "an-leonida-black-panther",
@@ -10092,7 +12040,9 @@
           "label": "Category",
           "value": "Hunting"
         }
-      ]
+      ],
+      "nx": 0.4804,
+      "ny": 0.7297
     },
     {
       "id": "an-leonida-panther",
@@ -10105,7 +12055,9 @@
           "label": "Category",
           "value": "Hunting"
         }
-      ]
+      ],
+      "nx": 0.3811,
+      "ny": 0.4493
     },
     {
       "id": "an-nile-monitor",
@@ -10118,7 +12070,9 @@
           "label": "Category",
           "value": "Hunting"
         }
-      ]
+      ],
+      "nx": 0.4734,
+      "ny": 0.6719
     },
     {
       "id": "an-nine-banded-armadillo",
@@ -10131,7 +12085,9 @@
           "label": "Category",
           "value": "Hunting"
         }
-      ]
+      ],
+      "nx": 0.508,
+      "ny": 0.6058
     },
     {
       "id": "an-northern-albino-raccoon",
@@ -10144,7 +12100,9 @@
           "label": "Category",
           "value": "Hunting"
         }
-      ]
+      ],
+      "nx": 0.5086,
+      "ny": 0.2752
     },
     {
       "id": "an-northern-silver-coyote",
@@ -10157,7 +12115,9 @@
           "label": "Category",
           "value": "Hunting"
         }
-      ]
+      ],
+      "nx": 0.4998,
+      "ny": 0.6593
     },
     {
       "id": "an-piebald-whitetail-buck",
@@ -10170,7 +12130,9 @@
           "label": "Category",
           "value": "Hunting"
         }
-      ]
+      ],
+      "nx": 0.5113,
+      "ny": 0.7263
     },
     {
       "id": "an-snapping-turtle",
@@ -10183,7 +12145,9 @@
           "label": "Category",
           "value": "Hunting"
         }
-      ]
+      ],
+      "nx": 0.5055,
+      "ny": 0.7186
     },
     {
       "id": "an-white-river-otter",
@@ -10196,7 +12160,9 @@
           "label": "Category",
           "value": "Hunting"
         }
-      ]
+      ],
+      "nx": 0.4521,
+      "ny": 0.3468
     },
     {
       "id": "an-unique-swamp-alligator",
@@ -10209,7 +12175,9 @@
           "label": "Category",
           "value": "Hunting"
         }
-      ]
+      ],
+      "nx": 0.4764,
+      "ny": 0.4564
     },
     {
       "id": "an-unique-black-bear",
@@ -10222,7 +12190,9 @@
           "label": "Category",
           "value": "Hunting"
         }
-      ]
+      ],
+      "nx": 0.5248,
+      "ny": 0.712
     },
     {
       "id": "an-unique-wild-boar",
@@ -10235,7 +12205,9 @@
           "label": "Category",
           "value": "Hunting"
         }
-      ]
+      ],
+      "nx": 0.2846,
+      "ny": 0.3606
     },
     {
       "id": "an-unique-coyote",
@@ -10248,7 +12220,9 @@
           "label": "Category",
           "value": "Hunting"
         }
-      ]
+      ],
+      "nx": 0.5905,
+      "ny": 0.3426
     },
     {
       "id": "an-unique-crocodile",
@@ -10261,7 +12235,9 @@
           "label": "Category",
           "value": "Hunting"
         }
-      ]
+      ],
+      "nx": 0.4738,
+      "ny": 0.7665
     },
     {
       "id": "an-unique-buck",
@@ -10274,7 +12250,9 @@
           "label": "Category",
           "value": "Hunting"
         }
-      ]
+      ],
+      "nx": 0.4312,
+      "ny": 0.1597
     },
     {
       "id": "an-unique-white-fox",
@@ -10287,7 +12265,9 @@
           "label": "Category",
           "value": "Hunting"
         }
-      ]
+      ],
+      "nx": 0.4316,
+      "ny": 0.3905
     },
     {
       "id": "an-unique-panther",
@@ -10300,7 +12280,9 @@
           "label": "Category",
           "value": "Hunting"
         }
-      ]
+      ],
+      "nx": 0.236,
+      "ny": 0.5366
     },
     {
       "id": "an-hunts",
@@ -10322,7 +12304,9 @@
           "label": "Category",
           "value": "Fishing"
         }
-      ]
+      ],
+      "nx": 0.4616,
+      "ny": 0.3945
     },
     {
       "id": "an-black-grouper",
@@ -10335,7 +12319,9 @@
           "label": "Category",
           "value": "Fishing"
         }
-      ]
+      ],
+      "nx": 0.5284,
+      "ny": 0.8683
     },
     {
       "id": "an-lake-chubsucker",
@@ -10348,7 +12334,9 @@
           "label": "Category",
           "value": "Fishing"
         }
-      ]
+      ],
+      "nx": 0.4616,
+      "ny": 0.3945
     },
     {
       "id": "an-largemouth-bass",
@@ -10361,7 +12349,9 @@
           "label": "Category",
           "value": "Fishing"
         }
-      ]
+      ],
+      "nx": 0.4504,
+      "ny": 0.3922
     },
     {
       "id": "an-permit",
@@ -10374,7 +12364,9 @@
           "label": "Category",
           "value": "Fishing"
         }
-      ]
+      ],
+      "nx": 0.5348,
+      "ny": 0.8858
     },
     {
       "id": "an-redbreast-sunfish",
@@ -10387,7 +12379,9 @@
           "label": "Category",
           "value": "Fishing"
         }
-      ]
+      ],
+      "nx": 0.4574,
+      "ny": 0.3924
     },
     {
       "id": "an-fish",
@@ -10409,7 +12403,9 @@
           "label": "Category",
           "value": "Mammals"
         }
-      ]
+      ],
+      "nx": 0.6302,
+      "ny": 0.3923
     },
     {
       "id": "an-bengal-tiger",
@@ -10422,7 +12418,9 @@
           "label": "Category",
           "value": "Mammals"
         }
-      ]
+      ],
+      "nx": 0.5933,
+      "ny": 0.6491
     },
     {
       "id": "an-big-brown-bat",
@@ -10435,7 +12433,9 @@
           "label": "Category",
           "value": "Mammals"
         }
-      ]
+      ],
+      "nx": 0.5366,
+      "ny": 0.2855
     },
     {
       "id": "an-chimpanzee",
@@ -10448,7 +12448,9 @@
           "label": "Category",
           "value": "Mammals"
         }
-      ]
+      ],
+      "nx": 0.6804,
+      "ny": 0.5016
     },
     {
       "id": "an-gulf-coast-sheep",
@@ -10461,7 +12463,9 @@
           "label": "Category",
           "value": "Mammals"
         }
-      ]
+      ],
+      "nx": 0.3781,
+      "ny": 0.2643
     },
     {
       "id": "an-house-mouse",
@@ -10474,7 +12478,9 @@
           "label": "Category",
           "value": "Mammals"
         }
-      ]
+      ],
+      "nx": 0.5326,
+      "ny": 0.6866
     },
     {
       "id": "an-leonida-manatee",
@@ -10487,7 +12493,9 @@
           "label": "Category",
           "value": "Mammals"
         }
-      ]
+      ],
+      "nx": 0.6931,
+      "ny": 0.6132
     },
     {
       "id": "an-orca",
@@ -10500,7 +12508,9 @@
           "label": "Category",
           "value": "Mammals"
         }
-      ]
+      ],
+      "nx": 0.6738,
+      "ny": 0.6038
     },
     {
       "id": "an-american-yorkshire-pig",
@@ -10513,7 +12523,9 @@
           "label": "Category",
           "value": "Mammals"
         }
-      ]
+      ],
+      "nx": 0.4129,
+      "ny": 0.6184
     },
     {
       "id": "an-rhesus-macaque",
@@ -10526,7 +12538,9 @@
           "label": "Category",
           "value": "Mammals"
         }
-      ]
+      ],
+      "nx": 0.6804,
+      "ny": 0.5016
     },
     {
       "id": "an-white-headed-capuchin",
@@ -10539,7 +12553,9 @@
           "label": "Category",
           "value": "Mammals"
         }
-      ]
+      ],
+      "nx": 0.6804,
+      "ny": 0.5016
     },
     {
       "id": "an-mammals",
@@ -10561,7 +12577,9 @@
           "label": "Category",
           "value": "Cats & dogs"
         }
-      ]
+      ],
+      "nx": 0.7571,
+      "ny": 0.4842
     },
     {
       "id": "an-bombay",
@@ -10574,7 +12592,9 @@
           "label": "Category",
           "value": "Cats & dogs"
         }
-      ]
+      ],
+      "nx": 0.3327,
+      "ny": 0.504
     },
     {
       "id": "an-american-foxhound",
@@ -10587,7 +12607,9 @@
           "label": "Category",
           "value": "Cats & dogs"
         }
-      ]
+      ],
+      "nx": 0.5124,
+      "ny": 0.854
     },
     {
       "id": "an-australian-shepherd",
@@ -10600,7 +12622,9 @@
           "label": "Category",
           "value": "Cats & dogs"
         }
-      ]
+      ],
+      "nx": 0.7705,
+      "ny": 0.5521
     },
     {
       "id": "an-belgian-malinois",
@@ -10613,7 +12637,9 @@
           "label": "Category",
           "value": "Cats & dogs"
         }
-      ]
+      ],
+      "nx": 0.7126,
+      "ny": 0.5078
     },
     {
       "id": "an-border-collie",
@@ -10626,7 +12652,9 @@
           "label": "Category",
           "value": "Cats & dogs"
         }
-      ]
+      ],
+      "nx": 0.3459,
+      "ny": 0.3347
     },
     {
       "id": "an-boxer",
@@ -10639,7 +12667,9 @@
           "label": "Category",
           "value": "Cats & dogs"
         }
-      ]
+      ],
+      "nx": 0.7062,
+      "ny": 0.5111
     },
     {
       "id": "an-catahoula-cur",
@@ -10652,7 +12682,9 @@
           "label": "Category",
           "value": "Cats & dogs"
         }
-      ]
+      ],
+      "nx": 0.5675,
+      "ny": 0.6365
     },
     {
       "id": "an-chihuahua",
@@ -10665,7 +12697,9 @@
           "label": "Category",
           "value": "Cats & dogs"
         }
-      ]
+      ],
+      "nx": 0.769,
+      "ny": 0.4452
     },
     {
       "id": "an-french-bulldog",
@@ -10678,7 +12712,9 @@
           "label": "Category",
           "value": "Cats & dogs"
         }
-      ]
+      ],
+      "nx": 0.7041,
+      "ny": 0.5057
     },
     {
       "id": "an-gloriana-dog",
@@ -10691,7 +12727,9 @@
           "label": "Category",
           "value": "Cats & dogs"
         }
-      ]
+      ],
+      "nx": 0.3498,
+      "ny": 0.3109
     },
     {
       "id": "an-labrador-retriever",
@@ -10704,7 +12742,9 @@
           "label": "Category",
           "value": "Cats & dogs"
         }
-      ]
+      ],
+      "nx": 0.6997,
+      "ny": 0.5015
     },
     {
       "id": "an-maltese-dog",
@@ -10717,7 +12757,9 @@
           "label": "Category",
           "value": "Cats & dogs"
         }
-      ]
+      ],
+      "nx": 0.7192,
+      "ny": 0.4598
     },
     {
       "id": "an-rottweiler",
@@ -10730,7 +12772,9 @@
           "label": "Category",
           "value": "Cats & dogs"
         }
-      ]
+      ],
+      "nx": 0.6112,
+      "ny": 0.5308
     },
     {
       "id": "an-standard-poodle",
@@ -10743,7 +12787,9 @@
           "label": "Category",
           "value": "Cats & dogs"
         }
-      ]
+      ],
+      "nx": 0.6095,
+      "ny": 0.534
     },
     {
       "id": "an-yorkshire-terrier",
@@ -10756,7 +12802,9 @@
           "label": "Category",
           "value": "Cats & dogs"
         }
-      ]
+      ],
+      "nx": 0.6976,
+      "ny": 0.5037
     },
     {
       "id": "an-cats-dogs",
@@ -10778,7 +12826,9 @@
           "label": "Category",
           "value": "Reptiles & amphibians"
         }
-      ]
+      ],
+      "nx": 0.5709,
+      "ny": 0.2629
     },
     {
       "id": "an-gopher-tortoise",
@@ -10791,7 +12841,9 @@
           "label": "Category",
           "value": "Reptiles & amphibians"
         }
-      ]
+      ],
+      "nx": 0.6508,
+      "ny": 0.2847
     },
     {
       "id": "an-green-tree-frog",
@@ -10804,7 +12856,9 @@
           "label": "Category",
           "value": "Reptiles & amphibians"
         }
-      ]
+      ],
+      "nx": 0.4999,
+      "ny": 0.5935
     },
     {
       "id": "an-southern-leopard-frog",
@@ -10817,7 +12871,9 @@
           "label": "Category",
           "value": "Reptiles & amphibians"
         }
-      ]
+      ],
+      "nx": 0.4764,
+      "ny": 0.7274
     },
     {
       "id": "an-southern-toad",
@@ -10830,7 +12886,9 @@
           "label": "Category",
           "value": "Reptiles & amphibians"
         }
-      ]
+      ],
+      "nx": 0.5109,
+      "ny": 0.4836
     },
     {
       "id": "an-american-anhinga",
@@ -10843,7 +12901,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.5922,
+      "ny": 0.6001
     },
     {
       "id": "an-american-barn-owl",
@@ -10856,7 +12916,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.3976,
+      "ny": 0.1855
     },
     {
       "id": "an-american-flamingo",
@@ -10869,7 +12931,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.6837,
+      "ny": 0.5048
     },
     {
       "id": "an-american-goldfinch",
@@ -10882,7 +12946,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.535,
+      "ny": 0.179
     },
     {
       "id": "an-american-herring-gull",
@@ -10895,7 +12961,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.5709,
+      "ny": 0.4832
     },
     {
       "id": "an-american-pekin-duck",
@@ -10908,7 +12976,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.4162,
+      "ny": 0.612
     },
     {
       "id": "an-black-capped-chickadee",
@@ -10921,7 +12991,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.5352,
+      "ny": 0.1468
     },
     {
       "id": "an-blue-and-yellow-macaw",
@@ -10934,7 +13006,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.5383,
+      "ny": 0.758
     },
     {
       "id": "an-crested-caracara",
@@ -10947,7 +13021,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.5005,
+      "ny": 0.2889
     },
     {
       "id": "an-cubalaya-chicken",
@@ -10960,7 +13036,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.6075,
+      "ny": 0.5092
     },
     {
       "id": "an-eastern-great-horned-owl",
@@ -10973,7 +13051,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.4293,
+      "ny": 0.4927
     },
     {
       "id": "an-golden-eagle",
@@ -10986,7 +13066,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.4726,
+      "ny": 0.1358
     },
     {
       "id": "an-house-finch",
@@ -10999,7 +13081,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.4971,
+      "ny": 0.1254
     },
     {
       "id": "an-indian-peacock",
@@ -11012,7 +13096,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.599,
+      "ny": 0.6414
     },
     {
       "id": "an-killdeer",
@@ -11025,7 +13111,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.3488,
+      "ny": 0.489
     },
     {
       "id": "an-magnificent-frigatebird",
@@ -11038,7 +13126,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.6592,
+      "ny": 0.6933
     },
     {
       "id": "an-northern-cardinal",
@@ -11051,7 +13141,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.6249,
+      "ny": 0.5782
     },
     {
       "id": "an-northern-gannet",
@@ -11064,7 +13156,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.2559,
+      "ny": 0.249
     },
     {
       "id": "an-northern-mockingbird",
@@ -11077,7 +13171,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.513,
+      "ny": 0.7619
     },
     {
       "id": "an-orchard-oriole",
@@ -11090,7 +13186,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.4969,
+      "ny": 0.1809
     },
     {
       "id": "an-peregrine-falcon",
@@ -11103,7 +13201,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.643,
+      "ny": 0.4821
     },
     {
       "id": "an-purple-gallinule",
@@ -11116,7 +13216,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.4226,
+      "ny": 0.6357
     },
     {
       "id": "an-red-shouldered-hawk",
@@ -11129,7 +13231,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.5097,
+      "ny": 0.49
     },
     {
       "id": "an-rock-pigeon",
@@ -11142,7 +13246,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.5702,
+      "ny": 0.4858
     },
     {
       "id": "an-sanderling",
@@ -11155,7 +13261,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.7818,
+      "ny": 0.4833
     },
     {
       "id": "an-scarlet-macaw",
@@ -11168,7 +13276,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.6837,
+      "ny": 0.5016
     },
     {
       "id": "an-scrub-jay",
@@ -11181,7 +13291,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.3938,
+      "ny": 0.5675
     },
     {
       "id": "an-spot-breasted-oriole",
@@ -11194,7 +13306,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.6085,
+      "ny": 0.5173
     },
     {
       "id": "an-spotted-sandpiper",
@@ -11207,7 +13321,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.6627,
+      "ny": 0.6468
     },
     {
       "id": "an-trumpeter-swan",
@@ -11220,7 +13336,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.5796,
+      "ny": 0.1686
     },
     {
       "id": "an-western-osprey",
@@ -11233,7 +13351,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.5063,
+      "ny": 0.6337
     },
     {
       "id": "an-yellow-crested-cockatoo",
@@ -11246,7 +13366,9 @@
           "label": "Category",
           "value": "Birds"
         }
-      ]
+      ],
+      "nx": 0.6869,
+      "ny": 0.5015
     },
     {
       "id": "an-atlantic-stingray",
@@ -11259,7 +13381,9 @@
           "label": "Category",
           "value": "Aquatic"
         }
-      ]
+      ],
+      "nx": 0.5058,
+      "ny": 0.9019
     },
     {
       "id": "an-blacktip-shark",
@@ -11272,7 +13396,9 @@
           "label": "Category",
           "value": "Aquatic"
         }
-      ]
+      ],
+      "nx": 0.5058,
+      "ny": 0.9019
     },
     {
       "id": "an-blue-land-crab",
@@ -11285,7 +13411,9 @@
           "label": "Category",
           "value": "Aquatic"
         }
-      ]
+      ],
+      "nx": 0.7249,
+      "ny": 0.6014
     },
     {
       "id": "an-giant-oceanic-manta-ray",
@@ -11298,7 +13426,9 @@
           "label": "Category",
           "value": "Aquatic"
         }
-      ]
+      ],
+      "nx": 0.6026,
+      "ny": 0.8343
     },
     {
       "id": "an-koi",
@@ -11311,7 +13441,9 @@
           "label": "Category",
           "value": "Aquatic"
         }
-      ]
+      ],
+      "nx": 0.6738,
+      "ny": 0.6102
     },
     {
       "id": "an-leonida-stone-crab",
@@ -11324,7 +13456,9 @@
           "label": "Category",
           "value": "Aquatic"
         }
-      ]
+      ],
+      "nx": 0.1941,
+      "ny": 0.3957
     },
     {
       "id": "an-yellowtail-damselfish",
@@ -11337,7 +13471,9 @@
           "label": "Category",
           "value": "Aquatic"
         }
-      ]
+      ],
+      "nx": 0.6261,
+      "ny": 0.8447
     },
     {
       "id": "an-aquatic",
@@ -11359,7 +13495,9 @@
           "label": "Category",
           "value": "Other"
         }
-      ]
+      ],
+      "nx": 0.4869,
+      "ny": 0.6689
     },
     {
       "id": "an-mutated-american-crocodile",
@@ -11372,7 +13510,9 @@
           "label": "Category",
           "value": "Other"
         }
-      ]
+      ],
+      "nx": 0.5699,
+      "ny": 0.7155
     },
     {
       "id": "an-mutated-eastern-brown-pelican",
@@ -11385,7 +13525,9 @@
           "label": "Category",
           "value": "Other"
         }
-      ]
+      ],
+      "nx": 0.5749,
+      "ny": 0.7067
     },
     {
       "id": "an-mutated-american-herring-gull",
@@ -11398,7 +13540,9 @@
           "label": "Category",
           "value": "Other"
         }
-      ]
+      ],
+      "nx": 0.577,
+      "ny": 0.7083
     },
     {
       "id": "an-mutated-mottled-duck",
@@ -11411,7 +13555,9 @@
           "label": "Category",
           "value": "Other"
         }
-      ]
+      ],
+      "nx": 0.5659,
+      "ny": 0.4078
     },
     {
       "id": "an-other",
