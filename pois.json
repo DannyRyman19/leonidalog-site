@@ -1,5 +1,5 @@
 {
-  "version": 16,
+  "version": 17,
   "notice": {"id": "early-days-1", "title": "Early days", "body": "GTA VI is brand new and we're still mapping it. Some items are missing, and some lists may change as we check them, so you might need to tick a few things again. We'll post here when the guide is complete."},
   "categories": [
     {
@@ -3127,6 +3127,8 @@
     },
     {
       "id": "pl-sniper",
+      "nx": 0.6225,
+      "ny": 0.4586,
       "title": "The Sniper of La Perle",
       "category": "playlists",
       "spoiler": true,
@@ -3136,6 +3138,8 @@
     },
     {
       "id": "pl-vault",
+      "nx": 0.6286,
+      "ny": 0.5018,
       "title": "The Vault Radio",
       "category": "playlists",
       "spoiler": true,
@@ -3172,6 +3176,8 @@
     },
     {
       "id": "mg-1",
+      "nx": 0.4735,
+      "ny": 0.4916,
       "title": "King Gator Adventure Golf",
       "category": "mini-golf",
       "spoiler": true,
@@ -3190,6 +3196,8 @@
     },
     {
       "id": "mg-3",
+      "nx": 0.4427,
+      "ny": 0.3358,
       "title": "Dino Golf Challenge",
       "category": "mini-golf",
       "spoiler": true,
@@ -3772,6 +3780,8 @@
     },
     {
       "id": "po-2",
+      "nx": 0.5260,
+      "ny": 0.4851,
       "title": "Zotico's",
       "category": "pool",
       "spoiler": true,
@@ -3810,6 +3820,8 @@
     },
     {
       "id": "po-6",
+      "nx": 0.4602,
+      "ny": 0.4765,
       "title": "Kowaachobee Cafe & Bar",
       "category": "pool",
       "spoiler": true,
@@ -3818,6 +3830,8 @@
     },
     {
       "id": "po-7",
+      "nx": 0.5548,
+      "ny": 0.7897,
       "title": "Pool opponent 7",
       "category": "pool",
       "spoiler": true,
@@ -4522,6 +4536,8 @@
     },
     {
       "id": "rc-01",
+      "nx": 0.5195,
+      "ny": 0.2936,
       "title": "Ambrosia Raceway Trial",
       "category": "race-challenges",
       "spoiler": true,
@@ -4538,6 +4554,8 @@
     },
     {
       "id": "rc-03",
+      "nx": 0.5130,
+      "ny": 0.6943,
       "title": "Boone Speedway Trial",
       "category": "race-challenges",
       "spoiler": true,
@@ -4563,6 +4581,8 @@
     },
     {
       "id": "rc-06",
+      "nx": 0.5036,
+      "ny": 0.2060,
       "title": "Kalaga Cycling Trial",
       "category": "race-challenges",
       "spoiler": true,
@@ -4570,6 +4590,8 @@
     },
     {
       "id": "rc-07",
+      "nx": 0.4677,
+      "ny": 0.2819,
       "title": "Mud Club Air Time Stunt Run",
       "category": "race-challenges",
       "spoiler": true,
@@ -4583,6 +4605,8 @@
     },
     {
       "id": "rc-08",
+      "nx": 0.4827,
+      "ny": 0.2774,
       "title": "Mud Club Drag Trial",
       "category": "race-challenges",
       "spoiler": true,
@@ -4596,6 +4620,8 @@
     },
     {
       "id": "rc-09",
+      "nx": 0.4804,
+      "ny": 0.2836,
       "title": "Mud Club Hill Climb Trial",
       "category": "race-challenges",
       "spoiler": true,
@@ -4609,6 +4635,8 @@
     },
     {
       "id": "rc-10",
+      "nx": 0.4554,
+      "ny": 0.3099,
       "title": "Mud Club Dirt Track Trial",
       "category": "race-challenges",
       "spoiler": true,
@@ -4622,6 +4650,8 @@
     },
     {
       "id": "rc-11",
+      "nx": 0.4738,
+      "ny": 0.2771,
       "title": "Mud Club Oval Trial",
       "category": "race-challenges",
       "spoiler": true,
@@ -4635,6 +4665,8 @@
     },
     {
       "id": "rc-12",
+      "nx": 0.4816,
+      "ny": 0.2791,
       "title": "Mud Club Swamp Run Trial",
       "category": "race-challenges",
       "spoiler": true,
@@ -6240,6 +6272,8 @@
     },
     {
       "id": "ur-01",
+      "nx": 0.6021,
+      "ny": 0.5470,
       "title": "Vice City street race, Salton (1 of 3)",
       "category": "unique-races",
       "subgroup": "Vice City street races",
@@ -6249,6 +6283,8 @@
     },
     {
       "id": "ur-02",
+      "nx": 0.6018,
+      "ny": 0.5472,
       "title": "Vice City street race, Salton (2 of 3)",
       "category": "unique-races",
       "subgroup": "Vice City street races",
@@ -6258,6 +6294,8 @@
     },
     {
       "id": "ur-03",
+      "nx": 0.6020,
+      "ny": 0.5471,
       "title": "Vice City street race, Salton (3 of 3)",
       "category": "unique-races",
       "subgroup": "Vice City street races",
@@ -6267,6 +6305,8 @@
     },
     {
       "id": "ur-04",
+      "nx": 0.6367,
+      "ny": 0.4288,
       "title": "Vice City street race, La Perle (1 of 2)",
       "category": "unique-races",
       "subgroup": "Vice City street races",
@@ -6276,6 +6316,8 @@
     },
     {
       "id": "ur-05",
+      "nx": 0.6370,
+      "ny": 0.4289,
       "title": "Vice City street race, La Perle (2 of 2)",
       "category": "unique-races",
       "subgroup": "Vice City street races",
@@ -6285,6 +6327,8 @@
     },
     {
       "id": "ur-06",
+      "nx": 0.7403,
+      "ny": 0.4590,
       "title": "Vice City street race, Ocean Beach (1 of 2)",
       "category": "unique-races",
       "subgroup": "Vice City street races",
@@ -6294,6 +6338,8 @@
     },
     {
       "id": "ur-07",
+      "nx": 0.7402,
+      "ny": 0.4590,
       "title": "Vice City street race, Ocean Beach (2 of 2)",
       "category": "unique-races",
       "subgroup": "Vice City street races",
@@ -6303,6 +6349,8 @@
     },
     {
       "id": "ur-08",
+      "nx": 0.7024,
+      "ny": 0.6170,
       "title": "Vice City street race, Gloriana Key (1 of 2)",
       "category": "unique-races",
       "subgroup": "Vice City street races",
@@ -6312,6 +6360,8 @@
     },
     {
       "id": "ur-09",
+      "nx": 0.7025,
+      "ny": 0.6171,
       "title": "Vice City street race, Gloriana Key (2 of 2)",
       "category": "unique-races",
       "subgroup": "Vice City street races",
@@ -6321,6 +6371,8 @@
     },
     {
       "id": "ur-10",
+      "nx": 0.3792,
+      "ny": 0.1982,
       "title": "Animal Crackers, Grayson (1 of 2)",
       "category": "unique-races",
       "subgroup": "Animal Crackers",
@@ -6330,6 +6382,8 @@
     },
     {
       "id": "ur-11",
+      "nx": 0.3794,
+      "ny": 0.1982,
       "title": "Animal Crackers, Grayson (2 of 2)",
       "category": "unique-races",
       "subgroup": "Animal Crackers",
@@ -6375,6 +6429,8 @@
     },
     {
       "id": "ur-16",
+      "nx": 0.4322,
+      "ny": 0.6500,
       "title": "Animal Crackers, Big Pine (1 of 2)",
       "category": "unique-races",
       "subgroup": "Animal Crackers",
@@ -6384,6 +6440,8 @@
     },
     {
       "id": "ur-17",
+      "nx": 0.4320,
+      "ny": 0.6499,
       "title": "Animal Crackers, Big Pine (2 of 2)",
       "category": "unique-races",
       "subgroup": "Animal Crackers",
@@ -6514,6 +6572,8 @@
     },
     {
       "id": "ur-29",
+      "nx": 0.5076,
+      "ny": 0.7003,
       "title": "Boone Speedway elimination race (1 of 2)",
       "category": "unique-races",
       "subgroup": "Boone Speedway",
@@ -6523,6 +6583,8 @@
     },
     {
       "id": "ur-30",
+      "nx": 0.5078,
+      "ny": 0.7005,
       "title": "Boone Speedway elimination race (2 of 2)",
       "category": "unique-races",
       "subgroup": "Boone Speedway",
@@ -6532,6 +6594,8 @@
     },
     {
       "id": "ur-31",
+      "nx": 0.5232,
+      "ny": 0.2858,
       "title": "Ambrosia Raceway demolition race (1 of 2)",
       "category": "unique-races",
       "subgroup": "Ambrosia Raceway",
@@ -6541,6 +6605,8 @@
     },
     {
       "id": "ur-32",
+      "nx": 0.5235,
+      "ny": 0.2859,
       "title": "Ambrosia Raceway demolition race (2 of 2)",
       "category": "unique-races",
       "subgroup": "Ambrosia Raceway",
@@ -6550,6 +6616,8 @@
     },
     {
       "id": "ur-33",
+      "nx": 0.4657,
+      "ny": 0.2928,
       "title": "Mud Club dirt track race (1 of 6)",
       "category": "unique-races",
       "subgroup": "Mud Club",
@@ -6559,6 +6627,8 @@
     },
     {
       "id": "ur-34",
+      "nx": 0.4650,
+      "ny": 0.2931,
       "title": "Mud Club dirt track race (2 of 6)",
       "category": "unique-races",
       "subgroup": "Mud Club",
@@ -6568,6 +6638,8 @@
     },
     {
       "id": "ur-35",
+      "nx": 0.4652,
+      "ny": 0.2931,
       "title": "Mud Club dirt track race (3 of 6)",
       "category": "unique-races",
       "subgroup": "Mud Club",
@@ -6577,6 +6649,8 @@
     },
     {
       "id": "ur-36",
+      "nx": 0.4659,
+      "ny": 0.2924,
       "title": "Mud Club dirt track race (4 of 6)",
       "category": "unique-races",
       "subgroup": "Mud Club",
@@ -6586,6 +6660,8 @@
     },
     {
       "id": "ur-37",
+      "nx": 0.4654,
+      "ny": 0.2930,
       "title": "Mud Club dirt track race (5 of 6)",
       "category": "unique-races",
       "subgroup": "Mud Club",
@@ -6595,6 +6671,8 @@
     },
     {
       "id": "ur-38",
+      "nx": 0.4658,
+      "ny": 0.2926,
       "title": "Mud Club dirt track race (6 of 6)",
       "category": "unique-races",
       "subgroup": "Mud Club",
@@ -6604,6 +6682,8 @@
     },
     {
       "id": "ur-39",
+      "nx": 0.4717,
+      "ny": 0.2778,
       "title": "Mud Club oval track race (1 of 2)",
       "category": "unique-races",
       "subgroup": "Mud Club",
@@ -6613,6 +6693,8 @@
     },
     {
       "id": "ur-40",
+      "nx": 0.4715,
+      "ny": 0.2777,
       "title": "Mud Club oval track race (2 of 2)",
       "category": "unique-races",
       "subgroup": "Mud Club",
@@ -6622,6 +6704,8 @@
     },
     {
       "id": "dt-01-1",
+      "nx": 0.5558,
+      "ny": 0.6927,
       "title": "Deep Roots",
       "category": "drone-trials",
       "subgroup": "Hamlet",
@@ -6631,6 +6715,8 @@
     },
     {
       "id": "dt-01-2",
+      "nx": 0.5560,
+      "ny": 0.6926,
       "title": "Power Station South",
       "category": "drone-trials",
       "subgroup": "Hamlet",
@@ -6640,6 +6726,8 @@
     },
     {
       "id": "dt-01-3",
+      "nx": 0.5563,
+      "ny": 0.6926,
       "title": "Power Station North",
       "category": "drone-trials",
       "subgroup": "Hamlet",
@@ -6649,6 +6737,8 @@
     },
     {
       "id": "dt-02-1",
+      "nx": 0.4650,
+      "ny": 0.6728,
       "title": "Leonida RC Raceway",
       "category": "drone-trials",
       "subgroup": "Watson Bay",
@@ -6658,6 +6748,8 @@
     },
     {
       "id": "dt-02-2",
+      "nx": 0.4652,
+      "ny": 0.6727,
       "title": "Watson Bay",
       "category": "drone-trials",
       "subgroup": "Watson Bay",
@@ -6667,6 +6759,8 @@
     },
     {
       "id": "dt-02-3",
+      "nx": 0.4655,
+      "ny": 0.6727,
       "title": "Marshland Animal Park",
       "category": "drone-trials",
       "subgroup": "Watson Bay",
@@ -6676,6 +6770,8 @@
     },
     {
       "id": "dt-03-1",
+      "nx": 0.3429,
+      "ny": 0.5034,
       "title": "Capri Train Station",
       "category": "drone-trials",
       "subgroup": "Capri",
@@ -6685,6 +6781,8 @@
     },
     {
       "id": "dt-03-2",
+      "nx": 0.3432,
+      "ny": 0.5034,
       "title": "Ravella Drive",
       "category": "drone-trials",
       "subgroup": "Capri",
@@ -6694,6 +6792,8 @@
     },
     {
       "id": "dt-03-3",
+      "nx": 0.3435,
+      "ny": 0.5034,
       "title": "Capri Lake",
       "category": "drone-trials",
       "subgroup": "Capri",
@@ -6703,6 +6803,8 @@
     },
     {
       "id": "dt-04-1",
+      "nx": 0.4562,
+      "ny": 0.4810,
       "title": "Kowaachobee Village",
       "category": "drone-trials",
       "subgroup": "Buckskin Swamp",
@@ -6712,6 +6814,8 @@
     },
     {
       "id": "dt-04-2",
+      "nx": 0.4565,
+      "ny": 0.4810,
       "title": "Swampy Sal's Safari Park",
       "category": "drone-trials",
       "subgroup": "Buckskin Swamp",
@@ -6721,6 +6825,8 @@
     },
     {
       "id": "dt-04-3",
+      "nx": 0.4568,
+      "ny": 0.4810,
       "title": "Camp Moonflower",
       "category": "drone-trials",
       "subgroup": "Buckskin Swamp",
@@ -6730,6 +6836,8 @@
     },
     {
       "id": "dt-05-1",
+      "nx": 0.5247,
+      "ny": 0.4875,
       "title": "Navitrak",
       "category": "drone-trials",
       "subgroup": "Balsero",
@@ -6739,6 +6847,8 @@
     },
     {
       "id": "dt-05-2",
+      "nx": 0.5249,
+      "ny": 0.4875,
       "title": "Apollo Aggregates",
       "category": "drone-trials",
       "subgroup": "Balsero",
@@ -6748,6 +6858,8 @@
     },
     {
       "id": "dt-05-3",
+      "nx": 0.5251,
+      "ny": 0.4874,
       "title": "Tisha-Wocka Flea Market",
       "category": "drone-trials",
       "subgroup": "Balsero",
@@ -6757,6 +6869,8 @@
     },
     {
       "id": "dt-06-1",
+      "nx": 0.6705,
+      "ny": 0.5187,
       "title": "Future Leonida Art Museum",
       "category": "drone-trials",
       "subgroup": "Downtown",
@@ -6766,6 +6880,8 @@
     },
     {
       "id": "dt-06-2",
+      "nx": 0.6708,
+      "ny": 0.5185,
       "title": "Shoreline Market",
       "category": "drone-trials",
       "subgroup": "Downtown",
@@ -6775,6 +6891,8 @@
     },
     {
       "id": "dt-06-3",
+      "nx": 0.6710,
+      "ny": 0.5184,
       "title": "Wildland Zoo",
       "category": "drone-trials",
       "subgroup": "Downtown",
@@ -6784,6 +6902,8 @@
     },
     {
       "id": "dt-07-1",
+      "nx": 0.7577,
+      "ny": 0.5694,
       "title": "Avarice Petroleum",
       "category": "drone-trials",
       "subgroup": "Dalton Island",
@@ -6793,6 +6913,8 @@
     },
     {
       "id": "dt-07-2",
+      "nx": 0.7579,
+      "ny": 0.5693,
       "title": "The Jamaica",
       "category": "drone-trials",
       "subgroup": "Dalton Island",
@@ -6802,6 +6924,8 @@
     },
     {
       "id": "dt-07-3",
+      "nx": 0.7581,
+      "ny": 0.5693,
       "title": "Ivory Towers",
       "category": "drone-trials",
       "subgroup": "Dalton Island",
@@ -6811,6 +6935,8 @@
     },
     {
       "id": "dt-08-1",
+      "nx": 0.7370,
+      "ny": 0.4131,
       "title": "Leaf Links",
       "category": "drone-trials",
       "subgroup": "Vice Beach",
@@ -6820,6 +6946,8 @@
     },
     {
       "id": "dt-08-2",
+      "nx": 0.7371,
+      "ny": 0.4131,
       "title": "Vice Regal Hotel",
       "category": "drone-trials",
       "subgroup": "Vice Beach",
@@ -6829,6 +6957,8 @@
     },
     {
       "id": "dt-08-3",
+      "nx": 0.7371,
+      "ny": 0.4130,
       "title": "St. Vitus Medical Center",
       "category": "drone-trials",
       "subgroup": "Vice Beach",
@@ -6838,6 +6968,8 @@
     },
     {
       "id": "dt-09-1",
+      "nx": 0.6542,
+      "ny": 0.3434,
       "title": "Hot Skidz",
       "category": "drone-trials",
       "subgroup": "Waning Sands",
@@ -6847,6 +6979,8 @@
     },
     {
       "id": "dt-09-2",
+      "nx": 0.6544,
+      "ny": 0.3434,
       "title": "Thundergolf",
       "category": "drone-trials",
       "subgroup": "Waning Sands",
@@ -6856,6 +6990,8 @@
     },
     {
       "id": "dt-09-3",
+      "nx": 0.6547,
+      "ny": 0.3434,
       "title": "Evergreen Mall",
       "category": "drone-trials",
       "subgroup": "Waning Sands",
@@ -6865,6 +7001,8 @@
     },
     {
       "id": "dt-10-1",
+      "nx": 0.5341,
+      "ny": 0.3645,
       "title": "Captain O'Malley Marina",
       "category": "drone-trials",
       "subgroup": "Ambrosia",
@@ -6874,6 +7012,8 @@
     },
     {
       "id": "dt-10-2",
+      "nx": 0.5343,
+      "ny": 0.3643,
       "title": "Allied Crystal",
       "category": "drone-trials",
       "subgroup": "Ambrosia",
@@ -6883,6 +7023,8 @@
     },
     {
       "id": "dt-10-3",
+      "nx": 0.5346,
+      "ny": 0.3642,
       "title": "Waste Transfer Services",
       "category": "drone-trials",
       "subgroup": "Ambrosia",
@@ -6892,6 +7034,8 @@
     },
     {
       "id": "dt-11-1",
+      "nx": 0.3868,
+      "ny": 0.2758,
       "title": "Manifest Canyon",
       "category": "drone-trials",
       "subgroup": "Port Gellhorn",
@@ -6901,6 +7045,8 @@
     },
     {
       "id": "dt-11-2",
+      "nx": 0.3869,
+      "ny": 0.2758,
       "title": "Red Apple Orchard",
       "category": "drone-trials",
       "subgroup": "Port Gellhorn",
@@ -6910,6 +7056,8 @@
     },
     {
       "id": "dt-11-3",
+      "nx": 0.3870,
+      "ny": 0.2758,
       "title": "Port Gellhorn",
       "category": "drone-trials",
       "subgroup": "Port Gellhorn",
@@ -6919,6 +7067,8 @@
     },
     {
       "id": "dt-12-1",
+      "nx": 0.2959,
+      "ny": 0.2753,
       "title": "Draper Island Terminal",
       "category": "drone-trials",
       "subgroup": "Draper Island",
@@ -6927,6 +7077,8 @@
     },
     {
       "id": "dt-12-2",
+      "nx": 0.2963,
+      "ny": 0.2750,
       "title": "Draper Refinery East",
       "category": "drone-trials",
       "subgroup": "Draper Island",
@@ -6935,6 +7087,8 @@
     },
     {
       "id": "dt-12-3",
+      "nx": 0.2966,
+      "ny": 0.2749,
       "title": "Draper Refinery West",
       "category": "drone-trials",
       "subgroup": "Draper Island",
@@ -6943,6 +7097,8 @@
     },
     {
       "id": "dt-13-1",
+      "nx": 0.4919,
+      "ny": 0.1495,
       "title": "Abandoned Mining Pit",
       "category": "drone-trials",
       "subgroup": "Moreau Sawmill",
@@ -6952,6 +7108,8 @@
     },
     {
       "id": "dt-13-2",
+      "nx": 0.4922,
+      "ny": 0.1496,
       "title": "Adler Creek",
       "category": "drone-trials",
       "subgroup": "Moreau Sawmill",
@@ -6961,6 +7119,8 @@
     },
     {
       "id": "dt-13-3",
+      "nx": 0.4924,
+      "ny": 0.1498,
       "title": "Macalister Gold Mine",
       "category": "drone-trials",
       "subgroup": "Moreau Sawmill",
@@ -6970,6 +7130,8 @@
     },
     {
       "id": "dt-14-1",
+      "nx": 0.6323,
+      "ny": 0.2185,
       "title": "Millport",
       "category": "drone-trials",
       "subgroup": "Millport",
@@ -6979,6 +7141,8 @@
     },
     {
       "id": "dt-14-2",
+      "nx": 0.6320,
+      "ny": 0.2182,
       "title": "Rushwood Logging",
       "category": "drone-trials",
       "subgroup": "Millport",
@@ -6988,6 +7152,8 @@
     },
     {
       "id": "dt-14-3",
+      "nx": 0.6319,
+      "ny": 0.2181,
       "title": "Tallaloko Lakeside Resort",
       "category": "drone-trials",
       "subgroup": "Millport",
