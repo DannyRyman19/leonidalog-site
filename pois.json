@@ -1,5 +1,5 @@
 {
-  "version": 21,
+  "version": 22,
   "notice": {
     "id": "early-days-1",
     "title": "Early days",
@@ -5787,6 +5787,15 @@
       "spoiler": true,
       "guide": "Key Lento: the party house in the island's southeast corner.",
       "region": "Mariana County"
+    },
+    {
+      "id": "mz-23",
+      "title": "11:59 Survivalist Culture",
+      "category": "magazines",
+      "subgroup": "Lummox County",
+      "spoiler": true,
+      "guide": "Mount Kalaga National Park: in the woods east of Kalaga Reservoir, near Dawson Dam. Climb the ladder to the lookout on the camouflaged metal bridge; the Laird 350 rifle is up there too.",
+      "region": "Lummox County"
     },
     {
       "id": "bs-1",
@@ -20100,7 +20109,8 @@
           "wl-sky-ride",
           "wl-hoffman-observatory",
           "wc-fingerpost",
-          "ws-fatal-incursion-plaque"
+          "ws-fatal-incursion-plaque",
+          "ws-the-wonder-whale"
         ]
       },
       "tr-15": {
