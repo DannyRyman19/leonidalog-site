@@ -1,5 +1,5 @@
 {
-  "version": 28,
+  "version": 29,
   "notice": {
     "id": "early-days-1",
     "title": "Early days",
@@ -12090,6 +12090,7 @@
       "title": "Derelict Spy Vessel",
       "category": "waink",
       "subgroup": "Landmarks",
+      "guide": "Scan it with WAiNK: the wrecked ship sits on the south side of the easternmost island in the small chain east of Southwind and Abismo Key (menu number not known yet).",
       "spoiler": true,
       "region": "Mariana County",
       "nx": 0.3886,
