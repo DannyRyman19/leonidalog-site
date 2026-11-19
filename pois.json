@@ -1,5 +1,6 @@
 {
-  "version": 15,
+  "version": 16,
+  "notice": {"id": "early-days-1", "title": "Early days", "body": "GTA VI is brand new and we're still mapping it. Some items are missing, and some lists may change as we check them, so you might need to tick a few things again. We'll post here when the guide is complete."},
   "categories": [
     {
       "id": "landmark",
