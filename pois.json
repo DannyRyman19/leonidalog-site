@@ -1,5 +1,5 @@
 {
-  "version": 45,
+  "version": 51,
   "ads": {
     "rewarded": true,
     "interstitial": true
@@ -218,7 +218,7 @@
       "symbol": "books.vertical.fill",
       "colorHex": "C68BFF",
       "verb": "found",
-      "intro": "7 little book swap boxes. They count with magazines, books and comics towards 100%. More are added as guides find them.",
+      "intro": "7 little book swap boxes. They count with magazines, books and comics towards 100%.",
       "collectible": true
     },
     {
@@ -236,7 +236,7 @@
       "symbol": "car.side.fill",
       "colorHex": "FFB547",
       "verb": "landed",
-      "intro": "128 of the game's 130 stunt jumps so far. They count towards the stunts line of 100% (300 of 397 stunts, with under the bridges, knife flights and base jumps). More are added as guides find them. Stunt jumps also count towards the Cunning Stunts trophy (250 stunts).",
+      "intro": "All 130 stunt jumps. They count towards the stunts line of 100% (300 of 397 stunts, with under the bridges, knife flights and base jumps). Stunt jumps also count towards the Cunning Stunts trophy (250 stunts).",
       "collectible": true
     },
     {
@@ -275,7 +275,7 @@
       "symbol": "basketball.fill",
       "colorHex": "FF8A3D",
       "verb": "scored",
-      "intro": "100 basketball hoops around Leonida; 100% needs a score at 90 different ones. The same hoop twice only counts once. More are added as guides find them.",
+      "intro": "100 basketball hoops around Leonida; 100% needs a score at 90 different ones. The same hoop twice only counts once.",
       "collectible": true,
       "complete": true
     },
@@ -303,7 +303,7 @@
       "symbol": "flame.fill",
       "colorHex": "7BD389",
       "verb": "cleared",
-      "intro": "39 illegal gang operations to clear. They open up through the story as you meet each gang. 100% needs all 39. Names stay hidden until you've done them. More are added as guides find them.",
+      "intro": "39 illegal gang operations to clear. They open up through the story as you meet each gang. 100% needs all 39. Names stay hidden until you've done them.",
       "complete": true
     },
     {
@@ -341,7 +341,7 @@
       "verb": "discovered",
       "chapterOrdered": true,
       "collectible": true,
-      "intro": "The game's Vehicles log, section by section, with each model's base stats. A vehicle is discovered once you've scanned it with WAiNK or been in it. Cars and service vehicles come in 15 classes; bikes, watercraft and aircraft are one list each. That's 277 models, and the game's 100% checklist needs 200 base models. Each section ends with a counter for the ones not listed yet. The Standout sets aren't here yet. The Whip It Good trophy needs 100."
+      "intro": "The game's Vehicles log, section by section, with each model's base stats where we have them. A vehicle is discovered once you've scanned it with WAiNK or been in it. Cars and service vehicles come in 15 classes; bikes, watercraft and aircraft are one list each. That's 277 models, and the game's 100% checklist needs 200 base models. 211 have their own row so far, and each section ends with a counter for the ones not listed yet. The Standout sets aren't here yet. The Whip It Good trophy needs 100."
     },
     {
       "id": "standout-vehicles",
@@ -370,7 +370,7 @@
       "verb": "discovered",
       "chapterOrdered": true,
       "collectible": true,
-      "intro": "The game's Weapons log, tab by tab, with each gun's stats as the log shows them. The log has four tabs: Guns (53 slots), Melee (9), Explosives (4) and Variants (130). The game's 100% checklist needs 50 of the 66 standard issue weapons (guns, melee and explosives); variants are extra. Each tab ends with a counter for the ones not listed yet."
+      "intro": "The game's Weapons log, tab by tab, with each gun's stats as the log shows them. The log has four tabs: Guns (53 slots), Melee (9), Explosives (4) and Variants (130). The game's 100% checklist needs 50 of the 66 standard issue weapons (guns, melee and explosives); variants are extra. Every gun and explosive has its own row now, along with 6 melee weapons and 14 variants so far; each tab ends with a counter for the ones not listed yet."
     },
     {
       "id": "kenton-sets",
@@ -1051,7 +1051,7 @@
           "value": "15"
         }
       ],
-      "revealedGuide": "Hunt a unique animal for Bret Vogel. Jason only: Bret texts after the chapter 2 mission Coffee Break, and his first mission in Lummox County gives you his hunting rifle. Which animal pops it isn't confirmed yet, but it comes while working through his 15 target decks, which 100% needs anyway."
+      "revealedGuide": "Hunt a unique animal for Bret Vogel. Jason only: Bret texts after the chapter 2 mission Coffee Break, and his first mission in Lummox County gives you his hunting rifle. Which animal pops it isn't confirmed yet, but it comes while working through his 15 target decks, which 100% needs anyway. You can track the decks under Map > Activities > Target Deck."
     },
     {
       "id": "tr-30",
@@ -1384,7 +1384,7 @@
         }
       ],
       "revealedTitle": "Bad Luck, I Guess",
-      "revealedGuide": "Not worked out yet. Guides think it's tied to the payday loan store from the prologue, in Little Cuba, robbed again in some particular way."
+      "revealedGuide": "Rob the Little Cuba payday loan store again as Lucia, on her own without Jason, once the chapter 3 mission Credit Check has unlocked payday loan robberies. Hold up the teller, take out the guards, break through the door and empty all 3 cash drawers, then get away on foot rather than in a vehicle. The trophy only pops once you're out of the search area and well clear."
     },
     {
       "id": "tr-50",
@@ -1434,7 +1434,7 @@
           "value": "20"
         }
       ],
-      "revealedGuide": "Launder $250,000 of marked bills through fences, over as many trips as you like. The Dye Pack Jammer comes with the chapter 3 mission Credit Check. Then rob banks and payday loans and take the marked bills to a fence; Yasmani pays the most."
+      "revealedGuide": "Launder $250,000 of marked bills through fences, over as many trips as you like. The Dye Pack Jammer comes with the chapter 3 mission Credit Check. Then rob banks and payday loans and take the marked bills to a fence; Yasmani pays the most. Bank vaults pay the most, up to $205,000 in a single robbery, once the chapter 4 optional mission That's Where The Money Is is done."
     },
     {
       "id": "tr-53",
@@ -2858,6 +2858,17 @@
       "revealedTitle": "Deliver Packages",
       "revealedGivenBy": "Pilot Pete",
       "revealedGuide": "Pilot Pete's strand, mission 5 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only. Each run has 7 drops and about 2 hours to finish all of them. Entering a red circle gets you a wanted level. Each run pays $20,000. The Southpoint and Avery Allen runs can be done in either order."
+    },
+    {
+      "id": "sf-40",
+      "title": "Side mission 40",
+      "category": "stranger-missions",
+      "givenBy": "Strand 15",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 15. Unlocks in chapter 1.",
+      "revealedTitle": "Search the Dive Sites",
+      "revealedGivenBy": "Kenton",
+      "revealedGuide": "Kenton's strand. Unlocks in chapter 1. Dive the shipwreck sites with the metal detector and bring Kenton the treasures you find; the Kenton sets list has every treasure and where to search. Whether it counts towards the Strangers & Freaks trophy isn't confirmed yet."
     },
     {
       "id": "tk-optional-tasks",
@@ -6728,6 +6739,9 @@
       "category": "cards",
       "subgroup": "Delights Dancers",
       "spoiler": true,
+      "nx": 0.3509,
+      "ny": 0.3484,
+      "region": "Kelly County",
       "guide": "One of the 18 cards in the Delights Dancers set. Follow the map pin."
     },
     {
@@ -7182,6 +7196,7 @@
     },
     {
       "id": "cd-14-32",
+      "imageURL": "https://leonidalog.app/images/cards/cd-14-32.jpg",
       "title": "Vanessa - Gold",
       "category": "cards",
       "subgroup": "Jack of Hearts Dancers",
@@ -7189,7 +7204,7 @@
       "nx": 0.6501,
       "ny": 0.4639,
       "region": "Vice-Dale County",
-      "guide": "One of the 36 cards in the Jack of Hearts Dancers set. Follow the map pin."
+      "guide": "One of the 36 cards in the Jack of Hearts Dancers set. Back room of the liquor store, in the safe: the code is 7869. It's also in an email on the computer there (password stormyfeet7; the pictures and the mannequin legs are the clue)."
     },
     {
       "id": "cd-14-33",
@@ -7428,6 +7443,9 @@
       "category": "cards",
       "subgroup": "Nine1Nine Dancers",
       "spoiler": true,
+      "nx": 0.3931,
+      "ny": 0.8265,
+      "region": "Mariana County",
       "guide": "One of the 36 cards in the Nine1Nine Dancers set. Follow the map pin."
     },
     {
@@ -11814,8 +11832,10 @@
       "category": "magazines",
       "subgroup": "Mariana County",
       "spoiler": true,
-      "guide": "Key Lento: inside a house in the north-middle of the island; you have to break in.",
-      "region": "Mariana County"
+      "guide": "Key Lento: on the dining table in the white waterfront house on Sunset Drive, in the southwest of the island; you have to break in. Other copies: the lone modular house at the logging camp southeast of Lake Tallaloko (Millport), and the couch in a red and white mobile home near Gellhorn Avenue, west Port Gellhorn.",
+      "region": "Mariana County",
+      "nx": 0.5287,
+      "ny": 0.8386
     },
     {
       "id": "mz-22",
@@ -11823,8 +11843,10 @@
       "category": "magazines",
       "subgroup": "Mariana County",
       "spoiler": true,
-      "guide": "Key Lento: the party house in the island's southeast corner.",
-      "region": "Mariana County"
+      "guide": "Key Lento: on the bed in the party house on Dolphin Drive. Other copies: a crate in a detached garage full of mannequins at a mansion on Palladia Lane (south Peacock Estates), and the magazine rack of the closed Cougar's Cave adult store on Cargo Road (southeast Buckskin Swamp).",
+      "region": "Mariana County",
+      "nx": 0.5768,
+      "ny": 0.7943
     },
     {
       "id": "mz-23",
@@ -11832,8 +11854,43 @@
       "category": "magazines",
       "subgroup": "Lummox County",
       "spoiler": true,
-      "guide": "Mount Kalaga National Park: in the woods east of Kalaga Reservoir, near Dawson Dam. Climb the ladder to the lookout on the camouflaged metal bridge; the Laird 350 rifle is up there too.",
-      "region": "Lummox County"
+      "guide": "Mount Kalaga National Park: in the woods east of Kalaga Reservoir, near Dawson Dam. Climb the ladder to the lookout on the camouflaged metal bridge; the Laird 350 rifle is up there too. Another copy: the workbench at the back of the garage of the big mansion on the north side of the southern Peacock Estates island.",
+      "region": "Lummox County",
+      "nx": 0.5391,
+      "ny": 0.1881
+    },
+    {
+      "id": "mz-24",
+      "title": "Endowed",
+      "category": "magazines",
+      "subgroup": "Vice Beach",
+      "spoiler": true,
+      "nx": 0.6916,
+      "ny": 0.4568,
+      "guide": "Vespucci Island: on a cabinet in the corner room on the top floor of the big modern mansion in the island's northwest. Other copies: a bookshelf in the living room of a white lakeside villa in south Waning Sands, and the couch by the pool behind the big mansion on the north edge of Leaf Links.",
+      "region": "Vice Beach"
+    },
+    {
+      "id": "mz-25",
+      "title": "Drive Shaft",
+      "category": "magazines",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "nx": 0.3047,
+      "ny": 0.2684,
+      "guide": "Draper Island: on a pallet of beer at the back of a locked yellow shipping container, on top of the stacked containers by the railroad in the middle of the island. Other copies: the garage counter of a big villa on Neptune Circle (south Vespucci Island), and the main office table at Dolos Exotic Car Rental on North Vice Avenue (Crosstown).",
+      "region": "Kelly County"
+    },
+    {
+      "id": "mz-26",
+      "title": "Manly Gaze",
+      "category": "magazines",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "nx": 0.3785,
+      "ny": 0.2649,
+      "guide": "Manifest Canyon: on a barrel in the small back room of Farmer Scrumpy's Red Apple Orchard, near SR-73 in the west of the canyon.",
+      "region": "Kelly County"
     },
     {
       "id": "bs-1",
@@ -12923,13 +12980,13 @@
     },
     {
       "id": "sj-009",
-      "title": "The VCIA storage facility",
+      "title": "DTH Depot Parking",
       "category": "stunt-jumps",
       "subgroup": "Vice-Dale County",
       "spoiler": true,
-      "nx": 0.589,
-      "ny": 0.59,
-      "guide": "The VCIA storage facility.",
+      "nx": 0.5788,
+      "ny": 0.5895,
+      "guide": "The roof parking at the end of the DTH warehouse in southeast VCIA, over onto the Sahara warehouse roof.",
       "region": "Vice-Dale County"
     },
     {
@@ -12956,13 +13013,13 @@
     },
     {
       "id": "sj-012",
-      "title": "Apollo Aggregates, south section",
+      "title": "Leone Street",
       "category": "stunt-jumps",
       "subgroup": "Vice-Dale County",
       "spoiler": true,
-      "nx": 0.573,
-      "ny": 0.487,
-      "guide": "Apollo Aggregates, south section.",
+      "nx": 0.5668,
+      "ny": 0.476,
+      "guide": "Leone Street on the north side of Balsero, over the river onto SR-120.",
       "region": "Vice-Dale County"
     },
     {
@@ -12978,13 +13035,13 @@
     },
     {
       "id": "sj-014",
-      "title": "Nolan Center parking lot",
+      "title": "Vice Beach Park In",
       "category": "stunt-jumps",
       "subgroup": "Vice-Dale County",
       "spoiler": true,
-      "nx": 0.744,
-      "ny": 0.466,
-      "guide": "Nolan Center parking lot.",
+      "nx": 0.7587,
+      "ny": 0.4702,
+      "guide": "The corner of the top level of the City Picnic Market parking garage, Thompson Avenue and D Street, Vice Beach.",
       "region": "Vice-Dale County"
     },
     {
@@ -14140,6 +14197,26 @@
       "region": "Lummox County",
       "nx": 0.6268,
       "ny": 0.1868
+    },
+    {
+      "id": "sj-port-gellhorn-center-of-praise-purpose",
+      "title": "Port Gellhorn Center of Praise & Purpose",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.3582,
+      "ny": 0.3272
+    },
+    {
+      "id": "sj-gellhorn-pylons",
+      "title": "Gellhorn Pylons",
+      "category": "stunt-jumps",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "region": "Kelly County",
+      "nx": 0.3635,
+      "ny": 0.4684
     },
     {
       "id": "bx-001",
@@ -18301,6 +18378,8 @@
     },
     {
       "id": "ur-12",
+      "nx": 0.5132,
+      "ny": 0.1778,
       "title": "Animal Crackers, Redshaw's (1 of 2)",
       "category": "unique-races",
       "subgroup": "Animal Crackers",
@@ -18311,6 +18390,8 @@
     },
     {
       "id": "ur-13",
+      "nx": 0.5134,
+      "ny": 0.1776,
       "title": "Animal Crackers, Redshaw's (2 of 2)",
       "category": "unique-races",
       "subgroup": "Animal Crackers",
@@ -18321,22 +18402,26 @@
     },
     {
       "id": "ur-14",
+      "nx": 0.5976,
+      "ny": 0.2012,
       "title": "Animal Crackers, Ranchers (1 of 2)",
       "category": "unique-races",
       "subgroup": "Animal Crackers",
       "spoiler": true,
       "guide": "Win it.",
-      "region": "Mariana County",
+      "region": "Lummox County",
       "imageURL": "https://leonidalog.app/images/unique-races/ur-10.jpg"
     },
     {
       "id": "ur-15",
+      "nx": 0.5978,
+      "ny": 0.2012,
       "title": "Animal Crackers, Ranchers (2 of 2)",
       "category": "unique-races",
       "subgroup": "Animal Crackers",
       "spoiler": true,
       "guide": "Win it.",
-      "region": "Mariana County",
+      "region": "Lummox County",
       "imageURL": "https://leonidalog.app/images/unique-races/ur-10.jpg"
     },
     {
@@ -19165,11 +19250,11 @@
       "title": "Gang operation 8",
       "category": "gang-ops",
       "spoiler": true,
-      "nx": 0.352,
-      "ny": 0.311,
-      "guide": "Clear the operation. Its location isn't listed yet.",
-      "revealedTitle": "Gang operation 8",
-      "revealedGuide": "Run by Kolts & Associates. Not found yet."
+      "nx": 0.3518,
+      "ny": 0.3116,
+      "guide": "Clear the operation.",
+      "revealedTitle": "Stash House",
+      "revealedGuide": "Run by Kolts & Associates."
     },
     {
       "id": "go-09",
@@ -19177,7 +19262,7 @@
       "category": "gang-ops",
       "spoiler": true,
       "nx": 0.546,
-      "ny": 0.705,
+      "ny": 0.698,
       "guide": "Clear the operation.",
       "revealedTitle": "M7 Compound",
       "revealedGuide": "Run by M7."
@@ -19187,11 +19272,11 @@
       "title": "Gang operation 10",
       "category": "gang-ops",
       "spoiler": true,
-      "nx": 0.602,
-      "ny": 0.172,
-      "guide": "Clear the operation. Its location isn't listed yet.",
-      "revealedTitle": "Gang operation 10",
-      "revealedGuide": "Run by M7. Not found yet."
+      "nx": 0.6019,
+      "ny": 0.1719,
+      "guide": "Clear the operation.",
+      "revealedTitle": "Weed Grow",
+      "revealedGuide": "Run by M7."
     },
     {
       "id": "go-11",
@@ -19209,9 +19294,11 @@
       "title": "Gang operation 12",
       "category": "gang-ops",
       "spoiler": true,
-      "guide": "Clear the operation. Its location isn't listed yet.",
-      "revealedTitle": "Gang operation 12",
-      "revealedGuide": "Run by La Polilla Negra. Not found yet."
+      "guide": "Clear the operation.",
+      "revealedTitle": "Watson Bay Safehouse",
+      "revealedGuide": "Run by La Polilla Negra.",
+      "nx": 0.4411,
+      "ny": 0.6745
     },
     {
       "id": "go-13",
@@ -19229,11 +19316,11 @@
       "title": "Gang operation 14",
       "category": "gang-ops",
       "spoiler": true,
-      "nx": 0.569,
-      "ny": 0.331,
-      "guide": "Clear the operation. Its location isn't listed yet.",
-      "revealedTitle": "Gang operation 14",
-      "revealedGuide": "Run by Final Chapter. Not found yet."
+      "nx": 0.5691,
+      "ny": 0.3318,
+      "guide": "Clear the operation.",
+      "revealedTitle": "Biker Hideout",
+      "revealedGuide": "Run by Final Chapter."
     },
     {
       "id": "go-15",
@@ -19251,9 +19338,11 @@
       "title": "Gang operation 16",
       "category": "gang-ops",
       "spoiler": true,
-      "guide": "Clear the operation. Its location isn't listed yet.",
-      "revealedTitle": "Gang operation 16",
-      "revealedGuide": "Run by Final Chapter. Not found yet."
+      "guide": "Clear the operation.",
+      "revealedTitle": "Hog Stars Garage",
+      "revealedGuide": "Run by Final Chapter.",
+      "nx": 0.5315,
+      "ny": 0.3245
     },
     {
       "id": "go-17",
@@ -19271,22 +19360,22 @@
       "title": "Gang operation 18",
       "category": "gang-ops",
       "spoiler": true,
-      "nx": 0.631,
-      "ny": 0.449,
-      "guide": "Clear the operation. Its location isn't listed yet.",
-      "revealedTitle": "Gang operation 18",
-      "revealedGuide": "Run by San4San. Not found yet."
+      "nx": 0.6305,
+      "ny": 0.4421,
+      "guide": "Clear the operation.",
+      "revealedTitle": "La Perle Trap House",
+      "revealedGuide": "Run by San4San."
     },
     {
       "id": "go-19",
       "title": "Gang operation 19",
       "category": "gang-ops",
       "spoiler": true,
-      "nx": 0.62,
-      "ny": 0.452,
-      "guide": "Clear the operation. Its location isn't listed yet.",
-      "revealedTitle": "Gang operation 19",
-      "revealedGuide": "Run by San4San. Not found yet."
+      "nx": 0.6199,
+      "ny": 0.453,
+      "guide": "Clear the operation.",
+      "revealedTitle": "Illegal Sneaker Trade",
+      "revealedGuide": "Run by San4San."
     },
     {
       "id": "go-20",
@@ -19304,22 +19393,22 @@
       "title": "Gang operation 21",
       "category": "gang-ops",
       "spoiler": true,
-      "nx": 0.594,
-      "ny": 0.489,
-      "guide": "Clear the operation. Its location isn't listed yet.",
-      "revealedTitle": "Gang operation 21",
-      "revealedGuide": "Run by San4San. Not found yet."
+      "nx": 0.603,
+      "ny": 0.4926,
+      "guide": "Clear the operation.",
+      "revealedTitle": "Parlor Apartments",
+      "revealedGuide": "Run by San4San."
     },
     {
       "id": "go-22",
       "title": "Gang operation 22",
       "category": "gang-ops",
       "spoiler": true,
-      "nx": 0.586,
+      "nx": 0.5856,
       "ny": 0.626,
-      "guide": "Clear the operation. Its location isn't listed yet.",
-      "revealedTitle": "Gang operation 22",
-      "revealedGuide": "Run by PTT Youngin$. Not found yet."
+      "guide": "Clear the operation.",
+      "revealedTitle": "Kamar Devon Community Center",
+      "revealedGuide": "Run by PTT Youngin$."
     },
     {
       "id": "go-23",
@@ -19327,29 +19416,29 @@
       "category": "gang-ops",
       "spoiler": true,
       "nx": 0.584,
-      "ny": 0.643,
-      "guide": "Clear the operation. Its location isn't listed yet.",
-      "revealedTitle": "Gang operation 23",
-      "revealedGuide": "Run by PTT Youngin$. Not found yet."
+      "ny": 0.6355,
+      "guide": "Clear the operation.",
+      "revealedTitle": "Southside Trap House",
+      "revealedGuide": "Run by PTT Youngin$."
     },
     {
       "id": "go-24",
       "title": "Gang operation 24",
       "category": "gang-ops",
       "spoiler": true,
-      "nx": 0.597,
-      "ny": 0.512,
-      "guide": "Clear the operation. Its location isn't listed yet.",
-      "revealedTitle": "Gang operation 24",
-      "revealedGuide": "Run by The Guardia Brothers. Not found yet."
+      "nx": 0.5988,
+      "ny": 0.5185,
+      "guide": "Clear the operation.",
+      "revealedTitle": "Saber Shipping Yard",
+      "revealedGuide": "Run by The Guardia Brothers."
     },
     {
       "id": "go-25",
       "title": "Gang operation 25",
       "category": "gang-ops",
       "spoiler": true,
-      "nx": 0.611,
-      "ny": 0.503,
+      "nx": 0.6133,
+      "ny": 0.5081,
       "guide": "Clear the operation.",
       "revealedTitle": "Casa Guardia",
       "revealedGuide": "Run by The Guardia Brothers."
@@ -19359,11 +19448,11 @@
       "title": "Gang operation 26",
       "category": "gang-ops",
       "spoiler": true,
-      "nx": 0.59,
-      "ny": 0.491,
-      "guide": "Clear the operation. Its location isn't listed yet.",
-      "revealedTitle": "Gang operation 26",
-      "revealedGuide": "Run by The Guardia Brothers. Not found yet."
+      "nx": 0.5928,
+      "ny": 0.4986,
+      "guide": "Clear the operation.",
+      "revealedTitle": "Saber Shipping Facility",
+      "revealedGuide": "Run by The Guardia Brothers."
     },
     {
       "id": "go-27",
@@ -19392,8 +19481,8 @@
       "title": "Gang operation 29",
       "category": "gang-ops",
       "spoiler": true,
-      "nx": 0.677,
-      "ny": 0.507,
+      "nx": 0.676,
+      "ny": 0.5095,
       "guide": "Clear the operation.",
       "revealedTitle": "Chatfield Storage & Logistics",
       "revealedGuide": "Run by other criminals."
@@ -19458,45 +19547,55 @@
       "title": "Gang operation 35",
       "category": "gang-ops",
       "spoiler": true,
-      "guide": "Clear the operation. Its location isn't listed yet.",
-      "revealedTitle": "Gang operation 35",
-      "revealedGuide": "Run by other criminals. Not found yet."
+      "guide": "Clear the operation.",
+      "revealedTitle": "Vespucci Mansion",
+      "revealedGuide": "Run by other criminals.",
+      "nx": 0.6945,
+      "ny": 0.4668
     },
     {
       "id": "go-36",
       "title": "Gang operation 36",
       "category": "gang-ops",
       "spoiler": true,
-      "guide": "Clear the operation. Its location isn't listed yet.",
-      "revealedTitle": "Gang operation 36",
-      "revealedGuide": "Run by other criminals. Not found yet."
+      "guide": "Clear the operation.",
+      "revealedTitle": "Industrial Weed Grow",
+      "revealedGuide": "Run by other criminals.",
+      "nx": 0.4029,
+      "ny": 0.5862
     },
     {
       "id": "go-37",
       "title": "Gang operation 37",
       "category": "gang-ops",
       "spoiler": true,
-      "guide": "Clear the operation. Its location isn't listed yet.",
-      "revealedTitle": "Gang operation 37",
-      "revealedGuide": "Run by other criminals. Not found yet."
+      "guide": "Clear the operation.",
+      "revealedTitle": "Mill Station Radar Base",
+      "revealedGuide": "Run by other criminals.",
+      "nx": 0.4225,
+      "ny": 0.6551
     },
     {
       "id": "go-38",
       "title": "Gang operation 38",
       "category": "gang-ops",
       "spoiler": true,
-      "guide": "Clear the operation. Its location isn't listed yet.",
-      "revealedTitle": "Gang operation 38",
-      "revealedGuide": "Run by other criminals. Not found yet."
+      "guide": "Clear the operation.",
+      "revealedTitle": "Walker Farm",
+      "revealedGuide": "Run by other criminals.",
+      "nx": 0.4341,
+      "ny": 0.3202
     },
     {
       "id": "go-39",
       "title": "Gang operation 39",
       "category": "gang-ops",
       "spoiler": true,
-      "guide": "Clear the operation. Its location isn't listed yet.",
-      "revealedTitle": "Gang operation 39",
-      "revealedGuide": "Run by other criminals. Not found yet."
+      "guide": "Clear the operation.",
+      "revealedTitle": "Ocean Beach Lab",
+      "revealedGuide": "Run by other criminals.",
+      "nx": 0.7605,
+      "ny": 0.4972
     },
     {
       "id": "su-eager-beaver-express",
@@ -20633,6 +20732,8 @@
       "title": "Drug lab 7",
       "category": "labs",
       "spoiler": true,
+      "nx": 0.6326,
+      "ny": 0.4805,
       "guide": "Destroy the lab.",
       "region": "Vice City",
       "revealedTitle": "Kitty Litter lab 7",
@@ -24839,6 +24940,40 @@
       ]
     },
     {
+      "id": "vh-ubermacht-apoc",
+      "title": "Übermacht Apoc",
+      "category": "vehicles",
+      "subgroup": "Coupes",
+      "spoiler": true,
+      "guide": "Coupe in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Tuner"
+        },
+        {
+          "label": "Speed",
+          "value": "4.8"
+        },
+        {
+          "label": "Acceleration",
+          "value": "5.4"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "4.3"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.1"
+        },
+        {
+          "label": "Category",
+          "value": "Coupes"
+        }
+      ]
+    },
+    {
       "id": "vh-85-dinka-blista",
       "title": "'85 Dinka Blista",
       "category": "vehicles",
@@ -24874,6 +25009,108 @@
         {
           "label": "Log entry",
           "value": "4 of 18"
+        }
+      ]
+    },
+    {
+      "id": "vh-ubermacht-cypher",
+      "title": "Übermacht Cypher",
+      "category": "vehicles",
+      "subgroup": "Coupes",
+      "spoiler": true,
+      "guide": "Coupe in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Tuner"
+        },
+        {
+          "label": "Speed",
+          "value": "6.5"
+        },
+        {
+          "label": "Acceleration",
+          "value": "7.2"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "4.9"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.5"
+        },
+        {
+          "label": "Category",
+          "value": "Coupes"
+        }
+      ]
+    },
+    {
+      "id": "vh-90-annis-elegy",
+      "title": "'90 Annis Elegy",
+      "category": "vehicles",
+      "subgroup": "Coupes",
+      "spoiler": true,
+      "guide": "Coupe in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Tuner"
+        },
+        {
+          "label": "Speed",
+          "value": "5.5"
+        },
+        {
+          "label": "Acceleration",
+          "value": "6.4"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "4.9"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.9"
+        },
+        {
+          "label": "Category",
+          "value": "Coupes"
+        }
+      ]
+    },
+    {
+      "id": "vh-fathom-fr36",
+      "title": "Fathom FR36",
+      "category": "vehicles",
+      "subgroup": "Coupes",
+      "spoiler": true,
+      "guide": "Coupe in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Tuner"
+        },
+        {
+          "label": "Speed",
+          "value": "5.3"
+        },
+        {
+          "label": "Acceleration",
+          "value": "5.8"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "4.2"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.5"
+        },
+        {
+          "label": "Category",
+          "value": "Coupes"
         }
       ]
     },
@@ -24937,6 +25174,100 @@
       ]
     },
     {
+      "id": "vh-32-vapid-hustler",
+      "title": "'32 Vapid Hustler",
+      "category": "vehicles",
+      "subgroup": "Coupes",
+      "spoiler": true,
+      "guide": "Coupe in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "3.2"
+        },
+        {
+          "label": "Acceleration",
+          "value": "2.7"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.3"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.0"
+        },
+        {
+          "label": "Category",
+          "value": "Coupes"
+        }
+      ]
+    },
+    {
+      "id": "vh-90-willard-lasso",
+      "title": "'90 Willard Lasso",
+      "category": "vehicles",
+      "subgroup": "Coupes",
+      "spoiler": true,
+      "guide": "Coupe in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "4.7"
+        },
+        {
+          "label": "Acceleration",
+          "value": "4.9"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.7"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.2"
+        },
+        {
+          "label": "Category",
+          "value": "Coupes"
+        }
+      ]
+    },
+    {
+      "id": "vh-ascot-paragon",
+      "title": "Ascot Paragon",
+      "category": "vehicles",
+      "subgroup": "Coupes",
+      "spoiler": true,
+      "guide": "Coupe in the game's Vehicles log. It's on Randy's Wish List at Leonida Auto World.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Luxury"
+        },
+        {
+          "label": "Speed",
+          "value": "6.2"
+        },
+        {
+          "label": "Acceleration",
+          "value": "7.2"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "5.8"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.9"
+        },
+        {
+          "label": "Category",
+          "value": "Coupes"
+        }
+      ]
+    },
+    {
       "id": "vh-maibatsu-penumbra",
       "title": "Maibatsu Penumbra",
       "category": "vehicles",
@@ -24992,6 +25323,240 @@
         {
           "label": "Log entry",
           "value": "13 of 18"
+        }
+      ]
+    },
+    {
+      "id": "vh-97-maibatsu-penumbra-ff",
+      "title": "'97 Maibatsu Penumbra FF",
+      "category": "vehicles",
+      "subgroup": "Coupes",
+      "spoiler": true,
+      "guide": "Coupe in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Tuner"
+        },
+        {
+          "label": "Speed",
+          "value": "5.1"
+        },
+        {
+          "label": "Acceleration",
+          "value": "5.5"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "4.4"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.3"
+        },
+        {
+          "label": "Category",
+          "value": "Coupes"
+        }
+      ]
+    },
+    {
+      "id": "vh-82-imponte-runner",
+      "title": "'82 Imponte Runner",
+      "category": "vehicles",
+      "subgroup": "Coupes",
+      "spoiler": true,
+      "guide": "Coupe in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Muscle"
+        },
+        {
+          "label": "Speed",
+          "value": "4.5"
+        },
+        {
+          "label": "Acceleration",
+          "value": "4.6"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.7"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.1"
+        },
+        {
+          "label": "Category",
+          "value": "Coupes"
+        }
+      ]
+    },
+    {
+      "id": "vh-benefactor-schutzen",
+      "title": "Benefactor Schutzen",
+      "category": "vehicles",
+      "subgroup": "Coupes",
+      "spoiler": true,
+      "guide": "Coupe in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Luxury"
+        },
+        {
+          "label": "Speed",
+          "value": "6.7"
+        },
+        {
+          "label": "Acceleration",
+          "value": "7.1"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "5.9"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.6"
+        },
+        {
+          "label": "Category",
+          "value": "Coupes"
+        }
+      ]
+    },
+    {
+      "id": "vh-emperor-vectre",
+      "title": "Emperor Vectre",
+      "category": "vehicles",
+      "subgroup": "Coupes",
+      "spoiler": true,
+      "guide": "Coupe in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Tuner"
+        },
+        {
+          "label": "Speed",
+          "value": "5.6"
+        },
+        {
+          "label": "Acceleration",
+          "value": "6.5"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "5.1"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.5"
+        },
+        {
+          "label": "Category",
+          "value": "Coupes"
+        }
+      ]
+    },
+    {
+      "id": "vh-buckingham-windsor-drop",
+      "title": "Buckingham Windsor Drop",
+      "category": "vehicles",
+      "subgroup": "Coupes",
+      "spoiler": true,
+      "guide": "Coupe in the game's Vehicles log. It's on Randy's Wish List at Leonida Auto World.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Luxury"
+        },
+        {
+          "label": "Speed",
+          "value": "6.0"
+        },
+        {
+          "label": "Acceleration",
+          "value": "6.9"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "4.7"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.3"
+        },
+        {
+          "label": "Category",
+          "value": "Coupes"
+        }
+      ]
+    },
+    {
+      "id": "vh-65-albany-buccaneer",
+      "title": "'65 Albany Buccaneer",
+      "category": "vehicles",
+      "subgroup": "Muscle cars",
+      "spoiler": true,
+      "guide": "Muscle car in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Muscle"
+        },
+        {
+          "label": "Speed",
+          "value": "4.2"
+        },
+        {
+          "label": "Acceleration",
+          "value": "4.1"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.2"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.9"
+        },
+        {
+          "label": "Category",
+          "value": "Muscle cars"
+        }
+      ]
+    },
+    {
+      "id": "vh-65-dundreary-chino",
+      "title": "'65 Dundreary Chino",
+      "category": "vehicles",
+      "subgroup": "Muscle cars",
+      "spoiler": true,
+      "guide": "Muscle car in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "3.9"
+        },
+        {
+          "label": "Acceleration",
+          "value": "4.2"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.3"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.0"
+        },
+        {
+          "label": "Category",
+          "value": "Muscle cars"
         }
       ]
     },
@@ -25055,6 +25620,74 @@
       ]
     },
     {
+      "id": "vh-vapid-dominator",
+      "title": "Vapid Dominator",
+      "category": "vehicles",
+      "subgroup": "Muscle cars",
+      "spoiler": true,
+      "guide": "Muscle car in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Muscle"
+        },
+        {
+          "label": "Speed",
+          "value": "5.6"
+        },
+        {
+          "label": "Acceleration",
+          "value": "6.0"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "4.4"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.9"
+        },
+        {
+          "label": "Category",
+          "value": "Muscle cars"
+        }
+      ]
+    },
+    {
+      "id": "vh-vapid-dominator-gt",
+      "title": "Vapid Dominator GT",
+      "category": "vehicles",
+      "subgroup": "Muscle cars",
+      "spoiler": true,
+      "guide": "Muscle car in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Muscle"
+        },
+        {
+          "label": "Speed",
+          "value": "6.3"
+        },
+        {
+          "label": "Acceleration",
+          "value": "6.8"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "5.7"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.9"
+        },
+        {
+          "label": "Category",
+          "value": "Muscle cars"
+        }
+      ]
+    },
+    {
       "id": "vh-70-vapid-ganado",
       "title": "'70 Vapid Ganado",
       "category": "vehicles",
@@ -25114,6 +25747,66 @@
       ]
     },
     {
+      "id": "vh-bravado-gauntlet-hellfire",
+      "title": "Bravado Gauntlet Hellfire",
+      "category": "vehicles",
+      "subgroup": "Muscle cars",
+      "spoiler": true,
+      "guide": "Muscle car in the game's Vehicles log. It's on Randy's Wish List at Leonida Auto World.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Muscle"
+        },
+        {
+          "label": "Speed",
+          "value": "7.8"
+        },
+        {
+          "label": "Acceleration",
+          "value": "7.8"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.6"
+        },
+        {
+          "label": "Category",
+          "value": "Muscle cars"
+        }
+      ]
+    },
+    {
+      "id": "vh-77-albany-manana",
+      "title": "'77 Albany Manana",
+      "category": "vehicles",
+      "subgroup": "Muscle cars",
+      "spoiler": true,
+      "guide": "Muscle car in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "3.7"
+        },
+        {
+          "label": "Acceleration",
+          "value": "3.6"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.4"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.2"
+        },
+        {
+          "label": "Category",
+          "value": "Muscle cars"
+        }
+      ]
+    },
+    {
       "id": "vh-77-imponte-phoenix",
       "title": "'77 Imponte Phoenix",
       "category": "vehicles",
@@ -25165,6 +25858,228 @@
         {
           "label": "Log entry",
           "value": "16 of 26"
+        }
+      ]
+    },
+    {
+      "id": "vh-72-declasse-picador",
+      "title": "'72 Declasse Picador",
+      "category": "vehicles",
+      "subgroup": "Muscle cars",
+      "spoiler": true,
+      "guide": "Muscle car in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Muscle"
+        },
+        {
+          "label": "Speed",
+          "value": "5.1"
+        },
+        {
+          "label": "Acceleration",
+          "value": "4.8"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.4"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.4"
+        },
+        {
+          "label": "Category",
+          "value": "Muscle cars"
+        }
+      ]
+    },
+    {
+      "id": "vh-68-classique-stallion",
+      "title": "'68 Classique Stallion",
+      "category": "vehicles",
+      "subgroup": "Muscle cars",
+      "spoiler": true,
+      "guide": "Muscle car in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Muscle"
+        },
+        {
+          "label": "Speed",
+          "value": "5.5"
+        },
+        {
+          "label": "Acceleration",
+          "value": "5.7"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.7"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.5"
+        },
+        {
+          "label": "Category",
+          "value": "Muscle cars"
+        }
+      ]
+    },
+    {
+      "id": "vh-55-vapid-stanier",
+      "title": "'55 Vapid Stanier",
+      "category": "vehicles",
+      "subgroup": "Muscle cars",
+      "spoiler": true,
+      "guide": "Muscle car in the game's Vehicles log. A pre-order bonus car.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "3.9"
+        },
+        {
+          "label": "Acceleration",
+          "value": "3.7"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.2"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.7"
+        },
+        {
+          "label": "Category",
+          "value": "Muscle cars"
+        }
+      ]
+    },
+    {
+      "id": "vh-72-declasse-tulip",
+      "title": "'72 Declasse Tulip",
+      "category": "vehicles",
+      "subgroup": "Muscle cars",
+      "spoiler": true,
+      "guide": "Muscle car in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Muscle"
+        },
+        {
+          "label": "Speed",
+          "value": "5.1"
+        },
+        {
+          "label": "Acceleration",
+          "value": "4.8"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.4"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.9"
+        },
+        {
+          "label": "Category",
+          "value": "Muscle cars"
+        }
+      ]
+    },
+    {
+      "id": "vh-78-declasse-tulip-m-100",
+      "title": "'78 Declasse Tulip M-100",
+      "category": "vehicles",
+      "subgroup": "Muscle cars",
+      "spoiler": true,
+      "guide": "Muscle car in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Muscle"
+        },
+        {
+          "label": "Speed",
+          "value": "3.7"
+        },
+        {
+          "label": "Acceleration",
+          "value": "3.7"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.2"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.8"
+        },
+        {
+          "label": "Category",
+          "value": "Muscle cars"
+        }
+      ]
+    },
+    {
+      "id": "vh-74-declasse-vamos",
+      "title": "'74 Declasse Vamos",
+      "category": "vehicles",
+      "subgroup": "Muscle cars",
+      "spoiler": true,
+      "guide": "Muscle car in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "4.4"
+        },
+        {
+          "label": "Acceleration",
+          "value": "3.9"
+        },
+        {
+          "label": "Category",
+          "value": "Muscle cars"
+        }
+      ]
+    },
+    {
+      "id": "vh-77-bf-bandito",
+      "title": "'77 BF Bandito",
+      "category": "vehicles",
+      "subgroup": "Off-road vehicles",
+      "spoiler": true,
+      "guide": "Off-roader in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Off-road"
+        },
+        {
+          "label": "Speed",
+          "value": "3.6"
+        },
+        {
+          "label": "Acceleration",
+          "value": "6.0"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.5"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "7.6"
+        },
+        {
+          "label": "Category",
+          "value": "Off-road vehicles"
         }
       ]
     },
@@ -25275,6 +26190,74 @@
       ]
     },
     {
+      "id": "vh-73-bf-injection",
+      "title": "'73 BF Injection",
+      "category": "vehicles",
+      "subgroup": "Off-road vehicles",
+      "spoiler": true,
+      "guide": "Off-roader in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Off-road"
+        },
+        {
+          "label": "Speed",
+          "value": "5.0"
+        },
+        {
+          "label": "Acceleration",
+          "value": "6.0"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.9"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "7.3"
+        },
+        {
+          "label": "Category",
+          "value": "Off-road vehicles"
+        }
+      ]
+    },
+    {
+      "id": "vh-mer-can-outlaw",
+      "title": "Mer-Can Outlaw",
+      "category": "vehicles",
+      "subgroup": "Off-road vehicles",
+      "spoiler": true,
+      "guide": "Off-roader in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Off-road"
+        },
+        {
+          "label": "Speed",
+          "value": "3.3"
+        },
+        {
+          "label": "Acceleration",
+          "value": "5.8"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.2"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "8.4"
+        },
+        {
+          "label": "Category",
+          "value": "Off-road vehicles"
+        }
+      ]
+    },
+    {
       "id": "vh-bravado-swamp-blaster",
       "title": "Bravado Swamp Blaster",
       "category": "vehicles",
@@ -25322,6 +26305,36 @@
         {
           "label": "Log entry",
           "value": "7 of 8"
+        }
+      ]
+    },
+    {
+      "id": "vh-hvy-wastelander",
+      "title": "HVY Wastelander",
+      "category": "vehicles",
+      "subgroup": "Off-road vehicles",
+      "spoiler": true,
+      "guide": "Off-roader in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "3.1"
+        },
+        {
+          "label": "Acceleration",
+          "value": "3.8"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "2.6"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "7.0"
+        },
+        {
+          "label": "Category",
+          "value": "Off-road vehicles"
         }
       ]
     },
@@ -25656,6 +26669,40 @@
       ]
     },
     {
+      "id": "vh-karin-contender",
+      "title": "Karin Contender",
+      "category": "vehicles",
+      "subgroup": "Pickups",
+      "spoiler": true,
+      "guide": "Pickup in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Off-road"
+        },
+        {
+          "label": "Speed",
+          "value": "4.5"
+        },
+        {
+          "label": "Acceleration",
+          "value": "5.5"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.4"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "6.7"
+        },
+        {
+          "label": "Category",
+          "value": "Pickups"
+        }
+      ]
+    },
+    {
       "id": "vh-vapid-montagne-pickup",
       "title": "Vapid Montagne Pickup",
       "category": "vehicles",
@@ -25766,6 +26813,74 @@
       ]
     },
     {
+      "id": "vh-vapid-reclaimer",
+      "title": "Vapid Reclaimer",
+      "category": "vehicles",
+      "subgroup": "Pickups",
+      "spoiler": true,
+      "guide": "Pickup in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Off-road"
+        },
+        {
+          "label": "Speed",
+          "value": "4.0"
+        },
+        {
+          "label": "Acceleration",
+          "value": "5.3"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.2"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "6.7"
+        },
+        {
+          "label": "Category",
+          "value": "Pickups"
+        }
+      ]
+    },
+    {
+      "id": "vh-70-vapid-reclaimer",
+      "title": "'70 Vapid Reclaimer",
+      "category": "vehicles",
+      "subgroup": "Pickups",
+      "spoiler": true,
+      "guide": "Pickup in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Off-road"
+        },
+        {
+          "label": "Speed",
+          "value": "2.6"
+        },
+        {
+          "label": "Acceleration",
+          "value": "2.5"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "2.9"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.6"
+        },
+        {
+          "label": "Category",
+          "value": "Pickups"
+        }
+      ]
+    },
+    {
       "id": "vh-vapid-riata",
       "title": "Vapid Riata",
       "category": "vehicles",
@@ -25817,6 +26932,40 @@
         {
           "label": "Log entry",
           "value": "13 of 17"
+        }
+      ]
+    },
+    {
+      "id": "vh-vapid-sandking-xl",
+      "title": "Vapid Sandking XL",
+      "category": "vehicles",
+      "subgroup": "Pickups",
+      "spoiler": true,
+      "guide": "Pickup in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Off-road"
+        },
+        {
+          "label": "Speed",
+          "value": "3.6"
+        },
+        {
+          "label": "Acceleration",
+          "value": "4.3"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.4"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.6"
+        },
+        {
+          "label": "Category",
+          "value": "Pickups"
         }
       ]
     },
@@ -25876,6 +27025,40 @@
       ]
     },
     {
+      "id": "vh-81-declasse-walton",
+      "title": "'81 Declasse Walton",
+      "category": "vehicles",
+      "subgroup": "Pickups",
+      "spoiler": true,
+      "guide": "Pickup in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Off-road"
+        },
+        {
+          "label": "Speed",
+          "value": "3.8"
+        },
+        {
+          "label": "Acceleration",
+          "value": "3.8"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.6"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.2"
+        },
+        {
+          "label": "Category",
+          "value": "Pickups"
+        }
+      ]
+    },
+    {
       "id": "vh-declasse-yosemite-1500",
       "title": "Declasse Yosemite 1500",
       "category": "vehicles",
@@ -25927,6 +27110,232 @@
         {
           "label": "Log entry",
           "value": "17 of 17"
+        }
+      ]
+    },
+    {
+      "id": "vh-obey-animus",
+      "title": "Obey Animus",
+      "category": "vehicles",
+      "subgroup": "Sedans",
+      "spoiler": true,
+      "guide": "Sedan in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Tuner"
+        },
+        {
+          "label": "Speed",
+          "value": "4.6"
+        },
+        {
+          "label": "Acceleration",
+          "value": "5.6"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "4.4"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.4"
+        },
+        {
+          "label": "Category",
+          "value": "Sedans"
+        }
+      ]
+    },
+    {
+      "id": "vh-karin-asterope-gz",
+      "title": "Karin Asterope GZ",
+      "category": "vehicles",
+      "subgroup": "Sedans",
+      "spoiler": true,
+      "guide": "Sedan in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "4.4"
+        },
+        {
+          "label": "Acceleration",
+          "value": "4.5"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.4"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.2"
+        },
+        {
+          "label": "Category",
+          "value": "Sedans"
+        }
+      ]
+    },
+    {
+      "id": "vh-bravado-bogan",
+      "title": "Bravado Bogan",
+      "category": "vehicles",
+      "subgroup": "Sedans",
+      "spoiler": true,
+      "guide": "Sedan in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Tuner"
+        },
+        {
+          "label": "Speed",
+          "value": "4.2"
+        },
+        {
+          "label": "Acceleration",
+          "value": "4.1"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.3"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.0"
+        },
+        {
+          "label": "Category",
+          "value": "Sedans"
+        }
+      ]
+    },
+    {
+      "id": "vh-07-bravado-buffalo",
+      "title": "'07 Bravado Buffalo",
+      "category": "vehicles",
+      "subgroup": "Sedans",
+      "spoiler": true,
+      "guide": "Sedan in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Tuner"
+        },
+        {
+          "label": "Speed",
+          "value": "5.2"
+        },
+        {
+          "label": "Acceleration",
+          "value": "5.4"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "4.3"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.5"
+        },
+        {
+          "label": "Category",
+          "value": "Sedans"
+        }
+      ]
+    },
+    {
+      "id": "vh-dinka-chavos-xs",
+      "title": "Dinka Chavos XS",
+      "category": "vehicles",
+      "subgroup": "Sedans",
+      "spoiler": true,
+      "guide": "Sedan in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "5.2"
+        },
+        {
+          "label": "Acceleration",
+          "value": "5.7"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.9"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.2"
+        },
+        {
+          "label": "Category",
+          "value": "Sedans"
+        }
+      ]
+    },
+    {
+      "id": "vh-85-albany-emperor",
+      "title": "'85 Albany Emperor",
+      "category": "vehicles",
+      "subgroup": "Sedans",
+      "spoiler": true,
+      "guide": "Sedan in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "3.3"
+        },
+        {
+          "label": "Acceleration",
+          "value": "3.0"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "2.7"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.3"
+        },
+        {
+          "label": "Category",
+          "value": "Sedans"
+        }
+      ]
+    },
+    {
+      "id": "vh-98-karin-feroci",
+      "title": "'98 Karin Feroci",
+      "category": "vehicles",
+      "subgroup": "Sedans",
+      "spoiler": true,
+      "guide": "Sedan in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Tuner"
+        },
+        {
+          "label": "Speed",
+          "value": "5.0"
+        },
+        {
+          "label": "Acceleration",
+          "value": "5.4"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "4.0"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.5"
+        },
+        {
+          "label": "Category",
+          "value": "Sedans"
         }
       ]
     },
@@ -26096,6 +27505,74 @@
       ]
     },
     {
+      "id": "vh-80-declasse-impaler",
+      "title": "'80 Declasse Impaler",
+      "category": "vehicles",
+      "subgroup": "Sedans",
+      "spoiler": true,
+      "guide": "Sedan in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Tuner"
+        },
+        {
+          "label": "Speed",
+          "value": "4.1"
+        },
+        {
+          "label": "Acceleration",
+          "value": "4.0"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.4"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.6"
+        },
+        {
+          "label": "Category",
+          "value": "Sedans"
+        }
+      ]
+    },
+    {
+      "id": "vh-95-declasse-impaler-sz",
+      "title": "'95 Declasse Impaler SZ",
+      "category": "vehicles",
+      "subgroup": "Sedans",
+      "spoiler": true,
+      "guide": "Sedan in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Muscle"
+        },
+        {
+          "label": "Speed",
+          "value": "3.5"
+        },
+        {
+          "label": "Acceleration",
+          "value": "4.8"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.8"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.2"
+        },
+        {
+          "label": "Category",
+          "value": "Sedans"
+        }
+      ]
+    },
+    {
       "id": "vh-karin-intruder",
       "title": "Karin Intruder",
       "category": "vehicles",
@@ -26151,6 +27628,40 @@
         {
           "label": "Log entry",
           "value": "14 of 29"
+        }
+      ]
+    },
+    {
+      "id": "vh-ocelot-jugular",
+      "title": "Ocelot Jugular",
+      "category": "vehicles",
+      "subgroup": "Sedans",
+      "spoiler": true,
+      "guide": "Sedan in the game's Vehicles log. It's on Randy's Wish List at Leonida Auto World.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Luxury"
+        },
+        {
+          "label": "Speed",
+          "value": "6.5"
+        },
+        {
+          "label": "Acceleration",
+          "value": "7.3"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "5.8"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.5"
+        },
+        {
+          "label": "Category",
+          "value": "Sedans"
         }
       ]
     },
@@ -26273,6 +27784,126 @@
       ]
     },
     {
+      "id": "vh-schyster-pmp-700",
+      "title": "Schyster PMP 700",
+      "category": "vehicles",
+      "subgroup": "Sedans",
+      "spoiler": true,
+      "guide": "Sedan in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "5.8"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "4.3"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.5"
+        },
+        {
+          "label": "Category",
+          "value": "Sedans"
+        }
+      ]
+    },
+    {
+      "id": "vh-albany-primo",
+      "title": "Albany Primo",
+      "category": "vehicles",
+      "subgroup": "Sedans",
+      "spoiler": true,
+      "guide": "Sedan in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "4.0"
+        },
+        {
+          "label": "Acceleration",
+          "value": "4.1"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.0"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.1"
+        },
+        {
+          "label": "Category",
+          "value": "Sedans"
+        }
+      ]
+    },
+    {
+      "id": "vh-coil-raiden",
+      "title": "Coil Raiden",
+      "category": "vehicles",
+      "subgroup": "Sedans",
+      "spoiler": true,
+      "guide": "Sedan in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "6.7"
+        },
+        {
+          "label": "Acceleration",
+          "value": "7.7"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "4.7"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.5"
+        },
+        {
+          "label": "Category",
+          "value": "Sedans"
+        }
+      ]
+    },
+    {
+      "id": "vh-benefactor-schafter-s",
+      "title": "Benefactor Schafter S",
+      "category": "vehicles",
+      "subgroup": "Sedans",
+      "spoiler": true,
+      "guide": "Sedan in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Tuner"
+        },
+        {
+          "label": "Speed",
+          "value": "4.8"
+        },
+        {
+          "label": "Acceleration",
+          "value": "5.7"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "4.4"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.5"
+        },
+        {
+          "label": "Category",
+          "value": "Sedans"
+        }
+      ]
+    },
+    {
       "id": "vh-98-vapid-stanier",
       "title": "'98 Vapid Stanier",
       "category": "vehicles",
@@ -26387,6 +28018,74 @@
       ]
     },
     {
+      "id": "vh-dinka-sugoi",
+      "title": "Dinka Sugoi",
+      "category": "vehicles",
+      "subgroup": "Sedans",
+      "spoiler": true,
+      "guide": "Sedan in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Tuner"
+        },
+        {
+          "label": "Speed",
+          "value": "5.0"
+        },
+        {
+          "label": "Acceleration",
+          "value": "5.8"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "4.3"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.3"
+        },
+        {
+          "label": "Category",
+          "value": "Sedans"
+        }
+      ]
+    },
+    {
+      "id": "vh-obey-tailgater-s",
+      "title": "Obey Tailgater S",
+      "category": "vehicles",
+      "subgroup": "Sedans",
+      "spoiler": true,
+      "guide": "Sedan in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Tuner"
+        },
+        {
+          "label": "Speed",
+          "value": "4.8"
+        },
+        {
+          "label": "Acceleration",
+          "value": "5.9"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "4.4"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.5"
+        },
+        {
+          "label": "Category",
+          "value": "Sedans"
+        }
+      ]
+    },
+    {
       "id": "vh-willard-transient",
       "title": "Willard Transient",
       "category": "vehicles",
@@ -26438,6 +28137,312 @@
         {
           "label": "Log entry",
           "value": "27 of 29"
+        }
+      ]
+    },
+    {
+      "id": "vh-albany-v-str",
+      "title": "Albany V-STR",
+      "category": "vehicles",
+      "subgroup": "Sedans",
+      "spoiler": true,
+      "guide": "Sedan in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Tuner"
+        },
+        {
+          "label": "Speed",
+          "value": "7.0"
+        },
+        {
+          "label": "Acceleration",
+          "value": "7.2"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "4.5"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.5"
+        },
+        {
+          "label": "Category",
+          "value": "Sedans"
+        }
+      ]
+    },
+    {
+      "id": "vh-bravado-banshee",
+      "title": "Bravado Banshee",
+      "category": "vehicles",
+      "subgroup": "Sports cars",
+      "spoiler": true,
+      "guide": "Sports car in the game's Vehicles log. It's on Randy's Wish List at Leonida Auto World. Its spawn cheat unlocks by finishing every combat challenge, for use once the story is done.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Luxury"
+        },
+        {
+          "label": "Speed",
+          "value": "6.0"
+        },
+        {
+          "label": "Acceleration",
+          "value": "6.3"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "5.8"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.8"
+        },
+        {
+          "label": "Category",
+          "value": "Sports cars"
+        }
+      ]
+    },
+    {
+      "id": "vh-grotti-carbonizzare",
+      "title": "Grotti Carbonizzare",
+      "category": "vehicles",
+      "subgroup": "Sports cars",
+      "spoiler": true,
+      "guide": "Sports car in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Luxury"
+        },
+        {
+          "label": "Speed",
+          "value": "6.3"
+        },
+        {
+          "label": "Acceleration",
+          "value": "7.1"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "6.0"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.6"
+        },
+        {
+          "label": "Category",
+          "value": "Sports cars"
+        }
+      ]
+    },
+    {
+      "id": "vh-88-pfister-comet",
+      "title": "'88 Pfister Comet",
+      "category": "vehicles",
+      "subgroup": "Sports cars",
+      "spoiler": true,
+      "guide": "Sports car in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Tuner"
+        },
+        {
+          "label": "Speed",
+          "value": "6.1"
+        },
+        {
+          "label": "Acceleration",
+          "value": "6.4"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "6.5"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.0"
+        },
+        {
+          "label": "Category",
+          "value": "Sports cars"
+        }
+      ]
+    },
+    {
+      "id": "vh-pfister-comet-s2",
+      "title": "Pfister Comet S2",
+      "category": "vehicles",
+      "subgroup": "Sports cars",
+      "spoiler": true,
+      "guide": "Sports car in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Luxury"
+        },
+        {
+          "label": "Speed",
+          "value": "7.7"
+        },
+        {
+          "label": "Acceleration",
+          "value": "8.0"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "7.6"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.6"
+        },
+        {
+          "label": "Category",
+          "value": "Sports cars"
+        }
+      ]
+    },
+    {
+      "id": "vh-invetero-coquette",
+      "title": "Invetero Coquette",
+      "category": "vehicles",
+      "subgroup": "Sports cars",
+      "spoiler": true,
+      "guide": "Sports car in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Luxury"
+        },
+        {
+          "label": "Speed",
+          "value": "6.1"
+        },
+        {
+          "label": "Acceleration",
+          "value": "6.8"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "5.5"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.9"
+        },
+        {
+          "label": "Category",
+          "value": "Sports cars"
+        }
+      ]
+    },
+    {
+      "id": "vh-invetero-coquette-d10",
+      "title": "Invetero Coquette D10",
+      "category": "vehicles",
+      "subgroup": "Sports cars",
+      "spoiler": true,
+      "guide": "Sports car in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Luxury"
+        },
+        {
+          "label": "Speed",
+          "value": "7.0"
+        },
+        {
+          "label": "Acceleration",
+          "value": "7.5"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "6.5"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.6"
+        },
+        {
+          "label": "Category",
+          "value": "Sports cars"
+        }
+      ]
+    },
+    {
+      "id": "vh-64-declasse-mamba-gt",
+      "title": "'64 Declasse Mamba GT",
+      "category": "vehicles",
+      "subgroup": "Sports cars",
+      "spoiler": true,
+      "guide": "Sports car in the game's Vehicles log. One of the Ultimate Edition's classic cars.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Luxury"
+        },
+        {
+          "label": "Speed",
+          "value": "6.9"
+        },
+        {
+          "label": "Acceleration",
+          "value": "7.2"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "6.3"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.2"
+        },
+        {
+          "label": "Category",
+          "value": "Sports cars"
+        }
+      ]
+    },
+    {
+      "id": "vh-pfister-neon",
+      "title": "Pfister Neon",
+      "category": "vehicles",
+      "subgroup": "Sports cars",
+      "spoiler": true,
+      "guide": "Sports car in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Luxury"
+        },
+        {
+          "label": "Speed",
+          "value": "7.1"
+        },
+        {
+          "label": "Acceleration",
+          "value": "7.4"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "5.9"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.9"
+        },
+        {
+          "label": "Category",
+          "value": "Sports cars"
         }
       ]
     },
@@ -26497,6 +28502,270 @@
         {
           "label": "Log entry",
           "value": "10 of 13"
+        }
+      ]
+    },
+    {
+      "id": "vh-85-ubermacht-sentinel",
+      "title": "'85 Übermacht Sentinel",
+      "category": "vehicles",
+      "subgroup": "Sports cars",
+      "spoiler": true,
+      "guide": "Sports car in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Tuner"
+        },
+        {
+          "label": "Speed",
+          "value": "4.7"
+        },
+        {
+          "label": "Acceleration",
+          "value": "4.9"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "4.2"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.7"
+        },
+        {
+          "label": "Category",
+          "value": "Sports cars"
+        }
+      ]
+    },
+    {
+      "id": "vh-emperor-sultan",
+      "title": "Emperor Sultan",
+      "category": "vehicles",
+      "subgroup": "Sports cars",
+      "spoiler": true,
+      "guide": "Sports car in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Tuner"
+        },
+        {
+          "label": "Speed",
+          "value": "4.9"
+        },
+        {
+          "label": "Acceleration",
+          "value": "6.1"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "4.4"
+        },
+        {
+          "label": "Category",
+          "value": "Sports cars"
+        }
+      ]
+    },
+    {
+      "id": "vh-vapid-aleutian",
+      "title": "Vapid Aleutian",
+      "category": "vehicles",
+      "subgroup": "SUVs",
+      "spoiler": true,
+      "guide": "SUV in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "4.3"
+        },
+        {
+          "label": "Acceleration",
+          "value": "5.1"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "4.3"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.8"
+        },
+        {
+          "label": "Category",
+          "value": "SUVs"
+        }
+      ]
+    },
+    {
+      "id": "vh-karin-allander",
+      "title": "Karin Allander",
+      "category": "vehicles",
+      "subgroup": "SUVs",
+      "spoiler": true,
+      "guide": "SUV in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Tuner"
+        },
+        {
+          "label": "Speed",
+          "value": "3.6"
+        },
+        {
+          "label": "Acceleration",
+          "value": "4.4"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.9"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.6"
+        },
+        {
+          "label": "Category",
+          "value": "SUVs"
+        }
+      ]
+    },
+    {
+      "id": "vh-pfister-astron",
+      "title": "Pfister Astron",
+      "category": "vehicles",
+      "subgroup": "SUVs",
+      "spoiler": true,
+      "guide": "SUV in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Luxury"
+        },
+        {
+          "label": "Speed",
+          "value": "5.3"
+        },
+        {
+          "label": "Acceleration",
+          "value": "6.5"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "5.1"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.5"
+        },
+        {
+          "label": "Category",
+          "value": "SUVs"
+        }
+      ]
+    },
+    {
+      "id": "vh-gallivanter-baller",
+      "title": "Gallivanter Baller",
+      "category": "vehicles",
+      "subgroup": "SUVs",
+      "spoiler": true,
+      "guide": "SUV in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Tuner"
+        },
+        {
+          "label": "Speed",
+          "value": "5.1"
+        },
+        {
+          "label": "Acceleration",
+          "value": "6.2"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "4.4"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "5.0"
+        },
+        {
+          "label": "Category",
+          "value": "SUVs"
+        }
+      ]
+    },
+    {
+      "id": "vh-gallivanter-baller-st-d",
+      "title": "Gallivanter Baller ST-D",
+      "category": "vehicles",
+      "subgroup": "SUVs",
+      "spoiler": true,
+      "guide": "SUV in the game's Vehicles log. It's on Randy's Wish List at Leonida Auto World.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Luxury"
+        },
+        {
+          "label": "Speed",
+          "value": "5.3"
+        },
+        {
+          "label": "Acceleration",
+          "value": "6.4"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "4.2"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "5.0"
+        },
+        {
+          "label": "Category",
+          "value": "SUVs"
+        }
+      ]
+    },
+    {
+      "id": "vh-albany-cavalcade-xl",
+      "title": "Albany Cavalcade XL",
+      "category": "vehicles",
+      "subgroup": "SUVs",
+      "spoiler": true,
+      "guide": "SUV in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Luxury"
+        },
+        {
+          "label": "Speed",
+          "value": "4.7"
+        },
+        {
+          "label": "Acceleration",
+          "value": "5.8"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "4.2"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "5.0"
+        },
+        {
+          "label": "Category",
+          "value": "SUVs"
         }
       ]
     },
@@ -26611,6 +28880,40 @@
       ]
     },
     {
+      "id": "vh-benefactor-dubsta",
+      "title": "Benefactor Dubsta",
+      "category": "vehicles",
+      "subgroup": "SUVs",
+      "spoiler": true,
+      "guide": "SUV in the game's Vehicles log. It's on Randy's Wish List at Leonida Auto World.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Tuner"
+        },
+        {
+          "label": "Speed",
+          "value": "4.7"
+        },
+        {
+          "label": "Acceleration",
+          "value": "5.5"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.9"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "5.0"
+        },
+        {
+          "label": "Category",
+          "value": "SUVs"
+        }
+      ]
+    },
+    {
       "id": "vh-declasse-granger",
       "title": "Declasse Granger",
       "category": "vehicles",
@@ -26662,6 +28965,138 @@
         {
           "label": "Log entry",
           "value": "10 of 23"
+        }
+      ]
+    },
+    {
+      "id": "vh-declasse-granger-3600lx",
+      "title": "Declasse Granger 3600LX",
+      "category": "vehicles",
+      "subgroup": "SUVs",
+      "spoiler": true,
+      "guide": "SUV in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Tuner"
+        },
+        {
+          "label": "Speed",
+          "value": "4.0"
+        },
+        {
+          "label": "Acceleration",
+          "value": "4.5"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.8"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.4"
+        },
+        {
+          "label": "Category",
+          "value": "SUVs"
+        }
+      ]
+    },
+    {
+      "id": "vh-95-annis-hellion",
+      "title": "'95 Annis Hellion",
+      "category": "vehicles",
+      "subgroup": "SUVs",
+      "spoiler": true,
+      "guide": "SUV in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Off-road"
+        },
+        {
+          "label": "Speed",
+          "value": "3.1"
+        },
+        {
+          "label": "Acceleration",
+          "value": "3.4"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.0"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "6.7"
+        },
+        {
+          "label": "Category",
+          "value": "SUVs"
+        }
+      ]
+    },
+    {
+      "id": "vh-buckingham-jubilee",
+      "title": "Buckingham Jubilee",
+      "category": "vehicles",
+      "subgroup": "SUVs",
+      "spoiler": true,
+      "guide": "SUV in the game's Vehicles log. It's on Randy's Wish List at Leonida Auto World.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Luxury"
+        },
+        {
+          "label": "Speed",
+          "value": "5.4"
+        },
+        {
+          "label": "Acceleration",
+          "value": "6.1"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "4.4"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "5.1"
+        },
+        {
+          "label": "Category",
+          "value": "SUVs"
+        }
+      ]
+    },
+    {
+      "id": "vh-canis-kamacho",
+      "title": "Canis Kamacho",
+      "category": "vehicles",
+      "subgroup": "SUVs",
+      "spoiler": true,
+      "guide": "SUV in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Off-road"
+        },
+        {
+          "label": "Speed",
+          "value": "3.7"
+        },
+        {
+          "label": "Acceleration",
+          "value": "4.7"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "6.7"
+        },
+        {
+          "label": "Category",
+          "value": "SUVs"
         }
       ]
     },
@@ -26721,6 +29156,40 @@
         {
           "label": "Log entry",
           "value": "16 of 23"
+        }
+      ]
+    },
+    {
+      "id": "vh-canis-mesa",
+      "title": "Canis Mesa",
+      "category": "vehicles",
+      "subgroup": "SUVs",
+      "spoiler": true,
+      "guide": "SUV in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Off-road"
+        },
+        {
+          "label": "Speed",
+          "value": "4.4"
+        },
+        {
+          "label": "Acceleration",
+          "value": "5.4"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.2"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "6.7"
+        },
+        {
+          "label": "Category",
+          "value": "SUVs"
         }
       ]
     },
@@ -26894,6 +29363,40 @@
       ]
     },
     {
+      "id": "vh-pegassi-toros",
+      "title": "Pegassi Toros",
+      "category": "vehicles",
+      "subgroup": "SUVs",
+      "spoiler": true,
+      "guide": "SUV in the game's Vehicles log. It's on Randy's Wish List at Leonida Auto World.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Luxury"
+        },
+        {
+          "label": "Speed",
+          "value": "6.0"
+        },
+        {
+          "label": "Acceleration",
+          "value": "7.0"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "4.6"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "5.1"
+        },
+        {
+          "label": "Category",
+          "value": "SUVs"
+        }
+      ]
+    },
+    {
       "id": "vh-benefactor-xls",
       "title": "Benefactor XLS",
       "category": "vehicles",
@@ -26953,6 +29456,240 @@
       ]
     },
     {
+      "id": "vh-95-grotti-cheetah",
+      "title": "'95 Grotti Cheetah",
+      "category": "vehicles",
+      "subgroup": "Supercars",
+      "spoiler": true,
+      "guide": "Supercar in the game's Vehicles log. An Ultimate Edition bonus car.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Luxury"
+        },
+        {
+          "label": "Speed",
+          "value": "6.6"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "6.5"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.4"
+        },
+        {
+          "label": "Category",
+          "value": "Supercars"
+        }
+      ]
+    },
+    {
+      "id": "vh-progen-emerus",
+      "title": "Progen Emerus",
+      "category": "vehicles",
+      "subgroup": "Supercars",
+      "spoiler": true,
+      "guide": "Supercar in the game's Vehicles log. Its spawn cheat unlocks by finishing every vehicle challenge, for use once the story is done.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Luxury"
+        },
+        {
+          "label": "Speed",
+          "value": "8.3"
+        },
+        {
+          "label": "Acceleration",
+          "value": "8.3"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "8.4"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.4"
+        },
+        {
+          "label": "Category",
+          "value": "Supercars"
+        }
+      ]
+    },
+    {
+      "id": "vh-piccia-furia",
+      "title": "Piccia Furia",
+      "category": "vehicles",
+      "subgroup": "Supercars",
+      "spoiler": true,
+      "guide": "Supercar in the game's Vehicles log. It's on Randy's Wish List at Leonida Auto World.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Luxury"
+        },
+        {
+          "label": "Speed",
+          "value": "7.8"
+        },
+        {
+          "label": "Acceleration",
+          "value": "8.2"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "7.3"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.6"
+        },
+        {
+          "label": "Category",
+          "value": "Supercars"
+        }
+      ]
+    },
+    {
+      "id": "vh-96-pegassi-infernus",
+      "title": "'96 Pegassi Infernus",
+      "category": "vehicles",
+      "subgroup": "Supercars",
+      "spoiler": true,
+      "guide": "Supercar in the game's Vehicles log. It's on Randy's Wish List at Leonida Auto World.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Luxury"
+        },
+        {
+          "label": "Speed",
+          "value": "7.1"
+        },
+        {
+          "label": "Acceleration",
+          "value": "7.3"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "6.5"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "4.3"
+        },
+        {
+          "label": "Category",
+          "value": "Supercars"
+        }
+      ]
+    },
+    {
+      "id": "vh-grotti-itali-rsx",
+      "title": "Grotti Itali RSX",
+      "category": "vehicles",
+      "subgroup": "Supercars",
+      "spoiler": true,
+      "guide": "Supercar in the game's Vehicles log. It's on Randy's Wish List at Leonida Auto World.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Luxury"
+        },
+        {
+          "label": "Speed",
+          "value": "7.5"
+        },
+        {
+          "label": "Acceleration",
+          "value": "8.1"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "7.0"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.8"
+        },
+        {
+          "label": "Category",
+          "value": "Supercars"
+        }
+      ]
+    },
+    {
+      "id": "vh-pegassi-tempesta",
+      "title": "Pegassi Tempesta",
+      "category": "vehicles",
+      "subgroup": "Supercars",
+      "spoiler": true,
+      "guide": "Supercar in the game's Vehicles log. It's on Randy's Wish List at Leonida Auto World.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Luxury"
+        },
+        {
+          "label": "Speed",
+          "value": "7.6"
+        },
+        {
+          "label": "Acceleration",
+          "value": "7.8"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "6.9"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.8"
+        },
+        {
+          "label": "Category",
+          "value": "Supercars"
+        }
+      ]
+    },
+    {
+      "id": "vh-pegassi-vitello",
+      "title": "Pegassi Vitello",
+      "category": "vehicles",
+      "subgroup": "Supercars",
+      "spoiler": true,
+      "guide": "Supercar in the game's Vehicles log. It's on Randy's Wish List at Leonida Auto World.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Luxury"
+        },
+        {
+          "label": "Speed",
+          "value": "8.2"
+        },
+        {
+          "label": "Acceleration",
+          "value": "8.4"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "8.2"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.8"
+        },
+        {
+          "label": "Category",
+          "value": "Supercars"
+        }
+      ]
+    },
+    {
       "id": "vh-granforma-zorrusso",
       "title": "Granforma Zorrusso",
       "category": "vehicles",
@@ -27008,6 +29745,36 @@
       ]
     },
     {
+      "id": "vh-brute-boxville",
+      "title": "Brute Boxville",
+      "category": "vehicles",
+      "subgroup": "Vans",
+      "spoiler": true,
+      "guide": "Van in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "2.6"
+        },
+        {
+          "label": "Acceleration",
+          "value": "2.7"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "2.7"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.4"
+        },
+        {
+          "label": "Category",
+          "value": "Vans"
+        }
+      ]
+    },
+    {
       "id": "vh-98-declasse-burrito",
       "title": "'98 Declasse Burrito",
       "category": "vehicles",
@@ -27059,6 +29826,96 @@
         {
           "label": "Log entry",
           "value": "2 of 14"
+        }
+      ]
+    },
+    {
+      "id": "vh-78-osprey-journey",
+      "title": "'78 Osprey Journey",
+      "category": "vehicles",
+      "subgroup": "Vans",
+      "spoiler": true,
+      "guide": "Van in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "2.4"
+        },
+        {
+          "label": "Acceleration",
+          "value": "1.8"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "2.5"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "2.3"
+        },
+        {
+          "label": "Category",
+          "value": "Vans"
+        }
+      ]
+    },
+    {
+      "id": "vh-83-willard-moocher",
+      "title": "'83 Willard Moocher",
+      "category": "vehicles",
+      "subgroup": "Vans",
+      "spoiler": true,
+      "guide": "Van in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "2.5"
+        },
+        {
+          "label": "Acceleration",
+          "value": "1.4"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "2.8"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "2.6"
+        },
+        {
+          "label": "Category",
+          "value": "Vans"
+        }
+      ]
+    },
+    {
+      "id": "vh-vapid-rumpo",
+      "title": "Vapid Rumpo",
+      "category": "vehicles",
+      "subgroup": "Vans",
+      "spoiler": true,
+      "guide": "Van in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "3.2"
+        },
+        {
+          "label": "Acceleration",
+          "value": "3.7"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.1"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.3"
+        },
+        {
+          "label": "Category",
+          "value": "Vans"
         }
       ]
     },
@@ -27228,6 +30085,222 @@
       ]
     },
     {
+      "id": "vh-vapid-speedo",
+      "title": "Vapid Speedo",
+      "category": "vehicles",
+      "subgroup": "Vans",
+      "spoiler": true,
+      "guide": "Van in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "3.4"
+        },
+        {
+          "label": "Acceleration",
+          "value": "3.6"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.1"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.6"
+        },
+        {
+          "label": "Category",
+          "value": "Vans"
+        }
+      ]
+    },
+    {
+      "id": "vh-74-bravado-youga",
+      "title": "'74 Bravado Youga",
+      "category": "vehicles",
+      "subgroup": "Vans",
+      "spoiler": true,
+      "guide": "Van in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "3.0"
+        },
+        {
+          "label": "Acceleration",
+          "value": "2.6"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.2"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.1"
+        },
+        {
+          "label": "Category",
+          "value": "Vans"
+        }
+      ]
+    },
+    {
+      "id": "vh-79-bravado-youga-xl",
+      "title": "'79 Bravado Youga XL",
+      "category": "vehicles",
+      "subgroup": "Vans",
+      "spoiler": true,
+      "guide": "Van in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "3.2"
+        },
+        {
+          "label": "Acceleration",
+          "value": "3.1"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.2"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.3"
+        },
+        {
+          "label": "Category",
+          "value": "Vans"
+        }
+      ]
+    },
+    {
+      "id": "vh-97-interstate-benson",
+      "title": "'97 Interstate Benson",
+      "category": "vehicles",
+      "subgroup": "Trucks",
+      "spoiler": true,
+      "guide": "Truck in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "2.4"
+        },
+        {
+          "label": "Category",
+          "value": "Trucks"
+        }
+      ]
+    },
+    {
+      "id": "vh-cartright-biff",
+      "title": "Cartright Biff",
+      "category": "vehicles",
+      "subgroup": "Trucks",
+      "spoiler": true,
+      "guide": "Truck in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "2.2"
+        },
+        {
+          "label": "Category",
+          "value": "Trucks"
+        }
+      ]
+    },
+    {
+      "id": "vh-declasse-d7700",
+      "title": "Declasse D7700",
+      "category": "vehicles",
+      "subgroup": "Trucks",
+      "spoiler": true,
+      "guide": "Truck in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "2.9"
+        },
+        {
+          "label": "Category",
+          "value": "Trucks"
+        }
+      ]
+    },
+    {
+      "id": "vh-vapid-guardian-tx2",
+      "title": "Vapid Guardian TX2",
+      "category": "vehicles",
+      "subgroup": "Trucks",
+      "spoiler": true,
+      "guide": "Truck in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "2.6"
+        },
+        {
+          "label": "Category",
+          "value": "Trucks"
+        }
+      ]
+    },
+    {
+      "id": "vh-cartright-hauler",
+      "title": "Cartright Hauler",
+      "category": "vehicles",
+      "subgroup": "Trucks",
+      "spoiler": true,
+      "guide": "Truck in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "2.1"
+        },
+        {
+          "label": "Category",
+          "value": "Trucks"
+        }
+      ]
+    },
+    {
+      "id": "vh-maibatsu-iota",
+      "title": "Maibatsu Iota",
+      "category": "vehicles",
+      "subgroup": "Trucks",
+      "spoiler": true,
+      "guide": "Truck in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "2.6"
+        },
+        {
+          "label": "Category",
+          "value": "Trucks"
+        }
+      ]
+    },
+    {
+      "id": "vh-jobuilt-mb2-10",
+      "title": "JoBuilt MB2-10",
+      "category": "vehicles",
+      "subgroup": "Trucks",
+      "spoiler": true,
+      "guide": "Truck in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "1.8"
+        },
+        {
+          "label": "Category",
+          "value": "Trucks"
+        }
+      ]
+    },
+    {
       "id": "vh-maibatsu-mule",
       "title": "Maibatsu Mule",
       "category": "vehicles",
@@ -27267,6 +30340,70 @@
       ]
     },
     {
+      "id": "vh-mtl-packer",
+      "title": "MTL Packer",
+      "category": "vehicles",
+      "subgroup": "Trucks",
+      "spoiler": true,
+      "guide": "Truck in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "2.6"
+        },
+        {
+          "label": "Category",
+          "value": "Trucks"
+        }
+      ]
+    },
+    {
+      "id": "vh-81-jobuilt-phantom-custom",
+      "title": "'81 JoBuilt Phantom Custom",
+      "category": "vehicles",
+      "subgroup": "Trucks",
+      "spoiler": true,
+      "guide": "Truck in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "2.0"
+        },
+        {
+          "label": "Category",
+          "value": "Trucks"
+        }
+      ]
+    },
+    {
+      "id": "vh-hvy-airtug",
+      "title": "HVY Airtug",
+      "category": "vehicles",
+      "subgroup": "Utility vehicles",
+      "spoiler": true,
+      "guide": "Utility vehicle in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Utility vehicles"
+        }
+      ]
+    },
+    {
+      "id": "vh-maibatsu-caddy",
+      "title": "Maibatsu Caddy",
+      "category": "vehicles",
+      "subgroup": "Utility vehicles",
+      "spoiler": true,
+      "guide": "Utility vehicle in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Utility vehicles"
+        }
+      ]
+    },
+    {
       "id": "vh-lifta",
       "title": "Lifta",
       "category": "vehicles",
@@ -27290,6 +30427,20 @@
       ]
     },
     {
+      "id": "vh-brute-taco-van",
+      "title": "Brute Taco Van",
+      "category": "vehicles",
+      "subgroup": "Utility vehicles",
+      "spoiler": true,
+      "guide": "Utility vehicle in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Utility vehicles"
+        }
+      ]
+    },
+    {
       "id": "vh-80-interstate-yankee",
       "title": "'80 Interstate Yankee",
       "category": "vehicles",
@@ -27309,6 +30460,20 @@
         {
           "label": "Log entry",
           "value": "9 of 9"
+        }
+      ]
+    },
+    {
+      "id": "vh-b3000-excavator",
+      "title": "B3000 Excavator",
+      "category": "vehicles",
+      "subgroup": "Industrial vehicles",
+      "spoiler": true,
+      "guide": "Industrial vehicle in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Industrial vehicles"
         }
       ]
     },
@@ -27402,6 +30567,98 @@
       ]
     },
     {
+      "id": "vh-hauners-brigade",
+      "title": "Hauners Brigade",
+      "category": "vehicles",
+      "subgroup": "Emergency vehicles",
+      "spoiler": true,
+      "guide": "Emergency vehicle in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "1.6"
+        },
+        {
+          "label": "Category",
+          "value": "Emergency vehicles"
+        }
+      ]
+    },
+    {
+      "id": "vh-dingus-garda",
+      "title": "Dingus Garda",
+      "category": "vehicles",
+      "subgroup": "Emergency vehicles",
+      "spoiler": true,
+      "guide": "Emergency vehicle in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Emergency vehicles"
+        }
+      ]
+    },
+    {
+      "id": "vh-brute-police-riot",
+      "title": "Brute Police Riot",
+      "category": "vehicles",
+      "subgroup": "Emergency vehicles",
+      "spoiler": true,
+      "guide": "Emergency vehicle in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "2.4"
+        },
+        {
+          "label": "Category",
+          "value": "Emergency vehicles"
+        }
+      ]
+    },
+    {
+      "id": "vh-bottcher-buzzard",
+      "title": "Bottcher Buzzard",
+      "category": "vehicles",
+      "subgroup": "Military vehicles",
+      "spoiler": true,
+      "guide": "Military vehicle in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Military vehicles"
+        }
+      ]
+    },
+    {
+      "id": "vh-hauners-cargobob",
+      "title": "Hauners Cargobob",
+      "category": "vehicles",
+      "subgroup": "Military vehicles",
+      "spoiler": true,
+      "guide": "Military vehicle in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Military vehicles"
+        }
+      ]
+    },
+    {
+      "id": "vh-hauners-rhino-tank",
+      "title": "Hauners Rhino Tank",
+      "category": "vehicles",
+      "subgroup": "Military vehicles",
+      "spoiler": true,
+      "guide": "Military vehicle in the game's Vehicles log. Its spawn cheat unlocks by finishing every survival challenge, for use once the story is done.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Military vehicles"
+        }
+      ]
+    },
+    {
       "id": "vh-whiffler-dashound",
       "title": "Whiffler Dashound",
       "category": "vehicles",
@@ -27445,6 +30702,24 @@
       ]
     },
     {
+      "id": "vh-brute-rental-bus",
+      "title": "Brute Rental Bus",
+      "category": "vehicles",
+      "subgroup": "Transport vehicles",
+      "spoiler": true,
+      "guide": "Transport vehicle in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "2.7"
+        },
+        {
+          "label": "Category",
+          "value": "Transport vehicles"
+        }
+      ]
+    },
+    {
       "id": "vh-taxi",
       "title": "Taxi",
       "category": "vehicles",
@@ -27468,6 +30743,110 @@
         {
           "label": "Log entry",
           "value": "6 of 6"
+        }
+      ]
+    },
+    {
+      "id": "vh-principe-alvino-v1",
+      "title": "Principe Alvino V1",
+      "category": "vehicles",
+      "subgroup": "Bikes",
+      "spoiler": true,
+      "guide": "Bike in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "6.9"
+        },
+        {
+          "label": "Acceleration",
+          "value": "7.9"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "7.9"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "2.3"
+        },
+        {
+          "label": "Category",
+          "value": "Bikes"
+        }
+      ]
+    },
+    {
+      "id": "vh-bravado-aphid",
+      "title": "Bravado Aphid",
+      "category": "vehicles",
+      "subgroup": "Bikes",
+      "spoiler": true,
+      "guide": "Bike in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "2.1"
+        },
+        {
+          "label": "Acceleration",
+          "value": "3.6"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "2.9"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "6.8"
+        },
+        {
+          "label": "Category",
+          "value": "Bikes"
+        }
+      ]
+    },
+    {
+      "id": "vh-lcc-avarus",
+      "title": "LCC Avarus",
+      "category": "vehicles",
+      "subgroup": "Bikes",
+      "spoiler": true,
+      "guide": "Bike in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "3.6"
+        },
+        {
+          "label": "Acceleration",
+          "value": "4.7"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "4.8"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "2.7"
+        },
+        {
+          "label": "Category",
+          "value": "Bikes"
+        }
+      ]
+    },
+    {
+      "id": "vh-tuff-bmx",
+      "title": "Tuff BMX",
+      "category": "vehicles",
+      "subgroup": "Bikes",
+      "spoiler": true,
+      "guide": "Bike in the game's Vehicles log. Its spawn cheat unlocks by finishing 5 fitness challenges, for use once the story is done.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Bikes"
         }
       ]
     },
@@ -27527,6 +30906,36 @@
       ]
     },
     {
+      "id": "vh-nagasaki-carbon-rs",
+      "title": "Nagasaki Carbon RS",
+      "category": "vehicles",
+      "subgroup": "Bikes",
+      "spoiler": true,
+      "guide": "Bike in the game's Vehicles log. Its spawn cheat unlocks by finishing every exploration challenge, for use once the story is done.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "6.7"
+        },
+        {
+          "label": "Acceleration",
+          "value": "7.7"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "7.6"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "2.3"
+        },
+        {
+          "label": "Category",
+          "value": "Bikes"
+        }
+      ]
+    },
+    {
       "id": "vh-walter-cruiser",
       "title": "Walter Cruiser",
       "category": "vehicles",
@@ -27550,6 +30959,20 @@
         {
           "label": "Log entry",
           "value": "10 of 29"
+        }
+      ]
+    },
+    {
+      "id": "vh-del-perro-erode",
+      "title": "Del Perro Erode",
+      "category": "vehicles",
+      "subgroup": "Bikes",
+      "spoiler": true,
+      "guide": "Bike in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Bikes"
         }
       ]
     },
@@ -27668,6 +31091,20 @@
       ]
     },
     {
+      "id": "vh-walter-lombike",
+      "title": "Walter Lombike",
+      "category": "vehicles",
+      "subgroup": "Bikes",
+      "spoiler": true,
+      "guide": "Bike in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Bikes"
+        }
+      ]
+    },
+    {
       "id": "vh-maibatsu-manchez",
       "title": "Maibatsu Manchez",
       "category": "vehicles",
@@ -27719,6 +31156,96 @@
         {
           "label": "Log entry",
           "value": "20 of 29"
+        }
+      ]
+    },
+    {
+      "id": "vh-western-nightblade",
+      "title": "Western Nightblade",
+      "category": "vehicles",
+      "subgroup": "Bikes",
+      "spoiler": true,
+      "guide": "Bike in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Chopper"
+        },
+        {
+          "label": "Speed",
+          "value": "4.4"
+        },
+        {
+          "label": "Acceleration",
+          "value": "5.9"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "5.8"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "3.0"
+        },
+        {
+          "label": "Category",
+          "value": "Bikes"
+        }
+      ]
+    },
+    {
+      "id": "vh-nagasaki-nimbe",
+      "title": "Nagasaki Nimbe",
+      "category": "vehicles",
+      "subgroup": "Bikes",
+      "spoiler": true,
+      "guide": "Bike in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "2.6"
+        },
+        {
+          "label": "Acceleration",
+          "value": "3.5"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "1.7"
+        },
+        {
+          "label": "Category",
+          "value": "Bikes"
+        }
+      ]
+    },
+    {
+      "id": "vh-taci-ragno",
+      "title": "Taci Ragno",
+      "category": "vehicles",
+      "subgroup": "Bikes",
+      "spoiler": true,
+      "guide": "Bike in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "2.6"
+        },
+        {
+          "label": "Acceleration",
+          "value": "3.6"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.6"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "1.8"
+        },
+        {
+          "label": "Category",
+          "value": "Bikes"
         }
       ]
     },
@@ -27801,6 +31328,36 @@
         {
           "label": "Log entry",
           "value": "25 of 29"
+        }
+      ]
+    },
+    {
+      "id": "vh-nagasaki-sfb-1000",
+      "title": "Nagasaki SFB 1000",
+      "category": "vehicles",
+      "subgroup": "Bikes",
+      "spoiler": true,
+      "guide": "Bike in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Speed",
+          "value": "7.1"
+        },
+        {
+          "label": "Acceleration",
+          "value": "8.1"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "8.1"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "2.3"
+        },
+        {
+          "label": "Category",
+          "value": "Bikes"
         }
       ]
     },
@@ -27919,6 +31476,70 @@
       ]
     },
     {
+      "id": "vh-dinka-verus",
+      "title": "Dinka Verus",
+      "category": "vehicles",
+      "subgroup": "Bikes",
+      "spoiler": true,
+      "guide": "Bike in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Dirt bike"
+        },
+        {
+          "label": "Speed",
+          "value": "2.8"
+        },
+        {
+          "label": "Acceleration",
+          "value": "4.6"
+        },
+        {
+          "label": "Asphalt handling",
+          "value": "3.3"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "7.1"
+        },
+        {
+          "label": "Category",
+          "value": "Bikes"
+        }
+      ]
+    },
+    {
+      "id": "vh-western-zombie-bobber",
+      "title": "Western Zombie Bobber",
+      "category": "vehicles",
+      "subgroup": "Bikes",
+      "spoiler": true,
+      "guide": "Bike in the game's Vehicles log. Its spawn cheat unlocks by finishing every criminal challenge, for use once the story is done.",
+      "stats": [
+        {
+          "label": "Mod shop",
+          "value": "Chopper"
+        },
+        {
+          "label": "Speed",
+          "value": "4.4"
+        },
+        {
+          "label": "Acceleration",
+          "value": "5.3"
+        },
+        {
+          "label": "Off-road handling",
+          "value": "2.9"
+        },
+        {
+          "label": "Category",
+          "value": "Bikes"
+        }
+      ]
+    },
+    {
       "id": "vh-airgator-airboat-09",
       "title": "Airgator Airboat 09",
       "category": "vehicles",
@@ -27942,6 +31563,34 @@
         {
           "label": "Log entry",
           "value": "1 of 28"
+        }
+      ]
+    },
+    {
+      "id": "vh-seashark-azure",
+      "title": "Seashark Azure",
+      "category": "vehicles",
+      "subgroup": "Watercraft",
+      "spoiler": true,
+      "guide": "Watercraft in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Watercraft"
+        }
+      ]
+    },
+    {
+      "id": "vh-blade-500",
+      "title": "Blade 500",
+      "category": "vehicles",
+      "subgroup": "Watercraft",
+      "spoiler": true,
+      "guide": "Watercraft in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Watercraft"
         }
       ]
     },
@@ -28000,6 +31649,34 @@
       ]
     },
     {
+      "id": "vh-rugger-fortune",
+      "title": "Rugger Fortune",
+      "category": "vehicles",
+      "subgroup": "Watercraft",
+      "spoiler": true,
+      "guide": "Watercraft in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Watercraft"
+        }
+      ]
+    },
+    {
+      "id": "vh-rugger-hemming",
+      "title": "Rugger Hemming",
+      "category": "vehicles",
+      "subgroup": "Watercraft",
+      "spoiler": true,
+      "guide": "Watercraft in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Watercraft"
+        }
+      ]
+    },
+    {
       "id": "vh-seashark-hydroblast",
       "title": "Seashark Hydroblast",
       "category": "vehicles",
@@ -28046,6 +31723,20 @@
         {
           "label": "Log entry",
           "value": "13 of 28"
+        }
+      ]
+    },
+    {
+      "id": "vh-dingus-nepa",
+      "title": "Dingus Nepa",
+      "category": "vehicles",
+      "subgroup": "Watercraft",
+      "spoiler": true,
+      "guide": "Watercraft in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Watercraft"
         }
       ]
     },
@@ -28104,6 +31795,20 @@
       ]
     },
     {
+      "id": "vh-rugger-rhode",
+      "title": "Rugger Rhode",
+      "category": "vehicles",
+      "subgroup": "Watercraft",
+      "spoiler": true,
+      "guide": "Watercraft in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Watercraft"
+        }
+      ]
+    },
+    {
       "id": "vh-bombora-s23-ccs",
       "title": "Bombora S23 CCS",
       "category": "vehicles",
@@ -28158,6 +31863,76 @@
       ]
     },
     {
+      "id": "vh-calder-shasa",
+      "title": "Calder Shasa",
+      "category": "vehicles",
+      "subgroup": "Watercraft",
+      "spoiler": true,
+      "guide": "Watercraft in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Watercraft"
+        }
+      ]
+    },
+    {
+      "id": "vh-speeder-700-gt",
+      "title": "Speeder 700 GT",
+      "category": "vehicles",
+      "subgroup": "Watercraft",
+      "spoiler": true,
+      "guide": "Watercraft in the game's Vehicles log. Its spawn cheat unlocks by finishing 5 combat challenges, for use once the story is done.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Watercraft"
+        }
+      ]
+    },
+    {
+      "id": "vh-shitzu-squalo",
+      "title": "Shitzu Squalo",
+      "category": "vehicles",
+      "subgroup": "Watercraft",
+      "spoiler": true,
+      "guide": "Watercraft in the game's Vehicles log. An Ultimate Edition bonus boat.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Watercraft"
+        }
+      ]
+    },
+    {
+      "id": "vh-nagasaki-tao",
+      "title": "Nagasaki Tao",
+      "category": "vehicles",
+      "subgroup": "Watercraft",
+      "spoiler": true,
+      "guide": "Watercraft in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Watercraft"
+        }
+      ]
+    },
+    {
+      "id": "vh-calder-torlan",
+      "title": "Calder Torlan",
+      "category": "vehicles",
+      "subgroup": "Watercraft",
+      "spoiler": true,
+      "guide": "Watercraft in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Watercraft"
+        }
+      ]
+    },
+    {
       "id": "vh-calder-yakuruna",
       "title": "Calder Yakuruna",
       "category": "vehicles",
@@ -28181,6 +31956,20 @@
         {
           "label": "Log entry",
           "value": "28 of 28"
+        }
+      ]
+    },
+    {
+      "id": "vh-lapwing-300-h",
+      "title": "Lapwing 300-H",
+      "category": "vehicles",
+      "subgroup": "Aircraft",
+      "spoiler": true,
+      "guide": "Aircraft in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Aircraft"
         }
       ]
     },
@@ -28212,6 +32001,20 @@
       ]
     },
     {
+      "id": "vh-bottcher-duster",
+      "title": "Bottcher Duster",
+      "category": "vehicles",
+      "subgroup": "Aircraft",
+      "spoiler": true,
+      "guide": "Aircraft in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Aircraft"
+        }
+      ]
+    },
+    {
       "id": "vh-lapwing-mallard",
       "title": "Lapwing Mallard",
       "category": "vehicles",
@@ -28235,6 +32038,48 @@
         {
           "label": "Log entry",
           "value": "7 of 16"
+        }
+      ]
+    },
+    {
+      "id": "vh-lapwing-mammatus",
+      "title": "Lapwing Mammatus",
+      "category": "vehicles",
+      "subgroup": "Aircraft",
+      "spoiler": true,
+      "guide": "Aircraft in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Aircraft"
+        }
+      ]
+    },
+    {
+      "id": "vh-buckingham-maverick",
+      "title": "Buckingham Maverick",
+      "category": "vehicles",
+      "subgroup": "Aircraft",
+      "spoiler": true,
+      "guide": "Aircraft in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Aircraft"
+        }
+      ]
+    },
+    {
+      "id": "vh-lapwing-nimbus",
+      "title": "Lapwing Nimbus",
+      "category": "vehicles",
+      "subgroup": "Aircraft",
+      "spoiler": true,
+      "guide": "Aircraft in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Aircraft"
         }
       ]
     },
@@ -28266,13 +32111,27 @@
       ]
     },
     {
+      "id": "vh-buckingham-superovolito",
+      "title": "Buckingham Superovolito",
+      "category": "vehicles",
+      "subgroup": "Aircraft",
+      "spoiler": true,
+      "guide": "Aircraft in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Aircraft"
+        }
+      ]
+    },
+    {
       "id": "vh-more-coupes",
       "title": "More coupes",
       "category": "vehicles",
       "subgroup": "Coupes",
       "spoiler": true,
-      "guide": "Count the coupes you've discovered that don't have their own row here yet. 4 of the class's 18 are listed above.",
-      "tallyTarget": 14
+      "guide": "Count the coupes you've discovered that don't have their own row here yet: 16 of the 18 are listed above, so 2 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
+      "tallyTarget": 2
     },
     {
       "id": "vh-more-muscle-cars",
@@ -28280,8 +32139,8 @@
       "category": "vehicles",
       "subgroup": "Muscle cars",
       "spoiler": true,
-      "guide": "Count the muscle cars you've discovered that don't have their own row here yet. 3 of the class's 26 are listed above.",
-      "tallyTarget": 23
+      "guide": "Count the muscle cars you've discovered that don't have their own row here yet: 15 of the 26 are listed above, so 11 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
+      "tallyTarget": 11
     },
     {
       "id": "vh-more-off-road-vehicles",
@@ -28289,8 +32148,8 @@
       "category": "vehicles",
       "subgroup": "Off-road vehicles",
       "spoiler": true,
-      "guide": "Count the off-road vehicles you've discovered that don't have their own row here yet. 3 of the class's 8 are listed above.",
-      "tallyTarget": 5
+      "guide": "Count the off-road vehicles you've discovered that don't have their own row here yet: 7 of the 8 are listed above, so 1 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
+      "tallyTarget": 1
     },
     {
       "id": "vh-more-pickups",
@@ -28298,8 +32157,8 @@
       "category": "vehicles",
       "subgroup": "Pickups",
       "spoiler": true,
-      "guide": "Count the pickups you've discovered that don't have their own row here yet. 11 of the class's 17 are listed above.",
-      "tallyTarget": 6
+      "guide": "Count the pickups you've discovered that don't have their own row here yet: 16 of the 17 are listed above, so 1 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
+      "tallyTarget": 1
     },
     {
       "id": "vh-more-sedans",
@@ -28307,8 +32166,8 @@
       "category": "vehicles",
       "subgroup": "Sedans",
       "spoiler": true,
-      "guide": "Count the sedans you've discovered that don't have their own row here yet. 9 of the class's 29 are listed above.",
-      "tallyTarget": 20
+      "guide": "Count the sedans you've discovered that don't have their own row here yet: 26 of the 29 are listed above, so 3 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
+      "tallyTarget": 3
     },
     {
       "id": "vh-more-sports-cars",
@@ -28316,8 +32175,8 @@
       "category": "vehicles",
       "subgroup": "Sports cars",
       "spoiler": true,
-      "guide": "Count the sports cars you've discovered that don't have their own row here yet. 1 of the class's 13 are listed above.",
-      "tallyTarget": 12
+      "guide": "Count the sports cars you've discovered that don't have their own row here yet: 11 of the 13 are listed above, so 2 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
+      "tallyTarget": 2
     },
     {
       "id": "vh-more-suvs",
@@ -28325,8 +32184,8 @@
       "category": "vehicles",
       "subgroup": "SUVs",
       "spoiler": true,
-      "guide": "Count the SUVs you've discovered that don't have their own row here yet. 8 of the class's 23 are listed above.",
-      "tallyTarget": 15
+      "guide": "Count the SUVs you've discovered that don't have their own row here yet: 21 of the 23 are listed above, so 2 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
+      "tallyTarget": 2
     },
     {
       "id": "vh-more-supercars",
@@ -28334,8 +32193,8 @@
       "category": "vehicles",
       "subgroup": "Supercars",
       "spoiler": true,
-      "guide": "Count the supercars you've discovered that don't have their own row here yet. 1 of the class's 9 are listed above.",
-      "tallyTarget": 8
+      "guide": "Count the supercars you've discovered that don't have their own row here yet: 8 of the 9 are listed above, so 1 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
+      "tallyTarget": 1
     },
     {
       "id": "vh-more-vans",
@@ -28343,8 +32202,8 @@
       "category": "vehicles",
       "subgroup": "Vans",
       "spoiler": true,
-      "guide": "Count the vans you've discovered that don't have their own row here yet. 4 of the class's 14 are listed above.",
-      "tallyTarget": 10
+      "guide": "Count the vans you've discovered that don't have their own row here yet: 11 of the 14 are listed above, so 3 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
+      "tallyTarget": 3
     },
     {
       "id": "vh-more-trucks",
@@ -28352,8 +32211,8 @@
       "category": "vehicles",
       "subgroup": "Trucks",
       "spoiler": true,
-      "guide": "Count the trucks you've discovered that don't have their own row here yet. 1 of the class's 11 are listed above.",
-      "tallyTarget": 10
+      "guide": "Count the trucks you've discovered that don't have their own row here yet: 10 of the 11 are listed above, so 1 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
+      "tallyTarget": 1
     },
     {
       "id": "vh-more-utility-vehicles",
@@ -28361,8 +32220,8 @@
       "category": "vehicles",
       "subgroup": "Utility vehicles",
       "spoiler": true,
-      "guide": "Count the utility vehicles you've discovered that don't have their own row here yet. 2 of the class's 9 are listed above.",
-      "tallyTarget": 7
+      "guide": "Count the utility vehicles you've discovered that don't have their own row here yet: 5 of the 9 are listed above, so 4 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
+      "tallyTarget": 4
     },
     {
       "id": "vh-more-industrial-vehicles",
@@ -28370,8 +32229,8 @@
       "category": "vehicles",
       "subgroup": "Industrial vehicles",
       "spoiler": true,
-      "guide": "Count the industrial vehicles you've discovered that don't have their own row here yet. 2 of the class's 6 are listed above.",
-      "tallyTarget": 4
+      "guide": "Count the industrial vehicles you've discovered that don't have their own row here yet: 3 of the 6 are listed above, so 3 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
+      "tallyTarget": 3
     },
     {
       "id": "vh-more-emergency-vehicles",
@@ -28379,8 +32238,8 @@
       "category": "vehicles",
       "subgroup": "Emergency vehicles",
       "spoiler": true,
-      "guide": "Count the emergency vehicles you've discovered that don't have their own row here yet. 1 of the class's 7 are listed above.",
-      "tallyTarget": 6
+      "guide": "Count the emergency vehicles you've discovered that don't have their own row here yet: 4 of the 7 are listed above, so 3 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
+      "tallyTarget": 3
     },
     {
       "id": "vh-more-military-vehicles",
@@ -28388,8 +32247,8 @@
       "category": "vehicles",
       "subgroup": "Military vehicles",
       "spoiler": true,
-      "guide": "Count the military vehicles you've discovered. None of the class's 8 have their own row here yet.",
-      "tallyTarget": 8
+      "guide": "Count the military vehicles you've discovered that don't have their own row here yet: 3 of the 8 are listed above, so 5 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
+      "tallyTarget": 5
     },
     {
       "id": "vh-more-transport-vehicles",
@@ -28397,8 +32256,8 @@
       "category": "vehicles",
       "subgroup": "Transport vehicles",
       "spoiler": true,
-      "guide": "Count the transport vehicles you've discovered that don't have their own row here yet. 2 of the class's 6 are listed above.",
-      "tallyTarget": 4
+      "guide": "Count the transport vehicles you've discovered that don't have their own row here yet: 3 of the 6 are listed above, so 3 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
+      "tallyTarget": 3
     },
     {
       "id": "vh-more-bikes",
@@ -28406,8 +32265,8 @@
       "category": "vehicles",
       "subgroup": "Bikes",
       "spoiler": true,
-      "guide": "Count the bikes you've discovered that don't have their own row here yet. 9 of the 29 are listed above.",
-      "tallyTarget": 20
+      "guide": "Count the bikes you've discovered that don't have their own row here yet: 22 of the 29 are listed above, so 7 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
+      "tallyTarget": 7
     },
     {
       "id": "vh-more-watercraft",
@@ -28415,8 +32274,8 @@
       "category": "vehicles",
       "subgroup": "Watercraft",
       "spoiler": true,
-      "guide": "Count the watercraft you've discovered that don't have their own row here yet. 10 of the 28 are listed above.",
-      "tallyTarget": 18
+      "guide": "Count the watercraft you've discovered that don't have their own row here yet: 21 of the 28 are listed above, so 7 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
+      "tallyTarget": 7
     },
     {
       "id": "vh-more-aircraft",
@@ -28424,8 +32283,8 @@
       "category": "vehicles",
       "subgroup": "Aircraft",
       "spoiler": true,
-      "guide": "Count the aircraft you've discovered that don't have their own row here yet. 3 of the 16 are listed above.",
-      "tallyTarget": 13
+      "guide": "Count the aircraft you've discovered that don't have their own row here yet: 9 of the 16 are listed above, so 7 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
+      "tallyTarget": 7
     },
     {
       "id": "sv-01",
@@ -29605,6 +33464,56 @@
       ]
     },
     {
+      "id": "wp-scorpio-nipper-38",
+      "title": "Scorpio Nipper .38",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Small, discreet pistol that stays hidden until it's needed.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "8"
+        },
+        {
+          "label": "Fire style",
+          "value": "Semi-auto"
+        },
+        {
+          "label": "Brand",
+          "value": "Scorpio"
+        },
+        {
+          "label": "Caliber",
+          "value": ".380 cal"
+        },
+        {
+          "label": "Damage",
+          "value": "2.8"
+        },
+        {
+          "label": "Accuracy",
+          "value": "3.0"
+        },
+        {
+          "label": "Handling",
+          "value": "9.0"
+        },
+        {
+          "label": "Range",
+          "value": "3.0"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        },
+        {
+          "label": "Log entry",
+          "value": "1 of 53"
+        }
+      ]
+    },
+    {
       "id": "wp-klose-k17",
       "title": "Klose K17",
       "category": "weapons",
@@ -29758,6 +33667,144 @@
       ]
     },
     {
+      "id": "wp-girardi-es18",
+      "title": "Girardi ES18",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Rare burst-fire machine pistol, fast but kept under control.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "30"
+        },
+        {
+          "label": "Fire style",
+          "value": "3-round burst"
+        },
+        {
+          "label": "Brand",
+          "value": "Girardi"
+        },
+        {
+          "label": "Caliber",
+          "value": "9mm"
+        },
+        {
+          "label": "Damage",
+          "value": "4.2"
+        },
+        {
+          "label": "Accuracy",
+          "value": "4.4"
+        },
+        {
+          "label": "Handling",
+          "value": "8.2"
+        },
+        {
+          "label": "Range",
+          "value": "4.8"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        }
+      ]
+    },
+    {
+      "id": "wp-klose-k17-mcd",
+      "title": "Klose K17 MCD",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "K17 converted to full auto; good for suppressing fire.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "24"
+        },
+        {
+          "label": "Fire style",
+          "value": "Full auto"
+        },
+        {
+          "label": "Brand",
+          "value": "Klose"
+        },
+        {
+          "label": "Caliber",
+          "value": "9mm"
+        },
+        {
+          "label": "Damage",
+          "value": "4.0"
+        },
+        {
+          "label": "Accuracy",
+          "value": "3.2"
+        },
+        {
+          "label": "Handling",
+          "value": "8.0"
+        },
+        {
+          "label": "Range",
+          "value": "4.2"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        }
+      ]
+    },
+    {
+      "id": "wp-fairview-kalinga-50",
+      "title": "Fairview Kalinga .50",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Heavy pistol that hits far harder than its size suggests.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "7"
+        },
+        {
+          "label": "Fire style",
+          "value": "Semi-auto"
+        },
+        {
+          "label": "Brand",
+          "value": "Fairview Firearms"
+        },
+        {
+          "label": "Caliber",
+          "value": ".50 Magnum"
+        },
+        {
+          "label": "Damage",
+          "value": "7.0"
+        },
+        {
+          "label": "Accuracy",
+          "value": "4.0"
+        },
+        {
+          "label": "Handling",
+          "value": "7.8"
+        },
+        {
+          "label": "Range",
+          "value": "5.0"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        }
+      ]
+    },
+    {
       "id": "wp-hawk-little-38",
       "title": "Hawk & Little .38",
       "category": "weapons",
@@ -29809,6 +33856,56 @@
       ]
     },
     {
+      "id": "wp-duke-mustang-357",
+      "title": "Duke Mustang .357",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Duke revolver with extra kick, built for one-shot kills.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "6"
+        },
+        {
+          "label": "Fire style",
+          "value": "Semi-auto"
+        },
+        {
+          "label": "Brand",
+          "value": "Duke"
+        },
+        {
+          "label": "Caliber",
+          "value": ".357 Magnum"
+        },
+        {
+          "label": "Damage",
+          "value": "5.7"
+        },
+        {
+          "label": "Accuracy",
+          "value": "4.5"
+        },
+        {
+          "label": "Handling",
+          "value": "8.0"
+        },
+        {
+          "label": "Range",
+          "value": "5.5"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        },
+        {
+          "label": "Log entry",
+          "value": "10 of 53"
+        }
+      ]
+    },
+    {
       "id": "wp-wortham-wcr1",
       "title": "Wortham WCR1",
       "category": "weapons",
@@ -29856,6 +33953,56 @@
         {
           "label": "Log entry",
           "value": "11 of 53"
+        }
+      ]
+    },
+    {
+      "id": "wp-scorpio-akulus",
+      "title": "Scorpio Akulus",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Heavy revolver with stopping power to spare.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "6"
+        },
+        {
+          "label": "Fire style",
+          "value": "Semi-auto"
+        },
+        {
+          "label": "Brand",
+          "value": "Scorpio"
+        },
+        {
+          "label": "Caliber",
+          "value": ".44 Magnum"
+        },
+        {
+          "label": "Damage",
+          "value": "7.0"
+        },
+        {
+          "label": "Accuracy",
+          "value": "4.2"
+        },
+        {
+          "label": "Handling",
+          "value": "7.6"
+        },
+        {
+          "label": "Range",
+          "value": "6.0"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        },
+        {
+          "label": "Log entry",
+          "value": "12 of 53"
         }
       ]
     },
@@ -29958,6 +34105,106 @@
         {
           "label": "Log entry",
           "value": "14 of 53"
+        }
+      ]
+    },
+    {
+      "id": "wp-zhang-wu-type-9",
+      "title": "Zhang Wu Type 9",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Small, mass-produced machine pistol; deadliest up close.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "10"
+        },
+        {
+          "label": "Fire style",
+          "value": "Full auto"
+        },
+        {
+          "label": "Brand",
+          "value": "Zhang Wu"
+        },
+        {
+          "label": "Caliber",
+          "value": "9mm"
+        },
+        {
+          "label": "Damage",
+          "value": "4.2"
+        },
+        {
+          "label": "Accuracy",
+          "value": "3.8"
+        },
+        {
+          "label": "Handling",
+          "value": "7.8"
+        },
+        {
+          "label": "Range",
+          "value": "3.5"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        },
+        {
+          "label": "Log entry",
+          "value": "15 of 53"
+        }
+      ]
+    },
+    {
+      "id": "wp-deever-tech-dsg",
+      "title": "Deever Tech DSG",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Burst-fire SMG for precise shooting.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "30"
+        },
+        {
+          "label": "Fire style",
+          "value": "3-round burst"
+        },
+        {
+          "label": "Brand",
+          "value": "Deever Tech"
+        },
+        {
+          "label": "Caliber",
+          "value": "9mm"
+        },
+        {
+          "label": "Damage",
+          "value": "4.2"
+        },
+        {
+          "label": "Accuracy",
+          "value": "4.2"
+        },
+        {
+          "label": "Handling",
+          "value": "6.9"
+        },
+        {
+          "label": "Range",
+          "value": "4.0"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        },
+        {
+          "label": "Log entry",
+          "value": "16 of 53"
         }
       ]
     },
@@ -30115,6 +34362,106 @@
       ]
     },
     {
+      "id": "wp-adb-pd-80",
+      "title": "ADB PD-80",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Compact, sturdy SMG made for personal defence.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "30"
+        },
+        {
+          "label": "Fire style",
+          "value": "Full auto"
+        },
+        {
+          "label": "Brand",
+          "value": "Armurerie de Belgique"
+        },
+        {
+          "label": "Caliber",
+          "value": "5.7×28mm"
+        },
+        {
+          "label": "Damage",
+          "value": "4.2"
+        },
+        {
+          "label": "Accuracy",
+          "value": "4.8"
+        },
+        {
+          "label": "Handling",
+          "value": "6.6"
+        },
+        {
+          "label": "Range",
+          "value": "4.2"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        },
+        {
+          "label": "Log entry",
+          "value": "20 of 53"
+        }
+      ]
+    },
+    {
+      "id": "wp-mason-keen-longshot",
+      "title": "Mason & Keen Longshot",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Refined British hunting shotgun.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "2"
+        },
+        {
+          "label": "Fire style",
+          "value": "Break action"
+        },
+        {
+          "label": "Brand",
+          "value": "Mason & Keen"
+        },
+        {
+          "label": "Caliber",
+          "value": "12-gauge"
+        },
+        {
+          "label": "Damage",
+          "value": "8.0"
+        },
+        {
+          "label": "Accuracy",
+          "value": "4.1"
+        },
+        {
+          "label": "Handling",
+          "value": "5.0"
+        },
+        {
+          "label": "Range",
+          "value": "2.5"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        },
+        {
+          "label": "Log entry",
+          "value": "21 of 53"
+        }
+      ]
+    },
+    {
       "id": "wp-fortune-son-moreland-850",
       "title": "Fortune & Son Moreland 850",
       "category": "weapons",
@@ -30162,6 +34509,428 @@
         {
           "label": "Log entry",
           "value": "22 of 53"
+        }
+      ]
+    },
+    {
+      "id": "wp-girardi-verro",
+      "title": "Girardi Verro",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Short, light semi-auto shotgun.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "5"
+        },
+        {
+          "label": "Fire style",
+          "value": "Semi-auto"
+        },
+        {
+          "label": "Brand",
+          "value": "Girardi"
+        },
+        {
+          "label": "Caliber",
+          "value": "12-gauge"
+        },
+        {
+          "label": "Damage",
+          "value": "7.4"
+        },
+        {
+          "label": "Accuracy",
+          "value": "3.9"
+        },
+        {
+          "label": "Handling",
+          "value": "6.5"
+        },
+        {
+          "label": "Range",
+          "value": "2.0"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        },
+        {
+          "label": "Log entry",
+          "value": "23 of 53"
+        }
+      ]
+    },
+    {
+      "id": "wp-girardi-az1200",
+      "title": "Girardi AZ1200",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Semi-auto shotgun that keeps up a steady rate of fire.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "5"
+        },
+        {
+          "label": "Fire style",
+          "value": "Semi-auto"
+        },
+        {
+          "label": "Brand",
+          "value": "Girardi"
+        },
+        {
+          "label": "Caliber",
+          "value": "12-gauge"
+        },
+        {
+          "label": "Damage",
+          "value": "7.4"
+        },
+        {
+          "label": "Accuracy",
+          "value": "4.5"
+        },
+        {
+          "label": "Handling",
+          "value": "5.8"
+        },
+        {
+          "label": "Range",
+          "value": "2.5"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        },
+        {
+          "label": "Log entry",
+          "value": "24 of 53"
+        }
+      ]
+    },
+    {
+      "id": "wp-fortune-son-gorse-425",
+      "title": "Fortune & Son Gorse 425",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Stubby pump-action shotgun for self-defence.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "5"
+        },
+        {
+          "label": "Fire style",
+          "value": "Pump action"
+        },
+        {
+          "label": "Brand",
+          "value": "Fortune & Son"
+        },
+        {
+          "label": "Caliber",
+          "value": "12-gauge"
+        },
+        {
+          "label": "Damage",
+          "value": "7.5"
+        },
+        {
+          "label": "Accuracy",
+          "value": "3.8"
+        },
+        {
+          "label": "Handling",
+          "value": "6.2"
+        },
+        {
+          "label": "Range",
+          "value": "2.0"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        },
+        {
+          "label": "Log entry",
+          "value": "25 of 53"
+        }
+      ]
+    },
+    {
+      "id": "wp-shrewsbury-drifter",
+      "title": "Shrewsbury Drifter",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Classic side-by-side hunting shotgun.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "2"
+        },
+        {
+          "label": "Fire style",
+          "value": "Break action"
+        },
+        {
+          "label": "Brand",
+          "value": "Shrewsbury"
+        },
+        {
+          "label": "Caliber",
+          "value": "12-gauge"
+        },
+        {
+          "label": "Damage",
+          "value": "8.0"
+        },
+        {
+          "label": "Accuracy",
+          "value": "4.1"
+        },
+        {
+          "label": "Handling",
+          "value": "5.0"
+        },
+        {
+          "label": "Range",
+          "value": "2.5"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        },
+        {
+          "label": "Log entry",
+          "value": "26 of 53"
+        }
+      ]
+    },
+    {
+      "id": "wp-shrewsbury-hobo",
+      "title": "Shrewsbury Hobo",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Sawn-off hunting shotgun, short enough for tight spaces.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "2"
+        },
+        {
+          "label": "Fire style",
+          "value": "Break action"
+        },
+        {
+          "label": "Brand",
+          "value": "Shrewsbury"
+        },
+        {
+          "label": "Caliber",
+          "value": "12-gauge"
+        },
+        {
+          "label": "Damage",
+          "value": "8.0"
+        },
+        {
+          "label": "Accuracy",
+          "value": "3.6"
+        },
+        {
+          "label": "Handling",
+          "value": "6.4"
+        },
+        {
+          "label": "Range",
+          "value": "2.0"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        },
+        {
+          "label": "Log entry",
+          "value": "27 of 53"
+        }
+      ]
+    },
+    {
+      "id": "wp-mason-keen-shortstraw",
+      "title": "Mason & Keen Shortstraw",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Shotgun that fires explosive shells.",
+      "stats": [
+        {
+          "label": "Brand",
+          "value": "Mason & Keen"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        },
+        {
+          "label": "Log entry",
+          "value": "28 of 53"
+        }
+      ]
+    },
+    {
+      "id": "wp-goodwin-comshot-12",
+      "title": "Goodwin Comshot 12",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Sturdy semi-auto shotgun for clearing buildings.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "7"
+        },
+        {
+          "label": "Fire style",
+          "value": "Semi-auto"
+        },
+        {
+          "label": "Brand",
+          "value": "Goodwin"
+        },
+        {
+          "label": "Caliber",
+          "value": "12-gauge"
+        },
+        {
+          "label": "Damage",
+          "value": "7.7"
+        },
+        {
+          "label": "Accuracy",
+          "value": "4.2"
+        },
+        {
+          "label": "Handling",
+          "value": "4.0"
+        },
+        {
+          "label": "Range",
+          "value": "2.5"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        },
+        {
+          "label": "Log entry",
+          "value": "29 of 53"
+        }
+      ]
+    },
+    {
+      "id": "wp-girardi-super400",
+      "title": "Girardi Super400",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Tactical semi-auto shotgun favoured by the military.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "7"
+        },
+        {
+          "label": "Fire style",
+          "value": "Semi-auto"
+        },
+        {
+          "label": "Brand",
+          "value": "Girardi"
+        },
+        {
+          "label": "Caliber",
+          "value": "12-gauge"
+        },
+        {
+          "label": "Damage",
+          "value": "7.4"
+        },
+        {
+          "label": "Accuracy",
+          "value": "4.2"
+        },
+        {
+          "label": "Handling",
+          "value": "5.3"
+        },
+        {
+          "label": "Range",
+          "value": "2.5"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        },
+        {
+          "label": "Log entry",
+          "value": "30 of 53"
+        }
+      ]
+    },
+    {
+      "id": "wp-kozlov-kvga-12",
+      "title": "Kozlov KVGA-12",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Fully automatic shotgun that fires almost as fast as a rifle.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "8"
+        },
+        {
+          "label": "Fire style",
+          "value": "Full auto"
+        },
+        {
+          "label": "Brand",
+          "value": "Kozlov"
+        },
+        {
+          "label": "Caliber",
+          "value": "12-gauge"
+        },
+        {
+          "label": "Damage",
+          "value": "7.2"
+        },
+        {
+          "label": "Accuracy",
+          "value": "4.5"
+        },
+        {
+          "label": "Handling",
+          "value": "5.1"
+        },
+        {
+          "label": "Range",
+          "value": "2.5"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        },
+        {
+          "label": "Log entry",
+          "value": "31 of 53"
         }
       ]
     },
@@ -30217,6 +34986,52 @@
       ]
     },
     {
+      "id": "wp-hillinger-heathen",
+      "title": "Hillinger Heathen",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Versatile bullpup rifle suited to precise bursts.",
+      "stats": [
+        {
+          "label": "Fire style",
+          "value": "3-round burst"
+        },
+        {
+          "label": "Brand",
+          "value": "Hillinger"
+        },
+        {
+          "label": "Caliber",
+          "value": "5.56×45mm"
+        },
+        {
+          "label": "Damage",
+          "value": "5.0"
+        },
+        {
+          "label": "Accuracy",
+          "value": "6.2"
+        },
+        {
+          "label": "Handling",
+          "value": "5.8"
+        },
+        {
+          "label": "Range",
+          "value": "6.2"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        },
+        {
+          "label": "Log entry",
+          "value": "33 of 53"
+        }
+      ]
+    },
+    {
       "id": "wp-duke-556",
       "title": "Duke 556",
       "category": "weapons",
@@ -30264,6 +35079,48 @@
         {
           "label": "Log entry",
           "value": "34 of 53"
+        }
+      ]
+    },
+    {
+      "id": "wp-kozlov-hind",
+      "title": "Kozlov Hind",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Cut-down KZ-59 that's easier to swing round at close quarters.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "30"
+        },
+        {
+          "label": "Fire style",
+          "value": "Full auto"
+        },
+        {
+          "label": "Brand",
+          "value": "Kozlov"
+        },
+        {
+          "label": "Caliber",
+          "value": "7.62×39mm"
+        },
+        {
+          "label": "Damage",
+          "value": "5.4"
+        },
+        {
+          "label": "Range",
+          "value": "4.5"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        },
+        {
+          "label": "Log entry",
+          "value": "35 of 53"
         }
       ]
     },
@@ -30319,6 +35176,56 @@
       ]
     },
     {
+      "id": "wp-adb-fra",
+      "title": "ADB FRA",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Battle rifle with big power and big recoil.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "20"
+        },
+        {
+          "label": "Fire style",
+          "value": "Full auto"
+        },
+        {
+          "label": "Brand",
+          "value": "Armurerie de Belgique"
+        },
+        {
+          "label": "Caliber",
+          "value": "7.62×51mm"
+        },
+        {
+          "label": "Damage",
+          "value": "5.8"
+        },
+        {
+          "label": "Accuracy",
+          "value": "5.0"
+        },
+        {
+          "label": "Handling",
+          "value": "5.3"
+        },
+        {
+          "label": "Range",
+          "value": "6.9"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        },
+        {
+          "label": "Log entry",
+          "value": "37 of 53"
+        }
+      ]
+    },
+    {
       "id": "wp-wortham-w-22",
       "title": "Wortham W-22",
       "category": "weapons",
@@ -30366,6 +35273,106 @@
         {
           "label": "Log entry",
           "value": "38 of 53"
+        }
+      ]
+    },
+    {
+      "id": "wp-hillinger-m306",
+      "title": "Hillinger M306",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Powerful semi-auto rifle, formerly a military issue.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "20"
+        },
+        {
+          "label": "Fire style",
+          "value": "Semi-auto"
+        },
+        {
+          "label": "Brand",
+          "value": "Hillinger"
+        },
+        {
+          "label": "Caliber",
+          "value": "7.62×51mm"
+        },
+        {
+          "label": "Damage",
+          "value": "6.2"
+        },
+        {
+          "label": "Accuracy",
+          "value": "7.5"
+        },
+        {
+          "label": "Handling",
+          "value": "4.8"
+        },
+        {
+          "label": "Range",
+          "value": "7.5"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        },
+        {
+          "label": "Log entry",
+          "value": "39 of 53"
+        }
+      ]
+    },
+    {
+      "id": "wp-hawk-little-mediator",
+      "title": "Hawk & Little Mediator",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Modern 9mm carbine that handles many roles.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "17"
+        },
+        {
+          "label": "Fire style",
+          "value": "Semi-auto"
+        },
+        {
+          "label": "Brand",
+          "value": "Hawk & Little"
+        },
+        {
+          "label": "Caliber",
+          "value": "9mm"
+        },
+        {
+          "label": "Damage",
+          "value": "4.8"
+        },
+        {
+          "label": "Accuracy",
+          "value": "7.8"
+        },
+        {
+          "label": "Handling",
+          "value": "5.6"
+        },
+        {
+          "label": "Range",
+          "value": "7.0"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        },
+        {
+          "label": "Log entry",
+          "value": "40 of 53"
         }
       ]
     },
@@ -30421,6 +35428,106 @@
       ]
     },
     {
+      "id": "wp-hillinger-m306-tmr",
+      "title": "Hillinger M306 TMR",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Updated M306 built for naval special forces.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "20"
+        },
+        {
+          "label": "Fire style",
+          "value": "Semi-auto"
+        },
+        {
+          "label": "Brand",
+          "value": "Hillinger"
+        },
+        {
+          "label": "Caliber",
+          "value": "7.62×51mm"
+        },
+        {
+          "label": "Damage",
+          "value": "6.2"
+        },
+        {
+          "label": "Accuracy",
+          "value": "7.8"
+        },
+        {
+          "label": "Handling",
+          "value": "5.5"
+        },
+        {
+          "label": "Range",
+          "value": "7.5"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        },
+        {
+          "label": "Log entry",
+          "value": "42 of 53"
+        }
+      ]
+    },
+    {
+      "id": "wp-fairview-ff-sr",
+      "title": "Fairview FF-SR",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Military sniper rifle.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "10"
+        },
+        {
+          "label": "Fire style",
+          "value": "Bolt action"
+        },
+        {
+          "label": "Brand",
+          "value": "Fairview Firearms"
+        },
+        {
+          "label": "Caliber",
+          "value": ".338 Magnum"
+        },
+        {
+          "label": "Damage",
+          "value": "8.0"
+        },
+        {
+          "label": "Accuracy",
+          "value": "7.5"
+        },
+        {
+          "label": "Handling",
+          "value": "3.8"
+        },
+        {
+          "label": "Range",
+          "value": "7.5"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        },
+        {
+          "label": "Log entry",
+          "value": "43 of 53"
+        }
+      ]
+    },
+    {
       "id": "wp-shrewsbury-sm-69",
       "title": "Shrewsbury SM-69",
       "category": "weapons",
@@ -30472,6 +35579,132 @@
       ]
     },
     {
+      "id": "wp-fortune-son-laird-350",
+      "title": "Fortune & Son Laird 350",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Sporting sniper rifle trusted by hunters.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "5"
+        },
+        {
+          "label": "Fire style",
+          "value": "Bolt action"
+        },
+        {
+          "label": "Brand",
+          "value": "Fortune & Son"
+        },
+        {
+          "label": "Caliber",
+          "value": "6.5mm"
+        },
+        {
+          "label": "Damage",
+          "value": "6.5"
+        },
+        {
+          "label": "Accuracy",
+          "value": "8.0"
+        },
+        {
+          "label": "Handling",
+          "value": "4.5"
+        },
+        {
+          "label": "Range",
+          "value": "7.5"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        },
+        {
+          "label": "Log entry",
+          "value": "45 of 53"
+        }
+      ]
+    },
+    {
+      "id": "wp-fairview-ff-50",
+      "title": "Fairview FF-50",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Anti-materiel rifle, devastating at long range.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "5"
+        },
+        {
+          "label": "Fire style",
+          "value": "Bolt action"
+        },
+        {
+          "label": "Brand",
+          "value": "Fairview Firearms"
+        },
+        {
+          "label": "Caliber",
+          "value": ".50 BFG"
+        },
+        {
+          "label": "Damage",
+          "value": "8.5"
+        },
+        {
+          "label": "Accuracy",
+          "value": "7.0"
+        },
+        {
+          "label": "Handling",
+          "value": "3.5"
+        },
+        {
+          "label": "Range",
+          "value": "7.5"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        },
+        {
+          "label": "Log entry",
+          "value": "46 of 53"
+        }
+      ]
+    },
+    {
+      "id": "wp-shrewsbury-sms-01",
+      "title": "Shrewsbury SMS-01",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Sniper rifle unlocked through Bret Vogel's hunting jobs.",
+      "stats": [
+        {
+          "label": "Brand",
+          "value": "Shrewsbury"
+        },
+        {
+          "label": "Damage",
+          "value": "6.8"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        },
+        {
+          "label": "Log entry",
+          "value": "47 of 53"
+        }
+      ]
+    },
+    {
       "id": "wp-goodwin-lmg-6",
       "title": "Goodwin LMG 6",
       "category": "weapons",
@@ -30519,6 +35752,106 @@
         {
           "label": "Log entry",
           "value": "48 of 53"
+        }
+      ]
+    },
+    {
+      "id": "wp-adb-m350",
+      "title": "ADB M350",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Light machine gun that clears groups of targets fast.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "100"
+        },
+        {
+          "label": "Fire style",
+          "value": "Full auto"
+        },
+        {
+          "label": "Brand",
+          "value": "Armurerie de Belgique"
+        },
+        {
+          "label": "Caliber",
+          "value": "5.56×45mm"
+        },
+        {
+          "label": "Damage",
+          "value": "6.5"
+        },
+        {
+          "label": "Accuracy",
+          "value": "3.0"
+        },
+        {
+          "label": "Handling",
+          "value": "3.2"
+        },
+        {
+          "label": "Range",
+          "value": "6.2"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        },
+        {
+          "label": "Log entry",
+          "value": "49 of 53"
+        }
+      ]
+    },
+    {
+      "id": "wp-hillinger-boomers",
+      "title": "Hillinger Boomers",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Single-shot military grenade launcher.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "1"
+        },
+        {
+          "label": "Fire style",
+          "value": "Single shot"
+        },
+        {
+          "label": "Brand",
+          "value": "Hillinger"
+        },
+        {
+          "label": "Caliber",
+          "value": "40mm grenade"
+        },
+        {
+          "label": "Damage",
+          "value": "9.2"
+        },
+        {
+          "label": "Accuracy",
+          "value": "5.0"
+        },
+        {
+          "label": "Handling",
+          "value": "6.0"
+        },
+        {
+          "label": "Range",
+          "value": "4.0"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        },
+        {
+          "label": "Log entry",
+          "value": "50 of 53"
         }
       ]
     },
@@ -30847,6 +36180,68 @@
       ]
     },
     {
+      "id": "wp-mahi-nipper-38",
+      "title": "Mahi Nipper .38",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Shop-only pattern of the Nipper .38.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-the-silver-1922",
+      "title": "The Silver 1922",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Shop-only version of the Duke 1922.",
+      "stats": [
+        {
+          "label": "Brand",
+          "value": "Duke"
+        },
+        {
+          "label": "Damage",
+          "value": "5.5"
+        },
+        {
+          "label": "Accuracy",
+          "value": "5.1"
+        },
+        {
+          "label": "Handling",
+          "value": "8.1"
+        },
+        {
+          "label": "Range",
+          "value": "4.6"
+        },
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-gils-kalinga-50",
+      "title": "Gil's Kalinga .50",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Kalinga .50 found in a safe during a story mission.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
       "id": "wp-donnies-h-l-38",
       "title": "Donnie's H&L .38",
       "category": "weapons",
@@ -31153,6 +36548,48 @@
       ]
     },
     {
+      "id": "wp-killtelligence-sm-69",
+      "title": "Killtelligence SM-69",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "SM-69 that Bret Vogel gives you on his hunting jobs.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-mister-mangrove-laird-350",
+      "title": "Mister Mangrove Laird 350",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Tranquilliser version of the Laird 350, a reward from one of Kirk's jobs.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-kingfishers-laird-350",
+      "title": "Kingfishers Laird 350",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Laird 350 found at the Kingfishers' Sunrise RV Park base.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
       "id": "wp-duval-signature-es9",
       "title": "Duval Signature ES9",
       "category": "weapons",
@@ -31260,8 +36697,8 @@
       "category": "weapons",
       "subgroup": "Guns",
       "spoiler": true,
-      "guide": "Count the guns you've discovered that don't have their own row here yet. 21 of the tab's 53 are listed above.",
-      "tallyTarget": 32
+      "guide": "Count the guns you've discovered that don't have their own row here yet: 52 of the 53 are listed above, so 1 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
+      "tallyTarget": 1
     },
     {
       "id": "wp-more-melee",
@@ -31269,7 +36706,7 @@
       "category": "weapons",
       "subgroup": "Melee",
       "spoiler": true,
-      "guide": "Count the melee weapons you've discovered that don't have their own row here yet. 6 of the tab's 9 are listed above.",
+      "guide": "Count the melee weapons you've discovered that don't have their own row here yet: 6 of the 9 are listed above, so 3 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
       "tallyTarget": 3
     },
     {
@@ -31278,7 +36715,7 @@
       "category": "weapons",
       "subgroup": "Explosives",
       "spoiler": true,
-      "guide": "Count the explosives you've discovered that don't have their own row here yet. 3 of the tab's 4 are listed above.",
+      "guide": "Count the explosives you've discovered that don't have their own row here yet: 3 of the 4 are listed above, so 1 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
       "tallyTarget": 1
     },
     {
@@ -31287,8 +36724,8 @@
       "category": "weapons",
       "subgroup": "Variants",
       "spoiler": true,
-      "guide": "Count the variants you've discovered that don't have their own row here yet. 8 of the tab's 130 are listed above.",
-      "tallyTarget": 122
+      "guide": "Count the variants you've discovered that don't have their own row here yet: 14 of the 130 are listed above, so 116 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
+      "tallyTarget": 116
     },
     {
       "id": "kw-1",
@@ -31627,7 +37064,7 @@
       "subgroup": "Wreck 6: Urca de Santa Sierra",
       "imageURL": "https://leonidalog.app/images/kenton/worn-doubloon-v2.jpg",
       "spoiler": true,
-      "guide": "Treasure 6 of 6 from wreck 6, Urca de Santa Sierra, a Spanish ship sunk off South Leonida. Find it with the metal detector and give it to Kenton.",
+      "guide": "Treasure 6 of 6 from wreck 6, Urca de Santa Sierra, a Spanish ship sunk off South Leonida. Find it with the metal detector and give it to Kenton. It's in a chest by a coral-covered rock just north of the wreck.",
       "nx": 0.5785,
       "ny": 0.8771
     }
