@@ -1,5 +1,5 @@
 {
-  "version": 30,
+  "version": 33,
   "ads": {
     "rewarded": true,
     "interstitial": true
@@ -23,6 +23,14 @@
       "symbol": "gamecontroller.fill",
       "colorHex": "35E0C8",
       "verb": "done"
+    },
+    {
+      "id": "activity-types",
+      "label": "Master of None",
+      "symbol": "dumbbell.fill",
+      "colorHex": "35E0C8",
+      "verb": "tried",
+      "intro": "The 9 kinds of activity the Master of None trophy counts. Have a go at each one once. The game tracks them under Progress, Activities, and most come up on their own."
     },
     {
       "id": "achievements",
@@ -150,7 +158,8 @@
       "symbol": "building.columns.fill",
       "colorHex": "7BD389",
       "verb": "done",
-      "intro": "22 banks to rob: 14 small banks (cash drawer and safe) open up in chapter 3, and 8 large banks with a vault open up in chapter 4. 100% needs every one fully done."
+      "intro": "22 banks to rob: 14 small banks (cash drawer and safe) open up in chapter 3, and 8 large banks with a vault open up in chapter 4. 100% needs every one fully done.",
+      "complete": true
     },
     {
       "id": "payday-loans",
@@ -332,7 +341,7 @@
       "verb": "discovered",
       "chapterOrdered": true,
       "collectible": true,
-      "intro": "The game's Vehicles log, section by section, with each model's base stats. A vehicle is discovered once you've been in it. Cars and service vehicles come in 15 classes; bikes, watercraft and aircraft are one list each. That's 277 models, and the game's 100% checklist needs 200 base models. Each section ends with a counter for the ones not listed yet. The Standout sets aren't here yet."
+      "intro": "The game's Vehicles log, section by section, with each model's base stats. A vehicle is discovered once you've scanned it with WAiNK or been in it. Cars and service vehicles come in 15 classes; bikes, watercraft and aircraft are one list each. That's 277 models, and the game's 100% checklist needs 200 base models. Each section ends with a counter for the ones not listed yet. The Standout sets aren't here yet. The Whip It Good trophy needs 100."
     },
     {
       "id": "standout-vehicles",
@@ -342,6 +351,16 @@
       "verb": "found",
       "collectible": true,
       "intro": "Unique vehicles parked at set spots around Leonida, plus two lists of cars you're asked to find. Each one is pinned on the map."
+    },
+    {
+      "id": "garages",
+      "label": "Garages",
+      "symbol": "door.garage.closed",
+      "colorHex": "5AA9E6",
+      "verb": "owned",
+      "collectible": true,
+      "complete": true,
+      "intro": "12 garages. 8 are for sale in the Vice City Real Estate app, which arrives in chapter 2: the Little Boxes trophy needs all 8, $160,000 in all. The other 4 come with the story. Each parking spot lets you register one more vehicle."
     },
     {
       "id": "weapons",
@@ -486,7 +505,71 @@
       "guide": "Track down abandoned classic and project cars across Leonida for Wyman, a collector and local fixer, and restore them. Four of the cars are Ultimate Edition only."
     },
     {
+      "id": "mn-01",
+      "title": "Fishing",
+      "category": "activity-types",
+      "spoiler": true,
+      "guide": "Catch a fish."
+    },
+    {
+      "id": "mn-02",
+      "title": "Hunting",
+      "category": "activity-types",
+      "spoiler": true,
+      "guide": "Go hunting."
+    },
+    {
+      "id": "mn-03",
+      "title": "Golf",
+      "category": "activity-types",
+      "spoiler": true,
+      "guide": "Play a round of golf."
+    },
+    {
+      "id": "mn-04",
+      "title": "Shooting ranges",
+      "category": "activity-types",
+      "spoiler": true,
+      "guide": "Take on a shooting range challenge."
+    },
+    {
+      "id": "mn-05",
+      "title": "Pool",
+      "category": "activity-types",
+      "spoiler": true,
+      "guide": "Play a game of pool."
+    },
+    {
+      "id": "mn-06",
+      "title": "Basketball",
+      "category": "activity-types",
+      "spoiler": true,
+      "guide": "Score a basketball hoop."
+    },
+    {
+      "id": "mn-07",
+      "title": "Video games",
+      "category": "activity-types",
+      "spoiler": true,
+      "guide": "Play a video game: on the TV at home or an arcade machine."
+    },
+    {
+      "id": "mn-08",
+      "title": "Racing",
+      "category": "activity-types",
+      "spoiler": true,
+      "guide": "Win a race: a car race, a race challenge or a Top Fun drone race."
+    },
+    {
+      "id": "mn-09",
+      "title": "Stunts",
+      "category": "activity-types",
+      "spoiler": true,
+      "guide": "Land a stunt: a stunt jump, a base jump, a knife flight or a flight under a bridge."
+    },
+    {
       "id": "tr-01",
+      "iconURL": "https://leonidalog.app/images/trophies/tr-01.png",
       "title": "Vice Got a Price!",
       "category": "achievements",
       "spoiler": true,
@@ -497,10 +580,12 @@
           "label": "Gamerscore",
           "value": "0"
         }
-      ]
+      ],
+      "revealedGuide": "The Platinum: earn every other trophy. Nothing is lost for good, since free roam carries on after the story and everything on the 100% checklist stays open. There's no mission replay, though, so keep a save at the start and end of each chapter. Cheats switch off trophies and saving."
     },
     {
       "id": "tr-02",
+      "revealedIconURL": "https://leonidalog.app/images/trophies/tr-02.png",
       "title": "Trophy 2",
       "category": "achievements",
       "spoiler": true,
@@ -513,10 +598,11 @@
         }
       ],
       "revealedTitle": "Just Like Paradise",
-      "revealedGuide": "Finish the story mission Gone Fishing."
+      "revealedGuide": "Finish the chapter 1 story mission Gone Fishing. Story trophy, so it can't be missed."
     },
     {
       "id": "tr-03",
+      "revealedIconURL": "https://leonidalog.app/images/trophies/tr-03.png",
       "title": "Trophy 3",
       "category": "achievements",
       "spoiler": true,
@@ -529,10 +615,11 @@
         }
       ],
       "revealedTitle": "Paradise Lost",
-      "revealedGuide": "Finish chapter 1 of the story."
+      "revealedGuide": "Finish chapter 1. It pops once you finish What's in the Bag?, the first mission of chapter 2. Story trophy, so it can't be missed."
     },
     {
       "id": "tr-04",
+      "revealedIconURL": "https://leonidalog.app/images/trophies/tr-04.png",
       "title": "Trophy 4",
       "category": "achievements",
       "spoiler": true,
@@ -545,10 +632,11 @@
         }
       ],
       "revealedTitle": "T**s Ass Drug Money",
-      "revealedGuide": "Finish chapter 2 of the story."
+      "revealedGuide": "Finish chapter 2. It pops once you finish Welcome to Vice City, the first mission of chapter 3. Story trophy, so it can't be missed."
     },
     {
       "id": "tr-05",
+      "revealedIconURL": "https://leonidalog.app/images/trophies/tr-05.png",
       "title": "Trophy 5",
       "category": "achievements",
       "spoiler": true,
@@ -561,10 +649,11 @@
         }
       ],
       "revealedTitle": "Vice City, Baby!",
-      "revealedGuide": "Finish chapter 3 of the story."
+      "revealedGuide": "Finish chapter 3. It pops once you finish Ocean Beach and Another Life, the first two missions of chapter 4. Story trophy, so it can't be missed."
     },
     {
       "id": "tr-06",
+      "revealedIconURL": "https://leonidalog.app/images/trophies/tr-06.png",
       "title": "Trophy 6",
       "category": "achievements",
       "spoiler": true,
@@ -577,10 +666,11 @@
         }
       ],
       "revealedTitle": "Top of the World, Ma",
-      "revealedGuide": "Finish chapter 4 of the story."
+      "revealedGuide": "Finish chapter 4. It pops after Starting From Zero, the last mission of chapter 4. Story trophy, so it can't be missed."
     },
     {
       "id": "tr-07",
+      "revealedIconURL": "https://leonidalog.app/images/trophies/tr-07.png",
       "title": "Trophy 7",
       "category": "achievements",
       "spoiler": true,
@@ -593,10 +683,11 @@
         }
       ],
       "revealedTitle": "You Gotta Know When to Get Off",
-      "revealedGuide": "Finish the story's final mission."
+      "revealedGuide": "Finish the story's final mission. Story trophy, so it can't be missed. Free roam carries on afterwards."
     },
     {
       "id": "tr-08",
+      "revealedIconURL": "https://leonidalog.app/images/trophies/tr-08.png",
       "title": "Trophy 8",
       "category": "achievements",
       "spoiler": true,
@@ -609,10 +700,11 @@
         }
       ],
       "revealedTitle": "Trust",
-      "revealedGuide": "Finish the story mission Breakfast Run."
+      "revealedGuide": "Finish the chapter 2 story mission Breakfast Run. Story trophy, so it can't be missed."
     },
     {
       "id": "tr-09",
+      "revealedIconURL": "https://leonidalog.app/images/trophies/tr-09.png",
       "title": "Trophy 9",
       "category": "achievements",
       "spoiler": true,
@@ -625,10 +717,11 @@
         }
       ],
       "revealedTitle": "Break the Bank",
-      "revealedGuide": "Finish the story mission The Cartel Heist."
+      "revealedGuide": "Finish the chapter 3 story mission The Cartel Heist. Story trophy, so it can't be missed."
     },
     {
       "id": "tr-10",
+      "revealedIconURL": "https://leonidalog.app/images/trophies/tr-10.png",
       "title": "Trophy 10",
       "category": "achievements",
       "spoiler": true,
@@ -641,10 +734,11 @@
         }
       ],
       "revealedTitle": "Family Matters",
-      "revealedGuide": "Finish the story mission Child's Play."
+      "revealedGuide": "Finish the chapter 4 story mission Child's Play. Story trophy, so it can't be missed."
     },
     {
       "id": "tr-11",
+      "revealedIconURL": "https://leonidalog.app/images/trophies/tr-11.png",
       "title": "Trophy 11",
       "category": "achievements",
       "spoiler": true,
@@ -657,10 +751,11 @@
         }
       ],
       "revealedTitle": "DWNFALL",
-      "revealedGuide": "Finish the story mission Headliners."
+      "revealedGuide": "Finish the chapter 4 story mission Headliners. Story trophy, so it can't be missed."
     },
     {
       "id": "tr-12",
+      "revealedIconURL": "https://leonidalog.app/images/trophies/tr-12.png",
       "title": "Trophy 12",
       "category": "achievements",
       "spoiler": true,
@@ -673,10 +768,11 @@
         }
       ],
       "revealedTitle": "Hi-Jacked",
-      "revealedGuide": "Finish the story mission VCIA Takedown."
+      "revealedGuide": "Finish the chapter 4 story mission VCIA Takedown. Story trophy, so it can't be missed."
     },
     {
       "id": "tr-13",
+      "revealedIconURL": "https://leonidalog.app/images/trophies/tr-13.png",
       "title": "Trophy 13",
       "category": "achievements",
       "spoiler": true,
@@ -689,10 +785,11 @@
         }
       ],
       "revealedTitle": "Snow Storm",
-      "revealedGuide": "Finish the story mission Operation Savage Glory."
+      "revealedGuide": "Finish the chapter 5 story mission Operation Savage Glory. Story trophy, so it can't be missed."
     },
     {
       "id": "tr-14",
+      "iconURL": "https://leonidalog.app/images/trophies/tr-14.png",
       "title": "A Long Road",
       "category": "achievements",
       "spoiler": true,
@@ -703,10 +800,12 @@
           "label": "Gamerscore",
           "value": "100"
         }
-      ]
+      ],
+      "revealedGuide": "Reach 100% on the game's own 100% Completion checklist (Progress, Stats, 100% Completion, open after the story; what you did before counts). It's nowhere near everything: about 60% of the game. You need, for example, 200 of the 277 base model vehicles, 100 of the 255 animals, 70 of the 80 challenges and any 100 optional missions. Nothing on it is missable. The Path to 100% card in this app follows the same list."
     },
     {
       "id": "tr-15",
+      "iconURL": "https://leonidalog.app/images/trophies/tr-15.png",
       "title": "Cunning Stunts",
       "category": "achievements",
       "spoiler": true,
@@ -718,10 +817,12 @@
           "value": "40"
         }
       ],
-      "tallyTarget": 250
+      "tallyTarget": 250,
+      "revealedGuide": "Land any 250 stunts. Four kinds count and you can mix them: stunt jumps, flights under bridges, knife flights and base jumps, about 397 in all. Under the bridges are the quickest. Doing a stunt once is enough, and the extra challenges on its map icon don't matter. 100% needs 300, so this comes on the way."
     },
     {
       "id": "tr-16",
+      "iconURL": "https://leonidalog.app/images/trophies/tr-16.png",
       "title": "Master of None",
       "category": "achievements",
       "spoiler": true,
@@ -732,10 +833,13 @@
           "label": "Gamerscore",
           "value": "20"
         }
-      ]
+      ],
+      "tallyTarget": 9,
+      "revealedGuide": "Have a go at each of the 9 kinds of activity the trophy counts: fishing, hunting, golf, a shooting range, pool, basketball, a video game, a race (a car race, race challenge or Top Fun drone race) and a stunt. The game tracks them under Progress, Activities. Most come up on their own through the story."
     },
     {
       "id": "tr-17",
+      "iconURL": "https://leonidalog.app/images/trophies/tr-17.png",
       "title": "The Shootist",
       "category": "achievements",
       "spoiler": true,
@@ -746,10 +850,12 @@
           "label": "Gamerscore",
           "value": "40"
         }
-      ]
+      ],
+      "revealedGuide": "Get a gold medal in all 42 challenges across the 12 courses at the two shooting ranges. Buy the $5 waiver pass from the range clerk first."
     },
     {
       "id": "tr-18",
+      "iconURL": "https://leonidalog.app/images/trophies/tr-18.png",
       "title": "Top Fun",
       "category": "achievements",
       "spoiler": true,
@@ -760,10 +866,13 @@
           "label": "Gamerscore",
           "value": "15"
         }
-      ]
+      ],
+      "tallyTarget": 14,
+      "revealedGuide": "Win a Top Fun drone race at each of the 14 locations. Every location has 3 time trials, and one win there is enough for the trophy. 100% wants all 42."
     },
     {
       "id": "tr-19",
+      "iconURL": "https://leonidalog.app/images/trophies/tr-19.png",
       "title": "Earn Cash, Not Kudos",
       "category": "achievements",
       "spoiler": true,
@@ -775,10 +884,12 @@
           "value": "20"
         }
       ],
-      "tallyTarget": 20
+      "tallyTarget": 20,
+      "revealedGuide": "Win 20 different unique races. There are 40 in 6 groups, and 100% needs 30, so this comes on the way."
     },
     {
       "id": "tr-20",
+      "iconURL": "https://leonidalog.app/images/trophies/tr-20.png",
       "title": "Baited My Tackle",
       "category": "achievements",
       "spoiler": true,
@@ -789,10 +900,12 @@
           "label": "Gamerscore",
           "value": "10"
         }
-      ]
+      ],
+      "revealedGuide": "Beat Cal in a fishing challenge. Some time after the chapter 1 mission Feng Shui, Cal texts you and marks a fishing spot west of Key Lento: do that mission."
     },
     {
       "id": "tr-21",
+      "iconURL": "https://leonidalog.app/images/trophies/tr-21.png",
       "title": "Stick Fiddler",
       "category": "achievements",
       "spoiler": true,
@@ -803,10 +916,12 @@
           "label": "Gamerscore",
           "value": "10"
         }
-      ]
+      ],
+      "revealedGuide": "Play any one of the 4 video games through to the end: every level once, the challenges don't matter. Three are on the TV at home and playable from chapter 1. The fourth, Bang For Your Buck, is on arcade machines around Leonida."
     },
     {
       "id": "tr-22",
+      "revealedIconURL": "https://leonidalog.app/images/trophies/tr-22.png",
       "title": "Trophy 22",
       "category": "achievements",
       "spoiler": true,
@@ -819,10 +934,11 @@
         }
       ],
       "revealedTitle": "Road to Rehabilitation",
-      "revealedGuide": "Finish Andy's last stranger mission."
+      "revealedGuide": "Finish Andy's strand of 5 missions. Lucia only: Andy calls during chapter 3, then texts her address in Belville, where the strand starts. Still open after the story."
     },
     {
       "id": "tr-23",
+      "revealedIconURL": "https://leonidalog.app/images/trophies/tr-23.png",
       "title": "Trophy 23",
       "category": "achievements",
       "spoiler": true,
@@ -835,10 +951,11 @@
         }
       ],
       "revealedTitle": "This Was No Boat Accident",
-      "revealedGuide": "Finish Kenton's last stranger mission."
+      "revealedGuide": "Finish Kenton's treasure diving strand: clear 7 shipwrecks for him, digging up the treasure with the metal detector and handing it in. He calls a while after the chapter 1 mission Island Dreams. He's away for a stretch after chapter 1 and texts Jason again in chapter 2 or 3, so nothing is missed. Still open after the story."
     },
     {
       "id": "tr-24",
+      "revealedIconURL": "https://leonidalog.app/images/trophies/tr-24.png",
       "title": "Trophy 24",
       "category": "achievements",
       "spoiler": true,
@@ -851,10 +968,11 @@
         }
       ],
       "revealedTitle": "The Lone Rider",
-      "revealedGuide": "Finish Billy's last stranger mission."
+      "revealedGuide": "Finish Billy's strand of 5 missions at the Thrillbilly Mud Club in Kelly County. It opens after the chapter 2 mission Coffee Break and stays open after the story."
     },
     {
       "id": "tr-25",
+      "iconURL": "https://leonidalog.app/images/trophies/tr-25.png",
       "title": "Strangers & Freaks",
       "category": "achievements",
       "spoiler": true,
@@ -866,10 +984,12 @@
           "value": "30"
         }
       ],
-      "tallyTarget": 8
+      "tallyTarget": 8,
+      "revealedGuide": "Finish 8 strangers' mission strands. Only some strands count: the side work of main contacts such as Moses, Tyrone, Yasmani, Andy, Billy and Eddie doesn't. Confirmed so far are Kirk, Kyle, Yago and Pilot Pete; the rest are still being worked out. The game's own trophy list shows your count. Everything stays open after the story."
     },
     {
       "id": "tr-26",
+      "revealedIconURL": "https://leonidalog.app/images/trophies/tr-26.png",
       "title": "Trophy 26",
       "category": "achievements",
       "spoiler": true,
@@ -882,10 +1002,11 @@
         }
       ],
       "revealedTitle": "Supply & Demand",
-      "revealedGuide": "Finish Randy's last stranger mission."
+      "revealedGuide": "Finish Randy's Wish List: 16 sports cars to steal and deliver. It opens with the chapter 3 mission Clonin' Keys, Makin' Gs, which also gives you the Key Cloner. Scan high-end cars with WAiNK to see if he wants them; hotels at Vice Beach and Ocean Beach are good hunting grounds. Cars in better shape pay more. Still open after the story."
     },
     {
       "id": "tr-27",
+      "revealedIconURL": "https://leonidalog.app/images/trophies/tr-27.png",
       "title": "Trophy 27",
       "category": "achievements",
       "spoiler": true,
@@ -898,10 +1019,11 @@
         }
       ],
       "revealedTitle": "Spin On This!",
-      "revealedGuide": "Finish Tyrone's last stranger mission."
+      "revealedGuide": "Finish Tyrone's strand. Jason only, from the chapter 3 mission Here, Kitty Kitty: destroy enough Kitty Litter labs for Take Out Kitty Litter, then Tyrone gives you Spin On This. Still open after the story."
     },
     {
       "id": "tr-28",
+      "iconURL": "https://leonidalog.app/images/trophies/tr-28.png",
       "title": "Positive Mental Attitude",
       "category": "achievements",
       "spoiler": true,
@@ -912,10 +1034,12 @@
           "label": "Gamerscore",
           "value": "10"
         }
-      ]
+      ],
+      "revealedGuide": "Meditate at every meditation spot: 10 spots, 18 meditations if you do the doubles as both Jason and Lucia. Careful: the first one, with Lucia at Jason's house in chapter 1, can only be done then. Guides haven't confirmed whether the trophy needs it, so accept it when she offers. The last spot needs both characters together, after the chapter 2 mission Coffee Break."
     },
     {
       "id": "tr-29",
+      "iconURL": "https://leonidalog.app/images/trophies/tr-29.png",
       "title": "Fair Game",
       "category": "achievements",
       "spoiler": true,
@@ -926,10 +1050,12 @@
           "label": "Gamerscore",
           "value": "15"
         }
-      ]
+      ],
+      "revealedGuide": "Hunt a unique animal for Bret Vogel. Jason only: Bret texts after the chapter 2 mission Coffee Break, and his first mission in Lummox County gives you his hunting rifle. Which animal pops it isn't confirmed yet, but it comes while working through his 15 target decks, which 100% needs anyway."
     },
     {
       "id": "tr-30",
+      "iconURL": "https://leonidalog.app/images/trophies/tr-30.png",
       "title": "Don't Touch My Deck",
       "category": "achievements",
       "spoiler": true,
@@ -941,10 +1067,12 @@
           "value": "30"
         }
       ],
-      "tallyTarget": 3
+      "tallyTarget": 3,
+      "revealedGuide": "Complete any 3 of the 18 collectible card sets. 100% needs 15."
     },
     {
       "id": "tr-31",
+      "iconURL": "https://leonidalog.app/images/trophies/tr-31.png",
       "title": "You WAiNKer!",
       "category": "achievements",
       "spoiler": true,
@@ -956,10 +1084,12 @@
           "value": "30"
         }
       ],
-      "tallyTarget": 100
+      "tallyTarget": 100,
+      "revealedGuide": "Scan any 100 things with the WAiNK app. Landmarks, curiosities, sculptures and No Flusher tags all count, and there are more than 100."
     },
     {
       "id": "tr-32",
+      "iconURL": "https://leonidalog.app/images/trophies/tr-32.png",
       "title": "One Last Thing",
       "category": "achievements",
       "spoiler": true,
@@ -971,10 +1101,12 @@
           "value": "5"
         }
       ],
-      "tallyTarget": 50
+      "tallyTarget": 50,
+      "revealedGuide": "Complete any 50 of the 80 challenges (Progress, Challenges). 100% needs 70, so leave this till late and pick the easiest ones left."
     },
     {
       "id": "tr-33",
+      "iconURL": "https://leonidalog.app/images/trophies/tr-33.png",
       "title": "Hot Together",
       "category": "achievements",
       "spoiler": true,
@@ -985,10 +1117,12 @@
           "label": "Gamerscore",
           "value": "20"
         }
-      ]
+      ],
+      "revealedGuide": "With your partner along (possible from the chapter 2 mission Coffee Break), get a 4-star wanted level and escape the red heat zone. A fast motorbike helps, and the rail tunnel north of Ambrosia shakes off the helicopter. Large bank vault robberies give 4 stars every time, so it often comes on its own."
     },
     {
       "id": "tr-34",
+      "iconURL": "https://leonidalog.app/images/trophies/tr-34.png",
       "title": "Retail Therapy",
       "category": "achievements",
       "spoiler": true,
@@ -999,10 +1133,12 @@
           "label": "Gamerscore",
           "value": "20"
         }
-      ]
+      ],
+      "revealedGuide": "With your partner along, rob 3 shops back to back without losing your wanted level in between. Body armor and sticky bombs help. The 3 jewelry stores in the north of Vice City work well. It pops about half a minute after the third shop; if not, hit a fourth."
     },
     {
       "id": "tr-35",
+      "iconURL": "https://leonidalog.app/images/trophies/tr-35.png",
       "title": "Whip It Good",
       "category": "achievements",
       "spoiler": true,
@@ -1014,10 +1150,12 @@
           "value": "20"
         }
       ],
-      "tallyTarget": 100
+      "tallyTarget": 100,
+      "revealedGuide": "Discover 100 different vehicles. Scanning one with the WAiNK app is enough, so stand by a busy road and scan whatever passes. 100% needs 200 base models, so this comes on the way. Progress, Vehicles in the game shows your totals."
     },
     {
       "id": "tr-36",
+      "iconURL": "https://leonidalog.app/images/trophies/tr-36.png",
       "title": "Gunslinger",
       "category": "achievements",
       "spoiler": true,
@@ -1028,10 +1166,12 @@
           "label": "Gamerscore",
           "value": "10"
         }
-      ]
+      ],
+      "revealedGuide": "Take down 5 enemies in one use of Combat Focus, which slows time while you aim. Top up your focus first with food, drink or a shower, and Adrenaline makes it last longer. Gang operation guards work; soldiers, police and civilians don't seem to. An assault rifle and body armor help, and it gets easier as your focus levels up."
     },
     {
       "id": "tr-37",
+      "revealedIconURL": "https://leonidalog.app/images/trophies/tr-37.png",
       "title": "Trophy 37",
       "category": "achievements",
       "spoiler": true,
@@ -1044,10 +1184,11 @@
         }
       ],
       "revealedTitle": "Catch Me If You Can",
-      "revealedGuide": "Leave the VCIA by an exit they didn't plan for you."
+      "revealedGuide": "Steal a passenger jet docked at a boarding bridge at VCIA (the one at E3/E4 is easiest), back it out to the runway, take off and fly about 1 km from the airport. Jets parked out on the airfield don't count."
     },
     {
       "id": "tr-38",
+      "revealedIconURL": "https://leonidalog.app/images/trophies/tr-38.png",
       "title": "Trophy 38",
       "category": "achievements",
       "spoiler": true,
@@ -1060,10 +1201,11 @@
         }
       ],
       "revealedTitle": "Challenging Tank",
-      "revealedGuide": "Secret trophy tied to the Rhino tank. The game's only hint is that it gets hot inside one."
+      "revealedGuide": "Steal a Rhino tank from Mile Zero Air Station, the island at the far south-west of Mariana County (the tanks are on the south side of the base), then shoot some enemies from it."
     },
     {
       "id": "tr-39",
+      "iconURL": "https://leonidalog.app/images/trophies/tr-39.png",
       "title": "Sneakthief",
       "category": "achievements",
       "spoiler": true,
@@ -1074,10 +1216,12 @@
           "label": "Gamerscore",
           "value": "10"
         }
-      ]
+      ],
+      "revealedGuide": "Rob a jewelry store without being seen. The chapter 3 mission Yasmani's Jewelry Jobs gives you the Snap Gun: use it on a store's back door, find the note with the safe code, open the safe, and destroy the security footage and switch off the alarm in the back room. It pops once you've left. Richardson Jewelry & Diamonds in Vice City is a good one."
     },
     {
       "id": "tr-40",
+      "iconURL": "https://leonidalog.app/images/trophies/tr-40.png",
       "title": "Maximum Withdrawal",
       "category": "achievements",
       "spoiler": true,
@@ -1089,10 +1233,12 @@
           "value": "40"
         }
       ],
-      "tallyTarget": 5
+      "tallyTarget": 5,
+      "revealedGuide": "Rob the vault at 5 of the 8 large banks and get away each time. Vaults open with the chapter 4 mission That's Where The Money Is…. After that, buy security van tips from Yasmani ($10,000) and follow the van to its bank. Bring your partner to carry the second bag. You get 4 stars at once, so have a fast bike ready. 100% needs all 8, and each pays up to $205,000."
     },
     {
       "id": "tr-41",
+      "iconURL": "https://leonidalog.app/images/trophies/tr-41.png",
       "title": "A Classic Blitz Play",
       "category": "achievements",
       "spoiler": true,
@@ -1103,10 +1249,12 @@
           "label": "Gamerscore",
           "value": "10"
         }
-      ]
+      ],
+      "revealedGuide": "Rob an armored truck and escape the heat. A large bank vault robbery counts, so it comes with the chapter 4 mission That's Where The Money Is…. To get it sooner, block an armored truck near a Vice City bank and sticky-bomb its back doors."
     },
     {
       "id": "tr-42",
+      "iconURL": "https://leonidalog.app/images/trophies/tr-42.png",
       "title": "The Goodtime State",
       "category": "achievements",
       "spoiler": true,
@@ -1117,10 +1265,12 @@
           "label": "Gamerscore",
           "value": "20"
         }
-      ]
+      ],
+      "revealedGuide": "Clear the fog from the whole map. A plane is the quickest way."
     },
     {
       "id": "tr-43",
+      "iconURL": "https://leonidalog.app/images/trophies/tr-43.png",
       "title": "Pest Control",
       "category": "achievements",
       "spoiler": true,
@@ -1131,10 +1281,12 @@
           "label": "Gamerscore",
           "value": "20"
         }
-      ]
+      ],
+      "revealedGuide": "Rob at least one illegal operation from each of the 9 gangs. There are 39 operations, and 100% needs all of them. Progress, Gangs in the game shows how many of each gang's you've done."
     },
     {
       "id": "tr-44",
+      "revealedIconURL": "https://leonidalog.app/images/trophies/tr-44.png",
       "title": "Trophy 44",
       "category": "achievements",
       "spoiler": true,
@@ -1147,10 +1299,11 @@
         }
       ],
       "revealedTitle": "In The Beginning…",
-      "revealedGuide": "Have a cocktail somewhere with a view on Ocean Beach."
+      "revealedGuide": "Buy an Apple Martini at the Ocean View Rooftop Bar and drink it standing by the bar."
     },
     {
       "id": "tr-45",
+      "revealedIconURL": "https://leonidalog.app/images/trophies/tr-45.png",
       "title": "Trophy 45",
       "category": "achievements",
       "spoiler": true,
@@ -1163,10 +1316,11 @@
         }
       ],
       "revealedTitle": "Capital Offense",
-      "revealedGuide": "Drive out of a vehicle showroom by smashing through its window."
+      "revealedGuide": "Steal the blue Banshee from the showroom in the south of Vice City and drive it out through the window. You need the Key Cloner from the chapter 3 mission Clonin' Keys, Makin' Gs, and only that car works. It pops once you've driven off down the street."
     },
     {
       "id": "tr-46",
+      "revealedIconURL": "https://leonidalog.app/images/trophies/tr-46.png",
       "title": "Trophy 46",
       "category": "achievements",
       "spoiler": true,
@@ -1179,10 +1333,11 @@
         }
       ],
       "revealedTitle": "Let's Go Bowling",
-      "revealedGuide": "Play a follow-through at the Kolt & Associates bowling alley."
+      "revealedGuide": "Take all 3 key valuables from Kingpin Bowling, a gang operation in Port Gellhorn: the luxury watch in the south-east office, the Gutterball shotgun on the table in the north-east corner, and the safe in the office off the north-east hallway (bring sticky bombs). It pops once you lose the police. You can come back for any you missed once the robbery resets."
     },
     {
       "id": "tr-47",
+      "revealedIconURL": "https://leonidalog.app/images/trophies/tr-47.png",
       "title": "Trophy 47",
       "category": "achievements",
       "spoiler": true,
@@ -1195,10 +1350,11 @@
         }
       ],
       "revealedTitle": "Personal Best",
-      "revealedGuide": "Secret trophy. The game's only hint is a partnership with mass appeal."
+      "revealedGuide": "Max out Strength on Jason and Lucia. Work out together at a fitness club (possible from the chapter 2 mission Coffee Break): while one of you trains, the other does too."
     },
     {
       "id": "tr-48",
+      "revealedIconURL": "https://leonidalog.app/images/trophies/tr-48.png",
       "title": "Trophy 48",
       "category": "achievements",
       "spoiler": true,
@@ -1211,10 +1367,11 @@
         }
       ],
       "revealedTitle": "Actions Speak Louder",
-      "revealedGuide": "Secret trophy for choices you make, for better or worse."
+      "revealedGuide": "Rack up 500 actions on your criminal profile. Nearly everything counts, from quiet robberies and clean escapes to wounding or killing, so it comes on its own. Turn on Criminal Profile notifications in the game's UI settings to watch it; the in-game trophy list shows the count."
     },
     {
       "id": "tr-49",
+      "revealedIconURL": "https://leonidalog.app/images/trophies/tr-49.png",
       "title": "Trophy 49",
       "category": "achievements",
       "spoiler": true,
@@ -1227,10 +1384,11 @@
         }
       ],
       "revealedTitle": "Bad Luck, I Guess",
-      "revealedGuide": "Secret trophy. The game's only hint is that the second time is the charm."
+      "revealedGuide": "Not worked out yet. Guides think it's tied to the payday loan store from the prologue, in Little Cuba, robbed again in some particular way."
     },
     {
       "id": "tr-50",
+      "revealedIconURL": "https://leonidalog.app/images/trophies/tr-50.png",
       "title": "Trophy 50",
       "category": "achievements",
       "spoiler": true,
@@ -1243,10 +1401,11 @@
         }
       ],
       "revealedTitle": "The Truth Is Out There",
-      "revealedGuide": "Secret trophy for a moment that leaves you wondering what just happened."
+      "revealedGuide": "Find the UFO. On the road north-west of the Starlet Motel in Kelly County, alone and after 2 AM, look for a car with flashing lights at the roadside. Follow the path into the woods, help the woman the UFO drops, and take her back to her car. It doesn't happen every time: drive off and come back."
     },
     {
       "id": "tr-51",
+      "revealedIconURL": "https://leonidalog.app/images/trophies/tr-51.png",
       "title": "Trophy 51",
       "category": "achievements",
       "spoiler": true,
@@ -1259,10 +1418,11 @@
         }
       ],
       "revealedTitle": "Ten Pin",
-      "revealedGuide": "Knock someone down with a melee attack during a drive-by."
+      "revealedGuide": "On a bike, kick 10 pedestrians within 60 seconds. Busy spots like Ocean Beach are best."
     },
     {
       "id": "tr-52",
+      "iconURL": "https://leonidalog.app/images/trophies/tr-52.png",
       "title": "Dime on the Dollar",
       "category": "achievements",
       "spoiler": true,
@@ -1273,10 +1433,12 @@
           "label": "Gamerscore",
           "value": "20"
         }
-      ]
+      ],
+      "revealedGuide": "Launder $250,000 of marked bills through fences, over as many trips as you like. The Dye Pack Jammer comes with the chapter 3 mission Credit Check. Then rob banks and payday loans and take the marked bills to a fence; Yasmani pays the most."
     },
     {
       "id": "tr-53",
+      "iconURL": "https://leonidalog.app/images/trophies/tr-53.png",
       "title": "Treat Yo Self",
       "category": "achievements",
       "spoiler": true,
@@ -1287,10 +1449,12 @@
           "label": "Gamerscore",
           "value": "15"
         }
-      ]
+      ],
+      "revealedGuide": "Spend $100,000 in total at shops of any kind. Guns, car mods and tattoos cost the most."
     },
     {
       "id": "tr-54",
+      "iconURL": "https://leonidalog.app/images/trophies/tr-54.png",
       "title": "Little Boxes",
       "category": "achievements",
       "spoiler": true,
@@ -1301,10 +1465,13 @@
           "label": "Gamerscore",
           "value": "15"
         }
-      ]
+      ],
+      "tallyTarget": 8,
+      "revealedGuide": "Buy all 8 garages for sale in the Vice City Real Estate app, $160,000 in all. The app arrives soon after the chapter 2 mission Daily Driver. The 4 garages the story gives you don't count."
     },
     {
       "id": "tr-55",
+      "iconURL": "https://leonidalog.app/images/trophies/tr-55.png",
       "title": "On the Spot",
       "category": "achievements",
       "spoiler": true,
@@ -1316,7 +1483,8 @@
           "value": "15"
         }
       ],
-      "tallyTarget": 10
+      "tallyTarget": 10,
+      "revealedGuide": "Register 10 vehicles on the Scooter Bros app, which arrives with the chapter 2 mission Moses. Each one needs a free garage parking spot (see Little Boxes). Take a car to Moses's garage in Port Gellhorn, respray it and register it. From chapter 3, cars with standard trackers can be registered at any Pay 'n' Spray too. Cheap cars keep the cost down."
     },
     {
       "id": "ms-001",
@@ -2292,7 +2460,7 @@
       "guide": "Strangers & Freaks side mission, strand 2. Unlocks in chapter 1.",
       "revealedTitle": "Search for the Skunk Ape",
       "revealedGivenBy": "Kirk",
-      "revealedGuide": "Kirk's strand, mission 1 of 3. Unlocks in chapter 1. Counts towards the Strangers & Freaks trophy. Night only."
+      "revealedGuide": "Kirk's strand, mission 1 of 3. Unlocks in chapter 1. Counts towards the Strangers & Freaks trophy. Night only. To start it, read one of Kirk's flyers (they turn up in bars, at gas stations and by ATMs) to add him as a contact, then call him for the marker in the swamp north of Gullet Marsh."
     },
     {
       "id": "sf-04",
@@ -2303,7 +2471,7 @@
       "guide": "Strangers & Freaks side mission, strand 2. Unlocks in chapter 1.",
       "revealedTitle": "Search for Tree Effigies",
       "revealedGivenBy": "Kirk",
-      "revealedGuide": "Kirk's strand, mission 2 of 3. Unlocks in chapter 1. Counts towards the Strangers & Freaks trophy."
+      "revealedGuide": "Kirk's strand, mission 2 of 3. Unlocks in chapter 1. Counts towards the Strangers & Freaks trophy. The three effigies are all in the Pelican Valley mangroves inside Kirk's search area: one in open swamp at the north end (south of Thorpe Adventures), one in a small wooded patch ringed by water in the middle, and one at the end of a long thin strip of trees."
     },
     {
       "id": "sf-05",
@@ -12555,6 +12723,7 @@
       "title": "The Wonder Whale",
       "category": "waink",
       "subgroup": "Sculptures",
+      "guide": "Scan it with WAiNK: the whale statue stands outside the Wonder Whale shop beside the Sunbelt Highway on Key Lento (menu number not known yet).",
       "spoiler": true,
       "region": "Mariana County",
       "nx": 0.5202,
@@ -29101,6 +29270,262 @@
       "ny": 0.3855
     },
     {
+      "id": "gr-01",
+      "title": "Mitchel Auto Center",
+      "category": "garages",
+      "subgroup": "For sale",
+      "spoiler": true,
+      "nx": 0.399,
+      "ny": 0.362,
+      "region": "Kelly County",
+      "guide": "Central Kelly County, east of Port Gellhorn. $4,000 in the Vice City Real Estate app, 1 parking spot. Counts towards the Little Boxes trophy.",
+      "stats": [
+        {
+          "label": "Price",
+          "value": "$4,000"
+        },
+        {
+          "label": "Parking spots",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": "gr-02",
+      "title": "Persistence Road Garage",
+      "category": "garages",
+      "subgroup": "For sale",
+      "spoiler": true,
+      "nx": 0.573,
+      "ny": 0.41,
+      "region": "Leonard County",
+      "guide": "Western Belville, in the south of Leonard County. $7,600 in the Vice City Real Estate app, 1 parking spot. Counts towards the Little Boxes trophy.",
+      "stats": [
+        {
+          "label": "Price",
+          "value": "$7,600"
+        },
+        {
+          "label": "Parking spots",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": "gr-03",
+      "title": "7th Avenue Garage",
+      "category": "garages",
+      "subgroup": "For sale",
+      "spoiler": true,
+      "nx": 0.585,
+      "ny": 0.556,
+      "region": "Vice-Dale County",
+      "guide": "Just east of Vice City International Airport. $12,000 in the Vice City Real Estate app, 1 parking spot. Counts towards the Little Boxes trophy.",
+      "stats": [
+        {
+          "label": "Price",
+          "value": "$12,000"
+        },
+        {
+          "label": "Parking spots",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": "gr-04",
+      "title": "Store n' Bolt",
+      "category": "garages",
+      "subgroup": "For sale",
+      "spoiler": true,
+      "nx": 0.512,
+      "ny": 0.33,
+      "region": "Kelly County",
+      "guide": "Northern Ambrosia, just off the highway. $16,800 in the Vice City Real Estate app, 1 parking spot. Counts towards the Little Boxes trophy.",
+      "stats": [
+        {
+          "label": "Price",
+          "value": "$16,800"
+        },
+        {
+          "label": "Parking spots",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": "gr-05",
+      "title": "Wyatt Motors",
+      "category": "garages",
+      "subgroup": "For sale",
+      "spoiler": true,
+      "nx": 0.518,
+      "ny": 0.338,
+      "region": "Kelly County",
+      "guide": "Central Ambrosia, a little south-east of Store n' Bolt. $21,600 in the Vice City Real Estate app, 1 parking spot. Counts towards the Little Boxes trophy.",
+      "stats": [
+        {
+          "label": "Price",
+          "value": "$21,600"
+        },
+        {
+          "label": "Parking spots",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": "gr-06",
+      "title": "Vela Rota Drive Garage",
+      "category": "garages",
+      "subgroup": "For sale",
+      "spoiler": true,
+      "nx": 0.328,
+      "ny": 0.518,
+      "region": "Mariana County",
+      "guide": "Central Capri. $24,000 in the Vice City Real Estate app, 1 parking spot. Counts towards the Little Boxes trophy.",
+      "stats": [
+        {
+          "label": "Price",
+          "value": "$24,000"
+        },
+        {
+          "label": "Parking spots",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": "gr-07",
+      "title": "Bonita Court Garage",
+      "category": "garages",
+      "subgroup": "For sale",
+      "spoiler": true,
+      "nx": 0.731,
+      "ny": 0.421,
+      "region": "Vice-Dale County",
+      "guide": "Washington Island, across the water from Vice Beach. $34,000 in the Vice City Real Estate app, 1 parking spot. Counts towards the Little Boxes trophy.",
+      "stats": [
+        {
+          "label": "Price",
+          "value": "$34,000"
+        },
+        {
+          "label": "Parking spots",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": "gr-08",
+      "title": "Atlantic Court Garage",
+      "category": "garages",
+      "subgroup": "For sale",
+      "spoiler": true,
+      "nx": 0.75,
+      "ny": 0.478,
+      "region": "Vice-Dale County",
+      "guide": "Ocean Beach, a couple of blocks back from the sand. $40,000 in the Vice City Real Estate app, 1 parking spot. Counts towards the Little Boxes trophy.",
+      "stats": [
+        {
+          "label": "Price",
+          "value": "$40,000"
+        },
+        {
+          "label": "Parking spots",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": "gr-09",
+      "title": "Port Gellhorn Station Garage",
+      "category": "garages",
+      "subgroup": "From the story",
+      "spoiler": true,
+      "nx": 0.346,
+      "ny": 0.362,
+      "region": "Kelly County",
+      "guide": "Port Gellhorn. Free: the story gives it to you in chapter 2. 1 parking spot. Doesn't count towards Little Boxes.",
+      "revealedGuide": "Port Gellhorn. Free: yours once you finish the chapter 2 story mission Daily Driver. 1 parking spot. Doesn't count towards Little Boxes.",
+      "stats": [
+        {
+          "label": "Price",
+          "value": "Free"
+        },
+        {
+          "label": "Parking spots",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "id": "gr-10",
+      "title": "Thompson Court Garage",
+      "category": "garages",
+      "subgroup": "From the story",
+      "spoiler": true,
+      "nx": 0.74,
+      "ny": 0.506,
+      "region": "Vice-Dale County",
+      "guide": "Ocean Beach. Free: the story gives it to you in chapter 4. 2 parking spots. Doesn't count towards Little Boxes.",
+      "revealedGuide": "Ocean Beach. Free: yours once you finish the chapter 4 story mission Company Cars. 2 parking spots. Doesn't count towards Little Boxes.",
+      "stats": [
+        {
+          "label": "Price",
+          "value": "Free"
+        },
+        {
+          "label": "Parking spots",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": "gr-11",
+      "title": "NE 15th Street Garage",
+      "category": "garages",
+      "subgroup": "From the story",
+      "spoiler": true,
+      "nx": 0.634,
+      "ny": 0.437,
+      "region": "Vice-Dale County",
+      "guide": "Stockyard, Vice City. Free: the story gives it to you in chapter 5. 2 parking spots. Doesn't count towards Little Boxes.",
+      "revealedGuide": "Stockyard, Vice City. Free: yours once you finish the chapter 5 story mission Operation Savage Glory. 2 parking spots. Doesn't count towards Little Boxes.",
+      "stats": [
+        {
+          "label": "Price",
+          "value": "Free"
+        },
+        {
+          "label": "Parking spots",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "id": "gr-12",
+      "title": "Pegassi Residences Garage",
+      "category": "garages",
+      "subgroup": "From the story",
+      "spoiler": true,
+      "nx": 0.652,
+      "ny": 0.577,
+      "region": "Vice-Dale County",
+      "guide": "Tequesta Retreat, Vice City. Free: the story gives it to you in chapter 5. 3 parking spots. Doesn't count towards Little Boxes.",
+      "revealedGuide": "Tequesta Retreat, Vice City. Free: yours once you finish the chapter 5 story mission Operation Savage Glory. 3 parking spots. Doesn't count towards Little Boxes.",
+      "stats": [
+        {
+          "label": "Price",
+          "value": "Free"
+        },
+        {
+          "label": "Parking spots",
+          "value": "3"
+        }
+      ]
+    },
+    {
       "id": "wp-klose-k17",
       "title": "Klose K17",
       "category": "weapons",
@@ -31931,40 +32356,20 @@
         ]
       },
       "tr-15": {
-        "type": "itemsFloor",
-        "ids": [
-          "sj-001",
-          "sj-002",
-          "sj-003",
-          "sj-004",
-          "sj-005",
-          "sj-006",
-          "sj-007",
-          "sj-008",
-          "sj-009",
-          "sj-010",
-          "sj-011",
-          "sj-012",
-          "sj-013",
-          "sj-014",
-          "sj-015",
-          "sj-016",
-          "sj-017",
-          "sj-018",
-          "sj-019",
-          "sj-020",
-          "sj-021",
-          "sj-022",
-          "sj-023",
-          "sj-024"
-        ]
+        "type": "categorySum",
+        "categories": [
+          "stunt-jumps",
+          "under-bridges",
+          "knife-flights",
+          "base-jumps"
+        ],
+        "goldOnly": false
       },
       "tr-25": {
         "type": "itemsFloor",
         "ids": [
           "sf-05",
           "sf-08",
-          "sf-09",
           "sf-11",
           "sf-20",
           "sf-30",
@@ -31980,10 +32385,51 @@
           "vg-3",
           "vg-4"
         ]
+      },
+      "tr-16": {
+        "type": "category",
+        "category": "activity-types"
+      },
+      "tr-18": {
+        "type": "subgroupsWithGold",
+        "category": "drone-trials",
+        "subgroups": [
+          "Hamlet",
+          "Watson Bay",
+          "Capri",
+          "Buckskin Swamp",
+          "Balsero",
+          "Downtown",
+          "Dalton Island",
+          "Vice Beach",
+          "Waning Sands",
+          "Ambrosia",
+          "Port Gellhorn",
+          "Draper Island",
+          "Moreau Sawmill",
+          "Millport"
+        ]
+      },
+      "tr-35": {
+        "type": "category",
+        "category": "vehicles"
+      },
+      "tr-54": {
+        "type": "itemsFloor",
+        "ids": [
+          "gr-01",
+          "gr-02",
+          "gr-03",
+          "gr-04",
+          "gr-05",
+          "gr-06",
+          "gr-07",
+          "gr-08"
+        ]
       }
     },
     "unlockRequirements": {},
     "platinum": "tr-01"
   },
-  "_note": "Confirmed content only. v7: the six named regions and the eleven activities (Game Informer, 29 Sep 2026, plus Wyman's Classic Car Collection). v8: the 55-trophy list (Xbox achievement data via Exophase, and Press Start's PS5 list, 18 Nov 2026); every new item is marked spoiler, and story and secret trophies have neutral titles. v9: the real names and how-tos behind the 27 neutral trophies, in revealedTitle/revealedGuide (shown by spoiler-shield builds once done or revealed). v10: 91 story missions (PowerPyx walkthrough, PC Gamer, Press Start), 39 Strangers & Freaks (PowerPyx), and the game's own 100% checklist as 34 items with the 100% thresholds (PowerPyx); the Path to 100% now follows that checklist, and the 11 activities moved to 100%+. Card sets, meditation, playlists, video games, pool, mini golf and shooting ranges are listed one by one (PowerPyx). Bank jobs, payday loans, Smash 'N' Grabs, race challenges and the 80 challenges are listed one by one too (PowerPyx). v11: card sets, meditation and playlists are marked collectible, for Progress's Collectibles card. Also v11: lists PowerPyx is still filling in (flamingos, magazines, book swaps, WAiNK, stunt jumps, unique races, gang operations, drug labs) are listed item by item with what's known so far, alongside the 100% counter rows; more items get added as the lists grow. Animals: the game's 8 animal groups as counters (255 in all, PowerPyx), until a species list exists. From Danny's own in-game Progress captures (18 Nov): 50 animal species, and Kenton's 6 wrecks with 12 named treasures (descriptions in our own words). v12: Danny's post-v11 refinements (sub-categories, animal stats and pictures, challenges' own category id) under a new version, so apps that already applied v11 pick them up. v12 also links trophies to the lists they count: races, card sets, challenges, vaults, WAiNK, stunt jumps, Strangers & Freaks strands and video games. v13: more entries from other guide sites, each confirmed by two of them: 14 flamingos, 2 magazines, 4 WAiNK scans (game menu numbers not known yet, so their ids use names), and the 42 Top Fun drone time trials at 14 locations."
+  "_note": "Confirmed content only. v7: the six named regions and the eleven activities (Game Informer, 29 Sep 2026, plus Wyman's Classic Car Collection). v8: the 55-trophy list (Xbox achievement data via Exophase, and Press Start's PS5 list, 18 Nov 2026); every new item is marked spoiler, and story and secret trophies have neutral titles. v9: the real names and how-tos behind the 27 neutral trophies, in revealedTitle/revealedGuide (shown by spoiler-shield builds once done or revealed). v10: 91 story missions (PowerPyx walkthrough, PC Gamer, Press Start), 39 Strangers & Freaks (PowerPyx), and the game's own 100% checklist as 34 items with the 100% thresholds (PowerPyx); the Path to 100% now follows that checklist, and the 11 activities moved to 100%+. Card sets, meditation, playlists, video games, pool, mini golf and shooting ranges are listed one by one (PowerPyx). Bank jobs, payday loans, Smash 'N' Grabs, race challenges and the 80 challenges are listed one by one too (PowerPyx). v11: card sets, meditation and playlists are marked collectible, for Progress's Collectibles card. Also v11: lists PowerPyx is still filling in (flamingos, magazines, book swaps, WAiNK, stunt jumps, unique races, gang operations, drug labs) are listed item by item with what's known so far, alongside the 100% counter rows; more items get added as the lists grow. Animals: the game's 8 animal groups as counters (255 in all, PowerPyx), until a species list exists. From Danny's own in-game Progress captures (18 Nov): 50 animal species, and Kenton's 6 wrecks with 12 named treasures (descriptions in our own words). v12: Danny's post-v11 refinements (sub-categories, animal stats and pictures, challenges' own category id) under a new version, so apps that already applied v11 pick them up. v12 also links trophies to the lists they count: races, card sets, challenges, vaults, WAiNK, stunt jumps, Strangers & Freaks strands and video games. v13: more entries from other guide sites, each confirmed by two of them: 14 flamingos, 2 magazines, 4 WAiNK scans (game menu numbers not known yet, so their ids use names), and the 42 Top Fun drone time trials at 14 locations. v31: fuller trophy descriptions in revealedGuide (PowerPyx trophy guide), a Garages list (12: 8 for sale and 4 from the story, prices from PowerPyx and StealthyGaming, pins placed by eye from PowerPyx's map screenshots) and a Master of None list (the 9 activity types, PowerPyx), all spoiler; trophies linked so they track themselves: bank vaults (bank jobs list now complete), stunts, Top Fun, vehicles, garages and activity types."
 }
