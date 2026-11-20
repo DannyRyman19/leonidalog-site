@@ -1,5 +1,9 @@
 {
-  "version": 29,
+  "version": 30,
+  "ads": {
+    "rewarded": true,
+    "interstitial": true
+  },
   "notice": {
     "id": "early-days-1",
     "title": "Early days",
