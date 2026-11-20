@@ -1,5 +1,5 @@
 {
-  "version": 59,
+  "version": 60,
   "ads": {
     "rewarded": true,
     "interstitial": true
@@ -37320,6 +37320,7 @@
     },
     {
       "id": "kw-7-01",
+      "imageURL": "https://leonidalog.app/images/kenton/kw-7-01.jpg",
       "title": "Ancient Bracelet",
       "category": "kenton-sets",
       "subgroup": "Site 7: Belpoint Strait",
@@ -37330,6 +37331,7 @@
     },
     {
       "id": "kw-7-02",
+      "imageURL": "https://leonidalog.app/images/kenton/kw-7-02.jpg",
       "title": "Ancient Ingot",
       "category": "kenton-sets",
       "subgroup": "Site 7: Belpoint Strait",
@@ -37340,6 +37342,7 @@
     },
     {
       "id": "kw-7-03",
+      "imageURL": "https://leonidalog.app/images/kenton/kw-7-03.jpg",
       "title": "Avian Plate",
       "category": "kenton-sets",
       "subgroup": "Site 7: Belpoint Strait",
@@ -37350,6 +37353,7 @@
     },
     {
       "id": "kw-7-04",
+      "imageURL": "https://leonidalog.app/images/kenton/kw-7-04.jpg",
       "title": "Golden Fish",
       "category": "kenton-sets",
       "subgroup": "Site 7: Belpoint Strait",
@@ -37360,6 +37364,7 @@
     },
     {
       "id": "kw-7-05",
+      "imageURL": "https://leonidalog.app/images/kenton/kw-7-05.jpg",
       "title": "Lover's Grail",
       "category": "kenton-sets",
       "subgroup": "Site 7: Belpoint Strait",
@@ -37370,6 +37375,7 @@
     },
     {
       "id": "kw-8-01",
+      "imageURL": "https://leonidalog.app/images/kenton/kw-8-01.jpg",
       "title": "Astrolabe",
       "category": "kenton-sets",
       "subgroup": "Site 8: Bobcat Dive Site",
@@ -37380,6 +37386,7 @@
     },
     {
       "id": "kw-8-02",
+      "imageURL": "https://leonidalog.app/images/kenton/kw-8-02.jpg",
       "title": "Captain's Whistle",
       "category": "kenton-sets",
       "subgroup": "Site 8: Bobcat Dive Site",
@@ -37390,6 +37397,7 @@
     },
     {
       "id": "kw-8-03",
+      "imageURL": "https://leonidalog.app/images/kenton/kw-8-03.jpg",
       "title": "Ceramic Pirate",
       "category": "kenton-sets",
       "subgroup": "Site 8: Bobcat Dive Site",
@@ -37400,6 +37408,7 @@
     },
     {
       "id": "kw-8-04",
+      "imageURL": "https://leonidalog.app/images/kenton/kw-8-04.jpg",
       "title": "Ivory Sundial",
       "category": "kenton-sets",
       "subgroup": "Site 8: Bobcat Dive Site",
@@ -37410,6 +37419,7 @@
     },
     {
       "id": "kw-8-05",
+      "imageURL": "https://leonidalog.app/images/kenton/kw-8-05.jpg",
       "title": "Naval Hourglass",
       "category": "kenton-sets",
       "subgroup": "Site 8: Bobcat Dive Site",
@@ -37420,6 +37430,7 @@
     },
     {
       "id": "kw-8-06",
+      "imageURL": "https://leonidalog.app/images/kenton/kw-8-06.jpg",
       "title": "Pirate's Buckle",
       "category": "kenton-sets",
       "subgroup": "Site 8: Bobcat Dive Site",
