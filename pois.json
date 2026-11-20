@@ -1,5 +1,5 @@
 {
-  "version": 43,
+  "version": 44,
   "ads": {
     "rewarded": true,
     "interstitial": true
@@ -2681,7 +2681,7 @@
       "guide": "Strangers & Freaks side mission, strand 8. Unlocks in chapter 3.",
       "revealedTitle": "Peach!",
       "revealedGivenBy": "Andy",
-      "revealedGuide": "Andy's strand, mission 3 of 5. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Lucia only."
+      "revealedGuide": "Andy's strand, mission 3 of 5. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Lucia only. It starts at the bench in Belville, and only Lucia gets past Felix into the mansion. To impress Cecilia, always take the vape stick and always defuse. The reward is an item for Andy."
     },
     {
       "id": "sf-24",
@@ -2714,7 +2714,7 @@
       "guide": "Strangers & Freaks side mission, strand 9. Unlocks in chapter 3.",
       "revealedTitle": "Yasmani's Jewelry Jobs",
       "revealedGivenBy": "Yasmani",
-      "revealedGuide": "Yasmani's strand, mission 1 of 4. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy."
+      "revealedGuide": "Yasmani's strand, mission 1 of 4. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. There are three stores. Do Casa de Empeño first (safe code 1680), as it has no back door. Your first delivery to Yasmani earns a Snap Gun that opens the back doors of the other two: Richardson Jewelry (code 6815) and Donovan Banks & Co. (code 0104). In each back room, wipe the footage and disarm the alarm. Pays $20,000 plus whatever you smash and grab."
     },
     {
       "id": "sf-27",
@@ -2769,7 +2769,7 @@
       "guide": "Strangers & Freaks side mission, strand 11. Unlocks in chapter 3.",
       "revealedTitle": "Take Out Kitty Litter",
       "revealedGivenBy": "Tyrone",
-      "revealedGuide": "Tyrone's strand, mission 1 of 2. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Shut down the Kitty Litter labs. It starts at the diner just outside Grayson."
+      "revealedGuide": "Tyrone's strand, mission 1 of 2. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Shut down the Kitty Litter labs. It starts at the diner just outside Grayson. Each lab is somewhere inside a purple search area: look for pink smoke. Each pays $2,000 to $2,500. They aren't missable and can still be destroyed after the story, and burnt-out buildings show the ones you've done."
     },
     {
       "id": "sf-32",
@@ -2802,7 +2802,7 @@
       "guide": "Strangers & Freaks side mission, strand 13. Unlocks in chapter 4.",
       "revealedTitle": "Attend Eddie Acosta's Party",
       "revealedGivenBy": "Eddie Acosta",
-      "revealedGuide": "Eddie Acosta's strand, mission 1 of 1. Unlocks in chapter 4. Doesn't count towards the Strangers & Freaks trophy. Meet at the Y Hotel in Ocean Beach. Turn down the $50,000 pitch, then use the bike jump over the solar panels to get away."
+      "revealedGuide": "Eddie Acosta's strand, mission 1 of 1. Unlocks in chapter 4. Doesn't count towards the Strangers & Freaks trophy. Eddie's invite is to a party at Heathcliff Heights in Vice City; it starts when you walk into the lobby. Go solo. Paying the $50,000 only gets you a worthless NFT, and his door is bulletproof. If you didn't shoot at him, you can lean on him in the lobby afterwards."
     },
     {
       "id": "sf-35",
@@ -2813,7 +2813,7 @@
       "guide": "Strangers & Freaks side mission, strand 14. Unlocks in chapter 4.",
       "revealedTitle": "The Last Mile: Passing the Torch",
       "revealedGivenBy": "Pilot Pete",
-      "revealedGuide": "Pilot Pete's strand, mission 1 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only. It's at Sundown Private Airfield. The safe code is 3718, and Pete's KZ-59 rifle is in the back room."
+      "revealedGuide": "Pilot Pete's strand, mission 1 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only. It's at Sundown Private Airfield. The safe code is 3718, and Pete's KZ-59 rifle is in the back room. It begins with a call from Pete. There are three drop sites, and you land at the airstrip south of Port Gellhorn. Pays $12,000."
     },
     {
       "id": "sf-36",
@@ -2824,7 +2824,7 @@
       "guide": "Strangers & Freaks side mission, strand 14. Unlocks in chapter 4.",
       "revealedTitle": "The Last Mile: Backseat Pilot",
       "revealedGivenBy": "Pilot Pete",
-      "revealedGuide": "Pilot Pete's strand, mission 2 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only."
+      "revealedGuide": "Pilot Pete's strand, mission 2 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only. Land the seaplane next to the supplier. You get 7 drops in about 2 hours; red circles bring a wanted level. Pays $20,000."
     },
     {
       "id": "sf-37",
@@ -3786,6 +3786,7 @@
     },
     {
       "id": "cd-01-23",
+      "imageURL": "https://leonidalog.app/images/cards/cd-01-23.jpg",
       "title": "Ulysses Whitlock - Gold",
       "category": "cards",
       "subgroup": "Vice City Flamingos",
@@ -3793,7 +3794,7 @@
       "nx": 0.5073,
       "ny": 0.3178,
       "region": "Kelly County",
-      "guide": "One of the 24 cards in the Vice City Flamingos set. Follow the map pin."
+      "guide": "One of the 24 cards in the Vice City Flamingos set. Climb the tower overlooking the Crystal Field baseball diamond: on the floor of the platform at the top."
     },
     {
       "id": "cd-01-24",
@@ -4442,6 +4443,7 @@
     },
     {
       "id": "cd-04-11",
+      "imageURL": "https://leonidalog.app/images/cards/cd-04-11.jpg",
       "title": "Ellie Burke - Silver",
       "category": "cards",
       "subgroup": "Vice City Club De Futbol",
@@ -4449,7 +4451,7 @@
       "nx": 0.5073,
       "ny": 0.3246,
       "region": "Kelly County",
-      "guide": "One of the 30 cards in the Vice City Club De Futbol set. Follow the map pin."
+      "guide": "One of the 30 cards in the Vice City Club De Futbol set. On the bookcase in the first bedroom on the right as you come in from the road."
     },
     {
       "id": "cd-04-12",
@@ -4670,6 +4672,7 @@
     },
     {
       "id": "cd-05-02",
+      "imageURL": "https://leonidalog.app/images/cards/cd-05-02.jpg",
       "title": "Blake Balls - Gold",
       "category": "cards",
       "subgroup": "Liberty City Swingers",
@@ -4677,7 +4680,7 @@
       "nx": 0.5073,
       "ny": 0.3256,
       "region": "Kelly County",
-      "guide": "One of the 24 cards in the Liberty City Swingers set. Follow the map pin."
+      "guide": "One of the 24 cards in the Liberty City Swingers set. On the chest of drawers in the bedroom opposite the bathroom."
     },
     {
       "id": "cd-05-03",
@@ -4825,6 +4828,7 @@
     },
     {
       "id": "cd-05-16",
+      "imageURL": "https://leonidalog.app/images/cards/cd-05-16.jpg",
       "title": "Lalo Velasco - Bronze",
       "category": "cards",
       "subgroup": "Liberty City Swingers",
@@ -4832,7 +4836,7 @@
       "nx": 0.5122,
       "ny": 0.3266,
       "region": "Kelly County",
-      "guide": "One of the 24 cards in the Liberty City Swingers set. Follow the map pin."
+      "guide": "One of the 24 cards in the Liberty City Swingers set. Inside the wood-panelled cabin: on the chest of drawers next to the TV, by the front door."
     },
     {
       "id": "cd-05-17",
@@ -5694,6 +5698,7 @@
     },
     {
       "id": "cd-08-23",
+      "imageURL": "https://leonidalog.app/images/cards/cd-08-23.jpg",
       "title": "Victor Maravilla - Standard",
       "category": "cards",
       "subgroup": "Los Santos Corkers",
@@ -5701,7 +5706,7 @@
       "nx": 0.5014,
       "ny": 0.3207,
       "region": "Kelly County",
-      "guide": "One of the 24 cards in the Los Santos Corkers set. Follow the map pin."
+      "guide": "One of the 24 cards in the Los Santos Corkers set. Crystal Field baseball diamond: on the bench in the dugout, next to a water bottle."
     },
     {
       "id": "cd-08-24",
@@ -7632,7 +7637,7 @@
       "nx": 0.6165,
       "ny": 0.4534,
       "region": "Vice-Dale County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-02",
@@ -7643,7 +7648,7 @@
       "nx": 0.6204,
       "ny": 0.7296,
       "region": "Mariana County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-03",
@@ -7654,7 +7659,7 @@
       "nx": 0.6106,
       "ny": 0.4592,
       "region": "Vice-Dale County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-04",
@@ -7665,7 +7670,7 @@
       "nx": 0.5414,
       "ny": 0.8429,
       "region": "Mariana County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-05",
@@ -7676,7 +7681,7 @@
       "nx": 0.5765,
       "ny": 0.6243,
       "region": "Vice-Dale County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-06",
@@ -7687,7 +7692,7 @@
       "nx": 0.638,
       "ny": 0.4952,
       "region": "Vice-Dale County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-07",
@@ -7698,7 +7703,7 @@
       "nx": 0.6974,
       "ny": 0.6201,
       "region": "Vice-Dale County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-08",
@@ -7709,7 +7714,7 @@
       "nx": 0.3748,
       "ny": 0.5307,
       "region": "Mariana County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-09",
@@ -7720,10 +7725,11 @@
       "nx": 0.636,
       "ny": 0.4846,
       "region": "Vice-Dale County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-10",
+      "imageURL": "https://leonidalog.app/images/cards/cd-16-10.jpg",
       "title": "Disastrous Duo - Blue",
       "category": "cards",
       "subgroup": "The Legends of Ratface",
@@ -7731,7 +7737,7 @@
       "nx": 0.5102,
       "ny": 0.3237,
       "region": "Kelly County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Spaceship House (the WAiNK curiosity): on the very top, on the ledge beside the white dome, next to a beer bottle."
     },
     {
       "id": "cd-16-11",
@@ -7742,7 +7748,7 @@
       "nx": 0.3212,
       "ny": 0.482,
       "region": "Mariana County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-12",
@@ -7753,7 +7759,7 @@
       "nx": 0.3893,
       "ny": 0.52,
       "region": "Mariana County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-13",
@@ -7764,7 +7770,7 @@
       "nx": 0.6691,
       "ny": 0.5226,
       "region": "Vice-Dale County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-14",
@@ -7775,7 +7781,7 @@
       "nx": 0.4245,
       "ny": 0.6712,
       "region": "Mariana County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-15",
@@ -7786,7 +7792,7 @@
       "nx": 0.5376,
       "ny": 0.4954,
       "region": "Vice-Dale County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-16",
@@ -7797,7 +7803,7 @@
       "nx": 0.5327,
       "ny": 0.6858,
       "region": "Vice-Dale County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-17",
@@ -7808,7 +7814,7 @@
       "nx": 0.6516,
       "ny": 0.4358,
       "region": "Vice-Dale County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-18",
@@ -7819,7 +7825,7 @@
       "nx": 0.5951,
       "ny": 0.3782,
       "region": "Leonard County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-19",
@@ -7830,7 +7836,7 @@
       "nx": 0.4917,
       "ny": 0.6712,
       "region": "Vice-Dale County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-20",
@@ -7841,7 +7847,7 @@
       "nx": 0.2958,
       "ny": 0.5103,
       "region": "Mariana County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-21",
@@ -7852,7 +7858,7 @@
       "nx": 0.6117,
       "ny": 0.1683,
       "region": "Lummox County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-22",
@@ -7863,7 +7869,7 @@
       "nx": 0.751,
       "ny": 0.5215,
       "region": "Vice-Dale County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-23",
@@ -7874,7 +7880,7 @@
       "nx": 0.3308,
       "ny": 0.5806,
       "region": "Mariana County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-24",
@@ -7885,7 +7891,7 @@
       "nx": 0.4449,
       "ny": 0.68,
       "region": "Mariana County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-25",
@@ -7896,7 +7902,7 @@
       "nx": 0.5989,
       "ny": 0.5901,
       "region": "Vice-Dale County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-26",
@@ -7907,7 +7913,7 @@
       "nx": 0.559,
       "ny": 0.5198,
       "region": "Vice-Dale County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-27",
@@ -7918,7 +7924,7 @@
       "nx": 0.3318,
       "ny": 0.3375,
       "region": "Kelly County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-28",
@@ -7929,7 +7935,7 @@
       "nx": 0.3279,
       "ny": 0.5005,
       "region": "Mariana County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-29",
@@ -7940,7 +7946,7 @@
       "nx": 0.6049,
       "ny": 0.181,
       "region": "Lummox County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-30",
@@ -7951,7 +7957,7 @@
       "nx": 0.4781,
       "ny": 0.4457,
       "region": "Kelly County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-31",
@@ -7962,7 +7968,7 @@
       "nx": 0.6145,
       "ny": 0.5714,
       "region": "Vice-Dale County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-32",
@@ -7973,7 +7979,7 @@
       "nx": 0.6497,
       "ny": 0.3127,
       "region": "Leonard County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-33",
@@ -7984,7 +7990,7 @@
       "nx": 0.6643,
       "ny": 0.2639,
       "region": "Leonard County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-34",
@@ -7995,7 +8001,7 @@
       "nx": 0.5229,
       "ny": 0.8478,
       "region": "Mariana County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-35",
@@ -8006,7 +8012,7 @@
       "nx": 0.4273,
       "ny": 0.6966,
       "region": "Mariana County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-16-36",
@@ -8017,7 +8023,7 @@
       "nx": 0.6282,
       "ny": 0.4416,
       "region": "Vice-Dale County",
-      "guide": "One of the 36 cards in the The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
     },
     {
       "id": "cd-17-01",
@@ -8318,6 +8324,7 @@
     },
     {
       "id": "cd-17-28",
+      "imageURL": "https://leonidalog.app/images/cards/cd-17-28.jpg",
       "title": "Right Wing's Truck - Blue",
       "category": "cards",
       "subgroup": "Right Wing: America's Hero",
@@ -8325,7 +8332,7 @@
       "nx": 0.52,
       "ny": 0.2954,
       "region": "Kelly County",
-      "guide": "One of the 36 cards in the Right Wing: America's Hero set. Follow the map pin."
+      "guide": "One of the 36 cards in the Right Wing: America's Hero set. To the left of the stairs up to the spectator point: in the first compartment with shelves in it, behind the benches, on the shelves."
     },
     {
       "id": "cd-17-29",
@@ -12142,6 +12149,7 @@
     },
     {
       "id": "wl-old-goliath",
+      "imageURL": "https://leonidalog.app/images/waink/wl-old-goliath.jpg",
       "title": "Old Goliath",
       "category": "waink",
       "subgroup": "Landmarks",
@@ -12544,6 +12552,7 @@
     },
     {
       "id": "wc-spaceship-house",
+      "imageURL": "https://leonidalog.app/images/waink/wc-spaceship-house.jpg",
       "title": "Spaceship House",
       "category": "waink",
       "subgroup": "Curiosities",
@@ -17942,6 +17951,7 @@
     },
     {
       "id": "hp-006",
+      "imageURL": "https://leonidalog.app/images/hoops/hp-006.jpg",
       "title": "Magnolia Rd",
       "category": "hoops",
       "subgroup": "Kelly County",
@@ -17953,6 +17963,7 @@
     },
     {
       "id": "hp-070",
+      "imageURL": "https://leonidalog.app/images/hoops/hp-070.jpg",
       "title": "Maple Ln, Ambrosia",
       "category": "hoops",
       "subgroup": "Kelly County",
@@ -31295,7 +31306,7 @@
       "category": "kenton-sets",
       "subgroup": "Wreck 2: Nuestra Señora de la Ética Laxa",
       "spoiler": true,
-      "guide": "Treasure 1 of 5 from wreck 2, Nuestra Señora de la Ética Laxa, a Spanish wreck in the Leonida Keys. Find it with the metal detector and give it to Kenton.",
+      "guide": "Treasure 1 of 5 from wreck 2, Nuestra Señora de la Ética Laxa, a Spanish wreck in the Leonida Keys. Find it with the metal detector and give it to Kenton. Follow the broken timbers to a purple sea fan and search the seabed beneath it.",
       "nx": 0.5097,
       "ny": 0.9012,
       "imageURL": "https://leonidalog.app/images/kenton/kw-2-01.jpg"
@@ -31306,7 +31317,7 @@
       "category": "kenton-sets",
       "subgroup": "Wreck 2: Nuestra Señora de la Ética Laxa",
       "spoiler": true,
-      "guide": "Treasure 2 of 5 from wreck 2, Nuestra Señora de la Ética Laxa, a Spanish wreck in the Leonida Keys. Find it with the metal detector and give it to Kenton.",
+      "guide": "Treasure 2 of 5 from wreck 2, Nuestra Señora de la Ética Laxa, a Spanish wreck in the Leonida Keys. Find it with the metal detector and give it to Kenton. It's in a buried chest at the edge of the reef, reached through the middle opening.",
       "nx": 0.5097,
       "ny": 0.9012,
       "imageURL": "https://leonidalog.app/images/kenton/kw-2-02.jpg"
@@ -31317,7 +31328,7 @@
       "category": "kenton-sets",
       "subgroup": "Wreck 2: Nuestra Señora de la Ética Laxa",
       "spoiler": true,
-      "guide": "Treasure 3 of 5 from wreck 2, Nuestra Señora de la Ética Laxa, a Spanish wreck in the Leonida Keys. Find it with the metal detector and give it to Kenton.",
+      "guide": "Treasure 3 of 5 from wreck 2, Nuestra Señora de la Ética Laxa, a Spanish wreck in the Leonida Keys. Find it with the metal detector and give it to Kenton. Sweep the metal detector along the broken hull.",
       "nx": 0.5097,
       "ny": 0.9012,
       "imageURL": "https://leonidalog.app/images/kenton/kw-2-03.jpg"
@@ -31328,7 +31339,7 @@
       "category": "kenton-sets",
       "subgroup": "Wreck 2: Nuestra Señora de la Ética Laxa",
       "spoiler": true,
-      "guide": "Treasure 4 of 5 from wreck 2, Nuestra Señora de la Ética Laxa, a Spanish wreck in the Leonida Keys. Find it with the metal detector and give it to Kenton.",
+      "guide": "Treasure 4 of 5 from wreck 2, Nuestra Señora de la Ética Laxa, a Spanish wreck in the Leonida Keys. Find it with the metal detector and give it to Kenton. It's beside the crate by the wreck's middle opening.",
       "nx": 0.5097,
       "ny": 0.9012,
       "imageURL": "https://leonidalog.app/images/kenton/kw-2-04.jpg"
@@ -31339,7 +31350,7 @@
       "category": "kenton-sets",
       "subgroup": "Wreck 2: Nuestra Señora de la Ética Laxa",
       "spoiler": true,
-      "guide": "Treasure 5 of 5 from wreck 2, Nuestra Señora de la Ética Laxa, a Spanish wreck in the Leonida Keys. Find it with the metal detector and give it to Kenton.",
+      "guide": "Treasure 5 of 5 from wreck 2, Nuestra Señora de la Ética Laxa, a Spanish wreck in the Leonida Keys. Find it with the metal detector and give it to Kenton. Look under the collapsed timbers in the middle opening of the wreck.",
       "nx": 0.5097,
       "ny": 0.9012,
       "imageURL": "https://leonidalog.app/images/kenton/kw-2-05.jpg"
@@ -31350,7 +31361,7 @@
       "category": "kenton-sets",
       "subgroup": "Wreck 3: Nuestra Señora de la Noche",
       "spoiler": true,
-      "guide": "Treasure 1 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton. The wreck lies off the southeast of Key Lento's southern tip: search the circle nearer the island, not the one by Abismo Key.",
+      "guide": "Treasure 1 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton. The wreck lies off the southeast of Key Lento's southern tip: search the circle nearer the island, not the one by Abismo Key. It's by the large anchor and barrels.",
       "nx": 0.5376,
       "ny": 0.8844,
       "imageURL": "https://leonidalog.app/images/kenton/kw-3-01.jpg"
@@ -31361,7 +31372,7 @@
       "category": "kenton-sets",
       "subgroup": "Wreck 3: Nuestra Señora de la Noche",
       "spoiler": true,
-      "guide": "Treasure 2 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton. The wreck lies off the southeast of Key Lento's southern tip: search the circle nearer the island, not the one by Abismo Key.",
+      "guide": "Treasure 2 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton. The wreck lies off the southeast of Key Lento's southern tip: search the circle nearer the island, not the one by Abismo Key. Check by the fishing net on the broken timbers.",
       "nx": 0.5376,
       "ny": 0.8844,
       "imageURL": "https://leonidalog.app/images/kenton/kw-3-02.jpg"
@@ -31372,7 +31383,7 @@
       "category": "kenton-sets",
       "subgroup": "Wreck 3: Nuestra Señora de la Noche",
       "spoiler": true,
-      "guide": "Treasure 3 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton. The wreck lies off the southeast of Key Lento's southern tip: search the circle nearer the island, not the one by Abismo Key.",
+      "guide": "Treasure 3 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton. The wreck lies off the southeast of Key Lento's southern tip: search the circle nearer the island, not the one by Abismo Key. Search around the upright wreckage and the exposed planks.",
       "nx": 0.5376,
       "ny": 0.8844,
       "imageURL": "https://leonidalog.app/images/kenton/kw-3-03.jpg"
@@ -31383,7 +31394,7 @@
       "category": "kenton-sets",
       "subgroup": "Wreck 3: Nuestra Señora de la Noche",
       "spoiler": true,
-      "guide": "Treasure 4 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton. The wreck lies off the southeast of Key Lento's southern tip: search the circle nearer the island, not the one by Abismo Key.",
+      "guide": "Treasure 4 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton. The wreck lies off the southeast of Key Lento's southern tip: search the circle nearer the island, not the one by Abismo Key. Search around the upright wreckage and the exposed planks.",
       "nx": 0.5376,
       "ny": 0.8844,
       "imageURL": "https://leonidalog.app/images/kenton/kw-3-04.jpg"
@@ -31394,7 +31405,7 @@
       "category": "kenton-sets",
       "subgroup": "Wreck 3: Nuestra Señora de la Noche",
       "spoiler": true,
-      "guide": "Treasure 5 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton. The wreck lies off the southeast of Key Lento's southern tip: search the circle nearer the island, not the one by Abismo Key.",
+      "guide": "Treasure 5 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton. The wreck lies off the southeast of Key Lento's southern tip: search the circle nearer the island, not the one by Abismo Key. It's on the seabed by a barrel along the outer hull.",
       "nx": 0.5376,
       "ny": 0.8844,
       "imageURL": "https://leonidalog.app/images/kenton/kw-3-05.jpg"
@@ -31405,7 +31416,7 @@
       "category": "kenton-sets",
       "subgroup": "Wreck 3: Nuestra Señora de la Noche",
       "spoiler": true,
-      "guide": "Treasure 6 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton. The wreck lies off the southeast of Key Lento's southern tip: search the circle nearer the island, not the one by Abismo Key.",
+      "guide": "Treasure 6 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton. The wreck lies off the southeast of Key Lento's southern tip: search the circle nearer the island, not the one by Abismo Key. It's in the seaweed and rubble along the edge of the wreck.",
       "nx": 0.5376,
       "ny": 0.8844,
       "imageURL": "https://leonidalog.app/images/kenton/kw-3-06.jpg"
@@ -31416,7 +31427,7 @@
       "category": "kenton-sets",
       "subgroup": "Wreck 3: Nuestra Señora de la Noche",
       "spoiler": true,
-      "guide": "Treasure 7 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton. The wreck lies off the southeast of Key Lento's southern tip: search the circle nearer the island, not the one by Abismo Key.",
+      "guide": "Treasure 7 of 7 from wreck 3, Nuestra Señora de la Noche, a Spanish wreck off Leonida. Find it with the metal detector and give it to Kenton. The wreck lies off the southeast of Key Lento's southern tip: search the circle nearer the island, not the one by Abismo Key. It's in a buried chest on the seabed: dig it out and open it.",
       "nx": 0.5376,
       "ny": 0.8844,
       "imageURL": "https://leonidalog.app/images/kenton/kw-3-07.jpg"
@@ -31428,7 +31439,7 @@
       "subgroup": "Wreck 4: Urca de Cinco Torres",
       "imageURL": "https://leonidalog.app/images/kenton/ancient-ceremonial-mask-v2.jpg",
       "spoiler": true,
-      "guide": "Treasure 1 of 6 from wreck 4, Urca de Cinco Torres, a Spanish treasure ship wrecked in the Keys. Find it with the metal detector and give it to Kenton.",
+      "guide": "Treasure 1 of 6 from wreck 4, Urca de Cinco Torres, a Spanish treasure ship wrecked in the Keys. Find it with the metal detector and give it to Kenton. The wreck lies off Key Lento's southeast coast, east of the hooked island. It's in the sea grass south of the wreck.",
       "nx": 0.5419,
       "ny": 0.8662
     },
@@ -31439,7 +31450,7 @@
       "subgroup": "Wreck 4: Urca de Cinco Torres",
       "imageURL": "https://leonidalog.app/images/kenton/ceremonial-plate-v2.jpg",
       "spoiler": true,
-      "guide": "Treasure 2 of 6 from wreck 4, Urca de Cinco Torres, a Spanish treasure ship wrecked in the Keys. Find it with the metal detector and give it to Kenton.",
+      "guide": "Treasure 2 of 6 from wreck 4, Urca de Cinco Torres, a Spanish treasure ship wrecked in the Keys. Find it with the metal detector and give it to Kenton. The wreck lies off Key Lento's southeast coast, east of the hooked island. It's on the north side, where the reef starts.",
       "nx": 0.5419,
       "ny": 0.8662
     },
@@ -31450,7 +31461,7 @@
       "subgroup": "Wreck 4: Urca de Cinco Torres",
       "imageURL": "https://leonidalog.app/images/kenton/golden-glove-v2.jpg",
       "spoiler": true,
-      "guide": "Treasure 3 of 6 from wreck 4, Urca de Cinco Torres, a Spanish treasure ship wrecked in the Keys. Find it with the metal detector and give it to Kenton.",
+      "guide": "Treasure 3 of 6 from wreck 4, Urca de Cinco Torres, a Spanish treasure ship wrecked in the Keys. Find it with the metal detector and give it to Kenton. The wreck lies off Key Lento's southeast coast, east of the hooked island. It's at the east end, by the broken planks and coral.",
       "nx": 0.5419,
       "ny": 0.8662
     },
@@ -31461,7 +31472,7 @@
       "subgroup": "Wreck 4: Urca de Cinco Torres",
       "imageURL": "https://leonidalog.app/images/kenton/jade-eye-cup-v2.jpg",
       "spoiler": true,
-      "guide": "Treasure 4 of 6 from wreck 4, Urca de Cinco Torres, a Spanish treasure ship wrecked in the Keys. Find it with the metal detector and give it to Kenton.",
+      "guide": "Treasure 4 of 6 from wreck 4, Urca de Cinco Torres, a Spanish treasure ship wrecked in the Keys. Find it with the metal detector and give it to Kenton. The wreck lies off Key Lento's southeast coast, east of the hooked island. It's at the west end, by the standing timbers and plank ends.",
       "nx": 0.5419,
       "ny": 0.8662
     },
@@ -31472,7 +31483,7 @@
       "subgroup": "Wreck 4: Urca de Cinco Torres",
       "imageURL": "https://leonidalog.app/images/kenton/rusty-doubloon-v2.jpg",
       "spoiler": true,
-      "guide": "Treasure 5 of 6 from wreck 4, Urca de Cinco Torres, a Spanish treasure ship wrecked in the Keys. Find it with the metal detector and give it to Kenton.",
+      "guide": "Treasure 5 of 6 from wreck 4, Urca de Cinco Torres, a Spanish treasure ship wrecked in the Keys. Find it with the metal detector and give it to Kenton. The wreck lies off Key Lento's southeast coast, east of the hooked island. It's in open sand about halfway along the south side.",
       "nx": 0.5419,
       "ny": 0.8662
     },
@@ -31483,7 +31494,7 @@
       "subgroup": "Wreck 4: Urca de Cinco Torres",
       "imageURL": "https://leonidalog.app/images/kenton/sacred-necklace-v2.jpg",
       "spoiler": true,
-      "guide": "Treasure 6 of 6 from wreck 4, Urca de Cinco Torres, a Spanish treasure ship wrecked in the Keys. Find it with the metal detector and give it to Kenton.",
+      "guide": "Treasure 6 of 6 from wreck 4, Urca de Cinco Torres, a Spanish treasure ship wrecked in the Keys. Find it with the metal detector and give it to Kenton. The wreck lies off Key Lento's southeast coast, east of the hooked island. It's in the sand on the southeast side, among scattered pottery and cups.",
       "nx": 0.5419,
       "ny": 0.8662
     },
