@@ -1,5 +1,5 @@
 {
-  "version": 33,
+  "version": 34,
   "ads": {
     "rewarded": true,
     "interstitial": true
@@ -22,7 +22,8 @@
       "label": "Activities",
       "symbol": "gamecontroller.fill",
       "colorHex": "35E0C8",
-      "verb": "done"
+      "verb": "done",
+      "hidden": true
     },
     {
       "id": "activity-types",
@@ -235,9 +236,8 @@
       "symbol": "car.side.fill",
       "colorHex": "FFB547",
       "verb": "landed",
-      "intro": "128 stunt jumps. They count towards the stunts line of 100% (300 of 395 stunts, with under the bridges, knife flights and base jumps). More are added as guides find them. Stunt jumps also count towards the Cunning Stunts trophy (250 stunts).",
-      "collectible": true,
-      "complete": true
+      "intro": "128 of the game's 130 stunt jumps so far. They count towards the stunts line of 100% (300 of 397 stunts, with under the bridges, knife flights and base jumps). More are added as guides find them. Stunt jumps also count towards the Cunning Stunts trophy (250 stunts).",
+      "collectible": true
     },
     {
       "id": "base-jumps",
@@ -537,7 +537,7 @@
       "title": "Pool",
       "category": "activity-types",
       "spoiler": true,
-      "guide": "Play a game of pool."
+      "guide": "Play a game of pool in one of the bars around Leonida."
     },
     {
       "id": "mn-06",
@@ -3104,7 +3104,7 @@
       "title": "Stunts",
       "category": "exploration",
       "spoiler": true,
-      "guide": "Complete 300 of the 395 stunts: 128 stunt jumps, 202 under the bridges, 40 knife flights and 25 base jumps.",
+      "guide": "Complete 300 of the 397 stunts: 130 stunt jumps, 202 under the bridges, 40 knife flights and 25 base jumps.",
       "tallyTarget": 300,
       "linkedCategories": [
         "stunt-jumps",
@@ -29457,6 +29457,9 @@
           "label": "Parking spots",
           "value": "1"
         }
+      ],
+      "autoCollectedBy": [
+        "ms-028"
       ]
     },
     {
@@ -29479,6 +29482,9 @@
           "label": "Parking spots",
           "value": "2"
         }
+      ],
+      "autoCollectedBy": [
+        "ms-062"
       ]
     },
     {
@@ -29501,6 +29507,9 @@
           "label": "Parking spots",
           "value": "2"
         }
+      ],
+      "autoCollectedBy": [
+        "ms-089"
       ]
     },
     {
@@ -29523,6 +29532,9 @@
           "label": "Parking spots",
           "value": "3"
         }
+      ],
+      "autoCollectedBy": [
+        "ms-089"
       ]
     },
     {
@@ -32059,11 +32071,11 @@
       },
       {
         "id": "m-activities",
-        "text": "Try all 11 activities",
-        "target": 11,
+        "text": "Try all 9 activity types",
+        "target": 9,
         "link": {
           "type": "category",
-          "category": "activity"
+          "category": "activity-types"
         },
         "group": "Activities",
         "tier": "hundredPlus",
