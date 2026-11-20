@@ -1,5 +1,5 @@
 {
-  "version": 56,
+  "version": 59,
   "ads": {
     "rewarded": true,
     "interstitial": true
@@ -390,7 +390,7 @@
       "verb": "turned in",
       "chapterOrdered": true,
       "collectible": true,
-      "intro": "Kenton's shipwrecks: 6 wrecks off Key Lento and the Keys. Wreck 1 has 10 doubloons, and the other five have 30 treasures between them. Kenton marks each wreck on your map; find the treasures with the metal detector and hand them to him. 100% counts his sets (5 of 7 on the checklist). He's away for a while after chapter 1 and is back by chapter 3, and everything stays open after the story."
+      "intro": "Kenton's treasure: 7 sets, from 5 shipwrecks off Key Lento and the Keys plus 2 dive sites off Belpoint and in Leonida Bay, 41 treasures in all. Wreck 1 is the story mission's wreck: its 10 doubloons are listed here but aren't one of his 7 sets. Kenton marks each site on your map as a purple chest. Equip the metal detector from the weapon wheel, aim it and sweep the seabed slowly until the light turns green, then follow the gold icon to the find. The sites come in batches: clear the first three wrecks, go back to Kenton's shop for the next three, and the two dive sites follow. A site only counts once everything there is found, and you don't need to sell anything for it to count. Single finds sell for around $200, with a bonus for a full set. 100% needs 5 of the 7 sets. He's away for a while after chapter 1 and is back by chapter 3, and everything stays open after the story."
     }
   ],
   "pois": [
@@ -1001,7 +1001,7 @@
         }
       ],
       "revealedTitle": "This Was No Boat Accident",
-      "revealedGuide": "Finish Kenton's treasure diving strand: clear 7 shipwrecks for him, digging up the treasure with the metal detector and handing it in. He calls a while after the chapter 1 mission Island Dreams. He's away for a stretch after chapter 1 and texts Jason again in chapter 2 or 3, so nothing is missed. Still open after the story."
+      "revealedGuide": "Finish Kenton's final mission, Maritime Disputes, at the end of his treasure diving strand. He calls shortly after the chapter 1 mission Island Dreams: dive the wrecks he marks, dig up the treasure with the metal detector and hand it in. He's away for a stretch after chapter 1 and texts Jason again in chapter 2 or 3 (calling Brian as Jason in chapter 2 can speed that up), so nothing is missed. The final mission also gives you the Rugger Fortune boat. Still open after the story."
     },
     {
       "id": "tr-24",
@@ -1632,7 +1632,7 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 1.",
       "revealedTitle": "Island Dreams",
-      "revealedGuide": "Jason takes a bachelor party diving on a wreck as cover for Kenton's treasure hunt. The dive goes wrong, but he finds treasure and agrees to work with Kenton.",
+      "revealedGuide": "Jason takes a bachelor party diving on a wreck as cover for Kenton's treasure hunt. The dive goes wrong, but he finds treasure and agrees to work with Kenton. Jason comes away with scuba gear, the metal detector and a harpoon gun for sharks, and Kenton calls soon after to start his treasure dives.",
       "revealedImageURL": "https://leonidalog.app/images/missions/ms-009-v2.jpg"
     },
     {
@@ -2911,6 +2911,8 @@
     },
     {
       "id": "sf-40",
+      "linkedCategories": ["kenton-sets"],
+      "linkedMissions": ["ms-009", "sf-41"],
       "title": "Side mission 40",
       "category": "stranger-missions",
       "givenBy": "Strand 15",
@@ -2918,7 +2920,31 @@
       "guide": "Strangers & Freaks side mission, strand 15. Unlocks in chapter 1.",
       "revealedTitle": "Search the Dive Sites",
       "revealedGivenBy": "Kenton",
-      "revealedGuide": "Kenton's strand. Unlocks in chapter 1. Dive the shipwreck sites with the metal detector and bring Kenton the treasures you find; the Kenton sets list has every treasure and where to search. Whether it counts towards the Strangers & Freaks trophy isn't confirmed yet."
+      "revealedGuide": "Kenton's strand, the treasure dives. Unlocks in chapter 1: Kenton calls shortly after Island Dreams and shows up as KR at his shop in Key Lento. Dive the wrecks he marks, find the treasure with the metal detector and sell it at his counter. The first three are Nuestra Señora del Ocio, de la Noche and de la Ética Laxa; once they're clear, go back to the shop for the next three: Nuestra Señora Lujuriosa, Urca de Cinco Torres and Urca de Santa Sierra. After those he adds two dive sites: Belpoint Strait and the Bobcat Dive Site in Leonida Bay. He's away for a while after chapter 1 and texts Jason again in chapter 2 or 3; calling Brian as Jason in chapter 2 can speed that up. A wreck only counts once you've found everything there. The Kenton sets list has every treasure and where to search. Leads to his final mission, Maritime Disputes. Whether it counts towards the Strangers & Freaks trophy isn't confirmed yet.",
+      "guideLinks": {
+        "Island Dreams": "ms-009",
+        "Nuestra Señora del Ocio": "kw-1",
+        "de la Noche": "kw-3-01",
+        "de la Ética Laxa": "kw-2-01",
+        "Nuestra Señora Lujuriosa": "kw-5",
+        "Urca de Cinco Torres": "kw-4",
+        "Urca de Santa Sierra": "kw-6",
+        "Belpoint Strait": "kw-7-01",
+        "Bobcat Dive Site": "kw-8-01",
+        "Kenton sets list": "category:kenton-sets",
+        "Maritime Disputes": "sf-41"
+      }
+    },
+    {
+      "id": "sf-41",
+      "title": "Side mission 41",
+      "category": "stranger-missions",
+      "givenBy": "Strand 15",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 15. Comes after the strand's earlier mission.",
+      "revealedTitle": "Maritime Disputes",
+      "revealedGivenBy": "Kenton",
+      "revealedGuide": "Kenton's strand, the final mission, after his treasure dives. Finishing it unlocks the This Was No Boat Accident trophy and gives you the Rugger Fortune, a second dive boat alongside Kenton's Huntress at Island Dreams. Guides describe it as a showdown at sea; exactly when it unlocks isn't confirmed yet. Whether it counts towards the Strangers & Freaks trophy isn't confirmed yet. Still open after the story."
     },
     {
       "id": "tk-optional-tasks",
@@ -3020,7 +3046,16 @@
         "sources": [
           {
             "category": "kenton-sets",
-            "per": "subgroup"
+            "per": "subgroup",
+            "subgroups": [
+              "Wreck 2: Nuestra Señora de la Ética Laxa",
+              "Wreck 3: Nuestra Señora de la Noche",
+              "Wreck 4: Urca de Cinco Torres",
+              "Wreck 5: Nuestra Señora Lujuriosa",
+              "Wreck 6: Urca de Santa Sierra",
+              "Site 7: Belpoint Strait",
+              "Site 8: Bobcat Dive Site"
+            ]
           }
         ],
         "unit": "sets"
@@ -5917,6 +5952,7 @@
     },
     {
       "id": "cd-09-13",
+      "imageURL": "https://leonidalog.app/images/cards/cd-09-13.jpg",
       "title": "Marquise Bernard - Standard",
       "category": "cards",
       "subgroup": "Los Santos Panic",
@@ -5924,7 +5960,7 @@
       "nx": 0.5697,
       "ny": 0.8126,
       "region": "Mariana County",
-      "guide": "One of the 24 cards in the Los Santos Panic set. Follow the map pin."
+      "guide": "One of the 24 cards in the Los Santos Panic set. On the dock: on top of a barrel against the yellow wooden shack, next to an air compressor."
     },
     {
       "id": "cd-09-14",
@@ -7424,6 +7460,7 @@
     },
     {
       "id": "cd-15-12",
+      "imageURL": "https://leonidalog.app/images/cards/cd-15-12.jpg",
       "title": "Clarissa - Silver",
       "category": "cards",
       "subgroup": "Nine1Nine Dancers",
@@ -7431,7 +7468,7 @@
       "nx": 0.3028,
       "ny": 0.4933,
       "region": "Mariana County",
-      "guide": "One of the 36 cards in the Nine1Nine Dancers set. Follow the map pin."
+      "guide": "One of the 36 cards in the Nine1Nine Dancers set. In the garage, on the right: on the worktop beside the beer cooler."
     },
     {
       "id": "cd-15-13",
@@ -12263,7 +12300,8 @@
       "spoiler": true,
       "region": "Vice-Dale County",
       "nx": 0.6534,
-      "ny": 0.5438
+      "ny": 0.5438,
+      "guide": "Scan it with WAiNK: a white tower shaped like a periscope, in the bayfront park at the south end of Downtown near Catalan Blvd."
     },
     {
       "id": "wl-old-goliath",
@@ -12415,7 +12453,8 @@
       "spoiler": true,
       "region": "Vice-Dale County",
       "nx": 0.6997,
-      "ny": 0.6197
+      "ny": 0.6197,
+      "guide": "Scan it with WAiNK: the derelict, graffiti-covered concrete stadium with a zig-zag roof, the biggest building at the southern tip of Gloriana Keys, near the races."
     },
     {
       "id": "wl-tucker-s-citrus-farms-water-tower",
@@ -12850,7 +12889,8 @@
       "spoiler": true,
       "region": "Vice-Dale County",
       "nx": 0.6571,
-      "ny": 0.4544
+      "ny": 0.4544,
+      "guide": "Scan it with WAiNK: a big blue sculpture of a pointing hand with a bird on its fingertip, in the palm-lined paved plaza of the bayfront park on the east edge of Bayside."
     },
     {
       "id": "ws-large-lure",
@@ -12923,7 +12963,8 @@
       "spoiler": true,
       "region": "Vice-Dale County",
       "nx": 0.7099,
-      "ny": 0.4808
+      "ny": 0.4808,
+      "guide": "Scan it with WAiNK: a tall white obelisk with three bronze figures at its base, behind iron railings in the bush on Salton Memorial Island, the small round wooded island just south of Starfish Island in the bay."
     },
     {
       "id": "ws-chariot-to-valhalla",
@@ -37218,7 +37259,7 @@
       "subgroup": "Wreck 6: Urca de Santa Sierra",
       "imageURL": "https://leonidalog.app/images/kenton/brass-spyglass-v2.jpg",
       "spoiler": true,
-      "guide": "Treasure 1 of 6 from wreck 6, Urca de Santa Sierra, a Spanish ship sunk off South Leonida. Find it with the metal detector and give it to Kenton.",
+      "guide": "Treasure 1 of 6 from wreck 6, Urca de Santa Sierra, a Spanish ship sunk off South Leonida. Find it with the metal detector and give it to Kenton. The wreck lies in the Leonida Straits, east of Key Lento.",
       "nx": 0.5785,
       "ny": 0.8771
     },
@@ -37229,7 +37270,7 @@
       "subgroup": "Wreck 6: Urca de Santa Sierra",
       "imageURL": "https://leonidalog.app/images/kenton/dividing-compass-v2.jpg",
       "spoiler": true,
-      "guide": "Treasure 2 of 6 from wreck 6, Urca de Santa Sierra, a Spanish ship sunk off South Leonida. Find it with the metal detector and give it to Kenton.",
+      "guide": "Treasure 2 of 6 from wreck 6, Urca de Santa Sierra, a Spanish ship sunk off South Leonida. Find it with the metal detector and give it to Kenton. The wreck lies in the Leonida Straits, east of Key Lento.",
       "nx": 0.5785,
       "ny": 0.8771
     },
@@ -37240,7 +37281,7 @@
       "subgroup": "Wreck 6: Urca de Santa Sierra",
       "imageURL": "https://leonidalog.app/images/kenton/ornate-pocket-watch-v2.jpg",
       "spoiler": true,
-      "guide": "Treasure 3 of 6 from wreck 6, Urca de Santa Sierra, a Spanish ship sunk off South Leonida. Find it with the metal detector and give it to Kenton.",
+      "guide": "Treasure 3 of 6 from wreck 6, Urca de Santa Sierra, a Spanish ship sunk off South Leonida. Find it with the metal detector and give it to Kenton. The wreck lies in the Leonida Straits, east of Key Lento.",
       "nx": 0.5785,
       "ny": 0.8771
     },
@@ -37251,7 +37292,7 @@
       "subgroup": "Wreck 6: Urca de Santa Sierra",
       "imageURL": "https://leonidalog.app/images/kenton/santa-sierra-bell-v2.jpg",
       "spoiler": true,
-      "guide": "Treasure 4 of 6 from wreck 6, Urca de Santa Sierra, a Spanish ship sunk off South Leonida. Find it with the metal detector and give it to Kenton.",
+      "guide": "Treasure 4 of 6 from wreck 6, Urca de Santa Sierra, a Spanish ship sunk off South Leonida. Find it with the metal detector and give it to Kenton. The wreck lies in the Leonida Straits, east of Key Lento.",
       "nx": 0.5785,
       "ny": 0.8771
     },
@@ -37262,7 +37303,7 @@
       "subgroup": "Wreck 6: Urca de Santa Sierra",
       "imageURL": "https://leonidalog.app/images/kenton/silver-hip-flask-v2.jpg",
       "spoiler": true,
-      "guide": "Treasure 5 of 6 from wreck 6, Urca de Santa Sierra, a Spanish ship sunk off South Leonida. Find it with the metal detector and give it to Kenton.",
+      "guide": "Treasure 5 of 6 from wreck 6, Urca de Santa Sierra, a Spanish ship sunk off South Leonida. Find it with the metal detector and give it to Kenton. The wreck lies in the Leonida Straits, east of Key Lento.",
       "nx": 0.5785,
       "ny": 0.8771
     },
@@ -37273,9 +37314,119 @@
       "subgroup": "Wreck 6: Urca de Santa Sierra",
       "imageURL": "https://leonidalog.app/images/kenton/worn-doubloon-v2.jpg",
       "spoiler": true,
-      "guide": "Treasure 6 of 6 from wreck 6, Urca de Santa Sierra, a Spanish ship sunk off South Leonida. Find it with the metal detector and give it to Kenton. It's in a chest by a coral-covered rock just north of the wreck.",
+      "guide": "Treasure 6 of 6 from wreck 6, Urca de Santa Sierra, a Spanish ship sunk off South Leonida. Find it with the metal detector and give it to Kenton. It's in a chest by a coral-covered rock just north of the wreck. The wreck lies in the Leonida Straits, east of Key Lento.",
       "nx": 0.5785,
       "ny": 0.8771
+    },
+    {
+      "id": "kw-7-01",
+      "title": "Ancient Bracelet",
+      "category": "kenton-sets",
+      "subgroup": "Site 7: Belpoint Strait",
+      "spoiler": true,
+      "guide": "Treasure 1 of 5 from Belpoint Strait, a deep dive site off the southern tip of Belpoint, west of the sandbar islands at the mouth of Tola Bay. Kenton adds it to Search the Dive Sites after the six Key Lento wrecks. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.2858,
+      "ny": 0.5748
+    },
+    {
+      "id": "kw-7-02",
+      "title": "Ancient Ingot",
+      "category": "kenton-sets",
+      "subgroup": "Site 7: Belpoint Strait",
+      "spoiler": true,
+      "guide": "Treasure 2 of 5 from Belpoint Strait, a deep dive site off the southern tip of Belpoint, west of the sandbar islands at the mouth of Tola Bay. Kenton adds it to Search the Dive Sites after the six Key Lento wrecks. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.2858,
+      "ny": 0.5748
+    },
+    {
+      "id": "kw-7-03",
+      "title": "Avian Plate",
+      "category": "kenton-sets",
+      "subgroup": "Site 7: Belpoint Strait",
+      "spoiler": true,
+      "guide": "Treasure 3 of 5 from Belpoint Strait, a deep dive site off the southern tip of Belpoint, west of the sandbar islands at the mouth of Tola Bay. Kenton adds it to Search the Dive Sites after the six Key Lento wrecks. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.2858,
+      "ny": 0.5748
+    },
+    {
+      "id": "kw-7-04",
+      "title": "Golden Fish",
+      "category": "kenton-sets",
+      "subgroup": "Site 7: Belpoint Strait",
+      "spoiler": true,
+      "guide": "Treasure 4 of 5 from Belpoint Strait, a deep dive site off the southern tip of Belpoint, west of the sandbar islands at the mouth of Tola Bay. Kenton adds it to Search the Dive Sites after the six Key Lento wrecks. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.2858,
+      "ny": 0.5748
+    },
+    {
+      "id": "kw-7-05",
+      "title": "Lover's Grail",
+      "category": "kenton-sets",
+      "subgroup": "Site 7: Belpoint Strait",
+      "spoiler": true,
+      "guide": "Treasure 5 of 5 from Belpoint Strait, a deep dive site off the southern tip of Belpoint, west of the sandbar islands at the mouth of Tola Bay. Kenton adds it to Search the Dive Sites after the six Key Lento wrecks. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.2858,
+      "ny": 0.5748
+    },
+    {
+      "id": "kw-8-01",
+      "title": "Astrolabe",
+      "category": "kenton-sets",
+      "subgroup": "Site 8: Bobcat Dive Site",
+      "spoiler": true,
+      "guide": "Treasure 1 of 6 from Bobcat Dive Site, in the depths of Leonida Bay off the Grassrivers coast, south of Belpoint Strait. There's no wreck here. Kenton adds it to Search the Dive Sites after the six Key Lento wrecks. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.3165,
+      "ny": 0.6667
+    },
+    {
+      "id": "kw-8-02",
+      "title": "Captain's Whistle",
+      "category": "kenton-sets",
+      "subgroup": "Site 8: Bobcat Dive Site",
+      "spoiler": true,
+      "guide": "Treasure 2 of 6 from Bobcat Dive Site, in the depths of Leonida Bay off the Grassrivers coast, south of Belpoint Strait. There's no wreck here. Kenton adds it to Search the Dive Sites after the six Key Lento wrecks. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.3165,
+      "ny": 0.6667
+    },
+    {
+      "id": "kw-8-03",
+      "title": "Ceramic Pirate",
+      "category": "kenton-sets",
+      "subgroup": "Site 8: Bobcat Dive Site",
+      "spoiler": true,
+      "guide": "Treasure 3 of 6 from Bobcat Dive Site, in the depths of Leonida Bay off the Grassrivers coast, south of Belpoint Strait. There's no wreck here. Kenton adds it to Search the Dive Sites after the six Key Lento wrecks. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.3165,
+      "ny": 0.6667
+    },
+    {
+      "id": "kw-8-04",
+      "title": "Ivory Sundial",
+      "category": "kenton-sets",
+      "subgroup": "Site 8: Bobcat Dive Site",
+      "spoiler": true,
+      "guide": "Treasure 4 of 6 from Bobcat Dive Site, in the depths of Leonida Bay off the Grassrivers coast, south of Belpoint Strait. There's no wreck here. Kenton adds it to Search the Dive Sites after the six Key Lento wrecks. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.3165,
+      "ny": 0.6667
+    },
+    {
+      "id": "kw-8-05",
+      "title": "Naval Hourglass",
+      "category": "kenton-sets",
+      "subgroup": "Site 8: Bobcat Dive Site",
+      "spoiler": true,
+      "guide": "Treasure 5 of 6 from Bobcat Dive Site, in the depths of Leonida Bay off the Grassrivers coast, south of Belpoint Strait. There's no wreck here. Kenton adds it to Search the Dive Sites after the six Key Lento wrecks. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.3165,
+      "ny": 0.6667
+    },
+    {
+      "id": "kw-8-06",
+      "title": "Pirate's Buckle",
+      "category": "kenton-sets",
+      "subgroup": "Site 8: Bobcat Dive Site",
+      "spoiler": true,
+      "guide": "Treasure 6 of 6 from Bobcat Dive Site, in the depths of Leonida Bay off the Grassrivers coast, south of Belpoint Strait. There's no wreck here. Kenton adds it to Search the Dive Sites after the six Key Lento wrecks. Find it with the metal detector and give it to Kenton.",
+      "nx": 0.3165,
+      "ny": 0.6667
     }
   ],
   "rules": {
@@ -37874,6 +38025,10 @@
       "tr-22": {
         "type": "played",
         "id": "sf-25"
+      },
+      "tr-23": {
+        "type": "played",
+        "id": "sf-41"
       },
       "tr-24": {
         "type": "played",
