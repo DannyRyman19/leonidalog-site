@@ -1,5 +1,5 @@
 {
-  "version": 51,
+  "version": 56,
   "ads": {
     "rewarded": true,
     "interstitial": true
@@ -363,6 +363,16 @@
       "intro": "12 garages. 8 are for sale in the Vice City Real Estate app, which arrives in chapter 2: the Little Boxes trophy needs all 8, $160,000 in all. The other 4 come with the story. Each parking spot lets you register one more vehicle."
     },
     {
+      "id": "gyms",
+      "label": "Gyms",
+      "symbol": "figure.strengthtraining.traditional",
+      "colorHex": "35E0C8",
+      "verb": "joined",
+      "collectible": true,
+      "complete": true,
+      "intro": "9 gyms, all in Vice City and Vice Beach. Membership is a one-off fee at the front desk, from $250 to $1,800 ($6,600 for all 8 paid ones; Muscle Sands is free), and Jason and Lucia share it. 100% doesn't need them all: joining any one paid gym does the Gym Member challenge, which ticks itself here. Working out raises Strength and Cardio."
+    },
+    {
       "id": "weapons",
       "label": "Weapons",
       "symbol": "scope",
@@ -523,49 +533,81 @@
       "title": "Golf",
       "category": "activity-types",
       "spoiler": true,
-      "guide": "Play a round of golf."
+      "guide": "Play a round of golf.",
+      "autoCollectedBy": [
+        "category:mini-golf",
+        "ac-mini-golf",
+        "ch-52",
+        "ch-56"
+      ]
     },
     {
       "id": "mn-04",
       "title": "Shooting ranges",
       "category": "activity-types",
       "spoiler": true,
-      "guide": "Take on a shooting range challenge."
+      "guide": "Take on a shooting range challenge.",
+      "autoCollectedBy": [
+        "category:shooting-ranges"
+      ]
     },
     {
       "id": "mn-05",
       "title": "Pool",
       "category": "activity-types",
       "spoiler": true,
-      "guide": "Play a game of pool in one of the bars around Leonida."
+      "guide": "Play a game of pool in one of the bars around Leonida.",
+      "autoCollectedBy": [
+        "category:pool",
+        "ac-billiards"
+      ]
     },
     {
       "id": "mn-06",
       "title": "Basketball",
       "category": "activity-types",
       "spoiler": true,
-      "guide": "Score a basketball hoop."
+      "guide": "Score a basketball hoop.",
+      "autoCollectedBy": [
+        "category:hoops"
+      ]
     },
     {
       "id": "mn-07",
       "title": "Video games",
       "category": "activity-types",
       "spoiler": true,
-      "guide": "Play a video game: on the TV at home or an arcade machine."
+      "guide": "Play a video game: on the TV at home or an arcade machine.",
+      "autoCollectedBy": [
+        "category:video-games"
+      ]
     },
     {
       "id": "mn-08",
       "title": "Racing",
       "category": "activity-types",
       "spoiler": true,
-      "guide": "Win a race: a car race, a race challenge or a Top Fun drone race."
+      "guide": "Win a race: a car race, a race challenge or a Top Fun drone race.",
+      "autoCollectedBy": [
+        "category:unique-races",
+        "category:race-challenges",
+        "category:drone-trials",
+        "ac-racing"
+      ]
     },
     {
       "id": "mn-09",
       "title": "Stunts",
       "category": "activity-types",
       "spoiler": true,
-      "guide": "Land a stunt: a stunt jump, a base jump, a knife flight or a flight under a bridge."
+      "guide": "Land a stunt: a stunt jump, a base jump, a knife flight or a flight under a bridge.",
+      "autoCollectedBy": [
+        "category:stunt-jumps",
+        "category:base-jumps",
+        "category:knife-flights",
+        "category:under-bridges",
+        "ac-base-jumping"
+      ]
     },
     {
       "id": "tr-01",
@@ -835,6 +877,14 @@
         }
       ],
       "tallyTarget": 9,
+      "countsFrom": {
+        "target": 9,
+        "sources": [
+          {
+            "category": "activity-types"
+          }
+        ]
+      },
       "revealedGuide": "Have a go at each of the 9 kinds of activity the trophy counts: fishing, hunting, golf, a shooting range, pool, basketball, a video game, a race (a car race, race challenge or Top Fun drone race) and a stunt. The game tracks them under Progress, Activities. Most come up on their own through the story."
     },
     {
@@ -1333,7 +1383,7 @@
         }
       ],
       "revealedTitle": "Let's Go Bowling",
-      "revealedGuide": "Take all 3 key valuables from Kingpin Bowling, a gang operation in Port Gellhorn: the luxury watch in the south-east office, the Gutterball shotgun on the table in the north-east corner, and the safe in the office off the north-east hallway (bring sticky bombs). It pops once you lose the police. You can come back for any you missed once the robbery resets."
+      "revealedGuide": "Take all 3 key valuables from Kingpin Bowling, a gang operation in Port Gellhorn: the luxury watch in the south-east office, the Gutterball shotgun on the table in the north-east corner, and the safe in the office off the north-east hallway. The safe code is 0300 (a map in the building just east of the Brooks Boatworks warehouse shows it), so you don't need sticky bombs. It pops once you lose the police. You can come back for any you missed once the robbery resets."
     },
     {
       "id": "tr-47",
@@ -3974,6 +4024,7 @@
     },
     {
       "id": "cd-02-15",
+      "imageURL": "https://leonidalog.app/images/cards/cd-02-15.jpg",
       "title": "Kyle Lewicki - Teal",
       "category": "cards",
       "subgroup": "Vice City Narcos",
@@ -3981,7 +4032,7 @@
       "nx": 0.6516,
       "ny": 0.4523,
       "region": "Vice-Dale County",
-      "guide": "One of the 24 cards in the Vice City Narcos set. Follow the map pin."
+      "guide": "One of the 24 cards in the Vice City Narcos set. Dynamix Fitness gym: on the bench in the room just before the lockers and showers."
     },
     {
       "id": "cd-02-16",
@@ -10926,7 +10977,17 @@
       "subgroup": "Fitness",
       "spoiler": true,
       "guide": "Fitness challenge. Join any gym.",
-      "iconURL": "https://leonidalog.app/images/challenges/ch-31.jpg"
+      "iconURL": "https://leonidalog.app/images/challenges/ch-31.jpg",
+      "autoCollectedBy": [
+        "gy-01",
+        "gy-02",
+        "gy-03",
+        "gy-04",
+        "gy-05",
+        "gy-07",
+        "gy-08",
+        "gy-09"
+      ]
     },
     {
       "id": "ch-32",
@@ -12243,7 +12304,8 @@
       "spoiler": true,
       "region": "Mariana County",
       "nx": 0.3425,
-      "ny": 0.6478
+      "ny": 0.6478,
+      "guide": "Scan it with WAiNK: the experimental home stands in the water just off Bobcat Key."
     },
     {
       "id": "wl-pelican-valley-observation-tower",
@@ -12369,8 +12431,8 @@
       "id": "wl-derelict-spy-vessel",
       "title": "Derelict Spy Vessel",
       "category": "waink",
-      "subgroup": "Landmarks",
-      "guide": "Scan it with WAiNK: the wrecked ship sits on the south side of the easternmost island in the small chain east of Southwind and Abismo Key (menu number not known yet).",
+      "subgroup": "Curiosities",
+      "guide": "Scan it with WAiNK (the game lists it as a curiosity): the wrecked ship sits on the beach at the southern tip of the long southeasternmost island in the Permit Keys chain, east of Southwind and Abismo Key.",
       "spoiler": true,
       "region": "Mariana County",
       "nx": 0.3921,
@@ -12605,7 +12667,8 @@
       "spoiler": true,
       "region": "Vice-Dale County",
       "nx": 0.7712,
-      "ny": 0.511
+      "ny": 0.511,
+      "guide": "Scan it with WAiNK: sand sculptures of vehicles on the beach at Ocean Beach, just behind the palms."
     },
     {
       "id": "wc-spaceship-house",
@@ -12666,7 +12729,8 @@
       "spoiler": true,
       "region": "Mariana County",
       "nx": 0.375,
-      "ny": 0.8363
+      "ny": 0.8363,
+      "guide": "Scan it with WAiNK: on the large central island of the Permit Keys, just northeast of the Fingerpost, where people party on the beach by wooden huts. Scan the hut with the orange Fizzazz sign."
     },
     {
       "id": "wc-lovers-lookout",
@@ -12796,7 +12860,8 @@
       "spoiler": true,
       "region": "Vice-Dale County",
       "nx": 0.7483,
-      "ny": 0.5433
+      "ny": 0.5433,
+      "guide": "Scan it with WAiNK: a giant red-and-yellow fishing lure standing upright on a lawn among the beachfront high-rises of Ocean Beach, in the park on Thompson Ave just south of Lucciano's."
     },
     {
       "id": "ws-monument-of-leonida",
@@ -33464,6 +33529,150 @@
       ]
     },
     {
+      "id": "gy-01",
+      "title": "Zenith",
+      "category": "gyms",
+      "spoiler": true,
+      "nx": 0.6291,
+      "ny": 0.5556,
+      "region": "Vice-Dale County",
+      "guide": "Inside the Moon tower on SW 2nd St, southern Downtown. Membership $750, paid once at the front desk; Jason and Lucia share it. Sells food, with a changing room.",
+      "stats": [
+        {
+          "label": "Price",
+          "value": "$750"
+        }
+      ]
+    },
+    {
+      "id": "gy-02",
+      "title": "Vice Seven Condominiums Gym",
+      "category": "gyms",
+      "spoiler": true,
+      "nx": 0.6191,
+      "ny": 0.5773,
+      "region": "Vice-Dale County",
+      "guide": "In the Vice Seven Condominiums, Tequesta. Membership $450, paid once at the front desk; Jason and Lucia share it.",
+      "stats": [
+        {
+          "label": "Price",
+          "value": "$450"
+        }
+      ]
+    },
+    {
+      "id": "gy-03",
+      "title": "Grand Majestic Gym",
+      "category": "gyms",
+      "spoiler": true,
+      "nx": 0.6181,
+      "ny": 0.5904,
+      "region": "Vice-Dale County",
+      "guide": "On the lobby floor of the Grand Majestic aparthotel, southern Tequesta. Membership $250, the cheapest, paid once at the front desk; Jason and Lucia share it. Sells food, with a pool table.",
+      "stats": [
+        {
+          "label": "Price",
+          "value": "$250"
+        }
+      ]
+    },
+    {
+      "id": "gy-04",
+      "title": "Dynamix Fitness",
+      "category": "gyms",
+      "spoiler": true,
+      "nx": 0.6518,
+      "ny": 0.4519,
+      "region": "Vice-Dale County",
+      "guide": "Central Bayside. Membership $600, paid once at the front desk; Jason and Lucia share it. Has a changing room.",
+      "stats": [
+        {
+          "label": "Price",
+          "value": "$600"
+        }
+      ]
+    },
+    {
+      "id": "gy-05",
+      "title": "Venus Fitness",
+      "category": "gyms",
+      "spoiler": true,
+      "nx": 0.7499,
+      "ny": 0.509,
+      "region": "Vice-Dale County",
+      "guide": "Ocean Beach. Membership $600, paid once at the front desk; Jason and Lucia share it. Has a changing room.",
+      "stats": [
+        {
+          "label": "Price",
+          "value": "$600"
+        }
+      ]
+    },
+    {
+      "id": "gy-06",
+      "title": "Muscle Sands",
+      "category": "gyms",
+      "spoiler": true,
+      "nx": 0.7709,
+      "ny": 0.5072,
+      "region": "Vice-Dale County",
+      "guide": "Outdoor gym on the sand at Ocean Beach. Free: no membership to buy.",
+      "stats": [
+        {
+          "label": "Price",
+          "value": "Free"
+        }
+      ]
+    },
+    {
+      "id": "gy-07",
+      "title": "Ajax Gym / Lawton Theater",
+      "category": "gyms",
+      "spoiler": true,
+      "nx": 0.7407,
+      "ny": 0.4392,
+      "region": "Vice-Dale County",
+      "guide": "On Vineyard Dr, west Oldby Island in Washington Beach, by the bridge to Penmarch Isle. Membership $1,800, the dearest, paid once at the front desk; Jason and Lucia share it. Sells food, with a changing room.",
+      "stats": [
+        {
+          "label": "Price",
+          "value": "$1,800"
+        }
+      ]
+    },
+    {
+      "id": "gy-08",
+      "title": "Y Hotel Fitness Club",
+      "category": "gyms",
+      "spoiler": true,
+      "nx": 0.7647,
+      "ny": 0.4472,
+      "region": "Vice-Dale County",
+      "guide": "In the Y Hotel, east Washington Beach. Membership $1,200, paid once at the front desk; Jason and Lucia share it.",
+      "stats": [
+        {
+          "label": "Price",
+          "value": "$1,200"
+        }
+      ]
+    },
+    {
+      "id": "gy-09",
+      "title": "Aichi Condominiums Outdoor Gym",
+      "category": "gyms",
+      "spoiler": true,
+      "nx": 0.7441,
+      "ny": 0.3953,
+      "region": "Vice-Dale County",
+      "guide": "Outdoor gym at the Aichi Condominiums, northern Washington Beach. Membership $950, paid once at the front desk; Jason and Lucia share it.",
+      "stats": [
+        {
+          "label": "Price",
+          "value": "$950"
+        }
+      ]
+    },
+    {
       "id": "wp-scorpio-nipper-38",
       "title": "Scorpio Nipper .38",
       "category": "weapons",
@@ -36943,7 +37152,7 @@
       "subgroup": "Wreck 5: Nuestra Señora Lujuriosa",
       "imageURL": "https://leonidalog.app/images/kenton/ceremonial-bowl-v2.jpg",
       "spoiler": true,
-      "guide": "Treasure 1 of 6 from wreck 5, Nuestra Señora Lujuriosa, a Spanish cargo ship wrecked off the Leonida coast. Find it with the metal detector and give it to Kenton.",
+      "guide": "Treasure 1 of 6 from wreck 5, Nuestra Señora Lujuriosa, a Spanish cargo ship wrecked off the Leonida coast. Find it with the metal detector and give it to Kenton. The wreck lies off the small island chain southeast of Key Lento. It's on the seabed at the back (stern) end of the wreck.",
       "nx": 0.5319,
       "ny": 0.8711
     },
@@ -36954,7 +37163,7 @@
       "subgroup": "Wreck 5: Nuestra Señora Lujuriosa",
       "imageURL": "https://leonidalog.app/images/kenton/ceremonial-knife-v2.jpg",
       "spoiler": true,
-      "guide": "Treasure 2 of 6 from wreck 5, Nuestra Señora Lujuriosa, a Spanish cargo ship wrecked off the Leonida coast. Find it with the metal detector and give it to Kenton.",
+      "guide": "Treasure 2 of 6 from wreck 5, Nuestra Señora Lujuriosa, a Spanish cargo ship wrecked off the Leonida coast. Find it with the metal detector and give it to Kenton. The wreck lies off the small island chain southeast of Key Lento. It's at the tip of the bow, under a broken beam among rocks.",
       "nx": 0.5319,
       "ny": 0.8711
     },
@@ -36965,7 +37174,7 @@
       "subgroup": "Wreck 5: Nuestra Señora Lujuriosa",
       "imageURL": "https://leonidalog.app/images/kenton/golden-llama-v2.jpg",
       "spoiler": true,
-      "guide": "Treasure 3 of 6 from wreck 5, Nuestra Señora Lujuriosa, a Spanish cargo ship wrecked off the Leonida coast. Find it with the metal detector and give it to Kenton.",
+      "guide": "Treasure 3 of 6 from wreck 5, Nuestra Señora Lujuriosa, a Spanish cargo ship wrecked off the Leonida coast. Find it with the metal detector and give it to Kenton. The wreck lies off the small island chain southeast of Key Lento.",
       "nx": 0.5319,
       "ny": 0.8711
     },
@@ -36976,7 +37185,7 @@
       "subgroup": "Wreck 5: Nuestra Señora Lujuriosa",
       "imageURL": "https://leonidalog.app/images/kenton/golden-statuette-v2.jpg",
       "spoiler": true,
-      "guide": "Treasure 4 of 6 from wreck 5, Nuestra Señora Lujuriosa, a Spanish cargo ship wrecked off the Leonida coast. Find it with the metal detector and give it to Kenton.",
+      "guide": "Treasure 4 of 6 from wreck 5, Nuestra Señora Lujuriosa, a Spanish cargo ship wrecked off the Leonida coast. Find it with the metal detector and give it to Kenton. The wreck lies off the small island chain southeast of Key Lento. It's on the seabed around the middle of the ship, near the front mast.",
       "nx": 0.5319,
       "ny": 0.8711
     },
@@ -36987,7 +37196,7 @@
       "subgroup": "Wreck 5: Nuestra Señora Lujuriosa",
       "imageURL": "https://leonidalog.app/images/kenton/jade-lobe-tankard-v2.jpg",
       "spoiler": true,
-      "guide": "Treasure 5 of 6 from wreck 5, Nuestra Señora Lujuriosa, a Spanish cargo ship wrecked off the Leonida coast. Find it with the metal detector and give it to Kenton.",
+      "guide": "Treasure 5 of 6 from wreck 5, Nuestra Señora Lujuriosa, a Spanish cargo ship wrecked off the Leonida coast. Find it with the metal detector and give it to Kenton. The wreck lies off the small island chain southeast of Key Lento. It's on the opposite side of the hull from the Golden Statuette, about halfway along, among rocks.",
       "nx": 0.5319,
       "ny": 0.8711
     },
@@ -36998,7 +37207,7 @@
       "subgroup": "Wreck 5: Nuestra Señora Lujuriosa",
       "imageURL": "https://leonidalog.app/images/kenton/shiny-doubloon-v2.jpg",
       "spoiler": true,
-      "guide": "Treasure 6 of 6 from wreck 5, Nuestra Señora Lujuriosa, a Spanish cargo ship wrecked off the Leonida coast. Find it with the metal detector and give it to Kenton.",
+      "guide": "Treasure 6 of 6 from wreck 5, Nuestra Señora Lujuriosa, a Spanish cargo ship wrecked off the Leonida coast. Find it with the metal detector and give it to Kenton. The wreck lies off the small island chain southeast of Key Lento. It's in a buried chest in a coral patch a short way off the wreck: pull it free and open it.",
       "nx": 0.5319,
       "ny": 0.8711
     },
