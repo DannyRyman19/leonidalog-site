@@ -1,5 +1,5 @@
 {
-  "version": 34,
+  "version": 35,
   "ads": {
     "rewarded": true,
     "interstitial": true
@@ -2526,7 +2526,7 @@
       "guide": "Strangers & Freaks side mission, strand 4. Unlocks in chapter 2.",
       "revealedTitle": "Steal Vehicles for Moses",
       "revealedGivenBy": "Moses",
-      "revealedGuide": "Moses's strand, mission 1 of 1. Unlocks in chapter 2. Counts towards the Strangers & Freaks trophy."
+      "revealedGuide": "Moses's strand, mission 1 of 1. Unlocks in chapter 2. Doesn't count towards the Strangers & Freaks trophy. Once every car on Moses's list is delivered, a free Sultan waits for you in the small garage beside Watkins Auto Parts in Port Gellhorn."
     },
     {
       "id": "sf-10",
