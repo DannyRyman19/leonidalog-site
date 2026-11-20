@@ -1,5 +1,5 @@
 {
-  "version": 44,
+  "version": 45,
   "ads": {
     "rewarded": true,
     "interstitial": true
@@ -4177,8 +4177,8 @@
       "category": "cards",
       "subgroup": "Vice City Manatees",
       "spoiler": true,
-      "nx": 0.5112,
-      "ny": 0.3403,
+      "nx": 0.5109,
+      "ny": 0.3398,
       "region": "Kelly County",
       "guide": "One of the 24 cards in the Vice City Manatees set. Anti Sugar Residence: on the wall inside the garage."
     },
@@ -13531,6 +13531,7 @@
     },
     {
       "id": "sj-lake-leonida-lock-west",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-lake-leonida-lock-west.jpg",
       "title": "Lake Leonida Lock West",
       "category": "stunt-jumps",
       "subgroup": "Kelly County",
