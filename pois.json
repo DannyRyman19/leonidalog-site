@@ -1,5 +1,5 @@
 {
-  "version": 35,
+  "version": 36,
   "ads": {
     "rewarded": true,
     "interstitial": true
@@ -11524,6 +11524,7 @@
     },
     {
       "id": "mz-01",
+      "imageURL": "https://leonidalog.app/images/magazines/mz-01.jpg",
       "title": "Ashes of Glory",
       "category": "magazines",
       "completeBefore": "chapter 2",
@@ -11537,6 +11538,7 @@
     },
     {
       "id": "mz-02",
+      "imageURL": "https://leonidalog.app/images/magazines/mz-02.jpg",
       "title": "Lethal By Design",
       "category": "magazines",
       "completeBefore": "chapter 2",
@@ -11550,6 +11552,7 @@
     },
     {
       "id": "mz-03",
+      "imageURL": "https://leonidalog.app/images/magazines/mz-03.jpg",
       "title": "Orca: A Whole Different Animal",
       "category": "magazines",
       "completeBefore": "chapter 2",
@@ -11576,6 +11579,7 @@
     },
     {
       "id": "mz-05",
+      "imageURL": "https://leonidalog.app/images/magazines/mz-05.jpg",
       "title": "Body Copy",
       "category": "magazines",
       "completeBefore": "chapter 2",
@@ -11600,6 +11604,7 @@
     },
     {
       "id": "mz-07",
+      "imageURL": "https://leonidalog.app/images/magazines/mz-07.jpg",
       "title": "Help Me Help You Help Me",
       "category": "magazines",
       "completeBefore": "chapter 3",
@@ -11613,6 +11618,7 @@
     },
     {
       "id": "mz-08",
+      "imageURL": "https://leonidalog.app/images/magazines/mz-08.jpg",
       "title": "Wizard Wang",
       "category": "magazines",
       "completeBefore": "chapter 3",
@@ -11637,6 +11643,7 @@
     },
     {
       "id": "mz-10",
+      "imageURL": "https://leonidalog.app/images/magazines/mz-10.jpg",
       "title": "Passion B.C.",
       "category": "magazines",
       "completeBefore": "chapter 4",
@@ -11650,6 +11657,7 @@
     },
     {
       "id": "mz-11",
+      "imageURL": "https://leonidalog.app/images/magazines/mz-11.jpg",
       "title": "Two Pricks in the Bush",
       "category": "magazines",
       "completeBefore": "chapter 4",
