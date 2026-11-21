@@ -1,5 +1,5 @@
 {
-  "version": 60,
+  "version": 61,
   "ads": {
     "rewarded": true,
     "interstitial": true
@@ -228,6 +228,15 @@
       "colorHex": "4AD9D9",
       "verb": "found",
       "intro": "Scan with the WAiNK app: 31 landmarks, 35 curiosities, 23 sculptures and No Flusher tags. 100% needs 100. Numbers follow the game's Progress menu. More are added as guides find them. The You WAiNKer! trophy needs 100.",
+      "collectible": true
+    },
+    {
+      "id": "watches",
+      "label": "Luxury watches",
+      "symbol": "watch.analog",
+      "colorHex": "E0B84A",
+      "verb": "found",
+      "intro": "34 luxury watches to pick up, most of them in gang operations; a gold watch icon marks each one. They're styles: 100% needs 70 of the 79 styles (Progress, Collections, Discovered Styles), and the other 45 come from magazines. 9 of 34 so far, more as guides find them.",
       "collectible": true
     },
     {
@@ -2911,8 +2920,13 @@
     },
     {
       "id": "sf-40",
-      "linkedCategories": ["kenton-sets"],
-      "linkedMissions": ["ms-009", "sf-41"],
+      "linkedCategories": [
+        "kenton-sets"
+      ],
+      "linkedMissions": [
+        "ms-009",
+        "sf-41"
+      ],
       "title": "Side mission 40",
       "category": "stranger-missions",
       "givenBy": "Strand 15",
@@ -3135,8 +3149,22 @@
       "title": "Styles",
       "category": "exploration",
       "spoiler": true,
-      "guide": "Discover 70 of the 79 styles.",
-      "tallyTarget": 70
+      "guide": "Discover 70 of the 79 styles: the 34 luxury watches plus 45 styles and tattoos from magazines. Watches ticked in the Luxury watches list count here.",
+      "tallyTarget": 70,
+      "linkedCategories": [
+        "watches"
+      ],
+      "countsFrom": {
+        "target": 70,
+        "sources": [
+          {
+            "category": "watches"
+          }
+        ]
+      },
+      "guideLinks": {
+        "Luxury watches list": "category:watches"
+      }
     },
     {
       "id": "ex-unique-races",
@@ -3761,6 +3789,7 @@
     },
     {
       "id": "cd-01-12",
+      "imageURL": "https://leonidalog.app/images/cards/cd-01-12.jpg",
       "title": "Jude Flores - Standard",
       "category": "cards",
       "subgroup": "Vice City Flamingos",
@@ -3768,7 +3797,7 @@
       "nx": 0.5404,
       "ny": 0.8243,
       "region": "Mariana County",
-      "guide": "One of the 24 cards in the Vice City Flamingos set. Follow the map pin."
+      "guide": "One of the 24 cards in the Vice City Flamingos set. Outside a ground-floor motel room: on the ground by the cooler, next to the white plastic chair."
     },
     {
       "id": "cd-01-13",
@@ -5201,6 +5230,7 @@
     },
     {
       "id": "cd-06-17",
+      "imageURL": "https://leonidalog.app/images/cards/cd-06-17.jpg",
       "title": "Remy Herbert - Bright Orange",
       "category": "cards",
       "subgroup": "Liberty City Penetrators",
@@ -5208,7 +5238,7 @@
       "nx": 0.5306,
       "ny": 0.8497,
       "region": "Mariana County",
-      "guide": "One of the 24 cards in the Liberty City Penetrators set. Follow the map pin."
+      "guide": "One of the 24 cards in the Liberty City Penetrators set. Crastenburg resort basketball court: on the ground just inside the gate."
     },
     {
       "id": "cd-06-18",
@@ -5432,6 +5462,7 @@
     },
     {
       "id": "cd-07-14",
+      "imageURL": "https://leonidalog.app/images/cards/cd-07-14.jpg",
       "title": "Dartanyon Pearson - Standard",
       "category": "cards",
       "subgroup": "Liberty City Wrath",
@@ -5439,7 +5470,7 @@
       "nx": 0.5287,
       "ny": 0.839,
       "region": "Mariana County",
-      "guide": "One of the 24 cards in the Liberty City Wrath set. Follow the map pin."
+      "guide": "One of the 24 cards in the Liberty City Wrath set. In the living room: on the lower shelf of the TV cabinet, under the TV."
     },
     {
       "id": "cd-07-15",
@@ -6042,6 +6073,7 @@
     },
     {
       "id": "cd-09-21",
+      "imageURL": "https://leonidalog.app/images/cards/cd-09-21.jpg",
       "title": "Santiago Lopez - Standard",
       "category": "cards",
       "subgroup": "Los Santos Panic",
@@ -6049,7 +6081,7 @@
       "nx": 0.5502,
       "ny": 0.8068,
       "region": "Mariana County",
-      "guide": "One of the 24 cards in the Los Santos Panic set. Follow the map pin."
+      "guide": "One of the 24 cards in the Los Santos Panic set. In the bedroom: on the bedside table by the window."
     },
     {
       "id": "cd-09-22",
@@ -6186,6 +6218,7 @@
     },
     {
       "id": "cd-10-10",
+      "imageURL": "https://leonidalog.app/images/cards/cd-10-10.jpg",
       "title": "Lionel Taber - Standard",
       "category": "cards",
       "subgroup": "Los Santos Pounders",
@@ -6193,7 +6226,7 @@
       "nx": 0.5775,
       "ny": 0.7951,
       "region": "Mariana County",
-      "guide": "One of the 24 cards in the Los Santos Pounders set. Follow the map pin."
+      "guide": "One of the 24 cards in the Los Santos Pounders set. Key Lento, the party house on Dolphin Drive: in the bathroom, on the toilet lid."
     },
     {
       "id": "cd-10-11",
@@ -6208,6 +6241,7 @@
     },
     {
       "id": "cd-10-12",
+      "imageURL": "https://leonidalog.app/images/cards/cd-10-12.jpg",
       "title": "Maximus Goldbart - Silver",
       "category": "cards",
       "subgroup": "Los Santos Pounders",
@@ -6215,7 +6249,7 @@
       "nx": 0.3553,
       "ny": 0.847,
       "region": "Mariana County",
-      "guide": "One of the 24 cards in the Los Santos Pounders set. Follow the map pin."
+      "guide": "One of the 24 cards in the Los Santos Pounders set. On the covered back porch by the canal: on the TV stand, next to the helmet."
     },
     {
       "id": "cd-10-13",
@@ -6910,6 +6944,7 @@
     },
     {
       "id": "cd-13-16",
+      "imageURL": "https://leonidalog.app/images/cards/cd-13-16.jpg",
       "title": "Thelma - Standard",
       "category": "cards",
       "subgroup": "Delights Dancers",
@@ -6917,7 +6952,7 @@
       "nx": 0.5375,
       "ny": 0.8292,
       "region": "Mariana County",
-      "guide": "One of the 18 cards in the Delights Dancers set. Follow the map pin."
+      "guide": "One of the 18 cards in the Delights Dancers set. Badger R&D Tower: climb the two ladders to the room at the top. It's on the desk next to the old TV."
     },
     {
       "id": "cd-13-17",
@@ -7350,6 +7385,7 @@
     },
     {
       "id": "cd-15-02",
+      "imageURL": "https://leonidalog.app/images/cards/cd-15-02.jpg",
       "title": "Amie - Pink",
       "category": "cards",
       "subgroup": "Nine1Nine Dancers",
@@ -7357,7 +7393,7 @@
       "nx": 0.5577,
       "ny": 0.791,
       "region": "Mariana County",
-      "guide": "One of the 36 cards in the Nine1Nine Dancers set. Follow the map pin."
+      "guide": "One of the 36 cards in the Nine1Nine Dancers set. The Rusty Anchor: in the men's restroom, on top of the toilet in the stall."
     },
     {
       "id": "cd-15-03",
@@ -7494,6 +7530,7 @@
     },
     {
       "id": "cd-15-15",
+      "imageURL": "https://leonidalog.app/images/cards/cd-15-15.jpg",
       "title": "Georgia - Purple",
       "category": "cards",
       "subgroup": "Nine1Nine Dancers",
@@ -7501,7 +7538,7 @@
       "nx": 0.5458,
       "ny": 0.8283,
       "region": "Mariana County",
-      "guide": "One of the 36 cards in the Nine1Nine Dancers set. Follow the map pin."
+      "guide": "One of the 36 cards in the Nine1Nine Dancers set. In the back storage room: on the shelf under the green crate, by the door."
     },
     {
       "id": "cd-15-16",
@@ -7769,6 +7806,7 @@
     },
     {
       "id": "cd-16-04",
+      "imageURL": "https://leonidalog.app/images/cards/cd-16-04.jpg",
       "title": "Death of Swallow - Blue",
       "category": "cards",
       "subgroup": "The Legends of Ratface",
@@ -7776,7 +7814,7 @@
       "nx": 0.5414,
       "ny": 0.8429,
       "region": "Mariana County",
-      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Inside the house: on the floor by the bookshelf, under the beach painting."
     },
     {
       "id": "cd-16-05",
@@ -8486,6 +8524,7 @@
     },
     {
       "id": "cd-17-33",
+      "imageURL": "https://leonidalog.app/images/cards/cd-17-33.jpg",
       "title": "The Educated Woman - White",
       "category": "cards",
       "subgroup": "Right Wing: America's Hero",
@@ -8493,7 +8532,7 @@
       "nx": 0.5531,
       "ny": 0.8097,
       "region": "Mariana County",
-      "guide": "One of the 36 cards in the Right Wing: America's Hero set. Follow the map pin."
+      "guide": "One of the 36 cards in the Right Wing: America's Hero set. Trailer park: on the front steps of the red and white trailer, next to the armchair."
     },
     {
       "id": "cd-17-34",
@@ -8825,6 +8864,7 @@
     },
     {
       "id": "cd-18-28",
+      "imageURL": "https://leonidalog.app/images/cards/cd-18-28.jpg",
       "title": "Rightwing - Bronze",
       "category": "cards",
       "subgroup": "Ed Comics Universe",
@@ -8832,7 +8872,7 @@
       "nx": 0.5697,
       "ny": 0.796,
       "region": "Mariana County",
-      "guide": "One of the 36 cards in the Ed Comics Universe set. Follow the map pin."
+      "guide": "One of the 36 cards in the Ed Comics Universe set. Key Lento: on the roof over the gas pumps, on a plank by the base of the giant statue."
     },
     {
       "id": "cd-18-29",
@@ -11926,6 +11966,7 @@
     },
     {
       "id": "mz-21",
+      "imageURL": "https://leonidalog.app/images/magazines/mz-21.jpg",
       "title": "Trigger Happy (Issue 99)",
       "category": "magazines",
       "subgroup": "Mariana County",
@@ -11937,6 +11978,7 @@
     },
     {
       "id": "mz-22",
+      "imageURL": "https://leonidalog.app/images/magazines/mz-22.jpg",
       "title": "Peche (Issue 69)",
       "category": "magazines",
       "subgroup": "Mariana County",
@@ -12290,7 +12332,8 @@
       "spoiler": true,
       "region": "Vice-Dale County",
       "nx": 0.5896,
-      "ny": 0.4752
+      "ny": 0.4752,
+      "guide": "Scan it with WAiNK: the sign in front of Fleeca Field, the Manatees' stadium in western Rockridge."
     },
     {
       "id": "wl-downtown-periscope",
@@ -12322,7 +12365,8 @@
       "spoiler": true,
       "region": "Kelly County",
       "nx": 0.4176,
-      "ny": 0.3585
+      "ny": 0.3585,
+      "guide": "Scan it with WAiNK: the big cow-painted silo at Howe Dairy Farm, just off CR 62 in Emerald Springs; you can see it from the highway."
     },
     {
       "id": "wl-outlaw-s-cabin",
@@ -12353,7 +12397,8 @@
       "spoiler": true,
       "region": "Mariana County",
       "nx": 0.4825,
-      "ny": 0.6632
+      "ny": 0.6632,
+      "guide": "Scan it with WAiNK: the tall round tower in eastern Grassrivers off Sweetbay Rd. Walk up the curving walkway and scan it from the top."
     },
     {
       "id": "wl-bonanza-giant",
@@ -12383,7 +12428,8 @@
       "spoiler": true,
       "region": "Leonard County",
       "nx": 0.6764,
-      "ny": 0.2626
+      "ny": 0.2626,
+      "guide": "Scan it with WAiNK: the fenced bunker door leading underground, on the small sandy island at the south of the Little Hardin chain."
     },
     {
       "id": "wl-st-lucia-lighthouse",
@@ -12393,7 +12439,8 @@
       "spoiler": true,
       "region": "Lummox County",
       "nx": 0.7034,
-      "ny": 0.2108
+      "ny": 0.2108,
+      "guide": "Scan it with WAiNK: the sign at the foot of the lighthouse on the north end of Little Hardin Island."
     },
     {
       "id": "wl-wild-hog-point-radar-base",
@@ -12413,7 +12460,8 @@
       "spoiler": true,
       "region": "Vice-Dale County",
       "nx": 0.6516,
-      "ny": 0.5036
+      "ny": 0.5036,
+      "guide": "Scan it with WAiNK: the Sahara Arena sign on the front of the big arena at the north end of Downtown, on the waterfront by the causeway to Starfish Island."
     },
     {
       "id": "wl-tallaloko-amphitheater",
@@ -12427,13 +12475,15 @@
     },
     {
       "id": "wl-thicc-herbie",
+      "imageURL": "https://leonidalog.app/images/waink/wl-thicc-herbie.jpg",
       "title": "Thicc Herbie",
       "category": "waink",
       "subgroup": "Landmarks",
       "spoiler": true,
       "region": "Mariana County",
       "nx": 0.4241,
-      "ny": 0.8861
+      "ny": 0.8861,
+      "guide": "Scan it with WAiNK: the big blimp on Maroon Key. Scan it across the water from the viewpoint by the Sunbelt Hwy at the northwest tip of Abismo Key."
     },
     {
       "id": "wl-riquezas-keys-radome",
@@ -12443,7 +12493,8 @@
       "spoiler": true,
       "region": "Mariana County",
       "nx": 0.2657,
-      "ny": 0.8682
+      "ny": 0.8682,
+      "guide": "Scan it with WAiNK: the big dome in a small facility on the south side of the large southwestern Riquezas Keys island."
     },
     {
       "id": "wl-aqua-stadium",
@@ -12464,7 +12515,8 @@
       "spoiler": true,
       "region": "Kelly County",
       "nx": 0.4743,
-      "ny": 0.3794
+      "ny": 0.3794,
+      "guide": "Scan it with WAiNK: the water tower at Tucker's Citrus Farms in Emerald Springs, east of Port Gellhorn. Scan it from inside the farm."
     },
     {
       "id": "wl-derelict-spy-vessel",
@@ -12479,13 +12531,15 @@
     },
     {
       "id": "wl-badger-r-d-tower",
+      "imageURL": "https://leonidalog.app/images/waink/wl-badger-r-d-tower.jpg",
       "title": "Badger R&D Tower",
       "category": "waink",
       "subgroup": "Landmarks",
       "spoiler": true,
       "region": "Mariana County",
       "nx": 0.5375,
-      "ny": 0.8292
+      "ny": 0.8292,
+      "guide": "Scan it with WAiNK: the tall concrete tower on Sunset Dr on the west side of central Key Lento, across from Donny's trailer."
     },
     {
       "id": "wl-iaa-s-friends-of-freedom",
@@ -12495,7 +12549,8 @@
       "spoiler": true,
       "region": "Vice-Dale County",
       "nx": 0.6519,
-      "ny": 0.5312
+      "ny": 0.5312,
+      "guide": "Scan it with WAiNK: the memorial in the small bayfront park in central Downtown: a white obelisk beside a low wall carrying round plaques and a dedication. Scan the dedication on the wall."
     },
     {
       "id": "wl-courtland-park-stadium",
@@ -12505,7 +12560,8 @@
       "spoiler": true,
       "region": "Vice-Dale County",
       "nx": 0.6569,
-      "ny": 0.6233
+      "ny": 0.6233,
+      "guide": "Scan it with WAiNK: the sign in front of the green Courtland Park tennis stadium, in the middle of the main Catalan Key island north of Hamlet."
     },
     {
       "id": "wl-vice-city-sign",
@@ -12550,13 +12606,15 @@
     },
     {
       "id": "wc-abismo-key-carcass",
+      "imageURL": "https://leonidalog.app/images/waink/wc-abismo-key-carcass.jpg",
       "title": "Abismo Key Carcass",
       "category": "waink",
       "subgroup": "Curiosities",
       "spoiler": true,
       "region": "Mariana County",
       "nx": 0.4463,
-      "ny": 0.8995
+      "ny": 0.8995,
+      "guide": "Scan it with WAiNK: the carcass of a strange creature washed up on the beach along Abismo Key's southern shore."
     },
     {
       "id": "wc-pet-cemetery",
@@ -12570,23 +12628,27 @@
     },
     {
       "id": "wc-goose-key-carcass",
+      "imageURL": "https://leonidalog.app/images/waink/wc-goose-key-carcass.jpg",
       "title": "Goose Key Carcass",
       "category": "waink",
       "subgroup": "Curiosities",
       "spoiler": true,
       "region": "Mariana County",
       "nx": 0.339,
-      "ny": 0.818
+      "ny": 0.818,
+      "guide": "Scan it with WAiNK: the creature carcass in the scrub along the north shore of Mile Zero Air Station on Goose Key."
     },
     {
       "id": "wc-plunge-masters-deep-sea-chalet",
+      "imageURL": "https://leonidalog.app/images/waink/wc-plunge-masters-deep-sea-chalet.jpg",
       "title": "Plunge Masters Deep Sea Chalet",
       "category": "waink",
       "subgroup": "Curiosities",
       "spoiler": true,
       "region": "Mariana County",
       "nx": 0.5239,
-      "ny": 0.8427
+      "ny": 0.8427,
+      "guide": "Scan it with WAiNK: the mural on the Plunge Masters dive centre at Pacific Dr and Sunset Dr in southern Key Lento."
     },
     {
       "id": "wc-deserted-home",
@@ -12606,7 +12668,8 @@
       "spoiler": true,
       "region": "Vice-Dale County",
       "nx": 0.6793,
-      "ny": 0.6095
+      "ny": 0.6095,
+      "guide": "Scan it with WAiNK: a mermaid figure in a green-lit tank in a dark warehouse back room, at the Oceanarium loading area on the Catalan Key docks near the bridge to Gloriana Key."
     },
     {
       "id": "wc-desert-island-piano",
@@ -12616,7 +12679,8 @@
       "spoiler": true,
       "region": "Mariana County",
       "nx": 0.4766,
-      "ny": 0.8039
+      "ny": 0.8039,
+      "guide": "Scan it with WAiNK: the piano in the middle of a small mangrove island in the far west of the Shoeless Keys, west of Key Lento. You'll need a boat."
     },
     {
       "id": "wc-wreck-of-the-meerwunder",
@@ -12636,7 +12700,8 @@
       "spoiler": true,
       "region": "Leonard County",
       "nx": 0.6146,
-      "ny": 0.3957
+      "ny": 0.3957,
+      "guide": "Scan it with WAiNK: a snake-shaped hedge in the back garden of a white house on Harmony Dr in southern Belville, southeast of the Cellerica campus."
     },
     {
       "id": "wc-vibrant-pond",
@@ -12646,7 +12711,8 @@
       "spoiler": true,
       "region": "Mariana County",
       "nx": 0.5001,
-      "ny": 0.787
+      "ny": 0.787,
+      "guide": "Scan it with WAiNK: the red warning sign about swimming at the edge of a pond full of dead fish, at the southern end of Gullet Marsh south of Cottonmouth Lake."
     },
     {
       "id": "wc-dead-sharks",
@@ -12656,17 +12722,20 @@
       "spoiler": true,
       "region": "Mariana County",
       "nx": 0.4634,
-      "ny": 0.77
+      "ny": 0.77,
+      "guide": "Scan it with WAiNK: the dead sharks lying in reddened water on the beach of a long, thin island in Wetman Bay."
     },
     {
       "id": "wc-christmas-house",
+      "imageURL": "https://leonidalog.app/images/waink/wc-christmas-house.jpg",
       "title": "Christmas House",
       "category": "waink",
       "subgroup": "Curiosities",
       "spoiler": true,
       "region": "Mariana County",
       "nx": 0.531,
-      "ny": 0.8349
+      "ny": 0.8349,
+      "guide": "Scan it with WAiNK: the house covered in Christmas decorations on Sunset Dr in central Key Lento."
     },
     {
       "id": "wc-c0-b8-engine",
@@ -12686,7 +12755,8 @@
       "spoiler": true,
       "region": "Mariana County",
       "nx": 0.2141,
-      "ny": 0.4382
+      "ny": 0.4382,
+      "guide": "Scan it with WAiNK: the wrecked hovercraft on the north part of the southernmost Sandbars island, north of Belpoint Island."
     },
     {
       "id": "wc-fairy-lane",
@@ -12738,7 +12808,8 @@
       "spoiler": true,
       "region": "Mariana County",
       "nx": 0.3375,
-      "ny": 0.5255
+      "ny": 0.5255,
+      "guide": "Scan it with WAiNK: the house covered in Halloween decorations in the middle of the street grid south of Tortoise Lake, central Capri."
     },
     {
       "id": "wc-wetman-bay-carcass",
@@ -12748,7 +12819,8 @@
       "spoiler": true,
       "region": "Mariana County",
       "nx": 0.4427,
-      "ny": 0.758
+      "ny": 0.758,
+      "guide": "Scan it with WAiNK: the carcass of a strange creature on the sandy south shore of a central island in Wetman Bay."
     },
     {
       "id": "wc-selkie-hole",
@@ -12758,7 +12830,8 @@
       "spoiler": true,
       "region": "Kelly County",
       "nx": 0.4435,
-      "ny": 0.3931
+      "ny": 0.3931,
+      "guide": "Scan it with WAiNK: the beam of light inside Selkie Hole, the diving spot on the west edge of Emerald Springs. Go down the stairs and scan it from the dock."
     },
     {
       "id": "wc-beach-party-site",
@@ -12809,7 +12882,8 @@
       "spoiler": true,
       "region": "Mariana County",
       "nx": 0.4291,
-      "ny": 0.74
+      "ny": 0.74,
+      "guide": "Scan it with WAiNK: the main building of the homestead on the middle, Y-shaped island of Wetman Bay, east of the Fishing Stacks outpost."
     },
     {
       "id": "wc-c0-b8-debris",
@@ -12829,7 +12903,8 @@
       "spoiler": true,
       "region": "Mariana County",
       "nx": 0.4247,
-      "ny": 0.6719
+      "ny": 0.6719,
+      "guide": "Scan it with WAiNK: the UFO-shaped animal barn in the back garden of a light-blue house on Kingston Rd in northern Watson Bay."
     },
     {
       "id": "ws-leonida-snow",
@@ -12839,7 +12914,8 @@
       "spoiler": true,
       "region": "Vice-Dale County",
       "nx": 0.651,
-      "ny": 0.5468
+      "ny": 0.5468,
+      "guide": "Scan it with WAiNK: a tall metal sculpture shaped like a crossed X, on a plaza under the elevated road at Mariner's Hwy and Catalan Blvd, in the park at the south end of Downtown."
     },
     {
       "id": "ws-mother-rushwood",
@@ -12859,7 +12935,8 @@
       "spoiler": true,
       "region": "Vice-Dale County",
       "nx": 0.6644,
-      "ny": 0.4264
+      "ny": 0.4264,
+      "guide": "Scan it with WAiNK: the giant gun statue pointing at a mural on the ground, on Catalan Blvd in the south of the Decor District, southeast of Blanc & Giroux."
     },
     {
       "id": "ws-grassrivers-visitor-center-statue",
@@ -12869,7 +12946,8 @@
       "spoiler": true,
       "region": "Mariana County",
       "nx": 0.5346,
-      "ny": 0.7636
+      "ny": 0.7636,
+      "guide": "Scan it with WAiNK: the animal statue on a stone plinth beside a flagpole, between the two halves of Old Fort Rd across from the Grassrivers Visitor Center in the Shoeless Keys."
     },
     {
       "id": "ws-flam-gummies",
@@ -12879,7 +12957,8 @@
       "spoiler": true,
       "region": "Vice-Dale County",
       "nx": 0.6652,
-      "ny": 0.4931
+      "ny": 0.4931,
+      "guide": "Scan it with WAiNK: giant pastel gummy bears standing in the water just outside Panos Plaza at the south tip of Bayside. A boat helps."
     },
     {
       "id": "ws-catalan-blvd-garden",
@@ -12931,7 +13010,8 @@
       "spoiler": true,
       "region": "Vice-Dale County",
       "nx": 0.6118,
-      "ny": 0.6234
+      "ny": 0.6234,
+      "guide": "Scan it with WAiNK: a big bronze sculpture that looks like a growing stack of rocks, at Marina Vista Cir and South Vice Ave in central Peacock Bay."
     },
     {
       "id": "ws-the-wonder-whale",
@@ -12984,7 +13064,8 @@
       "spoiler": true,
       "region": "Lummox County",
       "nx": 0.5371,
-      "ny": 0.1505
+      "ny": 0.1505,
+      "guide": "Scan it with WAiNK: a dinosaur built from hubcaps, on a side road off Sassafrass Rd north of Kalaga Reservoir, just east of Bret's cabin."
     },
     {
       "id": "ws-buckskin-swamp-totem",
@@ -12995,6 +13076,135 @@
       "region": "Kelly County",
       "nx": 0.4627,
       "ny": 0.4696
+    },
+    {
+      "id": "wt-01",
+      "imageURL": "https://leonidalog.app/images/watches/wt-01.jpg",
+      "title": "Novak Laurent Alcázar",
+      "category": "watches",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "nx": 0.5775,
+      "ny": 0.7951,
+      "guide": "Key Lento, the party house on Dolphin Drive (the same house as the Lionel Taber - Standard card): in the upstairs bedroom, on the dresser by the window.",
+      "region": "Mariana County",
+      "guideLinks": {
+        "Lionel Taber - Standard": "cd-10-10"
+      }
+    },
+    {
+      "id": "wt-02",
+      "title": "B&G Ark Royal Quantum",
+      "category": "watches",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "nx": 0.4411,
+      "ny": 0.6745,
+      "guide": "Watson Bay Safehouse, a La Polilla Negra gang operation in Watson Bay: one of its key valuables, so take it while you rob the place.",
+      "region": "Mariana County",
+      "guideLinks": {
+        "Watson Bay Safehouse": "go-12"
+      }
+    },
+    {
+      "id": "wt-03",
+      "title": "Crowex Octane 'Elite'",
+      "category": "watches",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "nx": 0.402,
+      "ny": 0.684,
+      "guide": "Palmer Fishing Warehouse, a La Polilla Negra gang operation: one of its key valuables, so take it while you rob the place.",
+      "region": "Mariana County",
+      "guideLinks": {
+        "Palmer Fishing Warehouse": "go-11"
+      }
+    },
+    {
+      "id": "wt-04",
+      "title": "Crowex Octane 'Orca'",
+      "category": "watches",
+      "subgroup": "Kelly County",
+      "spoiler": true,
+      "nx": 0.35,
+      "ny": 0.366,
+      "guide": "Kingpin Bowling, a Kolts & Associates gang operation in Port Gellhorn: in the south-east office. One of its 3 key valuables, with a shotgun and the safe.",
+      "region": "Kelly County",
+      "guideLinks": {
+        "Kingpin Bowling": "go-04"
+      }
+    },
+    {
+      "id": "wt-05",
+      "title": "Novak Laurent Argonaut",
+      "category": "watches",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "nx": 0.5856,
+      "ny": 0.626,
+      "guide": "Kamar Devon Community Center, a PTT Youngin$ gang operation in north Southside: one of its key valuables, so take it while you rob the place.",
+      "region": "Vice-Dale County",
+      "guideLinks": {
+        "Kamar Devon Community Center": "go-22"
+      }
+    },
+    {
+      "id": "wt-06",
+      "title": "B&G Ark Royal Ashore",
+      "category": "watches",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "nx": 0.584,
+      "ny": 0.6355,
+      "guide": "Southside Trap House, a PTT Youngin$ gang operation in Southside: one of its key valuables, so take it while you rob the place. IGN's map lists the same watch at the Saber Shipping Facility too, so only one of the two may count.",
+      "region": "Vice-Dale County",
+      "guideLinks": {
+        "Southside Trap House": "go-23",
+        "Saber Shipping Facility": "wt-07"
+      }
+    },
+    {
+      "id": "wt-07",
+      "title": "B&G Ark Royal Ashore",
+      "category": "watches",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "nx": 0.5928,
+      "ny": 0.4986,
+      "guide": "Saber Shipping Facility, a Guardia Brothers gang operation: one of its key valuables, so take it while you rob the place. IGN's map lists the same watch at the Southside Trap House too, so only one of the two may count.",
+      "region": "Vice-Dale County",
+      "guideLinks": {
+        "Saber Shipping Facility": "go-26",
+        "Southside Trap House": "wt-06"
+      }
+    },
+    {
+      "id": "wt-08",
+      "title": "Crowex Ambassador",
+      "category": "watches",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "nx": 0.6133,
+      "ny": 0.5081,
+      "guide": "Casa Guardia, a Guardia Brothers gang operation: one of its key valuables, so take it while you rob the place.",
+      "region": "Vice-Dale County",
+      "guideLinks": {
+        "Casa Guardia": "go-25"
+      }
+    },
+    {
+      "id": "wt-09",
+      "title": "Crowex Octane 'Midas'",
+      "category": "watches",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "nx": 0.553,
+      "ny": 0.493,
+      "guide": "Leonida Carrier Warehouse, a gang operation run by other criminals in Balsero: one of its key valuables, so take it while you rob the place.",
+      "region": "Vice-Dale County",
+      "guideLinks": {
+        "Leonida Carrier Warehouse": "go-30"
+      }
     },
     {
       "id": "sj-001",
@@ -13409,7 +13619,8 @@
       "spoiler": true,
       "region": "Vice-Dale County",
       "nx": 0.5884,
-      "ny": 0.5898
+      "ny": 0.5898,
+      "guide": "The ramp is at the edge of a building site next to the VCIA Storage Facility, on the east side of the airport, and jumps over El Joven Blvd."
     },
     {
       "id": "sj-schlott-construction-west-vice-dale",
@@ -13971,7 +14182,8 @@
       "spoiler": true,
       "region": "Vice-Dale County",
       "nx": 0.7437,
-      "ny": 0.4665
+      "ny": 0.4665,
+      "guide": "A wooden board on the corner of the Nolan Center parking garage's top level sends you down onto Cabega St in Vice Beach. Optional challenge: chain it straight on from the 7777 Ocean Beach jump while listening to Honey FM."
     },
     {
       "id": "sj-kelly-river",
@@ -17332,6 +17544,7 @@
     },
     {
       "id": "hp-050",
+      "imageURL": "https://leonidalog.app/images/hoops/hp-050.jpg",
       "title": "Ocean Sound Rd condos",
       "category": "hoops",
       "subgroup": "Mariana County",
@@ -17343,6 +17556,7 @@
     },
     {
       "id": "hp-049",
+      "imageURL": "https://leonidalog.app/images/hoops/hp-049.jpg",
       "title": "Dolphin Dr fish house",
       "category": "hoops",
       "subgroup": "Mariana County",
@@ -17354,6 +17568,7 @@
     },
     {
       "id": "hp-042",
+      "imageURL": "https://leonidalog.app/images/hoops/hp-042.jpg",
       "title": "Dolphin Dr grey house",
       "category": "hoops",
       "subgroup": "Mariana County",
@@ -17365,6 +17580,7 @@
     },
     {
       "id": "hp-001",
+      "imageURL": "https://leonidalog.app/images/hoops/hp-001.jpg",
       "title": "Jason's house",
       "category": "hoops",
       "subgroup": "Mariana County",
@@ -17376,6 +17592,7 @@
     },
     {
       "id": "hp-037",
+      "imageURL": "https://leonidalog.app/images/hoops/hp-037.jpg",
       "title": "Peach Palm Dr green house",
       "category": "hoops",
       "subgroup": "Mariana County",
@@ -17387,6 +17604,7 @@
     },
     {
       "id": "hp-013",
+      "imageURL": "https://leonidalog.app/images/hoops/hp-013.jpg",
       "title": "Key Lento beach court",
       "category": "hoops",
       "subgroup": "Mariana County",
@@ -17398,6 +17616,7 @@
     },
     {
       "id": "hp-043",
+      "imageURL": "https://leonidalog.app/images/hoops/hp-043.jpg",
       "title": "Sunset Dr, Key Lento",
       "category": "hoops",
       "subgroup": "Mariana County",
@@ -17409,6 +17628,7 @@
     },
     {
       "id": "hp-097",
+      "imageURL": "https://leonidalog.app/images/hoops/hp-097.jpg",
       "title": "Crastenburg resort",
       "category": "hoops",
       "subgroup": "Mariana County",
@@ -17420,6 +17640,7 @@
     },
     {
       "id": "hp-008",
+      "imageURL": "https://leonidalog.app/images/hoops/hp-008.jpg",
       "title": "Red Lotus, Key Lento",
       "category": "hoops",
       "subgroup": "Mariana County",
@@ -17431,6 +17652,7 @@
     },
     {
       "id": "hp-045",
+      "imageURL": "https://leonidalog.app/images/hoops/hp-045.jpg",
       "title": "Cangrejo St, Southwind",
       "category": "hoops",
       "subgroup": "Mariana County",
@@ -17442,6 +17664,7 @@
     },
     {
       "id": "hp-046",
+      "imageURL": "https://leonidalog.app/images/hoops/hp-046.jpg",
       "title": "Langosta St, Southwind",
       "category": "hoops",
       "subgroup": "Mariana County",
