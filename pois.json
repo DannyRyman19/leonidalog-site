@@ -1,5 +1,5 @@
 {
-  "version": 61,
+  "version": 62,
   "ads": {
     "rewarded": true,
     "interstitial": true
@@ -12333,7 +12333,7 @@
       "region": "Vice-Dale County",
       "nx": 0.5896,
       "ny": 0.4752,
-      "guide": "Scan it with WAiNK: the sign in front of Fleeca Field, the Manatees' stadium in western Rockridge."
+      "guide": "Landmark 29. Scan it with WAiNK: the sign in front of Fleeca Field, the Manatees' stadium in western Rockridge."
     },
     {
       "id": "wl-downtown-periscope",
@@ -12344,7 +12344,7 @@
       "region": "Vice-Dale County",
       "nx": 0.6534,
       "ny": 0.5438,
-      "guide": "Scan it with WAiNK: a white tower shaped like a periscope, in the bayfront park at the south end of Downtown near Catalan Blvd."
+      "guide": "Landmark 12. Scan it with WAiNK: a white tower shaped like a periscope, in the bayfront park at the south end of Downtown near Catalan Blvd."
     },
     {
       "id": "wl-old-goliath",
@@ -12461,7 +12461,7 @@
       "region": "Vice-Dale County",
       "nx": 0.6516,
       "ny": 0.5036,
-      "guide": "Scan it with WAiNK: the Sahara Arena sign on the front of the big arena at the north end of Downtown, on the waterfront by the causeway to Starfish Island."
+      "guide": "Landmark 28. Scan it with WAiNK: the Sahara Arena sign on the front of the big arena at the north end of Downtown, on the waterfront by the causeway to Starfish Island."
     },
     {
       "id": "wl-tallaloko-amphitheater",
@@ -12550,7 +12550,7 @@
       "region": "Vice-Dale County",
       "nx": 0.6519,
       "ny": 0.5312,
-      "guide": "Scan it with WAiNK: the memorial in the small bayfront park in central Downtown: a white obelisk beside a low wall carrying round plaques and a dedication. Scan the dedication on the wall."
+      "guide": "Landmark 7. Scan it with WAiNK: the memorial in the small bayfront park in central Downtown: a white obelisk beside a low wall carrying round plaques and a dedication. Scan the dedication on the wall."
     },
     {
       "id": "wl-courtland-park-stadium",
@@ -12694,6 +12694,7 @@
     },
     {
       "id": "wc-belville-topiary",
+      "imageURL": "https://leonidalog.app/images/waink/wc-belville-topiary.jpg",
       "title": "Belville Topiary",
       "category": "waink",
       "subgroup": "Curiosities",
@@ -12777,7 +12778,7 @@
       "region": "Vice-Dale County",
       "nx": 0.7712,
       "ny": 0.511,
-      "guide": "Scan it with WAiNK: sand sculptures of vehicles on the beach at Ocean Beach, just behind the palms."
+      "guide": "Curiosity 21. Scan it with WAiNK: sand sculptures of vehicles on the beach at Ocean Beach, just behind the palms."
     },
     {
       "id": "wc-spaceship-house",
@@ -12915,7 +12916,7 @@
       "region": "Vice-Dale County",
       "nx": 0.651,
       "ny": 0.5468,
-      "guide": "Scan it with WAiNK: a tall metal sculpture shaped like a crossed X, on a plaza under the elevated road at Mariner's Hwy and Catalan Blvd, in the park at the south end of Downtown."
+      "guide": "Sculpture 1. Scan it with WAiNK: a tall metal sculpture shaped like a crossed X, on a plaza under the elevated road at Mariner's Hwy and Catalan Blvd, in the park at the south end of Downtown."
     },
     {
       "id": "ws-mother-rushwood",
@@ -12936,7 +12937,7 @@
       "region": "Vice-Dale County",
       "nx": 0.6644,
       "ny": 0.4264,
-      "guide": "Scan it with WAiNK: the giant gun statue pointing at a mural on the ground, on Catalan Blvd in the south of the Decor District, southeast of Blanc & Giroux."
+      "guide": "Sculpture 2. Scan it with WAiNK: the giant gun statue pointing at a mural on the ground, on Catalan Blvd in the south of the Decor District, southeast of Blanc & Giroux."
     },
     {
       "id": "ws-grassrivers-visitor-center-statue",
@@ -12958,7 +12959,7 @@
       "region": "Vice-Dale County",
       "nx": 0.6652,
       "ny": 0.4931,
-      "guide": "Scan it with WAiNK: giant pastel gummy bears standing in the water just outside Panos Plaza at the south tip of Bayside. A boat helps."
+      "guide": "Sculpture 3. Scan it with WAiNK: giant pastel gummy bears standing in the water just outside Panos Plaza at the south tip of Bayside. A boat helps."
     },
     {
       "id": "ws-catalan-blvd-garden",
@@ -12969,7 +12970,7 @@
       "region": "Vice-Dale County",
       "nx": 0.6571,
       "ny": 0.4544,
-      "guide": "Scan it with WAiNK: a big blue sculpture of a pointing hand with a bird on its fingertip, in the palm-lined paved plaza of the bayfront park on the east edge of Bayside."
+      "guide": "Sculpture 12. Scan it with WAiNK: a big blue sculpture of a pointing hand with a bird on its fingertip, in the palm-lined paved plaza of the bayfront park on the east edge of Bayside."
     },
     {
       "id": "ws-large-lure",
@@ -12980,7 +12981,7 @@
       "region": "Vice-Dale County",
       "nx": 0.7483,
       "ny": 0.5433,
-      "guide": "Scan it with WAiNK: a giant red-and-yellow fishing lure standing upright on a lawn among the beachfront high-rises of Ocean Beach, in the park on Thompson Ave just south of Lucciano's."
+      "guide": "Sculpture 11. Scan it with WAiNK: a giant red-and-yellow fishing lure standing upright on a lawn among the beachfront high-rises of Ocean Beach, in the park on Thompson Ave just south of Lucciano's."
     },
     {
       "id": "ws-monument-of-leonida",
@@ -13044,7 +13045,7 @@
       "region": "Vice-Dale County",
       "nx": 0.7099,
       "ny": 0.4808,
-      "guide": "Scan it with WAiNK: a tall white obelisk with three bronze figures at its base, behind iron railings in the bush on Salton Memorial Island, the small round wooded island just south of Starfish Island in the bay."
+      "guide": "Sculpture 14. Scan it with WAiNK: a tall white obelisk with three bronze figures at its base, behind iron railings in the bush on Salton Memorial Island, the small round wooded island just south of Starfish Island in the bay."
     },
     {
       "id": "ws-chariot-to-valhalla",
