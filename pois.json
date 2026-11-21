@@ -1,5 +1,5 @@
 {
-  "version": 62,
+  "version": 63,
   "ads": {
     "rewarded": true,
     "interstitial": true
@@ -12539,7 +12539,7 @@
       "region": "Mariana County",
       "nx": 0.5375,
       "ny": 0.8292,
-      "guide": "Scan it with WAiNK: the tall concrete tower on Sunset Dr on the west side of central Key Lento, across from Donny's trailer."
+      "guide": "Landmark 25. Scan it with WAiNK: the tall concrete tower on Sunset Dr on the west side of central Key Lento, across from Donny's trailer."
     },
     {
       "id": "wl-iaa-s-friends-of-freedom",
@@ -12648,7 +12648,7 @@
       "region": "Mariana County",
       "nx": 0.5239,
       "ny": 0.8427,
-      "guide": "Scan it with WAiNK: the mural on the Plunge Masters dive centre at Pacific Dr and Sunset Dr in southern Key Lento."
+      "guide": "Curiosity 35. Scan it with WAiNK: the mural on the Plunge Masters dive centre at Pacific Dr and Sunset Dr in southern Key Lento."
     },
     {
       "id": "wc-deserted-home",
@@ -12736,7 +12736,7 @@
       "region": "Mariana County",
       "nx": 0.531,
       "ny": 0.8349,
-      "guide": "Scan it with WAiNK: the house covered in Christmas decorations on Sunset Dr in central Key Lento."
+      "guide": "Curiosity 14. Scan it with WAiNK: the house covered in Christmas decorations on Sunset Dr in central Key Lento."
     },
     {
       "id": "wc-c0-b8-engine",
@@ -13019,7 +13019,7 @@
       "title": "The Wonder Whale",
       "category": "waink",
       "subgroup": "Sculptures",
-      "guide": "Scan it with WAiNK: the whale statue stands outside the Wonder Whale shop beside the Sunbelt Highway on Key Lento (menu number not known yet).",
+      "guide": "Sculpture 21. Scan it with WAiNK: the whale statue stands outside the Wonder Whale shop beside the Sunbelt Highway on Key Lento.",
       "spoiler": true,
       "region": "Mariana County",
       "nx": 0.523,
