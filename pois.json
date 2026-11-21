@@ -1,8 +1,9 @@
 {
-  "version": 70,
+  "version": 71,
   "ads": {
     "rewarded": true,
-    "interstitial": true
+    "interstitial": true,
+    "interstitialOnItemExit": true
   },
   "notice": {
     "id": "early-days-1",
@@ -12825,7 +12826,7 @@
       "region": "Vice-Dale County",
       "nx": 0.6793,
       "ny": 0.6095,
-      "guide": "Scan it with WAiNK: a mermaid figure in a green-lit tank in a dark warehouse back room, at the Oceanarium loading area on the Catalan Key docks near the bridge to Gloriana Key."
+      "guide": "Curiosity 10. Scan it with WAiNK: a mermaid figure in a green-lit tank in a dark warehouse back room, at the Oceanarium loading area on the Catalan Key docks near the bridge to Gloriana Key."
     },
     {
       "id": "wc-desert-island-piano",
@@ -12880,7 +12881,7 @@
       "region": "Mariana County",
       "nx": 0.4634,
       "ny": 0.77,
-      "guide": "Scan it with WAiNK: the dead sharks lying in reddened water on the beach of a long, thin island in Wetman Bay."
+      "guide": "Curiosity 6. Scan it with WAiNK: the dead sharks lying in reddened water on the beach of a long, thin island in Wetman Bay."
     },
     {
       "id": "wc-christmas-house",
@@ -12977,7 +12978,7 @@
       "region": "Mariana County",
       "nx": 0.4427,
       "ny": 0.758,
-      "guide": "Scan it with WAiNK: the carcass of a strange creature on the sandy south shore of a central island in Wetman Bay."
+      "guide": "Curiosity 24. Scan it with WAiNK: the carcass of a strange creature on the sandy south shore of a central island in Wetman Bay."
     },
     {
       "id": "wc-selkie-hole",
@@ -13040,7 +13041,7 @@
       "region": "Mariana County",
       "nx": 0.4291,
       "ny": 0.74,
-      "guide": "Scan it with WAiNK: the main building of the homestead on the middle, Y-shaped island of Wetman Bay, east of the Fishing Stacks outpost."
+      "guide": "Curiosity 16. Scan it with WAiNK: the main building of the homestead on the middle, Y-shaped island of Wetman Bay, east of the Fishing Stacks outpost."
     },
     {
       "id": "wc-c0-b8-debris",
@@ -13168,7 +13169,7 @@
       "region": "Vice-Dale County",
       "nx": 0.6118,
       "ny": 0.6234,
-      "guide": "Scan it with WAiNK: a big bronze sculpture that looks like a growing stack of rocks, at Marina Vista Cir and South Vice Ave in central Peacock Bay."
+      "guide": "Sculpture 13. Scan it with WAiNK: a big bronze sculpture that looks like a growing stack of rocks, at Marina Vista Cir and South Vice Ave in central Peacock Bay."
     },
     {
       "id": "ws-the-wonder-whale",
