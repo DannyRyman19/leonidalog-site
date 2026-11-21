@@ -1,5 +1,5 @@
 {
-  "version": 69,
+  "version": 70,
   "ads": {
     "rewarded": true,
     "interstitial": true
@@ -12341,7 +12341,7 @@
       "category": "waink",
       "subgroup": "Landmarks",
       "spoiler": true,
-      "guide": "Landmark (menu number not known yet). Scan it with WAiNK in Emerald Springs, east of the Emerald River; it stands above the trees.",
+      "guide": "Landmark 14. Scan it with WAiNK in Emerald Springs, east of the Emerald River; it stands above the trees.",
       "region": "Kelly County",
       "nx": 0.4608,
       "ny": 0.3963
@@ -12352,7 +12352,7 @@
       "category": "waink",
       "subgroup": "Landmarks",
       "spoiler": true,
-      "guide": "Landmark (menu number not known yet). Scan it with WAiNK on the hilltop in the west of North Kelly County, looking over Vice City.",
+      "guide": "Landmark 20. Scan it with WAiNK on the hilltop in the west of North Kelly County, looking over Vice City.",
       "region": "Kelly County",
       "nx": 0.4487,
       "ny": 0.2597
@@ -12385,7 +12385,7 @@
       "category": "waink",
       "subgroup": "Curiosities",
       "spoiler": true,
-      "guide": "Curiosity (menu number not known yet). Scan it with WAiNK on the sandy north end of the largest Permit Keys island.",
+      "guide": "Curiosity 30. Scan it with WAiNK on the sandy north end of the largest Permit Keys island.",
       "region": "Leonida Keys",
       "nx": 0.3717,
       "ny": 0.8399
@@ -12521,7 +12521,7 @@
       "region": "Kelly County",
       "nx": 0.4176,
       "ny": 0.3585,
-      "guide": "Scan it with WAiNK: the big cow-painted silo at Howe Dairy Farm, just off CR 62 in Emerald Springs; you can see it from the highway."
+      "guide": "Landmark 24. Scan it with WAiNK: the big cow-painted silo at Howe Dairy Farm, just off CR 62 in Emerald Springs; you can see it from the highway."
     },
     {
       "id": "wl-outlaw-s-cabin",
@@ -12542,7 +12542,7 @@
       "region": "Mariana County",
       "nx": 0.3425,
       "ny": 0.6478,
-      "guide": "Scan it with WAiNK: the experimental home stands in the water just off Bobcat Key."
+      "guide": "Landmark 4. Scan it with WAiNK: the experimental home stands in the water just off Bobcat Key."
     },
     {
       "id": "wl-pelican-valley-observation-tower",
@@ -12639,7 +12639,7 @@
       "region": "Mariana County",
       "nx": 0.4241,
       "ny": 0.8861,
-      "guide": "Scan it with WAiNK: the big blimp on Maroon Key. Scan it across the water from the viewpoint by the Sunbelt Hwy at the northwest tip of Abismo Key."
+      "guide": "Landmark 9. Scan it with WAiNK: the big blimp on Maroon Key. Scan it across the water from the viewpoint by the Sunbelt Hwy at the northwest tip of Abismo Key."
     },
     {
       "id": "wl-riquezas-keys-radome",
@@ -12650,7 +12650,7 @@
       "region": "Mariana County",
       "nx": 0.2657,
       "ny": 0.8682,
-      "guide": "Scan it with WAiNK: the big dome in a small facility on the south side of the large southwestern Riquezas Keys island."
+      "guide": "Landmark 10. Scan it with WAiNK: the big dome in a small facility on the south side of the large southwestern Riquezas Keys island."
     },
     {
       "id": "wl-aqua-stadium",
@@ -12661,7 +12661,7 @@
       "region": "Vice-Dale County",
       "nx": 0.6997,
       "ny": 0.6197,
-      "guide": "Scan it with WAiNK: the derelict, graffiti-covered concrete stadium with a zig-zag roof, the biggest building at the southern tip of Gloriana Keys, near the races."
+      "guide": "Landmark 26. Scan it with WAiNK: the derelict, graffiti-covered concrete stadium with a zig-zag roof, the biggest building at the southern tip of Gloriana Keys, near the races."
     },
     {
       "id": "wl-tucker-s-citrus-farms-water-tower",
@@ -12672,14 +12672,14 @@
       "region": "Kelly County",
       "nx": 0.4743,
       "ny": 0.3794,
-      "guide": "Scan it with WAiNK: the water tower at Tucker's Citrus Farms in Emerald Springs, east of Port Gellhorn. Scan it from inside the farm."
+      "guide": "Landmark 27. Scan it with WAiNK: the water tower at Tucker's Citrus Farms in Emerald Springs, east of Port Gellhorn. Scan it from inside the farm."
     },
     {
       "id": "wl-derelict-spy-vessel",
       "title": "Derelict Spy Vessel",
       "category": "waink",
       "subgroup": "Curiosities",
-      "guide": "Scan it with WAiNK (the game lists it as a curiosity): the wrecked ship sits on the beach at the southern tip of the long southeasternmost island in the Permit Keys chain, east of Southwind and Abismo Key.",
+      "guide": "Curiosity 4. Scan it with WAiNK (the game lists it as a curiosity): the wrecked ship sits on the beach at the southern tip of the long southeasternmost island in the Permit Keys chain, east of Southwind and Abismo Key.",
       "spoiler": true,
       "region": "Mariana County",
       "nx": 0.3921,
@@ -12717,7 +12717,7 @@
       "region": "Vice-Dale County",
       "nx": 0.6569,
       "ny": 0.6233,
-      "guide": "Scan it with WAiNK: the sign in front of the green Courtland Park tennis stadium, in the middle of the main Catalan Key island north of Hamlet."
+      "guide": "Landmark 31. Scan it with WAiNK: the sign in front of the green Courtland Park tennis stadium, in the middle of the main Catalan Key island north of Hamlet."
     },
     {
       "id": "wl-vice-city-sign",
@@ -12792,7 +12792,7 @@
       "region": "Mariana County",
       "nx": 0.339,
       "ny": 0.818,
-      "guide": "Scan it with WAiNK: the creature carcass in the scrub along the north shore of Mile Zero Air Station on Goose Key."
+      "guide": "Curiosity 25. Scan it with WAiNK: the creature carcass in the scrub along the north shore of Mile Zero Air Station on Goose Key."
     },
     {
       "id": "wc-plunge-masters-deep-sea-chalet",
@@ -12836,7 +12836,7 @@
       "region": "Mariana County",
       "nx": 0.4766,
       "ny": 0.8039,
-      "guide": "Scan it with WAiNK: the piano in the middle of a small mangrove island in the far west of the Shoeless Keys, west of Key Lento. You'll need a boat."
+      "guide": "Curiosity 20. Scan it with WAiNK: the piano in the middle of a small mangrove island in the far west of the Shoeless Keys, west of Key Lento. You'll need a boat."
     },
     {
       "id": "wc-wreck-of-the-meerwunder",
@@ -12869,7 +12869,7 @@
       "region": "Mariana County",
       "nx": 0.5001,
       "ny": 0.787,
-      "guide": "Scan it with WAiNK: the red warning sign about swimming at the edge of a pond full of dead fish, at the southern end of Gullet Marsh south of Cottonmouth Lake."
+      "guide": "Curiosity 32. Scan it with WAiNK: the red warning sign about swimming at the edge of a pond full of dead fish, at the southern end of Gullet Marsh south of Cottonmouth Lake."
     },
     {
       "id": "wc-dead-sharks",
@@ -12999,7 +12999,7 @@
       "region": "Mariana County",
       "nx": 0.375,
       "ny": 0.8363,
-      "guide": "Scan it with WAiNK: on the large central island of the Permit Keys, just northeast of the Fingerpost, where people party on the beach by wooden huts. Scan the hut with the orange Fizzazz sign."
+      "guide": "Curiosity 8. Scan it with WAiNK: on the large central island of the Permit Keys, just northeast of the Fingerpost, where people party on the beach by wooden huts. Scan the hut with the orange Fizzazz sign."
     },
     {
       "id": "wc-lovers-lookout",
@@ -13104,7 +13104,7 @@
       "region": "Mariana County",
       "nx": 0.5346,
       "ny": 0.7636,
-      "guide": "Scan it with WAiNK: the animal statue on a stone plinth beside a flagpole, between the two halves of Old Fort Rd across from the Grassrivers Visitor Center in the Shoeless Keys."
+      "guide": "Sculpture 4. Scan it with WAiNK: the animal statue on a stone plinth beside a flagpole, between the two halves of Old Fort Rd across from the Grassrivers Visitor Center in the Shoeless Keys."
     },
     {
       "id": "ws-flam-gummies",
@@ -13222,7 +13222,7 @@
       "region": "Lummox County",
       "nx": 0.5371,
       "ny": 0.1505,
-      "guide": "Scan it with WAiNK: a dinosaur built from hubcaps, on a side road off Sassafrass Rd north of Kalaga Reservoir, just east of Bret's cabin."
+      "guide": "Sculpture 5. Scan it with WAiNK: a dinosaur built from hubcaps, on a side road off Sassafrass Rd north of Kalaga Reservoir, just east of Bret's cabin."
     },
     {
       "id": "ws-buckskin-swamp-totem",
