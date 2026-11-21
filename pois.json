@@ -1,5 +1,5 @@
 {
-  "version": 63,
+  "version": 66,
   "ads": {
     "rewarded": true,
     "interstitial": true
@@ -3801,14 +3801,15 @@
     },
     {
       "id": "cd-01-13",
+      "imageURL": "https://leonidalog.app/images/cards/cd-01-13.jpg",
       "title": "Julian Cruz - Bronze",
       "category": "cards",
       "subgroup": "Vice City Flamingos",
       "spoiler": true,
-      "nx": 0.328,
-      "ny": 0.3336,
+      "nx": 0.3273,
+      "ny": 0.3333,
       "region": "Kelly County",
-      "guide": "One of the 24 cards in the Vice City Flamingos set. Follow the map pin."
+      "guide": "One of the 24 cards in the Vice City Flamingos set. Inside: on the bookcase shelf, next to the wooden elephant."
     },
     {
       "id": "cd-01-14",
@@ -4495,14 +4496,15 @@
     },
     {
       "id": "cd-04-04",
+      "imageURL": "https://leonidalog.app/images/cards/cd-04-04.jpg",
       "title": "Ayokunumi Kasimu - Standard",
       "category": "cards",
       "subgroup": "Vice City Club De Futbol",
       "spoiler": true,
       "nx": 0.328,
-      "ny": 0.3473,
+      "ny": 0.3465,
       "region": "Kelly County",
-      "guide": "One of the 30 cards in the Vice City Club De Futbol set. Follow the map pin."
+      "guide": "One of the 30 cards in the Vice City Club De Futbol set. On the wooden bleachers by the chain-link fence: on the bench next to a drinks can and a camo backpack."
     },
     {
       "id": "cd-04-05",
@@ -6130,14 +6132,15 @@
     },
     {
       "id": "cd-10-02",
+      "imageURL": "https://leonidalog.app/images/cards/cd-10-02.jpg",
       "title": "Bingo Johnson - Standard",
       "category": "cards",
       "subgroup": "Los Santos Pounders",
       "spoiler": true,
-      "nx": 0.3319,
-      "ny": 0.3327,
+      "nx": 0.3313,
+      "ny": 0.3326,
       "region": "Kelly County",
-      "guide": "One of the 24 cards in the Los Santos Pounders set. Follow the map pin."
+      "guide": "One of the 24 cards in the Los Santos Pounders set. Inside the trailer: stuck to the fridge door in the kitchen, by the sink."
     },
     {
       "id": "cd-10-03",
@@ -6507,14 +6510,15 @@
     },
     {
       "id": "cd-11-12",
+      "imageURL": "https://leonidalog.app/images/cards/cd-11-12.jpg",
       "title": "Shovel - Standard",
       "category": "cards",
       "subgroup": "Backyard Wrestling",
       "spoiler": true,
-      "nx": 0.2899,
-      "ny": 0.3766,
+      "nx": 0.2893,
+      "ny": 0.3762,
       "region": "Kelly County",
-      "guide": "One of the 12 cards in the Backyard Wrestling set. Follow the map pin."
+      "guide": "One of the 12 cards in the Backyard Wrestling set. In the living room: on the side table between the two armchairs."
     },
     {
       "id": "cd-12-01",
@@ -7044,6 +7048,7 @@
     },
     {
       "id": "cd-14-07",
+      "imageURL": "https://leonidalog.app/images/cards/cd-14-07.jpg",
       "title": "Jada Watts - Bronze",
       "category": "cards",
       "subgroup": "Jack of Hearts Dancers",
@@ -7051,7 +7056,7 @@
       "nx": 0.324,
       "ny": 0.3392,
       "region": "Kelly County",
-      "guide": "One of the 36 cards in the Jack of Hearts Dancers set. Follow the map pin."
+      "guide": "One of the 36 cards in the Jack of Hearts Dancers set. In the bedroom: on the bedside table, next to the magazines."
     },
     {
       "id": "cd-14-08",
@@ -7363,6 +7368,7 @@
     },
     {
       "id": "cd-14-36",
+      "imageURL": "https://leonidalog.app/images/cards/cd-14-36.jpg",
       "title": "Zaria RI RI Luckett - Silver",
       "category": "cards",
       "subgroup": "Jack of Hearts Dancers",
@@ -7370,7 +7376,7 @@
       "nx": 0.3412,
       "ny": 0.3528,
       "region": "Kelly County",
-      "guide": "One of the 36 cards in the Jack of Hearts Dancers set. Follow the map pin."
+      "guide": "One of the 36 cards in the Jack of Hearts Dancers set. Inside the yellow train car: on the floor by the camo backpack."
     },
     {
       "id": "cd-15-01",
@@ -7575,14 +7581,15 @@
     },
     {
       "id": "cd-15-19",
+      "imageURL": "https://leonidalog.app/images/cards/cd-15-19.jpg",
       "title": "Julia - Bronze",
       "category": "cards",
       "subgroup": "Nine1Nine Dancers",
       "spoiler": true,
-      "nx": 0.3077,
-      "ny": 0.3571,
+      "nx": 0.3078,
+      "ny": 0.3565,
       "region": "Kelly County",
-      "guide": "One of the 36 cards in the Nine1Nine Dancers set. Follow the map pin."
+      "guide": "One of the 36 cards in the Nine1Nine Dancers set. In the small building next to the tower: on the floor of the electrical room, by the folding chair and boxes."
     },
     {
       "id": "cd-15-20",
@@ -8061,6 +8068,7 @@
     },
     {
       "id": "cd-16-27",
+      "imageURL": "https://leonidalog.app/images/cards/cd-16-27.jpg",
       "title": "Swallow - Purple",
       "category": "cards",
       "subgroup": "The Legends of Ratface",
@@ -8068,7 +8076,7 @@
       "nx": 0.3318,
       "ny": 0.3375,
       "region": "Kelly County",
-      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Port Gellhorn, the trailer in the Lost Vista area (the same one as Dicked Down Deep in Space): on the radio shelf by the window, next to the cassette rack."
     },
     {
       "id": "cd-16-28",
@@ -8787,14 +8795,15 @@
     },
     {
       "id": "cd-18-21",
+      "imageURL": "https://leonidalog.app/images/cards/cd-18-21.jpg",
       "title": "General Surgeon - Pink",
       "category": "cards",
       "subgroup": "Ed Comics Universe",
       "spoiler": true,
-      "nx": 0.3872,
-      "ny": 0.4109,
+      "nx": 0.3499,
+      "ny": 0.3897,
       "region": "Kelly County",
-      "guide": "One of the 36 cards in the Ed Comics Universe set. Follow the map pin."
+      "guide": "One of the 36 cards in the Ed Comics Universe set. Inside the trailer: stuck to the red fridge in the kitchen."
     },
     {
       "id": "cd-18-22",
@@ -10878,6 +10887,7 @@
     },
     {
       "id": "ch-12",
+      "linkedCategories": ["stick-ups"],
       "title": "Stick Ups",
       "category": "game-challenges",
       "subgroup": "Criminal",
@@ -10923,6 +10933,7 @@
     },
     {
       "id": "ch-17",
+      "linkedCategories": ["stick-ups"],
       "title": "Stick Up Spree",
       "category": "game-challenges",
       "subgroup": "Criminal",
@@ -10959,6 +10970,7 @@
     },
     {
       "id": "ch-21",
+      "linkedCategories": ["waink"],
       "title": "WAiNK Locations",
       "category": "game-challenges",
       "subgroup": "Exploration",
@@ -10977,6 +10989,7 @@
     },
     {
       "id": "ch-23",
+      "linkedCategories": ["cards"],
       "title": "Collectible Cards",
       "category": "game-challenges",
       "subgroup": "Exploration",
@@ -10986,6 +10999,7 @@
     },
     {
       "id": "ch-24",
+      "linkedCategories": ["animals", "vehicles", "weapons"],
       "title": "Encyclopedia",
       "category": "game-challenges",
       "subgroup": "Exploration",
@@ -11013,6 +11027,7 @@
     },
     {
       "id": "ch-27",
+      "linkedCategories": ["kenton-sets"],
       "title": "Underwater Treasures",
       "category": "game-challenges",
       "subgroup": "Exploration",
@@ -11095,6 +11110,7 @@
     },
     {
       "id": "ch-35",
+      "linkedCategories": ["gyms"],
       "title": "Balanced Workout",
       "category": "game-challenges",
       "subgroup": "Fitness",
@@ -11167,6 +11183,7 @@
     },
     {
       "id": "ch-43",
+      "linkedCategories": ["weapons"],
       "title": "Well Armed",
       "category": "game-challenges",
       "subgroup": "Shopping",
@@ -11185,6 +11202,7 @@
     },
     {
       "id": "ch-45",
+      "linkedCategories": ["weapons"],
       "title": "Stylishly Armed",
       "category": "game-challenges",
       "subgroup": "Shopping",
@@ -11239,6 +11257,7 @@
     },
     {
       "id": "ch-51",
+      "linkedCategories": ["hoops"],
       "title": "Basketball Rookie",
       "category": "game-challenges",
       "subgroup": "Sports",
@@ -11248,6 +11267,7 @@
     },
     {
       "id": "ch-52",
+      "linkedCategories": ["mini-golf"],
       "title": "Golf Rookie",
       "category": "game-challenges",
       "subgroup": "Sports",
@@ -11257,6 +11277,7 @@
     },
     {
       "id": "ch-53",
+      "linkedCategories": ["hoops"],
       "title": "Basketball Streak",
       "category": "game-challenges",
       "subgroup": "Sports",
@@ -11266,6 +11287,7 @@
     },
     {
       "id": "ch-54",
+      "linkedCategories": ["pool"],
       "title": "Pool Streak",
       "category": "game-challenges",
       "subgroup": "Sports",
@@ -11275,6 +11297,7 @@
     },
     {
       "id": "ch-55",
+      "linkedCategories": ["hoops"],
       "title": "Basketball Tour",
       "category": "game-challenges",
       "subgroup": "Sports",
@@ -11284,6 +11307,7 @@
     },
     {
       "id": "ch-56",
+      "linkedCategories": ["mini-golf"],
       "title": "Golf Pro",
       "category": "game-challenges",
       "subgroup": "Sports",
@@ -11293,6 +11317,7 @@
     },
     {
       "id": "ch-57",
+      "linkedCategories": ["pool"],
       "title": "Triple Bank",
       "category": "game-challenges",
       "subgroup": "Sports",
@@ -11302,6 +11327,7 @@
     },
     {
       "id": "ch-58",
+      "linkedCategories": ["hoops"],
       "title": "Basketball Pro",
       "category": "game-challenges",
       "subgroup": "Sports",
@@ -11311,6 +11337,7 @@
     },
     {
       "id": "ch-59",
+      "linkedCategories": ["pool"],
       "title": "8-Ball Break",
       "category": "game-challenges",
       "subgroup": "Sports",
@@ -11320,6 +11347,7 @@
     },
     {
       "id": "ch-60",
+      "linkedCategories": ["mini-golf"],
       "title": "Double Hole In One",
       "category": "game-challenges",
       "subgroup": "Sports",
@@ -11329,6 +11357,7 @@
     },
     {
       "id": "ch-61",
+      "linkedCategories": ["animals"],
       "title": "Alligator Kills",
       "category": "game-challenges",
       "subgroup": "Survival",
@@ -11347,6 +11376,7 @@
     },
     {
       "id": "ch-63",
+      "linkedCategories": ["shooting-ranges"],
       "title": "Marksman",
       "category": "game-challenges",
       "subgroup": "Survival",
@@ -11365,6 +11395,7 @@
     },
     {
       "id": "ch-65",
+      "linkedCategories": ["animals"],
       "title": "Zoologist",
       "category": "game-challenges",
       "subgroup": "Survival",
@@ -11383,6 +11414,7 @@
     },
     {
       "id": "ch-67",
+      "linkedCategories": ["shooting-ranges"],
       "title": "Pro Marksman",
       "category": "game-challenges",
       "subgroup": "Survival",
@@ -11392,6 +11424,7 @@
     },
     {
       "id": "ch-68",
+      "linkedCategories": ["animals"],
       "title": "Hunting Spree",
       "category": "game-challenges",
       "subgroup": "Survival",
@@ -11410,15 +11443,17 @@
     },
     {
       "id": "ch-70",
+      "linkedMissions": ["an-unique-wild-boar", "an-unique-swamp-alligator", "an-unique-black-bear", "an-unique-coyote", "an-unique-crocodile", "an-unique-buck", "an-unique-white-fox", "an-unique-panther"],
       "title": "Legendary Hunter",
       "category": "game-challenges",
       "subgroup": "Survival",
       "spoiler": true,
-      "guide": "Survival challenge. Kill all 8 unique animals.",
+      "guide": "Survival challenge. Kill all 8 unique animals. Ticking an animal in the app means you've studied it; this one needs them hunted, so tick it yourself once all 8 are down.",
       "iconURL": "https://leonidalog.app/images/challenges/ch-70.jpg"
     },
     {
       "id": "ch-71",
+      "linkedCategories": ["vehicles"],
       "title": "Vehicle Discovery",
       "category": "game-challenges",
       "subgroup": "Vehicle",
@@ -11437,6 +11472,7 @@
     },
     {
       "id": "ch-73",
+      "linkedCategories": ["unique-races", "race-challenges"],
       "title": "Winning Streak",
       "category": "game-challenges",
       "subgroup": "Vehicle",
@@ -11491,6 +11527,7 @@
     },
     {
       "id": "ch-79",
+      "linkedCategories": ["unique-races"],
       "title": "Rally Winner",
       "category": "game-challenges",
       "subgroup": "Vehicle",
@@ -11828,13 +11865,14 @@
     },
     {
       "id": "mz-09",
+      "imageURL": "https://leonidalog.app/images/magazines/mz-09.jpg",
       "title": "Dicked Down Deep in Space",
       "category": "magazines",
       "subgroup": "Kelly County",
       "spoiler": true,
-      "nx": 0.335,
-      "ny": 0.355,
-      "guide": "Port Gellhorn: a trailer in the Lost Vista area, northwest of Station Garage.",
+      "nx": 0.332,
+      "ny": 0.3373,
+      "guide": "Port Gellhorn: a trailer in the Lost Vista area, northwest of Station Garage. In the back bedroom, on the dresser under the window by the lamp.",
       "region": "Kelly County"
     },
     {
@@ -12307,7 +12345,7 @@
       "category": "waink",
       "subgroup": "Sculptures",
       "spoiler": true,
-      "guide": "Sculpture (menu number not known yet). Scan it with WAiNK at the southwest tip of Key Lento, just off the Sunbelt Highway.",
+      "guide": "Sculpture 6. Scan it with WAiNK at the southwest tip of Key Lento, just off the Sunbelt Highway.",
       "region": "Mariana County",
       "nx": 0.5002,
       "ny": 0.8702,
@@ -12444,6 +12482,7 @@
     },
     {
       "id": "wl-wild-hog-point-radar-base",
+      "imageURL": "https://leonidalog.app/images/waink/wl-wild-hog-point-radar-base.jpg",
       "title": "Wild Hog Point Radar Base",
       "category": "waink",
       "subgroup": "Landmarks",
@@ -12614,7 +12653,7 @@
       "region": "Mariana County",
       "nx": 0.4463,
       "ny": 0.8995,
-      "guide": "Scan it with WAiNK: the carcass of a strange creature washed up on the beach along Abismo Key's southern shore."
+      "guide": "Curiosity 23. Scan it with WAiNK: the carcass of a strange creature washed up on the beach along Abismo Key's southern shore."
     },
     {
       "id": "wc-pet-cemetery",
@@ -13656,6 +13695,7 @@
     },
     {
       "id": "sj-abandoned-radio-station",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-abandoned-radio-station.jpg",
       "title": "Abandoned Radio Station",
       "category": "stunt-jumps",
       "subgroup": "Kelly County",
@@ -23812,6 +23852,7 @@
       "category": "animals",
       "subgroup": "Hunting",
       "spoiler": true,
+      "guide": "One of Leonida's 8 unique animals. Look in Buckskin Swamp in Kelly County; follow the map pin.",
       "stats": [
         {
           "label": "Category",
@@ -23819,7 +23860,12 @@
         }
       ],
       "nx": 0.4787,
-      "ny": 0.457
+      "ny": 0.457,
+      "revealedGuide": "Counts towards the Legendary Hunter challenge, which needs all 8 unique animals. Hunting a unique animal for Bret Vogel also pops the Fair Game trophy; which one isn't confirmed yet.",
+      "guideLinks": {
+        "Legendary Hunter": "ch-70",
+        "Fair Game": "tr-29"
+      }
     },
     {
       "id": "an-unique-black-bear",
@@ -23827,6 +23873,7 @@
       "category": "animals",
       "subgroup": "Hunting",
       "spoiler": true,
+      "guide": "One of Leonida's 8 unique animals. Look just south of Hamlet; follow the map pin.",
       "stats": [
         {
           "label": "Category",
@@ -23834,7 +23881,12 @@
         }
       ],
       "nx": 0.5273,
-      "ny": 0.7135
+      "ny": 0.7135,
+      "revealedGuide": "Counts towards the Legendary Hunter challenge, which needs all 8 unique animals. Hunting a unique animal for Bret Vogel also pops the Fair Game trophy; which one isn't confirmed yet.",
+      "guideLinks": {
+        "Legendary Hunter": "ch-70",
+        "Fair Game": "tr-29"
+      }
     },
     {
       "id": "an-unique-wild-boar",
@@ -23842,6 +23894,7 @@
       "category": "animals",
       "subgroup": "Hunting",
       "spoiler": true,
+      "guide": "Rare spotted wild boar, one of Leonida's 8 unique animals. Seen by Wild Hog Point Radar Base in Kelly County; follow the map pin.",
       "stats": [
         {
           "label": "Category",
@@ -23849,7 +23902,12 @@
         }
       ],
       "nx": 0.2879,
-      "ny": 0.3599
+      "ny": 0.3599,
+      "revealedGuide": "Counts towards the Legendary Hunter challenge, which needs all 8 unique animals. Hunting a unique animal for Bret Vogel also pops the Fair Game trophy; which one isn't confirmed yet.",
+      "guideLinks": {
+        "Legendary Hunter": "ch-70",
+        "Fair Game": "tr-29"
+      }
     },
     {
       "id": "an-unique-coyote",
@@ -23857,6 +23915,7 @@
       "category": "animals",
       "subgroup": "Hunting",
       "spoiler": true,
+      "guide": "One of Leonida's 8 unique animals. Look in the north Belville suburbs in Leonard County; follow the map pin.",
       "stats": [
         {
           "label": "Category",
@@ -23864,7 +23923,12 @@
         }
       ],
       "nx": 0.592,
-      "ny": 0.3436
+      "ny": 0.3436,
+      "revealedGuide": "Counts towards the Legendary Hunter challenge, which needs all 8 unique animals. Hunting a unique animal for Bret Vogel also pops the Fair Game trophy; which one isn't confirmed yet.",
+      "guideLinks": {
+        "Legendary Hunter": "ch-70",
+        "Fair Game": "tr-29"
+      }
     },
     {
       "id": "an-unique-crocodile",
@@ -23872,6 +23936,7 @@
       "category": "animals",
       "subgroup": "Hunting",
       "spoiler": true,
+      "guide": "One of Leonida's 8 unique animals. Look around the long, thin island in Wetman Bay; follow the map pin.",
       "stats": [
         {
           "label": "Category",
@@ -23879,7 +23944,12 @@
         }
       ],
       "nx": 0.4767,
-      "ny": 0.7678
+      "ny": 0.7678,
+      "revealedGuide": "Counts towards the Legendary Hunter challenge, which needs all 8 unique animals. Hunting a unique animal for Bret Vogel also pops the Fair Game trophy; which one isn't confirmed yet.",
+      "guideLinks": {
+        "Legendary Hunter": "ch-70",
+        "Fair Game": "tr-29"
+      }
     },
     {
       "id": "an-unique-buck",
@@ -23887,6 +23957,7 @@
       "category": "animals",
       "subgroup": "Hunting",
       "spoiler": true,
+      "guide": "One of Leonida's 8 unique animals. Look in the woods of west Moreau, near Forest Mill Rd in Lummox County; follow the map pin.",
       "stats": [
         {
           "label": "Category",
@@ -23894,7 +23965,12 @@
         }
       ],
       "nx": 0.4333,
-      "ny": 0.1594
+      "ny": 0.1594,
+      "revealedGuide": "Counts towards the Legendary Hunter challenge, which needs all 8 unique animals. Hunting a unique animal for Bret Vogel also pops the Fair Game trophy; which one isn't confirmed yet.",
+      "guideLinks": {
+        "Legendary Hunter": "ch-70",
+        "Fair Game": "tr-29"
+      }
     },
     {
       "id": "an-unique-white-fox",
@@ -23902,6 +23978,7 @@
       "category": "animals",
       "subgroup": "Hunting",
       "spoiler": true,
+      "guide": "One of Leonida's 8 unique animals. Look on the west edge of Emerald Springs, near Selkie Hole; follow the map pin.",
       "stats": [
         {
           "label": "Category",
@@ -23909,7 +23986,12 @@
         }
       ],
       "nx": 0.4341,
-      "ny": 0.3907
+      "ny": 0.3907,
+      "revealedGuide": "Counts towards the Legendary Hunter challenge, which needs all 8 unique animals. Hunting a unique animal for Bret Vogel also pops the Fair Game trophy; which one isn't confirmed yet.",
+      "guideLinks": {
+        "Legendary Hunter": "ch-70",
+        "Fair Game": "tr-29"
+      }
     },
     {
       "id": "an-unique-panther",
@@ -23917,6 +23999,7 @@
       "category": "animals",
       "subgroup": "Hunting",
       "spoiler": true,
+      "guide": "One of Leonida's 8 unique animals. Look on Belpoint, near the long west-facing beach; follow the map pin.",
       "stats": [
         {
           "label": "Category",
@@ -23924,7 +24007,12 @@
         }
       ],
       "nx": 0.2399,
-      "ny": 0.536
+      "ny": 0.536,
+      "revealedGuide": "Counts towards the Legendary Hunter challenge, which needs all 8 unique animals. Hunting a unique animal for Bret Vogel also pops the Fair Game trophy; which one isn't confirmed yet.",
+      "guideLinks": {
+        "Legendary Hunter": "ch-70",
+        "Fair Game": "tr-29"
+      }
     },
     {
       "id": "an-hunts",
