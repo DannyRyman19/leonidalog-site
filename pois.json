@@ -1,5 +1,5 @@
 {
-  "version": 66,
+  "version": 68,
   "ads": {
     "rewarded": true,
     "interstitial": true
@@ -8458,10 +8458,11 @@
       "category": "cards",
       "subgroup": "Right Wing: America's Hero",
       "spoiler": true,
-      "nx": 0.3426,
-      "ny": 0.3667,
+      "nx": 0.3423,
+      "ny": 0.3663,
       "region": "Kelly County",
-      "guide": "One of the 36 cards in the Right Wing: America's Hero set. Follow the map pin."
+      "guide": "One of the 36 cards in the Right Wing: America's Hero set. Gellhorn Fun Fair: in the old bumper car shed, on the seat of the rusty bumper car.",
+      "imageURL": "https://leonidalog.app/images/cards/cd-17-26.jpg"
     },
     {
       "id": "cd-17-27",
@@ -10887,7 +10888,9 @@
     },
     {
       "id": "ch-12",
-      "linkedCategories": ["stick-ups"],
+      "linkedCategories": [
+        "stick-ups"
+      ],
       "title": "Stick Ups",
       "category": "game-challenges",
       "subgroup": "Criminal",
@@ -10933,7 +10936,9 @@
     },
     {
       "id": "ch-17",
-      "linkedCategories": ["stick-ups"],
+      "linkedCategories": [
+        "stick-ups"
+      ],
       "title": "Stick Up Spree",
       "category": "game-challenges",
       "subgroup": "Criminal",
@@ -10970,7 +10975,18 @@
     },
     {
       "id": "ch-21",
-      "linkedCategories": ["waink"],
+      "linkedCategories": [
+        "waink"
+      ],
+      "autoCollectedWhen": {
+        "category": "waink",
+        "atLeast": 4,
+        "subgroups": [
+          "Landmarks",
+          "Curiosities",
+          "Sculptures"
+        ]
+      },
       "title": "WAiNK Locations",
       "category": "game-challenges",
       "subgroup": "Exploration",
@@ -10989,7 +11005,20 @@
     },
     {
       "id": "ch-23",
-      "linkedCategories": ["cards"],
+      "linkedCategories": [
+        "cards"
+      ],
+      "autoCollectedWhen": {
+        "category": "cards",
+        "atLeast": 3,
+        "perRegion": [
+          "Vice-Dale County",
+          "Kelly County",
+          "Mariana County",
+          "Lummox County",
+          "Leonard County"
+        ]
+      },
       "title": "Collectible Cards",
       "category": "game-challenges",
       "subgroup": "Exploration",
@@ -10999,7 +11028,11 @@
     },
     {
       "id": "ch-24",
-      "linkedCategories": ["animals", "vehicles", "weapons"],
+      "linkedCategories": [
+        "animals",
+        "vehicles",
+        "weapons"
+      ],
       "title": "Encyclopedia",
       "category": "game-challenges",
       "subgroup": "Exploration",
@@ -11027,7 +11060,9 @@
     },
     {
       "id": "ch-27",
-      "linkedCategories": ["kenton-sets"],
+      "linkedCategories": [
+        "kenton-sets"
+      ],
       "title": "Underwater Treasures",
       "category": "game-challenges",
       "subgroup": "Exploration",
@@ -11110,7 +11145,9 @@
     },
     {
       "id": "ch-35",
-      "linkedCategories": ["gyms"],
+      "linkedCategories": [
+        "gyms"
+      ],
       "title": "Balanced Workout",
       "category": "game-challenges",
       "subgroup": "Fitness",
@@ -11183,7 +11220,9 @@
     },
     {
       "id": "ch-43",
-      "linkedCategories": ["weapons"],
+      "linkedCategories": [
+        "weapons"
+      ],
       "title": "Well Armed",
       "category": "game-challenges",
       "subgroup": "Shopping",
@@ -11202,7 +11241,9 @@
     },
     {
       "id": "ch-45",
-      "linkedCategories": ["weapons"],
+      "linkedCategories": [
+        "weapons"
+      ],
       "title": "Stylishly Armed",
       "category": "game-challenges",
       "subgroup": "Shopping",
@@ -11257,7 +11298,9 @@
     },
     {
       "id": "ch-51",
-      "linkedCategories": ["hoops"],
+      "linkedCategories": [
+        "hoops"
+      ],
       "title": "Basketball Rookie",
       "category": "game-challenges",
       "subgroup": "Sports",
@@ -11267,7 +11310,9 @@
     },
     {
       "id": "ch-52",
-      "linkedCategories": ["mini-golf"],
+      "linkedCategories": [
+        "mini-golf"
+      ],
       "title": "Golf Rookie",
       "category": "game-challenges",
       "subgroup": "Sports",
@@ -11277,7 +11322,9 @@
     },
     {
       "id": "ch-53",
-      "linkedCategories": ["hoops"],
+      "linkedCategories": [
+        "hoops"
+      ],
       "title": "Basketball Streak",
       "category": "game-challenges",
       "subgroup": "Sports",
@@ -11287,7 +11334,9 @@
     },
     {
       "id": "ch-54",
-      "linkedCategories": ["pool"],
+      "linkedCategories": [
+        "pool"
+      ],
       "title": "Pool Streak",
       "category": "game-challenges",
       "subgroup": "Sports",
@@ -11297,7 +11346,9 @@
     },
     {
       "id": "ch-55",
-      "linkedCategories": ["hoops"],
+      "linkedCategories": [
+        "hoops"
+      ],
       "title": "Basketball Tour",
       "category": "game-challenges",
       "subgroup": "Sports",
@@ -11307,7 +11358,9 @@
     },
     {
       "id": "ch-56",
-      "linkedCategories": ["mini-golf"],
+      "linkedCategories": [
+        "mini-golf"
+      ],
       "title": "Golf Pro",
       "category": "game-challenges",
       "subgroup": "Sports",
@@ -11317,7 +11370,9 @@
     },
     {
       "id": "ch-57",
-      "linkedCategories": ["pool"],
+      "linkedCategories": [
+        "pool"
+      ],
       "title": "Triple Bank",
       "category": "game-challenges",
       "subgroup": "Sports",
@@ -11327,7 +11382,13 @@
     },
     {
       "id": "ch-58",
-      "linkedCategories": ["hoops"],
+      "linkedCategories": [
+        "hoops"
+      ],
+      "autoCollectedWhen": {
+        "category": "hoops",
+        "atLeast": 100
+      },
       "title": "Basketball Pro",
       "category": "game-challenges",
       "subgroup": "Sports",
@@ -11337,7 +11398,9 @@
     },
     {
       "id": "ch-59",
-      "linkedCategories": ["pool"],
+      "linkedCategories": [
+        "pool"
+      ],
       "title": "8-Ball Break",
       "category": "game-challenges",
       "subgroup": "Sports",
@@ -11347,7 +11410,9 @@
     },
     {
       "id": "ch-60",
-      "linkedCategories": ["mini-golf"],
+      "linkedCategories": [
+        "mini-golf"
+      ],
       "title": "Double Hole In One",
       "category": "game-challenges",
       "subgroup": "Sports",
@@ -11357,7 +11422,9 @@
     },
     {
       "id": "ch-61",
-      "linkedCategories": ["animals"],
+      "linkedCategories": [
+        "animals"
+      ],
       "title": "Alligator Kills",
       "category": "game-challenges",
       "subgroup": "Survival",
@@ -11376,7 +11443,9 @@
     },
     {
       "id": "ch-63",
-      "linkedCategories": ["shooting-ranges"],
+      "linkedCategories": [
+        "shooting-ranges"
+      ],
       "title": "Marksman",
       "category": "game-challenges",
       "subgroup": "Survival",
@@ -11395,7 +11464,13 @@
     },
     {
       "id": "ch-65",
-      "linkedCategories": ["animals"],
+      "linkedCategories": [
+        "animals"
+      ],
+      "autoCollectedWhen": {
+        "category": "animals",
+        "atLeast": 20
+      },
       "title": "Zoologist",
       "category": "game-challenges",
       "subgroup": "Survival",
@@ -11414,7 +11489,9 @@
     },
     {
       "id": "ch-67",
-      "linkedCategories": ["shooting-ranges"],
+      "linkedCategories": [
+        "shooting-ranges"
+      ],
       "title": "Pro Marksman",
       "category": "game-challenges",
       "subgroup": "Survival",
@@ -11424,7 +11501,9 @@
     },
     {
       "id": "ch-68",
-      "linkedCategories": ["animals"],
+      "linkedCategories": [
+        "animals"
+      ],
       "title": "Hunting Spree",
       "category": "game-challenges",
       "subgroup": "Survival",
@@ -11443,7 +11522,16 @@
     },
     {
       "id": "ch-70",
-      "linkedMissions": ["an-unique-wild-boar", "an-unique-swamp-alligator", "an-unique-black-bear", "an-unique-coyote", "an-unique-crocodile", "an-unique-buck", "an-unique-white-fox", "an-unique-panther"],
+      "linkedMissions": [
+        "an-unique-wild-boar",
+        "an-unique-swamp-alligator",
+        "an-unique-black-bear",
+        "an-unique-coyote",
+        "an-unique-crocodile",
+        "an-unique-buck",
+        "an-unique-white-fox",
+        "an-unique-panther"
+      ],
       "title": "Legendary Hunter",
       "category": "game-challenges",
       "subgroup": "Survival",
@@ -11453,7 +11541,9 @@
     },
     {
       "id": "ch-71",
-      "linkedCategories": ["vehicles"],
+      "linkedCategories": [
+        "vehicles"
+      ],
       "title": "Vehicle Discovery",
       "category": "game-challenges",
       "subgroup": "Vehicle",
@@ -11472,7 +11562,10 @@
     },
     {
       "id": "ch-73",
-      "linkedCategories": ["unique-races", "race-challenges"],
+      "linkedCategories": [
+        "unique-races",
+        "race-challenges"
+      ],
       "title": "Winning Streak",
       "category": "game-challenges",
       "subgroup": "Vehicle",
@@ -11527,7 +11620,9 @@
     },
     {
       "id": "ch-79",
-      "linkedCategories": ["unique-races"],
+      "linkedCategories": [
+        "unique-races"
+      ],
       "title": "Rally Winner",
       "category": "game-challenges",
       "subgroup": "Vehicle",
@@ -18329,7 +18424,8 @@
       "nx": 0.344,
       "ny": 0.3815,
       "guide": "Blue-and-yellow house on the Orchard Ave bend, south Port Gellhorn.",
-      "region": "Kelly County"
+      "region": "Kelly County",
+      "imageURL": "https://leonidalog.app/images/hoops/hp-052.jpg"
     },
     {
       "id": "hp-055",
@@ -19895,11 +19991,12 @@
       "title": "Gang operation 33",
       "category": "gang-ops",
       "spoiler": true,
-      "nx": 0.353,
-      "ny": 0.363,
+      "nx": 0.3532,
+      "ny": 0.3633,
       "guide": "Clear the operation.",
       "revealedTitle": "Backroom Weed Front",
-      "revealedGuide": "Run by other criminals."
+      "revealedGuide": "Run by other criminals. A weed grow hidden in the back room of a hairdresser's.",
+      "revealedImageURL": "https://leonidalog.app/images/gang-ops/go-33.jpg"
     },
     {
       "id": "go-34",
