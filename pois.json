@@ -1,5 +1,5 @@
 {
-  "version": 68,
+  "version": 69,
   "ads": {
     "rewarded": true,
     "interstitial": true
@@ -1912,7 +1912,8 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 3.",
       "revealedTitle": "Welcome to Vice City",
-      "revealedGuide": "Chapter 3 story mission."
+      "revealedGuide": "Jason and Lucia reach Vice City and meet Jason's friend Dre'Quan at the Jack of Hearts in Crosstown. His boss, Boobie Ike, lets them stay in his apartment nearby.",
+      "revealedImageURL": "https://leonidalog.app/images/missions/ms-034-v2.jpg"
     },
     {
       "id": "ms-035",
@@ -1922,7 +1923,8 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 3.",
       "revealedTitle": "Dealer's Choice",
-      "revealedGuide": "Chapter 3 story mission."
+      "revealedGuide": "Boobie calls in the favor: Jason buys coke from Tyrone and sells it in Crosstown, with Dre'Quan as backup. Cal can't crack the hard drive, but says Brian once had a Vice City contact who could.",
+      "revealedImageURL": "https://leonidalog.app/images/missions/ms-035-v2.jpg"
     },
     {
       "id": "ms-036",
@@ -1932,7 +1934,8 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 3.",
       "revealedTitle": "Meet the Heders",
-      "revealedGuide": "Chapter 3 story mission."
+      "revealedGuide": "Dinner with Brian and Lori on a rooftop. Brian puts them in touch with Raul, who wants a car stolen from Port Vice City first, and Lucia finds something grim in its trunk.",
+      "revealedImageURL": "https://leonidalog.app/images/missions/ms-036-v2.jpg"
     },
     {
       "id": "ms-037",
@@ -1942,7 +1945,8 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 3.",
       "revealedTitle": "Dubious Provenance",
-      "revealedGuide": "Chapter 3 story mission."
+      "revealedGuide": "Jason and Lucia take the statue to an antique store in Capri. The owner throws them out, but a British antiques dealer, Benedict Halifax, offers to value it quietly and leaves his watch as collateral.",
+      "revealedImageURL": "https://leonidalog.app/images/missions/ms-037-v2.jpg"
     },
     {
       "id": "ms-038",
@@ -1952,7 +1956,8 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 3.",
       "revealedTitle": "Mami Knows Best",
-      "revealedGuide": "Chapter 3 story mission."
+      "revealedGuide": "Lucia helps her mom, Mia, with a run-down house she's trying to sell, runs into the M7 gang next door, and takes an excavator to their house.",
+      "revealedImageURL": "https://leonidalog.app/images/missions/ms-038-v2.jpg"
     },
     {
       "id": "ms-039",
@@ -1972,7 +1977,8 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 3.",
       "revealedTitle": "Tyrone",
-      "revealedGuide": "Chapter 3 story mission."
+      "revealedGuide": "Jason asks Tyrone for more work. Tyrone wants in on Kitty Litter, the new synthetic drug sweeping Vice City.",
+      "revealedImageURL": "https://leonidalog.app/images/missions/ms-040-v2.jpg"
     },
     {
       "id": "ms-041",
@@ -1982,7 +1988,11 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 3.",
       "revealedTitle": "Here, Kitty Kitty",
-      "revealedGuide": "Chapter 3 story mission."
+      "revealedGuide": "Jason tracks down Charles and finds him strung out on Kitty Litter. Tyrone then wants the Kitty Litter labs destroyed: that's the side mission Take Out Kitty Litter.",
+      "revealedImageURL": "https://leonidalog.app/images/missions/ms-041-v2.jpg",
+      "guideLinks": {
+        "Take Out Kitty Litter": "sf-31"
+      }
     },
     {
       "id": "ms-042",
@@ -1992,7 +2002,8 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 3.",
       "revealedTitle": "Car Service",
-      "revealedGuide": "Chapter 3 story mission."
+      "revealedGuide": "Raul's next test: Lucia steals a car from a gang chop shop in Salton and delivers it to Randy Kozlov, a high-end car fence in Balsero, who says he'll have work for them.",
+      "revealedImageURL": "https://leonidalog.app/images/missions/ms-042-v2.jpg"
     },
     {
       "id": "ms-043",
@@ -2002,7 +2013,8 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 3.",
       "revealedTitle": "Top Billing",
-      "revealedGuide": "Chapter 3 story mission."
+      "revealedGuide": "Dre'Quan's artists, the Real Dimez, headline the Jack of Hearts until rival rapper DWNPLY hijacks the set. Jason and Lucia help find Roxy at a house party.",
+      "revealedImageURL": "https://leonidalog.app/images/missions/ms-043-v2.jpg"
     },
     {
       "id": "ms-044",
@@ -2012,7 +2024,8 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 3.",
       "revealedTitle": "Boobie Time",
-      "revealedGuide": "Chapter 3 story mission."
+      "revealedGuide": "Jason drives Boobie round town collecting payments and meets Yasmani, a Little Cuba businessman who buys stolen goods.",
+      "revealedImageURL": "https://leonidalog.app/images/missions/ms-044-v2.jpg"
     },
     {
       "id": "ms-045",
@@ -2022,7 +2035,8 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 3.",
       "revealedTitle": "First Impressions",
-      "revealedGuide": "Chapter 3 story mission."
+      "revealedGuide": "Jason and Lucia finally meet Raul, fresh from a bank robbery, and keep the cops busy as his decoy before he pays them.",
+      "revealedImageURL": "https://leonidalog.app/images/missions/ms-045-v2.jpg"
     },
     {
       "id": "ms-046",
@@ -2032,7 +2046,8 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 3.",
       "revealedTitle": "Caught Slipping",
-      "revealedGuide": "Chapter 3 story mission."
+      "revealedGuide": "Back at the apartment, Jason and Lucia chase down burglars, and then move the bag from the Visitor Center into a storage unit.",
+      "revealedImageURL": "https://leonidalog.app/images/missions/ms-046-v2.jpg"
     },
     {
       "id": "ms-047",
@@ -2042,7 +2057,8 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 3.",
       "revealedTitle": "Crosstown Traffic",
-      "revealedGuide": "Chapter 3 story mission."
+      "revealedGuide": "Raul wants a Guardia Brothers shipment from a convoy of boats on the Vice River. Lucia leans on a gang member, and they take the boat and get it back to Raul.",
+      "revealedImageURL": "https://leonidalog.app/images/missions/ms-047-v2.jpg"
     },
     {
       "id": "ms-048",
@@ -2052,7 +2068,8 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 3.",
       "revealedTitle": "Credit Check",
-      "revealedGuide": "Chapter 3 story mission."
+      "revealedGuide": "Raul shows Jason and Lucia his Stockyard base and his crew (Felipe, Karim and Andrea), and sets them robbing small banks for practice.",
+      "revealedImageURL": "https://leonidalog.app/images/missions/ms-048-v2.jpg"
     },
     {
       "id": "ms-049",
@@ -2062,7 +2079,8 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 3.",
       "revealedTitle": "Steal the Zorrusso for Randy",
-      "revealedGuide": "Chapter 3 story mission."
+      "revealedGuide": "Randy has a high-end car in Ocean Beach for Jason and Lucia to steal, then gives them a key cloner and his list of specialty cars.",
+      "revealedImageURL": "https://leonidalog.app/images/missions/ms-049-v2.jpg"
     },
     {
       "id": "ms-050",
@@ -2072,7 +2090,8 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 3.",
       "revealedTitle": "Sinfrontera National Bank",
-      "revealedGuide": "Chapter 3 story mission."
+      "revealedGuide": "Raul's big plan is Sinfrontera National Bank, where the La Polilla Negra cartel cleans its money. Jason and Lucia case it and are sent to find the bank's security expert, Nicole Park.",
+      "revealedImageURL": "https://leonidalog.app/images/missions/ms-050-v2.jpg"
     },
     {
       "id": "ms-051",
@@ -2082,7 +2101,8 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 3.",
       "revealedTitle": "Security Expert",
-      "revealedGuide": "Chapter 3 story mission."
+      "revealedGuide": "Jason and Lucia snatch Nicole Park from under her cartel bodyguards and bring her to Raul, who persuades her to join the crew.",
+      "revealedImageURL": "https://leonidalog.app/images/missions/ms-051-v2.jpg"
     },
     {
       "id": "ms-052",
@@ -3890,6 +3910,7 @@
     },
     {
       "id": "cd-01-21",
+      "imageURL": "https://leonidalog.app/images/cards/cd-01-21.jpg",
       "title": "Thunder Lee - Standard",
       "category": "cards",
       "subgroup": "Vice City Flamingos",
@@ -3897,7 +3918,7 @@
       "nx": 0.6126,
       "ny": 0.3918,
       "region": "Vice-Dale County",
-      "guide": "One of the 24 cards in the Vice City Flamingos set. Follow the map pin."
+      "guide": "One of the 24 cards in the Vice City Flamingos set. At the baseball field: inside the open orange box on the wall of the building by the bleachers, next to the blue door."
     },
     {
       "id": "cd-01-22",
@@ -4112,6 +4133,7 @@
     },
     {
       "id": "cd-02-17",
+      "imageURL": "https://leonidalog.app/images/cards/cd-02-17.jpg",
       "title": "Leroy Rook - Gold",
       "category": "cards",
       "subgroup": "Vice City Narcos",
@@ -4119,7 +4141,7 @@
       "nx": 0.6106,
       "ny": 0.3957,
       "region": "Vice-Dale County",
-      "guide": "One of the 24 cards in the Vice City Narcos set. Follow the map pin."
+      "guide": "One of the 24 cards in the Vice City Narcos set. In the bedroom: inside the small safe in the wardrobe."
     },
     {
       "id": "cd-02-18",
@@ -13291,26 +13313,27 @@
       "spoiler": true,
       "nx": 0.584,
       "ny": 0.6355,
-      "guide": "Southside Trap House, a PTT Youngin$ gang operation in Southside: one of its key valuables, so take it while you rob the place. IGN's map lists the same watch at the Saber Shipping Facility too, so only one of the two may count.",
+      "guide": "Southside Trap House, a PTT Youngin$ gang operation in Southside: one of its key valuables, so take it while you rob the place.",
       "region": "Vice-Dale County",
       "guideLinks": {
-        "Southside Trap House": "go-23",
-        "Saber Shipping Facility": "wt-07"
+        "Southside Trap House": "go-23"
       }
     },
     {
       "id": "wt-07",
+      "imageURL": "https://leonidalog.app/images/watches/wt-07.jpg",
       "title": "B&G Ark Royal Ashore",
       "category": "watches",
-      "subgroup": "Vice-Dale County",
+      "subgroup": "Leonard County",
       "spoiler": true,
-      "nx": 0.5928,
-      "ny": 0.4986,
-      "guide": "Saber Shipping Facility, a Guardia Brothers gang operation: one of its key valuables, so take it while you rob the place. IGN's map lists the same watch at the Southside Trap House too, so only one of the two may count.",
-      "region": "Vice-Dale County",
+      "nx": 0.6689,
+      "ny": 0.3528,
+      "guide": "Waning Sands, in the housing estate around the lake south of the mall: a house you go into during a chapter 3 story mission. It's on the dresser in the bedroom, so grab it while you're there.",
+      "revealedGuide": "Waning Sands, in the housing estate around the lake south of the mall: Nicole Park's house in Security Expert. It's on the dresser in the bedroom, so grab it while you're there.",
+      "region": "Leonard County",
       "guideLinks": {
-        "Saber Shipping Facility": "go-26",
-        "Southside Trap House": "wt-06"
+        "a chapter 3 story mission": "ms-051",
+        "Security Expert": "ms-051"
       }
     },
     {
@@ -18567,6 +18590,7 @@
     },
     {
       "id": "hp-063",
+      "imageURL": "https://leonidalog.app/images/hoops/hp-063.jpg",
       "title": "Harmony Dr, Belville",
       "category": "hoops",
       "subgroup": "Leonard County",
@@ -23663,6 +23687,7 @@
       "title": "American Black Bear",
       "category": "animals",
       "subgroup": "Hunting",
+      "imageURL": "https://leonidalog.app/images/animals/american-black-bear-v2.jpg",
       "spoiler": true,
       "stats": [
         {
@@ -23678,6 +23703,7 @@
       "title": "Corn Snake",
       "category": "animals",
       "subgroup": "Hunting",
+      "imageURL": "https://leonidalog.app/images/animals/corn-snake-v2.jpg",
       "spoiler": true,
       "stats": [
         {
@@ -23708,6 +23734,7 @@
       "title": "Eastern Cottontail Rabbit",
       "category": "animals",
       "subgroup": "Hunting",
+      "imageURL": "https://leonidalog.app/images/animals/eastern-cottontail-rabbit-v2.jpg",
       "spoiler": true,
       "stats": [
         {
@@ -23738,6 +23765,7 @@
       "title": "Gloriana Opossum",
       "category": "animals",
       "subgroup": "Hunting",
+      "imageURL": "https://leonidalog.app/images/animals/gloriana-opossum-v2.jpg",
       "spoiler": true,
       "stats": [
         {
@@ -23858,6 +23886,7 @@
       "title": "Nine-Banded Armadillo",
       "category": "animals",
       "subgroup": "Hunting",
+      "imageURL": "https://leonidalog.app/images/animals/nine-banded-armadillo-v2.jpg",
       "spoiler": true,
       "stats": [
         {
@@ -23933,6 +23962,7 @@
       "title": "White River Otter",
       "category": "animals",
       "subgroup": "Hunting",
+      "imageURL": "https://leonidalog.app/images/animals/white-river-otter-v2.jpg",
       "spoiler": true,
       "stats": [
         {
@@ -23990,6 +24020,7 @@
       "title": "Unique Wild Boar",
       "category": "animals",
       "subgroup": "Hunting",
+      "imageURL": "https://leonidalog.app/images/animals/unique-wild-boar-v2.jpg",
       "spoiler": true,
       "guide": "Rare spotted wild boar, one of Leonida's 8 unique animals. Seen by Wild Hog Point Radar Base in Kelly County; follow the map pin.",
       "stats": [
@@ -24140,6 +24171,7 @@
       "title": "Black Grouper",
       "category": "animals",
       "subgroup": "Fishing",
+      "imageURL": "https://leonidalog.app/images/animals/black-grouper-v2.jpg",
       "spoiler": true,
       "stats": [
         {
@@ -24185,6 +24217,7 @@
       "title": "Permit",
       "category": "animals",
       "subgroup": "Fishing",
+      "imageURL": "https://leonidalog.app/images/animals/permit-v2.jpg",
       "spoiler": true,
       "stats": [
         {
@@ -24428,6 +24461,7 @@
       "title": "American Foxhound",
       "category": "animals",
       "subgroup": "Cats & dogs",
+      "imageURL": "https://leonidalog.app/images/animals/american-foxhound-v2.jpg",
       "spoiler": true,
       "stats": [
         {
@@ -24503,6 +24537,7 @@
       "title": "Catahoula Cur",
       "category": "animals",
       "subgroup": "Cats & dogs",
+      "imageURL": "https://leonidalog.app/images/animals/catahoula-cur-v2.jpg",
       "spoiler": true,
       "stats": [
         {
@@ -24533,6 +24568,7 @@
       "title": "French Bulldog",
       "category": "animals",
       "subgroup": "Cats & dogs",
+      "imageURL": "https://leonidalog.app/images/animals/french-bulldog-v2.jpg",
       "spoiler": true,
       "stats": [
         {
@@ -24548,6 +24584,7 @@
       "title": "Gloriana Dog",
       "category": "animals",
       "subgroup": "Cats & dogs",
+      "imageURL": "https://leonidalog.app/images/animals/gloriana-dog-v2.jpg",
       "spoiler": true,
       "stats": [
         {
@@ -24563,6 +24600,7 @@
       "title": "Labrador Retriever",
       "category": "animals",
       "subgroup": "Cats & dogs",
+      "imageURL": "https://leonidalog.app/images/animals/labrador-retriever-v2.jpg",
       "spoiler": true,
       "stats": [
         {
@@ -24593,6 +24631,7 @@
       "title": "Rottweiler",
       "category": "animals",
       "subgroup": "Cats & dogs",
+      "imageURL": "https://leonidalog.app/images/animals/rottweiler-v2.jpg",
       "spoiler": true,
       "stats": [
         {
@@ -24608,6 +24647,7 @@
       "title": "Standard Poodle",
       "category": "animals",
       "subgroup": "Cats & dogs",
+      "imageURL": "https://leonidalog.app/images/animals/standard-poodle-v2.jpg",
       "spoiler": true,
       "stats": [
         {
@@ -24623,6 +24663,7 @@
       "title": "Yorkshire Terrier",
       "category": "animals",
       "subgroup": "Cats & dogs",
+      "imageURL": "https://leonidalog.app/images/animals/yorkshire-terrier-v2.jpg",
       "spoiler": true,
       "stats": [
         {
@@ -24707,6 +24748,7 @@
       "title": "Southern Toad",
       "category": "animals",
       "subgroup": "Reptiles & amphibians",
+      "imageURL": "https://leonidalog.app/images/animals/southern-toad-v2.jpg",
       "spoiler": true,
       "stats": [
         {
@@ -24842,6 +24884,7 @@
       "title": "Crested Caracara",
       "category": "animals",
       "subgroup": "Birds",
+      "imageURL": "https://leonidalog.app/images/animals/crested-caracara-v2.jpg",
       "spoiler": true,
       "stats": [
         {
@@ -24872,6 +24915,7 @@
       "title": "Eastern Great Horned Owl",
       "category": "animals",
       "subgroup": "Birds",
+      "imageURL": "https://leonidalog.app/images/animals/eastern-great-horned-owl-v2.jpg",
       "spoiler": true,
       "stats": [
         {
@@ -24932,6 +24976,7 @@
       "title": "Killdeer",
       "category": "animals",
       "subgroup": "Birds",
+      "imageURL": "https://leonidalog.app/images/animals/killdeer-v2.jpg",
       "spoiler": true,
       "stats": [
         {
@@ -25067,6 +25112,7 @@
       "title": "Rock Pigeon",
       "category": "animals",
       "subgroup": "Birds",
+      "imageURL": "https://leonidalog.app/images/animals/rock-pigeon-v2.jpg",
       "spoiler": true,
       "stats": [
         {
@@ -25142,6 +25188,7 @@
       "title": "Spotted Sandpiper",
       "category": "animals",
       "subgroup": "Birds",
+      "imageURL": "https://leonidalog.app/images/animals/spotted-sandpiper-v2.jpg",
       "spoiler": true,
       "stats": [
         {
@@ -25232,6 +25279,7 @@
       "title": "Blue Land Crab",
       "category": "animals",
       "subgroup": "Aquatic",
+      "imageURL": "https://leonidalog.app/images/animals/blue-land-crab-v2.jpg",
       "spoiler": true,
       "stats": [
         {
