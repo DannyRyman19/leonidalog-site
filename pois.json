@@ -1,5 +1,5 @@
 {
-  "version": 73,
+  "version": 74,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -360,7 +360,7 @@
       "colorHex": "5AA9E6",
       "verb": "found",
       "collectible": true,
-      "intro": "Unique vehicles parked at set spots around Leonida, plus two lists of cars you're asked to find. Each one is pinned on the map."
+      "intro": "Unique vehicles parked at set spots around Leonida, plus lists of cars you're asked to find or restore. Most are pinned on the map."
     },
     {
       "id": "garages",
@@ -6995,6 +6995,7 @@
     },
     {
       "id": "cd-13-18",
+      "imageURL": "https://leonidalog.app/images/cards/cd-13-18.jpg",
       "title": "Vicki - Standard",
       "category": "cards",
       "subgroup": "Delights Dancers",
@@ -7002,7 +7003,7 @@
       "nx": 0.578,
       "ny": 0.6298,
       "region": "Vice-Dale County",
-      "guide": "One of the 18 cards in the Delights Dancers set. Follow the map pin."
+      "guide": "One of the 18 cards in the Delights Dancers set. At the very top of the Driscoll Tower: on the railed platform looking out over Downtown, inside the open orange box on the post."
     },
     {
       "id": "cd-14-01",
@@ -7782,6 +7783,7 @@
     },
     {
       "id": "cd-15-35",
+      "imageURL": "https://leonidalog.app/images/cards/cd-15-35.jpg",
       "title": "Serena - Gold",
       "category": "cards",
       "subgroup": "Nine1Nine Dancers",
@@ -7789,7 +7791,10 @@
       "nx": 0.6151,
       "ny": 0.6663,
       "region": "Vice-Dale County",
-      "guide": "One of the 36 cards in the Nine1Nine Dancers set. Follow the map pin."
+      "guide": "One of the 36 cards in the Nine1Nine Dancers set. In the garage where the Piccia Furia on Randy's wish list is kept: on the white workbench, next to the camcorder.",
+      "guideLinks": {
+        "Piccia Furia": "sv-randy-03"
+      }
     },
     {
       "id": "cd-15-36",
@@ -12608,7 +12613,8 @@
       "spoiler": true,
       "region": "Kelly County",
       "nx": 0.2942,
-      "ny": 0.3657
+      "ny": 0.3657,
+      "guide": "Landmark 23. Scan it with WAiNK."
     },
     {
       "id": "wl-sahara-arena",
@@ -13160,7 +13166,8 @@
       "spoiler": true,
       "region": "Mariana County",
       "nx": 0.3382,
-      "ny": 0.5081
+      "ny": 0.5081,
+      "guide": "Sculpture 18. Scan it with WAiNK."
     },
     {
       "id": "ws-colossus",
@@ -17893,6 +17900,7 @@
     },
     {
       "id": "hp-029",
+      "imageURL": "https://leonidalog.app/images/hoops/hp-029.jpg",
       "title": "Palladia Ln, Peacock Estates",
       "category": "hoops",
       "subgroup": "Vice-Dale County",
@@ -33268,7 +33276,7 @@
       "category": "vehicles",
       "subgroup": "Military vehicles",
       "spoiler": true,
-      "guide": "Military vehicle in the game's Vehicles log. Its spawn cheat unlocks by finishing every survival challenge, for use once the story is done.",
+      "guide": "Military vehicle in the game's Vehicles log. Its spawn cheat unlocks by finishing every survival challenge, for use once the story is done. Tanks are parked in the southern half of Mile Zero Air Station, on the island at the south-west edge of Mariana County. Stealing one brings a 3-star wanted level, and a tank can't be stored in a garage.",
       "stats": [
         {
           "label": "Category",
@@ -34865,7 +34873,7 @@
       "category": "vehicles",
       "subgroup": "Military vehicles",
       "spoiler": true,
-      "guide": "Count the military vehicles you've discovered that don't have their own row here yet: 3 of the 8 are listed above, so 5 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
+      "guide": "Count the military vehicles you've discovered that don't have their own row here yet: 3 of the 8 are listed above, so 5 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows. Fighter jets sit unlocked around the airfield in the northern half of Mile Zero Air Station; taking one brings an instant 4-star wanted level and two jets come after you.",
       "tallyTarget": 5
     },
     {
@@ -35816,6 +35824,22 @@
       "spoiler": true,
       "nx": 0.3449,
       "ny": 0.3852
+    },
+    {
+      "id": "sv-wyman-01",
+      "title": "Declasse '64 Mamba GT",
+      "category": "standout-vehicles",
+      "subgroup": "Wyman's classic cars",
+      "spoiler": true,
+      "guide": "For Wyman's Classic Car Collection. Scan all four wrecked parts of this car with WAiNK: in the garage of a grey farmhouse on the east edge of Gellhorn, north of the state prison; sunk in the pond just east of the Thrillbilly Mud Club dirt track; behind a grey garage door on a green building in the alley beside the Xero station in Ambrosia; and in the water under the broken bridge in north Moreau, north of Buck Creek Country Store (you can scan it from the bridge). Wyman then charges $1,500 through BuckMe for the rebuild. Register it at a Pay 'n' Spray or park it in your garage to keep it."
+    },
+    {
+      "id": "sv-wyman-02",
+      "title": "'67 Transgressor",
+      "category": "standout-vehicles",
+      "subgroup": "Wyman's classic cars",
+      "spoiler": true,
+      "guide": "For Wyman's Classic Car Collection. All three parts to scan with WAiNK are in Port Gellhorn: in a field with pigs at the Tanglewood Ln trailer park, north of Sarena's Bargain Store; in a garage behind a blue house with sunflower decorations on Gellhorn Ave, north-west of Wasteland Off-Road; and behind a wooden hut at the southern tip, below Dirt Merchants. Wyman then charges $1,500 for the rebuild."
     },
     {
       "id": "gr-01",
