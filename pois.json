@@ -1,5 +1,5 @@
 {
-  "version": 74,
+  "version": 75,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -228,7 +228,7 @@
       "symbol": "camera.viewfinder",
       "colorHex": "4AD9D9",
       "verb": "found",
-      "intro": "Scan with the WAiNK app: 31 landmarks, 35 curiosities, 23 sculptures and No Flusher tags. 100% needs 100. Numbers follow the game's Progress menu. More are added as guides find them. The You WAiNKer! trophy needs 100.",
+      "intro": "Scan with the WAiNK app: 31 landmarks, 35 curiosities, 23 sculptures, No Flusher tags and 4 Peewees billboards. 100% needs 100. Numbers follow the game's Progress menu. More are added as guides find them. The You WAiNKer! trophy needs 100.",
       "collectible": true
     },
     {
@@ -370,7 +370,7 @@
       "verb": "owned",
       "collectible": true,
       "complete": true,
-      "intro": "12 garages. 8 are for sale in the Vice City Real Estate app, which arrives in chapter 2: the Little Boxes trophy needs all 8, $160,000 in all. The other 4 come with the story. Each parking spot lets you register one more vehicle."
+      "intro": "13 garages. 8 are for sale in the Vice City Real Estate app, which arrives in chapter 2: the Little Boxes trophy needs all 8, $160,000 in all. The other 5 come with the story, one of them hidden in chapter 3. Each parking spot lets you register one more vehicle."
     },
     {
       "id": "gyms",
@@ -401,6 +401,24 @@
       "chapterOrdered": true,
       "collectible": true,
       "intro": "Kenton's treasure: 7 sets, from 5 shipwrecks off Key Lento and the Keys plus 2 dive sites off Belpoint and in Leonida Bay, 41 treasures in all. Wreck 1 is the story mission's wreck: its 10 doubloons are listed here but aren't one of his 7 sets. Kenton marks each site on your map as a purple chest. Equip the metal detector from the weapon wheel, aim it and sweep the seabed slowly until the light turns green, then follow the gold icon to the find. The sites come in batches: clear the first three wrecks, go back to Kenton's shop for the next three, and the two dive sites follow. A site only counts once everything there is found, and you don't need to sell anything for it to count. Single finds sell for around $200, with a bonus for a full set. 100% needs 5 of the 7 sets. He's away for a while after chapter 1 and is back by chapter 3, and everything stays open after the story."
+    },
+    {
+      "id": "easter-eggs",
+      "label": "Easter eggs",
+      "symbol": "sparkles",
+      "colorHex": "B98CFF",
+      "verb": "found",
+      "collectible": true,
+      "intro": "Hidden secrets and nods to other games. They don't count towards 100%. Names stay hidden until you've found them. More are added as guides confirm them."
+    },
+    {
+      "id": "street-art",
+      "label": "Street art",
+      "symbol": "paintbrush.pointed.fill",
+      "colorHex": "FF7AB8",
+      "verb": "scanned",
+      "collectible": true,
+      "intro": "AHOL's Geographies of Trash: 112 spray-painted bits of junk around Leonida, in 11 types. Scan each one with WAiNK when the prompt shows up to complete the collection."
     }
   ],
   "pois": [
@@ -523,6 +541,13 @@
       "title": "Wyman's Classic Car Collection",
       "category": "activity",
       "guide": "Track down abandoned classic and project cars across Leonida for Wyman, a collector and local fixer, and restore them. Four of the cars are Ultimate Edition only."
+    },
+    {
+      "id": "ac-golf",
+      "title": "Golf",
+      "category": "activity",
+      "spoiler": true,
+      "guide": "Two full golf courses on private grounds, so mind the security: Leaf Links Golf Club in Vice Beach (9 holes) and Mount Hailes Country Club in Waning Sands, Leonard County. Each hole has gold, silver and bronze stroke targets."
     },
     {
       "id": "mn-01",
@@ -2982,6 +3007,32 @@
       "revealedGuide": "Kenton's strand, the final mission, after his treasure dives. Finishing it unlocks the This Was No Boat Accident trophy and gives you the Rugger Fortune, a second dive boat alongside Kenton's Huntress at Island Dreams. Guides describe it as a showdown at sea; exactly when it unlocks isn't confirmed yet. Whether it counts towards the Strangers & Freaks trophy isn't confirmed yet. Still open after the story."
     },
     {
+      "id": "sf-42",
+      "title": "Side mission 42",
+      "category": "stranger-missions",
+      "completeBefore": "chapter 2",
+      "givenBy": "Strand 16",
+      "spoiler": true,
+      "missable": true,
+      "guide": "Optional side mission, strand 16. Unlocks in chapter 1.",
+      "revealedTitle": "Find the Lost Drugs",
+      "revealedGivenBy": "Cal",
+      "revealedGuide": "Cal's strand. Unlocks in chapter 1 with a message from Cal; missable, chapter 1 only. Optional: it doesn't count towards the Strangers & Freaks trophy. Four search areas just north of Key Lento hide cocaine packages: a recreation area, some burned houses, Pelican Valley and Thorpe Adventures. Take something that handles rough ground. Do it before the story mission Clear Skies: then you can sell the haul to Donnie for about $3,400 rather than to Brian for about $2,720."
+    },
+    {
+      "id": "sf-43",
+      "title": "Side mission 43",
+      "category": "stranger-missions",
+      "completeBefore": "chapter 2",
+      "givenBy": "Strand 16",
+      "spoiler": true,
+      "missable": true,
+      "guide": "Optional side mission, strand 16. Unlocks in chapter 1.",
+      "revealedTitle": "Ring the Bell!",
+      "revealedGivenBy": "Cal",
+      "revealedGuide": "Cal's strand. After Day Release, Cal texts Jason on his way to meet Brian at the marina: answer him and go to The Rusty Anchor before that meeting. Missable, chapter 1 only. Optional: it doesn't count towards the Strangers & Freaks trophy. Drink with Cal (or pass on the shots), then agree to drive him home and see him safely there to earn the reward."
+    },
+    {
       "id": "tk-optional-tasks",
       "title": "Optional tasks",
       "category": "tasks",
@@ -3101,7 +3152,7 @@
       "title": "WAiNK scans",
       "category": "exploration",
       "spoiler": true,
-      "guide": "Scan 100 things with the WAiNK app: there are 31 landmarks, 35 curiosities, 23 sculptures and 23 No Flusher tags.",
+      "guide": "Scan 100 things with the WAiNK app: there are 31 landmarks, 35 curiosities, 23 sculptures 15 No Flusher tags and 4 Peewees billboards.",
       "tallyTarget": 100,
       "linkedCategories": [
         "waink"
@@ -4202,6 +4253,7 @@
     },
     {
       "id": "cd-02-23",
+      "imageURL": "https://leonidalog.app/images/cards/cd-02-23.jpg",
       "title": "Otis Adams - Silver",
       "category": "cards",
       "subgroup": "Vice City Narcos",
@@ -4209,7 +4261,7 @@
       "nx": 0.6272,
       "ny": 0.5333,
       "region": "Vice-Dale County",
-      "guide": "One of the 24 cards in the Vice City Narcos set. Follow the map pin."
+      "guide": "One of the 24 cards in the Vice City Narcos set. At the CBA construction site: in the storage room on the ground floor, inside locker 13."
     },
     {
       "id": "cd-02-24",
@@ -4858,6 +4910,7 @@
     },
     {
       "id": "cd-05-05",
+      "imageURL": "https://leonidalog.app/images/cards/cd-05-05.jpg",
       "title": "Christian Freeman - Deep Red",
       "category": "cards",
       "subgroup": "Liberty City Swingers",
@@ -4865,7 +4918,7 @@
       "nx": 0.6282,
       "ny": 0.5255,
       "region": "Vice-Dale County",
-      "guide": "One of the 24 cards in the Liberty City Swingers set. Follow the map pin."
+      "guide": "One of the 24 cards in the Liberty City Swingers set. At Vice Civic Center station on the Central Line: up on the top-floor platform, on the end of the bench on the Southbound side."
     },
     {
       "id": "cd-05-06",
@@ -9953,10 +10006,11 @@
       "id": "po-7",
       "nx": 0.5572,
       "ny": 0.7915,
-      "title": "Pool opponent 7",
+      "title": "The Rusty Anchor",
       "category": "pool",
       "spoiler": true,
-      "guide": "Not found yet."
+      "guide": "In the main bar area of The Rusty Anchor on Key Lento. The opponent isn't always there, so come back later if the table is empty.",
+      "region": "Mariana County"
     },
     {
       "id": "bj-01",
@@ -13243,6 +13297,38 @@
       "region": "Kelly County",
       "nx": 0.4627,
       "ny": 0.4696
+    },
+    {
+      "id": "wb-01",
+      "title": "Peewees billboard",
+      "category": "waink",
+      "subgroup": "Peewees billboards",
+      "spoiler": true,
+      "guide": "Vice-Dale County: in Balsero, over the ramp where US-35 meets US-10, north-west of Randy's Leonida Auto World. Scan it with WAiNK. Each of the four billboards hides a letter for the Peewees prize puzzle, which starts from a sponsored Snapmatic post."
+    },
+    {
+      "id": "wb-02",
+      "title": "Peewees billboard",
+      "category": "waink",
+      "subgroup": "Peewees billboards",
+      "spoiler": true,
+      "guide": "Mariana County: in the US-82 median at the Grassrivers / North Mariana border, west of Richardson Hunting Supplies. Scan it with WAiNK. Each of the four billboards hides a letter for the Peewees prize puzzle, which starts from a sponsored Snapmatic post."
+    },
+    {
+      "id": "wb-03",
+      "title": "Peewees billboard",
+      "category": "waink",
+      "subgroup": "Peewees billboards",
+      "spoiler": true,
+      "guide": "Leonard County: beside SR-27 on the north-west side of Waning Sands, north-east of Lake Leonida. Scan it with WAiNK. Each of the four billboards hides a letter for the Peewees prize puzzle, which starts from a sponsored Snapmatic post."
+    },
+    {
+      "id": "wb-04",
+      "title": "Peewees billboard",
+      "category": "waink",
+      "subgroup": "Peewees billboards",
+      "spoiler": true,
+      "guide": "Lummox County: beside US-628 on the west side of Mount Kalaga National Park, east of Grayson. Scan it with WAiNK. Each of the four billboards hides a letter for the Peewees prize puzzle, which starts from a sponsored Snapmatic post."
     },
     {
       "id": "wt-01",
@@ -25464,13 +25550,230 @@
       ]
     },
     {
+      "id": "an-atlantic-thread-herring",
+      "title": "Atlantic Thread Herring",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "spoiler": true,
+      "guide": "Best spot: the Atlantic north-east of Vice Beach, Vice-Dale County. Use a large saltwater lure.",
+      "stats": [
+        {
+          "label": "Water",
+          "value": "Marine"
+        },
+        {
+          "label": "Category",
+          "value": "Fishing"
+        }
+      ]
+    },
+    {
+      "id": "an-bluegill",
+      "title": "Bluegill",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "spoiler": true,
+      "guide": "Best spot: the Nehrling River in North Mariana County. Use a small freshwater lure.",
+      "stats": [
+        {
+          "label": "Water",
+          "value": "Freshwater"
+        },
+        {
+          "label": "Category",
+          "value": "Fishing"
+        }
+      ]
+    },
+    {
+      "id": "an-candy-fish",
+      "title": "Candy Fish",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "spoiler": true,
+      "guide": "Best spot: Lake Leonida. Use a candy Cane lure.",
+      "stats": [
+        {
+          "label": "Water",
+          "value": "Freshwater"
+        },
+        {
+          "label": "Category",
+          "value": "Fishing"
+        }
+      ]
+    },
+    {
+      "id": "an-channel-catfish",
+      "title": "Channel Catfish",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "spoiler": true,
+      "guide": "Best spot: Buckskin Swamp in South Kelly County. Use a medium freshwater lure.",
+      "stats": [
+        {
+          "label": "Water",
+          "value": "Freshwater"
+        },
+        {
+          "label": "Category",
+          "value": "Fishing"
+        }
+      ]
+    },
+    {
+      "id": "an-greater-amberjack",
+      "title": "Greater Amberjack",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "spoiler": true,
+      "guide": "Best spot: the Atlantic off the south-east coast of Dalton Island, Vice-Dale County. Use a small saltwater lure.",
+      "stats": [
+        {
+          "label": "Water",
+          "value": "Marine"
+        },
+        {
+          "label": "Category",
+          "value": "Fishing"
+        }
+      ]
+    },
+    {
+      "id": "an-rock-sea-bass",
+      "title": "Rock Sea Bass",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "spoiler": true,
+      "guide": "Best spot: the water west of Watson Bay, Mariana County. Use a small saltwater lure.",
+      "stats": [
+        {
+          "label": "Water",
+          "value": "Marine"
+        },
+        {
+          "label": "Category",
+          "value": "Fishing"
+        }
+      ]
+    },
+    {
+      "id": "an-striped-bass",
+      "title": "Striped Bass",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "spoiler": true,
+      "guide": "Best spot: Patridge Bay in northern Lummox County. Use a medium saltwater lure.",
+      "stats": [
+        {
+          "label": "Water",
+          "value": "Marine"
+        },
+        {
+          "label": "Category",
+          "value": "Fishing"
+        }
+      ]
+    },
+    {
+      "id": "an-black-drum",
+      "title": "Black Drum",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "spoiler": true,
+      "guide": "Best spot: Okchiloha Bay in north-west Lummox County.",
+      "stats": [
+        {
+          "label": "Water",
+          "value": "Marine"
+        },
+        {
+          "label": "Category",
+          "value": "Fishing"
+        }
+      ]
+    },
+    {
+      "id": "an-leonida-gar",
+      "title": "Leonida Gar",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "spoiler": true,
+      "guide": "Best spot: the Grassrivers west of Hamlet, Mariana County. Use a medium freshwater lure.",
+      "stats": [
+        {
+          "label": "Water",
+          "value": "Freshwater"
+        },
+        {
+          "label": "Category",
+          "value": "Fishing"
+        }
+      ]
+    },
+    {
+      "id": "an-redfin-pickerel",
+      "title": "Redfin Pickerel",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "spoiler": true,
+      "guide": "Best spot: south-west of Buckskin Swamp in South Kelly County. Use a small freshwater lure.",
+      "stats": [
+        {
+          "label": "Water",
+          "value": "Freshwater"
+        },
+        {
+          "label": "Category",
+          "value": "Fishing"
+        }
+      ]
+    },
+    {
+      "id": "an-salt-fish",
+      "title": "Salt Fish",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "spoiler": true,
+      "guide": "Best spot: Lake Leonida, in the south of North Leonard County. Use a medium freshwater lure.",
+      "stats": [
+        {
+          "label": "Water",
+          "value": "Freshwater"
+        },
+        {
+          "label": "Category",
+          "value": "Fishing"
+        }
+      ]
+    },
+    {
+      "id": "an-yellowfin-tuna",
+      "title": "Yellowfin Tuna",
+      "category": "animals",
+      "subgroup": "Fishing",
+      "spoiler": true,
+      "guide": "Best spot: the Gulf of Leonida west of Tola Bay, Mariana County. Use a large saltwater lure.",
+      "stats": [
+        {
+          "label": "Water",
+          "value": "Marine"
+        },
+        {
+          "label": "Category",
+          "value": "Fishing"
+        }
+      ]
+    },
+    {
       "id": "an-fish",
       "title": "More fish",
       "category": "animals",
       "subgroup": "Fishing",
       "spoiler": true,
-      "guide": "Count the animals you've studied in the game's Fishing group that don't have their own row here yet. 23 of the group's 35 are listed above.",
-      "tallyTarget": 12
+      "guide": "Count the animals you've studied in the game's Fishing group that don't have their own row here yet. All 35 now have their own row, so this counter is retired.",
+      "tallyTarget": 12,
+      "retired": true
     },
     {
       "id": "an-american-quarter-horse",
@@ -35763,6 +36066,102 @@
       "ny": 0.6987
     },
     {
+      "id": "sv-randy-10",
+      "title": "Grotti Itali RSX",
+      "category": "standout-vehicles",
+      "subgroup": "Vehicle requests (1)",
+      "spoiler": true,
+      "guide": "For Randy's Wish List. It has no fixed spot: it turns up parked or driving at several places, so scan high-end cars with WAiNK to check."
+    },
+    {
+      "id": "sv-randy-11",
+      "title": "Ubermacht Cypher",
+      "category": "standout-vehicles",
+      "subgroup": "Vehicle requests (1)",
+      "spoiler": true,
+      "guide": "For Randy's Wish List. It has no fixed spot: it turns up parked or driving at several places, so scan high-end cars with WAiNK to check."
+    },
+    {
+      "id": "sv-randy-12",
+      "title": "Pegassi Toros",
+      "category": "standout-vehicles",
+      "subgroup": "Vehicle requests (1)",
+      "spoiler": true,
+      "guide": "For Randy's Wish List. One is parked outside the Pegassi Residences on Bayside Dr, Tequesta Retreat, in the early evening, with guards nearby."
+    },
+    {
+      "id": "sv-randy-13",
+      "title": "Pfister Growler",
+      "category": "standout-vehicles",
+      "subgroup": "Vehicle requests (1)",
+      "spoiler": true,
+      "guide": "For Randy's Wish List. It has no fixed spot: it turns up parked or driving at several places, so scan high-end cars with WAiNK to check."
+    },
+    {
+      "id": "sv-randy-14",
+      "title": "Buckingham Windsor Drop",
+      "category": "standout-vehicles",
+      "subgroup": "Vehicle requests (1)",
+      "spoiler": true,
+      "guide": "For Randy's Wish List. It has no fixed spot: it turns up parked or driving at several places, so scan high-end cars with WAiNK to check."
+    },
+    {
+      "id": "sv-randy-15",
+      "title": "Grotti Carbonizzare",
+      "category": "standout-vehicles",
+      "subgroup": "Vehicle requests (1)",
+      "spoiler": true,
+      "guide": "For Randy's Wish List. It has no fixed spot: it turns up parked or driving at several places, so scan high-end cars with WAiNK to check."
+    },
+    {
+      "id": "sv-randy-16",
+      "title": "Gallivanter Baller ST-D",
+      "category": "standout-vehicles",
+      "subgroup": "Vehicle requests (1)",
+      "spoiler": true,
+      "guide": "For Randy's Wish List. It has no fixed spot: it turns up parked or driving at several places, so scan high-end cars with WAiNK to check."
+    },
+    {
+      "id": "sv-randy-17",
+      "title": "Ocelot Jugular",
+      "category": "standout-vehicles",
+      "subgroup": "Vehicle requests (1)",
+      "spoiler": true,
+      "guide": "For Randy's Wish List. It has no fixed spot: it turns up parked or driving at several places, so scan high-end cars with WAiNK to check."
+    },
+    {
+      "id": "sv-randy-18",
+      "title": "Benefactor Dubsta",
+      "category": "standout-vehicles",
+      "subgroup": "Vehicle requests (1)",
+      "spoiler": true,
+      "guide": "For Randy's Wish List. It has no fixed spot: it turns up parked or driving at several places, so scan high-end cars with WAiNK to check."
+    },
+    {
+      "id": "sv-randy-19",
+      "title": "Pfister Neon",
+      "category": "standout-vehicles",
+      "subgroup": "Vehicle requests (1)",
+      "spoiler": true,
+      "guide": "For Randy's Wish List. It has no fixed spot: it turns up parked or driving at several places, so scan high-end cars with WAiNK to check."
+    },
+    {
+      "id": "sv-randy-20",
+      "title": "Buckingham Jubilee",
+      "category": "standout-vehicles",
+      "subgroup": "Vehicle requests (1)",
+      "spoiler": true,
+      "guide": "For Randy's Wish List. It has no fixed spot: it turns up parked or driving at several places, so scan high-end cars with WAiNK to check."
+    },
+    {
+      "id": "sv-randy-21",
+      "title": "'64 Mamba GT",
+      "category": "standout-vehicles",
+      "subgroup": "Vehicle requests (1)",
+      "spoiler": true,
+      "guide": "For Randy's Wish List. Randy adds it late on: it's at a mansion in Leaf Links, Vice Beach, and the key is in a bowl in the main house."
+    },
+    {
       "id": "sv-moses-01",
       "title": "Canis '82 Crawler",
       "category": "standout-vehicles",
@@ -35840,6 +36239,14 @@
       "subgroup": "Wyman's classic cars",
       "spoiler": true,
       "guide": "For Wyman's Classic Car Collection. All three parts to scan with WAiNK are in Port Gellhorn: in a field with pigs at the Tanglewood Ln trailer park, north of Sarena's Bargain Store; in a garage behind a blue house with sunflower decorations on Gellhorn Ave, north-west of Wasteland Off-Road; and behind a wooden hut at the southern tip, below Dirt Merchants. Wyman then charges $1,500 for the rebuild."
+    },
+    {
+      "id": "sv-wyman-03",
+      "title": "'70 Riata",
+      "category": "standout-vehicles",
+      "subgroup": "Wyman's classic cars",
+      "spoiler": true,
+      "guide": "For Wyman's Classic Car Collection. Scan all three parts with WAiNK: in a carport at the end of Cangrejo St in Southwind, west of the Xero station; under a house on Sunset Dr in Key Lento, across from the police impound; and behind the abandoned gas station on Old Fort Rd in Shoreless Keys, north of Grassrivers Cafe & Deli. Wyman then charges $1,500 for the rebuild."
     },
     {
       "id": "gr-01",
@@ -36107,6 +36514,28 @@
       ],
       "autoCollectedBy": [
         "ms-089"
+      ]
+    },
+    {
+      "id": "gr-13",
+      "title": "Del Rio Boulevard Garage",
+      "category": "garages",
+      "subgroup": "From the story",
+      "spoiler": true,
+      "nx": 0.6216,
+      "ny": 0.4575,
+      "region": "Vice City",
+      "guide": "Southern La Perle, Vice City. Free, but hidden: a code on a laptop in your chapter 3 apartment opens it. Get it before chapter 3 ends. Doesn't count towards Little Boxes.",
+      "revealedGuide": "Del Rio Boulevard, southern La Perle: a small grey garage at the far end of the parking lot behind the buildings across the road from Twa Ponya Tattoo, with pink bow graffiti by the door and a keypad under it. The code is 92665. To get it, open Boobie's laptop in the bedroom of the Vice City apartment in chapter 3. The password is MuffinsQueen15: Muffins from the framed photo of Boobie's late dog, Queen from the drawing of the dog with a crown by the bed, and 15 from the back of that drawing. A message on the laptop gives the code. Inside is a free car, Vanessa's Growler. Doesn't count towards Little Boxes.",
+      "stats": [
+        {
+          "label": "Price",
+          "value": "Free"
+        },
+        {
+          "label": "Code",
+          "value": "92665"
+        }
       ]
     },
     {
@@ -39978,6 +40407,956 @@
       "guide": "Treasure 6 of 6 from Bobcat Dive Site, in the depths of Leonida Bay off the Grassrivers coast, south of Belpoint Strait. There's no wreck here. Kenton adds it to Search the Dive Sites after the six Key Lento wrecks. Find it with the metal detector and give it to Kenton.",
       "nx": 0.3165,
       "ny": 0.6667
+    },
+    {
+      "id": "ee-01",
+      "title": "Easter egg 1",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "guide": "A night-time secret in Kelly County, linked to a hidden trophy.",
+      "revealedTitle": "UFO abduction",
+      "revealedGuide": "Go alone to the road north-west of the Starlet Motel in Kelly County after 2 AM and look for a car with flashing lights at the roadside. Follow the path into the woods towards a blue light, agree to help the woman the UFO drops off and walk her back to her car. The UFO then takes you and you wake up three days later. It earns The Truth Is Out There. The car doesn't always spawn: drive away and come back if it isn't there."
+    },
+    {
+      "id": "ee-02",
+      "title": "Easter egg 2",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "guide": "A creature sighting on a road south of Hamlet.",
+      "revealedTitle": "Bigfoot",
+      "revealedGuide": "Drive the road south of Hamlet and look for Bigfoot feeding on a deer on the road. Follow him on foot into the swamp to an effigy in green mist and stand in the mist until you black out; he comes to look at you and you wake up nearby. It works without Kirk's missions."
+    },
+    {
+      "id": "ee-03",
+      "title": "Easter egg 3",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "guide": "A nod to another Rockstar game, from chapter 2, in Port Gellhorn.",
+      "revealedTitle": "Arthur Morgan's hat",
+      "revealedGuide": "At a yard sale outside a house with balloons in south Port Gellhorn, west of Buck's Pawn Shop, the Genuine Cowboy Hat sits on the sofa. Preview it and buy it for $35."
+    },
+    {
+      "id": "ee-04",
+      "title": "Easter egg 4",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "guide": "A nod to an older GTA game, from chapter 3, in Vice City. It's tied to a hidden trophy.",
+      "revealedTitle": "The Banshee through the window",
+      "revealedGuide": "A nod to GTA III: once you have the Key Cloner, steal the blue Banshee with the white stripe from the Sunrise Premium Autos showroom in the south of Vice City and drive it out through the front window. It earns Capital Offense."
+    },
+    {
+      "id": "ee-05",
+      "title": "Easter egg 5",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "guide": "A chatty animal in Key Lento, from chapter 1.",
+      "revealedTitle": "The talking parrot",
+      "revealedGuide": "After delivering Shirley's rum, go behind the Three Sheets liquor store in Key Lento, deal with the goons and talk to the parrot. It tips you off to cash hidden in a vent, with more loot nearby."
+    },
+    {
+      "id": "sa-001",
+      "title": "Mattress 72 (Tequesta)",
+      "category": "street-art",
+      "subgroup": "Mattresses",
+      "spoiler": true,
+      "guide": "Propped on the stairs that climb to the second floor of an apartment block on SW 4th St, western Tequesta. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-002",
+      "title": "Mattress 168 (Bayside)",
+      "category": "street-art",
+      "subgroup": "Mattresses",
+      "spoiler": true,
+      "guide": "Resting on a cracked concrete wall in an abandoned, half-built parking lot near Catalan Blvd and NE 4th Ave, Bayside. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-003",
+      "title": "Mattress 433 (Balsero)",
+      "category": "street-art",
+      "subgroup": "Mattresses",
+      "spoiler": true,
+      "guide": "Propped on a red, beige and yellow building opposite a parking space off SW 6th Ave, southern Salton. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-004",
+      "title": "Mattress 318 (La Perle)",
+      "category": "street-art",
+      "subgroup": "Mattresses",
+      "spoiler": true,
+      "guide": "Against the wall within the Imperial Plaza apartments' trash enclosure, off Mirimar Dr in La Perle. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-005",
+      "title": "Mattress 292 (Little Cuba)",
+      "category": "street-art",
+      "subgroup": "Mattresses",
+      "spoiler": true,
+      "guide": "Behind a fence in an alley, up against an apartment building's wall off NW 5th St, Little Cuba. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-006",
+      "title": "Mattress 74 (Ocean Beach)",
+      "category": "street-art",
+      "subgroup": "Mattresses",
+      "spoiler": true,
+      "guide": "In the back alley behind Cirque de Cuisine, off Fig St in Ocean Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-007",
+      "title": "Mattress 62 (Ocean Beach)",
+      "category": "street-art",
+      "subgroup": "Mattresses",
+      "spoiler": true,
+      "guide": "Against a low half-wall in the narrow gap between two apartment buildings on Shore Ct, Ocean Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-008",
+      "title": "Mattress 181 (La Perle)",
+      "category": "street-art",
+      "subgroup": "Mattresses",
+      "spoiler": true,
+      "guide": "Propped on a big red dumpster in the lot beside a building under construction at NW 11th Pl and Del Rio Blvd, La Perle. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-009",
+      "title": "Mattress 133 (Southside)",
+      "category": "street-art",
+      "subgroup": "Mattresses",
+      "spoiler": true,
+      "guide": "In the little trash spot just outside the Violet Villas gated community's gate, off SW 3rd Ave in Southside. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-010",
+      "title": "Mattress 252 (Salton)",
+      "category": "street-art",
+      "subgroup": "Mattresses",
+      "spoiler": true,
+      "guide": "Against the SR-25 bridge where a parking space ends, beside Expresso Cafe & Liquor in Salton. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-011",
+      "title": "Tires 186 (Rockridge)",
+      "category": "street-art",
+      "subgroup": "Tires",
+      "spoiler": true,
+      "guide": "In the back alley behind the J&M Multi Services building on NW 9th St, Rockridge. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-012",
+      "title": "Tires 262 (Crosstown)",
+      "category": "street-art",
+      "subgroup": "Tires",
+      "spoiler": true,
+      "guide": "Looped over a bollard on the edge of a parking lot by the construction on North Vice Ave, central Crosstown. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-013",
+      "title": "Tires 311 (Downtown)",
+      "category": "street-art",
+      "subgroup": "Tires",
+      "spoiler": true,
+      "guide": "By a pillar beneath the Mariner's Hwy ramp bridge, along NW 4th Ct in southwestern Downtown. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-014",
+      "title": "Tires 460 (La Perle)",
+      "category": "street-art",
+      "subgroup": "Tires",
+      "spoiler": true,
+      "guide": "Beside a big trash bin in the side lot of the Auto Repair & Collision building on NW 9th Ave, at La Perle's southern corner. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-015",
+      "title": "Tires 51 (La Perle)",
+      "category": "street-art",
+      "subgroup": "Tires",
+      "spoiler": true,
+      "guide": "Below the Discount Jeff's Center sign in the outdoor lot of Jeff's Discount Center on NW 11th St, southwestern La Perle. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-016",
+      "title": "Tires 140 (Vice-Dale County)",
+      "category": "street-art",
+      "subgroup": "Tires",
+      "spoiler": true,
+      "guide": "In the centre of the vacant lot beside the Arrow gas station at Bayside Dr and El Joven Blvd, eastern VCIA. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-017",
+      "title": "Tires 44 (Tequesta)",
+      "category": "street-art",
+      "subgroup": "Tires",
+      "spoiler": true,
+      "guide": "Tucked where two concrete barriers meet in the vacant construction lot on Harbor Sound Dr, Tequesta. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-018",
+      "title": "Tires 188 (Vice Beach)",
+      "category": "street-art",
+      "subgroup": "Tires",
+      "spoiler": true,
+      "guide": "Wedged between two trash bins in a corner of the parking lot behind the Beach Rose apartments at Portside Ln and Harborside Ave, Ocean Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-019",
+      "title": "Wheel 498 (Little Cuba)",
+      "category": "street-art",
+      "subgroup": "Wheels",
+      "spoiler": true,
+      "guide": "Against the wall by the garage door along the side of the Euroform Automotive building on Papaya Ln, Little Cuba. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-020",
+      "title": "Wheel 429 (Rockridge)",
+      "category": "street-art",
+      "subgroup": "Wheels",
+      "spoiler": true,
+      "guide": "Against a half wall below a graffitied GAS sign, between the Cornerback Sports Bar and Grill and the Xero gas station off NW 10th Ave, Rockridge. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-021",
+      "title": "Wheel 78 (Crosstown)",
+      "category": "street-art",
+      "subgroup": "Wheels",
+      "spoiler": true,
+      "guide": "Against the side of the Going Spare Imports & Exports building, in the alley by the LPL substation on NE 5th Ave, northern Crosstown. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-022",
+      "title": "Wheel 114 (Crosstown)",
+      "category": "street-art",
+      "subgroup": "Wheels",
+      "spoiler": true,
+      "guide": "Propped on Pedro's Paint & Body Shop, on the NW 2nd Ave sidewalk in Crosstown. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-023",
+      "title": "Wheel 216 (Rockridge)",
+      "category": "street-art",
+      "subgroup": "Wheels",
+      "spoiler": true,
+      "guide": "Against a telephone pole in a corner of the VCA Motorsports lot on NW 8th St, southern Rockridge. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-024",
+      "title": "Wheel 71 (La Perle)",
+      "category": "street-art",
+      "subgroup": "Wheels",
+      "spoiler": true,
+      "guide": "Against the side of the Xero gas station at Coral Ave and Del Rio Blvd, northern La Perle. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-025",
+      "title": "Wheel 468 (Little Cuba)",
+      "category": "street-art",
+      "subgroup": "Wheels",
+      "spoiler": true,
+      "guide": "Against a recessed wall by the construction site between Alvaro Auto Shop and Farmacia Tu Salud on Northbrook Dr, Little Cuba. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-026",
+      "title": "Wheel 296 (La Perle)",
+      "category": "street-art",
+      "subgroup": "Wheels",
+      "spoiler": true,
+      "guide": "In the alley separating Simon's Tires and Victor's Autocare on Del Rio Blvd, southern La Perle. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-027",
+      "title": "Wheel 379 (Downtown)",
+      "category": "street-art",
+      "subgroup": "Wheels",
+      "spoiler": true,
+      "guide": "Down an alley, propped on the side of the Clinkers Family Jewels shop on NE 1st St, central Downtown. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-028",
+      "title": "Fridge 442 (Crosstown)",
+      "category": "street-art",
+      "subgroup": "Fridges",
+      "spoiler": true,
+      "guide": "Below a billboard on the vacant corner lot at NE 10th St and Mirimar Dr, northeastern Crosstown. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-029",
+      "title": "Fridge 136 (La Perle)",
+      "category": "street-art",
+      "subgroup": "Fridges",
+      "spoiler": true,
+      "guide": "Beside the Tropical Thrift Store, next to a gate leading to the rear of the lot on Del Rio Blvd, La Perle. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-030",
+      "title": "Fridge 207 (Ocean Beach)",
+      "category": "street-art",
+      "subgroup": "Fridges",
+      "spoiler": true,
+      "guide": "By a trash can halfway along an alley that runs parallel to and west of Westbrook Dr, between two rows of houses in Salton. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-031",
+      "title": "Fridge 53 (Ocean Beach)",
+      "category": "street-art",
+      "subgroup": "Fridges",
+      "spoiler": true,
+      "guide": "By a trash can in the courtyard along the alley between the Trinity Theater and Lickety Split, northern Ocean Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-032",
+      "title": "Fridge 25 (Ocean Beach)",
+      "category": "street-art",
+      "subgroup": "Fridges",
+      "spoiler": true,
+      "guide": "By a trash can in the delivery lot beside Hoochie Mama's liquor store, off Atlantic Ave in northern Ocean Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-033",
+      "title": "Fridge 187 (Peacock Bay)",
+      "category": "street-art",
+      "subgroup": "Fridges",
+      "spoiler": true,
+      "guide": "By an electrical box in a narrow alley next to a parking lot behind Cafe Peacock and the Ariadne Apartments, off SW 7th St in northern Peacock Bay. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-034",
+      "title": "Fridge 199 (Peacock Bay)",
+      "category": "street-art",
+      "subgroup": "Fridges",
+      "spoiler": true,
+      "guide": "In a wall corner outside a white-and-peach apartment complex off South Vice Ave, Peacock Bay. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-035",
+      "title": "Fridge 49 (Balsero)",
+      "category": "street-art",
+      "subgroup": "Fridges",
+      "spoiler": true,
+      "guide": "Below a telephone pole beside Logan's Machine Shop on NW 17th St, southeastern Balsero. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-036",
+      "title": "Fridge 319 (Downtown)",
+      "category": "street-art",
+      "subgroup": "Fridges",
+      "spoiler": true,
+      "guide": "On the sidewalk against a stairway leading up to a garage door, a little way along NW 6th St from the Vault club in northwestern Downtown. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-037",
+      "title": "Armchair 489 (Bayside)",
+      "category": "street-art",
+      "subgroup": "Armchairs",
+      "spoiler": true,
+      "guide": "Against a fence by a trash area in a corner of the parking lot beside the white-and-teal apartment building on Nelo Fino Dr, Bayside. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-038",
+      "title": "Armchair 295 (Bayside)",
+      "category": "street-art",
+      "subgroup": "Armchairs",
+      "spoiler": true,
+      "guide": "By a trash can on the side patio of the Cospace building on Catalan Blvd, southern Bayside. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-039",
+      "title": "Armchair 215 (Little Cuba)",
+      "category": "street-art",
+      "subgroup": "Armchairs",
+      "spoiler": true,
+      "guide": "Beneath a tree in a vacant corner lot at NE 3rd Ave and NW 4th Ave, northern Little Cuba. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-040",
+      "title": "Armchair 205 (Ocean Beach)",
+      "category": "street-art",
+      "subgroup": "Armchairs",
+      "spoiler": true,
+      "guide": "By the trash area between the Maritime Court Luxury Apartments and a white-and-blue apartment building, in the cul-de-sac off Harborside Ave, northwestern Ocean Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-041",
+      "title": "Armchair 11 (Ocean Beach)",
+      "category": "street-art",
+      "subgroup": "Armchairs",
+      "spoiler": true,
+      "guide": "In a corner of the alley parking lot behind the New Shores Apartment Complex, off Indigo St in Ocean Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-042",
+      "title": "Armchair 251 (Ocean Beach)",
+      "category": "street-art",
+      "subgroup": "Armchairs",
+      "spoiler": true,
+      "guide": "In an alley corner between a pink-and-white apartment complex and the Blue Hamlet on D St, northern Ocean Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-043",
+      "title": "Armchair 487 (Rockridge)",
+      "category": "street-art",
+      "subgroup": "Armchairs",
+      "spoiler": true,
+      "guide": "In the far-left corner of the front wall of the Venture Apartment complex, off Santiago Ave in Rockridge. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-044",
+      "title": "TV 355 (Bayside)",
+      "category": "street-art",
+      "subgroup": "TVs",
+      "spoiler": true,
+      "guide": "On the outside corner of a derelict building at Rialto Cswy and Mirimar Dr, southern Bayside. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-045",
+      "title": "TV 317 (La Perle)",
+      "category": "street-art",
+      "subgroup": "TVs",
+      "spoiler": true,
+      "guide": "On the sidewalk beside a pile of old TVs outside Best Priced Electrical Supplies on Del Rio Blvd, La Perle. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-046",
+      "title": "TV 367 (Decor District)",
+      "category": "street-art",
+      "subgroup": "TVs",
+      "spoiler": true,
+      "guide": "Below the overhang above the entrance of a teal-and-black building on Crockett Ter, at the Decor District's western edge. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-047",
+      "title": "TV 240 (Ocean Beach)",
+      "category": "street-art",
+      "subgroup": "TVs",
+      "spoiler": true,
+      "guide": "In the trash and electrical nook beside the sidewalk between Prestige Firearms and Leonida National Bank on Barlow St, northern Ocean Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-048",
+      "title": "TV 458 (Ocean Beach)",
+      "category": "street-art",
+      "subgroup": "TVs",
+      "spoiler": true,
+      "guide": "By a trash can in the alley beside the Hobbs Milford building on Thompson Ct, Ocean Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-049",
+      "title": "TV 422 (Tequesta)",
+      "category": "street-art",
+      "subgroup": "TVs",
+      "spoiler": true,
+      "guide": "By a trash can near the side door of the Pleonex Real Estate & Brokerage building on SW 5th St, southwestern Tequesta. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-050",
+      "title": "TV 121 (Washington Beach)",
+      "category": "street-art",
+      "subgroup": "TVs",
+      "spoiler": true,
+      "guide": "Beside a trash heap and a small maintenance shed behind Caliber Watches & Jewelry on Oleander Blvd, Washington Island. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-051",
+      "title": "TV 170 (Washington Beach)",
+      "category": "street-art",
+      "subgroup": "TVs",
+      "spoiler": true,
+      "guide": "By a trash can in the alley between the Ring of Fire Chili House and a blue apartment complex on Portside Ln, Ocean Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-052",
+      "title": "Container 241 (Washington Beach)",
+      "category": "street-art",
+      "subgroup": "Containers",
+      "spoiler": true,
+      "guide": "Beside a ladder in a narrow alley between Perfect Arch Vice City and Leonida National Bank on Oleander Blvd, Washington Island. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-053",
+      "title": "Container 453 (Downtown)",
+      "category": "street-art",
+      "subgroup": "Containers",
+      "spoiler": true,
+      "guide": "Tucked in the corner by the front door of the derelict Sloppy Seconds store on North Vice Ave, Downtown. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-054",
+      "title": "Container 451 (Downtown)",
+      "category": "street-art",
+      "subgroup": "Containers",
+      "spoiler": true,
+      "guide": "By the Opulens sign where an alley opens beside the Opulens parking lot, off North Vice Ave in Downtown. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-055",
+      "title": "Container 415 (Little Cuba)",
+      "category": "street-art",
+      "subgroup": "Containers",
+      "spoiler": true,
+      "guide": "Sitting on a bench beneath an overhang beside a flag-topped white building next to Casa del Sol on NW 3rd Ave, eastern Little Cuba. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-056",
+      "title": "Container 338 (Stockyard)",
+      "category": "street-art",
+      "subgroup": "Containers",
+      "spoiler": true,
+      "guide": "In a corner of the Coral Ave - B bus stop on Coral Ave, Stockyard. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-057",
+      "title": "Container 410 (Decor District)",
+      "category": "street-art",
+      "subgroup": "Containers",
+      "spoiler": true,
+      "guide": "On an electrical box on the sidewalk in front of the Vice Decor District Optometrist building on NE 20th St, western Decor District. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-058",
+      "title": "Container 23 (Ocean Beach)",
+      "category": "street-art",
+      "subgroup": "Containers",
+      "spoiler": true,
+      "guide": "Atop a stone wall beside a hedge by the Shore Dr sidewalk, next to the Positano Towers in southern Ocean Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-059",
+      "title": "Container 313 (Ocean Beach)",
+      "category": "street-art",
+      "subgroup": "Containers",
+      "spoiler": true,
+      "guide": "On an electrical box beside a trash can along the side of the building housing Celosa Hair & Nail salon on Thompson Ct, Ocean Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-060",
+      "title": "Container 290 (Ocean Beach)",
+      "category": "street-art",
+      "subgroup": "Containers",
+      "spoiler": true,
+      "guide": "On the corner of a ledge wall around the Vice-Dale Health Clinic parking lot, next to an alley leading off Indigo St in Ocean Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-061",
+      "title": "Container 474 (Washington Beach)",
+      "category": "street-art",
+      "subgroup": "Containers",
+      "spoiler": true,
+      "guide": "Beside a big blue trash can on the sand by the beach off Barlow St, southeastern Washington Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-062",
+      "title": "Container 259 (Ocean Beach)",
+      "category": "street-art",
+      "subgroup": "Containers",
+      "spoiler": true,
+      "guide": "Below a garage door midway down the alley between Grape St and Fig St, behind the Palm Leaf Cafe in Ocean Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-063",
+      "title": "Container 97 (La Perle)",
+      "category": "street-art",
+      "subgroup": "Containers",
+      "spoiler": true,
+      "guide": "Atop a sealed dumpster beside NW 13th St, next to the Grey Matter Ready-Mix Cement factory in La Perle. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-064",
+      "title": "Container 211 (Washington Beach)",
+      "category": "street-art",
+      "subgroup": "Containers",
+      "spoiler": true,
+      "guide": "On the walkway above the dock behind the Basix grocery store, close to the SW 4th St bridge across the river in Washington Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-065",
+      "title": "Container 54 (Tequesta)",
+      "category": "street-art",
+      "subgroup": "Containers",
+      "spoiler": true,
+      "guide": "On an electrical box beneath the northwestern stairs up to Peacock Bay train station, near Barentine Dr where Tequesta meets Peacock Bay. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-066",
+      "title": "Container 73 (Bayside)",
+      "category": "street-art",
+      "subgroup": "Containers",
+      "spoiler": true,
+      "guide": "Beneath the stairs to the second floor of a green apartment complex on Mirimar Dr, by the Mirimar Dr - C bus stop where Crosstown meets Bayside. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-067",
+      "title": "Cone 246 (Crosstown)",
+      "category": "street-art",
+      "subgroup": "Cones",
+      "spoiler": true,
+      "guide": "Below an electric pole against the concrete wall around the Mastodon U.S.A. factory at NE 14th St and NE 5th Ave, where Bayside meets Crosstown. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-068",
+      "title": "Cone 29 (Downtown)",
+      "category": "street-art",
+      "subgroup": "Cones",
+      "spoiler": true,
+      "guide": "Beside a pile of large pipes by South Vice Ave, at the bend of the road that circles the bam1 condominiums building in southern Downtown. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-069",
+      "title": "Cone 435 (Decor District)",
+      "category": "street-art",
+      "subgroup": "Cones",
+      "spoiler": true,
+      "guide": "By the north entrance to the Opulence Condominium construction site on Catalan Blvd, Decor District. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-070",
+      "title": "Cone 492 (Downtown)",
+      "category": "street-art",
+      "subgroup": "Cones",
+      "spoiler": true,
+      "guide": "Against a half-built wall on the sidewalk beside a construction site on NW 4th St, Downtown. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-071",
+      "title": "Cone 344 (Ocean Beach)",
+      "category": "street-art",
+      "subgroup": "Cones",
+      "spoiler": true,
+      "guide": "In a small work area beside the unfinished Climax Condominiums building on Thompson Ave, Ocean Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-072",
+      "title": "Cone 162 (Ocean Beach)",
+      "category": "street-art",
+      "subgroup": "Cones",
+      "spoiler": true,
+      "guide": "Beside Accum Tower's rear entrance on Thompson Ct, Ocean Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-073",
+      "title": "Cone 200 (Downtown)",
+      "category": "street-art",
+      "subgroup": "Cones",
+      "spoiler": true,
+      "guide": "Under the support pole beneath the railroad tracks at NE 5th St and NE 1st Ave, Downtown. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-074",
+      "title": "Cone 183 (La Perle)",
+      "category": "street-art",
+      "subgroup": "Cones",
+      "spoiler": true,
+      "guide": "Against the brick wall around the Grey Matter Ready-Mix Cement factory, on the NE 4th St sidewalk in northeastern La Perle. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-075",
+      "title": "Cone 399 (Rockridge)",
+      "category": "street-art",
+      "subgroup": "Cones",
+      "spoiler": true,
+      "guide": "In a corner of a parking space behind the Bailey's Bail Bonds building on NW 5th St, Rockridge. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-076",
+      "title": "Cone 163 (Salton)",
+      "category": "street-art",
+      "subgroup": "Cones",
+      "spoiler": true,
+      "guide": "At the foot of the pillar supporting the train tracks where SW 6th Ave meets a little side street, Salton. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-077",
+      "title": "Cone 395 (Southside)",
+      "category": "street-art",
+      "subgroup": "Cones",
+      "spoiler": true,
+      "guide": "Against the fence within a construction lot at SW 10th Ave and SW 11th St, central Southside. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-078",
+      "title": "Cone 293 (Starfish Island)",
+      "category": "street-art",
+      "subgroup": "Cones",
+      "spoiler": true,
+      "guide": "Beneath a light post outside the Ryder Construction site at South Vice Ave and Harbor Sound Dr, southern Tequesta. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-079",
+      "title": "Cone 12 (Downtown)",
+      "category": "street-art",
+      "subgroup": "Cones",
+      "spoiler": true,
+      "guide": "At the foot of a post under the I-97 bridge, on the NW 4th Ct sidewalk where Little Cuba meets Downtown. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-080",
+      "title": "Buckets 394 (Tequesta)",
+      "category": "street-art",
+      "subgroup": "Buckets",
+      "spoiler": true,
+      "guide": "Between a stepladder and a bucket at the front corner of the Xero gas station on Bayside Dr, northwestern Tequesta. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-081",
+      "title": "Buckets 212 (Decor District)",
+      "category": "street-art",
+      "subgroup": "Buckets",
+      "spoiler": true,
+      "guide": "Atop a dumpster on the sidewalk in front of the unfinished Têtes à Claques store on NE 19th St, Decor District. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-082",
+      "title": "Buckets 314 (La Perle)",
+      "category": "street-art",
+      "subgroup": "Buckets",
+      "spoiler": true,
+      "guide": "On an electrical box at the corner outside a derelict building at Saltbank Rd and Del Rio Blvd, La Perle. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-083",
+      "title": "Buckets 271 (Ocean Beach)",
+      "category": "street-art",
+      "subgroup": "Buckets",
+      "spoiler": true,
+      "guide": "Beside an electrical panel under an overhang outside a white-and-teal apartment complex on Huevo St, western Ocean Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-084",
+      "title": "Buckets 310 (Ocean Beach)",
+      "category": "street-art",
+      "subgroup": "Buckets",
+      "spoiler": true,
+      "guide": "Squeezed between a building's side and a stairway in the alley behind the Ava Addair Gallery, off Grape St in Ocean Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-085",
+      "title": "Buckets 274 (Ocean Beach)",
+      "category": "street-art",
+      "subgroup": "Buckets",
+      "spoiler": true,
+      "guide": "On a ledge at the top of a stairway in the alley behind Mart Nouveau on Atlantic Ct, northern Ocean Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-086",
+      "title": "Buckets 195 (Ocean Beach)",
+      "category": "street-art",
+      "subgroup": "Buckets",
+      "spoiler": true,
+      "guide": "Above an opening into the first floor of the unfinished Palus Developments building on Jasmina Blvd, southern Ocean Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-087",
+      "title": "Buckets 129 (Peacock Bay)",
+      "category": "street-art",
+      "subgroup": "Buckets",
+      "spoiler": true,
+      "guide": "Beside a maintenance room along the road to the parking lot behind the Peacock Bay Playhouse, off SW 5th Ave in Peacock Bay. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-088",
+      "title": "Buckets 171 (Salton)",
+      "category": "street-art",
+      "subgroup": "Buckets",
+      "spoiler": true,
+      "guide": "Under a folding table on the front porch of an old apartment building at SW 8th Ave and SW 4th St, southern Salton. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-089",
+      "title": "Buckets 304 (Salton)",
+      "category": "street-art",
+      "subgroup": "Buckets",
+      "spoiler": true,
+      "guide": "Beneath a bush by a half wall in front of a yellow apartment complex on SW 7th Ave, southern Salton. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-090",
+      "title": "Buckets 437 (Washington Beach)",
+      "category": "street-art",
+      "subgroup": "Buckets",
+      "spoiler": true,
+      "guide": "On the street beneath a green dumpster beside the unfinished Hoopla building on Shorebeach Rd, southern Washington Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-091",
+      "title": "Pallet 346 (Crosstown)",
+      "category": "street-art",
+      "subgroup": "Pallets",
+      "spoiler": true,
+      "guide": "Against the side of El Gran Salón by the trash, off NE 1st Ave in Crosstown's southeastern corner. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-092",
+      "title": "Pallet 353 (Downtown)",
+      "category": "street-art",
+      "subgroup": "Pallets",
+      "spoiler": true,
+      "guide": "Propped against the entrance area of the Golden Palms Suites in a narrow alley on South Vice Ave, Downtown. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-093",
+      "title": "Pallet 307 (Downtown)",
+      "category": "street-art",
+      "subgroup": "Pallets",
+      "spoiler": true,
+      "guide": "Against a wall within the side lot by the MVP Park ramp, where Catalan Blvd meets the Mariner's Hwy ramp in southern Downtown. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-094",
+      "title": "Pallet 50 (Southside)",
+      "category": "street-art",
+      "subgroup": "Pallets",
+      "spoiler": true,
+      "guide": "Against the side of Cafeteria Sofia at the north end of Morale's mini mall, at SW 3rd Ave and SW 11th Way in Southside. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-095",
+      "title": "Pallet 234 (Ocean Beach)",
+      "category": "street-art",
+      "subgroup": "Pallets",
+      "spoiler": true,
+      "guide": "Against a blue shipping container on a dirt road beside the Hummingbird Park Baseball Stadium, northern Ocean Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-096",
+      "title": "Pallet 113 (Ocean Beach)",
+      "category": "street-art",
+      "subgroup": "Pallets",
+      "spoiler": true,
+      "guide": "Against the side of the abandoned 247 at Harborside Ave and Indigo St, Ocean Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-097",
+      "title": "Pallet 253 (Ocean Beach)",
+      "category": "street-art",
+      "subgroup": "Pallets",
+      "spoiler": true,
+      "guide": "Against the side of the Cruda y Asi customer lot behind a pink apartment complex on Huevo St, Ocean Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-098",
+      "title": "Pallet 328 (Ocean Beach)",
+      "category": "street-art",
+      "subgroup": "Pallets",
+      "spoiler": true,
+      "guide": "Against a blue shipping container by a cul-de-sac at the end of a road off Barlow St, beside the Aruna Apartments in northwestern Ocean Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-099",
+      "title": "Pallet 134 (Ocean Beach)",
+      "category": "street-art",
+      "subgroup": "Pallets",
+      "spoiler": true,
+      "guide": "Against the Dominion Hotel's west side beneath a telephone pole on Shore Ct, northern Ocean Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-100",
+      "title": "Pallet 432 (Peacock Bay)",
+      "category": "street-art",
+      "subgroup": "Pallets",
+      "spoiler": true,
+      "guide": "Against the side of Leonida National Bank beneath a ladder, near Totemica on SW 5th Ave in Peacock Bay. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-101",
+      "title": "Pallet 108 (Salton)",
+      "category": "street-art",
+      "subgroup": "Pallets",
+      "spoiler": true,
+      "guide": "Against the metal fence dividing the Lusting Sensations adult store from the Waterway Coastal Supply entrance on Westbrook Dr, southern Salton. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-102",
+      "title": "Pallet 154 (Southside)",
+      "category": "street-art",
+      "subgroup": "Pallets",
+      "spoiler": true,
+      "guide": "Against the north wall of the RON gas station at SW 9th Ave and El Joven Blvd, northern Southside. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-103",
+      "title": "Pallet 434 (Ocean Beach)",
+      "category": "street-art",
+      "subgroup": "Pallets",
+      "spoiler": true,
+      "guide": "Against the second garage door from the left along the park walkway by the beach, southern Ocean Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-104",
+      "title": "Chair 337 (Decor District)",
+      "category": "street-art",
+      "subgroup": "Chairs",
+      "spoiler": true,
+      "guide": "Propped in the doorway of a side entrance to the Pizzazz building on NE 17th St, southern Decor District. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-105",
+      "title": "Chair 436 (Crosstown)",
+      "category": "street-art",
+      "subgroup": "Chairs",
+      "spoiler": true,
+      "guide": "Against the rear of a tan-and-red apartment complex beside a couch on NE 4th Ave, Crosstown. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-106",
+      "title": "Chair 135 (Downtown)",
+      "category": "street-art",
+      "subgroup": "Chairs",
+      "spoiler": true,
+      "guide": "Beside a door in a narrow alley between the New Quay Plaza building and the Petra Apartments on East Royale St, Downtown. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-107",
+      "title": "Chair 169 (Downtown)",
+      "category": "street-art",
+      "subgroup": "Chairs",
+      "spoiler": true,
+      "guide": "Against the railing atop the stairs to The Vault's second-floor back exit on NW 6th St, northwestern Downtown. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-108",
+      "title": "Chair 370 (Peacock Bay)",
+      "category": "street-art",
+      "subgroup": "Chairs",
+      "spoiler": true,
+      "guide": "Against a half wall at the top of a short stairway to a side door of the Banquet Bay Marina, on the water off SW 3rd Ave in Peacock Bay. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-109",
+      "title": "Chair 98 (La Perle)",
+      "category": "street-art",
+      "subgroup": "Chairs",
+      "spoiler": true,
+      "guide": "Against the gated side entrance of the little mini mall on NW 11th St, in La Perle's southwestern corner. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-110",
+      "title": "Chair 286 (Tequesta)",
+      "category": "street-art",
+      "subgroup": "Chairs",
+      "spoiler": true,
+      "guide": "Against the Mine Sweeper's wall on the Bayside Dr sidewalk, Tequesta. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-111",
+      "title": "Chair 99 (Washington Beach)",
+      "category": "street-art",
+      "subgroup": "Chairs",
+      "spoiler": true,
+      "guide": "Against the wall beneath a green stairway beside Fast Eddie's Pizza on SW 4th St, Oldby Island. Scan it with WAiNK."
+    },
+    {
+      "id": "sa-112",
+      "title": "Chair 145 (Ocean Beach)",
+      "category": "street-art",
+      "subgroup": "Chairs",
+      "spoiler": true,
+      "guide": "Against Josefina Perfect Image's outer wall in the walkway cutting through the building between Josefina's and Dream Shoes on Shorefront Ave, Ocean Beach. Scan it with WAiNK."
+    },
+    {
+      "id": "ee-06",
+      "title": "Easter egg 6",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "guide": "A puzzle in a chapter 3 apartment that leads to a hidden garage.",
+      "revealedTitle": "Vanessa's laptop",
+      "revealedGuide": "In the chapter 3 apartment, the memorial photo, the notepad on the vanity and the back of that notepad give the laptop password: Muffins, Queen, 15, in that order. A message then sends you code 92665 for a garage with a bow drawn on it behind Auntie's Place in La Perle (reach it through the motel lot next to Aline's Thrift Store). Inside is Vanessa's pink Pfister Growler, and the Del Rio Blvd garage becomes yours free."
     }
   ],
   "rules": {
@@ -40531,15 +41910,15 @@
       },
       "tr-03": {
         "type": "played",
-        "id": "ms-022"
+        "id": "ms-023"
       },
       "tr-04": {
         "type": "played",
-        "id": "ms-033"
+        "id": "ms-034"
       },
       "tr-05": {
         "type": "played",
-        "id": "ms-059"
+        "id": "ms-061"
       },
       "tr-06": {
         "type": "played",
@@ -40783,7 +42162,11 @@
           "ws-blanco-memorial",
           "ws-chariot-to-valhalla",
           "ws-junkyard-t-rex",
-          "ws-buckskin-swamp-totem"
+          "ws-buckskin-swamp-totem",
+          "wb-01",
+          "wb-02",
+          "wb-03",
+          "wb-04"
         ]
       },
       "tr-15": {
