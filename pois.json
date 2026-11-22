@@ -1,5 +1,5 @@
 {
-  "version": 77,
+  "version": 78,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -394,7 +394,7 @@
       "verb": "discovered",
       "chapterOrdered": true,
       "collectible": true,
-      "intro": "The game's Weapons log, tab by tab, with each gun's stats as the log shows them. The log has four tabs: Guns (53 slots), Melee (9), Explosives (4) and Variants (130). The game's 100% checklist needs 50 of the 66 standard issue weapons (guns, melee and explosives); variants are extra. Every gun and explosive has its own row now, along with 6 melee weapons and 14 variants so far; each tab ends with a counter for the ones not listed yet."
+      "intro": "The game's Weapons log, tab by tab, with each gun's stats as the log shows them. The log has four tabs: Guns (53 slots), Melee (9), Explosives (4) and Variants (130). The game's 100% checklist needs 50 of the 66 standard issue weapons (guns, melee and explosives); variants are extra. Every gun and explosive has its own row now, along with 6 melee weapons and 15 variants so far; the tabs still missing some end with a counter for the ones not listed yet."
     },
     {
       "id": "kenton-sets",
@@ -2006,7 +2006,8 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 3.",
       "revealedTitle": "South Leonida Real Estate",
-      "revealedGuide": "Chapter 3 story mission."
+      "revealedGuide": "M7 kidnap Mia, then Lucia when she tries to save her. To stay alive, Mia offers to find M7 boss Terro a better headquarters; when his lieutenant Viper tries to take the gang, Lucia helps Terro beat him, and M7 let them go with a generous commission.",
+      "revealedImageURL": "https://leonidalog.app/images/missions/ms-039-v2.jpg"
     },
     {
       "id": "ms-040",
@@ -2151,7 +2152,8 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 3.",
       "revealedTitle": "Ride or Die",
-      "revealedGuide": "Chapter 3 story mission."
+      "revealedGuide": "Dre'Quan's payback on DWNPLY: Jason poses as a fan to steal DWNPLY's car from the Eris store, then the two shake off his bodyguard Bush and Cash City, the gang he pays for protection.",
+      "revealedImageURL": "https://leonidalog.app/images/missions/ms-052-v2.jpg"
     },
     {
       "id": "ms-053",
@@ -2161,7 +2163,8 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 3.",
       "revealedTitle": "Company Property",
-      "revealedGuide": "Chapter 3 story mission."
+      "revealedGuide": "Brian repays Raul by bringing in a weapons shipment from his old smuggling contact, Pilot Pete. The unloading goes wrong when the IAA and the cops turn up, and everyone has to run.",
+      "revealedImageURL": "https://leonidalog.app/images/missions/ms-053-v2.jpg"
     },
     {
       "id": "ms-054",
@@ -2171,7 +2174,8 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 3.",
       "revealedTitle": "The Missing Link",
-      "revealedGuide": "Chapter 3 story mission."
+      "revealedGuide": "Andrea sets up a meet with Monty, a La Polilla Negra enforcer, at a Watson Bay cockfight. After a fight, Jason and Lucia get him back to Vice City, where Raul's crew dangle him over a pool full of alligators for answers.",
+      "revealedImageURL": "https://leonidalog.app/images/missions/ms-054-v2.jpg"
     },
     {
       "id": "ms-055",
@@ -2181,7 +2185,8 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 3.",
       "revealedTitle": "Safe Word",
-      "revealedGuide": "Chapter 3 story mission."
+      "revealedGuide": "Nicole knows the Sinfrontera National Bank safe, but wants Lucia to practise first: Jason and Lucia steal a smaller one from a porn producer's mansion, rip it out with a truck and drag it across Vice City to Raul's base.",
+      "revealedImageURL": "https://leonidalog.app/images/missions/ms-055-v2.jpg"
     },
     {
       "id": "ms-056",
@@ -2201,7 +2206,8 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 3.",
       "revealedTitle": "Bricked Up",
-      "revealedGuide": "Chapter 3 story mission."
+      "revealedGuide": "Boobie lets them stay if they work for him: they collect bricks of coke San4San owe him in Rockridge, get caught in a raid by Captain Méndez and his crooked cops, and decide it's time to leave Boobie's apartment.",
+      "revealedImageURL": "https://leonidalog.app/images/missions/ms-057-v2.jpg"
     },
     {
       "id": "ms-058",
@@ -2211,7 +2217,8 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 3.",
       "revealedTitle": "Hidden Charges",
-      "revealedGuide": "Chapter 3 story mission."
+      "revealedGuide": "Karim needs a distraction for the bank job, so Jason and Lucia plant explosives on cell towers across Vice City to cut the banks' emergency lines. They also tell Raul about Tomás and the hard drive, and he agrees to help after the heist.",
+      "revealedImageURL": "https://leonidalog.app/images/missions/ms-058-v2.jpg"
     },
     {
       "id": "ms-059",
@@ -2221,7 +2228,8 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 3.",
       "revealedTitle": "The Cartel Heist",
-      "revealedGuide": "Chapter 3 story mission."
+      "revealedGuide": "Raul's crew hits Sinfrontera National Bank. Later, Raul calls with an advance on their cut and a suite at the Y Hotel.",
+      "revealedImageURL": "https://leonidalog.app/images/missions/ms-059-v2.jpg"
     },
     {
       "id": "ms-060",
@@ -2231,7 +2239,8 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 4.",
       "revealedTitle": "Ocean Beach",
-      "revealedGuide": "Chapter 4 story mission."
+      "revealedGuide": "Valentina moves Jason and Lucia into a suite at the Y Hotel as part of her money laundering, introduces the concierge, Santino, and promises a meeting with Vice City lawyer Abraham Gonzalez to get them new lives.",
+      "revealedImageURL": "https://leonidalog.app/images/missions/ms-060-v2.jpg"
     },
     {
       "id": "ms-061",
@@ -2241,7 +2250,8 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 4.",
       "revealedTitle": "Another Life",
-      "revealedGuide": "Chapter 4 story mission."
+      "revealedGuide": "Lucia remembers her last morning with Tomás and the hours before her arrest.",
+      "revealedImageURL": "https://leonidalog.app/images/missions/ms-061-v2.jpg"
     },
     {
       "id": "ms-062",
@@ -2251,7 +2261,8 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 4.",
       "revealedTitle": "Company Cars",
-      "revealedGuide": "Chapter 4 story mission."
+      "revealedGuide": "Jason and Lucia pick up new high-end cars from Status Auto Imports, courtesy of Valentina.",
+      "revealedImageURL": "https://leonidalog.app/images/missions/ms-062-v2.jpg"
     },
     {
       "id": "ms-063",
@@ -2989,10 +3000,11 @@
       "guide": "Strangers & Freaks side mission, strand 11. Unlocks in chapter 3.",
       "revealedTitle": "Take Out Kitty Litter",
       "revealedGivenBy": "Tyrone",
-      "revealedGuide": "Tyrone's strand, mission 1 of 2. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Shut down the Kitty Litter labs. It starts at the diner just outside Grayson. Each lab is somewhere inside a purple search area: look for pink smoke. Each pays $2,000 to $2,500. They aren't missable and can still be destroyed after the story, and burnt-out buildings show the ones you've done.",
+      "revealedGuide": "Tyrone's strand, mission 1 of 2. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Shut down the Kitty Litter labs; the game's story recap lists it as Kitty Litter Labs, right after Here, Kitty Kitty. It starts at the diner just outside Grayson. Each lab is somewhere inside a purple search area: look for pink smoke. Each pays $2,000 to $2,500. They aren't missable and can still be destroyed after the story, and burnt-out buildings show the ones you've done.",
       "guideLinks": {
         "Strangers & Freaks": "tr-25"
-      }
+      },
+      "revealedImageURL": "https://leonidalog.app/images/missions/sf-31-v2.jpg"
     },
     {
       "id": "sf-32",
@@ -5070,8 +5082,8 @@
       "category": "cards",
       "subgroup": "Liberty City Swingers",
       "spoiler": true,
-      "nx": 0.6282,
-      "ny": 0.5255,
+      "nx": 0.6286,
+      "ny": 0.5252,
       "region": "Vice-Dale County",
       "guide": "One of the 24 cards in the Liberty City Swingers set. At Vice Civic Center station on the Central Line: up on the top-floor platform, on the end of the bench on the Southbound side."
     },
@@ -5244,14 +5256,15 @@
     },
     {
       "id": "cd-05-21",
+      "imageURL": "https://leonidalog.app/images/cards/cd-05-21.jpg",
       "title": "Mario Rugama - Silver",
       "category": "cards",
       "subgroup": "Liberty City Swingers",
       "spoiler": true,
-      "nx": 0.6068,
-      "ny": 0.2093,
+      "nx": 0.6066,
+      "ny": 0.2097,
       "region": "Lummox County",
-      "guide": "One of the 24 cards in the Liberty City Swingers set. Follow the map pin."
+      "guide": "One of the 24 cards in the Liberty City Swingers set. Outside the gas station store: on the picnic table under the Lottery Tickets window, next to the crisp packets."
     },
     {
       "id": "cd-05-22",
@@ -7673,6 +7686,7 @@
     },
     {
       "id": "cd-15-06",
+      "imageURL": "https://leonidalog.app/images/cards/cd-15-06.jpg",
       "title": "Braelynn - Purple",
       "category": "cards",
       "subgroup": "Nine1Nine Dancers",
@@ -7680,7 +7694,7 @@
       "nx": 0.6028,
       "ny": 0.2013,
       "region": "Lummox County",
-      "guide": "One of the 36 cards in the Nine1Nine Dancers set. Follow the map pin."
+      "guide": "One of the 36 cards in the Nine1Nine Dancers set. At the top of the wrecked church, up under the slanted roof: on the floor by the little white table with the lantern, next to a sleeping bag and snack wrappers."
     },
     {
       "id": "cd-15-07",
@@ -7863,6 +7877,7 @@
     },
     {
       "id": "cd-15-23",
+      "imageURL": "https://leonidalog.app/images/cards/cd-15-23.jpg",
       "title": "Lavinia - Pink",
       "category": "cards",
       "subgroup": "Nine1Nine Dancers",
@@ -7870,7 +7885,7 @@
       "nx": 0.6137,
       "ny": 0.206,
       "region": "Lummox County",
-      "guide": "One of the 36 cards in the Nine1Nine Dancers set. Follow the map pin."
+      "guide": "One of the 36 cards in the Nine1Nine Dancers set. Climb the ladder at the back of the building and drop in: in the room with the homemade still, on top of the wooden barrel under the window."
     },
     {
       "id": "cd-15-24",
@@ -8710,14 +8725,15 @@
     },
     {
       "id": "cd-17-27",
+      "imageURL": "https://leonidalog.app/images/cards/cd-17-27.jpg",
       "title": "Right Wing vs Left Wing - White",
       "category": "cards",
       "subgroup": "Right Wing: America's Hero",
       "spoiler": true,
-      "nx": 0.599,
-      "ny": 0.1869,
+      "nx": 0.5986,
+      "ny": 0.187,
       "region": "Lummox County",
-      "guide": "One of the 36 cards in the Right Wing: America's Hero set. Follow the map pin."
+      "guide": "One of the 36 cards in the Right Wing: America's Hero set. In the small wood-panelled washroom: on the floor between the toilet and the sink, next to a comic."
     },
     {
       "id": "cd-17-28",
@@ -9179,8 +9195,8 @@
       "category": "cards",
       "subgroup": "Ed Comics Universe",
       "spoiler": true,
-      "nx": 0.6088,
-      "ny": 0.1742,
+      "nx": 0.6082,
+      "ny": 0.1738,
       "region": "Lummox County",
       "guide": "One of the 36 cards in the Ed Comics Universe set. At the fish-shaped snack shack that's closed for the season: on the wooden serving counter under the shutter."
     },
@@ -10113,7 +10129,7 @@
       "nx": 0.54,
       "ny": 0.722,
       "guide": "South edge of Hamlet, on the south side of the building.",
-      "region": "Mariana County"
+      "region": "Vice-Dale County"
     },
     {
       "id": "po-2",
@@ -12303,13 +12319,14 @@
     },
     {
       "id": "mz-15",
+      "imageURL": "https://leonidalog.app/images/magazines/mz-15.jpg",
       "title": "The Cowboy's Prayer is to Die Young",
       "category": "magazines",
       "subgroup": "Lummox County",
       "spoiler": true,
-      "nx": 0.469,
-      "ny": 0.198,
-      "guide": "Moreau: on the main room table of the unmarked building north of Taco Bomb West Kalaga.",
+      "nx": 0.6112,
+      "ny": 0.2097,
+      "guide": "Inside Jacob's Tavern, across the road from the gas station store: on the round table in the main room, by the ATM.",
       "region": "Lummox County"
     },
     {
@@ -39578,6 +39595,25 @@
       ]
     },
     {
+      "id": "wp-flash-grenade",
+      "title": "Flash Grenade",
+      "category": "weapons",
+      "subgroup": "Explosives",
+      "imageURL": "https://leonidalog.app/images/weapons/flash-grenade-v2.jpg",
+      "spoiler": true,
+      "guide": "Non-lethal explosive that briefly blinds enemies.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Explosives"
+        },
+        {
+          "label": "Log entry",
+          "value": "1 of 4"
+        }
+      ]
+    },
+    {
       "id": "wp-frag-grenade",
       "title": "Frag Grenade",
       "category": "weapons",
@@ -40170,8 +40206,48 @@
       "category": "weapons",
       "subgroup": "Explosives",
       "spoiler": true,
-      "guide": "Count the explosives you've discovered that don't have their own row here yet: 3 of the 4 are listed above, so 1 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
-      "tallyTarget": 1
+      "guide": "Count the explosives you've discovered that don't have their own row here yet: All 4 now have their own row, so this counter is retired.",
+      "tallyTarget": 1,
+      "retired": true
+    },
+    {
+      "id": "wp-darknite-drifter",
+      "title": "Darknite Drifter",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "imageURL": "https://leonidalog.app/images/weapons/darknite-drifter-v2.jpg",
+      "spoiler": true,
+      "guide": "Side-by-side shotgun with promotional John Samuels liquor branding, a version of the Shrewsbury Drifter. Bought at Gellhorn Outfitters.",
+      "stats": [
+        {
+          "label": "Brand",
+          "value": "Shrewsbury"
+        },
+        {
+          "label": "Damage",
+          "value": "8.0"
+        },
+        {
+          "label": "Accuracy",
+          "value": "4.7"
+        },
+        {
+          "label": "Handling",
+          "value": "4.7"
+        },
+        {
+          "label": "Range",
+          "value": "2.5"
+        },
+        {
+          "label": "Category",
+          "value": "Variants"
+        },
+        {
+          "label": "Log entry",
+          "value": "73 of 130"
+        }
+      ]
     },
     {
       "id": "wp-more-variants",
@@ -40179,7 +40255,7 @@
       "category": "weapons",
       "subgroup": "Variants",
       "spoiler": true,
-      "guide": "Count the variants you've discovered that don't have their own row here yet: 14 of the 130 are listed above, so 116 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
+      "guide": "Count the variants you've discovered that don't have their own row here yet: 15 of the 130 are listed above, so 115 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
       "tallyTarget": 116
     },
     {
