@@ -1,5 +1,5 @@
 {
-  "version": 76,
+  "version": 77,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -1094,6 +1094,9 @@
       "revealedGuide": "Finish Randy's Wish List: 22 cars to steal and deliver. It opens with the chapter 3 mission Clonin' Keys, Makin' Gs, which also gives you the Key Cloner. Scan high-end cars with WAiNK to see if he wants them; hotels at Vice Beach and Ocean Beach are good hunting grounds. Cars in better shape pay more. Still open after the story.",
       "linkedCategories": [
         "standout-vehicles"
+      ],
+      "linkedSubgroups": [
+        "Vehicle requests (1)"
       ]
     },
     {
@@ -2669,6 +2672,9 @@
       "linkedCategories": [
         "standout-vehicles"
       ],
+      "linkedSubgroups": [
+        "Vehicle requests (2)"
+      ],
       "guideLinks": {
         "Strangers & Freaks": "tr-25"
       }
@@ -2966,6 +2972,9 @@
       "revealedGuide": "Randy's strand, mission 1 of 1. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy.",
       "linkedCategories": [
         "standout-vehicles"
+      ],
+      "linkedSubgroups": [
+        "Vehicle requests (1)"
       ],
       "guideLinks": {
         "Strangers & Freaks": "tr-25"
@@ -4597,7 +4606,7 @@
     },
     {
       "id": "cd-03-17",
-      "title": "Junior Taufua - Dusty Pink",
+      "title": "Tusi Taufua - Dusty Pink",
       "category": "cards",
       "subgroup": "Vice City Manatees",
       "spoiler": true,
@@ -4608,7 +4617,7 @@
     },
     {
       "id": "cd-03-18",
-      "title": "Junior Taufua - Green",
+      "title": "Tusi Taufua - Green",
       "category": "cards",
       "subgroup": "Vice City Manatees",
       "spoiler": true,
@@ -4619,14 +4628,15 @@
     },
     {
       "id": "cd-03-19",
-      "title": "Junior Taufua - Silver",
+      "imageURL": "https://leonidalog.app/images/cards/cd-03-19.jpg",
+      "title": "Tusi Taufua - Silver",
       "category": "cards",
       "subgroup": "Vice City Manatees",
       "spoiler": true,
       "nx": 0.6107,
       "ny": 0.1468,
       "region": "Lummox County",
-      "guide": "One of the 24 cards in the Vice City Manatees set. Follow the map pin."
+      "guide": "One of the 24 cards in the Vice City Manatees set. In the boat workshop: pinned to the cork noticeboard, just under the Land Ho marine fuel poster."
     },
     {
       "id": "cd-03-20",
@@ -5009,6 +5019,7 @@
     },
     {
       "id": "cd-05-01",
+      "imageURL": "https://leonidalog.app/images/cards/cd-05-01.jpg",
       "title": "Blake Balls - Bronze",
       "category": "cards",
       "subgroup": "Liberty City Swingers",
@@ -5016,7 +5027,7 @@
       "nx": 0.6117,
       "ny": 0.1703,
       "region": "Lummox County",
-      "guide": "One of the 24 cards in the Liberty City Swingers set. Follow the map pin."
+      "guide": "One of the 24 cards in the Liberty City Swingers set. At the side door of a house: on the wooden shoe rack by the potted plants, just right of the door."
     },
     {
       "id": "cd-05-02",
@@ -6038,6 +6049,7 @@
     },
     {
       "id": "cd-08-22",
+      "imageURL": "https://leonidalog.app/images/cards/cd-08-22.jpg",
       "title": "Terrence Jackson - Silver",
       "category": "cards",
       "subgroup": "Los Santos Corkers",
@@ -6045,7 +6057,7 @@
       "nx": 0.6107,
       "ny": 0.1761,
       "region": "Lummox County",
-      "guide": "One of the 24 cards in the Los Santos Corkers set. Follow the map pin."
+      "guide": "One of the 24 cards in the Los Santos Corkers set. Inside the open shipping container full of junk, by the big fish sign on the road: on top of the stack of planks, next to the football."
     },
     {
       "id": "cd-08-23",
@@ -6184,6 +6196,7 @@
     },
     {
       "id": "cd-09-11",
+      "imageURL": "https://leonidalog.app/images/cards/cd-09-11.jpg",
       "title": "Jakob Markic - Yellow",
       "category": "cards",
       "subgroup": "Los Santos Panic",
@@ -6191,7 +6204,7 @@
       "nx": 0.6107,
       "ny": 0.1712,
       "region": "Lummox County",
-      "guide": "One of the 24 cards in the Los Santos Panic set. Follow the map pin."
+      "guide": "One of the 24 cards in the Los Santos Panic set. In the front yard of the messy house full of dogs, east side of Lake Tallaloko: on the weighted base of the basketball hoop."
     },
     {
       "id": "cd-09-12",
@@ -6262,6 +6275,7 @@
     },
     {
       "id": "cd-09-18",
+      "imageURL": "https://leonidalog.app/images/cards/cd-09-18.jpg",
       "title": "Quinton Allen - Bronze",
       "category": "cards",
       "subgroup": "Los Santos Panic",
@@ -6269,7 +6283,7 @@
       "nx": 0.56,
       "ny": 0.1293,
       "region": "Lummox County",
-      "guide": "One of the 24 cards in the Los Santos Panic set. Follow the map pin."
+      "guide": "One of the 24 cards in the Los Santos Panic set. Inside the RV in the car park, with a couple of people passed out in it: in the small safe under the microwave, next to the stove."
     },
     {
       "id": "cd-09-19",
@@ -7501,6 +7515,7 @@
     },
     {
       "id": "cd-14-28",
+      "imageURL": "https://leonidalog.app/images/cards/cd-14-28.jpg",
       "title": "Pricilla Pace - Bronze",
       "category": "cards",
       "subgroup": "Jack of Hearts Dancers",
@@ -7508,7 +7523,7 @@
       "nx": 0.5298,
       "ny": 0.154,
       "region": "Lummox County",
-      "guide": "One of the 36 cards in the Jack of Hearts Dancers set. Follow the map pin."
+      "guide": "One of the 36 cards in the Jack of Hearts Dancers set. On the porch of the run-down wooden house by the rusty diesel tank: on top of the railing post at the top of the steps."
     },
     {
       "id": "cd-14-29",
@@ -8228,6 +8243,7 @@
     },
     {
       "id": "cd-16-21",
+      "imageURL": "https://leonidalog.app/images/cards/cd-16-21.jpg",
       "title": "Ratface - Purple",
       "category": "cards",
       "subgroup": "The Legends of Ratface",
@@ -8235,7 +8251,7 @@
       "nx": 0.6117,
       "ny": 0.1683,
       "region": "Lummox County",
-      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. In the back garden with the cat playground built round the trees: on the little wooden step on the tree trunk, just above the round red platform."
     },
     {
       "id": "cd-16-22",
@@ -8317,6 +8333,7 @@
     },
     {
       "id": "cd-16-29",
+      "imageURL": "https://leonidalog.app/images/cards/cd-16-29.jpg",
       "title": "The Ratster - Maroon",
       "category": "cards",
       "subgroup": "The Legends of Ratface",
@@ -8324,7 +8341,7 @@
       "nx": 0.6049,
       "ny": 0.181,
       "region": "Lummox County",
-      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. On the railed concrete platform over the canal, by the old steel bridge: on the pile of papers beside the blue plastic chair."
     },
     {
       "id": "cd-16-30",
@@ -8603,14 +8620,15 @@
     },
     {
       "id": "cd-17-19",
+      "imageURL": "https://leonidalog.app/images/cards/cd-17-19.jpg",
       "title": "President Quinn - Blue",
       "category": "cards",
       "subgroup": "Right Wing: America's Hero",
       "spoiler": true,
-      "nx": 0.5775,
-      "ny": 0.1527,
+      "nx": 0.583,
+      "ny": 0.1468,
       "region": "Lummox County",
-      "guide": "One of the 36 cards in the Right Wing: America's Hero set. Follow the map pin."
+      "guide": "One of the 36 cards in the Right Wing: America's Hero set. Climb up inside the big billboard right beside the highway, north-west of Lake Tallaloko: the card's on the metal catwalk, against the railing."
     },
     {
       "id": "cd-17-20",
@@ -9156,6 +9174,7 @@
     },
     {
       "id": "cd-18-33",
+      "imageURL": "https://leonidalog.app/images/cards/cd-18-33.jpg",
       "title": "Side Effect - Pink",
       "category": "cards",
       "subgroup": "Ed Comics Universe",
@@ -9163,7 +9182,7 @@
       "nx": 0.6088,
       "ny": 0.1742,
       "region": "Lummox County",
-      "guide": "One of the 36 cards in the Ed Comics Universe set. Follow the map pin."
+      "guide": "One of the 36 cards in the Ed Comics Universe set. At the fish-shaped snack shack that's closed for the season: on the wooden serving counter under the shutter."
     },
     {
       "id": "cd-18-34",
@@ -9205,8 +9224,8 @@
       "completeBefore": "chapter 2",
       "subgroup": "Mariana County",
       "spoiler": true,
-      "nx": 0.555,
-      "ny": 0.825,
+      "nx": 0.5527,
+      "ny": 0.8035,
       "guide": "During chapter 1 only, on the balcony at Jason's house. Missable.",
       "region": "Mariana County",
       "missable": true
@@ -9261,8 +9280,8 @@
       "category": "meditation",
       "subgroup": "Kelly County",
       "spoiler": true,
-      "nx": 0.453,
-      "ny": 0.43,
+      "nx": 0.4618,
+      "ny": 0.4333,
       "guide": "On the Emerald River bank at Camp Moonflower. This spot has two meditations.",
       "region": "Kelly County"
     },
@@ -9272,8 +9291,8 @@
       "category": "meditation",
       "subgroup": "Kelly County",
       "spoiler": true,
-      "nx": 0.453,
-      "ny": 0.43,
+      "nx": 0.4618,
+      "ny": 0.4333,
       "guide": "On the Emerald River bank at Camp Moonflower. This spot has two meditations.",
       "region": "Kelly County"
     },
@@ -9305,8 +9324,8 @@
       "category": "meditation",
       "subgroup": "Lummox County",
       "spoiler": true,
-      "nx": 0.477,
-      "ny": 0.19,
+      "nx": 0.4672,
+      "ny": 0.1565,
       "guide": "At the waterwheel of the ruined paper mill in south Moreau. This spot has two meditations.",
       "region": "Lummox County"
     },
@@ -9316,8 +9335,8 @@
       "category": "meditation",
       "subgroup": "Lummox County",
       "spoiler": true,
-      "nx": 0.477,
-      "ny": 0.19,
+      "nx": 0.4672,
+      "ny": 0.1565,
       "guide": "At the waterwheel of the ruined paper mill in south Moreau. This spot has two meditations.",
       "region": "Lummox County"
     },
@@ -9349,8 +9368,8 @@
       "category": "meditation",
       "subgroup": "Lummox County",
       "spoiler": true,
-      "nx": 0.545,
-      "ny": 0.182,
+      "nx": 0.5549,
+      "ny": 0.1459,
       "guide": "Northwest of Tallaloko, looking over a waterfall. This spot has two meditations.",
       "region": "Lummox County"
     },
@@ -9360,8 +9379,8 @@
       "category": "meditation",
       "subgroup": "Lummox County",
       "spoiler": true,
-      "nx": 0.545,
-      "ny": 0.182,
+      "nx": 0.5549,
+      "ny": 0.1459,
       "guide": "Northwest of Tallaloko, looking over a waterfall. This spot has two meditations.",
       "region": "Lummox County"
     },
@@ -9393,8 +9412,8 @@
       "category": "meditation",
       "subgroup": "Lummox County",
       "spoiler": true,
-      "nx": 0.495,
-      "ny": 0.225,
+      "nx": 0.4951,
+      "ny": 0.2034,
       "guide": "At the stone circle on the peak of Mount Kalaga. Opens up once you've done the others.",
       "region": "Lummox County"
     },
@@ -12665,13 +12684,14 @@
     },
     {
       "id": "ws-22",
-      "title": "Princes Robot Bubblegum Statue",
+      "imageURL": "https://leonidalog.app/images/waink/ws-22.jpg",
+      "title": "Princess Robot Bubblegum Statue",
       "category": "waink",
       "subgroup": "Sculptures",
       "spoiler": true,
       "nx": 0.7692,
       "ny": 0.4491,
-      "guide": "Sculpture 22. Scan it with WAiNK in Washington Beach.",
+      "guide": "Sculpture 22. Scan it with WAiNK in Washington Beach: the row of big golden heads outside the front of a high-rise apartment block by its drive-in entrance.",
       "region": "Vice Beach"
     },
     {
@@ -12983,13 +13003,15 @@
     },
     {
       "id": "wc-intriguing-substance",
+      "imageURL": "https://leonidalog.app/images/waink/wc-intriguing-substance.jpg",
       "title": "Intriguing Substance",
       "category": "waink",
       "subgroup": "Curiosities",
       "spoiler": true,
       "region": "Lummox County",
       "nx": 0.6049,
-      "ny": 0.1811
+      "ny": 0.1811,
+      "guide": "Scan it with WAiNK: the green slime oozing down the graffitied wall at the foot of the concrete stairs, by the storm drain outfall where the canal runs."
     },
     {
       "id": "wc-abismo-key-carcass",
@@ -13447,6 +13469,7 @@
     },
     {
       "id": "ws-junkyard-t-rex",
+      "imageURL": "https://leonidalog.app/images/waink/ws-junkyard-t-rex.jpg",
       "title": "Junkyard T-Rex",
       "category": "waink",
       "subgroup": "Sculptures",
@@ -18353,24 +18376,26 @@
     },
     {
       "id": "hp-061",
+      "imageURL": "https://leonidalog.app/images/hoops/hp-061.jpg",
       "title": "Washington Beach roof court (2)",
       "category": "hoops",
       "subgroup": "Vice-Dale County",
       "spoiler": true,
       "nx": 0.766,
       "ny": 0.4465,
-      "guide": "Lower roof of a big building, east Washington Beach: west end of the court.",
+      "guide": "Lower roof of the Y Hotel, east Washington Beach: west end of the court.",
       "region": "Vice-Dale County"
     },
     {
       "id": "hp-044",
+      "imageURL": "https://leonidalog.app/images/hoops/hp-044.jpg",
       "title": "Washington Beach roof court (1)",
       "category": "hoops",
       "subgroup": "Vice-Dale County",
       "spoiler": true,
       "nx": 0.7672,
       "ny": 0.4465,
-      "guide": "Lower roof of a big building, east Washington Beach: east end of the court.",
+      "guide": "Lower roof of the Y Hotel, east Washington Beach: east end of the court.",
       "region": "Vice-Dale County"
     },
     {
@@ -18650,6 +18675,7 @@
     },
     {
       "id": "hp-067",
+      "imageURL": "https://leonidalog.app/images/hoops/hp-067.jpg",
       "title": "Lake Tallaloko house",
       "category": "hoops",
       "subgroup": "Lummox County",
@@ -18661,6 +18687,7 @@
     },
     {
       "id": "hp-026",
+      "imageURL": "https://leonidalog.app/images/hoops/hp-026.jpg",
       "title": "Overkeel Boatyard",
       "category": "hoops",
       "subgroup": "Lummox County",
@@ -36742,6 +36769,8 @@
         }
       ],
       "guideLinks": {
+        "Boobie's laptop": "ee-06",
+        "a code on a laptop": "ee-06",
         "Little Boxes": "tr-54"
       }
     },
@@ -41569,7 +41598,11 @@
       "spoiler": true,
       "guide": "A puzzle in a chapter 3 apartment that leads to a hidden garage.",
       "revealedTitle": "Vanessa's laptop",
-      "revealedGuide": "In the chapter 3 apartment, the memorial photo, the notepad on the vanity and the back of that notepad give the laptop password: Muffins, Queen, 15, in that order. A message then sends you code 92665 for a garage with a bow drawn on it behind Auntie's Place in La Perle (reach it through the motel lot next to Aline's Thrift Store). Inside is Vanessa's pink Pfister Growler, and the Del Rio Blvd garage becomes yours free."
+      "revealedGuide": "In the chapter 3 apartment, the memorial photo, the notepad on the vanity and the back of that notepad give the laptop password: Muffins, Queen, 15, in that order. A message then sends you code 92665 for a garage with a bow drawn on it behind Auntie's Place in La Perle (reach it through the motel lot next to Aline's Thrift Store). Inside is Vanessa's pink Pfister Growler, and the Del Rio Blvd garage becomes yours free.",
+      "guideLinks": {
+        "Del Rio Blvd garage": "gr-13",
+        "a hidden garage": "gr-13"
+      }
     }
   ],
   "rules": {
