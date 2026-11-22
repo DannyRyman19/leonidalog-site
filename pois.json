@@ -1,5 +1,5 @@
 {
-  "version": 78,
+  "version": 79,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -2609,10 +2609,28 @@
       "guide": "Strangers & Freaks side mission, strand 2. Unlocks in chapter 1.",
       "revealedTitle": "Search for Tree Effigies",
       "revealedGivenBy": "Kirk",
-      "revealedGuide": "Kirk's strand, mission 2 of 3. Unlocks in chapter 1. Counts towards the Strangers & Freaks trophy. The three effigies are all in the Pelican Valley mangroves inside Kirk's search area: one in open swamp at the north end (south of Thorpe Adventures), one in a small wooded patch ringed by water in the middle, and one at the end of a long thin strip of trees.",
+      "revealedGuide": "Kirk's strand, mission 2 of 3. Unlocks in chapter 1. Counts towards the Strangers & Freaks trophy. The three effigies are all in the Pelican Valley mangroves inside Kirk's search area: one in open swamp at the north end (south of Thorpe Adventures), one in a small wooded patch ringed by water in the middle, and one at the end of a long thin strip of trees. They're figures made of branches and leaves strapped to tree trunks, easy to walk past: look for the arms reaching out from the bark. One looks different from the others, holding its own head, near the end of the dirt road at the north-west edge of the search area; there's a cleaver to pick up beside it.",
       "guideLinks": {
         "Strangers & Freaks": "tr-25"
-      }
+      },
+      "revealedImageURL": "https://leonidalog.app/images/missions/sf-04-v2.jpg",
+      "areas": [
+        {
+          "nx": 0.4773,
+          "ny": 0.7188,
+          "r": 0.003
+        },
+        {
+          "nx": 0.4894,
+          "ny": 0.7036,
+          "r": 0.003
+        },
+        {
+          "nx": 0.4683,
+          "ny": 0.7065,
+          "r": 0.003
+        }
+      ]
     },
     {
       "id": "sf-05",
@@ -3563,6 +3581,7 @@
     },
     {
       "id": "cs-01",
+      "imageURL": "https://leonidalog.app/images/card-sets/cs-01-v2.jpg",
       "title": "Vice City Flamingos",
       "category": "card-sets",
       "spoiler": true,
@@ -3582,6 +3601,7 @@
     },
     {
       "id": "cs-02",
+      "imageURL": "https://leonidalog.app/images/card-sets/cs-02-v2.jpg",
       "title": "Vice City Narcos",
       "category": "card-sets",
       "spoiler": true,
@@ -3601,6 +3621,7 @@
     },
     {
       "id": "cs-03",
+      "imageURL": "https://leonidalog.app/images/card-sets/cs-03-v2.jpg",
       "title": "Vice City Manatees",
       "category": "card-sets",
       "spoiler": true,
@@ -3620,6 +3641,7 @@
     },
     {
       "id": "cs-04",
+      "imageURL": "https://leonidalog.app/images/card-sets/cs-04-v2.jpg",
       "title": "Vice City Club De Futbol",
       "category": "card-sets",
       "spoiler": true,
@@ -3639,6 +3661,7 @@
     },
     {
       "id": "cs-05",
+      "imageURL": "https://leonidalog.app/images/card-sets/cs-05-v2.jpg",
       "title": "Liberty City Swingers",
       "category": "card-sets",
       "spoiler": true,
@@ -3674,10 +3697,11 @@
           }
         ]
       },
-      "imageURL": "https://leonidalog.app/images/card-sets/cs-06.jpg"
+      "imageURL": "https://leonidalog.app/images/card-sets/cs-06-v2.jpg"
     },
     {
       "id": "cs-07",
+      "imageURL": "https://leonidalog.app/images/card-sets/cs-07-v2.jpg",
       "title": "Liberty City Wrath",
       "category": "card-sets",
       "spoiler": true,
@@ -3713,10 +3737,11 @@
           }
         ]
       },
-      "imageURL": "https://leonidalog.app/images/card-sets/cs-08.jpg"
+      "imageURL": "https://leonidalog.app/images/card-sets/cs-08-v2.jpg"
     },
     {
       "id": "cs-09",
+      "imageURL": "https://leonidalog.app/images/card-sets/cs-09-v2.jpg",
       "title": "Los Santos Panic",
       "category": "card-sets",
       "spoiler": true,
@@ -3752,10 +3777,11 @@
           }
         ]
       },
-      "imageURL": "https://leonidalog.app/images/card-sets/cs-10.jpg"
+      "imageURL": "https://leonidalog.app/images/card-sets/cs-10-v2.jpg"
     },
     {
       "id": "cs-11",
+      "imageURL": "https://leonidalog.app/images/card-sets/cs-11-v2.jpg",
       "title": "Backyard Wrestling",
       "category": "card-sets",
       "spoiler": true,
@@ -3794,6 +3820,7 @@
     },
     {
       "id": "cs-13",
+      "imageURL": "https://leonidalog.app/images/card-sets/cs-13-v2.jpg",
       "title": "Delights Dancers",
       "category": "card-sets",
       "spoiler": true,
@@ -3813,6 +3840,7 @@
     },
     {
       "id": "cs-14",
+      "imageURL": "https://leonidalog.app/images/card-sets/cs-14-v2.jpg",
       "title": "Jack of Hearts Dancers",
       "category": "card-sets",
       "spoiler": true,
@@ -3832,6 +3860,7 @@
     },
     {
       "id": "cs-15",
+      "imageURL": "https://leonidalog.app/images/card-sets/cs-15-v2.jpg",
       "title": "Nine1Nine Dancers",
       "category": "card-sets",
       "spoiler": true,
@@ -3851,6 +3880,7 @@
     },
     {
       "id": "cs-16",
+      "imageURL": "https://leonidalog.app/images/card-sets/cs-16-v2.jpg",
       "title": "The Legends of Ratface",
       "category": "card-sets",
       "spoiler": true,
@@ -3870,6 +3900,7 @@
     },
     {
       "id": "cs-17",
+      "imageURL": "https://leonidalog.app/images/card-sets/cs-17-v2.jpg",
       "title": "Right Wing: America's Hero",
       "category": "card-sets",
       "spoiler": true,
@@ -3889,6 +3920,7 @@
     },
     {
       "id": "cs-18",
+      "imageURL": "https://leonidalog.app/images/card-sets/cs-18-v2.jpg",
       "title": "Ed Comics Universe",
       "category": "card-sets",
       "spoiler": true,
@@ -4034,7 +4066,8 @@
       "nx": 0.5404,
       "ny": 0.8243,
       "region": "Mariana County",
-      "guide": "One of the 24 cards in the Vice City Flamingos set. Outside a ground-floor motel room: on the ground by the cooler, next to the white plastic chair."
+      "guide": "One of the 24 cards in the Vice City Flamingos set. Outside a ground-floor motel room: on the ground by the cooler, next to the white plastic chair.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-01-12.jpg"
     },
     {
       "id": "cd-01-13",
@@ -4046,7 +4079,8 @@
       "nx": 0.3273,
       "ny": 0.3333,
       "region": "Kelly County",
-      "guide": "One of the 24 cards in the Vice City Flamingos set. Inside: on the bookcase shelf, next to the wooden elephant."
+      "guide": "One of the 24 cards in the Vice City Flamingos set. Inside: on the bookcase shelf, next to the wooden elephant.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-01-13.jpg"
     },
     {
       "id": "cd-01-14",
@@ -4080,7 +4114,8 @@
       "nx": 0.5317,
       "ny": 0.4828,
       "region": "Vice-Dale County",
-      "guide": "One of the 24 cards in the Vice City Flamingos set. In the gas station: in the back room behind the glass door, on top of the microwave."
+      "guide": "One of the 24 cards in the Vice City Flamingos set. In the gas station: in the back room behind the glass door, on top of the microwave.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-01-16.jpg"
     },
     {
       "id": "cd-01-17",
@@ -4159,7 +4194,8 @@
       "nx": 0.5073,
       "ny": 0.3178,
       "region": "Kelly County",
-      "guide": "One of the 24 cards in the Vice City Flamingos set. Climb the tower overlooking the Crystal Field baseball diamond: on the floor of the platform at the top."
+      "guide": "One of the 24 cards in the Vice City Flamingos set. Climb the tower overlooking the Crystal Field baseball diamond: on the floor of the platform at the top.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-01-23.jpg"
     },
     {
       "id": "cd-01-24",
@@ -4258,7 +4294,8 @@
       "nx": 0.5531,
       "ny": 0.8243,
       "region": "Mariana County",
-      "guide": "One of the 24 cards in the Vice City Narcos set. Follow the map pin."
+      "guide": "One of the 24 cards in the Vice City Narcos set. Follow the map pin.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-02-08.jpg"
     },
     {
       "id": "cd-02-09",
@@ -4336,7 +4373,8 @@
       "nx": 0.6516,
       "ny": 0.4523,
       "region": "Vice-Dale County",
-      "guide": "One of the 24 cards in the Vice City Narcos set. Dynamix Fitness gym: on the bench in the room just before the lockers and showers."
+      "guide": "One of the 24 cards in the Vice City Narcos set. Dynamix Fitness gym: on the bench in the room just before the lockers and showers.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-02-15.jpg"
     },
     {
       "id": "cd-02-16",
@@ -4359,7 +4397,8 @@
       "nx": 0.6106,
       "ny": 0.3957,
       "region": "Vice-Dale County",
-      "guide": "One of the 24 cards in the Vice City Narcos set. In the bedroom: inside the small safe in the wardrobe."
+      "guide": "One of the 24 cards in the Vice City Narcos set. In the bedroom: inside the small safe in the wardrobe.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-02-17.jpg"
     },
     {
       "id": "cd-02-18",
@@ -4426,7 +4465,8 @@
       "nx": 0.6272,
       "ny": 0.5333,
       "region": "Vice-Dale County",
-      "guide": "One of the 24 cards in the Vice City Narcos set. At the CBA construction site: in the storage room on the ground floor, inside locker 13."
+      "guide": "One of the 24 cards in the Vice City Narcos set. At the CBA construction site: in the storage room on the ground floor, inside locker 13.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-02-23.jpg"
     },
     {
       "id": "cd-02-24",
@@ -4548,7 +4588,8 @@
       "nx": 0.5109,
       "ny": 0.3398,
       "region": "Kelly County",
-      "guide": "One of the 24 cards in the Vice City Manatees set. Anti Sugar Residence: on the wall inside the garage."
+      "guide": "One of the 24 cards in the Vice City Manatees set. Anti Sugar Residence: on the wall inside the garage.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-03-10.jpg"
     },
     {
       "id": "cd-03-11",
@@ -4648,7 +4689,8 @@
       "nx": 0.6107,
       "ny": 0.1468,
       "region": "Lummox County",
-      "guide": "One of the 24 cards in the Vice City Manatees set. In the boat workshop: pinned to the cork noticeboard, just under the Land Ho marine fuel poster."
+      "guide": "One of the 24 cards in the Vice City Manatees set. In the boat workshop: pinned to the cork noticeboard, just under the Land Ho marine fuel poster.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-03-19.jpg"
     },
     {
       "id": "cd-03-20",
@@ -4660,7 +4702,8 @@
       "nx": 0.5416,
       "ny": 0.3151,
       "region": "Kelly County",
-      "guide": "One of the 24 cards in the Vice City Manatees set. In the back room full of shirts and trophies, on the bookshelf in the left corner."
+      "guide": "One of the 24 cards in the Vice City Manatees set. In the back room full of shirts and trophies, on the bookshelf in the left corner.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-03-20.jpg"
     },
     {
       "id": "cd-03-21",
@@ -4734,7 +4777,8 @@
       "nx": 0.6282,
       "ny": 0.5548,
       "region": "Vice-Dale County",
-      "guide": "One of the 30 cards in the Vice City Club De Futbol set. Follow the map pin."
+      "guide": "One of the 30 cards in the Vice City Club De Futbol set. Follow the map pin.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-04-03.jpg"
     },
     {
       "id": "cd-04-04",
@@ -4746,7 +4790,8 @@
       "nx": 0.328,
       "ny": 0.3465,
       "region": "Kelly County",
-      "guide": "One of the 30 cards in the Vice City Club De Futbol set. On the wooden bleachers by the chain-link fence: on the bench next to a drinks can and a camo backpack."
+      "guide": "One of the 30 cards in the Vice City Club De Futbol set. On the wooden bleachers by the chain-link fence: on the bench next to a drinks can and a camo backpack.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-04-04.jpg"
     },
     {
       "id": "cd-04-05",
@@ -4821,7 +4866,8 @@
       "nx": 0.5073,
       "ny": 0.3246,
       "region": "Kelly County",
-      "guide": "One of the 30 cards in the Vice City Club De Futbol set. On the bookcase in the first bedroom on the right as you come in from the road."
+      "guide": "One of the 30 cards in the Vice City Club De Futbol set. On the bookcase in the first bedroom on the right as you come in from the road.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-04-11.jpg"
     },
     {
       "id": "cd-04-12",
@@ -5039,7 +5085,8 @@
       "nx": 0.6117,
       "ny": 0.1703,
       "region": "Lummox County",
-      "guide": "One of the 24 cards in the Liberty City Swingers set. At the side door of a house: on the wooden shoe rack by the potted plants, just right of the door."
+      "guide": "One of the 24 cards in the Liberty City Swingers set. At the side door of a house: on the wooden shoe rack by the potted plants, just right of the door.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-05-01.jpg"
     },
     {
       "id": "cd-05-02",
@@ -5051,7 +5098,8 @@
       "nx": 0.5073,
       "ny": 0.3256,
       "region": "Kelly County",
-      "guide": "One of the 24 cards in the Liberty City Swingers set. On the chest of drawers in the bedroom opposite the bathroom."
+      "guide": "One of the 24 cards in the Liberty City Swingers set. On the chest of drawers in the bedroom opposite the bathroom.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-05-02.jpg"
     },
     {
       "id": "cd-05-03",
@@ -5085,7 +5133,8 @@
       "nx": 0.6286,
       "ny": 0.5252,
       "region": "Vice-Dale County",
-      "guide": "One of the 24 cards in the Liberty City Swingers set. At Vice Civic Center station on the Central Line: up on the top-floor platform, on the end of the bench on the Southbound side."
+      "guide": "One of the 24 cards in the Liberty City Swingers set. At Vice Civic Center station on the Central Line: up on the top-floor platform, on the end of the bench on the Southbound side.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-05-05.jpg"
     },
     {
       "id": "cd-05-06",
@@ -5119,7 +5168,8 @@
       "nx": 0.5386,
       "ny": 0.3187,
       "region": "Kelly County",
-      "guide": "One of the 24 cards in the Liberty City Swingers set. In the garage of the house on the left side."
+      "guide": "One of the 24 cards in the Liberty City Swingers set. In the garage of the house on the left side.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-05-08.jpg"
     },
     {
       "id": "cd-05-09",
@@ -5264,7 +5314,8 @@
       "nx": 0.6066,
       "ny": 0.2097,
       "region": "Lummox County",
-      "guide": "One of the 24 cards in the Liberty City Swingers set. Outside the gas station store: on the picnic table under the Lottery Tickets window, next to the crisp packets."
+      "guide": "One of the 24 cards in the Liberty City Swingers set. Outside the gas station store: on the picnic table under the Lottery Tickets window, next to the crisp packets.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-05-21.jpg"
     },
     {
       "id": "cd-05-22",
@@ -5374,7 +5425,8 @@
       "nx": 0.3484,
       "ny": 0.3746,
       "region": "Kelly County",
-      "guide": "One of the 24 cards in the Liberty City Penetrators set. Follow the map pin."
+      "guide": "One of the 24 cards in the Liberty City Penetrators set. Follow the map pin.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-06-07.jpg"
     },
     {
       "id": "cd-06-08",
@@ -5485,7 +5537,8 @@
       "nx": 0.5306,
       "ny": 0.8497,
       "region": "Mariana County",
-      "guide": "One of the 24 cards in the Liberty City Penetrators set. Crastenburg resort basketball court: on the ground just inside the gate."
+      "guide": "One of the 24 cards in the Liberty City Penetrators set. Crastenburg resort basketball court: on the ground just inside the gate.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-06-17.jpg"
     },
     {
       "id": "cd-06-18",
@@ -5551,7 +5604,8 @@
       "nx": 0.5863,
       "ny": 0.6369,
       "region": "Vice-Dale County",
-      "guide": "One of the 24 cards in the Liberty City Penetrators set. Follow the map pin."
+      "guide": "One of the 24 cards in the Liberty City Penetrators set. Follow the map pin.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-06-23.jpg"
     },
     {
       "id": "cd-06-24",
@@ -5717,7 +5771,8 @@
       "nx": 0.5287,
       "ny": 0.839,
       "region": "Mariana County",
-      "guide": "One of the 24 cards in the Liberty City Wrath set. In the living room: on the lower shelf of the TV cabinet, under the TV."
+      "guide": "One of the 24 cards in the Liberty City Wrath set. In the living room: on the lower shelf of the TV cabinet, under the TV.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-07-14.jpg"
     },
     {
       "id": "cd-07-15",
@@ -6070,7 +6125,8 @@
       "nx": 0.6107,
       "ny": 0.1761,
       "region": "Lummox County",
-      "guide": "One of the 24 cards in the Los Santos Corkers set. Inside the open shipping container full of junk, by the big fish sign on the road: on top of the stack of planks, next to the football."
+      "guide": "One of the 24 cards in the Los Santos Corkers set. Inside the open shipping container full of junk, by the big fish sign on the road: on top of the stack of planks, next to the football.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-08-22.jpg"
     },
     {
       "id": "cd-08-23",
@@ -6082,7 +6138,8 @@
       "nx": 0.5014,
       "ny": 0.3207,
       "region": "Kelly County",
-      "guide": "One of the 24 cards in the Los Santos Corkers set. Crystal Field baseball diamond: on the bench in the dugout, next to a water bottle."
+      "guide": "One of the 24 cards in the Los Santos Corkers set. Crystal Field baseball diamond: on the bench in the dugout, next to a water bottle.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-08-23.jpg"
     },
     {
       "id": "cd-08-24",
@@ -6105,7 +6162,8 @@
       "nx": 0.522,
       "ny": 0.309,
       "region": "Kelly County",
-      "guide": "One of the 24 cards in the Los Santos Panic set. Ambrosia fun centre: on the first row of spectator seats facing the basketball court."
+      "guide": "One of the 24 cards in the Los Santos Panic set. Ambrosia fun centre: on the first row of spectator seats facing the basketball court.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-09-01.jpg"
     },
     {
       "id": "cd-09-02",
@@ -6117,7 +6175,8 @@
       "nx": 0.5151,
       "ny": 0.3325,
       "region": "Kelly County",
-      "guide": "One of the 24 cards in the Los Santos Panic set. On the fridge inside the trailer."
+      "guide": "One of the 24 cards in the Los Santos Panic set. On the fridge inside the trailer.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-09-02.jpg"
     },
     {
       "id": "cd-09-03",
@@ -6217,7 +6276,8 @@
       "nx": 0.6107,
       "ny": 0.1712,
       "region": "Lummox County",
-      "guide": "One of the 24 cards in the Los Santos Panic set. In the front yard of the messy house full of dogs, east side of Lake Tallaloko: on the weighted base of the basketball hoop."
+      "guide": "One of the 24 cards in the Los Santos Panic set. In the front yard of the messy house full of dogs, east side of Lake Tallaloko: on the weighted base of the basketball hoop.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-09-11.jpg"
     },
     {
       "id": "cd-09-12",
@@ -6296,7 +6356,8 @@
       "nx": 0.56,
       "ny": 0.1293,
       "region": "Lummox County",
-      "guide": "One of the 24 cards in the Los Santos Panic set. Inside the RV in the car park, with a couple of people passed out in it: in the small safe under the microwave, next to the stove."
+      "guide": "One of the 24 cards in the Los Santos Panic set. Inside the RV in the car park, with a couple of people passed out in it: in the small safe under the microwave, next to the stove.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-09-18.jpg"
     },
     {
       "id": "cd-09-19",
@@ -6319,7 +6380,8 @@
       "nx": 0.5298,
       "ny": 0.3021,
       "region": "Kelly County",
-      "guide": "One of the 24 cards in the Los Santos Panic set. Motel room 115, the one full of guys getting high: inside the safe at the end of the room. The code is 4242."
+      "guide": "One of the 24 cards in the Los Santos Panic set. Motel room 115, the one full of guys getting high: inside the safe at the end of the room. The code is 4242.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-09-20.jpg"
     },
     {
       "id": "cd-09-21",
@@ -6331,7 +6393,8 @@
       "nx": 0.5502,
       "ny": 0.8068,
       "region": "Mariana County",
-      "guide": "One of the 24 cards in the Los Santos Panic set. In the bedroom: on the bedside table by the window."
+      "guide": "One of the 24 cards in the Los Santos Panic set. In the bedroom: on the bedside table by the window.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-09-21.jpg"
     },
     {
       "id": "cd-09-22",
@@ -6376,7 +6439,8 @@
       "nx": 0.5317,
       "ny": 0.2962,
       "region": "Kelly County",
-      "guide": "One of the 24 cards in the Los Santos Pounders set. Allied Crystal Stadium: on the window ledge next to the entrance."
+      "guide": "One of the 24 cards in the Los Santos Pounders set. Allied Crystal Stadium: on the window ledge next to the entrance.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-10-01.jpg"
     },
     {
       "id": "cd-10-02",
@@ -6388,7 +6452,8 @@
       "nx": 0.3313,
       "ny": 0.3326,
       "region": "Kelly County",
-      "guide": "One of the 24 cards in the Los Santos Pounders set. Inside the trailer: stuck to the fridge door in the kitchen, by the sink."
+      "guide": "One of the 24 cards in the Los Santos Pounders set. Inside the trailer: stuck to the fridge door in the kitchen, by the sink.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-10-02.jpg"
     },
     {
       "id": "cd-10-03",
@@ -6443,7 +6508,8 @@
       "nx": 0.478,
       "ny": 0.7756,
       "region": "Mariana County",
-      "guide": "One of the 24 cards in the Los Santos Pounders set. Follow the map pin."
+      "guide": "One of the 24 cards in the Los Santos Pounders set. Follow the map pin.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-10-07.jpg"
     },
     {
       "id": "cd-10-08",
@@ -6477,7 +6543,8 @@
       "nx": 0.5775,
       "ny": 0.7951,
       "region": "Mariana County",
-      "guide": "One of the 24 cards in the Los Santos Pounders set. Key Lento, the party house on Dolphin Drive: in the bathroom, on the toilet lid."
+      "guide": "One of the 24 cards in the Los Santos Pounders set. Key Lento, the party house on Dolphin Drive: in the bathroom, on the toilet lid.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-10-10.jpg"
     },
     {
       "id": "cd-10-11",
@@ -6500,7 +6567,8 @@
       "nx": 0.3553,
       "ny": 0.847,
       "region": "Mariana County",
-      "guide": "One of the 24 cards in the Los Santos Pounders set. On the covered back porch by the canal: on the TV stand, next to the helmet."
+      "guide": "One of the 24 cards in the Los Santos Pounders set. On the covered back porch by the canal: on the TV stand, next to the helmet.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-10-12.jpg"
     },
     {
       "id": "cd-10-13",
@@ -6511,7 +6579,8 @@
       "nx": 0.7004,
       "ny": 0.339,
       "region": "Leonard County",
-      "guide": "One of the 24 cards in the Los Santos Pounders set. Follow the map pin."
+      "guide": "One of the 24 cards in the Los Santos Pounders set. Follow the map pin.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-10-13.jpg"
     },
     {
       "id": "cd-10-14",
@@ -6644,7 +6713,8 @@
       "nx": 0.5164,
       "ny": 0.3261,
       "region": "Kelly County",
-      "guide": "One of the 12 cards in the Backyard Wrestling set. On the old sofa outside the trailer."
+      "guide": "One of the 12 cards in the Backyard Wrestling set. On the old sofa outside the trailer.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-11-01.jpg"
     },
     {
       "id": "cd-11-02",
@@ -6766,7 +6836,8 @@
       "nx": 0.2893,
       "ny": 0.3762,
       "region": "Kelly County",
-      "guide": "One of the 12 cards in the Backyard Wrestling set. In the living room: on the side table between the two armchairs."
+      "guide": "One of the 12 cards in the Backyard Wrestling set. In the living room: on the side table between the two armchairs.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-11-12.jpg"
     },
     {
       "id": "cd-12-01",
@@ -7204,7 +7275,8 @@
       "nx": 0.5375,
       "ny": 0.8292,
       "region": "Mariana County",
-      "guide": "One of the 18 cards in the Delights Dancers set. Badger R&D Tower: climb the two ladders to the room at the top. It's on the desk next to the old TV."
+      "guide": "One of the 18 cards in the Delights Dancers set. Badger R&D Tower: climb the two ladders to the room at the top. It's on the desk next to the old TV.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-13-16.jpg"
     },
     {
       "id": "cd-13-17",
@@ -7227,10 +7299,12 @@
       "nx": 0.578,
       "ny": 0.6298,
       "region": "Vice-Dale County",
-      "guide": "One of the 18 cards in the Delights Dancers set. At the very top of the Driscoll Tower: on the railed platform looking out over Downtown, inside the open orange box on the post."
+      "guide": "One of the 18 cards in the Delights Dancers set. At the very top of the Driscoll Tower: on the railed platform looking out over Downtown, inside the open orange box on the post.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-13-18.jpg"
     },
     {
       "id": "cd-14-01",
+      "imageURL": "https://leonidalog.app/images/cards/cd-14-01.jpg",
       "title": "Brianna Blue - Deep Red",
       "category": "cards",
       "subgroup": "Jack of Hearts Dancers",
@@ -7238,7 +7312,8 @@
       "nx": 0.4643,
       "ny": 0.7165,
       "region": "Mariana County",
-      "guide": "One of the 36 cards in the Jack of Hearts Dancers set. Follow the map pin."
+      "guide": "One of the 36 cards in the Jack of Hearts Dancers set. In the dim storeroom with the outboard motors: on the wire shelf along the back wall, where you can also grab a machete.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-14-01.jpg"
     },
     {
       "id": "cd-14-02",
@@ -7305,7 +7380,8 @@
       "nx": 0.324,
       "ny": 0.3392,
       "region": "Kelly County",
-      "guide": "One of the 36 cards in the Jack of Hearts Dancers set. In the bedroom: on the bedside table, next to the magazines."
+      "guide": "One of the 36 cards in the Jack of Hearts Dancers set. In the bedroom: on the bedside table, next to the magazines.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-14-07.jpg"
     },
     {
       "id": "cd-14-08",
@@ -7536,7 +7612,8 @@
       "nx": 0.5298,
       "ny": 0.154,
       "region": "Lummox County",
-      "guide": "One of the 36 cards in the Jack of Hearts Dancers set. On the porch of the run-down wooden house by the rusty diesel tank: on top of the railing post at the top of the steps."
+      "guide": "One of the 36 cards in the Jack of Hearts Dancers set. On the porch of the run-down wooden house by the rusty diesel tank: on top of the railing post at the top of the steps.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-14-28.jpg"
     },
     {
       "id": "cd-14-29",
@@ -7581,7 +7658,8 @@
       "nx": 0.6501,
       "ny": 0.4639,
       "region": "Vice-Dale County",
-      "guide": "One of the 36 cards in the Jack of Hearts Dancers set. Back room of the liquor store, in the safe: the code is 7869. It's also in an email on the computer there (password stormyfeet7; the pictures and the mannequin legs are the clue)."
+      "guide": "One of the 36 cards in the Jack of Hearts Dancers set. Back room of the liquor store, in the safe: the code is 7869. It's also in an email on the computer there (password stormyfeet7; the pictures and the mannequin legs are the clue).",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-14-32.jpg"
     },
     {
       "id": "cd-14-33",
@@ -7626,11 +7704,12 @@
       "nx": 0.3412,
       "ny": 0.3528,
       "region": "Kelly County",
-      "guide": "One of the 36 cards in the Jack of Hearts Dancers set. Inside the yellow train car: on the floor by the camo backpack."
+      "guide": "One of the 36 cards in the Jack of Hearts Dancers set. Inside the yellow train car: on the floor by the camo backpack.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-14-36.jpg"
     },
     {
       "id": "cd-15-01",
-      "title": "Amie - Deep Red",
+      "title": "Aimie - Deep Red",
       "category": "cards",
       "subgroup": "Nine1Nine Dancers",
       "spoiler": true,
@@ -7642,18 +7721,19 @@
     {
       "id": "cd-15-02",
       "imageURL": "https://leonidalog.app/images/cards/cd-15-02.jpg",
-      "title": "Amie - Pink",
+      "title": "Aimie - Pink",
       "category": "cards",
       "subgroup": "Nine1Nine Dancers",
       "spoiler": true,
       "nx": 0.5577,
       "ny": 0.791,
       "region": "Mariana County",
-      "guide": "One of the 36 cards in the Nine1Nine Dancers set. The Rusty Anchor: in the men's restroom, on top of the toilet in the stall."
+      "guide": "One of the 36 cards in the Nine1Nine Dancers set. The Rusty Anchor: in the men's restroom, on top of the toilet in the stall.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-15-02.jpg"
     },
     {
       "id": "cd-15-03",
-      "title": "Amie - Purple",
+      "title": "Aimie - Purple",
       "category": "cards",
       "subgroup": "Nine1Nine Dancers",
       "spoiler": true,
@@ -7694,7 +7774,8 @@
       "nx": 0.6028,
       "ny": 0.2013,
       "region": "Lummox County",
-      "guide": "One of the 36 cards in the Nine1Nine Dancers set. At the top of the wrecked church, up under the slanted roof: on the floor by the little white table with the lantern, next to a sleeping bag and snack wrappers."
+      "guide": "One of the 36 cards in the Nine1Nine Dancers set. At the top of the wrecked church, up under the slanted roof: on the floor by the little white table with the lantern, next to a sleeping bag and snack wrappers.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-15-06.jpg"
     },
     {
       "id": "cd-15-07",
@@ -7761,7 +7842,8 @@
       "nx": 0.3028,
       "ny": 0.4933,
       "region": "Mariana County",
-      "guide": "One of the 36 cards in the Nine1Nine Dancers set. In the garage, on the right: on the worktop beside the beer cooler."
+      "guide": "One of the 36 cards in the Nine1Nine Dancers set. In the garage, on the right: on the worktop beside the beer cooler.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-15-12.jpg"
     },
     {
       "id": "cd-15-13",
@@ -7795,7 +7877,8 @@
       "nx": 0.5458,
       "ny": 0.8283,
       "region": "Mariana County",
-      "guide": "One of the 36 cards in the Nine1Nine Dancers set. In the back storage room: on the shelf under the green crate, by the door."
+      "guide": "One of the 36 cards in the Nine1Nine Dancers set. In the back storage room: on the shelf under the green crate, by the door.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-15-15.jpg"
     },
     {
       "id": "cd-15-16",
@@ -7885,7 +7968,8 @@
       "nx": 0.6137,
       "ny": 0.206,
       "region": "Lummox County",
-      "guide": "One of the 36 cards in the Nine1Nine Dancers set. Climb the ladder at the back of the building and drop in: in the room with the homemade still, on top of the wooden barrel under the window."
+      "guide": "One of the 36 cards in the Nine1Nine Dancers set. Climb the ladder at the back of the building and drop in: in the room with the homemade still, on top of the wooden barrel under the window.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-15-23.jpg"
     },
     {
       "id": "cd-15-24",
@@ -8021,7 +8105,8 @@
       "guide": "One of the 36 cards in the Nine1Nine Dancers set. In the garage where the Piccia Furia on Randy's wish list is kept: on the white workbench, next to the camcorder.",
       "guideLinks": {
         "Piccia Furia": "sv-randy-03"
-      }
+      },
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-15-35.jpg"
     },
     {
       "id": "cd-15-36",
@@ -8077,7 +8162,8 @@
       "nx": 0.5414,
       "ny": 0.8429,
       "region": "Mariana County",
-      "guide": "One of the 36 cards in The Legends of Ratface set. Inside the house: on the floor by the bookshelf, under the beach painting."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Inside the house: on the floor by the bookshelf, under the beach painting.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-16-04.jpg"
     },
     {
       "id": "cd-16-05",
@@ -8144,7 +8230,8 @@
       "nx": 0.5102,
       "ny": 0.3237,
       "region": "Kelly County",
-      "guide": "One of the 36 cards in The Legends of Ratface set. Spaceship House (the WAiNK curiosity): on the very top, on the ledge beside the white dome, next to a beer bottle."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Spaceship House (the WAiNK curiosity): on the very top, on the ledge beside the white dome, next to a beer bottle.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-16-10.jpg"
     },
     {
       "id": "cd-16-11",
@@ -8266,7 +8353,8 @@
       "nx": 0.6117,
       "ny": 0.1683,
       "region": "Lummox County",
-      "guide": "One of the 36 cards in The Legends of Ratface set. In the back garden with the cat playground built round the trees: on the little wooden step on the tree trunk, just above the round red platform."
+      "guide": "One of the 36 cards in The Legends of Ratface set. In the back garden with the cat playground built round the trees: on the little wooden step on the tree trunk, just above the round red platform.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-16-21.jpg"
     },
     {
       "id": "cd-16-22",
@@ -8356,7 +8444,8 @@
       "nx": 0.6049,
       "ny": 0.181,
       "region": "Lummox County",
-      "guide": "One of the 36 cards in The Legends of Ratface set. On the railed concrete platform over the canal, by the old steel bridge: on the pile of papers beside the blue plastic chair."
+      "guide": "One of the 36 cards in The Legends of Ratface set. On the railed concrete platform over the canal, by the old steel bridge: on the pile of papers beside the blue plastic chair.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-16-29.jpg"
     },
     {
       "id": "cd-16-30",
@@ -8411,7 +8500,8 @@
       "nx": 0.5229,
       "ny": 0.8478,
       "region": "Mariana County",
-      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-16-34.jpg"
     },
     {
       "id": "cd-16-35",
@@ -8471,18 +8561,19 @@
     {
       "id": "cd-17-04",
       "imageURL": "https://leonidalog.app/images/cards/cd-17-04.jpg",
-      "title": "Flamer & Right Wing - Blue",
+      "title": "Burning Desire - Blue",
       "category": "cards",
       "subgroup": "Right Wing: America's Hero",
       "spoiler": true,
       "nx": 0.5366,
       "ny": 0.3197,
       "region": "Kelly County",
-      "guide": "One of the 36 cards in the Right Wing: America's Hero set. Xero Gas Station: on the table in the room with the glass door."
+      "guide": "One of the 36 cards in the Right Wing: America's Hero set. Xero Gas Station: on the table in the room with the glass door.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-17-04.jpg"
     },
     {
       "id": "cd-17-05",
-      "title": "Flamer & Right Wing - Red",
+      "title": "Burning Desire - Red",
       "category": "cards",
       "subgroup": "Right Wing: America's Hero",
       "spoiler": true,
@@ -8493,7 +8584,7 @@
     },
     {
       "id": "cd-17-06",
-      "title": "Flamer & Right Wing - White",
+      "title": "Burning Desire - White",
       "category": "cards",
       "subgroup": "Right Wing: America's Hero",
       "spoiler": true,
@@ -8534,7 +8625,8 @@
       "nx": 0.5474,
       "ny": 0.3164,
       "region": "Kelly County",
-      "guide": "One of the 36 cards in the Right Wing: America's Hero set. Anakala Sam's bar: on the ledge at the side, next to the entrance."
+      "guide": "One of the 36 cards in the Right Wing: America's Hero set. Anakala Sam's bar: on the ledge at the side, next to the entrance.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-17-09.jpg"
     },
     {
       "id": "cd-17-10",
@@ -8572,18 +8664,19 @@
     {
       "id": "cd-17-13",
       "imageURL": "https://leonidalog.app/images/cards/cd-17-13.jpg",
-      "title": "Immigrintasma - Blue",
+      "title": "Immigrantasma - Blue",
       "category": "cards",
       "subgroup": "Right Wing: America's Hero",
       "spoiler": true,
       "nx": 0.52,
       "ny": 0.3149,
       "region": "Kelly County",
-      "guide": "One of the 36 cards in the Right Wing: America's Hero set. On the very top of the water tower: climb all three sets of ladders. It's on the floor next to the sniper rifle."
+      "guide": "One of the 36 cards in the Right Wing: America's Hero set. On the very top of the water tower: climb all three sets of ladders. It's on the floor next to the sniper rifle.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-17-13.jpg"
     },
     {
       "id": "cd-17-14",
-      "title": "Immigrintasma - Red",
+      "title": "Immigrantasma - Red",
       "category": "cards",
       "subgroup": "Right Wing: America's Hero",
       "spoiler": true,
@@ -8591,7 +8684,7 @@
     },
     {
       "id": "cd-17-15",
-      "title": "Immigrintasma - White",
+      "title": "Immigrantasma - White",
       "category": "cards",
       "subgroup": "Right Wing: America's Hero",
       "spoiler": true,
@@ -8643,7 +8736,8 @@
       "nx": 0.583,
       "ny": 0.1468,
       "region": "Lummox County",
-      "guide": "One of the 36 cards in the Right Wing: America's Hero set. Climb up inside the big billboard right beside the highway, north-west of Lake Tallaloko: the card's on the metal catwalk, against the railing."
+      "guide": "One of the 36 cards in the Right Wing: America's Hero set. Climb up inside the big billboard right beside the highway, north-west of Lake Tallaloko: the card's on the metal catwalk, against the railing.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-17-19.jpg"
     },
     {
       "id": "cd-17-20",
@@ -8702,7 +8796,7 @@
     },
     {
       "id": "cd-17-25",
-      "title": "Right Wing vs Left Wing - Blue",
+      "title": "Right vs. Left - Blue",
       "category": "cards",
       "subgroup": "Right Wing: America's Hero",
       "spoiler": true,
@@ -8713,7 +8807,7 @@
     },
     {
       "id": "cd-17-26",
-      "title": "Right Wing vs Left Wing - Red",
+      "title": "Right vs. Left - Red",
       "category": "cards",
       "subgroup": "Right Wing: America's Hero",
       "spoiler": true,
@@ -8721,19 +8815,21 @@
       "ny": 0.3663,
       "region": "Kelly County",
       "guide": "One of the 36 cards in the Right Wing: America's Hero set. Gellhorn Fun Fair: in the old bumper car shed, on the seat of the rusty bumper car.",
-      "imageURL": "https://leonidalog.app/images/cards/cd-17-26.jpg"
+      "imageURL": "https://leonidalog.app/images/cards/cd-17-26.jpg",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-17-26.jpg"
     },
     {
       "id": "cd-17-27",
       "imageURL": "https://leonidalog.app/images/cards/cd-17-27.jpg",
-      "title": "Right Wing vs Left Wing - White",
+      "title": "Right vs. Left - White",
       "category": "cards",
       "subgroup": "Right Wing: America's Hero",
       "spoiler": true,
       "nx": 0.5986,
       "ny": 0.187,
       "region": "Lummox County",
-      "guide": "One of the 36 cards in the Right Wing: America's Hero set. In the small wood-panelled washroom: on the floor between the toilet and the sink, next to a comic."
+      "guide": "One of the 36 cards in the Right Wing: America's Hero set. In the small wood-panelled washroom: on the floor between the toilet and the sink, next to a comic.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-17-27.jpg"
     },
     {
       "id": "cd-17-28",
@@ -8745,7 +8841,8 @@
       "nx": 0.52,
       "ny": 0.2954,
       "region": "Kelly County",
-      "guide": "One of the 36 cards in the Right Wing: America's Hero set. To the left of the stairs up to the spectator point: in the first compartment with shelves in it, behind the benches, on the shelves."
+      "guide": "One of the 36 cards in the Right Wing: America's Hero set. To the left of the stairs up to the spectator point: in the first compartment with shelves in it, behind the benches, on the shelves.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-17-28.jpg"
     },
     {
       "id": "cd-17-29",
@@ -8801,7 +8898,8 @@
       "nx": 0.5531,
       "ny": 0.8097,
       "region": "Mariana County",
-      "guide": "One of the 36 cards in the Right Wing: America's Hero set. Trailer park: on the front steps of the red and white trailer, next to the armchair."
+      "guide": "One of the 36 cards in the Right Wing: America's Hero set. Trailer park: on the front steps of the red and white trailer, next to the armchair.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-17-33.jpg"
     },
     {
       "id": "cd-17-34",
@@ -8868,7 +8966,8 @@
       "nx": 0.5171,
       "ny": 0.3344,
       "region": "Kelly County",
-      "guide": "One of the 36 cards in the Ed Comics Universe set. On the toilet inside."
+      "guide": "One of the 36 cards in the Ed Comics Universe set. On the toilet inside.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-18-03.jpg"
     },
     {
       "id": "cd-18-04",
@@ -9064,7 +9163,8 @@
       "nx": 0.3499,
       "ny": 0.3897,
       "region": "Kelly County",
-      "guide": "One of the 36 cards in the Ed Comics Universe set. Inside the trailer: stuck to the red fridge in the kitchen."
+      "guide": "One of the 36 cards in the Ed Comics Universe set. Inside the trailer: stuck to the red fridge in the kitchen.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-18-21.jpg"
     },
     {
       "id": "cd-18-22",
@@ -9135,18 +9235,19 @@
     {
       "id": "cd-18-28",
       "imageURL": "https://leonidalog.app/images/cards/cd-18-28.jpg",
-      "title": "Rightwing - Bronze",
+      "title": "Right Wing - Bronze",
       "category": "cards",
       "subgroup": "Ed Comics Universe",
       "spoiler": true,
       "nx": 0.5697,
       "ny": 0.796,
       "region": "Mariana County",
-      "guide": "One of the 36 cards in the Ed Comics Universe set. Key Lento: on the roof over the gas pumps, on a plank by the base of the giant statue."
+      "guide": "One of the 36 cards in the Ed Comics Universe set. Key Lento: on the roof over the gas pumps, on a plank by the base of the giant statue.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-18-28.jpg"
     },
     {
       "id": "cd-18-29",
-      "title": "Rightwing - Gold",
+      "title": "Right Wing - Gold",
       "category": "cards",
       "subgroup": "Ed Comics Universe",
       "spoiler": true,
@@ -9157,7 +9258,7 @@
     },
     {
       "id": "cd-18-30",
-      "title": "Rightwing - Silver",
+      "title": "Right Wing - Silver",
       "category": "cards",
       "subgroup": "Ed Comics Universe",
       "spoiler": true,
@@ -9198,7 +9299,8 @@
       "nx": 0.6082,
       "ny": 0.1738,
       "region": "Lummox County",
-      "guide": "One of the 36 cards in the Ed Comics Universe set. At the fish-shaped snack shack that's closed for the season: on the wooden serving counter under the shutter."
+      "guide": "One of the 36 cards in the Ed Comics Universe set. At the fish-shaped snack shack that's closed for the season: on the wooden serving counter under the shutter.",
+      "artImageURL": "https://leonidalog.app/images/cards/art/cd-18-33.jpg"
     },
     {
       "id": "cd-18-34",
