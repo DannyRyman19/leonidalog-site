@@ -1,5 +1,5 @@
 {
-  "version": 75,
+  "version": 76,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -32,7 +32,7 @@
       "symbol": "dumbbell.fill",
       "colorHex": "35E0C8",
       "verb": "tried",
-      "intro": "The 9 kinds of activity the Master of None trophy counts. Have a go at each one once. The game tracks them under Progress, Activities, and most come up on their own."
+      "intro": "The 9 kinds of activity the [Master of None](poi:tr-16) trophy counts. Have a go at each one once. The game tracks them under Progress, Activities, and most come up on their own."
     },
     {
       "id": "achievements",
@@ -90,7 +90,7 @@
       "symbol": "rectangle.stack.fill",
       "colorHex": "FF9E4A",
       "verb": "collected",
-      "intro": "18 trading card sets, 480 cards in all, spread across Leonida. 100% needs 15 complete sets. The Don't Touch My Deck trophy needs 3.",
+      "intro": "18 trading card sets, 480 cards in all, spread across Leonida. 100% needs 15 complete sets. The [Don't Touch My Deck](poi:tr-30) trophy needs 3.",
       "collectible": true,
       "hidden": true
     },
@@ -100,7 +100,7 @@
       "symbol": "rectangle.portrait.fill",
       "colorHex": "FF9E4A",
       "verb": "collected",
-      "intro": "All 480 trading cards, one row per card, grouped by set. A set counts towards 100% once every card in it is found; 100% needs 15 of the 18 sets, and the Don't Touch My Deck trophy needs 3.",
+      "intro": "All 480 trading cards, one row per card, grouped by set. A set counts towards 100% once every card in it is found; 100% needs 15 of the 18 sets, and the [Don't Touch My Deck](poi:tr-30) trophy needs 3.",
       "collectible": true
     },
     {
@@ -109,7 +109,7 @@
       "symbol": "leaf.fill",
       "colorHex": "8BD17C",
       "verb": "done",
-      "intro": "18 meditations at 10 spots: most spots have two. 100% needs 15 of the 18; the Positive Mental Attitude trophy needs every spot.",
+      "intro": "18 meditations at 10 spots: most spots have two. 100% needs 15 of the 18; the [Positive Mental Attitude](poi:tr-28) trophy needs every spot.",
       "collectible": true
     },
     {
@@ -127,7 +127,7 @@
       "symbol": "gamecontroller",
       "colorHex": "5FD3E8",
       "verb": "played",
-      "intro": "4 video games to play through. Three are on the home console; one is an arcade machine. Finishing any one of them earns the Stick Fiddler trophy."
+      "intro": "4 video games to play through. Three are on the home console; one is an arcade machine. Finishing any one of them earns the [Stick Fiddler](poi:tr-21) trophy."
     },
     {
       "id": "mini-golf",
@@ -193,7 +193,7 @@
       "symbol": "checkmark.seal.fill",
       "colorHex": "FF9E4A",
       "verb": "done",
-      "intro": "80 challenges in 8 groups of 10, all open from the start. 100% needs 70; the One Last Thing trophy needs 50. The game tracks them under Progress, Challenges."
+      "intro": "80 challenges in 8 groups of 10, all open from the start. 100% needs 70; the [One Last Thing](poi:tr-32) trophy needs 50. The game tracks them under Progress, Challenges."
     },
     {
       "id": "flamingos",
@@ -228,7 +228,7 @@
       "symbol": "camera.viewfinder",
       "colorHex": "4AD9D9",
       "verb": "found",
-      "intro": "Scan with the WAiNK app: 31 landmarks, 35 curiosities, 23 sculptures, No Flusher tags and 4 Peewees billboards. 100% needs 100. Numbers follow the game's Progress menu. More are added as guides find them. The You WAiNKer! trophy needs 100.",
+      "intro": "Scan with the WAiNK app: 31 landmarks, 35 curiosities, 23 sculptures, No Flusher tags and 4 Peewees billboards. 100% needs 100. Numbers follow the game's Progress menu. More are added as guides find them. The [You WAiNKer!](poi:tr-31) trophy needs 100.",
       "collectible": true
     },
     {
@@ -246,7 +246,7 @@
       "symbol": "car.side.fill",
       "colorHex": "FFB547",
       "verb": "landed",
-      "intro": "All 130 stunt jumps. They count towards the stunts line of 100% (300 of 397 stunts, with under the bridges, knife flights and base jumps). Stunt jumps also count towards the Cunning Stunts trophy (250 stunts).",
+      "intro": "All 130 stunt jumps. They count towards the stunts line of 100% (300 of 397 stunts, with under the bridges, knife flights and base jumps). Stunt jumps also count towards the [Cunning Stunts](poi:tr-15) trophy (250 stunts).",
       "collectible": true
     },
     {
@@ -295,7 +295,7 @@
       "symbol": "flag.checkered",
       "colorHex": "FF9E4A",
       "verb": "won",
-      "intro": "40 unique races in 6 groups. 100% needs 30 wins; the Earn Cash, Not Kudos trophy needs 20.",
+      "intro": "40 unique races in 6 groups. 100% needs 30 wins; the [Earn Cash, Not Kudos](poi:tr-19) trophy needs 20.",
       "complete": true
     },
     {
@@ -304,7 +304,7 @@
       "symbol": "airplane",
       "colorHex": "4AD9A0",
       "verb": "won",
-      "intro": "Top Fun drone time trials: 14 locations with 3 trials each, 42 in all, listed south to north. Beat the target time in each. The Top Fun trophy needs a win at every location.",
+      "intro": "[Top Fun](poi:tr-18) drone time trials: 14 locations with 3 trials each, 42 in all, listed south to north. Beat the target time in each. The Top Fun trophy needs a win at every location.",
       "complete": true
     },
     {
@@ -351,7 +351,7 @@
       "verb": "discovered",
       "chapterOrdered": true,
       "collectible": true,
-      "intro": "The game's Vehicles log, section by section, with each model's base stats where we have them. A vehicle is discovered once you've scanned it with WAiNK or been in it. Cars and service vehicles come in 15 classes; bikes, watercraft and aircraft are one list each. That's 277 models, and the game's 100% checklist needs 200 base models. 211 have their own row so far, and each section ends with a counter for the ones not listed yet. The Standout sets aren't here yet. The Whip It Good trophy needs 100."
+      "intro": "The game's Vehicles log, section by section, with each model's base stats where we have them. A vehicle is discovered once you've scanned it with WAiNK or been in it. Cars and service vehicles come in 15 classes; bikes, watercraft and aircraft are one list each. That's 277 models, and the game's 100% checklist needs 200 base models. 211 have their own row so far, and each section ends with a counter for the ones not listed yet. The Standout sets aren't here yet. The [Whip It Good](poi:tr-35) trophy needs 100."
     },
     {
       "id": "standout-vehicles",
@@ -360,6 +360,10 @@
       "colorHex": "5AA9E6",
       "verb": "found",
       "collectible": true,
+      "revealedSubgroups": {
+        "Vehicle requests (1)": "Randy's Wish List",
+        "Vehicle requests (2)": "Moses's requests"
+      },
       "intro": "Unique vehicles parked at set spots around Leonida, plus lists of cars you're asked to find or restore. Most are pinned on the map."
     },
     {
@@ -370,7 +374,7 @@
       "verb": "owned",
       "collectible": true,
       "complete": true,
-      "intro": "13 garages. 8 are for sale in the Vice City Real Estate app, which arrives in chapter 2: the Little Boxes trophy needs all 8, $160,000 in all. The other 5 come with the story, one of them hidden in chapter 3. Each parking spot lets you register one more vehicle."
+      "intro": "13 garages. 8 are for sale in the Vice City Real Estate app, which arrives in chapter 2: the [Little Boxes](poi:tr-54) trophy needs all 8, $160,000 in all. The other 5 come with the story, one of them hidden in chapter 3. Each parking spot lets you register one more vehicle."
     },
     {
       "id": "gyms",
@@ -1087,7 +1091,10 @@
         }
       ],
       "revealedTitle": "Supply & Demand",
-      "revealedGuide": "Finish Randy's Wish List: 22 cars to steal and deliver. It opens with the chapter 3 mission Clonin' Keys, Makin' Gs, which also gives you the Key Cloner. Scan high-end cars with WAiNK to see if he wants them; hotels at Vice Beach and Ocean Beach are good hunting grounds. Cars in better shape pay more. Still open after the story."
+      "revealedGuide": "Finish Randy's Wish List: 22 cars to steal and deliver. It opens with the chapter 3 mission Clonin' Keys, Makin' Gs, which also gives you the Key Cloner. Scan high-end cars with WAiNK to see if he wants them; hotels at Vice Beach and Ocean Beach are good hunting grounds. Cars in better shape pay more. Still open after the story.",
+      "linkedCategories": [
+        "standout-vehicles"
+      ]
     },
     {
       "id": "tr-27",
@@ -1569,7 +1576,10 @@
         }
       ],
       "tallyTarget": 10,
-      "revealedGuide": "Register 10 vehicles on the Scooter Bros app, which arrives with the chapter 2 mission Moses. Each one needs a free garage parking spot (see Little Boxes). Take a car to Moses's garage in Port Gellhorn, respray it and register it. From chapter 3, cars with standard trackers can be registered at any Pay 'n' Spray too. Cheap cars keep the cost down."
+      "revealedGuide": "Register 10 vehicles on the Scooter Bros app, which arrives with the chapter 2 mission Moses. Each one needs a free garage parking spot (see Little Boxes). Take a car to Moses's garage in Port Gellhorn, respray it and register it. From chapter 3, cars with standard trackers can be registered at any Pay 'n' Spray too. Cheap cars keep the cost down.",
+      "guideLinks": {
+        "Little Boxes": "tr-54"
+      }
     },
     {
       "id": "ms-001",
@@ -2541,7 +2551,10 @@
       "revealedTitle": "Get Shirley's Rum",
       "revealedGivenBy": "Shirley",
       "revealedGuide": "Shirley's strand, mission 1 of 2. Unlocks in chapter 1. Doesn't count towards the Strangers & Freaks trophy. Missable: chapter 1 only. Get the rum from Three Sheets Liquor to the south by asking the clerk for it. Asking about the bird noises marks a business behind the store.",
-      "missable": true
+      "missable": true,
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-02",
@@ -2554,7 +2567,10 @@
       "revealedTitle": "Steal the Scooter",
       "revealedGivenBy": "Shirley",
       "revealedGuide": "Shirley's strand, mission 2 of 2. Unlocks in chapter 1. Doesn't count towards the Strangers & Freaks trophy. Missable: chapter 1 only. Take Peggy's scooter from her driveway across the water and ride it in through Shirley's porch door.",
-      "missable": true
+      "missable": true,
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-03",
@@ -2565,7 +2581,10 @@
       "guide": "Strangers & Freaks side mission, strand 2. Unlocks in chapter 1.",
       "revealedTitle": "Search for the Skunk Ape",
       "revealedGivenBy": "Kirk",
-      "revealedGuide": "Kirk's strand, mission 1 of 3. Unlocks in chapter 1. Counts towards the Strangers & Freaks trophy. Night only. To start it, read one of Kirk's flyers (they turn up in bars, at gas stations and by ATMs) to add him as a contact, then call him for the marker in the swamp north of Gullet Marsh. One flyer is at Skeeter's bar in Hamlet. Check the feeding site first, then the claw marks just east of centre, and run for Kirk's truck when the boar shows up. Pays $1,000."
+      "revealedGuide": "Kirk's strand, mission 1 of 3. Unlocks in chapter 1. Counts towards the Strangers & Freaks trophy. Night only. To start it, read one of Kirk's flyers (they turn up in bars, at gas stations and by ATMs) to add him as a contact, then call him for the marker in the swamp north of Gullet Marsh. One flyer is at Skeeter's bar in Hamlet. Check the feeding site first, then the claw marks just east of centre, and run for Kirk's truck when the boar shows up. Pays $1,000.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-04",
@@ -2576,7 +2595,10 @@
       "guide": "Strangers & Freaks side mission, strand 2. Unlocks in chapter 1.",
       "revealedTitle": "Search for Tree Effigies",
       "revealedGivenBy": "Kirk",
-      "revealedGuide": "Kirk's strand, mission 2 of 3. Unlocks in chapter 1. Counts towards the Strangers & Freaks trophy. The three effigies are all in the Pelican Valley mangroves inside Kirk's search area: one in open swamp at the north end (south of Thorpe Adventures), one in a small wooded patch ringed by water in the middle, and one at the end of a long thin strip of trees."
+      "revealedGuide": "Kirk's strand, mission 2 of 3. Unlocks in chapter 1. Counts towards the Strangers & Freaks trophy. The three effigies are all in the Pelican Valley mangroves inside Kirk's search area: one in open swamp at the north end (south of Thorpe Adventures), one in a small wooded patch ringed by water in the middle, and one at the end of a long thin strip of trees.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-05",
@@ -2587,7 +2609,10 @@
       "guide": "Strangers & Freaks side mission, strand 2. Unlocks in chapter 2.",
       "revealedTitle": "Help Kirk Find Mr. Mangrove",
       "revealedGivenBy": "Kirk",
-      "revealedGuide": "Kirk's strand, mission 3 of 3. Unlocks in chapter 2. Counts towards the Strangers & Freaks trophy. Lucia only, at night. It starts at Cottonmouth Lake, and Mr. Mangrove always collapses in the shack on the right. You choose the ending: shooting Mangrove pays $10,000, while shooting Kirk or holding fire pays nothing. Every ending counts."
+      "revealedGuide": "Kirk's strand, mission 3 of 3. Unlocks in chapter 2. Counts towards the Strangers & Freaks trophy. Lucia only, at night. It starts at Cottonmouth Lake, and Mr. Mangrove always collapses in the shack on the right. You choose the ending: shooting Mangrove pays $10,000, while shooting Kirk or holding fire pays nothing. Every ending counts.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-06",
@@ -2598,7 +2623,10 @@
       "guide": "Strangers & Freaks side mission, strand 3. Unlocks in chapter 2.",
       "revealedTitle": "Check Out McKittrick Farm",
       "revealedGivenBy": "Kyle",
-      "revealedGuide": "Kyle's strand, mission 1 of 3. Unlocks in chapter 2. Counts towards the Strangers & Freaks trophy. To start it, read Kyle's flyer at the Starlet Motel reception, then crop-spray the fields from the airstrip just east of the motel. Pays $400."
+      "revealedGuide": "Kyle's strand, mission 1 of 3. Unlocks in chapter 2. Counts towards the Strangers & Freaks trophy. To start it, read Kyle's flyer at the Starlet Motel reception, then crop-spray the fields from the airstrip just east of the motel. Pays $400.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-07",
@@ -2609,7 +2637,10 @@
       "guide": "Strangers & Freaks side mission, strand 3. Unlocks in chapter 2.",
       "revealedTitle": "Collect Chemicals for Kyle",
       "revealedGivenBy": "Kyle",
-      "revealedGuide": "Kyle's strand, mission 2 of 3. Unlocks in chapter 2. Counts towards the Strangers & Freaks trophy. It takes place at a compound in Leonard County. Stealing the van is easier than paying the $5,000 for it; drive it back and park it in Kyle's barn. If the gate won't open, get out and park another car in the gateway. Stealing the van brings 2 wanted stars. Pays $1,000 and a stat boost."
+      "revealedGuide": "Kyle's strand, mission 2 of 3. Unlocks in chapter 2. Counts towards the Strangers & Freaks trophy. It takes place at a compound in Leonard County. Stealing the van is easier than paying the $5,000 for it; drive it back and park it in Kyle's barn. If the gate won't open, get out and park another car in the gateway. Stealing the van brings 2 wanted stars. Pays $1,000 and a stat boost.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-08",
@@ -2620,7 +2651,10 @@
       "guide": "Strangers & Freaks side mission, strand 3. Unlocks in chapter 3.",
       "revealedTitle": "Buddy?",
       "revealedGivenBy": "Kyle",
-      "revealedGuide": "Kyle's strand, mission 3 of 3. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy. Siding with the police pays $5,000: answer \"Kyle's Friend\" then \"I'm fine\", wear the hazmat suit and take mutated Kyle down quickly. Letting Kyle kill the police pays nothing. Don't pick up Kyle's body, as it crushes you."
+      "revealedGuide": "Kyle's strand, mission 3 of 3. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy. Siding with the police pays $5,000: answer \"Kyle's Friend\" then \"I'm fine\", wear the hazmat suit and take mutated Kyle down quickly. Letting Kyle kill the police pays nothing. Don't pick up Kyle's body, as it crushes you.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-09",
@@ -2631,7 +2665,13 @@
       "guide": "Strangers & Freaks side mission, strand 4. Unlocks in chapter 2.",
       "revealedTitle": "Steal Vehicles for Moses",
       "revealedGivenBy": "Moses",
-      "revealedGuide": "Moses's strand, mission 1 of 1. Unlocks in chapter 2. Doesn't count towards the Strangers & Freaks trophy. Once every car on Moses's list is delivered, a free Sultan waits for you in the small garage beside Watkins Auto Parts in Port Gellhorn."
+      "revealedGuide": "Moses's strand, mission 1 of 1. Unlocks in chapter 2. Doesn't count towards the Strangers & Freaks trophy. Once every car on Moses's list is delivered, a free Sultan waits for you in the small garage beside Watkins Auto Parts in Port Gellhorn.",
+      "linkedCategories": [
+        "standout-vehicles"
+      ],
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-10",
@@ -2642,7 +2682,10 @@
       "guide": "Strangers & Freaks side mission, strand 5. Unlocks in chapter 2.",
       "revealedTitle": "Veteran Hunted",
       "revealedGivenBy": "Bret",
-      "revealedGuide": "Bret's strand, mission 1 of 2. Unlocks in chapter 2. Counts towards the Strangers & Freaks trophy. Jason only. Bret is in the far north of Lummox County. Jason has to go alone, and the kill needs a single shot to the heart or head. Press L3+R3 to follow the scent trail, and study the deer before you shoot. Pays $500 and a unique SMG, which you can take back out of any Ammu-Nation weapons locker."
+      "revealedGuide": "Bret's strand, mission 1 of 2. Unlocks in chapter 2. Counts towards the Strangers & Freaks trophy. Jason only. Bret is in the far north of Lummox County. Jason has to go alone, and the kill needs a single shot to the heart or head. Press L3+R3 to follow the scent trail, and study the deer before you shoot. Pays $500 and a unique SMG, which you can take back out of any Ammu-Nation weapons locker.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-11",
@@ -2653,7 +2696,10 @@
       "guide": "Strangers & Freaks side mission, strand 5. Unlocks in chapter 2.",
       "revealedTitle": "Bret's Hunting Decks",
       "revealedGivenBy": "Bret",
-      "revealedGuide": "Bret's strand, mission 2 of 2. Unlocks in chapter 2. Counts towards the Strangers & Freaks trophy. Finish Bret's hunting target decks."
+      "revealedGuide": "Bret's strand, mission 2 of 2. Unlocks in chapter 2. Counts towards the Strangers & Freaks trophy. Finish Bret's hunting target decks.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-12",
@@ -2664,7 +2710,10 @@
       "guide": "Strangers & Freaks side mission, strand 6. Unlocks in chapter 2.",
       "revealedTitle": "Thrillbillies",
       "revealedGivenBy": "Billy",
-      "revealedGuide": "Billy's strand, mission 1 of 5. Unlocks in chapter 2. Doesn't count towards the Strangers & Freaks trophy. Rent the Sanchez rather than the Manchez. You need 13th place or better; first pays $2,500."
+      "revealedGuide": "Billy's strand, mission 1 of 5. Unlocks in chapter 2. Doesn't count towards the Strangers & Freaks trophy. Rent the Sanchez rather than the Manchez. You need 13th place or better; first pays $2,500.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-13",
@@ -2675,7 +2724,10 @@
       "guide": "Strangers & Freaks side mission, strand 6. Unlocks in chapter 2.",
       "revealedTitle": "Twist Wrist, Smash, Grab",
       "revealedGivenBy": "Billy",
-      "revealedGuide": "Billy's strand, mission 2 of 5. Unlocks in chapter 2. Doesn't count towards the Strangers & Freaks trophy. Chase the truck until it hits a tree, then blow open its back door. Pays $2,000. Register the bike with Moses to keep it."
+      "revealedGuide": "Billy's strand, mission 2 of 5. Unlocks in chapter 2. Doesn't count towards the Strangers & Freaks trophy. Chase the truck until it hits a tree, then blow open its back door. Pays $2,000. Register the bike with Moses to keep it.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-14",
@@ -2686,7 +2738,10 @@
       "guide": "Strangers & Freaks side mission, strand 6. Unlocks in chapter 3.",
       "revealedTitle": "Mall Rats",
       "revealedGivenBy": "Billy",
-      "revealedGuide": "Billy's strand, mission 3 of 5. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Meet behind the Malibu; it's solo only. Blow the safe or wait for Billy to get the code. Pays $12,000."
+      "revealedGuide": "Billy's strand, mission 3 of 5. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Meet behind the Malibu; it's solo only. Blow the safe or wait for Billy to get the code. Pays $12,000.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-15",
@@ -2697,7 +2752,10 @@
       "guide": "Strangers & Freaks side mission, strand 6. Unlocks in chapter 3.",
       "revealedTitle": "The Impaler",
       "revealedGivenBy": "Billy",
-      "revealedGuide": "Billy's strand, mission 4 of 5. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. It takes place at the Ambrosia Police Impound, and you leave with 3 wanted stars: the train tunnel is a good place to lose the cops. The target is the only black-and-white car at the back; the gate button is on its left. Don't damage the car, and park it inside the tunnel."
+      "revealedGuide": "Billy's strand, mission 4 of 5. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. It takes place at the Ambrosia Police Impound, and you leave with 3 wanted stars: the train tunnel is a good place to lose the cops. The target is the only black-and-white car at the back; the gate button is on its left. Don't damage the car, and park it inside the tunnel.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-16",
@@ -2708,7 +2766,10 @@
       "guide": "Strangers & Freaks side mission, strand 6. Unlocks in chapter 3.",
       "revealedTitle": "Hometown Heroes",
       "revealedGivenBy": "Billy",
-      "revealedGuide": "Billy's strand, mission 5 of 5. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Pays $10,000. Some of the crew always die whatever you do."
+      "revealedGuide": "Billy's strand, mission 5 of 5. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Pays $10,000. Some of the crew always die whatever you do.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-17",
@@ -2719,7 +2780,10 @@
       "guide": "Strangers & Freaks side mission, strand 7. Unlocks in chapter 3.",
       "revealedTitle": "Join a Street Race",
       "revealedGivenBy": "Yago",
-      "revealedGuide": "Yago's strand, mission 1 of 4. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy. Rent the dearest of the three cars ($600 to $900). First place pays $3,000."
+      "revealedGuide": "Yago's strand, mission 1 of 4. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy. Rent the dearest of the three cars ($600 to $900). First place pays $3,000.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-18",
@@ -2730,7 +2794,10 @@
       "guide": "Strangers & Freaks side mission, strand 7. Unlocks in chapter 3.",
       "revealedTitle": "Bumper to Bumper",
       "revealedGivenBy": "Yago",
-      "revealedGuide": "Yago's strand, mission 2 of 4. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy. Jason only. If the marker shows a lock, sleep and check again. At the mod shop pick the street racing build plus nitrous; Yago pays. Lose the police after the race. Pays $500."
+      "revealedGuide": "Yago's strand, mission 2 of 4. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy. Jason only. If the marker shows a lock, sleep and check again. At the mod shop pick the street racing build plus nitrous; Yago pays. Lose the police after the race. Pays $500.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-19",
@@ -2742,7 +2809,10 @@
       "revealedTitle": "Race Against Yago",
       "revealedGivenBy": "Yago",
       "revealedGuide": "Yago's strand, mission 3 of 4. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy. Time-limited and missable. Pick the second race, Freeway Run. First place pays $3,800.",
-      "missable": true
+      "missable": true,
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-20",
@@ -2753,7 +2823,10 @@
       "guide": "Strangers & Freaks side mission, strand 7. Unlocks in chapter 3.",
       "revealedTitle": "Brother to Brother",
       "revealedGivenBy": "Yago",
-      "revealedGuide": "Yago's strand, mission 4 of 4. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy. Jason only. It starts at the back door of El Rincón Notorio, and you keep Yago's car afterwards."
+      "revealedGuide": "Yago's strand, mission 4 of 4. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy. Jason only. It starts at the back door of El Rincón Notorio, and you keep Yago's car afterwards.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-21",
@@ -2764,7 +2837,10 @@
       "guide": "Strangers & Freaks side mission, strand 8. Unlocks in chapter 3.",
       "revealedTitle": "Climbing the Cellerichain",
       "revealedGivenBy": "Andy",
-      "revealedGuide": "Andy's strand, mission 1 of 5. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Lucia only. Three parts. The drops are in Waning Sands, at the Cellerica stall in north Vice City, and in Ambrosia; turn down the junkie in Ambrosia. A magazine sits next to the package in Andy's garage."
+      "revealedGuide": "Andy's strand, mission 1 of 5. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Lucia only. Three parts. The drops are in Waning Sands, at the Cellerica stall in north Vice City, and in Ambrosia; turn down the junkie in Ambrosia. A magazine sits next to the package in Andy's garage.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-22",
@@ -2775,7 +2851,10 @@
       "guide": "Strangers & Freaks side mission, strand 8. Unlocks in chapter 3.",
       "revealedTitle": "Pay the Cellerica Fee",
       "revealedGivenBy": "Andy",
-      "revealedGuide": "Andy's strand, mission 2 of 5. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Lucia only. Pay the $5,000 fee in the BuckMe app, from anywhere."
+      "revealedGuide": "Andy's strand, mission 2 of 5. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Lucia only. Pay the $5,000 fee in the BuckMe app, from anywhere.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-23",
@@ -2786,7 +2865,10 @@
       "guide": "Strangers & Freaks side mission, strand 8. Unlocks in chapter 3.",
       "revealedTitle": "Peach!",
       "revealedGivenBy": "Andy",
-      "revealedGuide": "Andy's strand, mission 3 of 5. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Lucia only. It starts at the bench in Belville, and only Lucia gets past Felix into the mansion. To impress Cecilia, always take the vape stick and always defuse. The reward is an item for Andy."
+      "revealedGuide": "Andy's strand, mission 3 of 5. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Lucia only. It starts at the bench in Belville, and only Lucia gets past Felix into the mansion. To impress Cecilia, always take the vape stick and always defuse. The reward is an item for Andy.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-24",
@@ -2797,7 +2879,10 @@
       "guide": "Strangers & Freaks side mission, strand 8. Unlocks in chapter 3.",
       "revealedTitle": "Read the Label",
       "revealedGivenBy": "Andy",
-      "revealedGuide": "Andy's strand, mission 4 of 5. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Lucia only. Knock out the two junkies, then park the van in the yellow bay at the Belville warehouse. Pays $1,800."
+      "revealedGuide": "Andy's strand, mission 4 of 5. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Lucia only. Knock out the two junkies, then park the van in the yellow bay at the Belville warehouse. Pays $1,800.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-25",
@@ -2808,7 +2893,10 @@
       "guide": "Strangers & Freaks side mission, strand 8. Unlocks in chapter 3.",
       "revealedTitle": "Puff Puff Pass",
       "revealedGivenBy": "Andy",
-      "revealedGuide": "Andy's strand, mission 5 of 5. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Lucia only. Cecilia is upstairs: go through the right-hand lobby door to the end of the hall. Pays $10,000 and refunds the fee."
+      "revealedGuide": "Andy's strand, mission 5 of 5. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Lucia only. Cecilia is upstairs: go through the right-hand lobby door to the end of the hall. Pays $10,000 and refunds the fee.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-26",
@@ -2819,7 +2907,10 @@
       "guide": "Strangers & Freaks side mission, strand 9. Unlocks in chapter 3.",
       "revealedTitle": "Yasmani's Jewelry Jobs",
       "revealedGivenBy": "Yasmani",
-      "revealedGuide": "Yasmani's strand, mission 1 of 4. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. There are three stores. Do Casa de Empeño first (safe code 1680), as it has no back door. Your first delivery to Yasmani earns a Snap Gun that opens the back doors of the other two: Richardson Jewelry (code 6815) and Donovan Banks & Co. (code 0104). In each back room, wipe the footage and disarm the alarm. Pays $20,000 plus whatever you smash and grab."
+      "revealedGuide": "Yasmani's strand, mission 1 of 4. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. There are three stores. Do Casa de Empeño first (safe code 1680), as it has no back door. Your first delivery to Yasmani earns a Snap Gun that opens the back doors of the other two: Richardson Jewelry (code 6815) and Donovan Banks & Co. (code 0104). In each back room, wipe the footage and disarm the alarm. Pays $20,000 plus whatever you smash and grab.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-27",
@@ -2830,7 +2921,10 @@
       "guide": "Strangers & Freaks side mission, strand 9. Unlocks in chapter 3.",
       "revealedTitle": "Yasmani's ATM Jobs",
       "revealedGivenBy": "Yasmani",
-      "revealedGuide": "Yasmani's strand, mission 2 of 4. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy."
+      "revealedGuide": "Yasmani's strand, mission 2 of 4. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-28",
@@ -2841,7 +2935,10 @@
       "guide": "Strangers & Freaks side mission, strand 9. Unlocks in chapter 3.",
       "revealedTitle": "Yasmani's Payday Loans Jobs",
       "revealedGivenBy": "Yasmani",
-      "revealedGuide": "Yasmani's strand, mission 3 of 4. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy."
+      "revealedGuide": "Yasmani's strand, mission 3 of 4. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-29",
@@ -2852,7 +2949,10 @@
       "guide": "Strangers & Freaks side mission, strand 9. Unlocks in chapter 3.",
       "revealedTitle": "Tail the Security Van",
       "revealedGivenBy": "Yasmani",
-      "revealedGuide": "Yasmani's strand, mission 4 of 4. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy."
+      "revealedGuide": "Yasmani's strand, mission 4 of 4. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-30",
@@ -2863,7 +2963,13 @@
       "guide": "Strangers & Freaks side mission, strand 10. Unlocks in chapter 3.",
       "revealedTitle": "Randy's Wish List",
       "revealedGivenBy": "Randy",
-      "revealedGuide": "Randy's strand, mission 1 of 1. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy."
+      "revealedGuide": "Randy's strand, mission 1 of 1. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy.",
+      "linkedCategories": [
+        "standout-vehicles"
+      ],
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-31",
@@ -2874,7 +2980,10 @@
       "guide": "Strangers & Freaks side mission, strand 11. Unlocks in chapter 3.",
       "revealedTitle": "Take Out Kitty Litter",
       "revealedGivenBy": "Tyrone",
-      "revealedGuide": "Tyrone's strand, mission 1 of 2. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Shut down the Kitty Litter labs. It starts at the diner just outside Grayson. Each lab is somewhere inside a purple search area: look for pink smoke. Each pays $2,000 to $2,500. They aren't missable and can still be destroyed after the story, and burnt-out buildings show the ones you've done."
+      "revealedGuide": "Tyrone's strand, mission 1 of 2. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Shut down the Kitty Litter labs. It starts at the diner just outside Grayson. Each lab is somewhere inside a purple search area: look for pink smoke. Each pays $2,000 to $2,500. They aren't missable and can still be destroyed after the story, and burnt-out buildings show the ones you've done.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-32",
@@ -2885,7 +2994,10 @@
       "guide": "Strangers & Freaks side mission, strand 11. Unlocks in chapter 3.",
       "revealedTitle": "Spin On This",
       "revealedGivenBy": "Tyrone",
-      "revealedGuide": "Tyrone's strand, mission 2 of 2. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. It starts at the diner just outside Grayson. Bring armour and a long gun. The clerk upstairs has the cellar key; plant explosives on the two vats. Pays $10,000."
+      "revealedGuide": "Tyrone's strand, mission 2 of 2. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. It starts at the diner just outside Grayson. Bring armour and a long gun. The clerk upstairs has the cellar key; plant explosives on the two vats. Pays $10,000.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-33",
@@ -2896,7 +3008,10 @@
       "guide": "Strangers & Freaks side mission, strand 12. Unlocks in chapter 3.",
       "revealedTitle": "Dunk's Robbery Tips",
       "revealedGivenBy": "Dunk",
-      "revealedGuide": "Dunk's strand, mission 1 of 1. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy."
+      "revealedGuide": "Dunk's strand, mission 1 of 1. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-34",
@@ -2907,7 +3022,10 @@
       "guide": "Strangers & Freaks side mission, strand 13. Unlocks in chapter 4.",
       "revealedTitle": "Attend Eddie Acosta's Party",
       "revealedGivenBy": "Eddie Acosta",
-      "revealedGuide": "Eddie Acosta's strand, mission 1 of 1. Unlocks in chapter 4. Doesn't count towards the Strangers & Freaks trophy. Eddie's invite is to a party at Heathcliff Heights in Vice City; it starts when you walk into the lobby. Go solo. Paying the $50,000 only gets you a worthless NFT, and his door is bulletproof. If you didn't shoot at him, you can lean on him in the lobby afterwards."
+      "revealedGuide": "Eddie Acosta's strand, mission 1 of 1. Unlocks in chapter 4. Doesn't count towards the Strangers & Freaks trophy. Eddie's invite is to a party at Heathcliff Heights in Vice City; it starts when you walk into the lobby. Go solo. Paying the $50,000 only gets you a worthless NFT, and his door is bulletproof. If you didn't shoot at him, you can lean on him in the lobby afterwards.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-35",
@@ -2918,7 +3036,10 @@
       "guide": "Strangers & Freaks side mission, strand 14. Unlocks in chapter 4.",
       "revealedTitle": "The Last Mile: Passing the Torch",
       "revealedGivenBy": "Pilot Pete",
-      "revealedGuide": "Pilot Pete's strand, mission 1 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only. It's at Sundown Private Airfield. The safe code is 3718, and Pete's KZ-59 rifle is in the back room. It begins with a call from Pete. There are three drop sites, and you land at the airstrip south of Port Gellhorn. Pays $12,000."
+      "revealedGuide": "Pilot Pete's strand, mission 1 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only. It's at Sundown Private Airfield. The safe code is 3718, and Pete's KZ-59 rifle is in the back room. It begins with a call from Pete. There are three drop sites, and you land at the airstrip south of Port Gellhorn. Pays $12,000.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-36",
@@ -2929,7 +3050,10 @@
       "guide": "Strangers & Freaks side mission, strand 14. Unlocks in chapter 4.",
       "revealedTitle": "The Last Mile: Backseat Pilot",
       "revealedGivenBy": "Pilot Pete",
-      "revealedGuide": "Pilot Pete's strand, mission 2 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only. Land the seaplane next to the supplier. You get 7 drops in about 2 hours; red circles bring a wanted level. Pays $20,000."
+      "revealedGuide": "Pilot Pete's strand, mission 2 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only. Land the seaplane next to the supplier. You get 7 drops in about 2 hours; red circles bring a wanted level. Pays $20,000.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-37",
@@ -2940,7 +3064,10 @@
       "guide": "Strangers & Freaks side mission, strand 14. Unlocks in chapter 4.",
       "revealedTitle": "Pete's Deliveries: Southpoint Airfield",
       "revealedGivenBy": "Pilot Pete",
-      "revealedGuide": "Pilot Pete's strand, mission 3 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only. Each run has 7 drops and about 2 hours to finish all of them. Entering a red circle gets you a wanted level. Each run pays $20,000."
+      "revealedGuide": "Pilot Pete's strand, mission 3 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only. Each run has 7 drops and about 2 hours to finish all of them. Entering a red circle gets you a wanted level. Each run pays $20,000.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-38",
@@ -2951,7 +3078,10 @@
       "guide": "Strangers & Freaks side mission, strand 14. Unlocks in chapter 4.",
       "revealedTitle": "Pete's Deliveries: Avery Allen & Co.",
       "revealedGivenBy": "Pilot Pete",
-      "revealedGuide": "Pilot Pete's strand, mission 4 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only. Each run has 7 drops and about 2 hours to finish all of them. Entering a red circle gets you a wanted level. Each run pays $20,000. The Southpoint and Avery Allen runs can be done in either order."
+      "revealedGuide": "Pilot Pete's strand, mission 4 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only. Each run has 7 drops and about 2 hours to finish all of them. Entering a red circle gets you a wanted level. Each run pays $20,000. The Southpoint and Avery Allen runs can be done in either order.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-39",
@@ -2962,7 +3092,10 @@
       "guide": "Strangers & Freaks side mission, strand 14. Unlocks in chapter 4.",
       "revealedTitle": "Deliver Packages",
       "revealedGivenBy": "Pilot Pete",
-      "revealedGuide": "Pilot Pete's strand, mission 5 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only. Each run has 7 drops and about 2 hours to finish all of them. Entering a red circle gets you a wanted level. Each run pays $20,000. The Southpoint and Avery Allen runs can be done in either order."
+      "revealedGuide": "Pilot Pete's strand, mission 5 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only. Each run has 7 drops and about 2 hours to finish all of them. Entering a red circle gets you a wanted level. Each run pays $20,000. The Southpoint and Avery Allen runs can be done in either order.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-40",
@@ -2982,6 +3115,7 @@
       "revealedGivenBy": "Kenton",
       "revealedGuide": "Kenton's strand, the treasure dives. Unlocks in chapter 1: Kenton calls shortly after Island Dreams and shows up as KR at his shop in Key Lento. Dive the wrecks he marks, find the treasure with the metal detector and sell it at his counter. The first three are Nuestra Señora del Ocio, de la Noche and de la Ética Laxa; once they're clear, go back to the shop for the next three: Nuestra Señora Lujuriosa, Urca de Cinco Torres and Urca de Santa Sierra. After those he adds two dive sites: Belpoint Strait and the Bobcat Dive Site in Leonida Bay. He's away for a while after chapter 1 and texts Jason again in chapter 2 or 3; calling Brian as Jason in chapter 2 can speed that up. A wreck only counts once you've found everything there. The Kenton sets list has every treasure and where to search. Leads to his final mission, Maritime Disputes. Whether it counts towards the Strangers & Freaks trophy isn't confirmed yet.",
       "guideLinks": {
+        "Strangers & Freaks": "tr-25",
         "Island Dreams": "ms-009",
         "Nuestra Señora del Ocio": "kw-1",
         "de la Noche": "kw-3-01",
@@ -3004,7 +3138,11 @@
       "guide": "Strangers & Freaks side mission, strand 15. Comes after the strand's earlier mission.",
       "revealedTitle": "Maritime Disputes",
       "revealedGivenBy": "Kenton",
-      "revealedGuide": "Kenton's strand, the final mission, after his treasure dives. Finishing it unlocks the This Was No Boat Accident trophy and gives you the Rugger Fortune, a second dive boat alongside Kenton's Huntress at Island Dreams. Guides describe it as a showdown at sea; exactly when it unlocks isn't confirmed yet. Whether it counts towards the Strangers & Freaks trophy isn't confirmed yet. Still open after the story."
+      "revealedGuide": "Kenton's strand, the final mission, after his treasure dives. Finishing it unlocks the This Was No Boat Accident trophy and gives you the Rugger Fortune, a second dive boat alongside Kenton's Huntress at Island Dreams. Guides describe it as a showdown at sea; exactly when it unlocks isn't confirmed yet. Whether it counts towards the Strangers & Freaks trophy isn't confirmed yet. Still open after the story.",
+      "guideLinks": {
+        "This Was No Boat Accident": "tr-23",
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-42",
@@ -3017,7 +3155,10 @@
       "guide": "Optional side mission, strand 16. Unlocks in chapter 1.",
       "revealedTitle": "Find the Lost Drugs",
       "revealedGivenBy": "Cal",
-      "revealedGuide": "Cal's strand. Unlocks in chapter 1 with a message from Cal; missable, chapter 1 only. Optional: it doesn't count towards the Strangers & Freaks trophy. Four search areas just north of Key Lento hide cocaine packages: a recreation area, some burned houses, Pelican Valley and Thorpe Adventures. Take something that handles rough ground. Do it before the story mission Clear Skies: then you can sell the haul to Donnie for about $3,400 rather than to Brian for about $2,720."
+      "revealedGuide": "Cal's strand. Unlocks in chapter 1 with a message from Cal; missable, chapter 1 only. Optional: it doesn't count towards the Strangers & Freaks trophy. Four search areas just north of Key Lento hide cocaine packages: a recreation area, some burned houses, Pelican Valley and Thorpe Adventures. Take something that handles rough ground. Do it before the story mission Clear Skies: then you can sell the haul to Donnie for about $3,400 rather than to Brian for about $2,720.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "sf-43",
@@ -3030,7 +3171,10 @@
       "guide": "Optional side mission, strand 16. Unlocks in chapter 1.",
       "revealedTitle": "Ring the Bell!",
       "revealedGivenBy": "Cal",
-      "revealedGuide": "Cal's strand. After Day Release, Cal texts Jason on his way to meet Brian at the marina: answer him and go to The Rusty Anchor before that meeting. Missable, chapter 1 only. Optional: it doesn't count towards the Strangers & Freaks trophy. Drink with Cal (or pass on the shots), then agree to drive him home and see him safely there to earn the reward."
+      "revealedGuide": "Cal's strand. After Day Release, Cal texts Jason on his way to meet Brian at the marina: answer him and go to The Rusty Anchor before that meeting. Missable, chapter 1 only. Optional: it doesn't count towards the Strangers & Freaks trophy. Drink with Cal (or pass on the shots), then agree to drive him home and see him safely there to earn the reward.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "tk-optional-tasks",
@@ -10175,7 +10319,10 @@
       "nx": 0.584,
       "ny": 0.545,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
-      "region": "Vice-Dale County"
+      "region": "Vice-Dale County",
+      "guideLinks": {
+        "Maximum Withdrawal": "tr-40"
+      }
     },
     {
       "id": "bj-16",
@@ -10186,7 +10333,10 @@
       "nx": 0.623,
       "ny": 0.582,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
-      "region": "Vice-Dale County"
+      "region": "Vice-Dale County",
+      "guideLinks": {
+        "Maximum Withdrawal": "tr-40"
+      }
     },
     {
       "id": "bj-17",
@@ -10197,7 +10347,10 @@
       "nx": 0.639,
       "ny": 0.539,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
-      "region": "Vice-Dale County"
+      "region": "Vice-Dale County",
+      "guideLinks": {
+        "Maximum Withdrawal": "tr-40"
+      }
     },
     {
       "id": "bj-18",
@@ -10208,7 +10361,10 @@
       "nx": 0.633,
       "ny": 0.531,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
-      "region": "Vice-Dale County"
+      "region": "Vice-Dale County",
+      "guideLinks": {
+        "Maximum Withdrawal": "tr-40"
+      }
     },
     {
       "id": "bj-19",
@@ -10219,7 +10375,10 @@
       "nx": 0.756,
       "ny": 0.523,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
-      "region": "Vice-Dale County"
+      "region": "Vice-Dale County",
+      "guideLinks": {
+        "Maximum Withdrawal": "tr-40"
+      }
     },
     {
       "id": "bj-20",
@@ -10230,7 +10389,10 @@
       "nx": 0.758,
       "ny": 0.518,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
-      "region": "Vice-Dale County"
+      "region": "Vice-Dale County",
+      "guideLinks": {
+        "Maximum Withdrawal": "tr-40"
+      }
     },
     {
       "id": "bj-21",
@@ -10241,7 +10403,10 @@
       "nx": 0.741,
       "ny": 0.509,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
-      "region": "Vice-Dale County"
+      "region": "Vice-Dale County",
+      "guideLinks": {
+        "Maximum Withdrawal": "tr-40"
+      }
     },
     {
       "id": "bj-22",
@@ -10252,7 +10417,10 @@
       "nx": 0.755,
       "ny": 0.461,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
-      "region": "Vice-Dale County"
+      "region": "Vice-Dale County",
+      "guideLinks": {
+        "Maximum Withdrawal": "tr-40"
+      }
     },
     {
       "id": "pd-1",
@@ -36267,7 +36435,10 @@
           "label": "Parking spots",
           "value": "1"
         }
-      ]
+      ],
+      "guideLinks": {
+        "Little Boxes": "tr-54"
+      }
     },
     {
       "id": "gr-02",
@@ -36288,7 +36459,10 @@
           "label": "Parking spots",
           "value": "1"
         }
-      ]
+      ],
+      "guideLinks": {
+        "Little Boxes": "tr-54"
+      }
     },
     {
       "id": "gr-03",
@@ -36309,7 +36483,10 @@
           "label": "Parking spots",
           "value": "1"
         }
-      ]
+      ],
+      "guideLinks": {
+        "Little Boxes": "tr-54"
+      }
     },
     {
       "id": "gr-04",
@@ -36330,7 +36507,10 @@
           "label": "Parking spots",
           "value": "1"
         }
-      ]
+      ],
+      "guideLinks": {
+        "Little Boxes": "tr-54"
+      }
     },
     {
       "id": "gr-05",
@@ -36351,7 +36531,10 @@
           "label": "Parking spots",
           "value": "1"
         }
-      ]
+      ],
+      "guideLinks": {
+        "Little Boxes": "tr-54"
+      }
     },
     {
       "id": "gr-06",
@@ -36372,7 +36555,10 @@
           "label": "Parking spots",
           "value": "1"
         }
-      ]
+      ],
+      "guideLinks": {
+        "Little Boxes": "tr-54"
+      }
     },
     {
       "id": "gr-07",
@@ -36393,7 +36579,10 @@
           "label": "Parking spots",
           "value": "1"
         }
-      ]
+      ],
+      "guideLinks": {
+        "Little Boxes": "tr-54"
+      }
     },
     {
       "id": "gr-08",
@@ -36414,7 +36603,10 @@
           "label": "Parking spots",
           "value": "1"
         }
-      ]
+      ],
+      "guideLinks": {
+        "Little Boxes": "tr-54"
+      }
     },
     {
       "id": "gr-09",
@@ -36439,7 +36631,10 @@
       ],
       "autoCollectedBy": [
         "ms-028"
-      ]
+      ],
+      "guideLinks": {
+        "Little Boxes": "tr-54"
+      }
     },
     {
       "id": "gr-10",
@@ -36464,7 +36659,10 @@
       ],
       "autoCollectedBy": [
         "ms-062"
-      ]
+      ],
+      "guideLinks": {
+        "Little Boxes": "tr-54"
+      }
     },
     {
       "id": "gr-11",
@@ -36489,7 +36687,10 @@
       ],
       "autoCollectedBy": [
         "ms-089"
-      ]
+      ],
+      "guideLinks": {
+        "Little Boxes": "tr-54"
+      }
     },
     {
       "id": "gr-12",
@@ -36514,7 +36715,10 @@
       ],
       "autoCollectedBy": [
         "ms-089"
-      ]
+      ],
+      "guideLinks": {
+        "Little Boxes": "tr-54"
+      }
     },
     {
       "id": "gr-13",
@@ -36536,7 +36740,10 @@
           "label": "Code",
           "value": "92665"
         }
-      ]
+      ],
+      "guideLinks": {
+        "Little Boxes": "tr-54"
+      }
     },
     {
       "id": "gy-01",
@@ -40415,7 +40622,10 @@
       "spoiler": true,
       "guide": "A night-time secret in Kelly County, linked to a hidden trophy.",
       "revealedTitle": "UFO abduction",
-      "revealedGuide": "Go alone to the road north-west of the Starlet Motel in Kelly County after 2 AM and look for a car with flashing lights at the roadside. Follow the path into the woods towards a blue light, agree to help the woman the UFO drops off and walk her back to her car. The UFO then takes you and you wake up three days later. It earns The Truth Is Out There. The car doesn't always spawn: drive away and come back if it isn't there."
+      "revealedGuide": "Go alone to the road north-west of the Starlet Motel in Kelly County after 2 AM and look for a car with flashing lights at the roadside. Follow the path into the woods towards a blue light, agree to help the woman the UFO drops off and walk her back to her car. The UFO then takes you and you wake up three days later. It earns The Truth Is Out There. The car doesn't always spawn: drive away and come back if it isn't there.",
+      "guideLinks": {
+        "The Truth Is Out There": "tr-50"
+      }
     },
     {
       "id": "ee-02",
@@ -40442,7 +40652,10 @@
       "spoiler": true,
       "guide": "A nod to an older GTA game, from chapter 3, in Vice City. It's tied to a hidden trophy.",
       "revealedTitle": "The Banshee through the window",
-      "revealedGuide": "A nod to GTA III: once you have the Key Cloner, steal the blue Banshee with the white stripe from the Sunrise Premium Autos showroom in the south of Vice City and drive it out through the front window. It earns Capital Offense."
+      "revealedGuide": "A nod to GTA III: once you have the Key Cloner, steal the blue Banshee with the white stripe from the Sunrise Premium Autos showroom in the south of Vice City and drive it out through the front window. It earns Capital Offense.",
+      "guideLinks": {
+        "Capital Offense": "tr-45"
+      }
     },
     {
       "id": "ee-05",
