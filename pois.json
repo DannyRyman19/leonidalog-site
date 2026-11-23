@@ -1,5 +1,5 @@
 {
-  "version": 85,
+  "version": 86,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -3750,13 +3750,18 @@
       "id": "sf-51",
       "title": "Side mission 51",
       "category": "stranger-missions",
+      "nx": 0.6241,
+      "ny": 0.5671,
+      "region": "Vice-Dale County",
+      "area": "Tequesta",
       "givenBy": "Strand 18",
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 18. Comes after the strand's earlier missions.",
       "revealedTitle": "Stunt Audacity",
       "revealedGivenBy": "Papa Audacity",
-      "revealedGuide": "Papa Audacity's strand, mission 4 of 4, the finale. Unlocks after Quit Your Job, Sell Your House. Whether it counts towards the Strangers & Freaks trophy isn't confirmed yet. During this one Papa Audacity lets you buy his coin, and its price climbs as the mission goes on. Guides advise selling it all before the last stunt on the rocket bike, because he pulls the rug at the end and the coin crashes to nothing.",
+      "revealedGuide": "Papa Audacity's strand, mission 4 of 4, the finale. Unlocks after Quit Your Job, Sell Your House. It starts with Papa Audacity's launch party at Neo Paloma Apartments in Tequesta (Attend the Launch Party on the map). Hold on to your coin until you're out of the helicopter: the DacityCoin app lets you sell from the lift on the way up (5,000 DCTY is about $22,000 there), but the price keeps climbing, and once you've landed it's about $5.05 a coin, so 5,000 DCTY sells for around $25,000. Sell everything then, before Papa's final stunt. Whether it counts towards the Strangers & Freaks trophy isn't confirmed yet. During this one Papa Audacity lets you buy his coin, and its price climbs as the mission goes on. Guides advise selling it all before the last stunt on the rocket bike, because he pulls the rug at the end and the coin crashes to nothing.",
       "guideLinks": {
+        "Neo Paloma Apartments": "kf-019",
         "Strangers & Freaks": "tr-25",
         "Quit Your Job, Sell Your House": "sf-50"
       }
@@ -15407,13 +15412,14 @@
     },
     {
       "id": "wt-09",
+      "imageURL": "https://leonidalog.app/images/watches/wt-09.jpg",
       "title": "Crowex Octane 'Midas'",
       "category": "watches",
       "subgroup": "Vice-Dale County",
       "spoiler": true,
       "nx": 0.553,
       "ny": 0.493,
-      "guide": "Leonida Carrier Warehouse, a gang operation run by other criminals in Balsero: one of its key valuables, so take it while you rob the place.",
+      "guide": "Leonida Carrier Warehouse, a gang operation run by other criminals in Balsero: one of its key valuables, so take it while you rob the place. It's on the desk in the office, next to the lamp.",
       "region": "Vice-Dale County",
       "area": "Balsero",
       "guideLinks": {
@@ -41694,7 +41700,7 @@
       "category": "standout-vehicles",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
-      "guide": "For Randy's Wish List. It has no fixed spot: it turns up parked or driving at several places, so scan high-end cars with WAiNK to check.",
+      "guide": "For Randy's Wish List. Look outside the wealthy houses in northern Capri, where it's often parked. It isn't always there, so scan high-end cars with WAiNK to check.",
       "guideLinks": {
         "Randy's Wish List": "sf-30"
       }
@@ -41716,7 +41722,7 @@
       "category": "standout-vehicles",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
-      "guide": "For Randy's Wish List. It has no fixed spot: it turns up parked or driving at several places, so scan high-end cars with WAiNK to check.",
+      "guide": "For Randy's Wish List. Try the mansions on Starfish Island, reached by road from Waxman Island: the waterfront house at the north-east end often has one in its garage. It isn't always there, so scan high-end cars with WAiNK to check.",
       "guideLinks": {
         "Randy's Wish List": "sf-30"
       }
@@ -41727,7 +41733,7 @@
       "category": "standout-vehicles",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
-      "guide": "For Randy's Wish List. It has no fixed spot: it turns up parked or driving at several places, so scan high-end cars with WAiNK to check.",
+      "guide": "For Randy's Wish List. Look outside the wealthy houses in northern Capri, where it's often parked. It isn't always there, so scan high-end cars with WAiNK to check.",
       "guideLinks": {
         "Randy's Wish List": "sf-30"
       }
@@ -47648,6 +47654,17 @@
         }
       ],
       "guide": "Unlocks once the first five stunts are done. Meet an AudaCity engineer on the roof of the Piker Financial Center in Downtown Vice City, just south of the big freeway interchange by the river. It's a parachute jump: leap off, fly through the gap between a pair of buildings and land on the ground below. The map circle is approximate."
+    },
+    {
+      "id": "as-08",
+      "title": "Plane stunt at Avery Allen airfield",
+      "category": "audacity-stunts",
+      "spoiler": true,
+      "nx": 0.453,
+      "ny": 0.2479,
+      "region": "Kelly County",
+      "area": "North Kelly County",
+      "guide": "Starts at Avery Allen & Co. Aviation Services, Pilot Pete's airfield in North Kelly County. Fly the plane with Papa Audacity riding on its roof: under bridges and through barrel rolls over the rich neighbourhoods, then bail out and land on a boat."
     }
   ],
   "rules": {
