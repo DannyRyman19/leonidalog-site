@@ -1,5 +1,5 @@
 {
-  "version": 84,
+  "version": 85,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -14651,6 +14651,7 @@
     },
     {
       "id": "wl-vice-city-sign",
+      "imageURL": "https://leonidalog.app/images/waink/wl-vice-city-sign.jpg",
       "title": "Vice City Sign",
       "category": "waink",
       "subgroup": "Landmarks",
@@ -47627,7 +47628,7 @@
       "ny": 0.5507,
       "region": "Vice-Dale County",
       "area": "West Vice-Dale County",
-      "guide": "Unlocks once the first five stunts are done. Meet an AudaCity engineer at the giant Vice City sign in West Vice-Dale County, by Three Toe Lake west of VCIA, and help him drum up more buzz.",
+      "guide": "Unlocks once the first five stunts are done. Meet an AudaCity engineer at the giant Vice City sign in West Vice-Dale County, by Three Toe Lake west of VCIA. It's a run of stunt jumps one after another, finishing with a jump over the Vice City sign.",
       "guideLinks": {
         "Vice City sign": "wl-vice-city-sign"
       }
@@ -47646,7 +47647,7 @@
           "r": 0.006
         }
       ],
-      "guide": "Unlocks once the first five stunts are done. Meet an AudaCity engineer on the roof of the Piker Financial Center in Downtown Vice City, just south of the big freeway interchange by the river, and help create more buzz. The map circle is approximate."
+      "guide": "Unlocks once the first five stunts are done. Meet an AudaCity engineer on the roof of the Piker Financial Center in Downtown Vice City, just south of the big freeway interchange by the river. It's a parachute jump: leap off, fly through the gap between a pair of buildings and land on the ground below. The map circle is approximate."
     }
   ],
   "rules": {
