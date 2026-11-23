@@ -1,5 +1,5 @@
 {
-  "version": 83,
+  "version": 84,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -432,6 +432,15 @@
       "verb": "photographed",
       "collectible": true,
       "intro": "Five painted murals around Vice City and Vice Beach to photograph with your phone camera (not WAiNK). They don't count towards 100%. Photograph all five and you get a clue to a keypad garage on the south tip of Salton, north of the Slator Towing robbery spot: code 1010 opens it, and the unique 1010 Cheetah inside is yours to register or sell."
+    },
+    {
+      "id": "audacity-stunts",
+      "label": "AudaCity stunts",
+      "symbol": "flame.fill",
+      "colorHex": "E0A3FF",
+      "verb": "done",
+      "collectible": true,
+      "intro": "Promo stunts for Papa Audacity's coin, marked PA on the game map once his strand (from The Unknown Stuntman) is under way. The first five are stunt jumps in one of AudaCity's own vehicles; finishing those opens meet-ups with an AudaCity engineer for bigger stunts. They don't count towards 100%. More are added as they're found."
     }
   ],
   "pois": [
@@ -14232,13 +14241,14 @@
     },
     {
       "id": "wc-29",
+      "imageURL": "https://leonidalog.app/images/waink/wc-29.jpg",
       "title": "Big Entrance",
       "category": "waink",
       "subgroup": "Curiosities",
       "spoiler": true,
       "nx": 0.7631,
       "ny": 0.5949,
-      "guide": "Curiosity 29. Scan it with WAiNK in Dalton Island.",
+      "guide": "Curiosity 29. Scan it with WAiNK in the Dalton Island sculpture park: the bronze \"Big Entrance\" in the round sunken courtyard under the big star-shaped canopy.",
       "region": "Vice Beach",
       "area": "Dalton Island",
       "slot": 29
@@ -15788,6 +15798,7 @@
     },
     {
       "id": "sj-dalton-island-sculpture-park",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-dalton-island-sculpture-park.jpg",
       "title": "Dalton Island Sculpture Park",
       "category": "stunt-jumps",
       "subgroup": "Vice-Dale County",
@@ -24000,7 +24011,7 @@
       "title": "Drug lab 2",
       "category": "labs",
       "spoiler": true,
-      "nx": 0.5760,
+      "nx": 0.576,
       "ny": 0.5043,
       "guide": "Destroy the lab.",
       "region": "Vice City",
@@ -24013,7 +24024,7 @@
       "title": "Drug lab 3",
       "category": "labs",
       "spoiler": true,
-      "nx": 0.5710,
+      "nx": 0.571,
       "ny": 0.4858,
       "guide": "Destroy the lab.",
       "region": "Vice City",
@@ -24027,7 +24038,7 @@
       "category": "labs",
       "spoiler": true,
       "nx": 0.5376,
-      "ny": 0.4970,
+      "ny": 0.497,
       "guide": "Destroy the lab.",
       "region": "Vice City",
       "area": "Balsero",
@@ -24052,8 +24063,8 @@
       "title": "Drug lab 6",
       "category": "labs",
       "spoiler": true,
-      "nx": 0.6320,
-      "ny": 0.4650,
+      "nx": 0.632,
+      "ny": 0.465,
       "guide": "Destroy the lab.",
       "region": "Vice City",
       "area": "Crosstown",
@@ -24170,7 +24181,7 @@
       "category": "labs",
       "spoiler": true,
       "nx": 0.5998,
-      "ny": 0.4870,
+      "ny": 0.487,
       "guide": "Destroy the lab.",
       "region": "Vice City",
       "area": "Rockridge",
@@ -41616,7 +41627,7 @@
       "category": "standout-vehicles",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
-      "guide": "For Randy's Wish List. It has no fixed spot: it turns up parked or driving at several places, so scan high-end cars with WAiNK to check.",
+      "guide": "For Randy's Wish List. Look outside the houses in the wealthy northern part of Capri, where it's often parked. It isn't always there, so scan high-end cars with WAiNK to check.",
       "guideLinks": {
         "Randy's Wish List": "sf-30"
       }
@@ -41627,7 +41638,7 @@
       "category": "standout-vehicles",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
-      "guide": "For Randy's Wish List. It has no fixed spot: it turns up parked or driving at several places, so scan high-end cars with WAiNK to check.",
+      "guide": "For Randy's Wish List. Try Ocean Beach in Vice Beach: it's often parked along the beachfront near the beach gym or driving up and down the strip. It isn't always there, so scan high-end cars with WAiNK to check.",
       "guideLinks": {
         "Randy's Wish List": "sf-30"
       }
@@ -41833,7 +41844,7 @@
       "category": "standout-vehicles",
       "subgroup": "Wyman's classic cars",
       "spoiler": true,
-      "guide": "For Wyman's Classic Car Collection. Scan all four wrecked parts of this car with WAiNK: in the garage of a grey farmhouse on the east edge of Gellhorn, north of the state prison; sunk in the pond just east of the Thrillbilly Mud Club dirt track; behind a grey garage door on a green building in the alley beside the Xero station in Ambrosia; and in the water under the broken bridge in north Moreau, north of Buck Creek Country Store (you can scan it from the bridge). Wyman then charges $1,500 through BuckMe for the rebuild. Register it at a Pay 'n' Spray or park it in your garage to keep it."
+      "guide": "For Wyman's Classic Car Collection: the third car he rebuilds. Scan all four wrecked parts of this car with WAiNK: in the garage of a grey farmhouse on the east edge of Gellhorn, north of the state prison; sunk in the pond just east of the Thrillbilly Mud Club dirt track; behind a grey garage door on a green building in the alley beside the Xero station in Ambrosia; and in the water under the broken bridge in north Moreau, north of Buck Creek Country Store (you can scan it from the bridge). Wyman then charges $1,500 through BuckMe for the rebuild. Register it at a Pay 'n' Spray or park it in your garage to keep it."
     },
     {
       "id": "sv-wyman-02",
@@ -41841,7 +41852,7 @@
       "category": "standout-vehicles",
       "subgroup": "Wyman's classic cars",
       "spoiler": true,
-      "guide": "For Wyman's Classic Car Collection. All three parts to scan with WAiNK are in Port Gellhorn: in a field with pigs at the Tanglewood Ln trailer park, north of Sarena's Bargain Store; in a garage behind a blue house with sunflower decorations on Gellhorn Ave, north-west of Wasteland Off-Road; and behind a wooden hut at the southern tip, below Dirt Merchants. Wyman then charges $1,500 for the rebuild.",
+      "guide": "For Wyman's Classic Car Collection: the first car he rebuilds. All three parts to scan with WAiNK are in Port Gellhorn: in a field with pigs at the Tanglewood Ln trailer park, north of Sarena's Bargain Store; in a garage behind a blue house with sunflower decorations on Gellhorn Ave, north-west of Wasteland Off-Road; and behind a wooden hut at the southern tip, below Dirt Merchants. Wyman then charges $1,500 for the rebuild.",
       "guideLinks": {
         "Sarena's Bargain Store": "su-sarena-s-bargain-store"
       }
@@ -41852,7 +41863,7 @@
       "category": "standout-vehicles",
       "subgroup": "Wyman's classic cars",
       "spoiler": true,
-      "guide": "For Wyman's Classic Car Collection. Scan all three parts with WAiNK: in a carport at the end of Cangrejo St in Southwind, west of the Xero station; under a house on Sunset Dr in Key Lento, across from the police impound; and behind the abandoned gas station on Old Fort Rd in Shoreless Keys, north of Grassrivers Cafe & Deli. Wyman then charges $1,500 for the rebuild."
+      "guide": "For Wyman's Classic Car Collection: the second car he rebuilds. Scan all three parts with WAiNK: in a carport at the end of Cangrejo St in Southwind, west of the Xero station; under a house on Sunset Dr in Key Lento, across from the police impound; and behind the abandoned gas station on Old Fort Rd in Shoreless Keys, north of Grassrivers Cafe & Deli. Wyman then charges $1,500 for the rebuild."
     },
     {
       "id": "sv-wyman-04",
@@ -41860,7 +41871,7 @@
       "category": "standout-vehicles",
       "subgroup": "Wyman's classic cars",
       "spoiler": true,
-      "guide": "For Wyman's Classic Car Collection. Ultimate Edition only. Scan all five parts with WAiNK: in a locked yellow shipping container near the beach at Wild Hog Point (you need the lock-cutting tool from chapter 3); in the locked garage of a white house in the north-west of Capri; behind Donnies Auto Repair in Watson Bay, down the gravel track beside it; inside a house on Casanova Island in the Rialto Islands; and inside Willie's Service Center, east of the VCIA airport (breaking in sets off the alarm). Wyman then charges $1,500 for the rebuild."
+      "guide": "For Wyman's Classic Car Collection: the fourth car he rebuilds. Ultimate Edition only. Scan all five parts with WAiNK: in a locked shipping container near the beach at Wild Hog Point (you need the lock-cutting tool from chapter 3); in the locked garage of a white house in the north-west of Capri; behind Donnies Auto Repair in Watson Bay, down the gravel track beside it; inside a house on Casanova Island in the Rialto Islands; and inside Willie's Service Center, east of the VCIA airport (breaking in sets off the alarm). Wyman then charges $1,500 for the rebuild."
     },
     {
       "id": "sv-wyman-05",
@@ -47540,6 +47551,102 @@
       "spoiler": true,
       "guide": "Crosstown: from the pavement just south of the Mule City Line subway stop, photograph the painted train. It only counts while the train is stopped at the station.",
       "region": "Vice City"
+    },
+    {
+      "id": "as-01",
+      "title": "Dalton Island Statue",
+      "category": "audacity-stunts",
+      "spoiler": true,
+      "nx": 0.7632,
+      "ny": 0.5942,
+      "region": "Vice-Dale County",
+      "area": "Dalton Island",
+      "guide": "Dalton Island: the stunt jump at the Dalton Island Sculpture Park, under the big star-shaped canopy. Use one of AudaCity's vehicles.",
+      "guideLinks": {
+        "Dalton Island Sculpture Park": "sj-dalton-island-sculpture-park"
+      }
+    },
+    {
+      "id": "as-02",
+      "title": "Mastodon Sand Mill",
+      "category": "audacity-stunts",
+      "spoiler": true,
+      "nx": 0.6452,
+      "ny": 0.4429,
+      "region": "Vice-Dale County",
+      "area": "Stockyard",
+      "guide": "Stockyard: the stunt jump at the Mastodon sand mill, beside the freeway. Use one of AudaCity's vehicles."
+    },
+    {
+      "id": "as-03",
+      "title": "St. Vitus Medical Center",
+      "category": "audacity-stunts",
+      "spoiler": true,
+      "nx": 0.7351,
+      "ny": 0.4212,
+      "region": "Vice-Dale County",
+      "area": "Penmarch Isle",
+      "guide": "Penmarch Isle, Washington Beach: the stunt jump by St. Vitus Medical Center, just off the bridge. Use one of AudaCity's vehicles."
+    },
+    {
+      "id": "as-04",
+      "title": "Leonida Power and Light",
+      "category": "audacity-stunts",
+      "region": "Vice-Dale County",
+      "area": "Tequesta",
+      "spoiler": true,
+      "areas": [
+        {
+          "nx": 0.6287,
+          "ny": 0.5832,
+          "r": 0.006
+        }
+      ],
+      "guide": "Tequesta: the stunt jump at the Leonida Power and Light site. The map circle is approximate. Use one of AudaCity's vehicles."
+    },
+    {
+      "id": "as-05",
+      "title": "Vice City Parking Department (Ocean Beach)",
+      "category": "audacity-stunts",
+      "spoiler": true,
+      "nx": 0.7604,
+      "ny": 0.4932,
+      "region": "Vice-Dale County",
+      "area": "Ocean Beach",
+      "guide": "Ocean Beach: the stunt jump on the Vice City Parking Department Ocean Beach garage, a few blocks in from the beach. Use one of AudaCity's vehicles.",
+      "guideLinks": {
+        "Vice City Parking Department Ocean Beach": "sj-vice-city-parking-department-ocean-beach"
+      }
+    },
+    {
+      "id": "as-06",
+      "title": "Meet at the Vice City Sign",
+      "category": "audacity-stunts",
+      "spoiler": true,
+      "nx": 0.4816,
+      "ny": 0.5507,
+      "region": "Vice-Dale County",
+      "area": "West Vice-Dale County",
+      "guide": "Unlocks once the first five stunts are done. Meet an AudaCity engineer at the giant Vice City sign in West Vice-Dale County, by Three Toe Lake west of VCIA, and help him drum up more buzz.",
+      "guideLinks": {
+        "Vice City sign": "wl-vice-city-sign"
+      }
+    },
+    {
+      "id": "as-07",
+      "title": "Meet at the Piker Financial Center",
+      "category": "audacity-stunts",
+      "region": "Vice-Dale County",
+      "area": "Downtown",
+      "spoiler": true,
+      "areas": [
+        {
+          "nx": 0.6417,
+          "ny": 0.533,
+          "r": 0.006
+        }
+      ],
+      "guide": "Unlocks once the first five stunts are done. Meet an AudaCity engineer on the roof of the Piker Financial Center in Downtown Vice City, just south of the big freeway interchange by the river, and help create more buzz. The map circle is approximate."
     }
   ],
   "rules": {
