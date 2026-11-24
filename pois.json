@@ -1,5 +1,5 @@
 {
-  "version": 103,
+  "version": 104,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -9957,8 +9957,8 @@
       "category": "cards",
       "subgroup": "Right Wing: America's Hero",
       "spoiler": true,
-      "nx": 0.3904,
-      "ny": 0.1852,
+      "nx": 0.3898,
+      "ny": 0.1848,
       "region": "Lummox County",
       "area": "Grayson",
       "guide": "One of the 36 cards in the Right Wing: America's Hero set. Follow the map pin."
