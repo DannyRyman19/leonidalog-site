@@ -1,5 +1,5 @@
 {
-  "version": 87,
+  "version": 88,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -4625,15 +4625,19 @@
     },
     {
       "id": "cd-01-08",
+      "imageURL": "https://leonidalog.app/images/cards/cd-01-08.jpg",
       "title": "Elias Delgado - Silver",
       "category": "cards",
       "subgroup": "Vice City Flamingos",
       "spoiler": true,
-      "nx": 0.4186,
-      "ny": 0.681,
+      "nx": 0.4192,
+      "ny": 0.6809,
       "region": "Mariana County",
       "area": "Watson Bay",
-      "guide": "One of the 24 cards in the Vice City Flamingos set. Follow the map pin."
+      "guide": "Inside the open garage by the canal in Watson Bay: on the bottom shelf under the workbench, next to the dartboard. The Imponte Soaring Phoenix is parked in the same garage.",
+      "guideLinks": {
+        "Imponte Soaring Phoenix": "sv-imponte-soaring-phoenix"
+      }
     },
     {
       "id": "cd-01-09",
@@ -4715,15 +4719,16 @@
     },
     {
       "id": "cd-01-15",
+      "imageURL": "https://leonidalog.app/images/cards/cd-01-15.jpg",
       "title": "Julian Cruz - Silver",
       "category": "cards",
       "subgroup": "Vice City Flamingos",
       "spoiler": true,
-      "nx": 0.4264,
-      "ny": 0.7005,
+      "nx": 0.4270,
+      "ny": 0.6985,
       "region": "Mariana County",
       "area": "Watson Bay",
-      "guide": "One of the 24 cards in the Vice City Flamingos set. Follow the map pin."
+      "guide": "Climb the scaffolding at the back of the building to its upstairs balcony overlooking the Globe Oil station; the card is on the balcony rail next to a drinks can."
     },
     {
       "id": "cd-01-16",
@@ -4754,15 +4759,16 @@
     },
     {
       "id": "cd-01-18",
+      "imageURL": "https://leonidalog.app/images/cards/cd-01-18.jpg",
       "title": "Mateo Caballero - Gold",
       "category": "cards",
       "subgroup": "Vice City Flamingos",
       "spoiler": true,
-      "nx": 0.4235,
-      "ny": 0.6898,
+      "nx": 0.4243,
+      "ny": 0.6895,
       "region": "Mariana County",
       "area": "Watson Bay",
-      "guide": "One of the 24 cards in the Vice City Flamingos set. Follow the map pin."
+      "guide": "At the very top of the Watson Bay water tower: climb all the way up onto the dome; the card is in the big bird's nest beside the red beacon."
     },
     {
       "id": "cd-01-19",
@@ -5030,6 +5036,7 @@
     },
     {
       "id": "cd-02-16",
+      "imageURL": "https://leonidalog.app/images/cards/cd-02-16.jpg",
       "title": "Leroy Rook - Bronze",
       "category": "cards",
       "subgroup": "Vice City Narcos",
@@ -5038,7 +5045,7 @@
       "ny": 0.6898,
       "region": "Mariana County",
       "area": "Watson Bay",
-      "guide": "One of the 24 cards in the Vice City Narcos set. Follow the map pin."
+      "guide": "Upstairs, in the back office room: inside the safe in the wooden shelving unit, under the shelf of coloured binders. Opening the safe also pays out cash."
     },
     {
       "id": "cd-02-17",
@@ -5093,6 +5100,7 @@
     },
     {
       "id": "cd-02-21",
+      "imageURL": "https://leonidalog.app/images/cards/cd-02-21.jpg",
       "title": "Nicky McVee - Silver",
       "category": "cards",
       "subgroup": "Vice City Narcos",
@@ -5101,7 +5109,7 @@
       "ny": 0.6947,
       "region": "Mariana County",
       "area": "Watson Bay",
-      "guide": "One of the 24 cards in the Vice City Narcos set. Follow the map pin."
+      "guide": "Inside a run-down house (the resident shouts at you but it's fine to grab it): stuck to the freezer door of the fridge in the kitchen, among the magnets."
     },
     {
       "id": "cd-02-22",
@@ -5871,15 +5879,16 @@
     },
     {
       "id": "cd-05-06",
+      "imageURL": "https://leonidalog.app/images/cards/cd-05-06.jpg",
       "title": "Christian Freeman - Navy Blue",
       "category": "cards",
       "subgroup": "Liberty City Swingers",
       "spoiler": true,
-      "nx": 0.4128,
-      "ny": 0.6898,
+      "nx": 0.4136,
+      "ny": 0.6894,
       "region": "Mariana County",
       "area": "Watson Bay",
-      "guide": "One of the 24 cards in the Liberty City Swingers set. Follow the map pin."
+      "guide": "In the alley along the tall grey fence with the lattice top: the card is lying on the low brick ledge at the foot of the fence."
     },
     {
       "id": "cd-05-07",
@@ -5938,8 +5947,8 @@
       "category": "cards",
       "subgroup": "Liberty City Swingers",
       "spoiler": true,
-      "nx": 0.4322,
-      "ny": 0.6947,
+      "nx": 0.4328,
+      "ny": 0.6943,
       "region": "Mariana County",
       "area": "Watson Bay",
       "guide": "One of the 24 cards in the Liberty City Swingers set. Follow the map pin."
@@ -6235,7 +6244,7 @@
       "nx": 0.6282,
       "ny": 0.4582,
       "region": "Vice-Dale County",
-      "area": "Vice City",
+      "area": "La Perle",
       "guide": "One of the 24 cards in the Liberty City Penetrators set. Follow the map pin."
     },
     {
@@ -6389,15 +6398,16 @@
     },
     {
       "id": "cd-06-24",
+      "imageURL": "https://leonidalog.app/images/cards/cd-06-24.jpg",
       "title": "Wenyen Deng - Standard",
       "category": "cards",
       "subgroup": "Liberty City Penetrators",
       "spoiler": true,
-      "nx": 0.4128,
-      "ny": 0.7044,
+      "nx": 0.4134,
+      "ny": 0.7037,
       "region": "Mariana County",
       "area": "Watson Bay",
-      "guide": "One of the 24 cards in the Liberty City Penetrators set. Follow the map pin."
+      "guide": "Round the back of the sports bar on the Watson Bay waterfront: on top of the grey electrical cabinet by the back door, next to a beer bottle."
     },
     {
       "id": "cd-07-01",
@@ -6668,15 +6678,16 @@
     },
     {
       "id": "cd-07-23",
+      "imageURL": "https://leonidalog.app/images/cards/cd-07-23.jpg",
       "title": "Thien Trinh - Gold",
       "category": "cards",
       "subgroup": "Liberty City Wrath",
       "spoiler": true,
-      "nx": 0.4069,
-      "ny": 0.6956,
+      "nx": 0.4073,
+      "ny": 0.6959,
       "region": "Mariana County",
       "area": "Watson Bay",
-      "guide": "One of the 24 cards in the Liberty City Wrath set. Follow the map pin."
+      "guide": "On the wooden lookout tower above the Watson Bay marina. Parkour round the left side of the building and up the stairs, shimmy along the ledge, then take the stairs that wrap round the tower to the top; the card is on the ledge by the tower windows."
     },
     {
       "id": "cd-07-24",
@@ -6848,6 +6859,7 @@
     },
     {
       "id": "cd-08-14",
+      "imageURL": "https://leonidalog.app/images/cards/cd-08-14.jpg",
       "title": "Jonah Clemmons - Silver",
       "category": "cards",
       "subgroup": "Los Santos Corkers",
@@ -6856,7 +6868,7 @@
       "ny": 0.6869,
       "region": "Mariana County",
       "area": "Watson Bay",
-      "guide": "One of the 24 cards in the Los Santos Corkers set. Follow the map pin."
+      "guide": "Inside a dark storage room in the house (bring a torch): on the small wooden table under the bookshelf, next to a baseball."
     },
     {
       "id": "cd-08-15",
@@ -6884,6 +6896,7 @@
     },
     {
       "id": "cd-08-17",
+      "imageURL": "https://leonidalog.app/images/cards/cd-08-17.jpg",
       "title": "Samuel Buono - Navy Blue",
       "category": "cards",
       "subgroup": "Los Santos Corkers",
@@ -6892,7 +6905,7 @@
       "ny": 0.6927,
       "region": "Mariana County",
       "area": "Watson Bay",
-      "guide": "One of the 24 cards in the Los Santos Corkers set. Follow the map pin."
+      "guide": "On the raised wooden deck of a cabin: on the end of the bench under the window (bring a torch at night)."
     },
     {
       "id": "cd-08-18",
@@ -7165,6 +7178,7 @@
     },
     {
       "id": "cd-09-15",
+      "imageURL": "https://leonidalog.app/images/cards/cd-09-15.jpg",
       "title": "Nikkander Orlov - Silver",
       "category": "cards",
       "subgroup": "Los Santos Panic",
@@ -7173,7 +7187,7 @@
       "ny": 0.68,
       "region": "Mariana County",
       "area": "Pelican Valley",
-      "guide": "One of the 24 cards in the Los Santos Panic set. Follow the map pin."
+      "guide": "In the open-fronted workshop shed: on a low shelf of the metal shelving unit, between the stepladder and the workbench with the tool pegboard."
     },
     {
       "id": "cd-09-16",
@@ -7360,15 +7374,16 @@
     },
     {
       "id": "cd-10-06",
+      "imageURL": "https://leonidalog.app/images/cards/cd-10-06.jpg",
       "title": "Granian Beach - Standard",
       "category": "cards",
       "subgroup": "Los Santos Pounders",
       "spoiler": true,
-      "nx": 0.4216,
-      "ny": 0.6732,
+      "nx": 0.4217,
+      "ny": 0.6726,
       "region": "Mariana County",
       "area": "Watson Bay",
-      "guide": "One of the 24 cards in the Los Santos Pounders set. Follow the map pin."
+      "guide": "Inside the house, in a cluttered bedroom piled with boxes: on the floor by the foot of the bed, between a weight plate and a red sports bag."
     },
     {
       "id": "cd-10-07",
@@ -7661,6 +7676,7 @@
     },
     {
       "id": "cd-11-06",
+      "imageURL": "https://leonidalog.app/images/cards/cd-11-06.jpg",
       "title": "Danny McLean - Standard",
       "category": "cards",
       "subgroup": "Backyard Wrestling",
@@ -7669,7 +7685,10 @@
       "ny": 0.681,
       "region": "Mariana County",
       "area": "Watson Bay",
-      "guide": "One of the 12 cards in the Backyard Wrestling set. Follow the map pin."
+      "guide": "Under the overhang of the red building by the marsh (bring a torch at night): on the floor beside the punch bag hanging in the doorway, near the weights. The Nagasaki Azalea Street Blazer quad is parked just outside, by the fire pit and picnic table.",
+      "guideLinks": {
+        "Nagasaki Azalea Street Blazer": "sv-nagasaki-azalea-street-blazer"
+      }
     },
     {
       "id": "cd-11-07",
@@ -7709,15 +7728,16 @@
     },
     {
       "id": "cd-11-10",
+      "imageURL": "https://leonidalog.app/images/cards/cd-11-10.jpg",
       "title": "L.Heavy - Standard",
       "category": "cards",
       "subgroup": "Backyard Wrestling",
       "spoiler": true,
-      "nx": 0.4069,
+      "nx": 0.4074,
       "ny": 0.6723,
       "region": "Mariana County",
       "area": "Watson Bay",
-      "guide": "One of the 12 cards in the Backyard Wrestling set. Follow the map pin."
+      "guide": "Up the old dockside crane over the Watson Bay wharf: climb the ladders to the walkway under the cab; the card is on the ledge by a stack of magazines and a can."
     },
     {
       "id": "cd-11-11",
@@ -8045,15 +8065,16 @@
     },
     {
       "id": "cd-13-02",
+      "imageURL": "https://leonidalog.app/images/cards/cd-13-02.jpg",
       "title": "Chip - Standard",
       "category": "cards",
       "subgroup": "Delights Dancers",
       "spoiler": true,
-      "nx": 0.4234,
-      "ny": 0.6775,
+      "nx": 0.4237,
+      "ny": 0.6769,
       "region": "Mariana County",
       "area": "Watson Bay",
-      "guide": "One of the 18 cards in the Delights Dancers set. Follow the map pin."
+      "guide": "Inside the waterfront house, in the bathroom: on the closed toilet lid."
     },
     {
       "id": "cd-13-03",
@@ -9335,15 +9356,19 @@
     },
     {
       "id": "cd-16-14",
+      "imageURL": "https://leonidalog.app/images/cards/cd-16-14.jpg",
       "title": "iFred - Maroon",
       "category": "cards",
       "subgroup": "The Legends of Ratface",
       "spoiler": true,
-      "nx": 0.4245,
-      "ny": 0.6712,
+      "nx": 0.4244,
+      "ny": 0.6715,
       "region": "Mariana County",
       "area": "Watson Bay",
-      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
+      "guide": "In the back garden of the house with the UFO animal pen: inside the little castle-shaped hutch against the wall, in its window opening.",
+      "guideLinks": {
+        "UFO animal pen": "wc-unidentified-animal-pen-uap"
+      }
     },
     {
       "id": "cd-16-15",
@@ -9458,15 +9483,16 @@
     },
     {
       "id": "cd-16-24",
+      "imageURL": "https://leonidalog.app/images/cards/cd-16-24.jpg",
       "title": "Silver Age Betrayal - Purple",
       "category": "cards",
       "subgroup": "The Legends of Ratface",
       "spoiler": true,
-      "nx": 0.4449,
-      "ny": 0.68,
+      "nx": 0.4457,
+      "ny": 0.6794,
       "region": "Mariana County",
       "area": "Watson Bay",
-      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
+      "guide": "Behind a locked door (use the snap gun or break it open), in a small room with a weed plant: on top of the chest freezer next to a stack of magazines, under the big orange fan."
     },
     {
       "id": "cd-16-25",
@@ -9599,15 +9625,16 @@
     },
     {
       "id": "cd-16-35",
+      "imageURL": "https://leonidalog.app/images/cards/cd-16-35.jpg",
       "title": "Wokester - Maroon",
       "category": "cards",
       "subgroup": "The Legends of Ratface",
       "spoiler": true,
-      "nx": 0.4273,
-      "ny": 0.6966,
+      "nx": 0.4277,
+      "ny": 0.6958,
       "region": "Mariana County",
       "area": "Watson Bay",
-      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
+      "guide": "In the back room of the shop: in the open middle drawer of the grey filing cabinet, on top of the magazines."
     },
     {
       "id": "cd-16-36",
@@ -9647,6 +9674,7 @@
     },
     {
       "id": "cd-17-03",
+      "imageURL": "https://leonidalog.app/images/cards/cd-17-03.jpg",
       "title": "Flamer - White",
       "category": "cards",
       "subgroup": "Right Wing: America's Hero",
@@ -9655,7 +9683,7 @@
       "ny": 0.68,
       "region": "Mariana County",
       "area": "Watson Bay",
-      "guide": "One of the 36 cards in the Right Wing: America's Hero set. Follow the map pin."
+      "guide": "Under the covered back area with the bins and a steel sink: pinned to the notice board on the wall above the worktop, under the outdoor light."
     },
     {
       "id": "cd-17-04",
@@ -9920,15 +9948,16 @@
     },
     {
       "id": "cd-17-25",
+      "imageURL": "https://leonidalog.app/images/cards/cd-17-25.jpg",
       "title": "Right vs. Left - Blue",
       "category": "cards",
       "subgroup": "Right Wing: America's Hero",
       "spoiler": true,
-      "nx": 0.4206,
-      "ny": 0.6927,
+      "nx": 0.4204,
+      "ny": 0.6921,
       "region": "Mariana County",
       "area": "Watson Bay",
-      "guide": "One of the 36 cards in the Right Wing: America's Hero set. Follow the map pin."
+      "guide": "Under the covered porch looking out over the fenced beer garden with picnic tables: on top of the wooden barrel by the railing."
     },
     {
       "id": "cd-17-26",
@@ -13497,12 +13526,13 @@
     },
     {
       "id": "fl-007",
+      "imageURL": "https://leonidalog.app/images/flamingos/fl-007.jpg",
       "title": "Flamingo 7",
       "category": "flamingos",
       "spoiler": true,
       "nx": 0.4705,
       "ny": 0.6815,
-      "guide": "Watson Bay: southwest corner of the motel by Paradise RV Park on the east edge, in the rubbish.",
+      "guide": "Watson Bay: southwest corner of the motel by Paradise RV Park on the east edge, in the rubbish: among the boxes and bins under the leaning \"Local Access Only\" sign.",
       "region": "Mariana County",
       "area": "Watson Bay"
     },
@@ -13563,12 +13593,13 @@
     },
     {
       "id": "fl-013",
+      "imageURL": "https://leonidalog.app/images/flamingos/fl-013.jpg",
       "title": "Flamingo 13",
       "category": "flamingos",
       "spoiler": true,
-      "nx": 0.4235,
-      "ny": 0.6775,
-      "guide": "Watson Bay: behind the house next door to the one with the Chip - Standard card, north end of town.",
+      "nx": 0.4233,
+      "ny": 0.6763,
+      "guide": "Watson Bay: behind the house next door to the one with the Chip - Standard card, north end of town. It's in the flower bed at the back corner of the house, by the path down to the jetty.",
       "region": "Mariana County",
       "area": "Watson Bay",
       "guideLinks": {
@@ -14803,7 +14834,8 @@
       "region": "Lummox County",
       "area": "Featherstone Islands",
       "nx": 0.4061,
-      "ny": 0.121
+      "ny": 0.121,
+      "guide": "Scan it with WAiNK: the huge capsized cargo ship on the small islands in the middle of the Featherstone Islands, on the north side of the south-eastern island. Reach it by boat."
     },
     {
       "id": "wc-belville-topiary",
@@ -15010,9 +15042,10 @@
       "subgroup": "Curiosities",
       "spoiler": true,
       "region": "Lummox County",
-      "area": "MacAlister Gold Mine",
+      "area": "Moreau",
       "nx": 0.4504,
-      "ny": 0.1589
+      "ny": 0.1589,
+      "guide": "Scan it with WAiNK: footprints set in the rock by the river in the valley of south-west Moreau, north-west of Taco Bomb – West Kalaga, just south of the railway bridge."
     },
     {
       "id": "wc-noflusher-homestead",
@@ -15040,14 +15073,15 @@
     },
     {
       "id": "wc-unidentified-animal-pen-uap",
+      "imageURL": "https://leonidalog.app/images/waink/wc-unidentified-animal-pen-uap.jpg",
       "title": "Unidentified Animal Pen (UAP)",
       "category": "waink",
       "subgroup": "Curiosities",
       "spoiler": true,
       "region": "Mariana County",
       "area": "Watson Bay",
-      "nx": 0.4247,
-      "ny": 0.6719,
+      "nx": 0.4249,
+      "ny": 0.6715,
       "guide": "Curiosity 33. Scan it with WAiNK: the UFO-shaped animal barn in the back garden of a light-blue house on Kingston Rd in northern Watson Bay.",
       "slot": 33
     },
@@ -15082,7 +15116,7 @@
       "subgroup": "Sculptures",
       "spoiler": true,
       "region": "Vice-Dale County",
-      "area": "Vice City",
+      "area": "Bayside",
       "nx": 0.6644,
       "ny": 0.4264,
       "guide": "Sculpture 2. Scan it with WAiNK: the giant gun statue pointing at a mural on the ground, on Catalan Blvd in the south of the Decor District, southeast of Blanc & Giroux.",
@@ -15304,13 +15338,14 @@
     },
     {
       "id": "wt-02",
+      "imageURL": "https://leonidalog.app/images/watches/wt-02.jpg",
       "title": "B&G Ark Royal Quantum",
       "category": "watches",
       "subgroup": "Mariana County",
       "spoiler": true,
       "nx": 0.4411,
       "ny": 0.6745,
-      "guide": "Watson Bay Safehouse, a La Polilla Negra gang operation in Watson Bay: one of its key valuables, so take it while you rob the place.",
+      "guide": "Watson Bay Safehouse, a La Polilla Negra gang operation in Watson Bay: one of its key valuables, so take it while you rob the place. It's on the long desk with the CCTV monitors, in front of the camera control keyboard.",
       "region": "Mariana County",
       "area": "Watson Bay",
       "guideLinks": {
@@ -18165,7 +18200,7 @@
       "ny": 0.2725,
       "guide": "Fly under the railroad bridge.",
       "region": "Leonard County",
-      "area": "Richard Barebone National Park",
+      "area": "Waning Sands",
       "subgroup": "Leonard County"
     },
     {
@@ -18657,6 +18692,7 @@
       "ny": 0.6679,
       "guide": "Fly under the bridge between Watson Bay and Grassrivers.",
       "region": "Mariana County",
+      "area": "Grassrivers",
       "subgroup": "Mariana County"
     },
     {
@@ -18884,6 +18920,7 @@
       "ny": 0.5042,
       "guide": "Fly under the bridge between Buckskin Swamp and West Vice-Dale County.",
       "region": "Vice-Dale County",
+      "area": "West Vice-Dale County",
       "subgroup": "Kelly County"
     },
     {
@@ -19267,7 +19304,7 @@
       "ny": 0.218,
       "guide": "Fly under the bridge between east and west I-297 between North Leonard County and Waning Sands.",
       "region": "Leonard County",
-      "area": "Mount Hailes Country Club",
+      "area": "North Leonard County",
       "subgroup": "Lummox County"
     },
     {
@@ -19291,6 +19328,7 @@
       "ny": 0.244,
       "guide": "Fly under the bridge between east and west I-297 between North Kelly County and North Leonard County.",
       "region": "Kelly County",
+      "area": "North Kelly County",
       "subgroup": "Lummox County"
     },
     {
@@ -19326,6 +19364,7 @@
       "ny": 0.2337,
       "guide": "Fly under the bridge in North Kelly County.",
       "region": "Lummox County",
+      "area": "Kalaga National Park",
       "subgroup": "Kelly County"
     },
     {
@@ -20134,37 +20173,40 @@
     },
     {
       "id": "hp-035",
+      "imageURL": "https://leonidalog.app/images/hoops/hp-035.jpg",
       "title": "Watson Bay blue house",
       "category": "hoops",
       "subgroup": "Mariana County",
       "spoiler": true,
-      "nx": 0.4302,
-      "ny": 0.6855,
-      "guide": "Big blue house with a boat trailer, north Watson Bay, on the side of the house.",
+      "nx": 0.4303,
+      "ny": 0.6853,
+      "guide": "Big blue stilt house with a jet ski on a trailer beside it, north Watson Bay: the hoop is above the garage door, under the raised floor.",
       "region": "Mariana County",
       "area": "Watson Bay"
     },
     {
       "id": "hp-039",
+      "imageURL": "https://leonidalog.app/images/hoops/hp-039.jpg",
       "title": "Seabell Ave, Watson Bay",
       "category": "hoops",
       "subgroup": "Mariana County",
       "spoiler": true,
       "nx": 0.4451,
       "ny": 0.6917,
-      "guide": "Long beige house on Seabell Ave opposite a construction entrance, above the garage.",
+      "guide": "Long beige house on Seabell Ave opposite a construction entrance, above the garage: it's on the detached white garage with the roller door, next to a fire pit with camping chairs.",
       "region": "Mariana County",
       "area": "Watson Bay"
     },
     {
       "id": "hp-062",
+      "imageURL": "https://leonidalog.app/images/hoops/hp-062.jpg",
       "title": "Pelican River shack",
       "category": "hoops",
       "subgroup": "Mariana County",
       "spoiler": true,
       "nx": 0.4743,
       "ny": 0.6795,
-      "guide": "Shack on the Pelican River, east Watson Bay, on a carport beam.",
+      "guide": "Shack on the Pelican River, east Watson Bay, near the motel: the hoop hangs from the front beam of the corrugated carport beside the workshop, above the old pickup.",
       "region": "Mariana County",
       "area": "Watson Bay"
     },
@@ -41086,8 +41128,8 @@
       "category": "standout-vehicles",
       "subgroup": "Standout",
       "spoiler": true,
-      "nx": 0.4197,
-      "ny": 0.6739,
+      "nx": 0.4198,
+      "ny": 0.6736,
       "region": "Mariana County",
       "area": "Watson Bay"
     },
@@ -41453,6 +41495,48 @@
       "ny": 0.5946,
       "region": "Vice-Dale County",
       "area": "Salton"
+    },
+    {
+      "id": "sv-imponte-soaring-phoenix",
+      "imageURL": "https://leonidalog.app/images/vehicles/sv-imponte-soaring-phoenix.jpg",
+      "title": "Imponte Soaring Phoenix",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "nx": 0.4192,
+      "ny": 0.6809,
+      "region": "Mariana County",
+      "area": "Watson Bay",
+      "spoiler": true,
+      "guide": "A one-off customised Phoenix: gold paint, firebird hood art, a supercharger through the bonnet and TORQ Wheels on the back window. Parked inside the open garage by the canal in Watson Bay (the same garage as the Elias Delgado - Silver card). Locked, but no security or tracker. Worth $3,250 to sell, $11,900 to register.",
+      "guideLinks": {
+        "Elias Delgado - Silver": "cd-01-08"
+      }
+    },
+    {
+      "id": "sv-nagasaki-azalea-street-blazer",
+      "imageURL": "https://leonidalog.app/images/vehicles/sv-nagasaki-azalea-street-blazer.jpg",
+      "title": "Nagasaki Azalea Street Blazer",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "nx": 0.4517,
+      "ny": 0.681,
+      "region": "Mariana County",
+      "area": "Watson Bay",
+      "spoiler": true,
+      "guide": "A one-off Street Blazer quad bike with its own custom livery. Parked on the grass by the fire pit and picnic table outside the red building by the marsh, east Watson Bay (right next to the Danny McLean - Standard card). Locked, but no security or tracker. Worth $1,300 to sell, $4,650 to register.",
+      "guideLinks": {
+        "Danny McLean - Standard": "cd-11-06"
+      }
+    },
+    {
+      "id": "sv-bravado-king-of-swing-youga",
+      "imageURL": "https://leonidalog.app/images/vehicles/sv-bravado-king-of-swing-youga.jpg",
+      "title": "Bravado King of Swing Youga",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "region": "Mariana County",
+      "spoiler": true,
+      "guide": "A one-off Youga van covered in bright psychedelic flowers. Parked by the road just west of the river bridge, near the cul-de-sac with the heart-shaped pond. Locked, but no security or tracker. Worth $1,450 to sell, $5,400 to register."
     },
     {
       "id": "sv-81",
@@ -41886,7 +41970,7 @@
       "category": "standout-vehicles",
       "subgroup": "Wyman's classic cars",
       "spoiler": true,
-      "guide": "For Wyman's Classic Car Collection: the fifth car he rebuilds. How you unlock it isn't confirmed yet; one guide says Wyman gives it to you after you've finished the other four."
+      "guide": "For Wyman's Classic Car Collection: the fifth car he rebuilds. There are no parts to scan: once the other four are done, Wyman calls you, you pay his mechanic fee through BuckMe and pick the car up at his scrapyard. Register it at a Pay 'n' Spray or park it in your garage to keep it."
     },
     {
       "id": "gr-01",
@@ -47519,6 +47603,106 @@
       "guide": "A long climb up the tallest radio tower in Vice-Dale County, north of Hamlet. Bring patience: it takes several minutes.",
       "revealedTitle": "A literal Easter egg",
       "revealedGuide": "Head north out of Hamlet to the tall red-and-white radio tower and climb the ladders to the top (5 to 7 minutes; sprinting helps). Grab the painted egg from the bird's nest on the right side of the top platform and throw it over the edge. A cutscene shows it splattering the windscreen of a car whose driver looks straight out of 1980s Vice City. There's no reward, so base jump or climb back down."
+    },
+    {
+      "id": "ee-15",
+      "title": "Easter egg 15",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "guide": "A nod to a famous horror novel, waiting in a lift lobby in an Ocean Beach building.",
+      "revealedTitle": "The Pennywise elevator",
+      "revealedGuide": "Go into the Haymarket building in Ocean Beach and turn left from reception to the lifts. The left lift has a red balloon on it and is out of order, so call the right one: it arrives stuffed with balloons. Step in and let the doors close. The light cuts out and a clown appears for a moment before vanishing. There's no reward."
+    },
+    {
+      "id": "ee-16",
+      "title": "Easter egg 16",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "region": "Vice City",
+      "guide": "A nod to a classic survival-horror series, inside a boarded-up building in Vice City. Best tried with time to explore.",
+      "revealedTitle": "The Marbelle Hotel (Silent Hill)",
+      "revealedGuide": "Find the abandoned, boarded-up Marbelle Hotel with a For Sale sign on NW 8th St in south Crosstown, near the Nine1Nine club and just off the interstate. Get in through the back door and climb the stairs past mannequins facing the corners and doors that open on their own. When the door to the roof stairs swings open, the lights die, red symbols appear, whispers start and a thick fog rolls over Vice City (if the roof door stays shut, go back down and climb again). A note on the roof gives the code 955214 for a safe on the ground floor, which holds cash and a luxury watch. Opening it clears the fog and can count towards The Truth Is Out There trophy. A comic trading card sits on a cabinet opposite the stairs."
+    },
+    {
+      "id": "ee-17",
+      "title": "Easter egg 17",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "region": "Leonard County",
+      "guide": "A spooky tale tied to a lighthouse in Leonard County. Night-time, a boat and scuba gear needed.",
+      "revealedTitle": "The ghost ship",
+      "revealedGuide": "At night, look at the top of St. Lucia Lighthouse on Little Hardin Island through binoculars (or climb up) to watch two ghosts argue until one shoves the other off. Break into the house north-west of the lighthouse and read the blue book by the fireplace. Then, in the small hours, take a boat (there's one at the house's dock) and scuba gear to the island's eastern point: the engine dies, fog rolls in and a voice speaks. Dive to the sunken boat (a metal detector helps) and take the Cursed Knife before dawn, then head back up the lighthouse to see the ghost ship."
+    },
+    {
+      "id": "ee-18",
+      "title": "Easter egg 18",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "region": "Lummox County",
+      "guide": "A deadly game on a remote island in Lummox County that you can only reach by water. Go alone and well prepared.",
+      "revealedTitle": "The Hyde Island hunt",
+      "revealedGuide": "Take a boat to the south of Hyde Island near the Moreau River and explore it alone until a tranquilliser dart knocks you out. You wake in a shipping container without your weapons and with an explosive collar on, while a figure on a TV explains the rules. When the countdown ends, grab weapons from the lit stashes (a shotgun works well) and kill the hunter. Don't swim away or cross the fence. Afterwards, collect your gear from the boathouse on the west shore; you leave with a cash payout."
+    },
+    {
+      "id": "ee-19",
+      "title": "Easter egg 19",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "region": "Lummox County",
+      "guide": "A nod to a famous plumber, hidden in old ruins in Lummox County. Comes with a reward for both leads.",
+      "revealedTitle": "Super Mario Bros",
+      "revealedGuide": "Go to the Lawton Co. Paper Mill ruins in south Moreau, just north of Mount Kalaga National Park. Find the bong on a purple tarp and take a hit: the smoke reveals a block floating overhead. Climb the ruins, stand right under it and jump into it (lining up takes a few tries) or shoot it. A jingle plays and two caps drop, one for Jason and one for Lucia."
+    },
+    {
+      "id": "ee-20",
+      "title": "Easter egg 20",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "region": "Leonard County",
+      "guide": "A nod to an earlier GTA, inside an ordinary-looking house in Belville. Guides don't give the exact street yet.",
+      "revealedTitle": "The San Andreas house",
+      "revealedGuide": "Look for a house with a white picket fence and two palm trees in the south-west residential streets of Belville. Break into its garage to find a conspiracy board, along with a trading card and a magazine to collect."
+    },
+    {
+      "id": "ee-21",
+      "title": "Easter egg 21",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "region": "Mariana County",
+      "guide": "A dark occult ritual in an abandoned warehouse in northern Capri. Bring a torch and something to start a fire.",
+      "revealedTitle": "The pentagram ritual",
+      "revealedGuide": "Find the abandoned warehouse in northern Capri, just west of Top Fun Drones above Tortoise Lake (the southern building of the cluster by the lake). Inside are a blood pentagram with a body outline and a book on the altar about cleansing fire. Knock out someone nearby, such as a worker from next door, carry them in and drop them on the outline: the lights die and the candles light themselves. Take a torch upstairs to the boarded-up room for a short horror scene, then go back down, where the body rises as a demon. Burn it with a Molotov (there are some upstairs and in the pentagram room) or the gas can by the altar."
+    },
+    {
+      "id": "ee-22",
+      "title": "Easter egg 22",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "region": "Mariana County",
+      "guide": "Something unsettling happens if you start trouble from the top of a radio tower in Key Lento.",
+      "revealedTitle": "The immortal man",
+      "revealedGuide": "Climb the radio tower near Donnie's Caravan in southern Key Lento, take the sniper rifle at the top and shoot at people around the houses below. Sooner or later one of them stares back, draws a finger across his throat, shrugs off every bullet and comes after you, sometimes appearing right behind you. It isn't always the same person and there's no reward: just try to survive."
+    },
+    {
+      "id": "ee-23",
+      "title": "Easter egg 23",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "region": "Mariana County",
+      "guide": "A nod to a previous GTA hero, moored at a home in Key Lento. Open from chapter 1.",
+      "revealedTitle": "Michael's boat",
+      "revealedGuide": "Check the boat tied up at Jason's house in Key Lento and zoom in on the GPS on its dashboard: the map still shows south Los Santos and its port. There's no reward."
+    },
+    {
+      "id": "ee-24",
+      "title": "Easter egg 24",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "region": "Mariana County",
+      "guide": "A familiar name from a previous GTA, tucked inside a magazine at a home in Key Lento.",
+      "revealedTitle": "Fabien LaRouche's story",
+      "revealedGuide": "At Jason's house in Key Lento, look at the Body Copy magazine on the patio table beside the weight bench. Page 3 carries a story by the yoga guru from GTA V. There's no reward."
     },
     {
       "id": "mu-1",
