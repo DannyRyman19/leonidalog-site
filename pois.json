@@ -1,5 +1,5 @@
 {
-  "version": 109,
+  "version": 110,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -9474,6 +9474,7 @@
     },
     {
       "id": "cd-15-36",
+      "imageURL": "https://leonidalog.app/images/cards/cd-15-36.jpg",
       "title": "Serena - Silver",
       "category": "cards",
       "subgroup": "Nine1Nine Dancers",
@@ -9482,7 +9483,7 @@
       "ny": 0.1992,
       "region": "Lummox County",
       "area": "Grayson",
-      "guide": "One of the 36 cards in the Nine1Nine Dancers set. Follow the map pin."
+      "guide": "On the beach by the water: on the old armchair dumped next to an open fridge and a coffee table."
     },
     {
       "id": "cd-16-01",
@@ -15241,6 +15242,7 @@
     },
     {
       "id": "wc-pet-cemetery",
+      "imageURL": "https://leonidalog.app/images/waink/wc-pet-cemetery.jpg",
       "title": "Pet Cemetery",
       "category": "waink",
       "subgroup": "Curiosities",
