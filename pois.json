@@ -1,5 +1,5 @@
 {
-  "version": 88,
+  "version": 89,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -5041,8 +5041,8 @@
       "category": "cards",
       "subgroup": "Vice City Narcos",
       "spoiler": true,
-      "nx": 0.441,
-      "ny": 0.6898,
+      "nx": 0.4413,
+      "ny": 0.6889,
       "region": "Mariana County",
       "area": "Watson Bay",
       "guide": "Upstairs, in the back office room: inside the safe in the wooden shelving unit, under the shelf of coloured binders. Opening the safe also pays out cash."
@@ -6901,8 +6901,8 @@
       "category": "cards",
       "subgroup": "Los Santos Corkers",
       "spoiler": true,
-      "nx": 0.4478,
-      "ny": 0.6927,
+      "nx": 0.4484,
+      "ny": 0.6920,
       "region": "Mariana County",
       "area": "Watson Bay",
       "guide": "On the raised wooden deck of a cabin: on the end of the bench under the window (bring a torch at night)."
@@ -9680,7 +9680,7 @@
       "subgroup": "Right Wing: America's Hero",
       "spoiler": true,
       "nx": 0.4674,
-      "ny": 0.68,
+      "ny": 0.6802,
       "region": "Mariana County",
       "area": "Watson Bay",
       "guide": "Under the covered back area with the bins and a steel sink: pinned to the notice board on the wall above the worktop, under the outdoor light."
