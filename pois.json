@@ -1,5 +1,5 @@
 {
-  "version": 92,
+  "version": 93,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -229,7 +229,7 @@
       "symbol": "camera.viewfinder",
       "colorHex": "4AD9D9",
       "verb": "found",
-      "intro": "Scan with the WAiNK app: 31 landmarks, 35 curiosities, 23 sculptures, No Flusher tags and 4 Peewees billboards. 100% needs 100. Numbers follow the game's Progress menu. More are added as guides find them. The [You WAiNKer!](poi:tr-31) trophy needs 100.",
+      "intro": "Scan with the WAiNK app: 31 landmarks, 35 curiosities, 23 sculptures, 15 No Flusher tags and 4 Peewees billboards. 100% needs 100. Numbers follow the game's Progress menu. More are added as guides find them. The [You WAiNKer!](poi:tr-31) trophy needs 100.",
       "collectible": true
     },
     {
@@ -14426,10 +14426,178 @@
       "category": "waink",
       "subgroup": "No Flusher tags",
       "spoiler": true,
-      "nx": 0.762,
-      "ny": 0.506,
-      "guide": "Ocean Beach: spray-painted on the ground east of The Banana Hole's main bar. Scan it with WAiNK.",
+      "nx": 0.7672,
+      "ny": 0.5033,
+      "guide": "Ocean Beach: on the sidewalk at the corner of Shore Dr and Huevo St, just east of The Banana Hole's main bar. Scan it with WAiNK.",
       "region": "Vice Beach",
+      "area": "Ocean Beach"
+    },
+    {
+      "id": "wf-02",
+      "title": "No Flusher tag",
+      "category": "waink",
+      "subgroup": "No Flusher tags",
+      "spoiler": true,
+      "nx": 0.7709,
+      "ny": 0.4346,
+      "guide": "Washington Beach: on the sidewalk of a side road off Shorebeach Rd, outside the High Tide Hotel. Scan it with WAiNK.",
+      "region": "Vice-Dale County",
+      "area": "Washington Beach"
+    },
+    {
+      "id": "wf-03",
+      "title": "No Flusher tag",
+      "category": "waink",
+      "subgroup": "No Flusher tags",
+      "spoiler": true,
+      "nx": 0.7368,
+      "ny": 0.4637,
+      "guide": "Ocean Beach: on the sidewalk by the cul-de-sac off Harborside Ave, outside the Maritime Court Luxury Apartments. Scan it with WAiNK.",
+      "region": "Vice-Dale County",
+      "area": "Ocean Beach"
+    },
+    {
+      "id": "wf-04",
+      "title": "No Flusher tag",
+      "category": "waink",
+      "subgroup": "No Flusher tags",
+      "spoiler": true,
+      "nx": 0.7346,
+      "ny": 0.4951,
+      "guide": "Ocean Beach: on Portside Ln, where it curves around the blue and white apartment complex. Scan it with WAiNK.",
+      "region": "Vice-Dale County",
+      "area": "Ocean Beach"
+    },
+    {
+      "id": "wf-05",
+      "title": "No Flusher tag",
+      "category": "waink",
+      "subgroup": "No Flusher tags",
+      "spoiler": true,
+      "nx": 0.762,
+      "ny": 0.4708,
+      "guide": "Ocean Beach: on the sidewalk at the corner of D St and Atlantic Ave, outside the Fuji Kitchen restaurant. Scan it with WAiNK.",
+      "region": "Vice-Dale County",
+      "area": "Ocean Beach"
+    },
+    {
+      "id": "wf-06",
+      "title": "No Flusher tag",
+      "category": "waink",
+      "subgroup": "No Flusher tags",
+      "spoiler": true,
+      "nx": 0.7359,
+      "ny": 0.3991,
+      "guide": "Washington Beach: on the sidewalk on Mariposa Ave, outside the tan and teal apartment complex. Scan it with WAiNK.",
+      "region": "Vice-Dale County",
+      "area": "Washington Beach"
+    },
+    {
+      "id": "wf-07",
+      "title": "No Flusher tag",
+      "category": "waink",
+      "subgroup": "No Flusher tags",
+      "spoiler": true,
+      "nx": 0.7648,
+      "ny": 0.5406,
+      "guide": "Ocean Beach: on the sidewalk along Shore Dr, outside the Positano Towers. Scan it with WAiNK.",
+      "region": "Vice-Dale County",
+      "area": "Ocean Beach"
+    },
+    {
+      "id": "wf-08",
+      "title": "No Flusher tag",
+      "category": "waink",
+      "subgroup": "No Flusher tags",
+      "spoiler": true,
+      "nx": 0.7509,
+      "ny": 0.4378,
+      "guide": "Oldby Island: on the sidewalk at the corner of Oleander Blvd and SW 4th St, outside Hotel Sapphire. Scan it with WAiNK.",
+      "region": "Vice-Dale County",
+      "area": "Oldby Island"
+    },
+    {
+      "id": "wf-09",
+      "title": "No Flusher tag",
+      "category": "waink",
+      "subgroup": "No Flusher tags",
+      "spoiler": true,
+      "nx": 0.7457,
+      "ny": 0.5202,
+      "guide": "Ocean Beach: on the sidewalk at the corner of Koko Blvd and Admiral Cswy, outside the Luxx Artemis Heights building. Scan it with WAiNK.",
+      "region": "Vice-Dale County",
+      "area": "Ocean Beach"
+    },
+    {
+      "id": "wf-10",
+      "title": "No Flusher tag",
+      "category": "waink",
+      "subgroup": "No Flusher tags",
+      "spoiler": true,
+      "nx": 0.7655,
+      "ny": 0.5208,
+      "guide": "Ocean Beach: on the sidewalk at the corner of Seaview Blvd and Shore Dr, outside the Hathaway Apartments. Scan it with WAiNK.",
+      "region": "Vice-Dale County",
+      "area": "Ocean Beach"
+    },
+    {
+      "id": "wf-11",
+      "title": "No Flusher tag",
+      "category": "waink",
+      "subgroup": "No Flusher tags",
+      "spoiler": true,
+      "nx": 0.7576,
+      "ny": 0.4948,
+      "guide": "Ocean Beach: on the sidewalk on Grape St, outside Jollies, next to the Rococo Rich jewelry shop. Scan it with WAiNK.",
+      "region": "Vice-Dale County",
+      "area": "Ocean Beach"
+    },
+    {
+      "id": "wf-12",
+      "title": "No Flusher tag",
+      "category": "waink",
+      "subgroup": "No Flusher tags",
+      "spoiler": true,
+      "nx": 0.7500,
+      "ny": 0.4663,
+      "guide": "Ocean Beach: on the sidewalk on Cabega St, outside the Tootsie Katz Shrimp House. Scan it with WAiNK.",
+      "region": "Vice-Dale County",
+      "area": "Ocean Beach"
+    },
+    {
+      "id": "wf-13",
+      "title": "No Flusher tag",
+      "category": "waink",
+      "subgroup": "No Flusher tags",
+      "spoiler": true,
+      "nx": 0.7711,
+      "ny": 0.4554,
+      "guide": "Washington Beach: on the sidewalk on Barlow St near the coast, outside the Sea Scoop Cafe. Scan it with WAiNK.",
+      "region": "Vice-Dale County",
+      "area": "Washington Beach"
+    },
+    {
+      "id": "wf-14",
+      "title": "No Flusher tag",
+      "category": "waink",
+      "subgroup": "No Flusher tags",
+      "spoiler": true,
+      "nx": 0.7534,
+      "ny": 0.4135,
+      "guide": "Washington Beach: on the sidewalk near Northside Ave, in front of the Wash Haus. Scan it with WAiNK.",
+      "region": "Vice-Dale County",
+      "area": "Washington Beach"
+    },
+    {
+      "id": "wf-15",
+      "title": "No Flusher tag",
+      "category": "waink",
+      "subgroup": "No Flusher tags",
+      "spoiler": true,
+      "nx": 0.7524,
+      "ny": 0.5025,
+      "guide": "Ocean Beach: on the sidewalk on Huevo St, outside the Bean Machine Coffee building. Scan it with WAiNK.",
+      "region": "Vice-Dale County",
       "area": "Ocean Beach"
     },
     {
@@ -31612,6 +31780,9 @@
     },
     {
       "id": "vh-ubermacht-cypher",
+      "autoCollectedBy": [
+        "sv-randy-11"
+      ],
       "title": "Übermacht Cypher",
       "category": "vehicles",
       "subgroup": "Coupes",
@@ -31753,6 +31924,9 @@
     },
     {
       "id": "vh-85-karin-futo",
+      "autoCollectedBy": [
+        "sv-moses-05"
+      ],
       "title": "'85 Karin Futo",
       "category": "vehicles",
       "subgroup": "Coupes",
@@ -31907,6 +32081,9 @@
     },
     {
       "id": "vh-ascot-paragon",
+      "autoCollectedBy": [
+        "sv-randy-08"
+      ],
       "title": "Ascot Paragon",
       "category": "vehicles",
       "subgroup": "Coupes",
@@ -32205,6 +32382,9 @@
     },
     {
       "id": "vh-buckingham-windsor-drop",
+      "autoCollectedBy": [
+        "sv-randy-14"
+      ],
       "title": "Buckingham Windsor Drop",
       "category": "vehicles",
       "subgroup": "Coupes",
@@ -32538,6 +32718,9 @@
     },
     {
       "id": "vh-bravado-gauntlet-hellfire",
+      "autoCollectedBy": [
+        "sv-randy-09"
+      ],
       "title": "Bravado Gauntlet Hellfire",
       "category": "vehicles",
       "subgroup": "Muscle cars",
@@ -32893,6 +33076,9 @@
     },
     {
       "id": "vh-74-declasse-vamos",
+      "autoCollectedBy": [
+        "sv-moses-06"
+      ],
       "title": "'74 Declasse Vamos",
       "category": "vehicles",
       "subgroup": "Muscle cars",
@@ -32928,6 +33114,9 @@
     },
     {
       "id": "vh-77-bf-bandito",
+      "autoCollectedBy": [
+        "sv-moses-02"
+      ],
       "title": "'77 BF Bandito",
       "category": "vehicles",
       "subgroup": "Off-road vehicles",
@@ -34027,6 +34216,9 @@
     },
     {
       "id": "vh-declasse-yosemite-1500",
+      "autoCollectedBy": [
+        "sv-moses-03"
+      ],
       "title": "Declasse Yosemite 1500",
       "category": "vehicles",
       "subgroup": "Pickups",
@@ -34705,6 +34897,9 @@
     },
     {
       "id": "vh-ocelot-jugular",
+      "autoCollectedBy": [
+        "sv-randy-17"
+      ],
       "title": "Ocelot Jugular",
       "category": "vehicles",
       "subgroup": "Sedans",
@@ -35348,6 +35543,9 @@
     },
     {
       "id": "vh-bravado-banshee",
+      "autoCollectedBy": [
+        "sv-randy-01"
+      ],
       "title": "Bravado Banshee",
       "category": "vehicles",
       "subgroup": "Sports cars",
@@ -35386,6 +35584,9 @@
     },
     {
       "id": "vh-grotti-carbonizzare",
+      "autoCollectedBy": [
+        "sv-randy-15"
+      ],
       "title": "Grotti Carbonizzare",
       "category": "vehicles",
       "subgroup": "Sports cars",
@@ -35557,6 +35758,9 @@
     },
     {
       "id": "vh-invetero-coquette-d10",
+      "autoCollectedBy": [
+        "sv-randy-06"
+      ],
       "title": "Invetero Coquette D10",
       "category": "vehicles",
       "subgroup": "Sports cars",
@@ -35600,6 +35804,9 @@
     },
     {
       "id": "vh-64-declasse-mamba-gt",
+      "autoCollectedBy": [
+        "sv-randy-21"
+      ],
       "title": "'64 Declasse Mamba GT",
       "category": "vehicles",
       "subgroup": "Sports cars",
@@ -35634,6 +35841,9 @@
     },
     {
       "id": "vh-pfister-neon",
+      "autoCollectedBy": [
+        "sv-randy-19"
+      ],
       "title": "Pfister Neon",
       "category": "vehicles",
       "subgroup": "Sports cars",
@@ -35990,6 +36200,9 @@
     },
     {
       "id": "vh-gallivanter-baller-st-d",
+      "autoCollectedBy": [
+        "sv-randy-16"
+      ],
       "title": "Gallivanter Baller ST-D",
       "category": "vehicles",
       "subgroup": "SUVs",
@@ -36087,6 +36300,9 @@
     },
     {
       "id": "vh-82-canis-crawler",
+      "autoCollectedBy": [
+        "sv-moses-01"
+      ],
       "title": "'82 Canis Crawler",
       "category": "vehicles",
       "subgroup": "SUVs",
@@ -36199,6 +36415,9 @@
     },
     {
       "id": "vh-benefactor-dubsta",
+      "autoCollectedBy": [
+        "sv-randy-18"
+      ],
       "title": "Benefactor Dubsta",
       "category": "vehicles",
       "subgroup": "SUVs",
@@ -36348,6 +36567,9 @@
     },
     {
       "id": "vh-95-annis-hellion",
+      "autoCollectedBy": [
+        "sv-moses-07"
+      ],
       "title": "'95 Annis Hellion",
       "category": "vehicles",
       "subgroup": "SUVs",
@@ -36395,6 +36617,9 @@
     },
     {
       "id": "vh-buckingham-jubilee",
+      "autoCollectedBy": [
+        "sv-randy-20"
+      ],
       "title": "Buckingham Jubilee",
       "category": "vehicles",
       "subgroup": "SUVs",
@@ -36755,6 +36980,9 @@
     },
     {
       "id": "vh-pegassi-toros",
+      "autoCollectedBy": [
+        "sv-randy-12"
+      ],
       "title": "Pegassi Toros",
       "category": "vehicles",
       "subgroup": "SUVs",
@@ -36946,6 +37174,9 @@
     },
     {
       "id": "vh-piccia-furia",
+      "autoCollectedBy": [
+        "sv-randy-03"
+      ],
       "title": "Piccia Furia",
       "category": "vehicles",
       "subgroup": "Supercars",
@@ -36992,6 +37223,9 @@
     },
     {
       "id": "vh-96-pegassi-infernus",
+      "autoCollectedBy": [
+        "sv-randy-05"
+      ],
       "title": "'96 Pegassi Infernus",
       "category": "vehicles",
       "subgroup": "Supercars",
@@ -37042,6 +37276,9 @@
     },
     {
       "id": "vh-grotti-itali-rsx",
+      "autoCollectedBy": [
+        "sv-randy-10"
+      ],
       "title": "Grotti Itali RSX",
       "category": "vehicles",
       "subgroup": "Supercars",
@@ -37088,6 +37325,9 @@
     },
     {
       "id": "vh-pegassi-tempesta",
+      "autoCollectedBy": [
+        "sv-randy-07"
+      ],
       "title": "Pegassi Tempesta",
       "category": "vehicles",
       "subgroup": "Supercars",
@@ -37134,6 +37374,9 @@
     },
     {
       "id": "vh-pegassi-vitello",
+      "autoCollectedBy": [
+        "sv-randy-04"
+      ],
       "title": "Pegassi Vitello",
       "category": "vehicles",
       "subgroup": "Supercars",
@@ -37184,6 +37427,9 @@
     },
     {
       "id": "vh-granforma-zorrusso",
+      "autoCollectedBy": [
+        "sv-randy-02"
+      ],
       "title": "Granforma Zorrusso",
       "category": "vehicles",
       "subgroup": "Supercars",
@@ -38847,6 +39093,9 @@
     },
     {
       "id": "vh-western-nightblade",
+      "autoCollectedBy": [
+        "sv-moses-04"
+      ],
       "title": "Western Nightblade",
       "category": "vehicles",
       "subgroup": "Bikes",
@@ -40195,6 +40444,9 @@
     },
     {
       "id": "vh-pfister-growler",
+      "autoCollectedBy": [
+        "sv-randy-13"
+      ],
       "title": "Pfister Growler",
       "category": "vehicles",
       "subgroup": "Sports cars",
@@ -50166,6 +50418,20 @@
           "ws-22",
           "ws-23",
           "wf-01",
+          "wf-02",
+          "wf-03",
+          "wf-04",
+          "wf-05",
+          "wf-06",
+          "wf-07",
+          "wf-08",
+          "wf-09",
+          "wf-10",
+          "wf-11",
+          "wf-12",
+          "wf-13",
+          "wf-14",
+          "wf-15",
           "wl-sky-ride",
           "wl-hoffman-observatory",
           "wc-fingerpost",
