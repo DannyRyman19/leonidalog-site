@@ -1,5 +1,5 @@
 {
-  "version": 90,
+  "version": 91,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -343,6 +343,14 @@
       "chapterOrdered": true,
       "collectible": true,
       "intro": "255 animals in 8 groups to study with binoculars (aim, then hold R1/RB). Each dog and cat breed counts on its own. 100% needs any 100. Species get their own rows as they're found; groups not fully listed yet end with a counter for the rest."
+    },
+    {
+      "id": "bret-decks",
+      "label": "Bret's target decks",
+      "symbol": "scope",
+      "colorHex": "8FBF5A",
+      "verb": "delivered",
+      "intro": "Bret Vogel's hunting orders for Jason, grouped by deck. Each deck names two or three animals: tick them off as you deliver them. Bring carcasses to Bret in pristine or good condition (one clean shot to the head or heart keeps them pristine and pays more). Decks unlock one at a time after Bret's first job, which he texts about in chapter 2. There are 15 decks in all; more are added as guides publish them."
     },
     {
       "id": "vehicles",
@@ -4725,7 +4733,7 @@
       "category": "cards",
       "subgroup": "Vice City Flamingos",
       "spoiler": true,
-      "nx": 0.4270,
+      "nx": 0.427,
       "ny": 0.6985,
       "region": "Mariana County",
       "area": "Watson Bay",
@@ -6373,6 +6381,7 @@
     },
     {
       "id": "cd-06-22",
+      "imageURL": "https://leonidalog.app/images/cards/cd-06-22.jpg",
       "title": "Rion Yapa - Silver",
       "category": "cards",
       "subgroup": "Liberty City Penetrators",
@@ -6381,7 +6390,7 @@
       "ny": 0.4836,
       "region": "Vice-Dale County",
       "area": "Crosstown",
-      "guide": "One of the 24 cards in the Liberty City Penetrators set. Follow the map pin."
+      "guide": "Inside a storage unit full of trainer boxes: on the middle shelf of the metal shelving, between two red shoe boxes."
     },
     {
       "id": "cd-06-23",
@@ -6903,7 +6912,7 @@
       "subgroup": "Los Santos Corkers",
       "spoiler": true,
       "nx": 0.4484,
-      "ny": 0.6920,
+      "ny": 0.692,
       "region": "Mariana County",
       "area": "Watson Bay",
       "guide": "On the raised wooden deck of a cabin: on the end of the bench under the window (bring a torch at night)."
@@ -10568,11 +10577,11 @@
       "category": "meditation",
       "subgroup": "Mariana County",
       "spoiler": true,
-      "nx": 0.278,
-      "ny": 0.522,
+      "nx": 0.2355,
+      "ny": 0.4732,
       "guide": "On a sandbar off the west coast of Capri. This spot has two meditations.",
       "region": "Mariana County",
-      "area": "Capri"
+      "area": "Belpoint"
     },
     {
       "id": "md-03",
@@ -10580,11 +10589,11 @@
       "category": "meditation",
       "subgroup": "Mariana County",
       "spoiler": true,
-      "nx": 0.278,
-      "ny": 0.522,
+      "nx": 0.2355,
+      "ny": 0.4732,
       "guide": "On a sandbar off the west coast of Capri. This spot has two meditations.",
       "region": "Mariana County",
-      "area": "Capri"
+      "area": "Belpoint"
     },
     {
       "id": "md-04",
@@ -10646,8 +10655,8 @@
       "category": "meditation",
       "subgroup": "Kelly County",
       "spoiler": true,
-      "nx": 0.406,
-      "ny": 0.29,
+      "nx": 0.4111,
+      "ny": 0.2728,
       "guide": "In Manifest Canyon, near the train tracks by the highway. This spot has two meditations.",
       "region": "Kelly County",
       "area": "Manifest Canyon"
@@ -10658,8 +10667,8 @@
       "category": "meditation",
       "subgroup": "Kelly County",
       "spoiler": true,
-      "nx": 0.406,
-      "ny": 0.29,
+      "nx": 0.4111,
+      "ny": 0.2728,
       "guide": "In Manifest Canyon, near the train tracks by the highway. This spot has two meditations.",
       "region": "Kelly County",
       "area": "Manifest Canyon"
@@ -10694,8 +10703,8 @@
       "category": "meditation",
       "subgroup": "Lummox County",
       "spoiler": true,
-      "nx": 0.516,
-      "ny": 0.2,
+      "nx": 0.5172,
+      "ny": 0.1701,
       "guide": "By a tower above a mine in Mount Kalaga National Park. This spot has two meditations.",
       "region": "Lummox County",
       "area": "Dawson Dam"
@@ -10706,8 +10715,8 @@
       "category": "meditation",
       "subgroup": "Lummox County",
       "spoiler": true,
-      "nx": 0.516,
-      "ny": 0.2,
+      "nx": 0.5172,
+      "ny": 0.1701,
       "guide": "By a tower above a mine in Mount Kalaga National Park. This spot has two meditations.",
       "region": "Lummox County",
       "area": "Dawson Dam"
@@ -10742,11 +10751,11 @@
       "category": "meditation",
       "subgroup": "Leonard County",
       "spoiler": true,
-      "nx": 0.672,
-      "ny": 0.3,
+      "nx": 0.6901,
+      "ny": 0.2831,
       "guide": "On rocks by the beach east of Waning Sands. This spot has two meditations.",
       "region": "Leonard County",
-      "area": "Waning Sands"
+      "area": "Vinewood Beach"
     },
     {
       "id": "md-17",
@@ -10754,11 +10763,11 @@
       "category": "meditation",
       "subgroup": "Leonard County",
       "spoiler": true,
-      "nx": 0.672,
-      "ny": 0.3,
+      "nx": 0.6901,
+      "ny": 0.2831,
       "guide": "On rocks by the beach east of Waning Sands. This spot has two meditations.",
       "region": "Leonard County",
-      "area": "Waning Sands"
+      "area": "Vinewood Beach"
     },
     {
       "id": "md-18",
@@ -10865,8 +10874,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: 3-Point Range",
       "spoiler": true,
-      "nx": 0.534,
-      "ny": 0.461,
+      "nx": 0.554,
+      "ny": 0.4655,
       "region": "Vice-Dale County",
       "area": "Balsero",
       "guide": "Griffin Shooting Range, northwest of Vice City. Shoot the targets fast at three weapon stations. Challenge 1 of 3 here; tick it once you have its gold medal.",
@@ -10878,8 +10887,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: 3-Point Range",
       "spoiler": true,
-      "nx": 0.534,
-      "ny": 0.461,
+      "nx": 0.554,
+      "ny": 0.4655,
       "region": "Vice-Dale County",
       "area": "Balsero",
       "guide": "Griffin Shooting Range, northwest of Vice City. Shoot the targets fast at three weapon stations. Challenge 2 of 3 here; tick it once you have its gold medal.",
@@ -10891,8 +10900,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: 3-Point Range",
       "spoiler": true,
-      "nx": 0.534,
-      "ny": 0.461,
+      "nx": 0.554,
+      "ny": 0.4655,
       "region": "Vice-Dale County",
       "area": "Balsero",
       "guide": "Griffin Shooting Range, northwest of Vice City. Shoot the targets fast at three weapon stations. Challenge 3 of 3 here; tick it once you have its gold medal.",
@@ -10904,8 +10913,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Hook Range",
       "spoiler": true,
-      "nx": 0.534,
-      "ny": 0.461,
+      "nx": 0.554,
+      "ny": 0.4655,
       "region": "Vice-Dale County",
       "area": "Balsero",
       "guide": "Griffin Shooting Range, northwest of Vice City. Move through the course while shooting; watch for 5 red spinning targets. Challenge 1 of 3 here; tick it once you have its gold medal.",
@@ -10917,8 +10926,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Hook Range",
       "spoiler": true,
-      "nx": 0.534,
-      "ny": 0.461,
+      "nx": 0.554,
+      "ny": 0.4655,
       "region": "Vice-Dale County",
       "area": "Balsero",
       "guide": "Griffin Shooting Range, northwest of Vice City. Move through the course while shooting; watch for 5 red spinning targets. Challenge 2 of 3 here; tick it once you have its gold medal.",
@@ -10930,8 +10939,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Hook Range",
       "spoiler": true,
-      "nx": 0.534,
-      "ny": 0.461,
+      "nx": 0.554,
+      "ny": 0.4655,
       "region": "Vice-Dale County",
       "area": "Balsero",
       "guide": "Griffin Shooting Range, northwest of Vice City. Move through the course while shooting; watch for 5 red spinning targets. Challenge 3 of 3 here; tick it once you have its gold medal.",
@@ -10943,8 +10952,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Loop Range",
       "spoiler": true,
-      "nx": 0.534,
-      "ny": 0.461,
+      "nx": 0.554,
+      "ny": 0.4655,
       "region": "Vice-Dale County",
       "area": "Balsero",
       "guide": "Griffin Shooting Range, northwest of Vice City. Like Hook Range; slow motion helps with the spinning targets. Challenge 1 of 3 here; tick it once you have its gold medal.",
@@ -10959,8 +10968,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Loop Range",
       "spoiler": true,
-      "nx": 0.534,
-      "ny": 0.461,
+      "nx": 0.554,
+      "ny": 0.4655,
       "region": "Vice-Dale County",
       "area": "Balsero",
       "guide": "Griffin Shooting Range, northwest of Vice City. Like Hook Range; slow motion helps with the spinning targets. Challenge 2 of 3 here; tick it once you have its gold medal.",
@@ -10975,8 +10984,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Loop Range",
       "spoiler": true,
-      "nx": 0.534,
-      "ny": 0.461,
+      "nx": 0.554,
+      "ny": 0.4655,
       "region": "Vice-Dale County",
       "area": "Balsero",
       "guide": "Griffin Shooting Range, northwest of Vice City. Like Hook Range; slow motion helps with the spinning targets. Challenge 3 of 3 here; tick it once you have its gold medal.",
@@ -10991,8 +11000,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Maze Range",
       "spoiler": true,
-      "nx": 0.534,
-      "ny": 0.461,
+      "nx": 0.554,
+      "ny": 0.4655,
       "region": "Vice-Dale County",
       "area": "Balsero",
       "guide": "Griffin Shooting Range, northwest of Vice City. Like Hook and Loop, through a maze. Challenge 1 of 3 here; tick it once you have its gold medal.",
@@ -11004,8 +11013,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Maze Range",
       "spoiler": true,
-      "nx": 0.534,
-      "ny": 0.461,
+      "nx": 0.554,
+      "ny": 0.4655,
       "region": "Vice-Dale County",
       "area": "Balsero",
       "guide": "Griffin Shooting Range, northwest of Vice City. Like Hook and Loop, through a maze. Challenge 2 of 3 here; tick it once you have its gold medal.",
@@ -11017,8 +11026,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Maze Range",
       "spoiler": true,
-      "nx": 0.534,
-      "ny": 0.461,
+      "nx": 0.554,
+      "ny": 0.4655,
       "region": "Vice-Dale County",
       "area": "Balsero",
       "guide": "Griffin Shooting Range, northwest of Vice City. Like Hook and Loop, through a maze. Challenge 3 of 3 here; tick it once you have its gold medal.",
@@ -11030,8 +11039,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Compound Range",
       "spoiler": true,
-      "nx": 0.534,
-      "ny": 0.461,
+      "nx": 0.554,
+      "ny": 0.4655,
       "region": "Vice-Dale County",
       "area": "Balsero",
       "guide": "Griffin Shooting Range, northwest of Vice City. Clear a building as targets pop up. Challenge 1 of 3 here; tick it once you have its gold medal.",
@@ -11043,8 +11052,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Compound Range",
       "spoiler": true,
-      "nx": 0.534,
-      "ny": 0.461,
+      "nx": 0.554,
+      "ny": 0.4655,
       "region": "Vice-Dale County",
       "area": "Balsero",
       "guide": "Griffin Shooting Range, northwest of Vice City. Clear a building as targets pop up. Challenge 2 of 3 here; tick it once you have its gold medal.",
@@ -11056,8 +11065,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Compound Range",
       "spoiler": true,
-      "nx": 0.534,
-      "ny": 0.461,
+      "nx": 0.554,
+      "ny": 0.4655,
       "region": "Vice-Dale County",
       "area": "Balsero",
       "guide": "Griffin Shooting Range, northwest of Vice City. Clear a building as targets pop up. Challenge 3 of 3 here; tick it once you have its gold medal.",
@@ -11069,8 +11078,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Villa Range",
       "spoiler": true,
-      "nx": 0.534,
-      "ny": 0.461,
+      "nx": 0.554,
+      "ny": 0.4655,
       "region": "Vice-Dale County",
       "area": "Balsero",
       "guide": "Griffin Shooting Range, northwest of Vice City. Targets appear as you get close; plan a route through the houses. Challenge 1 of 3 here; tick it once you have its gold medal.",
@@ -11082,8 +11091,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Villa Range",
       "spoiler": true,
-      "nx": 0.534,
-      "ny": 0.461,
+      "nx": 0.554,
+      "ny": 0.4655,
       "region": "Vice-Dale County",
       "area": "Balsero",
       "guide": "Griffin Shooting Range, northwest of Vice City. Targets appear as you get close; plan a route through the houses. Challenge 2 of 3 here; tick it once you have its gold medal.",
@@ -11095,8 +11104,8 @@
       "category": "shooting-ranges",
       "subgroup": "Griffin: Villa Range",
       "spoiler": true,
-      "nx": 0.534,
-      "ny": 0.461,
+      "nx": 0.554,
+      "ny": 0.4655,
       "region": "Vice-Dale County",
       "area": "Balsero",
       "guide": "Griffin Shooting Range, northwest of Vice City. Targets appear as you get close; plan a route through the houses. Challenge 3 of 3 here; tick it once you have its gold medal.",
@@ -11641,7 +11650,7 @@
       "category": "bank-jobs",
       "subgroup": "Small banks",
       "spoiler": true,
-      "nx": 0.536,
+      "nx": 0.5355,
       "ny": 0.835,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Mariana County",
@@ -11653,8 +11662,8 @@
       "category": "bank-jobs",
       "subgroup": "Small banks",
       "spoiler": true,
-      "nx": 0.417,
-      "ny": 0.691,
+      "nx": 0.4172,
+      "ny": 0.6912,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Mariana County",
       "area": "Watson Bay"
@@ -11665,8 +11674,8 @@
       "category": "bank-jobs",
       "subgroup": "Small banks",
       "spoiler": true,
-      "nx": 0.318,
-      "ny": 0.518,
+      "nx": 0.3233,
+      "ny": 0.5139,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Mariana County",
       "area": "Capri"
@@ -11677,8 +11686,8 @@
       "category": "bank-jobs",
       "subgroup": "Small banks",
       "spoiler": true,
-      "nx": 0.604,
-      "ny": 0.617,
+      "nx": 0.6041,
+      "ny": 0.6176,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Vice-Dale County",
       "area": "Peacock Bay"
@@ -11689,8 +11698,8 @@
       "category": "bank-jobs",
       "subgroup": "Small banks",
       "spoiler": true,
-      "nx": 0.607,
-      "ny": 0.612,
+      "nx": 0.6068,
+      "ny": 0.6124,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Vice-Dale County",
       "area": "Peacock Bay"
@@ -11701,8 +11710,8 @@
       "category": "bank-jobs",
       "subgroup": "Small banks",
       "spoiler": true,
-      "nx": 0.632,
-      "ny": 0.5388,
+      "nx": 0.6319,
+      "ny": 0.5389,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Vice-Dale County",
       "area": "Downtown"
@@ -11737,8 +11746,8 @@
       "category": "bank-jobs",
       "subgroup": "Small banks",
       "spoiler": true,
-      "nx": 0.745,
-      "ny": 0.436,
+      "nx": 0.7451,
+      "ny": 0.4368,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Vice-Dale County",
       "area": "Oldby Island"
@@ -11749,8 +11758,8 @@
       "category": "bank-jobs",
       "subgroup": "Small banks",
       "spoiler": true,
-      "nx": 0.758,
-      "ny": 0.461,
+      "nx": 0.7574,
+      "ny": 0.4617,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Vice-Dale County",
       "area": "Ocean Beach"
@@ -11773,8 +11782,8 @@
       "category": "bank-jobs",
       "subgroup": "Small banks",
       "spoiler": true,
-      "nx": 0.751,
-      "ny": 0.5157,
+      "nx": 0.7511,
+      "ny": 0.5159,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Vice-Dale County",
       "area": "Ocean Beach"
@@ -11785,8 +11794,8 @@
       "category": "bank-jobs",
       "subgroup": "Small banks",
       "spoiler": true,
-      "nx": 0.598,
-      "ny": 0.381,
+      "nx": 0.6003,
+      "ny": 0.3874,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Leonard County",
       "area": "Belville"
@@ -11797,8 +11806,8 @@
       "category": "bank-jobs",
       "subgroup": "Small banks",
       "spoiler": true,
-      "nx": 0.532,
-      "ny": 0.308,
+      "nx": 0.5318,
+      "ny": 0.3087,
       "guide": "Small bank: empty the cash drawer and the safe.",
       "region": "Kelly County",
       "area": "Ambrosia"
@@ -11809,8 +11818,8 @@
       "category": "bank-jobs",
       "subgroup": "Large banks",
       "spoiler": true,
-      "nx": 0.584,
-      "ny": 0.545,
+      "nx": 0.5837,
+      "ny": 0.5519,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
       "region": "Vice-Dale County",
       "area": "VCIA",
@@ -11824,8 +11833,8 @@
       "category": "bank-jobs",
       "subgroup": "Large banks",
       "spoiler": true,
-      "nx": 0.623,
-      "ny": 0.582,
+      "nx": 0.6229,
+      "ny": 0.5826,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
       "region": "Vice-Dale County",
       "area": "Tequesta",
@@ -11839,8 +11848,8 @@
       "category": "bank-jobs",
       "subgroup": "Large banks",
       "spoiler": true,
-      "nx": 0.639,
-      "ny": 0.539,
+      "nx": 0.6407,
+      "ny": 0.5429,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
       "region": "Vice-Dale County",
       "area": "Downtown",
@@ -11854,8 +11863,8 @@
       "category": "bank-jobs",
       "subgroup": "Large banks",
       "spoiler": true,
-      "nx": 0.633,
-      "ny": 0.531,
+      "nx": 0.6339,
+      "ny": 0.5362,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
       "region": "Vice-Dale County",
       "area": "Downtown",
@@ -11869,8 +11878,8 @@
       "category": "bank-jobs",
       "subgroup": "Large banks",
       "spoiler": true,
-      "nx": 0.756,
-      "ny": 0.523,
+      "nx": 0.7525,
+      "ny": 0.5259,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
       "region": "Vice-Dale County",
       "area": "Ocean Beach",
@@ -11884,8 +11893,8 @@
       "category": "bank-jobs",
       "subgroup": "Large banks",
       "spoiler": true,
-      "nx": 0.758,
-      "ny": 0.518,
+      "nx": 0.7543,
+      "ny": 0.525,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
       "region": "Vice-Dale County",
       "area": "Ocean Beach",
@@ -11899,8 +11908,8 @@
       "category": "bank-jobs",
       "subgroup": "Large banks",
       "spoiler": true,
-      "nx": 0.741,
-      "ny": 0.509,
+      "nx": 0.7404,
+      "ny": 0.5097,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
       "region": "Vice-Dale County",
       "area": "Ocean Beach",
@@ -11914,8 +11923,8 @@
       "category": "bank-jobs",
       "subgroup": "Large banks",
       "spoiler": true,
-      "nx": 0.755,
-      "ny": 0.461,
+      "nx": 0.7584,
+      "ny": 0.4702,
       "guide": "Large bank: hit the vault as well as the cash drawer and the safe. Vaults count towards the Maximum Withdrawal trophy (5 of the 8).",
       "region": "Vice-Dale County",
       "area": "Ocean Beach",
@@ -11928,8 +11937,8 @@
       "title": "Quick Buck - Hamlet",
       "category": "payday-loans",
       "spoiler": true,
-      "nx": 0.543,
-      "ny": 0.71,
+      "nx": 0.5425,
+      "ny": 0.7095,
       "guide": "Rob the store and get away.",
       "region": "Vice-Dale County",
       "area": "Hamlet"
@@ -11950,8 +11959,8 @@
       "title": "Payday Loans Store - Southside",
       "category": "payday-loans",
       "spoiler": true,
-      "nx": 0.587,
-      "ny": 0.6299,
+      "nx": 0.5873,
+      "ny": 0.6298,
       "guide": "Rob the store and get away.",
       "region": "Vice-Dale County",
       "area": "Southside"
@@ -11983,8 +11992,8 @@
       "title": "Quick Buck - La Perle",
       "category": "payday-loans",
       "spoiler": true,
-      "nx": 0.6391,
-      "ny": 0.445,
+      "nx": 0.6389,
+      "ny": 0.4455,
       "guide": "Rob the store and get away.",
       "region": "Vice-Dale County",
       "area": "Crosstown"
@@ -11994,8 +12003,8 @@
       "title": "Cash Flow",
       "category": "payday-loans",
       "spoiler": true,
-      "nx": 0.349,
-      "ny": 0.332,
+      "nx": 0.3498,
+      "ny": 0.3319,
       "guide": "Rob the store and get away.",
       "region": "Kelly County",
       "area": "Port Gellhorn"
@@ -12006,8 +12015,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
-      "nx": 0.505,
-      "ny": 0.868,
+      "nx": 0.5111,
+      "ny": 0.8606,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Mariana County",
       "area": "Key Lento"
@@ -12018,8 +12027,8 @@
       "category": "smash-grabs",
       "subgroup": "Pawn shops",
       "spoiler": true,
-      "nx": 0.426,
-      "ny": 0.699,
+      "nx": 0.4261,
+      "ny": 0.6987,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Mariana County",
       "area": "Watson Bay"
@@ -12030,8 +12039,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
-      "nx": 0.327,
-      "ny": 0.516,
+      "nx": 0.3271,
+      "ny": 0.5161,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Mariana County",
       "area": "Capri"
@@ -12042,8 +12051,8 @@
       "category": "smash-grabs",
       "subgroup": "Pawn shops",
       "spoiler": true,
-      "nx": 0.542,
-      "ny": 0.709,
+      "nx": 0.5425,
+      "ny": 0.7086,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County",
       "area": "Hamlet"
@@ -12054,8 +12063,8 @@
       "category": "smash-grabs",
       "subgroup": "Pawn shops",
       "spoiler": true,
-      "nx": 0.579,
-      "ny": 0.641,
+      "nx": 0.582,
+      "ny": 0.6381,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County",
       "area": "Southside"
@@ -12066,8 +12075,8 @@
       "category": "smash-grabs",
       "subgroup": "Pawn shops",
       "spoiler": true,
-      "nx": 0.582,
-      "ny": 0.633,
+      "nx": 0.5869,
+      "ny": 0.6316,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County",
       "area": "Southside"
@@ -12078,8 +12087,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
-      "nx": 0.6,
-      "ny": 0.617,
+      "nx": 0.6092,
+      "ny": 0.6132,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County",
       "area": "Peacock Bay"
@@ -12090,8 +12099,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
-      "nx": 0.624,
-      "ny": 0.579,
+      "nx": 0.6242,
+      "ny": 0.5794,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County",
       "area": "Tequesta"
@@ -12102,8 +12111,8 @@
       "category": "smash-grabs",
       "subgroup": "Pawn shops",
       "spoiler": true,
-      "nx": 0.596,
-      "ny": 0.549,
+      "nx": 0.5974,
+      "ny": 0.5574,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County",
       "area": "Salton"
@@ -12114,8 +12123,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
-      "nx": 0.638,
-      "ny": 0.533,
+      "nx": 0.6389,
+      "ny": 0.5365,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County",
       "area": "Downtown"
@@ -12126,8 +12135,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
-      "nx": 0.635,
-      "ny": 0.528,
+      "nx": 0.6359,
+      "ny": 0.5325,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County",
       "area": "Downtown"
@@ -12138,8 +12147,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
-      "nx": 0.656,
-      "ny": 0.521,
+      "nx": 0.6548,
+      "ny": 0.5228,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County",
       "area": "Downtown"
@@ -12150,8 +12159,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
-      "nx": 0.654,
-      "ny": 0.513,
+      "nx": 0.6548,
+      "ny": 0.5189,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County",
       "area": "Downtown"
@@ -12162,8 +12171,8 @@
       "category": "smash-grabs",
       "subgroup": "Pawn shops",
       "spoiler": true,
-      "nx": 0.608,
-      "ny": 0.508,
+      "nx": 0.6103,
+      "ny": 0.5162,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County",
       "area": "Little Cuba"
@@ -12174,8 +12183,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
-      "nx": 0.531,
-      "ny": 0.489,
+      "nx": 0.5307,
+      "ny": 0.4896,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County",
       "area": "Balsero"
@@ -12187,7 +12196,7 @@
       "subgroup": "Jewelry stores",
       "spoiler": true,
       "nx": 0.529,
-      "ny": 0.485,
+      "ny": 0.4914,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County",
       "area": "Balsero"
@@ -12198,8 +12207,8 @@
       "category": "smash-grabs",
       "subgroup": "Pawn shops",
       "spoiler": true,
-      "nx": 0.611,
-      "ny": 0.492,
+      "nx": 0.6103,
+      "ny": 0.4922,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County",
       "area": "Rockridge"
@@ -12210,8 +12219,8 @@
       "category": "smash-grabs",
       "subgroup": "Pawn shops",
       "spoiler": true,
-      "nx": 0.604,
-      "ny": 0.468,
+      "nx": 0.6119,
+      "ny": 0.472,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County",
       "area": "Rockridge"
@@ -12222,8 +12231,8 @@
       "category": "smash-grabs",
       "subgroup": "Pawn shops",
       "spoiler": true,
-      "nx": 0.622,
-      "ny": 0.477,
+      "nx": 0.6312,
+      "ny": 0.4825,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County",
       "area": "Rockridge"
@@ -12234,8 +12243,8 @@
       "category": "smash-grabs",
       "subgroup": "Pawn shops",
       "spoiler": true,
-      "nx": 0.627,
-      "ny": 0.469,
+      "nx": 0.6364,
+      "ny": 0.4688,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County",
       "area": "Crosstown"
@@ -12246,8 +12255,8 @@
       "category": "smash-grabs",
       "subgroup": "Pawn shops",
       "spoiler": true,
-      "nx": 0.629,
-      "ny": 0.44,
+      "nx": 0.6387,
+      "ny": 0.4442,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County",
       "area": "La Perle"
@@ -12258,8 +12267,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
-      "nx": 0.653,
-      "ny": 0.412,
+      "nx": 0.6556,
+      "ny": 0.4162,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County",
       "area": "Decor District"
@@ -12270,8 +12279,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
-      "nx": 0.648,
-      "ny": 0.406,
+      "nx": 0.6535,
+      "ny": 0.4146,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Leonard County",
       "area": "Belville"
@@ -12282,8 +12291,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
-      "nx": 0.655,
-      "ny": 0.403,
+      "nx": 0.6545,
+      "ny": 0.4124,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Leonard County",
       "area": "Belville"
@@ -12294,8 +12303,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
-      "nx": 0.75,
-      "ny": 0.45,
+      "nx": 0.7529,
+      "ny": 0.4603,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County",
       "area": "Ocean Beach"
@@ -12306,8 +12315,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
-      "nx": 0.768,
-      "ny": 0.46,
+      "nx": 0.7679,
+      "ny": 0.4604,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County",
       "area": "Washington Beach"
@@ -12318,8 +12327,8 @@
       "category": "smash-grabs",
       "subgroup": "Pawn shops",
       "spoiler": true,
-      "nx": 0.755,
-      "ny": 0.467,
+      "nx": 0.7587,
+      "ny": 0.4765,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Vice-Dale County",
       "area": "Ocean Beach"
@@ -12330,8 +12339,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
-      "nx": 0.755,
-      "ny": 0.489,
+      "nx": 0.7582,
+      "ny": 0.4945,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County",
       "area": "Ocean Beach"
@@ -12342,7 +12351,7 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
-      "nx": 0.749,
+      "nx": 0.7484,
       "ny": 0.516,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Vice-Dale County",
@@ -12354,8 +12363,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
-      "nx": 0.609,
-      "ny": 0.382,
+      "nx": 0.6089,
+      "ny": 0.3827,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Leonard County",
       "area": "Belville"
@@ -12366,8 +12375,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
-      "nx": 0.663,
-      "ny": 0.329,
+      "nx": 0.6634,
+      "ny": 0.3293,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Leonard County",
       "area": "Waning Sands"
@@ -12378,8 +12387,8 @@
       "category": "smash-grabs",
       "subgroup": "Jewelry stores",
       "spoiler": true,
-      "nx": 0.66,
-      "ny": 0.324,
+      "nx": 0.6599,
+      "ny": 0.3245,
       "guide": "Jewelry store: smash the cases and grab the jewelry.",
       "region": "Leonard County",
       "area": "Waning Sands"
@@ -12390,8 +12399,8 @@
       "category": "smash-grabs",
       "subgroup": "Pawn shops",
       "spoiler": true,
-      "nx": 0.352,
-      "ny": 0.372,
+      "nx": 0.3489,
+      "ny": 0.3744,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Kelly County",
       "area": "Port Gellhorn"
@@ -12402,8 +12411,8 @@
       "category": "smash-grabs",
       "subgroup": "Pawn shops",
       "spoiler": true,
-      "nx": 0.351,
-      "ny": 0.335,
+      "nx": 0.3516,
+      "ny": 0.3352,
       "guide": "Pawn shop: smash the cases and grab the goods.",
       "region": "Kelly County",
       "area": "Port Gellhorn"
@@ -13712,8 +13721,8 @@
       "missableAfterChapter": 1,
       "subgroup": "Mariana County",
       "spoiler": true,
-      "nx": 0.555,
-      "ny": 0.825,
+      "nx": 0.5524,
+      "ny": 0.8051,
       "guide": "Key Lento: Jason's house, the table by the bed. Chapter 1 only.",
       "region": "Mariana County",
       "area": "Key Lento",
@@ -13728,8 +13737,8 @@
       "missableAfterChapter": 1,
       "subgroup": "Mariana County",
       "spoiler": true,
-      "nx": 0.555,
-      "ny": 0.826,
+      "nx": 0.5523,
+      "ny": 0.8049,
       "guide": "Key Lento: Jason's house, the living room table. Chapter 1 only.",
       "region": "Mariana County",
       "area": "Key Lento",
@@ -13775,8 +13784,8 @@
       "missableAfterChapter": 1,
       "subgroup": "Mariana County",
       "spoiler": true,
-      "nx": 0.553,
-      "ny": 0.805,
+      "nx": 0.5524,
+      "ny": 0.8036,
       "guide": "Key Lento: Jason's back deck, by the weights. Chapter 1 only.",
       "region": "Mariana County",
       "area": "Key Lento",
@@ -13823,8 +13832,8 @@
       "missableAfterChapter": 2,
       "subgroup": "Kelly County",
       "spoiler": true,
-      "nx": 0.403,
-      "ny": 0.393,
+      "nx": 0.4033,
+      "ny": 0.3564,
       "guide": "Gellhorn: Starlet Motel cafeteria table. Gone after chapter 2.",
       "region": "Kelly County",
       "area": "Gellhorn",
@@ -13884,8 +13893,8 @@
       "category": "magazines",
       "subgroup": "Vice Beach",
       "spoiler": true,
-      "nx": 0.745,
-      "ny": 0.435,
+      "nx": 0.7416,
+      "ny": 0.4404,
       "guide": "Penmarch Isle, Washington Beach: the back room at Ajax Gym. From chapter 4.",
       "region": "Vice Beach",
       "area": "Oldby Island"
@@ -13896,8 +13905,8 @@
       "category": "magazines",
       "subgroup": "Leonard County",
       "spoiler": true,
-      "nx": 0.605,
-      "ny": 0.38,
+      "nx": 0.595,
+      "ny": 0.3787,
       "guide": "Belville: on a bed in a garage on the north row of houses.",
       "region": "Leonard County",
       "area": "Belville"
@@ -13908,8 +13917,8 @@
       "category": "magazines",
       "subgroup": "Kelly County",
       "spoiler": true,
-      "nx": 0.41,
-      "ny": 0.384,
+      "nx": 0.4053,
+      "ny": 0.3493,
       "guide": "Gellhorn: inside Alpha Gas, northeast of the Starlet Motel.",
       "region": "Kelly County",
       "area": "Gellhorn"
@@ -13948,8 +13957,8 @@
       "category": "magazines",
       "subgroup": "Vice City",
       "spoiler": true,
-      "nx": 0.611,
-      "ny": 0.453,
+      "nx": 0.6391,
+      "ny": 0.432,
       "guide": "La Perle: magazine rack at Xero Food Mart.",
       "region": "Vice City",
       "area": "La Perle"
@@ -13972,11 +13981,11 @@
       "category": "magazines",
       "subgroup": "Vice City",
       "spoiler": true,
-      "nx": 0.618,
-      "ny": 0.471,
+      "nx": 0.636,
+      "ny": 0.4678,
       "guide": "Crosstown: Jack of Hearts club, second floor hallway west of the recording booths.",
       "region": "Vice City",
-      "area": "Rockridge"
+      "area": "Crosstown"
     },
     {
       "id": "mz-20",
@@ -13984,8 +13993,8 @@
       "category": "magazines",
       "subgroup": "Vice Beach",
       "spoiler": true,
-      "nx": 0.756,
-      "ny": 0.468,
+      "nx": 0.7589,
+      "ny": 0.4758,
       "guide": "Oldby Island, Washington Beach: magazine rack at Ron Stop'n'Snack.",
       "region": "Vice Beach",
       "area": "Ocean Beach"
@@ -14759,7 +14768,8 @@
       "region": "Lummox County",
       "area": "Grayson",
       "nx": 0.3892,
-      "ny": 0.1966
+      "ny": 0.1966,
+      "guide": "A small pet cemetery in the woods beside State Road 73 in southern Grayson. Follow the animal noises into the trees and scan the gravestones with WAiNK."
     },
     {
       "id": "wc-goose-key-carcass",
@@ -21576,8 +21586,8 @@
       "category": "unique-races",
       "subgroup": "Gellhorn International Raceway",
       "spoiler": true,
-      "nx": 0.334,
-      "ny": 0.417,
+      "nx": 0.3355,
+      "ny": 0.4111,
       "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
       "region": "Kelly County",
       "area": "Gellhorn International Raceway"
@@ -21588,8 +21598,8 @@
       "category": "unique-races",
       "subgroup": "Gellhorn International Raceway",
       "spoiler": true,
-      "nx": 0.334,
-      "ny": 0.417,
+      "nx": 0.3355,
+      "ny": 0.4111,
       "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
       "region": "Kelly County",
       "area": "Gellhorn International Raceway"
@@ -21600,8 +21610,8 @@
       "category": "unique-races",
       "subgroup": "Gellhorn International Raceway",
       "spoiler": true,
-      "nx": 0.334,
-      "ny": 0.417,
+      "nx": 0.3355,
+      "ny": 0.4111,
       "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
       "region": "Kelly County",
       "area": "Gellhorn International Raceway"
@@ -21612,8 +21622,8 @@
       "category": "unique-races",
       "subgroup": "Gellhorn International Raceway",
       "spoiler": true,
-      "nx": 0.334,
-      "ny": 0.417,
+      "nx": 0.3355,
+      "ny": 0.4111,
       "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
       "region": "Kelly County",
       "area": "Gellhorn International Raceway"
@@ -21624,8 +21634,8 @@
       "category": "unique-races",
       "subgroup": "Gellhorn International Raceway",
       "spoiler": true,
-      "nx": 0.334,
-      "ny": 0.417,
+      "nx": 0.3355,
+      "ny": 0.4111,
       "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
       "region": "Kelly County",
       "area": "Gellhorn International Raceway"
@@ -21636,8 +21646,8 @@
       "category": "unique-races",
       "subgroup": "Gellhorn International Raceway",
       "spoiler": true,
-      "nx": 0.334,
-      "ny": 0.417,
+      "nx": 0.3355,
+      "ny": 0.4111,
       "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
       "region": "Kelly County",
       "area": "Gellhorn International Raceway"
@@ -21648,8 +21658,8 @@
       "category": "unique-races",
       "subgroup": "Gellhorn International Raceway",
       "spoiler": true,
-      "nx": 0.334,
-      "ny": 0.417,
+      "nx": 0.3355,
+      "ny": 0.4111,
       "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
       "region": "Kelly County",
       "area": "Gellhorn International Raceway"
@@ -21660,8 +21670,8 @@
       "category": "unique-races",
       "subgroup": "Gellhorn International Raceway",
       "spoiler": true,
-      "nx": 0.334,
-      "ny": 0.417,
+      "nx": 0.3355,
+      "ny": 0.4111,
       "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
       "region": "Kelly County",
       "area": "Gellhorn International Raceway"
@@ -21672,8 +21682,8 @@
       "category": "unique-races",
       "subgroup": "Gellhorn International Raceway",
       "spoiler": true,
-      "nx": 0.334,
-      "ny": 0.417,
+      "nx": 0.3355,
+      "ny": 0.4111,
       "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
       "region": "Kelly County",
       "area": "Gellhorn International Raceway"
@@ -21684,8 +21694,8 @@
       "category": "unique-races",
       "subgroup": "Gellhorn International Raceway",
       "spoiler": true,
-      "nx": 0.334,
-      "ny": 0.417,
+      "nx": 0.3355,
+      "ny": 0.4111,
       "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
       "region": "Kelly County",
       "area": "Gellhorn International Raceway"
@@ -21696,8 +21706,8 @@
       "category": "unique-races",
       "subgroup": "Gellhorn International Raceway",
       "spoiler": true,
-      "nx": 0.334,
-      "ny": 0.417,
+      "nx": 0.3355,
+      "ny": 0.4111,
       "guide": "South of Port Gellhorn. Start with the introduction race and the 5-race amateur series to open up the rest. Win it.",
       "region": "Kelly County",
       "area": "Gellhorn International Raceway"
@@ -31373,6 +31383,78 @@
       "spoiler": true,
       "guide": "Count the animals you've studied in the game's Other group that don't have their own row here yet. 7 of the group's 23 are listed above.",
       "tallyTarget": 18
+    },
+    {
+      "id": "bd-01-whitetail-buck",
+      "title": "Whitetail buck",
+      "category": "bret-decks",
+      "subgroup": "Deck 1: Adrenal Glands and Venison",
+      "spoiler": true,
+      "region": "Lummox County",
+      "guide": "Deck 1 target. Hunt it in Mount Kalaga National Park and around the abandoned concrete plant, then deliver the carcass to Bret in pristine or good condition."
+    },
+    {
+      "id": "bd-01-whitetail-doe",
+      "title": "Whitetail doe",
+      "category": "bret-decks",
+      "subgroup": "Deck 1: Adrenal Glands and Venison",
+      "spoiler": true,
+      "region": "Lummox County",
+      "guide": "Deck 1 target. Hunt it in Mount Kalaga National Park and around the abandoned concrete plant, then deliver the carcass to Bret in pristine or good condition."
+    },
+    {
+      "id": "bd-02-wild-white-tom",
+      "title": "Leonida wild white tom",
+      "category": "bret-decks",
+      "subgroup": "Deck 2: Hog Endocrine Glands",
+      "spoiler": true,
+      "region": "Lummox County",
+      "guide": "A white turkey. Deck 2 target. Hunt it in Adler Creek, Bonanza and Mount Kalaga National Park, then deliver the carcass to Bret in pristine or good condition."
+    },
+    {
+      "id": "bd-02-eastern-spotted-skunk",
+      "title": "Eastern spotted skunk",
+      "category": "bret-decks",
+      "subgroup": "Deck 2: Hog Endocrine Glands",
+      "spoiler": true,
+      "region": "Lummox County",
+      "guide": "Comes out at night. Deck 2 target. Hunt it in Adler Creek, Bonanza and Mount Kalaga National Park, then deliver the carcass to Bret in pristine or good condition."
+    },
+    {
+      "id": "bd-02-wild-boar",
+      "title": "Wild boar",
+      "category": "bret-decks",
+      "subgroup": "Deck 2: Hog Endocrine Glands",
+      "spoiler": true,
+      "region": "Lummox County",
+      "guide": "Deck 2 target. Hunt it in Adler Creek, Bonanza and Mount Kalaga National Park, then deliver the carcass to Bret in pristine or good condition."
+    },
+    {
+      "id": "bd-03-cane-toad",
+      "title": "Cane toad",
+      "category": "bret-decks",
+      "subgroup": "Deck 3: Cane Toad Venom Glands",
+      "spoiler": true,
+      "region": "Kelly County",
+      "guide": "Deck 3 target. Hunt it in west and east Buckskin Swamp and Pelican Valley, then deliver the carcass to Bret in pristine or good condition."
+    },
+    {
+      "id": "bd-03-nutria",
+      "title": "Nutria",
+      "category": "bret-decks",
+      "subgroup": "Deck 3: Cane Toad Venom Glands",
+      "spoiler": true,
+      "region": "Kelly County",
+      "guide": "Deck 3 target. Hunt it in west and east Buckskin Swamp and Pelican Valley, then deliver the carcass to Bret in pristine or good condition."
+    },
+    {
+      "id": "bd-03-nile-monitor",
+      "title": "Nile monitor",
+      "category": "bret-decks",
+      "subgroup": "Deck 3: Cane Toad Venom Glands",
+      "spoiler": true,
+      "region": "Kelly County",
+      "guide": "Deck 3 target. Hunt it in west and east Buckskin Swamp and Pelican Valley, then deliver the carcass to Bret in pristine or good condition."
     },
     {
       "id": "vh-declasse-akane",
@@ -41979,8 +42061,8 @@
       "category": "garages",
       "subgroup": "For sale",
       "spoiler": true,
-      "nx": 0.399,
-      "ny": 0.362,
+      "nx": 0.3975,
+      "ny": 0.3477,
       "region": "Kelly County",
       "area": "Gellhorn",
       "guide": "Central Kelly County, east of Port Gellhorn. $4,000 in the Vice City Real Estate app, 1 parking spot. Counts towards the Little Boxes trophy.",
@@ -42004,10 +42086,10 @@
       "category": "garages",
       "subgroup": "For sale",
       "spoiler": true,
-      "nx": 0.573,
-      "ny": 0.41,
+      "nx": 0.5845,
+      "ny": 0.3958,
       "region": "Leonard County",
-      "area": "South Leonard County",
+      "area": "Belville",
       "guide": "Western Belville, in the south of Leonard County. $7,600 in the Vice City Real Estate app, 1 parking spot. Counts towards the Little Boxes trophy.",
       "stats": [
         {
@@ -42029,10 +42111,10 @@
       "category": "garages",
       "subgroup": "For sale",
       "spoiler": true,
-      "nx": 0.585,
-      "ny": 0.556,
+      "nx": 0.5997,
+      "ny": 0.5624,
       "region": "Vice-Dale County",
-      "area": "VCIA",
+      "area": "Salton",
       "guide": "Just east of Vice City International Airport. $12,000 in the Vice City Real Estate app, 1 parking spot. Counts towards the Little Boxes trophy.",
       "stats": [
         {
@@ -42054,8 +42136,8 @@
       "category": "garages",
       "subgroup": "For sale",
       "spoiler": true,
-      "nx": 0.512,
-      "ny": 0.33,
+      "nx": 0.524,
+      "ny": 0.3167,
       "region": "Kelly County",
       "area": "Ambrosia",
       "guide": "Northern Ambrosia, just off the highway. $16,800 in the Vice City Real Estate app, 1 parking spot. Counts towards the Little Boxes trophy.",
@@ -42105,8 +42187,8 @@
       "category": "garages",
       "subgroup": "For sale",
       "spoiler": true,
-      "nx": 0.328,
-      "ny": 0.518,
+      "nx": 0.3282,
+      "ny": 0.5267,
       "region": "Mariana County",
       "area": "Capri",
       "guide": "Central Capri. $24,000 in the Vice City Real Estate app, 1 parking spot. Counts towards the Little Boxes trophy.",
@@ -42130,10 +42212,10 @@
       "category": "garages",
       "subgroup": "For sale",
       "spoiler": true,
-      "nx": 0.731,
-      "ny": 0.421,
+      "nx": 0.7455,
+      "ny": 0.4248,
       "region": "Vice-Dale County",
-      "area": "Penmarch Isle",
+      "area": "Washington Island",
       "guide": "Washington Island, across the water from Vice Beach. $34,000 in the Vice City Real Estate app, 1 parking spot. Counts towards the Little Boxes trophy.",
       "stats": [
         {
@@ -42155,8 +42237,8 @@
       "category": "garages",
       "subgroup": "For sale",
       "spoiler": true,
-      "nx": 0.75,
-      "ny": 0.478,
+      "nx": 0.7613,
+      "ny": 0.4765,
       "region": "Vice-Dale County",
       "area": "Ocean Beach",
       "guide": "Ocean Beach, a couple of blocks back from the sand. $40,000 in the Vice City Real Estate app, 1 parking spot. Counts towards the Little Boxes trophy.",
@@ -42180,8 +42262,8 @@
       "category": "garages",
       "subgroup": "From the story",
       "spoiler": true,
-      "nx": 0.346,
-      "ny": 0.362,
+      "nx": 0.3387,
+      "ny": 0.3448,
       "region": "Kelly County",
       "area": "Port Gellhorn",
       "guide": "Port Gellhorn. Free: the story gives it to you in chapter 2. 1 parking spot. Doesn't count towards Little Boxes.",
@@ -42210,8 +42292,8 @@
       "category": "garages",
       "subgroup": "From the story",
       "spoiler": true,
-      "nx": 0.74,
-      "ny": 0.506,
+      "nx": 0.7528,
+      "ny": 0.5053,
       "region": "Vice-Dale County",
       "area": "Ocean Beach",
       "guide": "Ocean Beach. Free: the story gives it to you in chapter 4. 2 parking spots. Doesn't count towards Little Boxes.",
@@ -42240,10 +42322,10 @@
       "category": "garages",
       "subgroup": "From the story",
       "spoiler": true,
-      "nx": 0.634,
-      "ny": 0.437,
+      "nx": 0.6528,
+      "ny": 0.4421,
       "region": "Vice-Dale County",
-      "area": "La Perle",
+      "area": "Stockyard",
       "guide": "Stockyard, Vice City. Free: the story gives it to you in chapter 5. 2 parking spots. Doesn't count towards Little Boxes.",
       "revealedGuide": "Stockyard, Vice City. Free: yours once you finish the chapter 5 story mission Operation Savage Glory. 2 parking spots. Doesn't count towards Little Boxes.",
       "stats": [
@@ -45994,13 +46076,1487 @@
       "slot": 40
     },
     {
+      "id": "wp-assassin-nipper-38",
+      "title": "Assassin Nipper .38",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Nipper .38 variant tucked under a floor hatch inside a wrecked boat off the southeast edge of Permit Keys, east of Mile Zero Air Station; it's the payoff of the spy boat puzzle.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-low-point-nipper-38",
+      "title": "Low Point Nipper .38",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Location not confirmed yet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-turnt-nipper-38",
+      "title": "Turnt Nipper .38",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Nipper .38 variant sitting in the seat of a crashed paratrike caught in a tree at Bobcat Bight, at the north end of Bobcat Bay west of North Mariana County.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-zodiac-nipper-38",
+      "title": "Zodiac Nipper .38",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Nipper .38 variant you can grab while raiding the Ocean Beach Lab Illegal Operation in Ocean City.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-quarter-mile-es9",
+      "title": "Quarter Mile ES9",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "ES9 variant picked up while raiding the Chatfield Storage & Logistics Illegal Operation on Waxman Island, east of Downtown Vice City.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-sand-storm-es9",
+      "title": "Sand Storm ES9",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "ES9 variant sold for $1,470 at the Big Shots Ammu-Nation on Hamlet's east side.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-the-guardian-es18",
+      "title": "The Guardian ES18",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "ES18 burst pistol variant picked up while raiding the Saber Shipping Yard Illegal Operation in Little Cuba, Vice City.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-dwnplys-k17",
+      "title": "DWNPLY's K17",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Location not confirmed yet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-ejs-k17",
+      "title": "EJ's K17",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Location not confirmed yet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-ptt-youngin-k17",
+      "title": "PTT Youngin$ K17",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "K17 variant picked up while raiding the Kamar Devon Community Center Illegal Operation in Southside, Vice City.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-san4san-k17",
+      "title": "San4San K17",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "K17 variant picked up while raiding the Sound4Sound Studio Illegal Operation in Stockyard, at Vice City's northern tip.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-nite-raptor-k17",
+      "title": "Nite Raptor K17",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "K17 variant sold for $2,050 at the Black Eagle Ammu-Nation in Balsero, west Vice City.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-dumpster-k17-mcd",
+      "title": "Dumpster K17 MCD",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Location not confirmed yet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-the-patriarch-drx",
+      "title": "The Patriarch DRX",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "DRX variant resting underwater beside a sunken car in the southwest of Kalaga Reservoir; scattered luggage on the bank marks where to dive.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-rogue-alpha-drx",
+      "title": "Rogue Alpha DRX",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "DRX variant sold for $4,410 at the Quickscope Ammu-Nation opposite Kensinger Tower in Downtown Vice City.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-brainwasher-1922",
+      "title": "Brainwasher 1922",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Location not confirmed yet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-brians-1922",
+      "title": "Brian's 1922",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Location not confirmed yet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-money-bag-1922",
+      "title": "Money Bag 1922",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "1922 variant on the couch inside the same mobile home on the Moreau River's south bank in East Lummox County.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-marthas-1922",
+      "title": "Martha's 1922",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "1922 variant hidden in the fireplace of the derelict Outlaw's Cabin in Moreau; go in through the cellar steps on the southeast side and up to the main room.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-montys-1922",
+      "title": "Monty's 1922",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Location not confirmed yet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-rauls-1922",
+      "title": "Raul's 1922",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Location not confirmed yet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-russos-1922",
+      "title": "Russo's 1922",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Location not confirmed yet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-black-eagle-import-kalinga",
+      "title": "Black Eagle Import Kalinga",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Kalinga .50 variant locked in the office safe of the Black Eagle warehouse next to the Black Eagle store in Balsero; the office has a keypad and the safe code shows on the office PC's login screen.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-convict-kalinga-50",
+      "title": "Convict Kalinga .50",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Location not confirmed yet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-iron-oak-wcr-1",
+      "title": "Iron & Oak WCR-1",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "WCR-1 variant sold for $1,260 at the Iron & Oak Ammu-Nation in Stockyard, north Vice City.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-cargo-h-l-38",
+      "title": "Cargo H&L .38",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "H&L .38 variant inside a yellow Scoop container in the Port Vice City cargo yard; climb the shorter neighbouring stack, hop across the container tops and break in, watching for guards.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-lyles-h-l-38",
+      "title": "Lyle's H&L .38",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "H&L .38 variant in the trunk of a car parked inside an old barn where a Bonanza road dead-ends; use the side door.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-ride-free-h-l-38",
+      "title": "Ride Free H&L .38",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "H&L .38 variant picked up while raiding the Biker Hideout Illegal Operation on Lake Leonida's south shore, west of Ambrosia in Leonard County.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-jack-sheepe-h-l-38",
+      "title": "Jack Sheepe H&L .38",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Ultimate Edition H&L .38 variant sold for $2,260 at Biff's Gun Supply in northwest Ambrosia.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-couch-potato-mustang-357",
+      "title": "Couch Potato Mustang .357",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Mustang .357 variant stuffed in a couch strung up in a tree outside a trailer off Tanglewood Ln, Port Gellhorn; shoot the ropes, then sit on the couch.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-honky-tonk-mustang-357",
+      "title": "Honky Tonk Mustang .357",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Mustang .357 variant sold for $3,780 at Phil's Ammu-Nation in Southside, Vice City.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-kingfishers-akulus",
+      "title": "Kingfishers Akulus",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Akulus variant picked up while raiding the Sunrise RV Park Illegal Operation, north of Cottonmouth Lake and northwest of Key Lento.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-swamp-bait-akulus",
+      "title": "Swamp Bait Akulus",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Akulus variant lying on the floor of the bigger waterfront shack in the marsh southwest of Hamlet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-bae-luxs-w-10",
+      "title": "Bae-Lux's W-10",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Location not confirmed yet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-chromium-w-10",
+      "title": "Chromium W-10",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "W-10 variant picked up while raiding the La Perle Trap House Illegal Operation in La Perle, north Vice City.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-little-friend-w-10",
+      "title": "Little Friend W-10",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "W-10 variant at a crime scene in a second-floor room of the Sunlite Motel on Shore Drive, Ocean Beach; take the stairs under the red awning and look for the bloodied doorway.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-roxys-w-10",
+      "title": "Roxy's W-10",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Location not confirmed yet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-tyrones-w-10",
+      "title": "Tyrone's W-10",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Location not confirmed yet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-moneymaker-w-10",
+      "title": "Moneymaker W-10",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "W-10 variant sold for $1,557 at Tequesta Guns & Ammo in southwest Tequesta.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-marabunta-grande-type-9",
+      "title": "Marabunta Grande Type 9",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Type 9 variant picked up while raiding the Weed Grow Illegal Operation on Lake Tallaloko's northeast shore, East Lummox County.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-neon-sunset-type-9",
+      "title": "Neon Sunset Type 9",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Type 9 variant sold for $2,310 at Vice City Firearms in Salton.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-conspiracist-type-9",
+      "title": "Conspiracist Type 9",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Type 9 variant on a table in a hidden armory under a trailer in Balsero, southwest of the Griffin Shooting Range; go in the side door, open the floor hatch and climb down.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-eris-fresh-dsg",
+      "title": "Eris Fresh DSG",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "DSG variant picked up while raiding the Illegal Goods Store Illegal Operation at the north end of Southside, Vice City.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-chronic-vatra",
+      "title": "Chronic Vatra",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Vatra variant picked up while raiding the Industrial Weed Grow Illegal Operation in North Mariana County, north of Tola Bay and Big Pine.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-double-cross-vatra",
+      "title": "Double Cross Vatra",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Rusted Vatra variant on the seabed of Gulf Leonida west of Bobcat Key, Mariana County; three floating bodies at the surface mark the spot.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-kolt-associates-vatra",
+      "title": "Kolt & Associates Vatra",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Vatra variant picked up while raiding the June Warehouse Illegal Operation in Port Gellhorn, opposite Sarena's Bargain Store.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-spangled-vatra",
+      "title": "Spangled Vatra",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Vatra variant sold for $2,520 at Jackson Firearms in southeast Balsero.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-furry-dw-9",
+      "title": "Furry DW-9",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Location not confirmed yet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-crabshack-vf5",
+      "title": "Crabshack VF5",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "VF5 variant on the floor of a boat shack at an abandoned research outpost in Pelican Valley; the boardwalk door needs a code.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-guardia-brothers-vf5",
+      "title": "Guardia Brothers VF5",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "VF5 variant picked up while raiding the Saber Shipping Facility Illegal Operation on Balsero's east side, by the river facing Rockridge.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-midlife-crisis-vf5",
+      "title": "Midlife Crisis VF5",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Location not confirmed yet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-watcher-pro-moreland-850",
+      "title": "Watcher Pro Moreland 850",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Moreland 850 variant sold for $1,470 at Tactical Outlet Guns on Belville's far west side.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-cpd-moreland-850",
+      "title": "CPD Moreland 850",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Location not confirmed yet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-san4san-gorse-425",
+      "title": "San4San Gorse 425",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Gorse 425 variant picked up while raiding the Parlor Apartments Illegal Operation in Rockridge, opposite the Rockridge Blood Center.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-smuggler-gorse-425",
+      "title": "Smuggler Gorse 425",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Gorse 425 variant aboard a beached smuggler's boat on a small island east of Mile Zero Air Station, Permit Keys.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-basher-gorse-425",
+      "title": "Basher Gorse 425",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Gorse 425 variant for sale at the Pawn & Gun on the south side of Port Gellhorn.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-dirty-drifter",
+      "title": "Dirty Drifter",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Drifter variant in the trunk of a blue car caught in a mudslide beside the coast road in Bonanza; climb the slope to reach it.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-marabunta-grande-hobo",
+      "title": "Marabunta Grande Hobo",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Location not confirmed yet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-backdoor-hobo",
+      "title": "Backdoor Hobo",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Hobo variant sold for $2,502 at Zenon's Pawn Shop in La Perle, north Vice City.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-final-chapter-shortstraw",
+      "title": "Final Chapter Shortstraw",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Shortstraw variant picked up while raiding the Hog Stars Garage Illegal Operation near the Pay 'N' Spray in Ambrosia.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-woodhatch-longshot",
+      "title": "Woodhatch Longshot",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Longshot variant sold for $2,990 at the Woodhatch Ammu-Nation in Capri.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-nitepower-az1200",
+      "title": "Nitepower AZ1200",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "AZ1200 variant sold for $4,830 at the Black Eagle Ammu-Nation beside the Griffin Shooting Range in Balsero.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-throttler-verro",
+      "title": "Throttler Verro",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Verro variant picked up while raiding the Farm Fix Meth Lab Illegal Operation in northern Belville, south of Lake Leonida.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-hostile-super400",
+      "title": "Hostile Super400",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Super400 variant picked up while raiding the Mill Station Radar Base Illegal Operation in Grassrivers, north of Watson Bay.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-bruiser-super400",
+      "title": "Bruiser Super400",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Super400 variant sold for $5,930 at Vice City Gun & Pawn in south Rockridge.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-final-chapter-kvga-12",
+      "title": "Final Chapter KVGA-12",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "KVGA-12 variant picked up while raiding the Irons Building Supply Illegal Operation in Ambrosia.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-hellspawn-comshot-12",
+      "title": "Hellspawn Comshot 12",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Comshot 12 variant earned by beating a demon-themed challenge at a mountain campsite in western North Kelly County; eat the offering on the wooden throne to start it.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-unpacked-comshot-12",
+      "title": "Unpacked Comshot 12",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Comshot 12 variant behind the door of an upstairs en-suite bathroom in a house on Key Lento's northwest coast; enter via the outside stairs.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-cockroach-xtreme-556",
+      "title": "Cockroach Xtreme 556",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "556 variant behind a stack of toilet paper in a single garage in the Sunrise Motel courtyard, Tequesta (Vice-Dale County); enter from the south.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-cold-war-556",
+      "title": "Cold War 556",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "556 variant leaning on a crate just inside a bunker in Big Pine, North Mariana County; enter from the southwest.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-grx-556",
+      "title": "GRX 556",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "556 variant picked up while raiding the Leonida Carrier Warehouse Illegal Operation in central Balsero.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-rauls-cqb-556",
+      "title": "Raul's CQB 556",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Location not confirmed yet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-rauls-heist-556",
+      "title": "Raul's Heist 556",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Location not confirmed yet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-star-spangled-556",
+      "title": "Star Spangled 556",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "556 variant sold for $3,050 at Phil's Ammu-Nation in Southside, Vice City.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-kingpin-heathen",
+      "title": "Kingpin Heathen",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Heathen variant picked up while raiding the Vespucci Mansion Illegal Operation on Vespucci Island in the Rialto Islands.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-vice-city-heathen",
+      "title": "Vice City Heathen",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Heathen variant sold for $5,150 at Prestige Firearms in north Ocean Beach.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-la-polilla-negra-vf-g1",
+      "title": "La Polilla Negra VF-G1",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "VF-G1 variant picked up while raiding the Watson Bay Safehouse Illegal Operation just east of Watson Bay.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-drug-mule-kz-59",
+      "title": "Drug Mule KZ-59",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "KZ-59 variant underwater beneath a sunken speedboat off the north coast of Riquezas Keys; floating packages mark the spot.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-la-polilla-negra-kz-59",
+      "title": "La Polilla Negra KZ-59",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "KZ-59 variant picked up while raiding the Palmer Fishing Warehouse Illegal Operation on the Bobcat Keys sandbar near Watson Bay.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-marabunta-grande-kz-59",
+      "title": "Marabunta Grande KZ-59",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "KZ-59 variant picked up while raiding the Nova Auto Junkyard Illegal Operation in central Hamlet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-petes-kz-59",
+      "title": "Pete's KZ-59",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Location not confirmed yet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-san4san-kz-59",
+      "title": "San4San KZ-59",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "KZ-59 variant picked up while raiding the Janjak's Garage Illegal Operation in south La Perle, Vice City.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-little-cuba-hind",
+      "title": "Little Cuba Hind",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Hind variant sold for $3,570 at Martez Empeños in Little Cuba, Vice City.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-guardia-brothers-fra",
+      "title": "Guardia Brothers FRA",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "FRA variant picked up while raiding the Casa Guardia Illegal Operation in northeast Little Cuba.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-redneck-w-22",
+      "title": "Redneck W-22",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "W-22 variant at the back of an abandoned yellow train car on a river's north bank in Moreau; enter through the gap on its south side.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-mossy-mediator",
+      "title": "Mossy Mediator",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Mediator variant sold for $1,890 at Barrage Gun Supply in Southwind, near Mile Zero Air Station.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-copperheads-w-14",
+      "title": "Copperheads W-14",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Location not confirmed yet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-black-eagle-import-m306-tmr",
+      "title": "Black Eagle Import M306 TMR",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "M306 TMR variant in a case inside the Black Eagle warehouse in Balsero, reached by squeezing past boxes behind the barred door, a gap only Lucia fits through; staff will call the cops.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-hunters-laird-350",
+      "title": "Hunter's Laird 350",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Location not confirmed yet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-twins-laird-350",
+      "title": "Twin's Laird 350",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Laird 350 variant on the ground under a small hunting stand in the woods east of Kalaga Reservoir, Lummox County.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-cruel-huntsmans-sm-69",
+      "title": "Cruel Huntsman's SM-69",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "SM-69 variant on the boardwalk between the two buildings of a hunter's cabin in the Pelican Valley marsh, near some gator carcasses.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-fincredible-laird-350",
+      "title": "Fincredible Laird 350",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Laird 350 variant sold for $2,000 at Guns Aplenty! in Watson Bay.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-firebreak-sm-69",
+      "title": "Firebreak SM-69",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "SM-69 variant sold for $3,890 at R. Willis Jr. Supplies in Lummox County, northwest of Kalaga Reservoir.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-gun-nut-sms-01",
+      "title": "Gun Nut SMS-01",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Location not confirmed yet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-iaa-sms-01",
+      "title": "IAA SMS-01",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "SMS-01 variant on the roof of Aichi Condominiums on Northside Ave, Washington Beach; it only shows up after a related story mission is done.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-fib-sm-69",
+      "title": "FIB SM-69",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "SM-69 variant on top of a Vice Beach skyscraper between two hospitals; it only shows up after a related story mission is done.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-internal-affairs-ff-sr",
+      "title": "Internal Affairs FF-SR",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "FF-SR variant on the northwest edge of the helipad roof of the tallest tower on Northside Ave, Washington Beach; it only shows up after a related story mission is done.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-island-poacher-ff-50",
+      "title": "Island Poacher FF-50",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Camo pattern of the Fairview FF-50 that can't be modded. You can't buy it: it's dropped by the armed hunter in Easter egg 18. Kill him and pick the rifle up where he falls, as it isn't handed to you at the end.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ],
+      "guideLinks": {
+        "Fairview FF-50": "wp-fairview-ff-50",
+        "Easter egg 18": "ee-18"
+      }
+    },
+    {
+      "id": "wp-franciscos-lmg-6",
+      "title": "Francisco's LMG 6",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Location not confirmed yet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-mercenary-lmg-6",
+      "title": "Mercenary LMG 6",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "LMG 6 variant in a yellow Scoop container in the north of the Port Vice City cargo yard; come in from the water, climb the ladder and cross the container tops to avoid guards.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-brontasaurus-bat",
+      "title": "Brontasaurus Bat",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Unique baseball bat found in one of the batting cages on the right at Dino Golf off SR-32 in Frogswater.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-shark-knife",
+      "title": "Shark Knife",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Unique knife stuck in the seabed next to a shark cage in an underwater ravine north of the Saint Attaway Islands.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-explorers-knife",
+      "title": "Explorer's Knife",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Unique knife deep in the flooded cave section of Emerald River; get scuba gear at Selkie Hole, then follow the yellow guide rope north underwater.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-tallaloko-knife",
+      "title": "Tallaloko Knife",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Unique knife behind a locked upstairs door in the Evergreen cabin on Lake Tallaloko's west side, East Lummox County.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-soldiers-combat-knife",
+      "title": "Soldier's Combat Knife",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Unique knife inside a half-sunk tank on the west shore between Bobcat Bight and Bobcat Key; open its hatch.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
       "id": "wp-more-variants",
       "title": "More variants",
       "category": "weapons",
       "subgroup": "Variants",
       "spoiler": true,
-      "guide": "Count the variants you've discovered that don't have their own row here yet: 18 of the 130 are listed above, so 112 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
-      "tallyTarget": 116
+      "guide": "Count the variants you've discovered that don't have their own row here yet: 123 of the 130 are listed above, so 7 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
+      "tallyTarget": 7
     },
     {
       "id": "kw-1",
@@ -47558,7 +49114,7 @@
       "spoiler": true,
       "guide": "A nod to a street-racing film series, hidden in a garage in the Rialto Islands. Open from the start of free roam.",
       "revealedTitle": "The Fast & Furious car",
-      "revealedGuide": "Drive to the middle of Vespucci Island in the Rialto Islands, between Vice City and Vice Beach. Get into the grounds of the modern white villa (next door to the house with a luxury car out front), switch off the alarm panel by the garage and break in. Inside is a green '97 Maibatsu Penumbra FF in the film car's livery, big rear wing and all. If it isn't there, come back later.",
+      "revealedGuide": "Drive to the middle of Vespucci Island in the Rialto Islands, between Vice City and Vice Beach. Get into the grounds of the modern white villa (next door to the house with a luxury car out front), switch off the alarm panel by the garage and break in. Inside is a green '97 Maibatsu Penumbra FF in the film car's livery, big rear wing and all. Break open its boot and a big snake leaps out at you, a Toy Story joke. If the car isn't there, come back later.",
       "guideLinks": {
         "'97 Maibatsu Penumbra FF": "vh-97-maibatsu-penumbra-ff"
       }
@@ -47704,6 +49260,19 @@
       "guide": "A familiar name from a previous GTA, tucked inside a magazine at a home in Key Lento.",
       "revealedTitle": "Fabien LaRouche's story",
       "revealedGuide": "At Jason's house in Key Lento, look at the Body Copy magazine on the patio table beside the weight bench. Page 3 carries a story by the yoga guru from GTA V. There's no reward."
+    },
+    {
+      "id": "ee-25",
+      "title": "Easter egg 25",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "guide": "A follow-up to another easter egg, so find that one first. The reward is a permanent boost.",
+      "revealedTitle": "The alien rescue",
+      "revealedGuide": "After the UFO abduction, sleep at a safehouse as the same character to trigger a dream. In it, crouch through the egg room, use the orb to find Earth, note the code shown on the light-bar keypad (it can differ between playthroughs) and solve the milk-machine puzzle, avoiding the middle room. Then, for real, break into the fenced compound beside the big radio tower south of Hamlet, near Southpoint Airfield. Go down to the keypad door, enter your code, repeat the panel and milk puzzle and carry the alien out; the UFO deals with the soldiers. You get permanent boosts to max health, stamina and focus.",
+      "guideLinks": {
+        "UFO abduction": "ee-01"
+      }
     },
     {
       "id": "mu-1",
