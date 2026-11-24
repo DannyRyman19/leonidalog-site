@@ -1,5 +1,5 @@
 {
-  "version": 104,
+  "version": 105,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -5648,8 +5648,8 @@
       "category": "cards",
       "subgroup": "Vice City Manatees",
       "spoiler": true,
-      "nx": 0.402,
-      "ny": 0.1783,
+      "nx": 0.4014,
+      "ny": 0.1785,
       "region": "Lummox County",
       "area": "Grayson",
       "guide": "One of the 24 cards in the Vice City Manatees set. Follow the map pin."
@@ -6954,8 +6954,8 @@
       "category": "cards",
       "subgroup": "Liberty City Wrath",
       "spoiler": true,
-      "nx": 0.3962,
-      "ny": 0.1823,
+      "nx": 0.3959,
+      "ny": 0.1827,
       "region": "Lummox County",
       "area": "Grayson",
       "guide": "One of the 24 cards in the Liberty City Wrath set. Follow the map pin."
