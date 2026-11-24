@@ -1,5 +1,5 @@
 {
-  "version": 102,
+  "version": 103,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -3258,6 +3258,8 @@
       "id": "sf-21",
       "title": "Side mission 21",
       "category": "stranger-missions",
+      "region": "Leonard County",
+      "area": "Waning Sands",
       "chapter": 3,
       "givenBy": "Strand 08",
       "spoiler": true,
@@ -3267,7 +3269,24 @@
       "revealedGuide": "Andy's strand, mission 1 of 5. Unlocks in chapter 3. Doesn't count towards the Strangers & Freaks trophy. Lucia only. Three parts. The drops are in Waning Sands, at the Cellerica stall in north Vice City, and in Ambrosia; turn down the junkie in Ambrosia. A magazine sits next to the package in Andy's garage.",
       "guideLinks": {
         "Strangers & Freaks": "tr-25"
-      }
+      },
+      "areas": [
+        {
+          "nx": 0.6725,
+          "ny": 0.3436,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.6556,
+          "ny": 0.4194,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.535,
+          "ny": 0.3112,
+          "r": 0.0008
+        }
+      ]
     },
     {
       "id": "sf-22",
@@ -3345,7 +3364,26 @@
         "Casa de Empeño": "sg-27",
         "Richardson Jewelry": "sg-11",
         "Donovan Banks & Co.": "sg-07"
-      }
+      },
+      "areas": [
+        {
+          "nx": 0.7587,
+          "ny": 0.4765,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.6359,
+          "ny": 0.5325,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.6092,
+          "ny": 0.6132,
+          "r": 0.0008
+        }
+      ],
+      "region": "Vice-Dale County",
+      "area": "Ocean Beach"
     },
     {
       "id": "sf-27",
@@ -3486,6 +3524,8 @@
       "id": "sf-35",
       "title": "Side mission 35",
       "category": "stranger-missions",
+      "region": "Kelly County",
+      "area": "Buckskin Swamp",
       "chapter": 4,
       "givenBy": "Strand 14",
       "spoiler": true,
@@ -3496,7 +3536,24 @@
       "guideLinks": {
         "Strangers & Freaks": "tr-25",
         "KZ-59": "wp-kozlov-kz-59"
-      }
+      },
+      "areas": [
+        {
+          "nx": 0.4706,
+          "ny": 0.4477,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.3939,
+          "ny": 0.6253,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.2479,
+          "ny": 0.4753,
+          "r": 0.0008
+        }
+      ]
     },
     {
       "id": "sf-36",
@@ -3521,9 +3578,9 @@
       "givenBy": "Strand 14",
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 14. Unlocks in chapter 4.",
-      "revealedTitle": "Pete's Deliveries: Southpoint Airfield",
+      "revealedTitle": "The Last Mile: Hostile Takeover",
       "revealedGivenBy": "Pilot Pete",
-      "revealedGuide": "Pilot Pete's strand, mission 3 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only. Each run has 7 drops and about 2 hours to finish all of them. Entering a red circle gets you a wanted level. Each run pays $20,000.",
+      "revealedGuide": "Pilot Pete's strand, mission 3 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only. It starts at Southpoint Airfield in Mariana County. Each run has 7 drops and about 2 hours to finish all of them. Entering a red circle gets you a wanted level. Each run pays $20,000.",
       "guideLinks": {
         "Strangers & Freaks": "tr-25"
       }
@@ -3536,9 +3593,9 @@
       "givenBy": "Strand 14",
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 14. Unlocks in chapter 4.",
-      "revealedTitle": "Pete's Deliveries: Avery Allen & Co.",
+      "revealedTitle": "The Last Mile: Stormy Weather",
       "revealedGivenBy": "Pilot Pete",
-      "revealedGuide": "Pilot Pete's strand, mission 4 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only. Each run has 7 drops and about 2 hours to finish all of them. Entering a red circle gets you a wanted level. Each run pays $20,000. The Southpoint and Avery Allen runs can be done in either order.",
+      "revealedGuide": "Pilot Pete's strand, mission 4 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only. It starts at the Avery Allen & Co. airstrip in Kelly County. Each run has 7 drops and about 2 hours to finish all of them. Entering a red circle gets you a wanted level. Each run pays $20,000. This run and Hostile Takeover (from Southpoint Airfield) can be done in either order.",
       "guideLinks": {
         "Strangers & Freaks": "tr-25"
       }
@@ -3551,9 +3608,9 @@
       "givenBy": "Strand 14",
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 14. Unlocks in chapter 4.",
-      "revealedTitle": "Deliver Packages",
+      "revealedTitle": "The Last Mile: Over and Out",
       "revealedGivenBy": "Pilot Pete",
-      "revealedGuide": "Pilot Pete's strand, mission 5 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only. Each run has 7 drops and about 2 hours to finish all of them. Entering a red circle gets you a wanted level. Each run pays $20,000. The Southpoint and Avery Allen runs can be done in either order.",
+      "revealedGuide": "Pilot Pete's strand, mission 5 of 5. Unlocks in chapter 4. Counts towards the Strangers & Freaks trophy. Jason only. Each run has 7 drops and about 2 hours to finish all of them. Entering a red circle gets you a wanted level. Each run pays $20,000.",
       "guideLinks": {
         "Strangers & Freaks": "tr-25"
       }
@@ -3589,7 +3646,49 @@
         "Bobcat Dive Site": "kw-8-01",
         "Kenton sets list": "category:kenton-sets",
         "Maritime Disputes": "sf-41"
-      }
+      },
+      "areas": [
+        {
+          "nx": 0.6455,
+          "ny": 0.7911,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.5376,
+          "ny": 0.8844,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.5097,
+          "ny": 0.9012,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.5319,
+          "ny": 0.8711,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.5419,
+          "ny": 0.8662,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.5785,
+          "ny": 0.8771,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.2858,
+          "ny": 0.5748,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.3165,
+          "ny": 0.6667,
+          "r": 0.0008
+        }
+      ]
     },
     {
       "id": "sf-41",
@@ -3611,6 +3710,8 @@
       "id": "sf-42",
       "title": "Side mission 42",
       "category": "stranger-missions",
+      "region": "Mariana County",
+      "area": "Shoeless Keys",
       "chapter": 1,
       "completeBefore": "chapter 2",
       "missableAfterChapter": 1,
@@ -3624,7 +3725,29 @@
       "guideLinks": {
         "Strangers & Freaks": "tr-25",
         "Clear Skies": "ms-015"
-      }
+      },
+      "areas": [
+        {
+          "nx": 0.5047,
+          "ny": 0.7931,
+          "r": 0.002
+        },
+        {
+          "nx": 0.4802,
+          "ny": 0.7749,
+          "r": 0.002
+        },
+        {
+          "nx": 0.5045,
+          "ny": 0.7319,
+          "r": 0.0015
+        },
+        {
+          "nx": 0.4703,
+          "ny": 0.7024,
+          "r": 0.0025
+        }
+      ]
     },
     {
       "id": "sf-43",
@@ -3836,7 +3959,19 @@
         "Strangers & Freaks": "tr-25",
         "No Flusher poster": "category:waink#No Flusher tags",
         "Frank's Waffles": "su-frank-s-waffles"
-      }
+      },
+      "areas": [
+        {
+          "nx": 0.6865,
+          "ny": 0.6027,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.6933,
+          "ny": 0.5899,
+          "r": 0.0008
+        }
+      ]
     },
     {
       "id": "sf-53",
@@ -10940,7 +11075,29 @@
       "guide": "Find its 4 posters: by the cashier at Aunt Zola's Soul Food, by the door at TWA Ponya Tattoo and by the clerk at Drip Drops (all in La Perle), and on a crate in the east recording booth on the second floor of the Jack of Hearts club in Crosstown.",
       "region": "Vice City",
       "area": "La Perle",
-      "tallyTarget": 4
+      "tallyTarget": 4,
+      "areas": [
+        {
+          "nx": 0.6228,
+          "ny": 0.4618,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.617,
+          "ny": 0.4577,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.6193,
+          "ny": 0.4526,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.636,
+          "ny": 0.4678,
+          "r": 0.0008
+        }
+      ]
     },
     {
       "id": "pl-vault",
@@ -14013,11 +14170,11 @@
       "missableAfterChapter": 3,
       "subgroup": "Vice City",
       "spoiler": true,
-      "nx": 0.629,
-      "ny": 0.47,
+      "nx": 0.6466,
+      "ny": 0.4658,
       "guide": "Bayside: the apartment, by the bathtub. Gone after chapter 3.",
       "region": "Vice City",
-      "area": "Crosstown",
+      "area": "Bayside",
       "missable": true
     },
     {
@@ -14029,11 +14186,11 @@
       "missableAfterChapter": 3,
       "subgroup": "Vice City",
       "spoiler": true,
-      "nx": 0.629,
-      "ny": 0.471,
+      "nx": 0.6466,
+      "ny": 0.4658,
       "guide": "Bayside: the apartment, on the table in front of the TV. Gone after chapter 3.",
       "region": "Vice City",
-      "area": "Crosstown",
+      "area": "Bayside",
       "missable": true
     },
     {
@@ -43036,36 +43193,127 @@
       "id": "sv-wyman-01",
       "title": "Declasse '64 Mamba GT",
       "category": "wyman-classic-cars",
+      "region": "Kelly County",
+      "area": "Gellhorn",
       "subgroup": "Wyman's classic cars",
       "spoiler": true,
-      "guide": "For Wyman's Classic Car Collection: the third car he rebuilds. Scan all four wrecked parts of this car with WAiNK: in the garage of a grey farmhouse on the east edge of Gellhorn, north of the state prison; sunk in the pond just east of the Thrillbilly Mud Club dirt track; behind a grey garage door on a green building in the alley beside the Xero station in Ambrosia; and in the water under the broken bridge in north Moreau, north of Buck Creek Country Store (you can scan it from the bridge). Wyman then charges $1,500 through BuckMe for the rebuild. Register it at a Pay 'n' Spray or park it in your garage to keep it."
+      "guide": "For Wyman's Classic Car Collection: the third car he rebuilds. Scan all four wrecked parts of this car with WAiNK: in the garage of a grey farmhouse on the east edge of Gellhorn, north of the state prison; sunk in the pond just east of the Thrillbilly Mud Club dirt track; behind a grey garage door on a green building in the alley beside the Xero station in Ambrosia; and in the water under the broken bridge in north Moreau, north of Buck Creek Country Store (you can scan it from the bridge). Wyman then charges $1,500 through BuckMe for the rebuild. Register it at a Pay 'n' Spray or park it in your garage to keep it.",
+      "areas": [
+        {
+          "nx": 0.4212,
+          "ny": 0.4075,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.4763,
+          "ny": 0.2948,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.5387,
+          "ny": 0.3227,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.4997,
+          "ny": 0.1098,
+          "r": 0.0008
+        }
+      ]
     },
     {
       "id": "sv-wyman-02",
       "title": "'67 Transgressor",
       "category": "wyman-classic-cars",
+      "region": "Kelly County",
+      "area": "Port Gellhorn",
       "subgroup": "Wyman's classic cars",
       "spoiler": true,
       "guide": "For Wyman's Classic Car Collection: the first car he rebuilds. All three parts to scan with WAiNK are in Port Gellhorn: in a field with pigs at the Tanglewood Ln trailer park, north of Sarena's Bargain Store; in a garage behind a blue house with sunflower decorations on Gellhorn Ave, north-west of Wasteland Off-Road; and behind a wooden hut at the southern tip, below Dirt Merchants. Wyman then charges $1,500 for the rebuild.",
       "guideLinks": {
         "Sarena's Bargain Store": "su-sarena-s-bargain-store"
-      }
+      },
+      "areas": [
+        {
+          "nx": 0.3442,
+          "ny": 0.3394,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.3489,
+          "ny": 0.3099,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.3486,
+          "ny": 0.3918,
+          "r": 0.0008
+        }
+      ]
     },
     {
       "id": "sv-wyman-03",
       "title": "'70 Riata",
       "category": "wyman-classic-cars",
+      "region": "Mariana County",
+      "area": "Southwind",
       "subgroup": "Wyman's classic cars",
       "spoiler": true,
-      "guide": "For Wyman's Classic Car Collection: the second car he rebuilds. Scan all three parts with WAiNK: in a carport at the end of Cangrejo St in Southwind, west of the Xero station; under a house on Sunset Dr in Key Lento, across from the police impound; and behind the abandoned gas station on Old Fort Rd in Shoreless Keys, north of Grassrivers Cafe & Deli. Wyman then charges $1,500 for the rebuild."
+      "guide": "For Wyman's Classic Car Collection: the second car he rebuilds. Scan all three parts with WAiNK: in a carport at the end of Cangrejo St in Southwind (just east of Mile Zero Air Station), west of the Xero station; under a house on Sunset Dr in Key Lento, a few houses south-west of the Christmas House and across from the police impound; and behind the abandoned gas station on Old Fort Rd in Shoreless Keys, north of Grassrivers Cafe & Deli. Wyman then charges $1,500 for the rebuild.",
+      "areas": [
+        {
+          "nx": 0.356,
+          "ny": 0.8475,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.5297,
+          "ny": 0.8373,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.5409,
+          "ny": 0.7531,
+          "r": 0.0008
+        }
+      ]
     },
     {
       "id": "sv-wyman-04",
       "title": "Reynolds",
       "category": "wyman-classic-cars",
+      "region": "Kelly County",
+      "area": "Wild Hog Point",
       "subgroup": "Wyman's classic cars",
       "spoiler": true,
-      "guide": "For Wyman's Classic Car Collection: the fourth car he rebuilds. Ultimate Edition only. Scan all five parts with WAiNK: in a locked shipping container near the beach at Wild Hog Point (you need the lock-cutting tool from chapter 3); in the locked garage of a white house in the north-west of Capri; behind Donnies Auto Repair in Watson Bay, down the gravel track beside it; inside a house on Casanova Island in the Rialto Islands; and inside Willie's Service Center, east of the VCIA airport (breaking in sets off the alarm). Wyman then charges $1,500 for the rebuild."
+      "guide": "For Wyman's Classic Car Collection: the fourth car he rebuilds. Ultimate Edition only. Scan all five parts with WAiNK: in a locked Scoop shipping container near the beach at Wild Hog Point (you need the lock-cutting tool from chapter 3); in the locked garage of a white house in the north-west of Capri, the one with two bins outside, opposite the construction site; behind Donnies Auto Repair in Watson Bay, down the gravel track beside it; behind the wooden gate of a house on the north of Casanova Island in the Rialto Islands, next to an empty plot; and inside Willie's Service Center on SW 7th Ave in Salton, just north of the 7th Avenue Garage (breaking in sets off the alarm). Wyman then charges $1,500 for the rebuild.",
+      "areas": [
+        {
+          "nx": 0.2826,
+          "ny": 0.3681,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.2984,
+          "ny": 0.4975,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.4221,
+          "ny": 0.6991,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.7117,
+          "ny": 0.4588,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.599,
+          "ny": 0.5553,
+          "r": 0.0008
+        }
+      ]
     },
     {
       "id": "sv-wyman-05",
@@ -50092,7 +50340,21 @@
         "Del Rio Blvd garage": "gr-13",
         "a hidden garage": "gr-13",
         "Pfister Growler": "vh-pfister-growler"
-      }
+      },
+      "areas": [
+        {
+          "nx": 0.6466,
+          "ny": 0.4658,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.6216,
+          "ny": 0.4575,
+          "r": 0.0008
+        }
+      ],
+      "region": "Vice City",
+      "area": "La Perle"
     },
     {
       "id": "ee-07",
@@ -50163,11 +50425,73 @@
       "spoiler": true,
       "guide": "A long chain of clues across Leonida's power network that ends with a trip back to an earlier Vice City. Best tried by helicopter, from chapter 3 when the whole map is open.",
       "revealedTitle": "The 2002 Vice City portal",
-      "revealedGuide": "Start at the Badger R&D radio tower in Key Lento: flip the power switch and press the button until the TV reads CLUB MALIBU. Then visit the 12 LPL substations in this order and use the button or lever marked with each stop's letter (together they spell an old Vice City cheat): Downtown Vice City, Balsero, Key Lento, Penmarch Isle (Washington Beach), Crosstown, Port Gellhorn, Hamlet, Gloriana Key, Hamlet, the southern tip of Port Gellhorn, Hamlet, then North Mariana County (one guide places this last one by Breakwater Quarry, south-west of the airport). Fly between them, because fast travel resets your progress. A text from an unknown number then points you to Reactor 2 at the LPL Turtle Head power station east of Hamlet. Go between 7 PM and 6 AM and pull the lever beside the portal to go through: you land in a PS2-era Malibu Club and meet Kent Paul. Leaving again unlocks Tommy Vercetti's blue Hawaiian shirt and the American Glory motorbike for both Jason and Lucia.",
+      "revealedGuide": "Start at the Badger R&D radio tower in Key Lento: flip the power switch and press the button until the TV reads CLUB MALIBU. Then visit the 12 LPL substations in this order and use the button or lever marked with each stop's letter (together they spell an old Vice City cheat): Downtown Vice City, Balsero, Key Lento, Penmarch Isle (Washington Beach), the northern tip of Crosstown under the highway, Port Gellhorn, Hamlet, Gloriana Key (the small building on the south-east side of the sewage treatment plant), Hamlet, just outside Gellhorn International Raceway (north-west of Whisler Motorsport), Hamlet, then North Mariana County, at the south edge of Breakwater Quarry. Fly between them, because fast travel resets your progress. A text from an unknown number then points you to Reactor 2 at the LPL Turtle Head power station east of Hamlet. Go between 7 PM and 6 AM and pull the lever beside the portal to go through: you land in a PS2-era Malibu Club and meet Kent Paul. Leaving again unlocks Tommy Vercetti's blue Hawaiian shirt and the American Glory motorbike for both Jason and Lucia.",
       "nx": 0.591,
       "ny": 0.703,
       "region": "Vice-Dale County",
-      "area": "Tortoise Head Power Plant"
+      "area": "Tortoise Head Power Plant",
+      "areas": [
+        {
+          "nx": 0.6225,
+          "ny": 0.5604,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.5345,
+          "ny": 0.4788,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.567,
+          "ny": 0.8088,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.7222,
+          "ny": 0.4143,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.6396,
+          "ny": 0.4507,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.345,
+          "ny": 0.3533,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.5604,
+          "ny": 0.6969,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.7064,
+          "ny": 0.5958,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.5199,
+          "ny": 0.6848,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.3457,
+          "ny": 0.3913,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.5286,
+          "ny": 0.7065,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.4817,
+          "ny": 0.613,
+          "r": 0.0008
+        }
+      ]
     },
     {
       "id": "ee-13",
@@ -50175,9 +50499,32 @@
       "category": "easter-eggs",
       "spoiler": true,
       "region": "Kelly County",
+      "area": "Port Gellhorn",
       "guide": "A hidden detective questline in Port Gellhorn that starts from a poster. Open from chapter 2.",
       "revealedTitle": "Missing Persons (the Port Gellhorn serial killer)",
-      "revealedGuide": "Read the missing persons poster in the Starlet Motel reception to get the Kelly County Tip Line contact. Crawl in through the back of the overgrown half-round tin warehouse in south Port Gellhorn (across from Moses's garage) and photograph the clues in the lockers in the trophy room. Then find three bodies and report each one to the tip line: in the trunk of the pink car with plate PRTYGRL in the junkyard next to the Pay 'n' Spray, under a loose floor panel in the blue-green trailer below the rusty water tower in the north Port Gellhorn trailer park, and in a sunken car by a dead tree in the lake west of town near Moses's place. The tip-line caller, Alvan West, is the killer. Go alone and he drugs you and you fight him in an old mine; go with both Jason and Lucia and one of them shoots him in the warehouse, which helps their relationship."
+      "revealedGuide": "Read the missing persons poster in the Starlet Motel reception (or the one on the wall outside the 247 store in Port Gellhorn, once the motel is gone) to get the Kelly County Tip Line contact. Break open the front shutter of the long, overgrown tin warehouse just north of Moses's garage in south Port Gellhorn and photograph the clues in the lockers in the trophy room; after that, you get in and out through a hole in its north-east corner. Then find three bodies and report each one to the tip line: in the trunk of the pink car with plate PRTYGRL in the junkyard just east of the Pay 'n' Spray, under a loose floor panel in the blue-green trailer below the rusty water tower in the abandoned trailer park west of Hank's Waffles, and in a sunken car by a dead tree in the small C-shaped pond west of town, between the airstrip and Port Gellhorn. The tip-line caller, Alvan West, is the killer. Go alone and he drugs you and you fight him in an old mine; go with both Jason and Lucia and one of them shoots him in the warehouse, which helps their relationship.",
+      "areas": [
+        {
+          "nx": 0.3487,
+          "ny": 0.3605,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.3428,
+          "ny": 0.331,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.3533,
+          "ny": 0.2995,
+          "r": 0.0008
+        },
+        {
+          "nx": 0.323,
+          "ny": 0.3522,
+          "r": 0.003
+        }
+      ]
     },
     {
       "id": "ee-14",
