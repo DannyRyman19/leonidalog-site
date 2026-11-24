@@ -1,5 +1,5 @@
 {
-  "version": 91,
+  "version": 92,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -1207,6 +1207,13 @@
     },
     {
       "id": "tr-26",
+      "autoCollectedWhen": {
+        "category": "standout-vehicles",
+        "atLeast": 22,
+        "subgroups": [
+          "Vehicle requests (1)"
+        ]
+      },
       "revealedIconURL": "https://leonidalog.app/images/trophies/tr-26.png",
       "title": "Trophy 26",
       "category": "achievements",
@@ -3358,6 +3365,13 @@
     },
     {
       "id": "sf-30",
+      "autoCollectedWhen": {
+        "category": "standout-vehicles",
+        "atLeast": 22,
+        "subgroups": [
+          "Vehicle requests (1)"
+        ]
+      },
       "title": "Side mission 30",
       "category": "stranger-missions",
       "chapter": 3,
@@ -3366,7 +3380,7 @@
       "guide": "Strangers & Freaks side mission, strand 10. Unlocks in chapter 3.",
       "revealedTitle": "Randy's Wish List",
       "revealedGivenBy": "Randy",
-      "revealedGuide": "Randy's strand, mission 1 of 1. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy.",
+      "revealedGuide": "Randy's strand, mission 1 of 1. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy. It's done once all 22 cars on Randy's list are delivered.",
       "linkedCategories": [
         "standout-vehicles"
       ],
@@ -3374,7 +3388,8 @@
         "Vehicle requests (1)"
       ],
       "guideLinks": {
-        "Strangers & Freaks": "tr-25"
+        "Strangers & Freaks": "tr-25",
+        "Randy's list": "category:standout-vehicles#Vehicle requests (1)"
       }
     },
     {
