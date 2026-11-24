@@ -1,5 +1,5 @@
 {
-  "version": 100,
+  "version": 101,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -369,11 +369,40 @@
       "colorHex": "5AA9E6",
       "verb": "found",
       "collectible": true,
+      "intro": "Unique vehicles parked at set spots around Leonida. Most are pinned on the map. Finding one also ticks its model in the Vehicles log, where that model is listed. The car request lists and Wyman's classic cars are lists of their own."
+    },
+    {
+      "id": "vehicle-requests-randy",
+      "label": "Vehicle requests (1)",
+      "symbol": "list.bullet.clipboard.fill",
+      "colorHex": "F08A5D",
+      "verb": "delivered",
+      "collectible": true,
       "revealedSubgroups": {
-        "Vehicle requests (1)": "Randy's Wish List",
+        "Vehicle requests (1)": "Randy's Wish List"
+      },
+      "intro": "22 cars a stranger asks you to steal and deliver, open from chapter 3. Scan high-end cars with WAiNK to see if they're on the list; cars in better shape pay more. A delivered car also ticks its model in the Vehicles log."
+    },
+    {
+      "id": "vehicle-requests-moses",
+      "label": "Vehicle requests (2)",
+      "symbol": "key.fill",
+      "colorHex": "6FC2B0",
+      "verb": "delivered",
+      "collectible": true,
+      "revealedSubgroups": {
         "Vehicle requests (2)": "Moses's requests"
       },
-      "intro": "Unique vehicles parked at set spots around Leonida, plus lists of cars you're asked to find or restore. Most are pinned on the map."
+      "intro": "7 cars a stranger asks you to steal and deliver, open from chapter 2. A delivered car also ticks its model in the Vehicles log."
+    },
+    {
+      "id": "wyman-classic-cars",
+      "label": "Wyman's classic cars",
+      "symbol": "wrench.and.screwdriver.fill",
+      "colorHex": "C27C4E",
+      "verb": "restored",
+      "collectible": true,
+      "intro": "5 classic cars Wyman rebuilds for his [Classic Car Collection](poi:ac-classic-cars). Scan each car's wrecked parts with WAiNK, then pay him for the rebuild. The fifth needs no parts: it's yours once the other four are done."
     },
     {
       "id": "garages",
@@ -577,7 +606,13 @@
       "id": "ac-classic-cars",
       "title": "Wyman's Classic Car Collection",
       "category": "activity",
-      "guide": "Track down abandoned classic and project cars across Leonida for Wyman, a collector and local fixer, and restore them. Four of the cars are Ultimate Edition only."
+      "guide": "Track down abandoned classic and project cars across Leonida for Wyman, a collector and local fixer, and restore them. Four of the cars are Ultimate Edition only.",
+      "linkedCategories": [
+        "wyman-classic-cars"
+      ],
+      "linkedSubgroups": [
+        "Wyman's classic cars"
+      ]
     },
     {
       "id": "ac-golf",
@@ -1208,11 +1243,8 @@
     {
       "id": "tr-26",
       "autoCollectedWhen": {
-        "category": "standout-vehicles",
-        "atLeast": 22,
-        "subgroups": [
-          "Vehicle requests (1)"
-        ]
+        "category": "vehicle-requests-randy",
+        "atLeast": 22
       },
       "revealedIconURL": "https://leonidalog.app/images/trophies/tr-26.png",
       "title": "Trophy 26",
@@ -1229,7 +1261,7 @@
       "revealedTitle": "Supply & Demand",
       "revealedGuide": "Finish Randy's Wish List: 22 cars to steal and deliver. It opens with the chapter 3 mission Clonin' Keys, Makin' Gs, which also gives you the Key Cloner. Scan high-end cars with WAiNK to see if he wants them; hotels at Vice Beach and Ocean Beach are good hunting grounds. Cars in better shape pay more. Still open after the story.",
       "linkedCategories": [
-        "standout-vehicles"
+        "vehicle-requests-randy"
       ],
       "linkedSubgroups": [
         "Vehicle requests (1)"
@@ -3039,7 +3071,7 @@
       "revealedGivenBy": "Moses",
       "revealedGuide": "Moses's strand, mission 1 of 2. Unlocks in chapter 2. Doesn't count towards the Strangers & Freaks trophy. Once every car on Moses's list is delivered, a free Sultan waits for you in the small garage beside Watkins Auto Parts in Port Gellhorn.",
       "linkedCategories": [
-        "standout-vehicles"
+        "vehicle-requests-moses"
       ],
       "linkedSubgroups": [
         "Vehicle requests (2)"
@@ -3047,14 +3079,11 @@
       "guideLinks": {
         "Strangers & Freaks": "tr-25",
         "a free Sultan": "vh-emperor-sultan",
-        "Moses's list": "category:standout-vehicles#Vehicle requests (2)"
+        "Moses's list": "category:vehicle-requests-moses"
       },
       "autoCollectedWhen": {
-        "category": "standout-vehicles",
-        "atLeast": 7,
-        "subgroups": [
-          "Vehicle requests (2)"
-        ]
+        "category": "vehicle-requests-moses",
+        "atLeast": 7
       }
     },
     {
@@ -3366,11 +3395,8 @@
     {
       "id": "sf-30",
       "autoCollectedWhen": {
-        "category": "standout-vehicles",
-        "atLeast": 22,
-        "subgroups": [
-          "Vehicle requests (1)"
-        ]
+        "category": "vehicle-requests-randy",
+        "atLeast": 22
       },
       "title": "Side mission 30",
       "category": "stranger-missions",
@@ -3382,14 +3408,14 @@
       "revealedGivenBy": "Randy",
       "revealedGuide": "Randy's strand, mission 1 of 1. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy. It's done once all 22 cars on Randy's list are delivered.",
       "linkedCategories": [
-        "standout-vehicles"
+        "vehicle-requests-randy"
       ],
       "linkedSubgroups": [
         "Vehicle requests (1)"
       ],
       "guideLinks": {
         "Strangers & Freaks": "tr-25",
-        "Randy's list": "category:standout-vehicles#Vehicle requests (1)"
+        "Randy's list": "category:vehicle-requests-randy"
       }
     },
     {
@@ -10905,6 +10931,7 @@
     },
     {
       "id": "pl-sniper",
+      "imageURL": "https://leonidalog.app/images/playlists/pl-sniper.jpg",
       "nx": 0.6231,
       "ny": 0.462,
       "title": "The Sniper of La Perle",
@@ -15700,13 +15727,14 @@
     },
     {
       "id": "wt-06",
+      "imageURL": "https://leonidalog.app/images/watches/wt-06.jpg",
       "title": "B&G Ark Royal Ashore",
       "category": "watches",
       "subgroup": "Vice-Dale County",
       "spoiler": true,
       "nx": 0.584,
       "ny": 0.6355,
-      "guide": "Southside Trap House, a PTT Youngin$ gang operation in Southside: one of its key valuables, so take it while you rob the place.",
+      "guide": "Southside Trap House, a PTT Youngin$ gang operation in Southside: one of its key valuables, so take it while you rob the place. It's in the back office, in a small blue box on the cabinet top by the bottles and gun cases.",
       "region": "Vice-Dale County",
       "area": "Southside",
       "guideLinks": {
@@ -15733,13 +15761,14 @@
     },
     {
       "id": "wt-08",
+      "imageURL": "https://leonidalog.app/images/watches/wt-08.jpg",
       "title": "Crowex Ambassador",
       "category": "watches",
       "subgroup": "Vice-Dale County",
       "spoiler": true,
       "nx": 0.6133,
       "ny": 0.5081,
-      "guide": "Casa Guardia, a Guardia Brothers gang operation: one of its key valuables, so take it while you rob the place.",
+      "guide": "Casa Guardia, a Guardia Brothers gang operation: one of its key valuables, so take it while you rob the place. It's in a small green box on the workbench in the attic room, by the explosives case and the tools.",
       "region": "Vice-Dale County",
       "area": "Little Cuba",
       "guideLinks": {
@@ -31822,10 +31851,14 @@
           "value": "1 of 18"
         }
       ],
-      "slot": 1
+      "slot": 1,
+      "autoCollectedBy": [
+        "sv-37"
+      ]
     },
     {
       "id": "vh-ubermacht-apoc",
+      "imageURL": "https://leonidalog.app/images/vehicles/ubermacht-apoc-v2.jpg",
       "title": "Übermacht Apoc",
       "category": "vehicles",
       "subgroup": "Coupes",
@@ -31905,6 +31938,7 @@
     },
     {
       "id": "vh-ubermacht-cypher",
+      "imageURL": "https://leonidalog.app/images/vehicles/ubermacht-cypher-v2.jpg",
       "autoCollectedBy": [
         "sv-randy-11"
       ],
@@ -31955,6 +31989,7 @@
     },
     {
       "id": "vh-90-annis-elegy",
+      "imageURL": "https://leonidalog.app/images/vehicles/90-annis-elegy-v2.jpg",
       "title": "'90 Annis Elegy",
       "category": "vehicles",
       "subgroup": "Coupes",
@@ -32002,6 +32037,7 @@
     },
     {
       "id": "vh-fathom-fr36",
+      "imageURL": "https://leonidalog.app/images/vehicles/fathom-fr36-v2.jpg",
       "title": "Fathom FR36",
       "category": "vehicles",
       "subgroup": "Coupes",
@@ -32112,6 +32148,7 @@
     },
     {
       "id": "vh-32-vapid-hustler",
+      "imageURL": "https://leonidalog.app/images/vehicles/32-vapid-hustler-v2.jpg",
       "title": "'32 Vapid Hustler",
       "category": "vehicles",
       "subgroup": "Coupes",
@@ -32155,10 +32192,14 @@
           "value": "10 of 18"
         }
       ],
-      "slot": 10
+      "slot": 10,
+      "autoCollectedBy": [
+        "sv-34"
+      ]
     },
     {
       "id": "vh-90-willard-lasso",
+      "imageURL": "https://leonidalog.app/images/vehicles/90-willard-lasso-v2.jpg",
       "title": "'90 Willard Lasso",
       "category": "vehicles",
       "subgroup": "Coupes",
@@ -32206,6 +32247,7 @@
     },
     {
       "id": "vh-ascot-paragon",
+      "imageURL": "https://leonidalog.app/images/vehicles/ascot-paragon-v2.jpg",
       "autoCollectedBy": [
         "sv-randy-08"
       ],
@@ -32319,6 +32361,7 @@
     },
     {
       "id": "vh-97-maibatsu-penumbra-ff",
+      "imageURL": "https://leonidalog.app/images/vehicles/97-maibatsu-penumbra-ff-v2.jpg",
       "title": "'97 Maibatsu Penumbra FF",
       "category": "vehicles",
       "subgroup": "Coupes",
@@ -32366,6 +32409,7 @@
     },
     {
       "id": "vh-82-imponte-runner",
+      "imageURL": "https://leonidalog.app/images/vehicles/82-imponte-runner-v2.jpg",
       "title": "'82 Imponte Ruiner",
       "category": "vehicles",
       "subgroup": "Coupes",
@@ -32413,6 +32457,7 @@
     },
     {
       "id": "vh-benefactor-schutzen",
+      "imageURL": "https://leonidalog.app/images/vehicles/benefactor-schutzen-v2.jpg",
       "title": "Benefactor Schutzen",
       "category": "vehicles",
       "subgroup": "Coupes",
@@ -32460,6 +32505,7 @@
     },
     {
       "id": "vh-emperor-vectre",
+      "imageURL": "https://leonidalog.app/images/vehicles/emperor-vectre-v2.jpg",
       "title": "Emperor Vectre",
       "category": "vehicles",
       "subgroup": "Coupes",
@@ -32507,6 +32553,7 @@
     },
     {
       "id": "vh-buckingham-windsor-drop",
+      "imageURL": "https://leonidalog.app/images/vehicles/buckingham-windsor-drop-v2.jpg",
       "autoCollectedBy": [
         "sv-randy-14"
       ],
@@ -32560,6 +32607,7 @@
     },
     {
       "id": "vh-65-albany-buccaneer",
+      "imageURL": "https://leonidalog.app/images/vehicles/65-albany-buccaneer-v2.jpg",
       "title": "'65 Albany Buccaneer",
       "category": "vehicles",
       "subgroup": "Muscle cars",
@@ -32599,10 +32647,14 @@
           "value": "1 of 26"
         }
       ],
-      "slot": 1
+      "slot": 1,
+      "autoCollectedBy": [
+        "sv-85"
+      ]
     },
     {
       "id": "vh-65-dundreary-chino",
+      "imageURL": "https://leonidalog.app/images/vehicles/65-dundreary-chino-v2.jpg",
       "title": "'65 Dundreary Chino",
       "category": "vehicles",
       "subgroup": "Muscle cars",
@@ -32642,7 +32694,10 @@
           "value": "4 of 26"
         }
       ],
-      "slot": 4
+      "slot": 4,
+      "autoCollectedBy": [
+        "sv-50"
+      ]
     },
     {
       "id": "vh-65-vapid-dominator",
@@ -32706,6 +32761,7 @@
     },
     {
       "id": "vh-vapid-dominator",
+      "imageURL": "https://leonidalog.app/images/vehicles/vapid-dominator-v2.jpg",
       "title": "Vapid Dominator",
       "category": "vehicles",
       "subgroup": "Muscle cars",
@@ -32839,10 +32895,14 @@
           "value": "11 of 26"
         }
       ],
-      "slot": 11
+      "slot": 11,
+      "autoCollectedBy": [
+        "sv-45"
+      ]
     },
     {
       "id": "vh-bravado-gauntlet-hellfire",
+      "imageURL": "https://leonidalog.app/images/vehicles/bravado-gauntlet-hellfire-v2.jpg",
       "autoCollectedBy": [
         "sv-randy-09"
       ],
@@ -32892,6 +32952,7 @@
     },
     {
       "id": "vh-77-albany-manana",
+      "imageURL": "https://leonidalog.app/images/vehicles/77-albany-manana-v2.jpg",
       "title": "'77 Albany Manana",
       "category": "vehicles",
       "subgroup": "Muscle cars",
@@ -32935,7 +32996,10 @@
           "value": "15 of 26"
         }
       ],
-      "slot": 15
+      "slot": 15,
+      "autoCollectedBy": [
+        "sv-69"
+      ]
     },
     {
       "id": "vh-77-imponte-phoenix",
@@ -32991,10 +33055,15 @@
           "value": "16 of 26"
         }
       ],
-      "slot": 16
+      "slot": 16,
+      "autoCollectedBy": [
+        "sv-80",
+        "sv-imponte-soaring-phoenix"
+      ]
     },
     {
       "id": "vh-72-declasse-picador",
+      "imageURL": "https://leonidalog.app/images/vehicles/72-declasse-picador-v2.jpg",
       "title": "'72 Declasse Picador",
       "category": "vehicles",
       "subgroup": "Muscle cars",
@@ -33038,10 +33107,14 @@
           "value": "17 of 26"
         }
       ],
-      "slot": 17
+      "slot": 17,
+      "autoCollectedBy": [
+        "sv-64"
+      ]
     },
     {
       "id": "vh-68-classique-stallion",
+      "imageURL": "https://leonidalog.app/images/vehicles/68-classique-stallion-v2.jpg",
       "title": "'68 Classique Stallion",
       "category": "vehicles",
       "subgroup": "Muscle cars",
@@ -33081,7 +33154,10 @@
           "value": "19 of 26"
         }
       ],
-      "slot": 19
+      "slot": 19,
+      "autoCollectedBy": [
+        "sv-35"
+      ]
     },
     {
       "id": "vh-55-vapid-stanier",
@@ -33115,6 +33191,7 @@
     },
     {
       "id": "vh-72-declasse-tulip",
+      "imageURL": "https://leonidalog.app/images/vehicles/72-declasse-tulip-v2.jpg",
       "title": "'72 Declasse Tulip",
       "category": "vehicles",
       "subgroup": "Muscle cars",
@@ -33158,6 +33235,7 @@
     },
     {
       "id": "vh-78-declasse-tulip-m-100",
+      "imageURL": "https://leonidalog.app/images/vehicles/78-declasse-tulip-m-100-v2.jpg",
       "title": "'78 Declasse Tulip M-100",
       "category": "vehicles",
       "subgroup": "Muscle cars",
@@ -33201,8 +33279,10 @@
     },
     {
       "id": "vh-74-declasse-vamos",
+      "imageURL": "https://leonidalog.app/images/vehicles/74-declasse-vamos-v2.jpg",
       "autoCollectedBy": [
-        "sv-moses-06"
+        "sv-moses-06",
+        "sv-43"
       ],
       "title": "'74 Declasse Vamos",
       "category": "vehicles",
@@ -33239,8 +33319,10 @@
     },
     {
       "id": "vh-77-bf-bandito",
+      "imageURL": "https://leonidalog.app/images/vehicles/77-bf-bandito-v2.jpg",
       "autoCollectedBy": [
-        "sv-moses-02"
+        "sv-moses-02",
+        "sv-01"
       ],
       "title": "'77 BF Bandito",
       "category": "vehicles",
@@ -33389,10 +33471,14 @@
           "value": "3 of 8"
         }
       ],
-      "slot": 3
+      "slot": 3,
+      "autoCollectedBy": [
+        "sv-07"
+      ]
     },
     {
       "id": "vh-73-bf-injection",
+      "imageURL": "https://leonidalog.app/images/vehicles/73-bf-injection-v2.jpg",
       "title": "'73 BF Injection",
       "category": "vehicles",
       "subgroup": "Off-road vehicles",
@@ -33432,10 +33518,14 @@
           "value": "4 of 8"
         }
       ],
-      "slot": 4
+      "slot": 4,
+      "autoCollectedBy": [
+        "sv-13"
+      ]
     },
     {
       "id": "vh-mer-can-outlaw",
+      "imageURL": "https://leonidalog.app/images/vehicles/mer-can-outlaw-v2.jpg",
       "title": "Mer-Can Outlaw",
       "category": "vehicles",
       "subgroup": "Off-road vehicles",
@@ -33531,6 +33621,7 @@
     },
     {
       "id": "vh-hvy-wastelander",
+      "imageURL": "https://leonidalog.app/images/vehicles/hvy-wastelander-v2.jpg",
       "title": "HVY Wastelander",
       "category": "vehicles",
       "subgroup": "Off-road vehicles",
@@ -33678,7 +33769,10 @@
           "value": "2 of 17"
         }
       ],
-      "slot": 2
+      "slot": 2,
+      "autoCollectedBy": [
+        "sv-25"
+      ]
     },
     {
       "id": "vh-bravado-bison-3800",
@@ -33846,7 +33940,10 @@
           "value": "5 of 17"
         }
       ],
-      "slot": 5
+      "slot": 5,
+      "autoCollectedBy": [
+        "sv-28"
+      ]
     },
     {
       "id": "vh-vapid-caracara-4x4",
@@ -33902,10 +33999,15 @@
           "value": "6 of 17"
         }
       ],
-      "slot": 6
+      "slot": 6,
+      "autoCollectedBy": [
+        "sv-74",
+        "sv-83"
+      ]
     },
     {
       "id": "vh-karin-contender",
+      "imageURL": "https://leonidalog.app/images/vehicles/karin-contender-v2.jpg",
       "title": "Karin Contender",
       "category": "vehicles",
       "subgroup": "Pickups",
@@ -34057,10 +34159,15 @@
           "value": "9 of 17"
         }
       ],
-      "slot": 9
+      "slot": 9,
+      "autoCollectedBy": [
+        "sv-48",
+        "sv-54"
+      ]
     },
     {
       "id": "vh-vapid-reclaimer",
+      "imageURL": "https://leonidalog.app/images/vehicles/vapid-reclaimer-v2.jpg",
       "title": "Vapid Reclaimer",
       "category": "vehicles",
       "subgroup": "Pickups",
@@ -34104,6 +34211,7 @@
     },
     {
       "id": "vh-70-vapid-reclaimer",
+      "imageURL": "https://leonidalog.app/images/vehicles/70-vapid-reclaimer-v2.jpg",
       "title": "'70 Vapid Reclaimer",
       "category": "vehicles",
       "subgroup": "Pickups",
@@ -34199,6 +34307,7 @@
     },
     {
       "id": "vh-vapid-sandking-xl",
+      "imageURL": "https://leonidalog.app/images/vehicles/vapid-sandking-xl-v2.jpg",
       "title": "Vapid Sandking XL",
       "category": "vehicles",
       "subgroup": "Pickups",
@@ -34298,6 +34407,7 @@
     },
     {
       "id": "vh-81-declasse-walton",
+      "imageURL": "https://leonidalog.app/images/vehicles/81-declasse-walton-v2.jpg",
       "title": "'81 Declasse Walton",
       "category": "vehicles",
       "subgroup": "Pickups",
@@ -34337,12 +34447,16 @@
           "value": "16 of 17"
         }
       ],
-      "slot": 16
+      "slot": 16,
+      "autoCollectedBy": [
+        "sv-33"
+      ]
     },
     {
       "id": "vh-declasse-yosemite-1500",
       "autoCollectedBy": [
-        "sv-moses-03"
+        "sv-moses-03",
+        "sv-49"
       ],
       "title": "Declasse Yosemite 1500",
       "category": "vehicles",
@@ -34400,6 +34514,7 @@
     },
     {
       "id": "vh-obey-animus",
+      "imageURL": "https://leonidalog.app/images/vehicles/obey-animus-v2.jpg",
       "title": "Obey Animus",
       "category": "vehicles",
       "subgroup": "Sedans",
@@ -34447,6 +34562,7 @@
     },
     {
       "id": "vh-karin-asterope-gz",
+      "imageURL": "https://leonidalog.app/images/vehicles/karin-asterope-gz-v2.jpg",
       "title": "Karin Asterope GZ",
       "category": "vehicles",
       "subgroup": "Sedans",
@@ -34490,6 +34606,7 @@
     },
     {
       "id": "vh-bravado-bogan",
+      "imageURL": "https://leonidalog.app/images/vehicles/bravado-bogan-v2.jpg",
       "title": "Bravado Bogan",
       "category": "vehicles",
       "subgroup": "Sedans",
@@ -34533,6 +34650,7 @@
     },
     {
       "id": "vh-07-bravado-buffalo",
+      "imageURL": "https://leonidalog.app/images/vehicles/07-bravado-buffalo-v2.jpg",
       "title": "'19 Bravado Buffalo",
       "category": "vehicles",
       "subgroup": "Sedans",
@@ -34580,6 +34698,7 @@
     },
     {
       "id": "vh-dinka-chavos-xs",
+      "imageURL": "https://leonidalog.app/images/vehicles/dinka-chavos-xs-v2.jpg",
       "title": "Dinka Chavos XS",
       "category": "vehicles",
       "subgroup": "Sedans",
@@ -34623,6 +34742,7 @@
     },
     {
       "id": "vh-85-albany-emperor",
+      "imageURL": "https://leonidalog.app/images/vehicles/85-albany-emperor-v2.jpg",
       "title": "'85 Albany Emperor",
       "category": "vehicles",
       "subgroup": "Sedans",
@@ -34666,6 +34786,7 @@
     },
     {
       "id": "vh-98-karin-feroci",
+      "imageURL": "https://leonidalog.app/images/vehicles/98-karin-feroci-v2.jpg",
       "title": "'98 Karin Feroci",
       "category": "vehicles",
       "subgroup": "Sedans",
@@ -34881,6 +35002,7 @@
     },
     {
       "id": "vh-80-declasse-impaler",
+      "imageURL": "https://leonidalog.app/images/vehicles/80-declasse-impaler-v2.jpg",
       "title": "'80 Declasse Impaler",
       "category": "vehicles",
       "subgroup": "Sedans",
@@ -34928,6 +35050,7 @@
     },
     {
       "id": "vh-95-declasse-impaler-sz",
+      "imageURL": "https://leonidalog.app/images/vehicles/95-declasse-impaler-sz-v2.jpg",
       "title": "'95 Declasse Impaler SZ",
       "category": "vehicles",
       "subgroup": "Sedans",
@@ -35035,8 +35158,10 @@
     },
     {
       "id": "vh-ocelot-jugular",
+      "imageURL": "https://leonidalog.app/images/vehicles/ocelot-jugular-v2.jpg",
       "autoCollectedBy": [
-        "sv-randy-17"
+        "sv-randy-17",
+        "sv-29"
       ],
       "title": "Ocelot Jugular",
       "category": "vehicles",
@@ -35204,10 +35329,14 @@
           "value": "17 of 29"
         }
       ],
-      "slot": 17
+      "slot": 17,
+      "autoCollectedBy": [
+        "sv-02"
+      ]
     },
     {
       "id": "vh-schyster-pmp-700",
+      "imageURL": "https://leonidalog.app/images/vehicles/schyster-pmp-700-v2.jpg",
       "title": "Schyster PMP 700",
       "category": "vehicles",
       "subgroup": "Sedans",
@@ -35251,6 +35380,7 @@
     },
     {
       "id": "vh-albany-primo",
+      "imageURL": "https://leonidalog.app/images/vehicles/albany-primo-v2.jpg",
       "title": "Albany Primo",
       "category": "vehicles",
       "subgroup": "Sedans",
@@ -35294,6 +35424,7 @@
     },
     {
       "id": "vh-coil-raiden",
+      "imageURL": "https://leonidalog.app/images/vehicles/coil-raiden-v2.jpg",
       "title": "Coil Raiden",
       "category": "vehicles",
       "subgroup": "Sedans",
@@ -35333,6 +35464,7 @@
     },
     {
       "id": "vh-benefactor-schafter-s",
+      "imageURL": "https://leonidalog.app/images/vehicles/benefactor-schafter-s-v2.jpg",
       "title": "Benefactor Schafter S",
       "category": "vehicles",
       "subgroup": "Sedans",
@@ -35496,6 +35628,7 @@
     },
     {
       "id": "vh-dinka-sugoi",
+      "imageURL": "https://leonidalog.app/images/vehicles/dinka-sugoi-v2.jpg",
       "title": "Dinka Sugoi",
       "category": "vehicles",
       "subgroup": "Sedans",
@@ -35543,6 +35676,7 @@
     },
     {
       "id": "vh-obey-tailgater-s",
+      "imageURL": "https://leonidalog.app/images/vehicles/obey-tailgater-s-v2.jpg",
       "title": "Obey Tailgater S",
       "category": "vehicles",
       "subgroup": "Sedans",
@@ -35646,6 +35780,7 @@
     },
     {
       "id": "vh-albany-v-str",
+      "imageURL": "https://leonidalog.app/images/vehicles/albany-v-str-v2.jpg",
       "title": "Albany V-STR",
       "category": "vehicles",
       "subgroup": "Sedans",
@@ -35693,6 +35828,7 @@
     },
     {
       "id": "vh-bravado-banshee",
+      "imageURL": "https://leonidalog.app/images/vehicles/bravado-banshee-v2.jpg",
       "autoCollectedBy": [
         "sv-randy-01"
       ],
@@ -35743,6 +35879,7 @@
     },
     {
       "id": "vh-grotti-carbonizzare",
+      "imageURL": "https://leonidalog.app/images/vehicles/grotti-carbonizzare-v2.jpg",
       "autoCollectedBy": [
         "sv-randy-15"
       ],
@@ -35793,6 +35930,7 @@
     },
     {
       "id": "vh-88-pfister-comet",
+      "imageURL": "https://leonidalog.app/images/vehicles/88-pfister-comet-v2.jpg",
       "title": "'88 Pfister Comet",
       "category": "vehicles",
       "subgroup": "Sports cars",
@@ -35836,6 +35974,7 @@
     },
     {
       "id": "vh-pfister-comet-s2",
+      "imageURL": "https://leonidalog.app/images/vehicles/pfister-comet-s2-v2.jpg",
       "title": "Pfister Comet S2",
       "category": "vehicles",
       "subgroup": "Sports cars",
@@ -35883,6 +36022,7 @@
     },
     {
       "id": "vh-invetero-coquette",
+      "imageURL": "https://leonidalog.app/images/vehicles/invetero-coquette-v2.jpg",
       "title": "Invetero Coquette",
       "category": "vehicles",
       "subgroup": "Sports cars",
@@ -35926,6 +36066,7 @@
     },
     {
       "id": "vh-invetero-coquette-d10",
+      "imageURL": "https://leonidalog.app/images/vehicles/invetero-coquette-d10-v2.jpg",
       "autoCollectedBy": [
         "sv-randy-06"
       ],
@@ -35972,8 +36113,10 @@
     },
     {
       "id": "vh-64-declasse-mamba-gt",
+      "imageURL": "https://leonidalog.app/images/vehicles/64-declasse-mamba-gt-v2.jpg",
       "autoCollectedBy": [
-        "sv-randy-21"
+        "sv-randy-21",
+        "sv-wyman-01"
       ],
       "title": "'64 Declasse Mamba GT",
       "category": "vehicles",
@@ -36018,6 +36161,7 @@
     },
     {
       "id": "vh-pfister-neon",
+      "imageURL": "https://leonidalog.app/images/vehicles/pfister-neon-v2.jpg",
       "autoCollectedBy": [
         "sv-randy-19"
       ],
@@ -36124,6 +36268,7 @@
     },
     {
       "id": "vh-85-ubermacht-sentinel",
+      "imageURL": "https://leonidalog.app/images/vehicles/85-ubermacht-sentinel-v2.jpg",
       "title": "'85 Übermacht Sentinel",
       "category": "vehicles",
       "subgroup": "Sports cars",
@@ -36171,6 +36316,7 @@
     },
     {
       "id": "vh-emperor-sultan",
+      "imageURL": "https://leonidalog.app/images/vehicles/emperor-sultan-v2.jpg",
       "title": "Emperor Sultan",
       "category": "vehicles",
       "subgroup": "Sports cars",
@@ -36210,6 +36356,7 @@
     },
     {
       "id": "vh-vapid-aleutian",
+      "imageURL": "https://leonidalog.app/images/vehicles/vapid-aleutian-v2.jpg",
       "title": "Vapid Aleutian",
       "category": "vehicles",
       "subgroup": "SUVs",
@@ -36249,6 +36396,7 @@
     },
     {
       "id": "vh-karin-allander",
+      "imageURL": "https://leonidalog.app/images/vehicles/karin-allander-v2.jpg",
       "title": "Karin Allander",
       "category": "vehicles",
       "subgroup": "SUVs",
@@ -36292,6 +36440,7 @@
     },
     {
       "id": "vh-pfister-astron",
+      "imageURL": "https://leonidalog.app/images/vehicles/pfister-astron-v2.jpg",
       "title": "Pfister Astron",
       "category": "vehicles",
       "subgroup": "SUVs",
@@ -36339,6 +36488,7 @@
     },
     {
       "id": "vh-gallivanter-baller",
+      "imageURL": "https://leonidalog.app/images/vehicles/gallivanter-baller-v2.jpg",
       "title": "Gallivanter Baller",
       "category": "vehicles",
       "subgroup": "SUVs",
@@ -36386,6 +36536,7 @@
     },
     {
       "id": "vh-gallivanter-baller-st-d",
+      "imageURL": "https://leonidalog.app/images/vehicles/gallivanter-baller-st-d-v2.jpg",
       "autoCollectedBy": [
         "sv-randy-16"
       ],
@@ -36439,6 +36590,7 @@
     },
     {
       "id": "vh-albany-cavalcade-xl",
+      "imageURL": "https://leonidalog.app/images/vehicles/albany-cavalcade-xl-v2.jpg",
       "title": "Albany Cavalcade XL",
       "category": "vehicles",
       "subgroup": "SUVs",
@@ -36487,7 +36639,8 @@
     {
       "id": "vh-82-canis-crawler",
       "autoCollectedBy": [
-        "sv-moses-01"
+        "sv-moses-01",
+        "sv-10"
       ],
       "title": "'82 Canis Crawler",
       "category": "vehicles",
@@ -36601,6 +36754,7 @@
     },
     {
       "id": "vh-benefactor-dubsta",
+      "imageURL": "https://leonidalog.app/images/vehicles/benefactor-dubsta-v2.jpg",
       "autoCollectedBy": [
         "sv-randy-18"
       ],
@@ -36710,6 +36864,7 @@
     },
     {
       "id": "vh-declasse-granger-3600lx",
+      "imageURL": "https://leonidalog.app/images/vehicles/declasse-granger-3600lx-v2.jpg",
       "title": "Declasse Granger 3600LX",
       "category": "vehicles",
       "subgroup": "SUVs",
@@ -36753,8 +36908,10 @@
     },
     {
       "id": "vh-95-annis-hellion",
+      "imageURL": "https://leonidalog.app/images/vehicles/95-annis-hellion-v2.jpg",
       "autoCollectedBy": [
-        "sv-moses-07"
+        "sv-moses-07",
+        "sv-08"
       ],
       "title": "'95 Annis Hellion",
       "category": "vehicles",
@@ -36803,6 +36960,7 @@
     },
     {
       "id": "vh-buckingham-jubilee",
+      "imageURL": "https://leonidalog.app/images/vehicles/buckingham-jubilee-v2.jpg",
       "autoCollectedBy": [
         "sv-randy-20"
       ],
@@ -36856,6 +37014,7 @@
     },
     {
       "id": "vh-canis-kamacho",
+      "imageURL": "https://leonidalog.app/images/vehicles/canis-kamacho-v2.jpg",
       "title": "Canis Kamacho",
       "category": "vehicles",
       "subgroup": "SUVs",
@@ -36895,7 +37054,11 @@
           "value": "15 of 23"
         }
       ],
-      "slot": 15
+      "slot": 15,
+      "autoCollectedBy": [
+        "sv-78",
+        "sv-84"
+      ]
     },
     {
       "id": "vh-dundreary-landstalker-xl",
@@ -36959,6 +37122,7 @@
     },
     {
       "id": "vh-canis-mesa",
+      "imageURL": "https://leonidalog.app/images/vehicles/canis-mesa-v2.jpg",
       "title": "Canis Mesa",
       "category": "vehicles",
       "subgroup": "SUVs",
@@ -37178,8 +37342,10 @@
     },
     {
       "id": "vh-pegassi-toros",
+      "imageURL": "https://leonidalog.app/images/vehicles/pegassi-toros-v2.jpg",
       "autoCollectedBy": [
-        "sv-randy-12"
+        "sv-randy-12",
+        "sv-70"
       ],
       "title": "Pegassi Toros",
       "category": "vehicles",
@@ -37291,6 +37457,7 @@
     },
     {
       "id": "vh-95-grotti-cheetah",
+      "imageURL": "https://leonidalog.app/images/vehicles/95-grotti-cheetah-v2.jpg",
       "title": "'95 Grotti Cheetah",
       "category": "vehicles",
       "subgroup": "Supercars",
@@ -37368,10 +37535,15 @@
       "slot": 2,
       "guideLinks": {
         "vehicle challenge": "category:game-challenges#Vehicle"
-      }
+      },
+      "autoCollectedBy": [
+        "sv-73",
+        "sv-82"
+      ]
     },
     {
       "id": "vh-piccia-furia",
+      "imageURL": "https://leonidalog.app/images/vehicles/piccia-furia-v2.jpg",
       "autoCollectedBy": [
         "sv-randy-03"
       ],
@@ -37421,8 +37593,10 @@
     },
     {
       "id": "vh-96-pegassi-infernus",
+      "imageURL": "https://leonidalog.app/images/vehicles/96-pegassi-infernus-v2.jpg",
       "autoCollectedBy": [
-        "sv-randy-05"
+        "sv-randy-05",
+        "sv-22"
       ],
       "title": "'96 Pegassi Infernus",
       "category": "vehicles",
@@ -37474,6 +37648,7 @@
     },
     {
       "id": "vh-grotti-itali-rsx",
+      "imageURL": "https://leonidalog.app/images/vehicles/grotti-itali-rsx-v2.jpg",
       "autoCollectedBy": [
         "sv-randy-10"
       ],
@@ -37523,8 +37698,10 @@
     },
     {
       "id": "vh-pegassi-tempesta",
+      "imageURL": "https://leonidalog.app/images/vehicles/pegassi-tempesta-v2.jpg",
       "autoCollectedBy": [
-        "sv-randy-07"
+        "sv-randy-07",
+        "sv-40"
       ],
       "title": "Pegassi Tempesta",
       "category": "vehicles",
@@ -37572,6 +37749,7 @@
     },
     {
       "id": "vh-pegassi-vitello",
+      "imageURL": "https://leonidalog.app/images/vehicles/pegassi-vitello-v2.jpg",
       "autoCollectedBy": [
         "sv-randy-04"
       ],
@@ -37626,7 +37804,8 @@
     {
       "id": "vh-granforma-zorrusso",
       "autoCollectedBy": [
-        "sv-randy-02"
+        "sv-randy-02",
+        "sv-58"
       ],
       "title": "Granforma Zorrusso",
       "category": "vehicles",
@@ -37684,6 +37863,7 @@
     },
     {
       "id": "vh-brute-boxville",
+      "imageURL": "https://leonidalog.app/images/vehicles/brute-boxville-v2.jpg",
       "title": "Brute Boxville",
       "category": "vehicles",
       "subgroup": "Vans",
@@ -37723,7 +37903,11 @@
           "value": "1 of 14"
         }
       ],
-      "slot": 1
+      "slot": 1,
+      "autoCollectedBy": [
+        "sv-03",
+        "sv-19"
+      ]
     },
     {
       "id": "vh-98-declasse-burrito",
@@ -37779,10 +37963,15 @@
           "value": "2 of 14"
         }
       ],
-      "slot": 2
+      "slot": 2,
+      "autoCollectedBy": [
+        "sv-38",
+        "sv-53"
+      ]
     },
     {
       "id": "vh-78-osprey-journey",
+      "imageURL": "https://leonidalog.app/images/vehicles/78-osprey-journey-v2.jpg",
       "title": "'78 Osprey Journey",
       "category": "vehicles",
       "subgroup": "Vans",
@@ -37826,6 +38015,7 @@
     },
     {
       "id": "vh-83-willard-moocher",
+      "imageURL": "https://leonidalog.app/images/vehicles/83-willard-moocher-v2.jpg",
       "title": "'83 Willard Moocher",
       "category": "vehicles",
       "subgroup": "Vans",
@@ -37869,6 +38059,7 @@
     },
     {
       "id": "vh-vapid-rumpo",
+      "imageURL": "https://leonidalog.app/images/vehicles/vapid-rumpo-v2.jpg",
       "title": "Vapid Rumpo",
       "category": "vehicles",
       "subgroup": "Vans",
@@ -37908,7 +38099,10 @@
           "value": "5 of 14"
         }
       ],
-      "slot": 5
+      "slot": 5,
+      "autoCollectedBy": [
+        "sv-46"
+      ]
     },
     {
       "id": "vh-vapid-shifter",
@@ -37964,7 +38158,10 @@
           "value": "6 of 14"
         }
       ],
-      "slot": 6
+      "slot": 6,
+      "autoCollectedBy": [
+        "sv-09"
+      ]
     },
     {
       "id": "vh-vapid-shuttle",
@@ -38080,6 +38277,7 @@
     },
     {
       "id": "vh-vapid-speedo",
+      "imageURL": "https://leonidalog.app/images/vehicles/vapid-speedo-v2.jpg",
       "title": "Vapid Speedo",
       "category": "vehicles",
       "subgroup": "Vans",
@@ -38123,6 +38321,7 @@
     },
     {
       "id": "vh-74-bravado-youga",
+      "imageURL": "https://leonidalog.app/images/vehicles/74-bravado-youga-v2.jpg",
       "title": "'74 Bravado Youga",
       "category": "vehicles",
       "subgroup": "Vans",
@@ -38197,6 +38396,7 @@
     },
     {
       "id": "vh-97-interstate-benson",
+      "imageURL": "https://leonidalog.app/images/vehicles/97-interstate-benson-v2.jpg",
       "title": "'97 Interstate Benson",
       "category": "vehicles",
       "subgroup": "Trucks",
@@ -38220,6 +38420,7 @@
     },
     {
       "id": "vh-cartright-biff",
+      "imageURL": "https://leonidalog.app/images/vehicles/cartright-biff-v2.jpg",
       "title": "Cartright Biff",
       "category": "vehicles",
       "subgroup": "Trucks",
@@ -38243,6 +38444,7 @@
     },
     {
       "id": "vh-declasse-d7700",
+      "imageURL": "https://leonidalog.app/images/vehicles/declasse-d7700-v2.jpg",
       "title": "Declasse D7700",
       "category": "vehicles",
       "subgroup": "Trucks",
@@ -38266,6 +38468,7 @@
     },
     {
       "id": "vh-vapid-guardian-tx2",
+      "imageURL": "https://leonidalog.app/images/vehicles/vapid-guardian-tx2-v2.jpg",
       "title": "Vapid Guardian TX2",
       "category": "vehicles",
       "subgroup": "Trucks",
@@ -38289,6 +38492,7 @@
     },
     {
       "id": "vh-cartright-hauler",
+      "imageURL": "https://leonidalog.app/images/vehicles/cartright-hauler-v2.jpg",
       "title": "Cartright Hauler",
       "category": "vehicles",
       "subgroup": "Trucks",
@@ -38312,6 +38516,7 @@
     },
     {
       "id": "vh-maibatsu-iota",
+      "imageURL": "https://leonidalog.app/images/vehicles/maibatsu-iota-v2.jpg",
       "title": "Maibatsu Iota",
       "category": "vehicles",
       "subgroup": "Trucks",
@@ -38335,6 +38540,7 @@
     },
     {
       "id": "vh-jobuilt-mb2-10",
+      "imageURL": "https://leonidalog.app/images/vehicles/jobuilt-mb2-10-v2.jpg",
       "title": "JoBuilt MB2-10",
       "category": "vehicles",
       "subgroup": "Trucks",
@@ -38398,6 +38604,7 @@
     },
     {
       "id": "vh-mtl-packer",
+      "imageURL": "https://leonidalog.app/images/vehicles/mtl-packer-v2.jpg",
       "title": "MTL Packer",
       "category": "vehicles",
       "subgroup": "Trucks",
@@ -38421,6 +38628,7 @@
     },
     {
       "id": "vh-81-jobuilt-phantom-custom",
+      "imageURL": "https://leonidalog.app/images/vehicles/81-jobuilt-phantom-custom-v2.jpg",
       "title": "'81 JoBuilt Phantom Custom",
       "category": "vehicles",
       "subgroup": "Trucks",
@@ -38444,6 +38652,7 @@
     },
     {
       "id": "vh-hvy-airtug",
+      "imageURL": "https://leonidalog.app/images/vehicles/hvy-airtug-v2.jpg",
       "title": "HVY Airtug",
       "category": "vehicles",
       "subgroup": "Utility vehicles",
@@ -38467,6 +38676,7 @@
     },
     {
       "id": "vh-maibatsu-caddy",
+      "imageURL": "https://leonidalog.app/images/vehicles/maibatsu-caddy-v2.jpg",
       "title": "Maibatsu Caddy",
       "category": "vehicles",
       "subgroup": "Utility vehicles",
@@ -38552,6 +38762,7 @@
     },
     {
       "id": "vh-b3000-excavator",
+      "imageURL": "https://leonidalog.app/images/vehicles/b3000-excavator-v2.jpg",
       "title": "B3000 Excavator",
       "category": "vehicles",
       "subgroup": "Industrial vehicles",
@@ -38667,6 +38878,7 @@
     },
     {
       "id": "vh-hauners-brigade",
+      "imageURL": "https://leonidalog.app/images/vehicles/hauners-brigade-v2.jpg",
       "title": "Hauners Brigade",
       "category": "vehicles",
       "subgroup": "Emergency vehicles",
@@ -38815,6 +39027,7 @@
     },
     {
       "id": "vh-brute-rental-bus",
+      "imageURL": "https://leonidalog.app/images/vehicles/brute-rental-bus-v2.jpg",
       "title": "Brute Rental Bus",
       "category": "vehicles",
       "subgroup": "Transport vehicles",
@@ -38900,6 +39113,7 @@
     },
     {
       "id": "vh-bravado-aphid",
+      "imageURL": "https://leonidalog.app/images/vehicles/bravado-aphid-v2.jpg",
       "title": "Bravado Aphid",
       "category": "vehicles",
       "subgroup": "Bikes",
@@ -38935,6 +39149,7 @@
     },
     {
       "id": "vh-lcc-avarus",
+      "imageURL": "https://leonidalog.app/images/vehicles/lcc-avarus-v2.jpg",
       "title": "LCC Avarus",
       "category": "vehicles",
       "subgroup": "Bikes",
@@ -38974,7 +39189,11 @@
           "value": "6 of 29"
         }
       ],
-      "slot": 6
+      "slot": 6,
+      "autoCollectedBy": [
+        "sv-18",
+        "sv-67"
+      ]
     },
     {
       "id": "vh-tuff-bmx",
@@ -38991,7 +39210,10 @@
       ],
       "guideLinks": {
         "fitness challenges": "category:game-challenges#Fitness"
-      }
+      },
+      "autoCollectedBy": [
+        "sv-44"
+      ]
     },
     {
       "id": "vh-maibatsu-boomazoom",
@@ -39047,10 +39269,14 @@
           "value": "4 of 29"
         }
       ],
-      "slot": 4
+      "slot": 4,
+      "autoCollectedBy": [
+        "sv-20"
+      ]
     },
     {
       "id": "vh-nagasaki-carbon-rs",
+      "imageURL": "https://leonidalog.app/images/vehicles/nagasaki-carbon-rs-v2.jpg",
       "title": "Nagasaki Carbon RS",
       "category": "vehicles",
       "subgroup": "Bikes",
@@ -39113,7 +39339,10 @@
           "value": "10 of 29"
         }
       ],
-      "slot": 10
+      "slot": 10,
+      "autoCollectedBy": [
+        "sv-31"
+      ]
     },
     {
       "id": "vh-del-perro-erode",
@@ -39127,6 +39356,9 @@
           "label": "Category",
           "value": "Bikes"
         }
+      ],
+      "autoCollectedBy": [
+        "sv-56"
       ]
     },
     {
@@ -39247,6 +39479,7 @@
     },
     {
       "id": "vh-walter-lombike",
+      "imageURL": "https://leonidalog.app/images/vehicles/walter-lombike-v2.jpg",
       "title": "Walter Lombike",
       "category": "vehicles",
       "subgroup": "Bikes",
@@ -39322,10 +39555,15 @@
           "value": "20 of 29"
         }
       ],
-      "slot": 20
+      "slot": 20,
+      "autoCollectedBy": [
+        "sv-42",
+        "sv-76"
+      ]
     },
     {
       "id": "vh-western-nightblade",
+      "imageURL": "https://leonidalog.app/images/vehicles/western-nightblade-v2.jpg",
       "autoCollectedBy": [
         "sv-moses-04"
       ],
@@ -39372,6 +39610,7 @@
     },
     {
       "id": "vh-nagasaki-nimbe",
+      "imageURL": "https://leonidalog.app/images/vehicles/nagasaki-nimbe-v2.jpg",
       "title": "Nagasaki Nimbe",
       "category": "vehicles",
       "subgroup": "Bikes",
@@ -39407,6 +39646,7 @@
     },
     {
       "id": "vh-taci-ragno",
+      "imageURL": "https://leonidalog.app/images/vehicles/taci-ragno-v2.jpg",
       "title": "Taci Ragno",
       "category": "vehicles",
       "subgroup": "Bikes",
@@ -39446,7 +39686,10 @@
           "value": "23 of 29"
         }
       ],
-      "slot": 23
+      "slot": 23,
+      "autoCollectedBy": [
+        "sv-39"
+      ]
     },
     {
       "id": "vh-maibatsu-sanchez",
@@ -39530,10 +39773,14 @@
           "value": "25 of 29"
         }
       ],
-      "slot": 25
+      "slot": 25,
+      "autoCollectedBy": [
+        "sv-68"
+      ]
     },
     {
       "id": "vh-nagasaki-sfb-1000",
+      "imageURL": "https://leonidalog.app/images/vehicles/nagasaki-sfb-1000-v2.jpg",
       "title": "Nagasaki SFB 1000",
       "category": "vehicles",
       "subgroup": "Bikes",
@@ -39689,10 +39936,14 @@
           "value": "28 of 29"
         }
       ],
-      "slot": 28
+      "slot": 28,
+      "autoCollectedBy": [
+        "sv-nagasaki-azalea-street-blazer"
+      ]
     },
     {
       "id": "vh-dinka-verus",
+      "imageURL": "https://leonidalog.app/images/vehicles/dinka-verus-v2.jpg",
       "title": "Dinka Verus",
       "category": "vehicles",
       "subgroup": "Bikes",
@@ -39728,10 +39979,14 @@
           "value": "29 of 29"
         }
       ],
-      "slot": 29
+      "slot": 29,
+      "autoCollectedBy": [
+        "sv-21"
+      ]
     },
     {
       "id": "vh-western-zombie-bobber",
+      "imageURL": "https://leonidalog.app/images/vehicles/western-zombie-bobber-v2.jpg",
       "title": "Western Zombie Bobber",
       "category": "vehicles",
       "subgroup": "Bikes",
@@ -39770,7 +40025,10 @@
       "slot": 3,
       "guideLinks": {
         "criminal challenge": "category:game-challenges#Criminal"
-      }
+      },
+      "autoCollectedBy": [
+        "sv-60"
+      ]
     },
     {
       "id": "vh-airgator-airboat-09",
@@ -39798,10 +40056,15 @@
           "value": "1 of 28"
         }
       ],
-      "slot": 1
+      "slot": 1,
+      "autoCollectedBy": [
+        "sv-24",
+        "sv-52"
+      ]
     },
     {
       "id": "vh-seashark-azure",
+      "imageURL": "https://leonidalog.app/images/vehicles/seashark-azure-v2.jpg",
       "title": "Seashark Azure",
       "category": "vehicles",
       "subgroup": "Watercraft",
@@ -39821,7 +40084,10 @@
           "value": "2 of 28"
         }
       ],
-      "slot": 2
+      "slot": 2,
+      "autoCollectedBy": [
+        "sv-30"
+      ]
     },
     {
       "id": "vh-blade-500",
@@ -39895,6 +40161,7 @@
     },
     {
       "id": "vh-rugger-fortune",
+      "imageURL": "https://leonidalog.app/images/vehicles/rugger-fortune-v2.jpg",
       "title": "Rugger Fortune",
       "category": "vehicles",
       "subgroup": "Watercraft",
@@ -39956,7 +40223,10 @@
           "value": "12 of 28"
         }
       ],
-      "slot": 12
+      "slot": 12,
+      "autoCollectedBy": [
+        "sv-62"
+      ]
     },
     {
       "id": "vh-crest-kayak",
@@ -39984,6 +40254,7 @@
     },
     {
       "id": "vh-dingus-nepa",
+      "imageURL": "https://leonidalog.app/images/vehicles/dingus-nepa-v2.jpg",
       "title": "Dingus Nepa",
       "category": "vehicles",
       "subgroup": "Watercraft",
@@ -40031,7 +40302,10 @@
           "value": "17 of 28"
         }
       ],
-      "slot": 17
+      "slot": 17,
+      "autoCollectedBy": [
+        "sv-05"
+      ]
     },
     {
       "id": "vh-lure-predator-l35p",
@@ -40063,6 +40337,7 @@
     },
     {
       "id": "vh-rugger-rhode",
+      "imageURL": "https://leonidalog.app/images/vehicles/rugger-rhode-v2.jpg",
       "title": "Rugger Rhode",
       "category": "vehicles",
       "subgroup": "Watercraft",
@@ -40156,6 +40431,7 @@
     },
     {
       "id": "vh-speeder-700-gt",
+      "imageURL": "https://leonidalog.app/images/vehicles/speeder-700-gt-v2.jpg",
       "title": "Speeder 700 GT",
       "category": "vehicles",
       "subgroup": "Watercraft",
@@ -40182,6 +40458,7 @@
     },
     {
       "id": "vh-shitzu-squalo",
+      "imageURL": "https://leonidalog.app/images/vehicles/shitzu-squalo-v2.jpg",
       "title": "Shitzu Squalo",
       "category": "vehicles",
       "subgroup": "Watercraft",
@@ -40215,6 +40492,9 @@
           "label": "Category",
           "value": "Watercraft"
         }
+      ],
+      "autoCollectedBy": [
+        "sv-27"
       ]
     },
     {
@@ -40261,6 +40541,7 @@
     },
     {
       "id": "vh-lapwing-300-h",
+      "imageURL": "https://leonidalog.app/images/vehicles/lapwing-300-h-v2.jpg",
       "title": "Lapwing 300-H",
       "category": "vehicles",
       "subgroup": "Aircraft",
@@ -40280,7 +40561,10 @@
           "value": "3 of 16"
         }
       ],
-      "slot": 3
+      "slot": 3,
+      "autoCollectedBy": [
+        "sv-26"
+      ]
     },
     {
       "id": "vh-mammoth-dodo",
@@ -40312,6 +40596,7 @@
     },
     {
       "id": "vh-bottcher-duster",
+      "imageURL": "https://leonidalog.app/images/vehicles/bottcher-duster-v2.jpg",
       "title": "Bottcher Duster",
       "category": "vehicles",
       "subgroup": "Aircraft",
@@ -40363,6 +40648,7 @@
     },
     {
       "id": "vh-lapwing-mammatus",
+      "imageURL": "https://leonidalog.app/images/vehicles/lapwing-mammatus-v2.jpg",
       "title": "Lapwing Mammatus",
       "category": "vehicles",
       "subgroup": "Aircraft",
@@ -40401,6 +40687,7 @@
     },
     {
       "id": "vh-lapwing-nimbus",
+      "imageURL": "https://leonidalog.app/images/vehicles/lapwing-nimbus-v2.jpg",
       "title": "Lapwing Nimbus",
       "category": "vehicles",
       "subgroup": "Aircraft",
@@ -40466,6 +40753,7 @@
     },
     {
       "id": "vh-93-dundreary-arcturus",
+      "imageURL": "https://leonidalog.app/images/vehicles/93-dundreary-arcturus-v2.jpg",
       "title": "'93 Dundreary Arcturus",
       "category": "vehicles",
       "subgroup": "Coupes",
@@ -40493,6 +40781,7 @@
     },
     {
       "id": "vh-obey-8f-drafter",
+      "imageURL": "https://leonidalog.app/images/vehicles/obey-8f-drafter-v2.jpg",
       "title": "Obey 8F Drafter",
       "category": "vehicles",
       "subgroup": "Coupes",
@@ -40534,6 +40823,7 @@
     },
     {
       "id": "vh-64-invetero-coquette",
+      "imageURL": "https://leonidalog.app/images/vehicles/64-invetero-coquette-v2.jpg",
       "title": "'64 Invetero Coquette",
       "category": "vehicles",
       "subgroup": "Muscle cars",
@@ -40574,6 +40864,7 @@
     },
     {
       "id": "vh-vapid-marshall",
+      "imageURL": "https://leonidalog.app/images/vehicles/vapid-marshall-v2.jpg",
       "title": "Vapid Marshall",
       "category": "vehicles",
       "subgroup": "Off-road vehicles",
@@ -40593,7 +40884,10 @@
           "value": "5 of 8"
         }
       ],
-      "slot": 5
+      "slot": 5,
+      "autoCollectedBy": [
+        "sv-04"
+      ]
     },
     {
       "id": "vh-more-off-road-vehicles",
@@ -40607,6 +40901,7 @@
     },
     {
       "id": "vh-84-karin-rebel",
+      "imageURL": "https://leonidalog.app/images/vehicles/84-karin-rebel-v2.jpg",
       "title": "'84 Karin Rebel",
       "category": "vehicles",
       "subgroup": "Pickups",
@@ -40630,7 +40925,10 @@
           "value": "10 of 17"
         }
       ],
-      "slot": 10
+      "slot": 10,
+      "autoCollectedBy": [
+        "sv-11"
+      ]
     },
     {
       "id": "vh-more-pickups",
@@ -40644,6 +40942,7 @@
     },
     {
       "id": "vh-61-sirius-sungrazer",
+      "imageURL": "https://leonidalog.app/images/vehicles/61-sirius-sungrazer-v2.jpg",
       "title": "'61 Sirius Sungrazer",
       "category": "vehicles",
       "subgroup": "Sedans",
@@ -40667,10 +40966,15 @@
           "value": "25 of 29"
         }
       ],
-      "slot": 25
+      "slot": 25,
+      "autoCollectedBy": [
+        "sv-23",
+        "sv-71"
+      ]
     },
     {
       "id": "vh-2007-bravado-buffalo",
+      "imageURL": "https://leonidalog.app/images/vehicles/2007-bravado-buffalo-v2.jpg",
       "title": "'07 Bravado Buffalo",
       "category": "vehicles",
       "subgroup": "Sedans",
@@ -40711,6 +41015,7 @@
     },
     {
       "id": "vh-pfister-growler",
+      "imageURL": "https://leonidalog.app/images/vehicles/pfister-growler-v2.jpg",
       "autoCollectedBy": [
         "sv-randy-13"
       ],
@@ -40754,6 +41059,7 @@
     },
     {
       "id": "vh-bravado-gresley-xt",
+      "imageURL": "https://leonidalog.app/images/vehicles/bravado-gresley-xt-v2.jpg",
       "title": "Bravado Gresley XT",
       "category": "vehicles",
       "subgroup": "SUVs",
@@ -40795,6 +41101,7 @@
     },
     {
       "id": "vh-karin-vivanite",
+      "imageURL": "https://leonidalog.app/images/vehicles/karin-vivanite-v2.jpg",
       "title": "Karin Vivanite",
       "category": "vehicles",
       "subgroup": "Vans",
@@ -40822,6 +41129,7 @@
     },
     {
       "id": "vh-benefactor-spritz",
+      "imageURL": "https://leonidalog.app/images/vehicles/benefactor-spritz-v2.jpg",
       "title": "Benefactor Spritz",
       "category": "vehicles",
       "subgroup": "Vans",
@@ -40849,6 +41157,7 @@
     },
     {
       "id": "vh-95-willard-trotter",
+      "imageURL": "https://leonidalog.app/images/vehicles/95-willard-trotter-v2.jpg",
       "title": "'95 Willard Trotter",
       "category": "vehicles",
       "subgroup": "Vans",
@@ -40886,6 +41195,7 @@
     },
     {
       "id": "vh-jobuilt-rubble",
+      "imageURL": "https://leonidalog.app/images/vehicles/jobuilt-rubble-v2.jpg",
       "title": "JoBuilt Rubble",
       "category": "vehicles",
       "subgroup": "Trucks",
@@ -40915,6 +41225,7 @@
     },
     {
       "id": "vh-brute-ripley",
+      "imageURL": "https://leonidalog.app/images/vehicles/brute-ripley-v2.jpg",
       "title": "Brute Ripley",
       "category": "vehicles",
       "subgroup": "Utility vehicles",
@@ -40947,6 +41258,7 @@
     },
     {
       "id": "vh-hvy-bulldozer",
+      "imageURL": "https://leonidalog.app/images/vehicles/hvy-bulldozer-v2.jpg",
       "title": "HVY Bulldozer",
       "category": "vehicles",
       "subgroup": "Industrial vehicles",
@@ -40970,6 +41282,7 @@
     },
     {
       "id": "vh-mtl-cr5013",
+      "imageURL": "https://leonidalog.app/images/vehicles/mtl-cr5013-v2.jpg",
       "title": "MTL CR5013",
       "category": "vehicles",
       "subgroup": "Industrial vehicles",
@@ -40993,6 +41306,7 @@
     },
     {
       "id": "vh-dump",
+      "imageURL": "https://leonidalog.app/images/vehicles/dump-v2.jpg",
       "title": "Dump",
       "category": "vehicles",
       "subgroup": "Industrial vehicles",
@@ -41026,6 +41340,7 @@
     },
     {
       "id": "vh-mtl-pumper",
+      "imageURL": "https://leonidalog.app/images/vehicles/mtl-pumper-v2.jpg",
       "title": "MTL Pumper",
       "category": "vehicles",
       "subgroup": "Emergency vehicles",
@@ -41058,6 +41373,7 @@
     },
     {
       "id": "vh-hauners-p-996-lazer",
+      "imageURL": "https://leonidalog.app/images/vehicles/hauners-p-996-lazer-v2.jpg",
       "title": "Hauners P-996 Lazer",
       "category": "vehicles",
       "subgroup": "Military vehicles",
@@ -41081,6 +41397,7 @@
     },
     {
       "id": "vh-92-mammoth-patriot",
+      "imageURL": "https://leonidalog.app/images/vehicles/92-mammoth-patriot-v2.jpg",
       "title": "'92 Mammoth Patriot",
       "category": "vehicles",
       "subgroup": "Military vehicles",
@@ -41104,6 +41421,7 @@
     },
     {
       "id": "vh-buckingham-valkyrie",
+      "imageURL": "https://leonidalog.app/images/vehicles/buckingham-valkyrie-v2.jpg",
       "title": "Buckingham Valkyrie",
       "category": "vehicles",
       "subgroup": "Military vehicles",
@@ -41136,6 +41454,7 @@
     },
     {
       "id": "vh-whiffler-bus",
+      "imageURL": "https://leonidalog.app/images/vehicles/whiffler-bus-v2.jpg",
       "title": "Whiffler Bus",
       "category": "vehicles",
       "subgroup": "Transport vehicles",
@@ -41155,6 +41474,7 @@
     },
     {
       "id": "vh-hulls-seacab",
+      "imageURL": "https://leonidalog.app/images/vehicles/hulls-seacab-v2.jpg",
       "title": "Hulls Seacab",
       "category": "vehicles",
       "subgroup": "Transport vehicles",
@@ -41191,6 +41511,7 @@
     },
     {
       "id": "vh-endurex-aerobike",
+      "imageURL": "https://leonidalog.app/images/vehicles/endurex-aerobike-v2.jpg",
       "title": "Endurex Aerobike",
       "category": "vehicles",
       "subgroup": "Bikes",
@@ -41218,6 +41539,7 @@
     },
     {
       "id": "vh-72-western-cliffhanger",
+      "imageURL": "https://leonidalog.app/images/vehicles/72-western-cliffhanger-v2.jpg",
       "title": "'72 Western Cliffhanger",
       "category": "vehicles",
       "subgroup": "Bikes",
@@ -41245,10 +41567,14 @@
           "value": "9 of 29"
         }
       ],
-      "slot": 9
+      "slot": 9,
+      "autoCollectedBy": [
+        "sv-47"
+      ]
     },
     {
       "id": "vh-dinka-double-t",
+      "imageURL": "https://leonidalog.app/images/vehicles/dinka-double-t-v2.jpg",
       "title": "Dinka Double-T",
       "category": "vehicles",
       "subgroup": "Bikes",
@@ -41280,6 +41606,7 @@
     },
     {
       "id": "vh-ubermacht-fcr-1000",
+      "imageURL": "https://leonidalog.app/images/vehicles/ubermacht-fcr-1000-v2.jpg",
       "title": "Übermacht FCR 1000",
       "category": "vehicles",
       "subgroup": "Bikes",
@@ -41320,6 +41647,7 @@
     },
     {
       "id": "vh-seashark-sedna",
+      "imageURL": "https://leonidalog.app/images/vehicles/seashark-sedna-v2.jpg",
       "title": "Seashark Sedna",
       "category": "vehicles",
       "subgroup": "Watercraft",
@@ -41352,6 +41680,7 @@
     },
     {
       "id": "vh-bottcher-015a",
+      "imageURL": "https://leonidalog.app/images/vehicles/bottcher-015a-v2.jpg",
       "title": "Bottcher 015A",
       "category": "vehicles",
       "subgroup": "Aircraft",
@@ -42364,7 +42693,7 @@
     {
       "id": "sv-randy-01",
       "title": "Bravado Banshee",
-      "category": "standout-vehicles",
+      "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
       "nx": 0.588,
@@ -42375,7 +42704,7 @@
     {
       "id": "sv-randy-02",
       "title": "Granforma Zorrusso",
-      "category": "standout-vehicles",
+      "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
       "nx": 0.7708,
@@ -42390,7 +42719,7 @@
     {
       "id": "sv-randy-03",
       "title": "Piccia Furia",
-      "category": "standout-vehicles",
+      "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
       "nx": 0.6151,
@@ -42401,7 +42730,7 @@
     {
       "id": "sv-randy-04",
       "title": "Pegassi Vitello",
-      "category": "standout-vehicles",
+      "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
       "nx": 0.7025,
@@ -42416,7 +42745,7 @@
     {
       "id": "sv-randy-05",
       "title": "Pegassi '96 Infernus",
-      "category": "standout-vehicles",
+      "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
       "nx": 0.6269,
@@ -42431,7 +42760,7 @@
     {
       "id": "sv-randy-06",
       "title": "Invetero Coquette D10",
-      "category": "standout-vehicles",
+      "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
       "nx": 0.6752,
@@ -42442,7 +42771,7 @@
     {
       "id": "sv-randy-07",
       "title": "Pegassi Tempesta",
-      "category": "standout-vehicles",
+      "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
       "nx": 0.5713,
@@ -42457,7 +42786,7 @@
     {
       "id": "sv-randy-08",
       "title": "Ascot Paragon",
-      "category": "standout-vehicles",
+      "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
       "nx": 0.5885,
@@ -42468,7 +42797,7 @@
     {
       "id": "sv-randy-09",
       "title": "Bravado Gauntlet Hellfire",
-      "category": "standout-vehicles",
+      "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
       "nx": 0.5449,
@@ -42483,7 +42812,7 @@
     {
       "id": "sv-randy-10",
       "title": "Grotti Itali RSX",
-      "category": "standout-vehicles",
+      "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
       "guide": "For Randy's Wish List. Look outside the houses in the wealthy northern part of Capri, where it's often parked. It isn't always there, so scan high-end cars with WAiNK to check.",
@@ -42494,7 +42823,7 @@
     {
       "id": "sv-randy-11",
       "title": "Ubermacht Cypher",
-      "category": "standout-vehicles",
+      "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
       "guide": "For Randy's Wish List. Try Ocean Beach in Vice Beach: it's often parked along the beachfront near the beach gym or driving up and down the strip. It isn't always there, so scan high-end cars with WAiNK to check.",
@@ -42505,7 +42834,7 @@
     {
       "id": "sv-randy-12",
       "title": "Pegassi Toros",
-      "category": "standout-vehicles",
+      "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
       "guide": "For Randy's Wish List. One is parked outside the Pegassi Residences on Bayside Dr, Tequesta Retreat, in the early evening, with guards nearby. It also turns up parked at the rich houses in Capri.",
@@ -42516,7 +42845,7 @@
     {
       "id": "sv-randy-13",
       "title": "Pfister Growler",
-      "category": "standout-vehicles",
+      "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
       "guide": "For Randy's Wish List. It has no fixed spot, but it's often around the rich houses of northern Capri, parked outside or driving by. Scan high-end cars with WAiNK to check.",
@@ -42527,7 +42856,7 @@
     {
       "id": "sv-randy-14",
       "title": "Buckingham Windsor Drop",
-      "category": "standout-vehicles",
+      "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
       "guide": "For Randy's Wish List. It has no fixed spot, but it's often parked at the rich houses in Capri. Scan high-end cars with WAiNK to check.",
@@ -42538,7 +42867,7 @@
     {
       "id": "sv-randy-15",
       "title": "Grotti Carbonizzare",
-      "category": "standout-vehicles",
+      "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
       "guide": "For Randy's Wish List. It has no fixed spot, but it's often parked in the public car parks of northern Capri. Scan cars with WAiNK to check.",
@@ -42549,7 +42878,7 @@
     {
       "id": "sv-randy-16",
       "title": "Gallivanter Baller ST-D",
-      "category": "standout-vehicles",
+      "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
       "guide": "For Randy's Wish List. Look outside the wealthy houses in northern Capri, where it's often parked. It isn't always there, so scan high-end cars with WAiNK to check.",
@@ -42560,7 +42889,7 @@
     {
       "id": "sv-randy-17",
       "title": "Ocelot Jugular",
-      "category": "standout-vehicles",
+      "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
       "guide": "For Randy's Wish List. It has no fixed spot, but it's often parked at the roadside outside Bite on Atlantic Ave in Vice Beach. Scan cars with WAiNK to check.",
@@ -42571,7 +42900,7 @@
     {
       "id": "sv-randy-18",
       "title": "Benefactor Dubsta",
-      "category": "standout-vehicles",
+      "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
       "guide": "For Randy's Wish List. Try the mansions on Starfish Island, reached by road from Waxman Island: the waterfront house at the north-east end often has one in its garage. It isn't always there, so scan high-end cars with WAiNK to check.",
@@ -42582,7 +42911,7 @@
     {
       "id": "sv-randy-19",
       "title": "Pfister Neon",
-      "category": "standout-vehicles",
+      "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
       "guide": "For Randy's Wish List. Look outside the wealthy houses in northern Capri, where it's often parked. It isn't always there, so scan high-end cars with WAiNK to check.",
@@ -42593,7 +42922,7 @@
     {
       "id": "sv-randy-20",
       "title": "Buckingham Jubilee",
-      "category": "standout-vehicles",
+      "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
       "guide": "For Randy's Wish List. It has no fixed spot, but it's often parked at the rich houses of northern Capri, sometimes behind a gate you can climb past. Scan cars with WAiNK to check.",
@@ -42604,7 +42933,7 @@
     {
       "id": "sv-randy-21",
       "title": "'64 Mamba GT",
-      "category": "standout-vehicles",
+      "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
       "guide": "For Randy's Wish List. Randy adds it late on: it's at a mansion in Leaf Links, Vice Beach, and the key is in a bowl in the main house.",
@@ -42615,7 +42944,7 @@
     {
       "id": "sv-randy-22",
       "title": "Truffade Thrax",
-      "category": "standout-vehicles",
+      "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
       "guide": "For Randy's Wish List: the last of the 22 cars, unlocked once the other 21 are delivered. Randy calls to say it's on Dalton Island: take the ferry over from Waxman Island and take it from the big car park behind the Dalton Island Club, then ferry it back and drop it at Bayside Drive Garage."
@@ -42623,7 +42952,7 @@
     {
       "id": "sv-moses-01",
       "title": "Canis '82 Crawler",
-      "category": "standout-vehicles",
+      "category": "vehicle-requests-moses",
       "subgroup": "Vehicle requests (2)",
       "spoiler": true,
       "nx": 0.3528,
@@ -42634,7 +42963,7 @@
     {
       "id": "sv-moses-02",
       "title": "BF '77 Bandito",
-      "category": "standout-vehicles",
+      "category": "vehicle-requests-moses",
       "subgroup": "Vehicle requests (2)",
       "spoiler": true,
       "nx": 0.4942,
@@ -42646,7 +42975,7 @@
     {
       "id": "sv-moses-03",
       "title": "Declasse Yosemite 1500",
-      "category": "standout-vehicles",
+      "category": "vehicle-requests-moses",
       "subgroup": "Vehicle requests (2)",
       "spoiler": true,
       "nx": 0.3271,
@@ -42658,7 +42987,7 @@
     {
       "id": "sv-moses-04",
       "title": "Western Nightblade",
-      "category": "standout-vehicles",
+      "category": "vehicle-requests-moses",
       "subgroup": "Vehicle requests (2)",
       "spoiler": true,
       "nx": 0.5185,
@@ -42670,7 +42999,7 @@
     {
       "id": "sv-moses-05",
       "title": "Karin '85 Futo",
-      "category": "standout-vehicles",
+      "category": "vehicle-requests-moses",
       "subgroup": "Vehicle requests (2)",
       "spoiler": true,
       "nx": 0.2865,
@@ -42682,7 +43011,7 @@
     {
       "id": "sv-moses-06",
       "title": "Declasse '74 Vamos",
-      "category": "standout-vehicles",
+      "category": "vehicle-requests-moses",
       "subgroup": "Vehicle requests (2)",
       "spoiler": true,
       "nx": 0.4164,
@@ -42694,7 +43023,7 @@
     {
       "id": "sv-moses-07",
       "title": "Annis '95 Hellion",
-      "category": "standout-vehicles",
+      "category": "vehicle-requests-moses",
       "subgroup": "Vehicle requests (2)",
       "spoiler": true,
       "nx": 0.3449,
@@ -42706,7 +43035,7 @@
     {
       "id": "sv-wyman-01",
       "title": "Declasse '64 Mamba GT",
-      "category": "standout-vehicles",
+      "category": "wyman-classic-cars",
       "subgroup": "Wyman's classic cars",
       "spoiler": true,
       "guide": "For Wyman's Classic Car Collection: the third car he rebuilds. Scan all four wrecked parts of this car with WAiNK: in the garage of a grey farmhouse on the east edge of Gellhorn, north of the state prison; sunk in the pond just east of the Thrillbilly Mud Club dirt track; behind a grey garage door on a green building in the alley beside the Xero station in Ambrosia; and in the water under the broken bridge in north Moreau, north of Buck Creek Country Store (you can scan it from the bridge). Wyman then charges $1,500 through BuckMe for the rebuild. Register it at a Pay 'n' Spray or park it in your garage to keep it."
@@ -42714,7 +43043,7 @@
     {
       "id": "sv-wyman-02",
       "title": "'67 Transgressor",
-      "category": "standout-vehicles",
+      "category": "wyman-classic-cars",
       "subgroup": "Wyman's classic cars",
       "spoiler": true,
       "guide": "For Wyman's Classic Car Collection: the first car he rebuilds. All three parts to scan with WAiNK are in Port Gellhorn: in a field with pigs at the Tanglewood Ln trailer park, north of Sarena's Bargain Store; in a garage behind a blue house with sunflower decorations on Gellhorn Ave, north-west of Wasteland Off-Road; and behind a wooden hut at the southern tip, below Dirt Merchants. Wyman then charges $1,500 for the rebuild.",
@@ -42725,7 +43054,7 @@
     {
       "id": "sv-wyman-03",
       "title": "'70 Riata",
-      "category": "standout-vehicles",
+      "category": "wyman-classic-cars",
       "subgroup": "Wyman's classic cars",
       "spoiler": true,
       "guide": "For Wyman's Classic Car Collection: the second car he rebuilds. Scan all three parts with WAiNK: in a carport at the end of Cangrejo St in Southwind, west of the Xero station; under a house on Sunset Dr in Key Lento, across from the police impound; and behind the abandoned gas station on Old Fort Rd in Shoreless Keys, north of Grassrivers Cafe & Deli. Wyman then charges $1,500 for the rebuild."
@@ -42733,7 +43062,7 @@
     {
       "id": "sv-wyman-04",
       "title": "Reynolds",
-      "category": "standout-vehicles",
+      "category": "wyman-classic-cars",
       "subgroup": "Wyman's classic cars",
       "spoiler": true,
       "guide": "For Wyman's Classic Car Collection: the fourth car he rebuilds. Ultimate Edition only. Scan all five parts with WAiNK: in a locked shipping container near the beach at Wild Hog Point (you need the lock-cutting tool from chapter 3); in the locked garage of a white house in the north-west of Capri; behind Donnies Auto Repair in Watson Bay, down the gravel track beside it; inside a house on Casanova Island in the Rialto Islands; and inside Willie's Service Center, east of the VCIA airport (breaking in sets off the alarm). Wyman then charges $1,500 for the rebuild."
@@ -42741,7 +43070,7 @@
     {
       "id": "sv-wyman-05",
       "title": "'72 Deviant",
-      "category": "standout-vehicles",
+      "category": "wyman-classic-cars",
       "subgroup": "Wyman's classic cars",
       "spoiler": true,
       "guide": "For Wyman's Classic Car Collection: the fifth car he rebuilds. There are no parts to scan: once the other four are done, Wyman calls you, you pay his mechanic fee through BuckMe and pick the car up at his scrapyard. Register it at a Pay 'n' Spray or park it in your garage to keep it."
