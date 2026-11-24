@@ -1,5 +1,5 @@
 {
-  "version": 99,
+  "version": 100,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -40529,7 +40529,8 @@
       "subgroup": "Coupes",
       "spoiler": true,
       "guide": "Count the coupes you've discovered that don't have their own row here yet: All 18 now have their own row, so this counter is retired. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
-      "tallyTarget": 2
+      "tallyTarget": 2,
+      "retired": true
     },
     {
       "id": "vh-64-invetero-coquette",
@@ -40601,7 +40602,8 @@
       "subgroup": "Off-road vehicles",
       "spoiler": true,
       "guide": "Count the off-road vehicles you've discovered that don't have their own row here yet: All 8 now have their own row, so this counter is retired. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
-      "tallyTarget": 1
+      "tallyTarget": 1,
+      "retired": true
     },
     {
       "id": "vh-84-karin-rebel",
@@ -40637,7 +40639,8 @@
       "subgroup": "Pickups",
       "spoiler": true,
       "guide": "Count the pickups you've discovered that don't have their own row here yet: All 17 now have their own row, so this counter is retired. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
-      "tallyTarget": 1
+      "tallyTarget": 1,
+      "retired": true
     },
     {
       "id": "vh-61-sirius-sungrazer",
@@ -40907,7 +40910,8 @@
       "subgroup": "Trucks",
       "spoiler": true,
       "guide": "Count the trucks you've discovered that don't have their own row here yet: All 11 now have their own row, so this counter is retired. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
-      "tallyTarget": 1
+      "tallyTarget": 1,
+      "retired": true
     },
     {
       "id": "vh-brute-ripley",
