@@ -1,5 +1,5 @@
 {
-  "version": 107,
+  "version": 108,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -42576,14 +42576,15 @@
     },
     {
       "id": "sv-65",
-      "title": "Bravado Third Eye Youga",
+      "title": "Western Emerald Zombie Chopper",
       "category": "standout-vehicles",
       "subgroup": "Standout",
       "spoiler": true,
       "nx": 0.3895,
       "ny": 0.1882,
       "region": "Lummox County",
-      "area": "Grayson"
+      "area": "Grayson",
+      "guide": "A one-off Zombie Chopper in emerald paint, parked in Grayson right next to the Third Eye Youga."
     },
     {
       "id": "sv-66",
