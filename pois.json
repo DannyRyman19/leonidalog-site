@@ -1,5 +1,5 @@
 {
-  "version": 105,
+  "version": 106,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -42765,6 +42765,18 @@
       "guideLinks": {
         "Elias Delgado - Silver": "cd-01-08"
       }
+    },
+    {
+      "id": "sv-bravado-driveshaft-gauntlet",
+      "title": "Bravado Driveshaft Gauntlet",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "nx": 0.4004,
+      "ny": 0.1785,
+      "region": "Lummox County",
+      "area": "Grayson",
+      "spoiler": true,
+      "guide": "A one-off Gauntlet in Driveshaft livery, parked at this spot in Grayson."
     },
     {
       "id": "sv-nagasaki-azalea-street-blazer",
