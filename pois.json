@@ -1,5 +1,5 @@
 {
-  "version": 106,
+  "version": 107,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -4950,8 +4950,8 @@
       "category": "cards",
       "subgroup": "Vice City Flamingos",
       "spoiler": true,
-      "nx": 0.3875,
-      "ny": 0.1901,
+      "nx": 0.3872,
+      "ny": 0.1898,
       "region": "Lummox County",
       "area": "Grayson",
       "guide": "One of the 24 cards in the Vice City Flamingos set. Follow the map pin."
