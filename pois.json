@@ -1,5 +1,5 @@
 {
-  "version": 96,
+  "version": 99,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -1203,7 +1203,7 @@
         }
       ],
       "tallyTarget": 8,
-      "revealedGuide": "Finish 8 strangers' mission strands. Only some strands count: the side work of main contacts such as Moses, Tyrone, Yasmani, Andy, Billy and Eddie doesn't. Confirmed so far are Kirk, Kyle, Yago, Pilot Pete, Freddie, Alvan and Dr. Merle; the rest are still being worked out. The game's own trophy list shows your count. Everything stays open after the story."
+      "revealedGuide": "Finish 8 strangers' mission strands. Only some strands count: the side work of main contacts such as Moses, Tyrone, Yasmani, Andy, Billy and Eddie doesn't. Confirmed so far are Kirk, Kyle, Yago, Pilot Pete, Freddie, Alvan, Dr. Merle and Papa Audacity; the rest are still being worked out. The game's own trophy list shows your count. Everything stays open after the story."
     },
     {
       "id": "tr-26",
@@ -3717,7 +3717,7 @@
       "guide": "Strangers & Freaks side mission, strand 18. Unlocks in chapter 3.",
       "revealedTitle": "The Unknown Stuntman",
       "revealedGivenBy": "Papa Audacity",
-      "revealedGuide": "Papa Audacity's strand, mission 1 of 4. Unlocks in chapter 3. Whether it counts towards the Strangers & Freaks trophy isn't confirmed yet. Jason or Lucia. A flyer in the lobby of Jason and Lucia's Vice City apartment block points to the stuntman in white at the park on the south end of Ocean Beach. Fix the gas canister on the side of the ramp, walk back to the start and light the fuse on his bike, then talk to the AudaCity engineer and agree to help with the promotion. It pays nothing, but the engineer texts afterwards to open the rest of the strand, starting with Trial by Tire. The map circle is approximate.",
+      "revealedGuide": "Papa Audacity's strand, mission 1 of 6. Unlocks in chapter 3. Whether it counts towards the Strangers & Freaks trophy isn't confirmed yet. Jason or Lucia. A flyer in the lobby of Jason and Lucia's Vice City apartment block points to the stuntman in white at the park on the south end of Ocean Beach. Fix the gas canister on the side of the ramp, walk back to the start and light the fuse on his bike, then talk to the AudaCity engineer and agree to help with the promotion. It pays nothing, but the engineer texts afterwards to open the rest of the strand, starting with Trial by Tire. The map circle is approximate.",
       "guideLinks": {
         "Strangers & Freaks": "tr-25",
         "Trial by Tire": "sf-49"
@@ -3743,7 +3743,7 @@
       "guide": "Strangers & Freaks side mission, strand 18. Comes after the strand's earlier mission.",
       "revealedTitle": "Trial by Tire",
       "revealedGivenBy": "Papa Audacity",
-      "revealedGuide": "Papa Audacity's strand, mission 2 of 4. Unlocks after The Unknown Stuntman, once the AudaCity engineer gets in touch. Whether it counts towards the Strangers & Freaks trophy isn't confirmed yet. Another stunt to promote Papa Audacity's coin. Leads to Quit Your Job, Sell Your House.",
+      "revealedGuide": "Papa Audacity's strand, mission 2 of 6. Unlocks after The Unknown Stuntman, once the AudaCity engineer gets in touch. Whether it counts towards the Strangers & Freaks trophy isn't confirmed yet. Another stunt to promote Papa Audacity's coin. Leads to Quit Your Job, Sell Your House.",
       "guideLinks": {
         "Strangers & Freaks": "tr-25",
         "The Unknown Stuntman": "sf-48",
@@ -3763,11 +3763,13 @@
       "guide": "Strangers & Freaks side mission, strand 18. Comes after the strand's earlier missions.",
       "revealedTitle": "Quit Your Job, Sell Your House",
       "revealedGivenBy": "Papa Audacity",
-      "revealedGuide": "Papa Audacity's strand, mission 3 of 4. Unlocks after Trial by Tire. Whether it counts towards the Strangers & Freaks trophy isn't confirmed yet. Another AudaCity promo stunt (the title is the coin's slogan): fly the helicopter, then jump out after Papa Audacity and follow him down onto the tennis court. The chase ends with him leaping off a roof, ripping his trousers and hurting himself, and you have to drive him to the hospital. Leads to the finale, Stunt Audacity.",
+      "revealedGuide": "Papa Audacity's strand, mission 3 of 6. Unlocks after Trial by Tire. Whether it counts towards the Strangers & Freaks trophy isn't confirmed yet. Another AudaCity promo stunt (the title is the coin's slogan): fly the helicopter, then jump out after Papa Audacity and follow him down onto the tennis court. The chase ends with him leaping off a roof, ripping his trousers and hurting himself, and you have to drive him to the hospital. Next come the AudaCity stunts and Catching a Whale, then the finale, The Audacity.",
       "guideLinks": {
         "Strangers & Freaks": "tr-25",
         "Trial by Tire": "sf-49",
-        "Stunt Audacity": "sf-51"
+        "AudaCity stunts": "category:audacity-stunts",
+        "Catching a Whale": "as-08",
+        "The Audacity": "sf-51"
       }
     },
     {
@@ -3781,13 +3783,13 @@
       "givenBy": "Strand 18",
       "spoiler": true,
       "guide": "Strangers & Freaks side mission, strand 18. Comes after the strand's earlier missions.",
-      "revealedTitle": "Stunt Audacity",
+      "revealedTitle": "The Audacity",
       "revealedGivenBy": "Papa Audacity",
-      "revealedGuide": "Papa Audacity's strand, mission 4 of 4, the finale. Unlocks after Quit Your Job, Sell Your House. It starts with Papa Audacity's launch party at Neo Paloma Apartments in Tequesta (Attend the Launch Party on the map). Hold on to your coin until you're out of the helicopter: the DacityCoin app lets you sell from the lift on the way up (5,000 DCTY is about $22,000 there), but the price keeps climbing, and once you've landed it's about $5.05 a coin, so 5,000 DCTY sells for around $25,000. Sell everything then, before Papa's final stunt. Whether it counts towards the Strangers & Freaks trophy isn't confirmed yet. You can't buy DacityCoin at any point: you're given some after each AudaCity promo stunt (5,000 DCTY in all by the launch), and the Buy button stays locked. Its price climbs as this mission goes on. Guides advise selling it all before the last stunt on the rocket bike, because he pulls the rug at the end and the coin crashes to nothing.",
+      "revealedGuide": "Papa Audacity's strand, mission 6 of 6, the finale. Chapter 3, Jason or Lucia. Papa Audacity gets in touch about a day after Catching a Whale. Counts towards the Strangers & Freaks trophy. It's his launch party at Neo Paloma Apartments in Tequesta (Attend the Launch Party on the map): meet the AudaCity engineers by the lift at the back, ride up with one, then follow him backstage to Papa Audacity. After a helicopter ride, follow Papa to the top of the jump, ride the bike off it and boost to land in the rooftop pool, then fight your way out, lose the police and call Papa to finish. You can't buy DacityCoin at any point: you're given some after each AudaCity promo stunt (5,000 DCTY in all by the launch), and the Buy button stays locked. You can sell from the lift (about $22,000 for 5,000 DCTY), but the price peaks at the top of the jump (about $5.05 a coin, around $25,000). Sell everything before the last stunt, because he pulls the rug at the end and the coin crashes to nothing.",
       "guideLinks": {
         "Neo Paloma Apartments": "kf-019",
         "Strangers & Freaks": "tr-25",
-        "Quit Your Job, Sell Your House": "sf-50"
+        "Catching a Whale": "as-08"
       }
     },
     {
@@ -5318,6 +5320,7 @@
     },
     {
       "id": "cd-03-05",
+      "imageURL": "https://leonidalog.app/images/cards/cd-03-05.jpg",
       "title": "Delord Nathan Alford - Standard",
       "category": "cards",
       "subgroup": "Vice City Manatees",
@@ -5326,7 +5329,7 @@
       "ny": 0.3382,
       "region": "Leonard County",
       "area": "Belville",
-      "guide": "One of the 24 cards in the Vice City Manatees set. Follow the map pin."
+      "guide": "Climb in through the roof of the run-down building. It's in the small graffitied laundry room, on the lower wall shelf above the wall safe, next to the washing machines."
     },
     {
       "id": "cd-03-06",
@@ -6049,15 +6052,16 @@
     },
     {
       "id": "cd-05-10",
+      "imageURL": "https://leonidalog.app/images/cards/cd-05-10.jpg",
       "title": "Duke King - Silver",
       "category": "cards",
       "subgroup": "Liberty City Swingers",
       "spoiler": true,
-      "nx": 0.4566,
-      "ny": 0.5706,
+      "nx": 0.4564,
+      "ny": 0.5704,
       "region": "Mariana County",
       "area": "Breakwater Quarry",
-      "guide": "One of the 24 cards in the Liberty City Swingers set. Follow the map pin."
+      "guide": "Inside the small site office: unlock its door first. It's on top of the filing cabinet under the window, next to a baseball. A security guard is nearby, so be quick."
     },
     {
       "id": "cd-05-11",
@@ -7028,15 +7032,16 @@
     },
     {
       "id": "cd-08-18",
+      "imageURL": "https://leonidalog.app/images/cards/cd-08-18.jpg",
       "title": "Samuel Buono - Silver",
       "category": "cards",
       "subgroup": "Los Santos Corkers",
       "spoiler": true,
-      "nx": 0.4693,
-      "ny": 0.6488,
+      "nx": 0.4699,
+      "ny": 0.6483,
       "region": "Mariana County",
       "area": "Grassrivers",
-      "guide": "One of the 24 cards in the Los Santos Corkers set. Follow the map pin."
+      "guide": "Climb the tall metal tower beside the petrol station by the highway. It's on the platform at the very top, by the railing."
     },
     {
       "id": "cd-08-19",
@@ -7064,15 +7069,16 @@
     },
     {
       "id": "cd-08-21",
+      "imageURL": "https://leonidalog.app/images/cards/cd-08-21.jpg",
       "title": "Terrence Jackson - Navy Blue",
       "category": "cards",
       "subgroup": "Los Santos Corkers",
       "spoiler": true,
-      "nx": 0.4517,
+      "nx": 0.4521,
       "ny": 0.6224,
       "region": "Mariana County",
       "area": "Breakwater Quarry",
-      "guide": "One of the 24 cards in the Los Santos Corkers set. Follow the map pin."
+      "guide": "On the station platform: on the ground at the end of the bench, next to a red holdall, under the \"We operate cameras\" sign."
     },
     {
       "id": "cd-08-22",
@@ -7514,7 +7520,7 @@
       "ny": 0.7756,
       "region": "Mariana County",
       "area": "Grassrivers",
-      "guide": "One of the 24 cards in the Los Santos Pounders set. Follow the map pin.",
+      "guide": "One of the 24 cards in the Los Santos Pounders set. Inside a trailer on the southwest shore of Cottonmouth Lake: it's in the safe. The photos on the trailer wall give the code, 44017.",
       "artImageURL": "https://leonidalog.app/images/cards/art/cd-10-07.jpg",
       "slot": 19
     },
@@ -7759,6 +7765,7 @@
     },
     {
       "id": "cd-11-03",
+      "imageURL": "https://leonidalog.app/images/cards/cd-11-03.jpg",
       "title": "Cherry O'Glade - Standard",
       "category": "cards",
       "subgroup": "Backyard Wrestling",
@@ -7767,7 +7774,7 @@
       "ny": 0.6331,
       "region": "Mariana County",
       "area": "Breakwater Quarry",
-      "guide": "One of the 12 cards in the Backyard Wrestling set. Follow the map pin."
+      "guide": "Inside the yellow train car: on the floor by the mattress, among the magazines next to the small cabinet."
     },
     {
       "id": "cd-11-04",
@@ -7907,6 +7914,7 @@
     },
     {
       "id": "cd-12-03",
+      "imageURL": "https://leonidalog.app/images/cards/cd-12-03.jpg",
       "title": "Angel - Silver",
       "category": "cards",
       "subgroup": "America's Next Top Hooker",
@@ -7915,7 +7923,7 @@
       "ny": 0.6156,
       "region": "Mariana County",
       "area": "Grassrivers",
-      "guide": "One of the 24 cards in the America's Next Top Hooker set. Follow the map pin."
+      "guide": "In a small walled-off corner with an air-con unit: jump over the wall to get in. It's on the ground by the folding chair, next to a magazine."
     },
     {
       "id": "cd-12-04",
@@ -7947,8 +7955,8 @@
       "category": "cards",
       "subgroup": "America's Next Top Hooker",
       "spoiler": true,
-      "nx": 0.4985,
-      "ny": 0.6458,
+      "nx": 0.4984,
+      "ny": 0.6460,
       "region": "Mariana County",
       "area": "Breakwater Quarry",
       "guide": "One of the 24 cards in the America's Next Top Hooker set. Follow the map pin."
@@ -7967,15 +7975,16 @@
     },
     {
       "id": "cd-12-08",
+      "imageURL": "https://leonidalog.app/images/cards/cd-12-08.jpg",
       "title": "Beverly - Bronze",
       "category": "cards",
       "subgroup": "America's Next Top Hooker",
       "spoiler": true,
-      "nx": 0.5668,
-      "ny": 0.3617,
+      "nx": 0.5667,
+      "ny": 0.3618,
       "region": "Leonard County",
       "area": "Belville",
-      "guide": "One of the 24 cards in the America's Next Top Hooker set. Follow the map pin."
+      "guide": "Climb all the way to the top of the tall lattice tower overlooking the water treatment works. It's on the top platform by the fallen chair, next to a magazine."
     },
     {
       "id": "cd-12-09",
@@ -8549,6 +8558,7 @@
     },
     {
       "id": "cd-14-13",
+      "imageURL": "https://leonidalog.app/images/cards/cd-14-13.jpg",
       "title": "Kadisha - Deep Red",
       "category": "cards",
       "subgroup": "Jack of Hearts Dancers",
@@ -8557,7 +8567,7 @@
       "ny": 0.6117,
       "region": "Mariana County",
       "area": "Breakwater Quarry",
-      "guide": "One of the 36 cards in the Jack of Hearts Dancers set. Follow the map pin."
+      "guide": "Inside the open boxcar beside the railway tracks: on the floor by the wall, next to a camo backpack and a magazine."
     },
     {
       "id": "cd-14-14",
@@ -8981,15 +8991,16 @@
     },
     {
       "id": "cd-15-11",
+      "imageURL": "https://leonidalog.app/images/cards/cd-15-11.jpg",
       "title": "Clarissa - Gold",
       "category": "cards",
       "subgroup": "Nine1Nine Dancers",
       "spoiler": true,
       "nx": 0.4317,
-      "ny": 0.5986,
+      "ny": 0.5982,
       "region": "Mariana County",
       "area": "Breakwater Quarry",
-      "guide": "One of the 36 cards in the Nine1Nine Dancers set. Follow the map pin."
+      "guide": "Climb the long yellow ladder to the high ledge overlooking the highway and railway. It's on the ground by the folding chair and the beer crate, next to a magazine."
     },
     {
       "id": "cd-15-12",
@@ -10043,15 +10054,16 @@
     },
     {
       "id": "cd-17-23",
+      "imageURL": "https://leonidalog.app/images/cards/cd-17-23.jpg",
       "title": "Right Wing - Red",
       "category": "cards",
       "subgroup": "Right Wing: America's Hero",
       "spoiler": true,
-      "nx": 0.4644,
-      "ny": 0.6458,
+      "nx": 0.4647,
+      "ny": 0.6456,
       "region": "Mariana County",
       "area": "Grassrivers",
-      "guide": "One of the 36 cards in the Right Wing: America's Hero set. Follow the map pin."
+      "guide": "In the back storage room (door marked Storage): on the lowest wall shelf, next to the Eclipse box, above the stack of Zesta drinks."
     },
     {
       "id": "cd-17-24",
@@ -13091,7 +13103,7 @@
       "category": "game-challenges",
       "subgroup": "Fitness",
       "spoiler": true,
-      "guide": "Fitness challenge. Use every type of gym equipment in one day.",
+      "guide": "Fitness challenge. Use every type of gym equipment in one in-game day. Types found so far: punch bag, kettlebell swings, dumbbell lifts, deadlifts, cable crossovers, dips, squats, pull-ups, exercise bike, treadmill, curls, shoulder press, EZ bar, leg extensions, lat pulldowns, hip thrusts and chest flys. This list isn't confirmed complete yet, so if the challenge doesn't tick, look for equipment you haven't used.",
       "iconURL": "https://leonidalog.app/images/challenges/ch-35.jpg"
     },
     {
@@ -16107,6 +16119,7 @@
     },
     {
       "id": "sj-goliath-global-quarry-railroad",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-goliath-global-quarry-railroad.jpg",
       "title": "Goliath Global Quarry Railroad",
       "category": "stunt-jumps",
       "subgroup": "Mariana County",
@@ -16114,7 +16127,8 @@
       "region": "Mariana County",
       "area": "Breakwater Quarry",
       "nx": 0.4666,
-      "ny": 0.6121
+      "ny": 0.6121,
+      "guide": "At the edge of the quarry by the railway: ride west up the sandy bank past the orange drum, towards the boxcars on the tracks."
     },
     {
       "id": "sj-cargo-road-construction",
@@ -16276,6 +16290,7 @@
     },
     {
       "id": "sj-goliath-global-quarry-storage",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-goliath-global-quarry-storage.jpg",
       "title": "Goliath Global Quarry Storage",
       "category": "stunt-jumps",
       "subgroup": "Mariana County",
@@ -16283,7 +16298,8 @@
       "region": "Mariana County",
       "area": "Breakwater Quarry",
       "nx": 0.4711,
-      "ny": 0.5845
+      "ny": 0.5845,
+      "guide": "In the quarry by the storage shed and white tank: ride straight up the big gravel mound along its worn track."
     },
     {
       "id": "sj-lake-leonida-lock-east",
@@ -16342,14 +16358,16 @@
     },
     {
       "id": "sj-goliath-global-quarry-conveyor",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-goliath-global-quarry-conveyor.jpg",
       "title": "Goliath Global Quarry Conveyor",
       "category": "stunt-jumps",
-      "subgroup": "Kelly County",
+      "subgroup": "Mariana County",
       "spoiler": true,
       "region": "Mariana County",
       "area": "Breakwater Quarry",
       "nx": 0.4598,
-      "ny": 0.5615
+      "ny": 0.5615,
+      "guide": "At the quarry works beside the railway: ride south up the big gravel pile in front of the plant, under the long conveyor."
     },
     {
       "id": "sj-waste-transfer-services-pond",
@@ -16673,6 +16691,7 @@
     },
     {
       "id": "sj-goliath-global-quarry-lakeside",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-goliath-global-quarry-lakeside.jpg",
       "title": "Goliath Global Quarry Lakeside",
       "category": "stunt-jumps",
       "subgroup": "Mariana County",
@@ -16680,7 +16699,8 @@
       "region": "Mariana County",
       "area": "North Mariana County",
       "nx": 0.4332,
-      "ny": 0.5796
+      "ny": 0.5796,
+      "guide": "At the quarry by the lake: ride north between the yellow barriers and up the sand ramp through the gap in the stone-block wall."
     },
     {
       "id": "sj-kalaga-roadside",
@@ -16761,6 +16781,7 @@
     },
     {
       "id": "sj-us-route-82-construction",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-us-route-82-construction.jpg",
       "title": "US Route 82 Construction",
       "category": "stunt-jumps",
       "subgroup": "Mariana County",
@@ -16768,7 +16789,8 @@
       "region": "Mariana County",
       "area": "Grassrivers",
       "nx": 0.4504,
-      "ny": 0.6283
+      "ny": 0.6283,
+      "guide": "The roadworks beside US Route 82, under the footbridge: ride up the big dirt mound by the digger, heading north."
     },
     {
       "id": "sj-anderson-murphy-construction",
@@ -17016,6 +17038,7 @@
     },
     {
       "id": "sj-goliath-global-quarry-heap",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-goliath-global-quarry-heap.jpg",
       "title": "Goliath Global Quarry Heap",
       "category": "stunt-jumps",
       "subgroup": "Mariana County",
@@ -17023,7 +17046,8 @@
       "region": "Mariana County",
       "area": "Breakwater Quarry",
       "nx": 0.4561,
-      "ny": 0.5876
+      "ny": 0.5876,
+      "guide": "In the quarry: ride up the rusty steel ramp on top of the rubble heap, between the two traffic cones, heading west."
     },
     {
       "id": "sj-downtown-mvp-park",
@@ -22787,7 +22811,10 @@
       "area": "Bobcat Key",
       "guide": "Clear the operation.",
       "revealedTitle": "Palmer Fishing Warehouse",
-      "revealedGuide": "Run by La Polilla Negra."
+      "revealedGuide": "Run by La Polilla Negra, on the southern tip of Bobcat Key west of Watson Bay. Get in through the gap in the west fence and head for the main building in the middle. The computer on the ground floor gives the safe code, 1886. Upstairs are the safe, the La Polilla Negra KZ-59 rifle on the north side and a Crowex Octane 'Elite' watch for Lucia on the table. Cash is usually around $4,400 to $6,400.",
+      "guideLinks": {
+        "La Polilla Negra KZ-59": "wp-la-polilla-negra-kz-59"
+      }
     },
     {
       "id": "go-12",
@@ -22995,7 +23022,10 @@
       "area": "Key Lento",
       "guide": "Clear the operation.",
       "revealedTitle": "Exotic Animals Front",
-      "revealedGuide": "Run by other criminals."
+      "revealedGuide": "Run by other criminals, behind the Three Sheets liquor store in Key Lento. Once the goons are dealt with, talk to the caged parrot in the yard: it points you to a hidden cash stash (Easter egg 5).",
+      "guideLinks": {
+        "Easter egg 5": "ee-05"
+      }
     },
     {
       "id": "go-28",
@@ -34905,6 +34935,14 @@
       "guide": "Sedan in the game's Vehicles log.",
       "stats": [
         {
+          "label": "Style",
+          "value": "Muscle"
+        },
+        {
+          "label": "Era",
+          "value": "1990s Classic"
+        },
+        {
           "label": "Mod shop",
           "value": "Muscle"
         },
@@ -34927,8 +34965,13 @@
         {
           "label": "Category",
           "value": "Sedans"
+        },
+        {
+          "label": "Log entry",
+          "value": "13 of 29"
         }
-      ]
+      ],
+      "slot": 13
     },
     {
       "id": "vh-karin-intruder",
@@ -35215,6 +35258,14 @@
       "guide": "Sedan in the game's Vehicles log.",
       "stats": [
         {
+          "label": "Era",
+          "value": "2000s Modern"
+        },
+        {
+          "label": "Mod shop",
+          "value": "Donk"
+        },
+        {
           "label": "Speed",
           "value": "4.0"
         },
@@ -35233,6 +35284,10 @@
         {
           "label": "Category",
           "value": "Sedans"
+        },
+        {
+          "label": "Log entry",
+          "value": "19 of 29"
         }
       ],
       "slot": 19
@@ -35648,6 +35703,10 @@
       "guide": "Sports car in the game's Vehicles log. It's on Randy's Wish List at Leonida Auto World. Its spawn cheat unlocks by finishing every combat challenge, for use once the story is done.",
       "stats": [
         {
+          "label": "Era",
+          "value": "2000s Modern"
+        },
+        {
           "label": "Mod shop",
           "value": "Luxury"
         },
@@ -35670,12 +35729,17 @@
         {
           "label": "Category",
           "value": "Sports cars"
+        },
+        {
+          "label": "Log entry",
+          "value": "1 of 13"
         }
       ],
       "guideLinks": {
         "Randy's Wish List": "sf-30",
         "combat challenge": "category:game-challenges#Combat"
-      }
+      },
+      "slot": 1
     },
     {
       "id": "vh-grotti-carbonizzare",
@@ -35826,6 +35890,10 @@
       "guide": "Sports car in the game's Vehicles log.",
       "stats": [
         {
+          "label": "Era",
+          "value": "2010s Modern"
+        },
+        {
           "label": "Mod shop",
           "value": "Luxury"
         },
@@ -35848,8 +35916,13 @@
         {
           "label": "Category",
           "value": "Sports cars"
+        },
+        {
+          "label": "Log entry",
+          "value": "5 of 13"
         }
-      ]
+      ],
+      "slot": 5
     },
     {
       "id": "vh-invetero-coquette-d10",
@@ -35909,6 +35982,10 @@
       "guide": "Sports car in the game's Vehicles log. One of the Ultimate Edition's classic cars. Randy adds it to his Wish List late on: it's at a mansion in Leaf Links, Vice Beach, and the key is in a bowl in the main house.",
       "stats": [
         {
+          "label": "Era",
+          "value": "1960s Antique"
+        },
+        {
           "label": "Mod shop",
           "value": "Luxury"
         },
@@ -35931,8 +36008,13 @@
         {
           "label": "Category",
           "value": "Sports cars"
+        },
+        {
+          "label": "Log entry",
+          "value": "8 of 13"
         }
-      ]
+      ],
+      "slot": 8
     },
     {
       "id": "vh-pfister-neon",
@@ -35945,6 +36027,10 @@
       "spoiler": true,
       "guide": "Sports car in the game's Vehicles log.",
       "stats": [
+        {
+          "label": "Era",
+          "value": "2020s Current"
+        },
         {
           "label": "Mod shop",
           "value": "Luxury"
@@ -35968,8 +36054,13 @@
         {
           "label": "Category",
           "value": "Sports cars"
+        },
+        {
+          "label": "Log entry",
+          "value": "9 of 13"
         }
-      ]
+      ],
+      "slot": 9
     },
     {
       "id": "vh-benefactor-schafter-v12",
@@ -36722,6 +36813,14 @@
       "guide": "SUV in the game's Vehicles log. It's on Randy's Wish List at Leonida Auto World.",
       "stats": [
         {
+          "label": "Style",
+          "value": "Luxury"
+        },
+        {
+          "label": "Era",
+          "value": "2020s Current"
+        },
+        {
           "label": "Mod shop",
           "value": "Luxury"
         },
@@ -36744,6 +36843,10 @@
         {
           "label": "Category",
           "value": "SUVs"
+        },
+        {
+          "label": "Log entry",
+          "value": "14 of 23"
         }
       ],
       "slot": 14,
@@ -37730,6 +37833,14 @@
       "guide": "Van in the game's Vehicles log.",
       "stats": [
         {
+          "label": "Style",
+          "value": "Motorhome"
+        },
+        {
+          "label": "Era",
+          "value": "1980s Classic"
+        },
+        {
           "label": "Speed",
           "value": "2.5"
         },
@@ -37748,6 +37859,10 @@
         {
           "label": "Category",
           "value": "Vans"
+        },
+        {
+          "label": "Log entry",
+          "value": "4 of 14"
         }
       ],
       "slot": 4
@@ -38015,6 +38130,14 @@
       "guide": "Van in the game's Vehicles log.",
       "stats": [
         {
+          "label": "Style",
+          "value": "Commercial"
+        },
+        {
+          "label": "Era",
+          "value": "1970s Antique"
+        },
+        {
           "label": "Speed",
           "value": "3.0"
         },
@@ -38033,8 +38156,13 @@
         {
           "label": "Category",
           "value": "Vans"
+        },
+        {
+          "label": "Log entry",
+          "value": "13 of 14"
         }
-      ]
+      ],
+      "slot": 13
     },
     {
       "id": "vh-79-bravado-youga-xl",
@@ -38064,7 +38192,8 @@
           "label": "Category",
           "value": "Vans"
         }
-      ]
+      ],
+      "slot": 14
     },
     {
       "id": "vh-97-interstate-benson",
@@ -38693,14 +38822,23 @@
       "guide": "Transport vehicle in the game's Vehicles log.",
       "stats": [
         {
+          "label": "Era",
+          "value": "2000s Modern"
+        },
+        {
           "label": "Speed",
           "value": "2.7"
         },
         {
           "label": "Category",
           "value": "Transport vehicles"
+        },
+        {
+          "label": "Log entry",
+          "value": "4 of 6"
         }
-      ]
+      ],
+      "slot": 4
     },
     {
       "id": "vh-taxi",
@@ -40529,12 +40667,43 @@
       "slot": 25
     },
     {
+      "id": "vh-2007-bravado-buffalo",
+      "title": "'07 Bravado Buffalo",
+      "category": "vehicles",
+      "subgroup": "Sedans",
+      "spoiler": true,
+      "guide": "Sedan in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Style",
+          "value": "Sports"
+        },
+        {
+          "label": "Era",
+          "value": "2000s Modern"
+        },
+        {
+          "label": "Mod shop",
+          "value": "Tuner"
+        },
+        {
+          "label": "Category",
+          "value": "Sedans"
+        },
+        {
+          "label": "Log entry",
+          "value": "4 of 29"
+        }
+      ],
+      "slot": 4
+    },
+    {
       "id": "vh-more-sedans",
       "title": "More sedans",
       "category": "vehicles",
       "subgroup": "Sedans",
       "spoiler": true,
-      "guide": "Count the sedans you've discovered that don't have their own row here yet: 27 of the 29 are listed above, so 2 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
+      "guide": "Count the sedans you've discovered that don't have their own row here yet: 28 of the 29 are listed above, so 1 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
       "tallyTarget": 3
     },
     {
@@ -40649,13 +40818,68 @@
       "slot": 12
     },
     {
+      "id": "vh-benefactor-spritz",
+      "title": "Benefactor Spritz",
+      "category": "vehicles",
+      "subgroup": "Vans",
+      "spoiler": true,
+      "guide": "Van in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Style",
+          "value": "Passenger"
+        },
+        {
+          "label": "Era",
+          "value": "2010s Current"
+        },
+        {
+          "label": "Category",
+          "value": "Vans"
+        },
+        {
+          "label": "Log entry",
+          "value": "10 of 14"
+        }
+      ],
+      "slot": 10
+    },
+    {
+      "id": "vh-95-willard-trotter",
+      "title": "'95 Willard Trotter",
+      "category": "vehicles",
+      "subgroup": "Vans",
+      "spoiler": true,
+      "guide": "Van in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Style",
+          "value": "Motorhome"
+        },
+        {
+          "label": "Era",
+          "value": "1990s Classic"
+        },
+        {
+          "label": "Category",
+          "value": "Vans"
+        },
+        {
+          "label": "Log entry",
+          "value": "11 of 14"
+        }
+      ],
+      "slot": 11
+    },
+    {
       "id": "vh-more-vans",
       "title": "More vans",
       "category": "vehicles",
       "subgroup": "Vans",
       "spoiler": true,
-      "guide": "Count the vans you've discovered that don't have their own row here yet: 12 of the 14 are listed above, so 2 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
-      "tallyTarget": 3
+      "guide": "Count the vans you've discovered that don't have their own row here yet: All 14 now have their own row, so this counter is retired. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
+      "tallyTarget": 3,
+      "retired": true
     },
     {
       "id": "vh-jobuilt-rubble",
@@ -40741,13 +40965,60 @@
       "slot": 1
     },
     {
+      "id": "vh-mtl-cr5013",
+      "title": "MTL CR5013",
+      "category": "vehicles",
+      "subgroup": "Industrial vehicles",
+      "spoiler": true,
+      "guide": "Industrial vehicle in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Era",
+          "value": "1980s Classic"
+        },
+        {
+          "label": "Category",
+          "value": "Industrial vehicles"
+        },
+        {
+          "label": "Log entry",
+          "value": "2 of 6"
+        }
+      ],
+      "slot": 2
+    },
+    {
+      "id": "vh-dump",
+      "title": "Dump",
+      "category": "vehicles",
+      "subgroup": "Industrial vehicles",
+      "spoiler": true,
+      "guide": "Industrial vehicle in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Era",
+          "value": "2000s Modern"
+        },
+        {
+          "label": "Category",
+          "value": "Industrial vehicles"
+        },
+        {
+          "label": "Log entry",
+          "value": "3 of 6"
+        }
+      ],
+      "slot": 3
+    },
+    {
       "id": "vh-more-industrial-vehicles",
       "title": "More industrial vehicles",
       "category": "vehicles",
       "subgroup": "Industrial vehicles",
       "spoiler": true,
-      "guide": "Count the industrial vehicles you've discovered that don't have their own row here yet: 4 of the 6 are listed above, so 2 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
-      "tallyTarget": 3
+      "guide": "Count the industrial vehicles you've discovered that don't have their own row here yet: All 6 now have their own row, so this counter is retired. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
+      "tallyTarget": 3,
+      "retired": true
     },
     {
       "id": "vh-mtl-pumper",
@@ -40860,12 +41131,58 @@
       "tallyTarget": 5
     },
     {
+      "id": "vh-whiffler-bus",
+      "title": "Whiffler Bus",
+      "category": "vehicles",
+      "subgroup": "Transport vehicles",
+      "spoiler": true,
+      "guide": "Transport vehicle in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Transport vehicles"
+        },
+        {
+          "label": "Log entry",
+          "value": "2 of 6"
+        }
+      ],
+      "slot": 2
+    },
+    {
+      "id": "vh-hulls-seacab",
+      "title": "Hulls Seacab",
+      "category": "vehicles",
+      "subgroup": "Transport vehicles",
+      "spoiler": true,
+      "guide": "Transport vehicle in the game's Vehicles log.",
+      "stats": [
+        {
+          "label": "Style",
+          "value": "Watercraft"
+        },
+        {
+          "label": "Era",
+          "value": "2010s Modern"
+        },
+        {
+          "label": "Category",
+          "value": "Transport vehicles"
+        },
+        {
+          "label": "Log entry",
+          "value": "5 of 6"
+        }
+      ],
+      "slot": 5
+    },
+    {
       "id": "vh-more-transport-vehicles",
       "title": "More transport vehicles",
       "category": "vehicles",
       "subgroup": "Transport vehicles",
       "spoiler": true,
-      "guide": "Count the transport vehicles you've discovered that don't have their own row here yet: 3 of the 6 are listed above, so 3 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
+      "guide": "Count the transport vehicles you've discovered that don't have their own row here yet: 5 of the 6 are listed above, so 1 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
       "tallyTarget": 3
     },
     {
@@ -41100,10 +41417,11 @@
       "category": "standout-vehicles",
       "subgroup": "Standout",
       "spoiler": true,
-      "nx": 0.4773,
-      "ny": 0.2789,
+      "nx": 0.4770,
+      "ny": 0.2787,
       "region": "Kelly County",
-      "area": "Thrillbilly Mud Club"
+      "area": "Thrillbilly Mud Club",
+      "guide": "Thrillbilly Mud Club: it's parked up on the roof."
     },
     {
       "id": "sv-05",
@@ -41760,10 +42078,11 @@
       "category": "standout-vehicles",
       "subgroup": "Standout",
       "spoiler": true,
-      "nx": 0.473,
-      "ny": 0.6307,
+      "nx": 0.4751,
+      "ny": 0.6304,
       "region": "Mariana County",
-      "area": "Breakwater Quarry"
+      "area": "Breakwater Quarry",
+      "guide": "Breakwater Quarry: it's parked inside the scoop container."
     },
     {
       "id": "sv-65",
@@ -47547,7 +47866,10 @@
           "label": "Category",
           "value": "Variants"
         }
-      ]
+      ],
+      "guideLinks": {
+        "Palmer Fishing Warehouse": "go-11"
+      }
     },
     {
       "id": "wp-marabunta-grande-kz-59",
@@ -49658,6 +49980,17 @@
       "revealedGuide": "At the construction site on the north side of Millport, at the south-east edge of Lake Tallaloko, go into the open orange shipping container and use the \"???\" item on the table. You're dropped into a hallucination maze: pull the lever at the first dead end and go back the other way, push through the room of hanging logs, then follow the pink-lit container hall. In the big room, climb the containers and floating objects and go through the hole lit blue, then keep jumping towards the exit sign and drop into the flooded tunnel (you can't drown). Follow it out to finish. Reward: a permanent stamina increase for that character, and the Mind Maze Left Leg Award tattoo unlocks to buy."
     },
     {
+      "id": "ee-27",
+      "title": "Easter egg 27",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "region": "Vice City",
+      "area": "Decor District",
+      "guide": "A cartoon-style joke on a wall in Vice City's Decor District. Any time, no mission needed, and there's no reward.",
+      "revealedTitle": "The painted tunnel",
+      "revealedGuide": "In the Decor District, by a flyover on the road out of Vice City towards Leonard County, a wall is painted to look like a road tunnel under a bridge. From street level it looks real, but it's solid: drive into it and you crash hard, which can be fatal mid-heist. It's a nod to the Looney Tunes painted-tunnel gag. Nothing to unlock."
+    },
+    {
       "id": "mu-1",
       "title": "Loophole Architecture",
       "category": "murals-1010",
@@ -50650,7 +50983,8 @@
           "sf-39",
           "sf-52",
           "sf-53",
-          "sf-55"
+          "sf-55",
+          "sf-51"
         ]
       },
       "tr-21": {
