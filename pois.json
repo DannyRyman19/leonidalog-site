@@ -1,9 +1,10 @@
 {
-  "version": 89,
+  "version": 90,
   "ads": {
     "rewarded": true,
     "interstitial": true,
-    "interstitialOnItemExit": true
+    "interstitialOnItemExit": true,
+    "interstitialGraceDays": 0
   },
   "notice": {
     "id": "early-days-1",
