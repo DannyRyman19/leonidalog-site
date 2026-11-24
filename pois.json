@@ -1,5 +1,5 @@
 {
-  "version": 101,
+  "version": 102,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -373,7 +373,7 @@
     },
     {
       "id": "vehicle-requests-randy",
-      "label": "Vehicle requests (1)",
+      "label": "Randy's Wish List",
       "symbol": "list.bullet.clipboard.fill",
       "colorHex": "F08A5D",
       "verb": "delivered",
@@ -381,11 +381,11 @@
       "revealedSubgroups": {
         "Vehicle requests (1)": "Randy's Wish List"
       },
-      "intro": "22 cars a stranger asks you to steal and deliver, open from chapter 3. Scan high-end cars with WAiNK to see if they're on the list; cars in better shape pay more. A delivered car also ticks its model in the Vehicles log."
+      "intro": "22 cars Randy asks you to steal and deliver, open from chapter 3. Scan high-end cars with WAiNK to see if they're on the list; cars in better shape pay more. A delivered car also ticks its model in the Vehicles log."
     },
     {
       "id": "vehicle-requests-moses",
-      "label": "Vehicle requests (2)",
+      "label": "Moses's Requests",
       "symbol": "key.fill",
       "colorHex": "6FC2B0",
       "verb": "delivered",
@@ -393,7 +393,7 @@
       "revealedSubgroups": {
         "Vehicle requests (2)": "Moses's requests"
       },
-      "intro": "7 cars a stranger asks you to steal and deliver, open from chapter 2. A delivered car also ticks its model in the Vehicles log."
+      "intro": "7 cars Moses asks you to steal and deliver, open from chapter 2. A delivered car also ticks its model in the Vehicles log."
     },
     {
       "id": "wyman-classic-cars",
