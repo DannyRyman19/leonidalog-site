@@ -1,5 +1,5 @@
 {
-  "version": 93,
+  "version": 95,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -1203,7 +1203,7 @@
         }
       ],
       "tallyTarget": 8,
-      "revealedGuide": "Finish 8 strangers' mission strands. Only some strands count: the side work of main contacts such as Moses, Tyrone, Yasmani, Andy, Billy and Eddie doesn't. Confirmed so far are Kirk, Kyle, Yago and Pilot Pete; the rest are still being worked out. The game's own trophy list shows your count. Everything stays open after the story."
+      "revealedGuide": "Finish 8 strangers' mission strands. Only some strands count: the side work of main contacts such as Moses, Tyrone, Yasmani, Andy, Billy and Eddie doesn't. Confirmed so far are Kirk, Kyle, Yago, Pilot Pete, Freddie, Alvan and Dr. Merle; the rest are still being worked out. The game's own trophy list shows your count. Everything stays open after the story."
     },
     {
       "id": "tr-26",
@@ -3037,7 +3037,7 @@
       "guide": "Strangers & Freaks side mission, strand 4. Unlocks in chapter 2.",
       "revealedTitle": "Steal Vehicles for Moses",
       "revealedGivenBy": "Moses",
-      "revealedGuide": "Moses's strand, mission 1 of 1. Unlocks in chapter 2. Doesn't count towards the Strangers & Freaks trophy. Once every car on Moses's list is delivered, a free Sultan waits for you in the small garage beside Watkins Auto Parts in Port Gellhorn.",
+      "revealedGuide": "Moses's strand, mission 1 of 2. Unlocks in chapter 2. Doesn't count towards the Strangers & Freaks trophy. Once every car on Moses's list is delivered, a free Sultan waits for you in the small garage beside Watkins Auto Parts in Port Gellhorn.",
       "linkedCategories": [
         "standout-vehicles"
       ],
@@ -3809,6 +3809,100 @@
         "No Flusher poster": "category:waink#No Flusher tags",
         "Frank's Waffles": "su-frank-s-waffles"
       }
+    },
+    {
+      "id": "sf-53",
+      "title": "Side mission 53",
+      "category": "stranger-missions",
+      "givenBy": "Strand 20",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 20. Can start in any chapter.",
+      "revealedTitle": "Retest Freddie's Defenses",
+      "revealedGivenBy": "Freddie",
+      "revealedGuide": "Freddie's strand. Jason or Lucia, any chapter. Counts towards the Strangers & Freaks trophy.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
+    },
+    {
+      "id": "sf-54",
+      "title": "Side mission 54",
+      "category": "stranger-missions",
+      "chapter": 2,
+      "givenBy": "Strand 21",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 21. Unlocks in chapter 2.",
+      "revealedTitle": "Gellhorn's Missing Tourists",
+      "revealedGivenBy": "Alvan",
+      "revealedGuide": "Alvan's strand, mission 1 of 2. Unlocks in chapter 2. Counts towards the Strangers & Freaks trophy. It's part of the missing persons questline in Port Gellhorn (see Easter egg 13).",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25",
+        "Easter egg 13": "ee-13"
+      }
+    },
+    {
+      "id": "sf-55",
+      "title": "Side mission 55",
+      "category": "stranger-missions",
+      "chapter": 2,
+      "givenBy": "Strand 21",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 21. Comes after the strand's earlier mission.",
+      "revealedTitle": "Missing Person (Return to the Trophy Room)",
+      "revealedGivenBy": "Alvan",
+      "revealedGuide": "Alvan's strand, mission 2 of 2. Unlocks in chapter 2. Counts towards the Strangers & Freaks trophy. Follows Gellhorn's Missing Tourists. Part of the same questline as Easter egg 13.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25",
+        "Gellhorn's Missing Tourists": "sf-54",
+        "Easter egg 13": "ee-13"
+      }
+    },
+    {
+      "id": "sf-56",
+      "title": "Side mission 56",
+      "category": "stranger-missions",
+      "chapter": 2,
+      "givenBy": "Strand 04",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 4. Comes after the strand's earlier mission.",
+      "revealedTitle": "Collect Moses' Gift",
+      "revealedGivenBy": "Moses",
+      "revealedGuide": "Moses's strand, mission 2 of 2. Unlocks in chapter 2, after Steal Vehicles for Moses. Doesn't count towards the Strangers & Freaks trophy.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25",
+        "Steal Vehicles for Moses": "sf-09"
+      }
+    },
+    {
+      "id": "sf-57",
+      "title": "Side mission 57",
+      "category": "stranger-missions",
+      "chapter": 1,
+      "givenBy": "Strand 16",
+      "spoiler": true,
+      "guide": "Optional side mission, strand 16. Unlocks in chapter 1.",
+      "revealedTitle": "Catch a Bigger Fish",
+      "revealedGivenBy": "Cal",
+      "revealedGuide": "Cal's strand. Unlocks in chapter 1. Optional: it doesn't count towards the Strangers & Freaks trophy.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      }
+    },
+    {
+      "id": "sf-58",
+      "title": "Side mission 58",
+      "category": "stranger-missions",
+      "chapter": 4,
+      "givenBy": "Strand 22",
+      "spoiler": true,
+      "guide": "Optional side mission, strand 22. Unlocks in chapter 4. Time-sensitive.",
+      "revealedTitle": "This is a Free Call From... (Pick up Shayna)",
+      "revealedGivenBy": "Shayna",
+      "revealedGuide": "Shayna's strand. Unlocks in chapter 4. Lucia only. Time-sensitive and missable. Doesn't count towards the Strangers & Freaks trophy.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25"
+      },
+      "missable": true
     },
     {
       "id": "tk-optional-tasks",
@@ -6772,7 +6866,7 @@
       "ny": 0.6085,
       "region": "Vice-Dale County",
       "area": "Peacock Bay",
-      "guide": "One of the 24 cards in the Los Santos Corkers set. Follow the map pin."
+      "guide": "One of the 24 cards in the Los Santos Corkers set. At the Peacock Bay mall with the Nola shop: climb to the rooftop tower at its northwest corner (the Aurora Theaters tower); the card sits on the top railing."
     },
     {
       "id": "cd-08-05",
@@ -6784,7 +6878,7 @@
       "ny": 0.4776,
       "region": "Vice-Dale County",
       "area": "Ocean Beach",
-      "guide": "One of the 24 cards in the Los Santos Corkers set. Follow the map pin."
+      "guide": "One of the 24 cards in the Los Santos Corkers set. Ocean Beach's big park: at the baseball field in the northwest corner, on the ground in the west dugout beside a gym bag."
     },
     {
       "id": "cd-08-06",
@@ -6820,7 +6914,7 @@
       "ny": 0.384,
       "region": "Leonard County",
       "area": "Belville",
-      "guide": "One of the 24 cards in the Los Santos Corkers set. Follow the map pin."
+      "guide": "One of the 24 cards in the Los Santos Corkers set. Western Belville: break into the garage of the westernmost house on the northern row; the card is on the counter along the side wall."
     },
     {
       "id": "cd-08-09",
@@ -10034,6 +10128,7 @@
     },
     {
       "id": "cd-17-29",
+      "imageURL": "https://leonidalog.app/images/cards/cd-17-29.jpg",
       "title": "Right Wing's Truck - Red",
       "category": "cards",
       "subgroup": "Right Wing: America's Hero",
@@ -10042,7 +10137,7 @@
       "ny": 0.2778,
       "region": "Kelly County",
       "area": "Thrillbilly Mud Club",
-      "guide": "One of the 36 cards in the Right Wing: America's Hero set. Follow the map pin."
+      "guide": "Thrillbilly Mud Club: climb the wooden viewing tower overlooking the dirt track. It's on top of the wooden post by the railing, next to a cool box."
     },
     {
       "id": "cd-17-30",
@@ -14558,7 +14653,7 @@
       "category": "waink",
       "subgroup": "No Flusher tags",
       "spoiler": true,
-      "nx": 0.7500,
+      "nx": 0.75,
       "ny": 0.4663,
       "guide": "Ocean Beach: on the sidewalk on Cabega St, outside the Tootsie Katz Shrimp House. Scan it with WAiNK.",
       "region": "Vice-Dale County",
@@ -42222,7 +42317,8 @@
       "nx": 0.4942,
       "ny": 0.4383,
       "region": "Kelly County",
-      "area": "Buckskin Swamp"
+      "area": "Buckskin Swamp",
+      "guide": "Pays $3,350. The silver off-roader in a group driving around Buckskin Swamp. Talk to the driver so they stop and get out, then jump in. It's a one-seater, and the group chases you."
     },
     {
       "id": "sv-moses-03",
@@ -42233,7 +42329,8 @@
       "nx": 0.3271,
       "ny": 0.3396,
       "region": "Kelly County",
-      "area": "Port Gellhorn"
+      "area": "Port Gellhorn",
+      "guide": "Pays $1,850. In the driveway of a house in the east of the search area in south-west Port Gellhorn, being towed away. Talking to the tow driver won't work: knock him out, then lower the truck off the hook from the back."
     },
     {
       "id": "sv-moses-04",
@@ -42244,7 +42341,8 @@
       "nx": 0.5185,
       "ny": 0.3295,
       "region": "Kelly County",
-      "area": "Ambrosia"
+      "area": "Ambrosia",
+      "guide": "Pays $6,310. The orange bike on the ground floor of the central garage at a gang operation site in Ambrosia, where enemies shoot on sight. For a quieter way in, climb the green container north of the fence and jump over."
     },
     {
       "id": "sv-moses-05",
@@ -42255,7 +42353,8 @@
       "nx": 0.2865,
       "ny": 0.2939,
       "region": "Kelly County",
-      "area": "Draper Island"
+      "area": "Draper Island",
+      "guide": "Pays $1,500. In a garage at the west end of the building on Draper Island's south edge; go in by the north door and open the garage door with the button beside it. Park before the security gates and hop the fences to stay quiet."
     },
     {
       "id": "sv-moses-06",
@@ -42266,7 +42365,8 @@
       "nx": 0.4164,
       "ny": 0.1745,
       "region": "Lummox County",
-      "area": "Grayson"
+      "area": "Grayson",
+      "guide": "Pays $4,200. In the shed east of a house north-east of Grayson, where armed locals hang out. The shed's side-door code, 2727, is on signs inside the main trailer; open the garage door with the button on the right to drive out."
     },
     {
       "id": "sv-moses-07",
@@ -42277,7 +42377,8 @@
       "nx": 0.3449,
       "ny": 0.3852,
       "region": "Kelly County",
-      "area": "Port Gellhorn"
+      "area": "Port Gellhorn",
+      "guide": "Pays $1,400. In the driveway of the middle house in the south Port Gellhorn neighbourhood. Calm the barking dog in the yard, or just drive off."
     },
     {
       "id": "sv-wyman-01",
@@ -49397,7 +49498,8 @@
       "revealedTitle": "Back to Vice City (Tommy's shirt and bike)",
       "revealedGuide": "Climb the radio tower in Key Lento: upstairs, a room has posters for LPL, the power company, and one of a controller with the words \"lose track of time\". Flip the power switch and press the button for a classic Vice City sound. Each of the 12 LPL substations around the map has a letter on the wall plus buttons and levers; together the letters spell \"Life is passing me by\", the old Vice City cheat. At the substations, enter that cheat using the controls (triangle = up, circle = right, square = left, L1 = dot) in order, without fast travelling. A text then sends you to Reactor 2 at the Tortoise Head power plant between 7 PM and 6 AM. Go inside to find a portal back to 2002 Vice City; leave again to unlock Tommy Vercetti's shirt and his bike. Reported by one creator so far; not yet confirmed by other guides.",
       "region": "Vice-Dale County",
-      "area": "Tortoise Head Power Plant"
+      "area": "Tortoise Head Power Plant",
+      "retired": true
     },
     {
       "id": "ee-12",
@@ -49406,7 +49508,11 @@
       "spoiler": true,
       "guide": "A long chain of clues across Leonida's power network that ends with a trip back to an earlier Vice City. Best tried by helicopter, from chapter 3 when the whole map is open.",
       "revealedTitle": "The 2002 Vice City portal",
-      "revealedGuide": "Start at the Badger R&D radio tower in Key Lento: flip the power switch and press the button until the TV reads CLUB MALIBU. Then visit the 12 LPL substations in this order and use the button or lever marked with each stop's letter (together they spell an old Vice City cheat): Downtown Vice City, Balsero, Key Lento, north Vice Beach, North Vice City, Port Gellhorn, Hamlet, Gloriana Key, Hamlet, Port Gellhorn, Hamlet, then the one by Breakwater Quarry south-west of the airport. Fly between them, because fast travel resets your progress. A text from an unknown number then points you to Reactor 2 at the LPL Turtle Head power station east of Hamlet. Go between 7 PM and 6 AM and step through the portal as Jason to land in a PS2-era Malibu Club and meet Kent Paul. You come away with Tommy Vercetti's Hawaiian shirt (some guides say his motorbike too)."
+      "revealedGuide": "Start at the Badger R&D radio tower in Key Lento: flip the power switch and press the button until the TV reads CLUB MALIBU. Then visit the 12 LPL substations in this order and use the button or lever marked with each stop's letter (together they spell an old Vice City cheat): Downtown Vice City, Balsero, Key Lento, Penmarch Isle (Washington Beach), Crosstown, Port Gellhorn, Hamlet, Gloriana Key, Hamlet, the southern tip of Port Gellhorn, Hamlet, then North Mariana County (one guide places this last one by Breakwater Quarry, south-west of the airport). Fly between them, because fast travel resets your progress. A text from an unknown number then points you to Reactor 2 at the LPL Turtle Head power station east of Hamlet. Go between 7 PM and 6 AM and pull the lever beside the portal to go through: you land in a PS2-era Malibu Club and meet Kent Paul. Leaving again unlocks Tommy Vercetti's blue Hawaiian shirt and the American Glory motorbike for both Jason and Lucia.",
+      "nx": 0.591,
+      "ny": 0.703,
+      "region": "Vice-Dale County",
+      "area": "Tortoise Head Power Plant"
     },
     {
       "id": "ee-13",
@@ -49466,7 +49572,7 @@
       "region": "Lummox County",
       "guide": "A deadly game on a remote island in Lummox County that you can only reach by water. Go alone and well prepared.",
       "revealedTitle": "The Hyde Island hunt",
-      "revealedGuide": "Take a boat to the south of Hyde Island near the Moreau River and explore it alone until a tranquilliser dart knocks you out. You wake in a shipping container without your weapons and with an explosive collar on, while a figure on a TV explains the rules. When the countdown ends, grab weapons from the lit stashes (a shotgun works well) and kill the hunter. Don't swim away or cross the fence. Afterwards, collect your gear from the boathouse on the west shore; you leave with a cash payout."
+      "revealedGuide": "Take a boat to the south of Hyde Island near the Moreau River and explore it alone until a tranquilliser dart knocks you out. You wake in a shipping container without your weapons and with an explosive collar on, while a figure on a TV explains the rules. When the countdown ends, grab weapons from the lit stashes (a shotgun works well) and kill the hunter. Don't swim away or cross the fence. Afterwards, collect your gear from the boathouse on the west shore; you leave with $30,000 ($15,000 by BuckMe and $15,000 in cash). It can also start from a random event in Vice City: help a woman load a couch into a truck and you're taken to the island."
     },
     {
       "id": "ee-19",
@@ -49540,6 +49646,16 @@
       "guideLinks": {
         "UFO abduction": "ee-01"
       }
+    },
+    {
+      "id": "ee-26",
+      "title": "Easter egg 26",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "region": "Lummox County",
+      "guide": "A strange snack at a construction site in Lummox County leads somewhere unexpected. Any chapter, either character. The reward is a permanent boost.",
+      "revealedTitle": "The mushroom trip",
+      "revealedGuide": "At the construction site on the north side of Millport, at the south-east edge of Lake Tallaloko, go into the open orange shipping container and use the \"???\" item on the table. You're dropped into a hallucination maze: pull the lever at the first dead end and go back the other way, push through the room of hanging logs, then follow the pink-lit container hall. In the big room, climb the containers and floating objects and go through the hole lit blue, then keep jumping towards the exit sign and drop into the flooded tunnel (you can't drown). Follow it out to finish. Reward: a permanent stamina increase for that character, and the Mind Maze Left Leg Award tattoo unlocks to buy."
     },
     {
       "id": "mu-1",
@@ -50531,7 +50647,10 @@
           "sf-20",
           "sf-30",
           "sf-33",
-          "sf-39"
+          "sf-39",
+          "sf-52",
+          "sf-53",
+          "sf-55"
         ]
       },
       "tr-21": {
