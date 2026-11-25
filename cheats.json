@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 3,
   "cheats": [
     {
       "id": "cash-250k",
@@ -43,6 +43,28 @@
         "DOWN",
         "UP",
         "DOWN",
+        "UP"
+      ]
+    },
+    {
+      "id": "raise-wanted",
+      "group": "player",
+      "name": {
+        "en": "Raise Wanted Level"
+      },
+      "detail": {
+        "en": "Raises your wanted level."
+      },
+      "note": {
+        "en": "Lose a 3-star wanted level 50 times."
+      },
+      "pad": [
+        "LEFT",
+        "DOWN",
+        "RIGHT",
+        "DOWN",
+        "UP",
+        "RIGHT",
         "UP"
       ]
     },
@@ -94,6 +116,31 @@
         "UP",
         "DOWN",
         "DOWN"
+      ]
+    },
+    {
+      "id": "drunk",
+      "group": "player",
+      "name": {
+        "en": "Drunk"
+      },
+      "detail": {
+        "en": "Makes your character drunk."
+      },
+      "note": {
+        "en": "Spend $2,500 on alcohol."
+      },
+      "pad": [
+        "UP",
+        "LEFT",
+        "RIGHT",
+        "UP",
+        "UP",
+        "LEFT",
+        "RIGHT",
+        "UP",
+        "LEFT",
+        "RIGHT"
       ]
     },
     {
@@ -404,6 +451,56 @@
         "LEFT",
         "LEFT",
         "RIGHT"
+      ]
+    },
+    {
+      "id": "filter-videotape",
+      "group": "world",
+      "name": {
+        "en": "Videotape"
+      },
+      "detail": {
+        "en": "Screen filter."
+      },
+      "note": {
+        "en": "How to unlock it isn't confirmed yet."
+      },
+      "pad": [
+        "DOWN",
+        "DOWN",
+        "UP",
+        "RIGHT",
+        "RIGHT",
+        "UP",
+        "LEFT",
+        "LEFT",
+        "RIGHT",
+        "DOWN"
+      ]
+    },
+    {
+      "id": "filter-dark-mirror",
+      "group": "world",
+      "name": {
+        "en": "Dark Mirror"
+      },
+      "detail": {
+        "en": "Screen filter."
+      },
+      "note": {
+        "en": "How to unlock it isn't confirmed yet."
+      },
+      "pad": [
+        "DOWN",
+        "DOWN",
+        "UP",
+        "RIGHT",
+        "RIGHT",
+        "UP",
+        "LEFT",
+        "LEFT",
+        "RIGHT",
+        "LEFT"
       ]
     }
   ]
