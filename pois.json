@@ -1,5 +1,5 @@
 {
-  "version": 131,
+  "version": 132,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -409,6 +409,7 @@
       "colorHex": "5AA9E6",
       "verb": "found",
       "collectible": true,
+      "extra": true,
       "intro": "Unique vehicles parked at set spots around Leonida. Most are pinned on the map. Finding one also ticks its model in the Vehicles log, where that model is listed. The car request lists and Wyman's classic cars are lists of their own."
     },
     {
@@ -418,6 +419,7 @@
       "colorHex": "F08A5D",
       "verb": "delivered",
       "collectible": true,
+      "extra": true,
       "revealedSubgroups": {
         "Vehicle requests (1)": "Randy's Wish List"
       },
@@ -430,6 +432,7 @@
       "colorHex": "6FC2B0",
       "verb": "delivered",
       "collectible": true,
+      "extra": true,
       "revealedSubgroups": {
         "Vehicle requests (2)": "Moses's requests"
       },
@@ -442,6 +445,7 @@
       "colorHex": "C27C4E",
       "verb": "restored",
       "collectible": true,
+      "extra": true,
       "intro": "5 classic cars Wyman rebuilds for his [Classic Car Collection](poi:ac-classic-cars). Scan each car's wrecked parts with WAiNK, then pay him for the rebuild. The fifth needs no parts: it's yours once the other four are done."
     },
     {
@@ -451,6 +455,7 @@
       "colorHex": "5AA9E6",
       "verb": "owned",
       "collectible": true,
+      "extra": true,
       "complete": true,
       "intro": "13 garages. 8 are for sale in the Vice City Real Estate app, which arrives in chapter 2: the [Little Boxes](poi:tr-54) trophy needs all 8, $160,000 in all. The other 5 come with the story, one of them hidden in chapter 3. Each parking spot lets you register one more vehicle."
     },
@@ -461,6 +466,7 @@
       "colorHex": "35E0C8",
       "verb": "joined",
       "collectible": true,
+      "extra": true,
       "complete": true,
       "intro": "9 gyms, all in Vice City and Vice Beach. Membership is a one-off fee at the front desk, from $250 to $1,800 ($6,600 for all 8 paid ones; Muscle Sands is free), and Jason and Lucia share it. 100% doesn't need them all: joining any one paid gym does the Gym Member challenge, which ticks itself here. Working out raises Strength and Cardio."
     },
@@ -492,6 +498,7 @@
       "colorHex": "B98CFF",
       "verb": "found",
       "collectible": true,
+      "extra": true,
       "intro": "Hidden secrets and nods to other games. They don't count towards 100%. Names stay hidden until you've found them. More are added as guides confirm them."
     },
     {
@@ -501,6 +508,7 @@
       "colorHex": "FF7AB8",
       "verb": "scanned",
       "collectible": true,
+      "extra": true,
       "intro": "AHOL's Geographies of Trash: 112 spray-painted bits of junk around Leonida, in 11 types. Scan each one with WAiNK when the prompt shows up to complete the collection."
     },
     {
@@ -510,6 +518,7 @@
       "colorHex": "FFB347",
       "verb": "photographed",
       "collectible": true,
+      "extra": true,
       "intro": "Five painted murals around Vice City and Vice Beach to photograph with your phone camera (not WAiNK). They don't count towards 100%. Photograph all five and you get a clue to a keypad garage on the south tip of Salton, north of the Slator Towing robbery spot: code 1010 opens it, and the unique 1010 Cheetah inside is yours to register or sell."
     },
     {
@@ -519,6 +528,7 @@
       "colorHex": "E0A3FF",
       "verb": "done",
       "collectible": true,
+      "extra": true,
       "intro": "Promo stunts for Papa Audacity's coin, marked PA on the game map once his strand (from The Unknown Stuntman) is under way. The first five are stunt jumps in one of AudaCity's own vehicles; finishing those opens meet-ups with an AudaCity engineer for bigger stunts. They don't count towards 100%. More are added as they're found."
     }
   ],
@@ -1044,6 +1054,7 @@
           "value": "100"
         }
       ],
+      "tallyTarget": 100,
       "revealedGuide": "Reach 100% on the game's own 100% Completion checklist (Progress, Stats, 100% Completion, open after the story; what you did before counts). It's nowhere near everything: about 60% of the game. You need, for example, 200 of the 277 base model vehicles, 100 of the 255 animals, 70 of the 80 challenges and any 100 optional missions. Nothing on it is missable. The Path to 100% card in this app follows the same list.",
       "guideLinks": {
         "base model vehicles": "dc-vehicles",
@@ -53172,6 +53183,21 @@
         "name": "Side missions",
         "tier": "hundredPlus",
         "color": "FFD166"
+      },
+      {
+        "name": "Collections",
+        "tier": "hundredPlus",
+        "color": "FF9E4A"
+      },
+      {
+        "name": "Stunts",
+        "tier": "hundredPlus",
+        "color": "FFB547"
+      },
+      {
+        "name": "Vehicles",
+        "tier": "hundredPlus",
+        "color": "F08A5D"
       }
     ],
     "milestones": [
@@ -53662,6 +53688,406 @@
         "group": "Side missions",
         "tier": "hundredPlus",
         "section": "singlePlayer"
+      },
+      {
+        "id": "mp-cards",
+        "text": "Find all 480 trading cards",
+        "target": 480,
+        "link": {
+          "type": "category",
+          "category": "cards"
+        },
+        "group": "Collections",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-waink",
+        "text": "Scan all 93 WAiNK landmarks, curiosities, sculptures and billboards",
+        "target": 93,
+        "link": {
+          "type": "category",
+          "category": "waink"
+        },
+        "group": "Collections",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-no-flusher",
+        "text": "Scan all 15 No Flusher tags",
+        "target": 15,
+        "link": {
+          "type": "category",
+          "category": "no-flusher"
+        },
+        "group": "Collections",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-animals",
+        "text": "Study all 255 animals",
+        "target": 255,
+        "link": {
+          "type": "category",
+          "category": "animals"
+        },
+        "group": "Collections",
+        "tier": "hundredPlus",
+        "section": "singlePlayer",
+        "breakdown": true
+      },
+      {
+        "id": "mp-weapons",
+        "text": "Collect all 196 weapons and variants",
+        "target": 196,
+        "link": {
+          "type": "category",
+          "category": "weapons"
+        },
+        "group": "Collections",
+        "tier": "hundredPlus",
+        "section": "singlePlayer",
+        "breakdown": true
+      },
+      {
+        "id": "mp-kenton",
+        "text": "Find all 41 of Kenton's treasures",
+        "target": 41,
+        "link": {
+          "type": "category",
+          "category": "kenton-sets"
+        },
+        "group": "Collections",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-street-art",
+        "text": "Scan all 112 pieces of street art",
+        "target": 112,
+        "link": {
+          "type": "category",
+          "category": "street-art"
+        },
+        "group": "Collections",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-murals",
+        "text": "Photograph all 5 1010 murals",
+        "target": 5,
+        "link": {
+          "type": "category",
+          "category": "murals-1010"
+        },
+        "group": "Collections",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-stunt-jumps",
+        "text": "Land all 130 stunt jumps",
+        "target": 130,
+        "link": {
+          "type": "category",
+          "category": "stunt-jumps"
+        },
+        "group": "Stunts",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-under-bridges",
+        "text": "Fly under all 202 bridges",
+        "target": 202,
+        "link": {
+          "type": "category",
+          "category": "under-bridges"
+        },
+        "group": "Stunts",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-knife-flights",
+        "text": "Do all 40 knife flights",
+        "target": 40,
+        "link": {
+          "type": "category",
+          "category": "knife-flights"
+        },
+        "group": "Stunts",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-base-jumps",
+        "text": "Do all 25 base jumps",
+        "target": 25,
+        "link": {
+          "type": "category",
+          "category": "base-jumps"
+        },
+        "group": "Stunts",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-audacity",
+        "text": "Do all 8 AudaCity stunts",
+        "target": 8,
+        "link": {
+          "type": "category",
+          "category": "audacity-stunts"
+        },
+        "group": "Stunts",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-hoops",
+        "text": "Score at all 100 basketball hoops",
+        "target": 100,
+        "link": {
+          "type": "category",
+          "category": "hoops"
+        },
+        "group": "Activities",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-vehicles",
+        "text": "Discover all 277 base model vehicles",
+        "target": 277,
+        "link": {
+          "type": "category",
+          "category": "vehicles"
+        },
+        "group": "Vehicles",
+        "tier": "hundredPlus",
+        "section": "singlePlayer",
+        "breakdown": true
+      },
+      {
+        "id": "mp-standouts",
+        "text": "Find all 89 standout vehicles",
+        "target": 89,
+        "link": {
+          "type": "category",
+          "category": "standout-vehicles"
+        },
+        "group": "Vehicles",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-randy",
+        "text": "Deliver all 22 cars on Randy's Wish List",
+        "target": 22,
+        "link": {
+          "type": "category",
+          "category": "vehicle-requests-randy"
+        },
+        "group": "Vehicles",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-moses",
+        "text": "Deliver all 7 of Moses's requests",
+        "target": 7,
+        "link": {
+          "type": "category",
+          "category": "vehicle-requests-moses"
+        },
+        "group": "Vehicles",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-wyman",
+        "text": "Restore all 5 of Wyman's classic cars",
+        "target": 5,
+        "link": {
+          "type": "category",
+          "category": "wyman-classic-cars"
+        },
+        "group": "Vehicles",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-challenges",
+        "text": "Complete all 80 challenges",
+        "target": 80,
+        "link": {
+          "type": "category",
+          "category": "game-challenges"
+        },
+        "group": "Activities",
+        "tier": "hundredPlus",
+        "section": "singlePlayer",
+        "breakdown": true
+      },
+      {
+        "id": "mp-meditation",
+        "text": "Meditate at all 18 spots",
+        "target": 18,
+        "link": {
+          "type": "category",
+          "category": "meditation"
+        },
+        "group": "Activities",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-pool",
+        "text": "Beat all 7 pool opponents",
+        "target": 7,
+        "link": {
+          "type": "category",
+          "category": "pool"
+        },
+        "group": "Activities",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-mini-golf",
+        "text": "Play all 3 mini golf courses",
+        "target": 3,
+        "link": {
+          "type": "category",
+          "category": "mini-golf"
+        },
+        "group": "Activities",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-race-challenges",
+        "text": "Gold all 13 race challenges",
+        "target": 13,
+        "link": {
+          "type": "category",
+          "category": "race-challenges"
+        },
+        "group": "Activities",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-smash-grabs",
+        "text": "Do all 35 Smash 'N' Grabs",
+        "target": 35,
+        "link": {
+          "type": "category",
+          "category": "smash-grabs"
+        },
+        "group": "Activities",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-magazines",
+        "text": "Find all 26 magazines, books and comics",
+        "target": 26,
+        "link": {
+          "type": "category",
+          "category": "magazines"
+        },
+        "group": "Collections",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-book-swaps",
+        "text": "Use all 7 book swaps",
+        "target": 7,
+        "link": {
+          "type": "category",
+          "category": "book-swaps"
+        },
+        "group": "Collections",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-stick-ups",
+        "text": "Do all 107 stick ups",
+        "target": 107,
+        "link": {
+          "type": "category",
+          "category": "stick-ups"
+        },
+        "group": "Activities",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-labs",
+        "text": "Destroy all 20 drug labs",
+        "target": 20,
+        "link": {
+          "type": "category",
+          "category": "labs"
+        },
+        "group": "Activities",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-unique-races",
+        "text": "Win all 40 unique races",
+        "target": 40,
+        "link": {
+          "type": "category",
+          "category": "unique-races"
+        },
+        "group": "Activities",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-drone-trials",
+        "text": "Finish all 42 drone trials",
+        "target": 42,
+        "link": {
+          "type": "category",
+          "category": "drone-trials"
+        },
+        "group": "Activities",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-garages",
+        "text": "Own all 13 garages",
+        "target": 13,
+        "link": {
+          "type": "category",
+          "category": "garages"
+        },
+        "group": "Collections",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
+      },
+      {
+        "id": "mp-gyms",
+        "text": "Join all 9 gyms",
+        "target": 9,
+        "link": {
+          "type": "category",
+          "category": "gyms"
+        },
+        "group": "Activities",
+        "tier": "hundredPlus",
+        "section": "singlePlayer"
       }
     ],
     "achievementLinks": {
@@ -54042,6 +54468,16 @@
         "type": "allCollected",
         "ids": [
           "pd-4"
+        ]
+      },
+      "tr-14": {
+        "type": "milestonePercent",
+        "tier": "hundred"
+      },
+      "tr-52": {
+        "type": "allCollected",
+        "ids": [
+          "tk-fence-bills"
         ]
       }
     },
