@@ -1,5 +1,5 @@
 {
-  "version": 128,
+  "version": 130,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -256,7 +256,7 @@
       "symbol": "watch.analog",
       "colorHex": "E0B84A",
       "verb": "found",
-      "intro": "34 luxury watches to pick up, most of them in gang operations; a gold watch icon marks each one. They're styles: 100% needs 70 of the 79 styles (Progress, Collections, Discovered Styles), and the other 45 come from magazines. 9 of 34 so far, more as guides find them.",
+      "intro": "34 luxury watches to pick up, most of them in gang operations; a gold watch icon marks each one. They're styles: 100% needs 70 of the 79 styles (Progress, Collections, Discovered Styles), and the other 45 come from magazines. 11 of 34 so far, more as guides find them.",
       "collectible": true
     },
     {
@@ -3568,7 +3568,11 @@
       "guide": "Optional side mission in Ocean Beach. Unlocks after scanning 10 No Flusher tags.",
       "revealedTitle": "Meet with CantCloneThis89",
       "revealedGivenBy": "CantCloneThis89 (No Flushers)",
-      "revealedGuide": "After 10 [No Flusher tags](category:no-flusher), a No Flusher from the WhatUp group chat asks to meet at his headquarters, a garage on the bay side of Ocean Beach. The door code is 8554013 (on a note on the wall: flip it over). Inside, the map on the wall leads to [Andrew Node's Thrax](poi:sv-75) on Starfish Island. While this is open, the remaining tags may not scan."
+      "revealedGuide": "After 10 No Flusher tags, a No Flusher from the WhatUp group chat asks to meet at his headquarters, a garage on the bay side of Ocean Beach. The door code is 8554013 (on a note on the wall: flip it over). Inside, the map on the wall leads to Andrew Node's Thrax on Starfish Island. While this is open, the remaining tags may not scan.",
+      "guideLinks": {
+        "No Flusher tags": "category:no-flusher",
+        "Andrew Node's Thrax": "sv-75"
+      }
     },
     {
       "id": "sf-31",
@@ -4426,21 +4430,26 @@
       "title": "Styles",
       "category": "exploration",
       "spoiler": true,
-      "guide": "Discover 70 of the 79 styles: the 34 luxury watches plus 45 styles and tattoos from magazines. Watches ticked in the Luxury watches list count here.",
+      "guide": "Discover 70 of the 79 styles: the 34 luxury watches plus 45 styles and tattoos from magazines. Watches ticked in the Luxury watches list and magazines ticked in the Style magazines list count here.",
       "tallyTarget": 70,
       "linkedCategories": [
-        "watches"
+        "watches",
+        "style-magazines"
       ],
       "countsFrom": {
         "target": 70,
         "sources": [
           {
             "category": "watches"
+          },
+          {
+            "category": "style-magazines"
           }
         ]
       },
       "guideLinks": {
-        "Luxury watches list": "category:watches"
+        "Luxury watches list": "category:watches",
+        "Style magazines list": "category:style-magazines"
       }
     },
     {
@@ -13391,11 +13400,14 @@
       "category": "game-challenges",
       "subgroup": "Exploration",
       "spoiler": true,
-      "guide": "Exploration challenge. Fly 100 ft or lower over all 41 helipads in Vice City and Vice Beach inside 10 minutes. The [Helipads](category:helipads) list pins them in a flying order.",
+      "guide": "Exploration challenge. Fly 100 ft or lower over all 41 helipads in Vice City and Vice Beach inside 10 minutes. The Helipads list pins them in a flying order.",
       "iconURL": "https://leonidalog.app/images/challenges/ch-30.jpg",
       "linkedCategories": [
         "helipads"
-      ]
+      ],
+      "guideLinks": {
+        "Helipads": "category:helipads"
+      }
     },
     {
       "id": "ch-31",
@@ -16555,6 +16567,29 @@
       "guideLinks": {
         "Leonida Carrier Warehouse": "go-30"
       }
+    },
+    {
+      "id": "wt-10",
+      "title": "Crowex Ambassador 'Breakfast'",
+      "category": "watches",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "area": "Crosstown",
+      "guide": "In the ground-floor safe of the abandoned Marbelle Hotel on NW 8th St, south Crosstown, along with some cash. The code is on a note on the roof, which you can only reach after the hotel's strange events play out (see the easter egg).",
+      "guideLinks": {
+        "easter egg": "ee-16"
+      }
+    },
+    {
+      "id": "wt-11",
+      "title": "B&G Ark Royal Quantum",
+      "category": "watches",
+      "subgroup": "Mariana County",
+      "spoiler": true,
+      "region": "Mariana County",
+      "area": "Key Lento",
+      "guide": "Lucia only. In the house of a man lost in a VR game, just north-west of Manatee's Rest in Key Lento: open the safe; the watch sits on the shelf in front of the bathroom."
     },
     {
       "id": "sm-01",
@@ -44475,7 +44510,11 @@
       "region": "Vice-Dale County",
       "area": "Starfish Island",
       "guide": "A supercar with no tracker, at the end of the trail the No Flusher tags start.",
-      "revealedGuide": "Scan 10 [No Flusher tags](category:no-flusher) with WAiNK and you're texted into the No Flushers' conspiracy chat, which leads to [their hideout garage in Ocean Beach](poi:sf-61). The door code is 8554013 (it's on a note on the wall: flip it over). Inside, the map on the wall marks Andrew Node's house on the south-east side of Starfish Island, off Sabal Circle. Two guards are there, so arriving by boat is easiest. His Truffade Thrax is in the garage, with no tracker. Registering it at a Pay 'n' Spray costs $70,000. Once the trail is open, the remaining tags may not scan until it's finished."
+      "revealedGuide": "Scan 10 No Flusher tags with WAiNK and you're texted into the No Flushers' conspiracy chat, which leads to their hideout garage in Ocean Beach. The door code is 8554013 (it's on a note on the wall: flip it over). Inside, the map on the wall marks Andrew Node's house on the south-east side of Starfish Island, off Sabal Circle. Two guards are there, so arriving by boat is easiest. His Truffade Thrax is in the garage, with no tracker. Registering it at a Pay 'n' Spray costs $70,000. Once the trail is open, the remaining tags may not scan until it's finished.",
+      "guideLinks": {
+        "No Flusher tags": "category:no-flusher",
+        "their hideout garage in Ocean Beach": "sf-61"
+      }
     },
     {
       "id": "sv-76",
