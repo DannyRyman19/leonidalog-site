@@ -1,5 +1,5 @@
 {
-  "version": 112,
+  "version": 114,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -229,7 +229,16 @@
       "symbol": "camera.viewfinder",
       "colorHex": "4AD9D9",
       "verb": "found",
-      "intro": "Scan with the WAiNK app: 31 landmarks, 35 curiosities, 23 sculptures, 15 No Flusher tags and 4 Peewees billboards. 100% needs 100. Numbers follow the game's Progress menu. More are added as guides find them. The [You WAiNKer!](poi:tr-31) trophy needs 100.",
+      "intro": "Scan with the WAiNK app: 31 landmarks, 35 curiosities, 23 sculptures and 4 Peewees billboards. The 15 [No Flusher tags](category:no-flusher) have their own list and count too. 100% needs 100. Numbers follow the game's Progress menu. More are added as guides find them. The [You WAiNKer!](poi:tr-31) trophy needs 100.",
+      "collectible": true
+    },
+    {
+      "id": "no-flusher",
+      "label": "No Flusher tags",
+      "symbol": "toilet.fill",
+      "colorHex": "8FD14F",
+      "verb": "found",
+      "intro": "15 No Flusher tags on the sidewalks of Vice Beach. Scan each one with WAiNK: they count towards the 100 [WAiNK scans](category:waink) for 100% and the [You WAiNKer!](poi:tr-31) trophy.",
       "collectible": true
     },
     {
@@ -1372,7 +1381,7 @@
         "Landmarks": "category:waink#Landmarks",
         "curiosities": "category:waink#Curiosities",
         "sculptures": "category:waink#Sculptures",
-        "No Flusher tags": "category:waink#No Flusher tags"
+        "No Flusher tags": "category:no-flusher"
       }
     },
     {
@@ -3957,7 +3966,7 @@
       "revealedGuide": "Dr. Merle's strand, the end of the No Flushers questline. Jason or Lucia, any chapter. Scan a No Flusher poster (they're near toilets, e.g. at the campground on the east side of Watson Bay) and reply TRUTH to the text you get back. Meet Dr. Merle at Frank's Waffles in Tequesta; once he's done in the men's toilet, get in his van and follow his spoken directions (no marker) to the sewage treatment plant on Gloriana Key. Park at the south-west corner, talk the passing worker away with Focus, and slip into the marked building through its south-west door without alerting anyone. Up on the walkway, set the console buttons on the left until every light is green, then pull the lever on the right to open the floor. Below, flush Dr. Merle out of the chamber with the button on its front, then get in yourself before security arrives. Reward: a permanent stamina increase. Counts towards the Strangers & Freaks trophy.",
       "guideLinks": {
         "Strangers & Freaks": "tr-25",
-        "No Flusher poster": "category:waink#No Flusher tags",
+        "No Flusher poster": "category:no-flusher",
         "Frank's Waffles": "su-frank-s-waffles"
       },
       "areas": [
@@ -4066,6 +4075,22 @@
         "Strangers & Freaks": "tr-25"
       },
       "missable": true
+    },
+    {
+      "id": "sf-59",
+      "title": "Side mission 59",
+      "category": "stranger-missions",
+      "chapter": 4,
+      "givenBy": "Strand 23",
+      "spoiler": true,
+      "guide": "Optional side mission, strand 23. Unlocks in chapter 4.",
+      "revealedTitle": "Dre'Quan's Gift",
+      "revealedGivenBy": "Dre'Quan",
+      "revealedGuide": "Optional mission in La Perle, playable as Lucia or Jason. Unlocks a few in-game days after the chapter 4 mission Photo/Shoot. The reward is KD's SFB 1000 race bike, waiting in the alley behind the Pay 'n' Spray; keep it or sell it. Whether it counts towards the Strangers & Freaks trophy isn't confirmed yet.",
+      "guideLinks": {
+        "Photo/Shoot": "ms-066",
+        "Strangers & Freaks": "tr-25"
+      }
     },
     {
       "id": "tk-optional-tasks",
@@ -4196,16 +4221,20 @@
       "title": "WAiNK scans",
       "category": "exploration",
       "spoiler": true,
-      "guide": "Scan 100 things with the WAiNK app: there are 31 landmarks, 35 curiosities, 23 sculptures 15 No Flusher tags and 4 Peewees billboards.",
+      "guide": "Scan 100 things with the WAiNK app: there are 31 landmarks, 35 curiosities, 23 sculptures, 15 No Flusher tags and 4 Peewees billboards.",
       "tallyTarget": 100,
       "linkedCategories": [
-        "waink"
+        "waink",
+        "no-flusher"
       ],
       "countsFrom": {
         "target": 100,
         "sources": [
           {
             "category": "waink"
+          },
+          {
+            "category": "no-flusher"
           }
         ]
       },
@@ -4213,7 +4242,7 @@
         "landmarks": "category:waink#Landmarks",
         "curiosities": "category:waink#Curiosities",
         "sculptures": "category:waink#Sculptures",
-        "No Flusher tags": "category:waink#No Flusher tags"
+        "No Flusher tags": "category:no-flusher"
       }
     },
     {
@@ -14721,7 +14750,7 @@
     {
       "id": "wf-01",
       "title": "No Flusher tag",
-      "category": "waink",
+      "category": "no-flusher",
       "subgroup": "No Flusher tags",
       "spoiler": true,
       "nx": 0.7672,
@@ -14733,7 +14762,7 @@
     {
       "id": "wf-02",
       "title": "No Flusher tag",
-      "category": "waink",
+      "category": "no-flusher",
       "subgroup": "No Flusher tags",
       "spoiler": true,
       "nx": 0.7709,
@@ -14745,7 +14774,7 @@
     {
       "id": "wf-03",
       "title": "No Flusher tag",
-      "category": "waink",
+      "category": "no-flusher",
       "subgroup": "No Flusher tags",
       "spoiler": true,
       "nx": 0.7368,
@@ -14757,7 +14786,7 @@
     {
       "id": "wf-04",
       "title": "No Flusher tag",
-      "category": "waink",
+      "category": "no-flusher",
       "subgroup": "No Flusher tags",
       "spoiler": true,
       "nx": 0.7346,
@@ -14769,7 +14798,7 @@
     {
       "id": "wf-05",
       "title": "No Flusher tag",
-      "category": "waink",
+      "category": "no-flusher",
       "subgroup": "No Flusher tags",
       "spoiler": true,
       "nx": 0.762,
@@ -14781,7 +14810,7 @@
     {
       "id": "wf-06",
       "title": "No Flusher tag",
-      "category": "waink",
+      "category": "no-flusher",
       "subgroup": "No Flusher tags",
       "spoiler": true,
       "nx": 0.7359,
@@ -14793,7 +14822,7 @@
     {
       "id": "wf-07",
       "title": "No Flusher tag",
-      "category": "waink",
+      "category": "no-flusher",
       "subgroup": "No Flusher tags",
       "spoiler": true,
       "nx": 0.7648,
@@ -14805,7 +14834,7 @@
     {
       "id": "wf-08",
       "title": "No Flusher tag",
-      "category": "waink",
+      "category": "no-flusher",
       "subgroup": "No Flusher tags",
       "spoiler": true,
       "nx": 0.7509,
@@ -14817,7 +14846,7 @@
     {
       "id": "wf-09",
       "title": "No Flusher tag",
-      "category": "waink",
+      "category": "no-flusher",
       "subgroup": "No Flusher tags",
       "spoiler": true,
       "nx": 0.7457,
@@ -14829,7 +14858,7 @@
     {
       "id": "wf-10",
       "title": "No Flusher tag",
-      "category": "waink",
+      "category": "no-flusher",
       "subgroup": "No Flusher tags",
       "spoiler": true,
       "nx": 0.7655,
@@ -14841,7 +14870,7 @@
     {
       "id": "wf-11",
       "title": "No Flusher tag",
-      "category": "waink",
+      "category": "no-flusher",
       "subgroup": "No Flusher tags",
       "spoiler": true,
       "nx": 0.7576,
@@ -14853,7 +14882,7 @@
     {
       "id": "wf-12",
       "title": "No Flusher tag",
-      "category": "waink",
+      "category": "no-flusher",
       "subgroup": "No Flusher tags",
       "spoiler": true,
       "nx": 0.75,
@@ -14865,7 +14894,7 @@
     {
       "id": "wf-13",
       "title": "No Flusher tag",
-      "category": "waink",
+      "category": "no-flusher",
       "subgroup": "No Flusher tags",
       "spoiler": true,
       "nx": 0.7711,
@@ -14877,7 +14906,7 @@
     {
       "id": "wf-14",
       "title": "No Flusher tag",
-      "category": "waink",
+      "category": "no-flusher",
       "subgroup": "No Flusher tags",
       "spoiler": true,
       "nx": 0.7534,
@@ -14889,7 +14918,7 @@
     {
       "id": "wf-15",
       "title": "No Flusher tag",
-      "category": "waink",
+      "category": "no-flusher",
       "subgroup": "No Flusher tags",
       "spoiler": true,
       "nx": 0.7524,
@@ -22890,7 +22919,7 @@
       "area": "Pelican Valley",
       "guide": "Clear the operation.",
       "revealedTitle": "Sunrise RV Park",
-      "revealedGuide": "Run by Kingfishers."
+      "revealedGuide": "Run by Kingfishers. The safe code is 6769."
     },
     {
       "id": "go-03",
@@ -22916,7 +22945,7 @@
       "area": "Port Gellhorn",
       "guide": "Clear the operation.",
       "revealedTitle": "Kingpin Bowling",
-      "revealedGuide": "Run by Kolts & Associates."
+      "revealedGuide": "Run by Kolts & Associates. The safe code is 0300."
     },
     {
       "id": "go-05",
@@ -22942,7 +22971,7 @@
       "area": "Port Gellhorn",
       "guide": "Clear the operation.",
       "revealedTitle": "La Cascara Motel",
-      "revealedGuide": "Run by Kolts & Associates."
+      "revealedGuide": "Run by Kolts & Associates. The safe code is 6969."
     },
     {
       "id": "go-07",
@@ -22955,7 +22984,7 @@
       "area": "Port Gellhorn",
       "guide": "Clear the operation.",
       "revealedTitle": "Brooks Boatworks",
-      "revealedGuide": "Run by Kolts & Associates."
+      "revealedGuide": "Run by Kolts & Associates. The safe code is 6823."
     },
     {
       "id": "go-08",
@@ -23036,7 +23065,7 @@
       "area": "Belville",
       "guide": "Clear the operation.",
       "revealedTitle": "Farm Fix Meth Lab",
-      "revealedGuide": "Run by Final Chapter."
+      "revealedGuide": "Run by Final Chapter. The safe code is 2121."
     },
     {
       "id": "go-14",
@@ -23049,7 +23078,7 @@
       "area": "Belville",
       "guide": "Clear the operation.",
       "revealedTitle": "Biker Hideout",
-      "revealedGuide": "Run by Final Chapter."
+      "revealedGuide": "Run by Final Chapter. The safe code is 1982."
     },
     {
       "id": "go-15",
@@ -23114,7 +23143,7 @@
       "area": "La Perle",
       "guide": "Clear the operation.",
       "revealedTitle": "Illegal Sneaker Trade",
-      "revealedGuide": "Run by San4San."
+      "revealedGuide": "Run by San4San. The safe code is 4124."
     },
     {
       "id": "go-20",
@@ -23127,7 +23156,7 @@
       "area": "La Perle",
       "guide": "Clear the operation.",
       "revealedTitle": "JanJak's Garage",
-      "revealedGuide": "Run by San4San."
+      "revealedGuide": "Run by San4San. The safe code is 4444."
     },
     {
       "id": "go-21",
@@ -23179,7 +23208,7 @@
       "area": "Little Cuba",
       "guide": "Clear the operation.",
       "revealedTitle": "Saber Shipping Yard",
-      "revealedGuide": "Run by The Guardia Brothers."
+      "revealedGuide": "Run by The Guardia Brothers. The safe code is 8046."
     },
     {
       "id": "go-25",
@@ -23192,7 +23221,7 @@
       "area": "Little Cuba",
       "guide": "Clear the operation.",
       "revealedTitle": "Casa Guardia",
-      "revealedGuide": "Run by The Guardia Brothers."
+      "revealedGuide": "Run by The Guardia Brothers. The safe code is 1965."
     },
     {
       "id": "go-26",
@@ -23205,7 +23234,7 @@
       "area": "Balsero",
       "guide": "Clear the operation.",
       "revealedTitle": "Saber Shipping Facility",
-      "revealedGuide": "Run by The Guardia Brothers."
+      "revealedGuide": "Run by The Guardia Brothers. The safe code is 1122."
     },
     {
       "id": "go-27",
