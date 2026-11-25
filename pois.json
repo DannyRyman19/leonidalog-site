@@ -1,5 +1,5 @@
 {
-  "version": 122,
+  "version": 123,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -53438,6 +53438,12 @@
           "Gang 7",
           "Gang 8",
           "Gang 9"
+        ]
+      },
+      "tr-49": {
+        "type": "allCollected",
+        "ids": [
+          "pd-4"
         ]
       }
     },
