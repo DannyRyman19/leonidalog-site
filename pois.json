@@ -1,5 +1,5 @@
 {
-  "version": 121,
+  "version": 122,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -323,6 +323,17 @@
       "symbol": "flame.fill",
       "colorHex": "7BD389",
       "verb": "cleared",
+      "revealedSubgroups": {
+        "Gang 1": "Kingfishers",
+        "Gang 2": "Kolts & Associates",
+        "Gang 3": "M7",
+        "Gang 4": "La Polilla Negra",
+        "Gang 5": "Final Chapter",
+        "Gang 6": "San4San",
+        "Gang 7": "PTT Youngin$",
+        "Gang 8": "The Guardia Brothers",
+        "Gang 9": "Other criminals"
+      },
       "intro": "39 illegal gang operations to clear. They open up through the story as you meet each gang. 100% needs all 39. Names stay hidden until you've done them.",
       "complete": true
     },
@@ -1220,6 +1231,10 @@
       "revealedIconURL": "https://leonidalog.app/images/trophies/tr-24.png",
       "title": "Trophy 24",
       "category": "achievements",
+      "nx": 0.4697,
+      "ny": 0.2897,
+      "region": "Kelly County",
+      "area": "Thrillbilly Mud Club",
       "spoiler": true,
       "guide": "Strangers trophy: finish one stranger's full mission strand.",
       "subgroup": "Single Player - Bronze",
@@ -1267,7 +1282,7 @@
         }
       ],
       "revealedTitle": "Supply & Demand",
-      "revealedGuide": "Finish Randy's Wish List: 22 cars to steal and deliver. It opens with the chapter 3 mission Clonin' Keys, Makin' Gs, which also gives you the Key Cloner. Scan high-end cars with WAiNK to see if he wants them; hotels at Vice Beach and Ocean Beach are good hunting grounds. Cars in better shape pay more. Delivering the last car isn't enough: a few in-game days later Randy has one final mission, and the trophy unlocks when you finish it. Still open after the story.",
+      "revealedGuide": "Finish Randy's Wish List: 22 cars to steal and deliver. It opens with the chapter 3 mission Clonin' Keys, Makin' Gs, which also gives you the Key Cloner. Scan high-end cars with WAiNK to see if he wants them; hotels at Vice Beach and Ocean Beach are good hunting grounds. Cars in better shape pay more. Delivering the last car isn't enough: a few in-game days later Randy has one final mission, Delivery Day, and the trophy unlocks when you finish it. Still open after the story.",
       "linkedCategories": [
         "vehicle-requests-randy"
       ],
@@ -1275,7 +1290,8 @@
         "Vehicle requests (1)"
       ],
       "guideLinks": {
-        "Randy's Wish List": "sf-30"
+        "Randy's Wish List": "sf-30",
+        "Delivery Day": "sf-60"
       }
     },
     {
@@ -1608,13 +1624,21 @@
           "value": "20"
         }
       ],
-      "revealedGuide": "Rob at least one illegal operation from each of the 9 gangs. There are 39 operations, and 100% needs all of them. Progress, Gangs in the game shows how many of each gang's you've done."
+      "tallyTarget": 9,
+      "revealedGuide": "Rob at least one illegal operation from each of the 9 gangs. There are 39 operations, and 100% needs all of them. Progress, Gangs in the game shows how many of each gang's you've done.",
+      "linkedCategories": [
+        "gang-ops"
+      ]
     },
     {
       "id": "tr-44",
       "revealedIconURL": "https://leonidalog.app/images/trophies/tr-44.png",
       "title": "Trophy 44",
       "category": "achievements",
+      "nx": 0.768,
+      "ny": 0.4955,
+      "region": "Vice-Dale County",
+      "area": "Ocean Beach",
       "spoiler": true,
       "guide": "Secret trophy. The game keeps this one hidden until you earn it.",
       "subgroup": "Single Player - Bronze",
@@ -1632,6 +1656,10 @@
       "revealedIconURL": "https://leonidalog.app/images/trophies/tr-45.png",
       "title": "Trophy 45",
       "category": "achievements",
+      "nx": 0.588,
+      "ny": 0.6175,
+      "region": "Vice-Dale County",
+      "area": "Southside",
       "spoiler": true,
       "guide": "Secret trophy. The game keeps this one hidden until you earn it.",
       "subgroup": "Single Player - Bronze",
@@ -1645,7 +1673,10 @@
       "revealedGuide": "Steal the blue Banshee from the showroom in the south of Vice City and drive it out through the window. You need the Key Cloner from the chapter 3 mission Clonin' Keys, Makin' Gs, and only that car works. It pops once you've driven off down the street.",
       "guideLinks": {
         "Banshee": "vh-bravado-banshee"
-      }
+      },
+      "linkedMissions": [
+        "sv-randy-01"
+      ]
     },
     {
       "id": "tr-46",
@@ -1723,8 +1754,12 @@
       "revealedGuide": "Rob the Little Cuba payday loan store again as Lucia, on her own without Jason, once the chapter 3 mission Credit Check has unlocked payday loan robberies. Hold up the teller, take out the guards, break through the door and empty all 3 cash drawers, then get away on foot rather than in a vehicle. The trophy only pops once you're out of the search area and well clear.",
       "guideLinks": {
         "Credit Check": "ms-048",
-        "payday loan": "category:payday-loans"
-      }
+        "payday loan": "category:payday-loans",
+        "Little Cuba payday loan store": "pd-4"
+      },
+      "linkedMissions": [
+        "pd-4"
+      ]
     },
     {
       "id": "tr-50",
@@ -3465,7 +3500,7 @@
       "guide": "Strangers & Freaks side mission, strand 10. Unlocks in chapter 3.",
       "revealedTitle": "Randy's Wish List",
       "revealedGivenBy": "Randy",
-      "revealedGuide": "Randy's strand, mission 1 of 1. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy. Randy's list is done once all 22 cars are delivered; a few in-game days later Randy calls with one final mission, which finishes his strand.",
+      "revealedGuide": "Randy's strand, mission 1 of 2. Unlocks in chapter 3. Randy's list is done once all 22 cars are delivered; a few in-game days later Randy calls with the final mission, Delivery Day, which finishes his strand for the Strangers & Freaks trophy.",
       "linkedCategories": [
         "vehicle-requests-randy"
       ],
@@ -3474,7 +3509,24 @@
       ],
       "guideLinks": {
         "Strangers & Freaks": "tr-25",
-        "Randy's list": "category:vehicle-requests-randy"
+        "Randy's list": "category:vehicle-requests-randy",
+        "Delivery Day": "sf-60"
+      }
+    },
+    {
+      "id": "sf-60",
+      "title": "Side mission 60",
+      "category": "stranger-missions",
+      "chapter": 3,
+      "givenBy": "Strand 10",
+      "spoiler": true,
+      "guide": "Strangers & Freaks side mission, strand 10. Unlocks in chapter 3.",
+      "revealedTitle": "Delivery Day",
+      "revealedGivenBy": "Randy",
+      "revealedGuide": "Randy's strand, mission 2 of 2. Randy calls a few in-game days after the last of the 22 cars on his list is delivered. Finishing it completes his strand for the Strangers & Freaks trophy and unlocks the Supply & Demand trophy.",
+      "guideLinks": {
+        "Strangers & Freaks": "tr-25",
+        "Supply & Demand": "tr-26"
       }
     },
     {
@@ -22934,6 +22986,7 @@
       "id": "go-01",
       "title": "Gang operation 1",
       "category": "gang-ops",
+      "subgroup": "Gang 1",
       "spoiler": true,
       "nx": 0.445,
       "ny": 0.749,
@@ -22947,6 +23000,7 @@
       "id": "go-02",
       "title": "Gang operation 2",
       "category": "gang-ops",
+      "subgroup": "Gang 1",
       "spoiler": true,
       "nx": 0.496,
       "ny": 0.752,
@@ -22960,6 +23014,7 @@
       "id": "go-03",
       "title": "Gang operation 3",
       "category": "gang-ops",
+      "subgroup": "Gang 1",
       "spoiler": true,
       "nx": 0.519,
       "ny": 0.733,
@@ -22973,6 +23028,7 @@
       "id": "go-04",
       "title": "Gang operation 4",
       "category": "gang-ops",
+      "subgroup": "Gang 2",
       "spoiler": true,
       "nx": 0.35,
       "ny": 0.366,
@@ -22986,6 +23042,7 @@
       "id": "go-05",
       "title": "Gang operation 5",
       "category": "gang-ops",
+      "subgroup": "Gang 2",
       "spoiler": true,
       "nx": 0.345,
       "ny": 0.349,
@@ -22999,6 +23056,7 @@
       "id": "go-06",
       "title": "Gang operation 6",
       "category": "gang-ops",
+      "subgroup": "Gang 2",
       "spoiler": true,
       "nx": 0.327,
       "ny": 0.329,
@@ -23012,6 +23070,7 @@
       "id": "go-07",
       "title": "Gang operation 7",
       "category": "gang-ops",
+      "subgroup": "Gang 2",
       "spoiler": true,
       "nx": 0.342,
       "ny": 0.31,
@@ -23025,6 +23084,7 @@
       "id": "go-08",
       "title": "Gang operation 8",
       "category": "gang-ops",
+      "subgroup": "Gang 2",
       "spoiler": true,
       "nx": 0.3518,
       "ny": 0.3116,
@@ -23038,6 +23098,7 @@
       "id": "go-09",
       "title": "Gang operation 9",
       "category": "gang-ops",
+      "subgroup": "Gang 3",
       "spoiler": true,
       "nx": 0.546,
       "ny": 0.698,
@@ -23051,6 +23112,7 @@
       "id": "go-10",
       "title": "Gang operation 10",
       "category": "gang-ops",
+      "subgroup": "Gang 3",
       "spoiler": true,
       "nx": 0.6019,
       "ny": 0.1719,
@@ -23064,6 +23126,7 @@
       "id": "go-11",
       "title": "Gang operation 11",
       "category": "gang-ops",
+      "subgroup": "Gang 4",
       "spoiler": true,
       "nx": 0.402,
       "ny": 0.684,
@@ -23080,6 +23143,7 @@
       "id": "go-12",
       "title": "Gang operation 12",
       "category": "gang-ops",
+      "subgroup": "Gang 4",
       "spoiler": true,
       "guide": "Clear the operation.",
       "revealedTitle": "Watson Bay Safehouse",
@@ -23093,6 +23157,7 @@
       "id": "go-13",
       "title": "Gang operation 13",
       "category": "gang-ops",
+      "subgroup": "Gang 5",
       "spoiler": true,
       "nx": 0.61,
       "ny": 0.341,
@@ -23106,6 +23171,7 @@
       "id": "go-14",
       "title": "Gang operation 14",
       "category": "gang-ops",
+      "subgroup": "Gang 5",
       "spoiler": true,
       "nx": 0.5691,
       "ny": 0.3318,
@@ -23119,6 +23185,7 @@
       "id": "go-15",
       "title": "Gang operation 15",
       "category": "gang-ops",
+      "subgroup": "Gang 5",
       "spoiler": true,
       "nx": 0.519,
       "ny": 0.329,
@@ -23132,6 +23199,7 @@
       "id": "go-16",
       "title": "Gang operation 16",
       "category": "gang-ops",
+      "subgroup": "Gang 5",
       "spoiler": true,
       "guide": "Clear the operation.",
       "revealedTitle": "Hog Stars Garage",
@@ -23145,6 +23213,7 @@
       "id": "go-17",
       "title": "Gang operation 17",
       "category": "gang-ops",
+      "subgroup": "Gang 6",
       "spoiler": true,
       "nx": 0.65,
       "ny": 0.431,
@@ -23158,6 +23227,7 @@
       "id": "go-18",
       "title": "Gang operation 18",
       "category": "gang-ops",
+      "subgroup": "Gang 6",
       "spoiler": true,
       "nx": 0.6305,
       "ny": 0.4421,
@@ -23171,6 +23241,7 @@
       "id": "go-19",
       "title": "Gang operation 19",
       "category": "gang-ops",
+      "subgroup": "Gang 6",
       "spoiler": true,
       "nx": 0.6199,
       "ny": 0.453,
@@ -23184,6 +23255,7 @@
       "id": "go-20",
       "title": "Gang operation 20",
       "category": "gang-ops",
+      "subgroup": "Gang 6",
       "spoiler": true,
       "nx": 0.607,
       "ny": 0.467,
@@ -23197,6 +23269,7 @@
       "id": "go-21",
       "title": "Gang operation 21",
       "category": "gang-ops",
+      "subgroup": "Gang 6",
       "spoiler": true,
       "nx": 0.603,
       "ny": 0.4926,
@@ -23210,6 +23283,7 @@
       "id": "go-22",
       "title": "Gang operation 22",
       "category": "gang-ops",
+      "subgroup": "Gang 7",
       "spoiler": true,
       "nx": 0.5856,
       "ny": 0.626,
@@ -23223,6 +23297,7 @@
       "id": "go-23",
       "title": "Gang operation 23",
       "category": "gang-ops",
+      "subgroup": "Gang 7",
       "spoiler": true,
       "nx": 0.584,
       "ny": 0.6355,
@@ -23236,6 +23311,7 @@
       "id": "go-24",
       "title": "Gang operation 24",
       "category": "gang-ops",
+      "subgroup": "Gang 8",
       "spoiler": true,
       "nx": 0.5988,
       "ny": 0.5185,
@@ -23249,6 +23325,7 @@
       "id": "go-25",
       "title": "Gang operation 25",
       "category": "gang-ops",
+      "subgroup": "Gang 8",
       "spoiler": true,
       "nx": 0.6133,
       "ny": 0.5081,
@@ -23262,6 +23339,7 @@
       "id": "go-26",
       "title": "Gang operation 26",
       "category": "gang-ops",
+      "subgroup": "Gang 8",
       "spoiler": true,
       "nx": 0.5928,
       "ny": 0.4986,
@@ -23275,6 +23353,7 @@
       "id": "go-27",
       "title": "Gang operation 27",
       "category": "gang-ops",
+      "subgroup": "Gang 9",
       "spoiler": true,
       "nx": 0.547,
       "ny": 0.826,
@@ -23291,6 +23370,7 @@
       "id": "go-28",
       "title": "Gang operation 28",
       "category": "gang-ops",
+      "subgroup": "Gang 9",
       "spoiler": true,
       "nx": 0.599,
       "ny": 0.594,
@@ -23304,6 +23384,7 @@
       "id": "go-29",
       "title": "Gang operation 29",
       "category": "gang-ops",
+      "subgroup": "Gang 9",
       "spoiler": true,
       "nx": 0.676,
       "ny": 0.5095,
@@ -23317,6 +23398,7 @@
       "id": "go-30",
       "title": "Gang operation 30",
       "category": "gang-ops",
+      "subgroup": "Gang 9",
       "spoiler": true,
       "nx": 0.5527,
       "ny": 0.4925,
@@ -23330,6 +23412,7 @@
       "id": "go-31",
       "title": "Gang operation 31",
       "category": "gang-ops",
+      "subgroup": "Gang 9",
       "spoiler": true,
       "nx": 0.617,
       "ny": 0.464,
@@ -23343,6 +23426,7 @@
       "id": "go-32",
       "title": "Gang operation 32",
       "category": "gang-ops",
+      "subgroup": "Gang 9",
       "spoiler": true,
       "nx": 0.501,
       "ny": 0.386,
@@ -23356,6 +23440,7 @@
       "id": "go-33",
       "title": "Gang operation 33",
       "category": "gang-ops",
+      "subgroup": "Gang 9",
       "spoiler": true,
       "nx": 0.3532,
       "ny": 0.3633,
@@ -23370,6 +23455,7 @@
       "id": "go-34",
       "title": "Gang operation 34",
       "category": "gang-ops",
+      "subgroup": "Gang 9",
       "spoiler": true,
       "nx": 0.475,
       "ny": 0.097,
@@ -23383,6 +23469,7 @@
       "id": "go-35",
       "title": "Gang operation 35",
       "category": "gang-ops",
+      "subgroup": "Gang 9",
       "spoiler": true,
       "guide": "Clear the operation.",
       "revealedTitle": "Vespucci Mansion",
@@ -23396,6 +23483,7 @@
       "id": "go-36",
       "title": "Gang operation 36",
       "category": "gang-ops",
+      "subgroup": "Gang 9",
       "spoiler": true,
       "guide": "Clear the operation.",
       "revealedTitle": "Industrial Weed Grow",
@@ -23409,6 +23497,7 @@
       "id": "go-37",
       "title": "Gang operation 37",
       "category": "gang-ops",
+      "subgroup": "Gang 9",
       "spoiler": true,
       "guide": "Clear the operation.",
       "revealedTitle": "Mill Station Radar Base",
@@ -23422,6 +23511,7 @@
       "id": "go-38",
       "title": "Gang operation 38",
       "category": "gang-ops",
+      "subgroup": "Gang 9",
       "spoiler": true,
       "guide": "Clear the operation.",
       "revealedTitle": "Walker Farm",
@@ -23435,6 +23525,7 @@
       "id": "go-39",
       "title": "Gang operation 39",
       "category": "gang-ops",
+      "subgroup": "Gang 9",
       "spoiler": true,
       "guide": "Clear the operation.",
       "revealedTitle": "Ocean Beach Lab",
@@ -53013,7 +53104,7 @@
       },
       "tr-10": {
         "type": "played",
-        "id": "ms-076"
+        "id": "ms-073"
       },
       "tr-11": {
         "type": "played",
@@ -53041,7 +53132,7 @@
       },
       "tr-26": {
         "type": "played",
-        "id": "sf-30"
+        "id": "sf-60"
       },
       "tr-27": {
         "type": "played",
@@ -53275,7 +53366,7 @@
           "sf-08",
           "sf-11",
           "sf-20",
-          "sf-30",
+          "sf-60",
           "sf-33",
           "sf-39",
           "sf-52",
@@ -53332,6 +53423,21 @@
           "gr-06",
           "gr-07",
           "gr-08"
+        ]
+      },
+      "tr-43": {
+        "type": "subgroupsWithGold",
+        "category": "gang-ops",
+        "subgroups": [
+          "Gang 1",
+          "Gang 2",
+          "Gang 3",
+          "Gang 4",
+          "Gang 5",
+          "Gang 6",
+          "Gang 7",
+          "Gang 8",
+          "Gang 9"
         ]
       }
     },
