@@ -1,5 +1,5 @@
 {
-  "version": 110,
+  "version": 112,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -8121,7 +8121,7 @@
       "subgroup": "America's Next Top Hooker",
       "spoiler": true,
       "nx": 0.4984,
-      "ny": 0.6460,
+      "ny": 0.646,
       "region": "Mariana County",
       "area": "Breakwater Quarry",
       "guide": "One of the 24 cards in the America's Next Top Hooker set. Follow the map pin."
@@ -15408,6 +15408,7 @@
     },
     {
       "id": "wc-fairy-lane",
+      "imageURL": "https://leonidalog.app/images/waink/wc-fairy-lane.jpg",
       "title": "Fairy Lane",
       "category": "waink",
       "subgroup": "Curiosities",
@@ -16771,7 +16772,8 @@
       "region": "Mariana County",
       "area": "Key Lento",
       "nx": 0.5337,
-      "ny": 0.8374
+      "ny": 0.8374,
+      "guide": "Key Lento: a green dumpster used as a ramp in the front lot of the half-built apartment block in the middle of the island, near the Community Center and police station. Land a backflip off it."
     },
     {
       "id": "sj-dock-coal-company-freeway",
@@ -23252,8 +23254,8 @@
       "title": "Gang operation 30",
       "category": "gang-ops",
       "spoiler": true,
-      "nx": 0.553,
-      "ny": 0.493,
+      "nx": 0.5984,
+      "ny": 0.5947,
       "region": "Vice-Dale County",
       "area": "Balsero",
       "guide": "Clear the operation.",
@@ -41915,7 +41917,7 @@
       "category": "standout-vehicles",
       "subgroup": "Standout",
       "spoiler": true,
-      "nx": 0.4770,
+      "nx": 0.477,
       "ny": 0.2787,
       "region": "Kelly County",
       "area": "Thrillbilly Mud Club",
@@ -42007,7 +42009,8 @@
       "nx": 0.5657,
       "ny": 0.8115,
       "region": "Mariana County",
-      "area": "Key Lento"
+      "area": "Key Lento",
+      "guide": "Key Lento: inside the locked New Wave Custom & Repairs warehouse (dark blue, with fish painted on it) near where Dolphin Dr meets Sunbelt Hwy. You'll need the Snap Gun to get in."
     },
     {
       "id": "sv-13",
@@ -42172,7 +42175,8 @@
       "nx": 0.5319,
       "ny": 0.8352,
       "region": "Mariana County",
-      "area": "Key Lento"
+      "area": "Key Lento",
+      "guide": "Key Lento: parked outside the Christmas House where Sunset Dr meets Laguna Dr, west of the Fleeca bank."
     },
     {
       "id": "sv-28",
@@ -42282,7 +42286,8 @@
       "nx": 0.5185,
       "ny": 0.8555,
       "region": "Mariana County",
-      "area": "Key Lento"
+      "area": "Key Lento",
+      "guide": "Key Lento: parked outside Cousin Carlo's on the Sunbelt Hwy side of Surfside Dr, a little east of the Coastal Auto Care mod shop."
     },
     {
       "id": "sv-38",
