@@ -1,5 +1,5 @@
 {
-  "version": 124,
+  "version": 126,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -248,6 +248,15 @@
       "colorHex": "E0B84A",
       "verb": "found",
       "intro": "34 luxury watches to pick up, most of them in gang operations; a gold watch icon marks each one. They're styles: 100% needs 70 of the 79 styles (Progress, Collections, Discovered Styles), and the other 45 come from magazines. 9 of 34 so far, more as guides find them.",
+      "collectible": true
+    },
+    {
+      "id": "style-magazines",
+      "label": "Style magazines",
+      "symbol": "paintbrush.fill",
+      "colorHex": "E07AB8",
+      "verb": "found",
+      "intro": "Magazines that unlock a new look (hair, makeup or facial hair) for Jason or Lucia when picked up. Along with the luxury watches they count towards the styles needed for 100% (Progress, Collections, Discovered Styles). Only a few are confirmed so far; more are added as guides find them.",
       "collectible": true
     },
     {
@@ -13416,7 +13425,7 @@
       "category": "game-challenges",
       "subgroup": "Fitness",
       "spoiler": true,
-      "guide": "Fitness challenge. Use every type of gym equipment in one in-game day. Types found so far: punch bag, kettlebell swings, dumbbell lifts, deadlifts, cable crossovers, dips, squats, pull-ups, exercise bike, treadmill, curls, shoulder press, EZ bar, leg extensions, lat pulldowns, hip thrusts and chest flys. This list isn't confirmed complete yet, so if the challenge doesn't tick, look for equipment you haven't used.",
+      "guide": "Fitness challenge. Use every type of gym equipment in one in-game day. Types found so far: punch bag, kettlebell swings, dumbbell lifts, deadlifts, cable crossovers, dips, squats, pull-ups, exercise bike, treadmill, curls, shoulder press, EZ bar, leg extensions, lat pulldowns, hip thrusts, chest flys and bench press. This list isn't confirmed complete yet, so if the challenge doesn't tick, look for equipment you haven't used.",
       "iconURL": "https://leonidalog.app/images/challenges/ch-35.jpg"
     },
     {
@@ -16084,6 +16093,66 @@
       "guideLinks": {
         "Leonida Carrier Warehouse": "go-30"
       }
+    },
+    {
+      "id": "sm-01",
+      "title": "Sunset Blush Makeup",
+      "category": "style-magazines",
+      "subgroup": "Lucia",
+      "spoiler": true,
+      "region": "Mariana County",
+      "area": "Key Lento",
+      "guide": "A makeup magazine for Lucia on the north coast of Key Lento: in the bedroom of the house just west of Nifty Threads Island Wear."
+    },
+    {
+      "id": "sm-02",
+      "title": "Square Goatee",
+      "category": "style-magazines",
+      "subgroup": "Jason",
+      "spoiler": true,
+      "region": "Mariana County",
+      "area": "Key Lento",
+      "guide": "A beard style for Jason in Key Lento: on the bed inside the trailer just east of The Rusty Anchor."
+    },
+    {
+      "id": "sm-03",
+      "title": "Red Braided Cornrows Top Knot",
+      "category": "style-magazines",
+      "subgroup": "Jason",
+      "spoiler": true,
+      "region": "Mariana County",
+      "area": "Key Lento",
+      "guide": "A hairstyle for Jason in Key Lento: on the roof of the round building north of Manatee's Rest, beside a wooden table."
+    },
+    {
+      "id": "sm-04",
+      "title": "Goth Garnet Makeup",
+      "category": "style-magazines",
+      "subgroup": "Lucia",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "area": "Hamlet",
+      "guide": "A makeup style for Lucia in Hamlet: in the back office of the warehouse across the street from the police station."
+    },
+    {
+      "id": "sm-05",
+      "title": "Ear Web Buzz Cut",
+      "category": "style-magazines",
+      "subgroup": "Lucia",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "area": "Hamlet",
+      "guide": "A hairstyle in Hamlet: on the coffee table of the trailer-park house just west of Righto Cash & Carry."
+    },
+    {
+      "id": "sm-06",
+      "title": "Light Blond Wavy Spikes",
+      "category": "style-magazines",
+      "subgroup": "Jason",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "area": "Catalan Key",
+      "guide": "A hairstyle for Jason at the southern end of Catalan Key: on a sunbed by the pool behind one of the middle mansions in the gated community."
     },
     {
       "id": "sj-001",
