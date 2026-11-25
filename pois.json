@@ -1,5 +1,5 @@
 {
-  "version": 114,
+  "version": 116,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -351,7 +351,8 @@
       "verb": "studied",
       "chapterOrdered": true,
       "collectible": true,
-      "intro": "255 animals in 8 groups to study with binoculars (aim, then hold R1/RB). Each dog and cat breed counts on its own. 100% needs any 100. Species get their own rows as they're found; groups not fully listed yet end with a counter for the rest."
+      "intro": "255 animals in 8 groups to study with binoculars (aim, then hold R1/RB). Each dog and cat breed counts on its own. 100% needs any 100. Every one of the 255 has its own row, so ticking them counts towards 100% on its own.",
+      "complete": true
     },
     {
       "id": "bret-decks",
@@ -369,7 +370,8 @@
       "verb": "discovered",
       "chapterOrdered": true,
       "collectible": true,
-      "intro": "The game's Vehicles log, section by section, with each model's base stats where we have them. A vehicle is discovered once you've scanned it with WAiNK or been in it. Cars and service vehicles come in 15 classes; bikes, watercraft and aircraft are one list each. That's 277 models, and the game's 100% checklist needs 200 base models. 211 have their own row so far, and each section ends with a counter for the ones not listed yet. The Standout sets aren't here yet. The [Whip It Good](poi:tr-35) trophy needs 100."
+      "intro": "The game's Vehicles log, section by section, with each model's base stats where we have them. A vehicle is discovered once you've scanned it with WAiNK or been in it. Cars and service vehicles come in 15 classes; bikes, watercraft and aircraft are one list each. That's 277 models, and the game's 100% checklist needs 200 base models. Every one of the 277 has its own row, so ticking them counts towards 100% on its own. The Standout sets aren't here yet. The [Whip It Good](poi:tr-35) trophy needs 100.",
+      "complete": true
     },
     {
       "id": "standout-vehicles",
@@ -441,7 +443,8 @@
       "verb": "discovered",
       "chapterOrdered": true,
       "collectible": true,
-      "intro": "The game's Weapons log, tab by tab, with each gun's stats as the log shows them. The log has four tabs: Guns (53 slots), Melee (9), Explosives (4) and Variants (130). The game's 100% checklist needs 50 of the 66 standard issue weapons (guns, melee and explosives); variants are extra. Every gun and explosive has its own row now, along with 6 melee weapons and 15 variants so far; the tabs still missing some end with a counter for the ones not listed yet."
+      "intro": "The game's Weapons log, tab by tab, with each gun's stats as the log shows them. The log has four tabs: Guns (53 slots), Melee (9), Explosives (4) and Variants (130). The game's 100% checklist needs 50 of the 66 standard issue weapons (guns, melee and explosives); variants are extra. Every weapon in all four tabs has its own row, so ticking them counts towards 100% on its own.",
+      "complete": true
     },
     {
       "id": "kenton-sets",
@@ -1544,7 +1547,24 @@
         }
       ],
       "tallyTarget": 5,
-      "revealedGuide": "Rob the vault at 5 of the 8 large banks and get away each time. Vaults open with the chapter 4 mission That's Where The Money Is…. After that, buy security van tips from Yasmani ($10,000) and follow the van to its bank. Bring your partner to carry the second bag. You get 4 stars at once, so have a fast bike ready. 100% needs all 8, and each pays up to $205,000."
+      "revealedGuide": "Rob the vault at 5 of the 8 large banks and get away each time. Vaults open with the chapter 4 mission That's Where The Money Is…. After that, buy security van tips from Yasmani ($10,000) and follow the van to its bank. Bring your partner to carry the second bag. You get 4 stars at once, so have a fast bike ready. 100% needs all 8, and each pays up to $205,000.",
+      "linkedCategories": [
+        "bank-jobs"
+      ],
+      "linkedSubgroups": [
+        "Large banks"
+      ],
+      "countsFrom": {
+        "target": 5,
+        "sources": [
+          {
+            "category": "bank-jobs",
+            "subgroups": [
+              "Large banks"
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "tr-41",
@@ -4149,11 +4169,28 @@
       "title": "Bank vaults",
       "category": "tasks",
       "spoiler": true,
-      "guide": "Hit all 8 bank vaults.",
+      "guide": "Rob the vault at all 8 large banks.",
       "tallyTarget": 8,
       "linkedCategories": [
         "bank-jobs"
-      ]
+      ],
+      "linkedSubgroups": [
+        "Large banks"
+      ],
+      "countsFrom": {
+        "target": 8,
+        "sources": [
+          {
+            "category": "bank-jobs",
+            "subgroups": [
+              "Large banks"
+            ]
+          }
+        ]
+      },
+      "guideLinks": {
+        "large banks": "category:bank-jobs#Large banks"
+      }
     },
     {
       "id": "tk-fence-narcotics",
@@ -6489,6 +6526,7 @@
     },
     {
       "id": "cd-06-06",
+      "imageURL": "https://leonidalog.app/images/cards/cd-06-06.jpg",
       "title": "Demario Richardson - Bronze",
       "category": "cards",
       "subgroup": "Liberty City Penetrators",
@@ -6497,7 +6535,7 @@
       "ny": 0.5725,
       "region": "Vice-Dale County",
       "area": "Salton",
-      "guide": "One of the 24 cards in the Liberty City Penetrators set. Follow the map pin."
+      "guide": "Salton: inside the end garage of the row, on a low shelf of the metal shelving next to the grey lockers, by a box of files."
     },
     {
       "id": "cd-06-07",
@@ -7151,6 +7189,7 @@
     },
     {
       "id": "cd-08-12",
+      "imageURL": "https://leonidalog.app/images/cards/cd-08-12.jpg",
       "title": "Jonah Clemmons - Deep Red",
       "category": "cards",
       "subgroup": "Los Santos Corkers",
@@ -7159,7 +7198,7 @@
       "ny": 0.5774,
       "region": "Vice-Dale County",
       "area": "Salton",
-      "guide": "One of the 24 cards in the Los Santos Corkers set. Follow the map pin."
+      "guide": "Salton: in the open shelter with the patterned concrete-block wall, on the chessboard table by the green seats."
     },
     {
       "id": "cd-08-13",
@@ -7758,6 +7797,7 @@
     },
     {
       "id": "cd-10-11",
+      "imageURL": "https://leonidalog.app/images/cards/cd-10-11.jpg",
       "title": "Maximus Goldbart - Deep Red",
       "category": "cards",
       "subgroup": "Los Santos Pounders",
@@ -7766,7 +7806,7 @@
       "ny": 0.5852,
       "region": "Vice-Dale County",
       "area": "Salton",
-      "guide": "One of the 24 cards in the Los Santos Pounders set. Follow the map pin."
+      "guide": "Salton: on the chessboard table with green seats on a concrete pad against the side of a beige building, next to the lawn with a park bench."
     },
     {
       "id": "cd-10-12",
@@ -9001,6 +9041,7 @@
     },
     {
       "id": "cd-14-33",
+      "imageURL": "https://leonidalog.app/images/cards/cd-14-33.jpg",
       "title": "Vanessa - Silver",
       "category": "cards",
       "subgroup": "Jack of Hearts Dancers",
@@ -9009,7 +9050,7 @@
       "ny": 0.5857,
       "region": "Vice-Dale County",
       "area": "Salton",
-      "guide": "One of the 36 cards in the Jack of Hearts Dancers set. Follow the map pin."
+      "guide": "Salton: on the roof of the Juliet Terrace apartments. Take the lift up, then climb the ladder to the very top; the card is on the ledge by a folding chair, overlooking the freeway."
     },
     {
       "id": "cd-14-34",
@@ -9821,6 +9862,7 @@
     },
     {
       "id": "cd-16-25",
+      "imageURL": "https://leonidalog.app/images/cards/cd-16-25.jpg",
       "title": "Swallow - Blue",
       "category": "cards",
       "subgroup": "The Legends of Ratface",
@@ -9829,7 +9871,7 @@
       "ny": 0.5901,
       "region": "Vice-Dale County",
       "area": "Salton",
-      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
+      "guide": "Salton: under the covered seating area of an apartment block, on the red picnic table by the railing, next to a pizza box."
     },
     {
       "id": "cd-16-26",
@@ -21005,11 +21047,12 @@
     },
     {
       "id": "hp-002",
+      "imageURL": "https://leonidalog.app/images/hoops/hp-002.jpg",
       "title": "Slator Towing lot",
       "category": "hoops",
       "subgroup": "Vice-Dale County",
       "spoiler": true,
-      "guide": "Slator Towing yard (a chop shop). Hoop on a metal beam where cars are stripped; ball by the east gate.",
+      "guide": "Slator Towing yard (a chop shop). The hoop hangs on the metal post in front of the \"Spare Parts / Repairs\" bays where cars are stripped; ball by the east gate.",
       "region": "Vice-Dale County",
       "area": "Salton",
       "nx": 0.5985,
@@ -24718,6 +24761,7 @@
     },
     {
       "id": "lb-11",
+      "imageURL": "https://leonidalog.app/images/labs/lb-11.jpg",
       "title": "Drug lab 11",
       "category": "labs",
       "spoiler": true,
@@ -24727,7 +24771,7 @@
       "region": "Vice City",
       "area": "Salton",
       "revealedTitle": "Kitty Litter lab: Salton Condo",
-      "revealedGuide": "Salton: an upstairs apartment on SW 7th Ave by Slator Towing; in through the east window."
+      "revealedGuide": "Salton: the fire-damaged upstairs apartment of the two-storey block on SW 7th Ave by Slator Towing (the one with the scorched balcony and taped-up doors below); in through the east window."
     },
     {
       "id": "lb-12",
@@ -28375,8 +28419,24 @@
       "spoiler": true,
       "stats": [
         {
+          "label": "Type",
+          "value": "Reptile"
+        },
+        {
+          "label": "Habitat",
+          "value": "Wetland"
+        },
+        {
+          "label": "Best weapon",
+          "value": "Shrewsbury SM-69"
+        },
+        {
           "label": "Category",
           "value": "Hunting"
+        },
+        {
+          "label": "Log entry",
+          "value": "3 of 61"
         }
       ],
       "nx": 0.5055,
@@ -28389,7 +28449,9 @@
           "ny": 0.4953,
           "r": 0.0082
         }
-      ]
+      ],
+      "guide": "Rare albino caiman in the wetlands. A low-power rifle keeps it in one piece.",
+      "slot": 3
     },
     {
       "id": "an-american-black-bear",
@@ -28998,7 +29060,8 @@
           "ny": 0.4031,
           "r": 0.0082
         }
-      ]
+      ],
+      "slot": 54
     },
     {
       "id": "an-unique-black-bear",
@@ -29028,7 +29091,8 @@
           "ny": 0.712,
           "r": 0.0105
         }
-      ]
+      ],
+      "slot": 55
     },
     {
       "id": "an-unique-wild-boar",
@@ -29037,7 +29101,7 @@
       "subgroup": "Hunting",
       "imageURL": "https://leonidalog.app/images/animals/unique-wild-boar-v2.jpg",
       "spoiler": true,
-      "guide": "Rare spotted wild boar, one of Leonida's 8 unique animals. Seen by Wild Hog Point Radar Base in Kelly County; follow the map pin.",
+      "guide": "One of Leonida's 8 unique animals: a belligerent boar with an odd coat and a very long mane. Seen by Wild Hog Point Radar Base in Kelly County; follow the map pin.",
       "stats": [
         {
           "label": "Category",
@@ -29060,7 +29124,8 @@
           "ny": 0.3585,
           "r": 0.0093
         }
-      ]
+      ],
+      "slot": 56
     },
     {
       "id": "an-unique-coyote",
@@ -29083,7 +29148,8 @@
       "guideLinks": {
         "Legendary Hunter": "ch-70",
         "Fair Game": "tr-29"
-      }
+      },
+      "slot": 57
     },
     {
       "id": "an-unique-crocodile",
@@ -29113,7 +29179,8 @@
           "ny": 0.7665,
           "r": 0.007
         }
-      ]
+      ],
+      "slot": 58
     },
     {
       "id": "an-unique-buck",
@@ -29143,7 +29210,8 @@
           "ny": 0.1597,
           "r": 0.0093
         }
-      ]
+      ],
+      "slot": 59
     },
     {
       "id": "an-unique-white-fox",
@@ -29167,7 +29235,8 @@
         "Legendary Hunter": "ch-70",
         "Fair Game": "tr-29",
         "Selkie Hole": "wc-selkie-hole"
-      }
+      },
+      "slot": 60
     },
     {
       "id": "an-unique-panther",
@@ -29197,7 +29266,8 @@
           "ny": 0.5359,
           "r": 0.0233
         }
-      ]
+      ],
+      "slot": 61
     },
     {
       "id": "an-blue-axanthic-iguana",
@@ -29262,13 +29332,107 @@
       "slot": 32
     },
     {
+      "id": "an-soot-spotted-cottontail-rabbit",
+      "title": "Soot-Spotted Cottontail Rabbit",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "guide": "Rare black-and-white cottontail, seen now and then in several parts of Leonida. Use a low-power rifle or the carcass is ruined.",
+      "stats": [
+        {
+          "label": "Type",
+          "value": "Mammal"
+        },
+        {
+          "label": "Habitat",
+          "value": "Forest, Wetland"
+        },
+        {
+          "label": "Best weapon",
+          "value": "Wortham W-22"
+        },
+        {
+          "label": "Category",
+          "value": "Hunting"
+        },
+        {
+          "label": "Log entry",
+          "value": "47 of 61"
+        }
+      ],
+      "slot": 47
+    },
+    {
+      "id": "an-spotted-wild-boar",
+      "title": "Spotted Wild Boar",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "guide": "Rare spotted wild boar, now and then in forests and wetlands. Take it on from long range.",
+      "stats": [
+        {
+          "label": "Type",
+          "value": "Mammal"
+        },
+        {
+          "label": "Habitat",
+          "value": "Forest, Wetland"
+        },
+        {
+          "label": "Best weapon",
+          "value": "Shrewsbury SM-69"
+        },
+        {
+          "label": "Category",
+          "value": "Hunting"
+        },
+        {
+          "label": "Log entry",
+          "value": "49 of 61"
+        }
+      ],
+      "slot": 49
+    },
+    {
+      "id": "an-super-red-iguana",
+      "title": "Super Red Iguana",
+      "category": "animals",
+      "subgroup": "Hunting",
+      "spoiler": true,
+      "guide": "Rare red-scaled iguana in the warm south, towns included, near fresh water. A low-power rifle keeps it in one piece.",
+      "stats": [
+        {
+          "label": "Type",
+          "value": "Reptile"
+        },
+        {
+          "label": "Habitat",
+          "value": "Wetland"
+        },
+        {
+          "label": "Best weapon",
+          "value": "Wortham W-22"
+        },
+        {
+          "label": "Category",
+          "value": "Hunting"
+        },
+        {
+          "label": "Log entry",
+          "value": "50 of 61"
+        }
+      ],
+      "slot": 50
+    },
+    {
       "id": "an-hunts",
       "title": "More hunting animals",
       "category": "animals",
       "subgroup": "Hunting",
       "spoiler": true,
-      "guide": "Count the animals you've studied in the game's Hunting group that don't have their own row here yet. 58 of the group's 61 are listed above.",
-      "tallyTarget": 5
+      "guide": "Count the animals you've studied in the game's Hunting group that don't have their own row here yet. All of them now have their own row, so this counter is retired. If you counted one here, take it off this counter and tick its row instead.",
+      "tallyTarget": 5,
+      "retired": true
     },
     {
       "id": "an-american-eel",
@@ -29680,7 +29844,8 @@
           "ny": 0.6163,
           "r": 0.007
         }
-      ]
+      ],
+      "slot": 2
     },
     {
       "id": "an-bengal-tiger",
@@ -29697,7 +29862,8 @@
       "nx": 0.5953,
       "ny": 0.6508,
       "region": "Vice-Dale County",
-      "area": "Peacock Bay"
+      "area": "Peacock Bay",
+      "slot": 3
     },
     {
       "id": "an-big-brown-bat",
@@ -29721,7 +29887,8 @@
           "ny": 0.1222,
           "r": 0.0315
         }
-      ]
+      ],
+      "slot": 4
     },
     {
       "id": "an-chimpanzee",
@@ -29796,7 +29963,8 @@
           "ny": 0.6935,
           "r": 0.021
         }
-      ]
+      ],
+      "slot": 10
     },
     {
       "id": "an-leonida-manatee",
@@ -29835,7 +30003,8 @@
           "ny": 0.6553,
           "r": 0.021
         }
-      ]
+      ],
+      "slot": 12
     },
     {
       "id": "an-orca",
@@ -29852,7 +30021,8 @@
       "nx": 0.6752,
       "ny": 0.6059,
       "region": "Vice-Dale County",
-      "area": "Catalan Key"
+      "area": "Catalan Key",
+      "slot": 13
     },
     {
       "id": "an-american-yorkshire-pig",
@@ -29869,7 +30039,8 @@
       "nx": 0.4159,
       "ny": 0.619,
       "region": "Mariana County",
-      "area": "Grassrivers"
+      "area": "Grassrivers",
+      "slot": 14
     },
     {
       "id": "an-rhesus-macaque",
@@ -29886,7 +30057,8 @@
       "nx": 0.6816,
       "ny": 0.5034,
       "region": "Vice-Dale County",
-      "area": "Waxman Island"
+      "area": "Waxman Island",
+      "slot": 15
     },
     {
       "id": "an-white-headed-capuchin",
@@ -29903,7 +30075,46 @@
       "nx": 0.6816,
       "ny": 0.5034,
       "region": "Vice-Dale County",
-      "area": "Waxman Island"
+      "area": "Waxman Island",
+      "slot": 18
+    },
+    {
+      "id": "an-humpback-whale",
+      "title": "Humpback Whale",
+      "category": "animals",
+      "subgroup": "Mammals",
+      "spoiler": true,
+      "guide": "Big whale with long flippers and a bumpy head; breaches out in the deep ocean.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Mammals"
+        },
+        {
+          "label": "Log entry",
+          "value": "11 of 18"
+        }
+      ],
+      "slot": 11
+    },
+    {
+      "id": "an-sperm-whale",
+      "title": "Sperm Whale",
+      "category": "animals",
+      "subgroup": "Mammals",
+      "spoiler": true,
+      "guide": "Huge whale with a big square head, seen now and then in the deep ocean around Leonida.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Mammals"
+        },
+        {
+          "label": "Log entry",
+          "value": "17 of 18"
+        }
+      ],
+      "slot": 17
     },
     {
       "id": "an-mammals",
@@ -29911,8 +30122,9 @@
       "category": "animals",
       "subgroup": "Mammals",
       "spoiler": true,
-      "guide": "Count the animals you've studied in the game's Mammals group that don't have their own row here yet. 16 of the group's 18 are listed above.",
-      "tallyTarget": 2
+      "guide": "Count the animals you've studied in the game's Mammals group that don't have their own row here yet. All of them now have their own row, so this counter is retired. If you counted one here, take it off this counter and tick its row instead.",
+      "tallyTarget": 2,
+      "retired": true
     },
     {
       "id": "an-american-shorthair",
@@ -29951,7 +30163,8 @@
           "ny": 0.5362,
           "r": 0.0292
         }
-      ]
+      ],
+      "slot": 1
     },
     {
       "id": "an-bombay",
@@ -29968,7 +30181,8 @@
       "nx": 0.3359,
       "ny": 0.5039,
       "region": "Mariana County",
-      "area": "Capri"
+      "area": "Capri",
+      "slot": 5
     },
     {
       "id": "an-american-foxhound",
@@ -30021,7 +30235,8 @@
       "nx": 0.7713,
       "ny": 0.5546,
       "region": "Vice-Dale County",
-      "area": "Ocean Beach"
+      "area": "Ocean Beach",
+      "slot": 20
     },
     {
       "id": "an-belgian-malinois",
@@ -30038,7 +30253,8 @@
       "nx": 0.7137,
       "ny": 0.5098,
       "region": "Vice-Dale County",
-      "area": "Starfish Island"
+      "area": "Starfish Island",
+      "slot": 21
     },
     {
       "id": "an-border-collie",
@@ -30055,7 +30271,8 @@
       "nx": 0.3488,
       "ny": 0.3343,
       "region": "Kelly County",
-      "area": "Port Gellhorn"
+      "area": "Port Gellhorn",
+      "slot": 22
     },
     {
       "id": "an-boxer",
@@ -30072,7 +30289,8 @@
       "nx": 0.7073,
       "ny": 0.5131,
       "region": "Vice-Dale County",
-      "area": "Starfish Island"
+      "area": "Starfish Island",
+      "slot": 23
     },
     {
       "id": "an-catahoula-cur",
@@ -30122,7 +30340,8 @@
           "ny": 0.4452,
           "r": 0.0082
         }
-      ]
+      ],
+      "slot": 25
     },
     {
       "id": "an-french-bulldog",
@@ -30239,7 +30458,8 @@
           "ny": 0.4567,
           "r": 0.0397
         }
-      ]
+      ],
+      "slot": 31
     },
     {
       "id": "an-rottweiler",
@@ -30349,13 +30569,185 @@
       "slot": 16
     },
     {
+      "id": "an-bengal",
+      "title": "Bengal",
+      "category": "animals",
+      "subgroup": "Cats & dogs",
+      "spoiler": true,
+      "guide": "Pet cat with leopard-print fur.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Cats & dogs"
+        },
+        {
+          "label": "Log entry",
+          "value": "3 of 34"
+        }
+      ],
+      "slot": 3
+    },
+    {
+      "id": "an-blotched-tabby",
+      "title": "Blotched Tabby",
+      "category": "animals",
+      "subgroup": "Cats & dogs",
+      "spoiler": true,
+      "guide": "Common tabby, as a housecat or a stray, all over Leonida.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Cats & dogs"
+        },
+        {
+          "label": "Log entry",
+          "value": "4 of 34"
+        }
+      ],
+      "slot": 4
+    },
+    {
+      "id": "an-bullworth-longhair",
+      "title": "Bullworth Longhair",
+      "category": "animals",
+      "subgroup": "Cats & dogs",
+      "spoiler": true,
+      "guide": "Big cat with an unusually shaggy coat; a sought-after pet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Cats & dogs"
+        },
+        {
+          "label": "Log entry",
+          "value": "6 of 34"
+        }
+      ],
+      "slot": 6
+    },
+    {
+      "id": "an-chocolate-longhair",
+      "title": "Chocolate Longhair",
+      "category": "animals",
+      "subgroup": "Cats & dogs",
+      "spoiler": true,
+      "guide": "Long-haired chocolate-brown cat, seen wherever there are people.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Cats & dogs"
+        },
+        {
+          "label": "Log entry",
+          "value": "8 of 34"
+        }
+      ],
+      "slot": 8
+    },
+    {
+      "id": "an-cream-longhair",
+      "title": "Cream Longhair",
+      "category": "animals",
+      "subgroup": "Cats & dogs",
+      "spoiler": true,
+      "guide": "Long-haired cream cat that prowls streets and alleys.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Cats & dogs"
+        },
+        {
+          "label": "Log entry",
+          "value": "9 of 34"
+        }
+      ],
+      "slot": 9
+    },
+    {
+      "id": "an-mackerel-tabby",
+      "title": "Mackerel Tabby",
+      "category": "animals",
+      "subgroup": "Cats & dogs",
+      "spoiler": true,
+      "guide": "Tabby with fishbone-striped fur, in most built-up areas.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Cats & dogs"
+        },
+        {
+          "label": "Log entry",
+          "value": "12 of 34"
+        }
+      ],
+      "slot": 12
+    },
+    {
+      "id": "an-persian",
+      "title": "Persian",
+      "category": "animals",
+      "subgroup": "Cats & dogs",
+      "spoiler": true,
+      "guide": "Thick-furred, laid-back luxury cat.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Cats & dogs"
+        },
+        {
+          "label": "Log entry",
+          "value": "13 of 34"
+        }
+      ],
+      "slot": 13
+    },
+    {
+      "id": "an-ragdoll",
+      "title": "Ragdoll",
+      "category": "animals",
+      "subgroup": "Cats & dogs",
+      "spoiler": true,
+      "guide": "Large, silky cat, seen wherever there are people.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Cats & dogs"
+        },
+        {
+          "label": "Log entry",
+          "value": "14 of 34"
+        }
+      ],
+      "slot": 14
+    },
+    {
+      "id": "an-red-tabby",
+      "title": "Red Tabby",
+      "category": "animals",
+      "subgroup": "Cats & dogs",
+      "spoiler": true,
+      "guide": "Friendly red-coated tabby, found across Leonida.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Cats & dogs"
+        },
+        {
+          "label": "Log entry",
+          "value": "15 of 34"
+        }
+      ],
+      "slot": 15
+    },
+    {
       "id": "an-cats-dogs",
       "title": "More cats & dogs",
       "category": "animals",
       "subgroup": "Cats & dogs",
       "spoiler": true,
-      "guide": "Count the animals you've studied in the game's Cats & dogs group that don't have their own row here yet. 25 of the group's 34 are listed above.",
-      "tallyTarget": 10
+      "guide": "Count the animals you've studied in the game's Cats & dogs group that don't have their own row here yet. All of them now have their own row, so this counter is retired. If you counted one here, take it off this counter and tick its row instead.",
+      "tallyTarget": 10,
+      "retired": true
     },
     {
       "id": "an-american-bullfrog",
@@ -31581,7 +31973,8 @@
           "ny": 0.8791,
           "r": 0.0105
         }
-      ]
+      ],
+      "slot": 4
     },
     {
       "id": "an-blacktip-shark",
@@ -31605,7 +31998,8 @@
           "ny": 0.8778,
           "r": 0.0385
         }
-      ]
+      ],
+      "slot": 5
     },
     {
       "id": "an-blue-land-crab",
@@ -31646,7 +32040,8 @@
         }
       ],
       "nx": 0.6048,
-      "ny": 0.8365
+      "ny": 0.8365,
+      "slot": 8
     },
     {
       "id": "an-koi",
@@ -31736,7 +32131,103 @@
           "ny": 0.8769,
           "r": 0.035
         }
-      ]
+      ],
+      "slot": 18
+    },
+    {
+      "id": "an-atlantic-bluefin-tuna",
+      "title": "Atlantic Bluefin Tuna",
+      "category": "animals",
+      "subgroup": "Aquatic",
+      "spoiler": true,
+      "guide": "Massive tuna that roams the deep ocean around Leonida.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Aquatic"
+        },
+        {
+          "label": "Log entry",
+          "value": "1 of 18"
+        }
+      ],
+      "slot": 1
+    },
+    {
+      "id": "an-atlantic-sailfish",
+      "title": "Atlantic Sailfish",
+      "category": "animals",
+      "subgroup": "Aquatic",
+      "spoiler": true,
+      "guide": "Big fish with a huge dorsal fin and needle snout, in the deep water east of Leonida.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Aquatic"
+        },
+        {
+          "label": "Log entry",
+          "value": "3 of 18"
+        }
+      ],
+      "slot": 3
+    },
+    {
+      "id": "an-bull-shark",
+      "title": "Bull Shark",
+      "category": "animals",
+      "subgroup": "Aquatic",
+      "spoiler": true,
+      "guide": "Stocky, aggressive shark found in all the waters around Leonida.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Aquatic"
+        },
+        {
+          "label": "Log entry",
+          "value": "7 of 18"
+        }
+      ],
+      "slot": 7
+    },
+    {
+      "id": "an-north-atlantic-swordfish",
+      "title": "North Atlantic Swordfish",
+      "category": "animals",
+      "subgroup": "Aquatic",
+      "spoiler": true,
+      "guide": "Big billed fish found all around Leonida, mostly in the deep ocean.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Aquatic"
+        },
+        {
+          "label": "Log entry",
+          "value": "13 of 18"
+        }
+      ],
+      "slot": 13
+    },
+    {
+      "id": "an-nurse-shark",
+      "title": "Nurse Shark",
+      "category": "animals",
+      "subgroup": "Aquatic",
+      "spoiler": true,
+      "guide": "Shy reef shark; gathers in groups near the coast at night.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Aquatic"
+        },
+        {
+          "label": "Log entry",
+          "value": "14 of 18"
+        }
+      ],
+      "slot": 14
     },
     {
       "id": "an-aquatic",
@@ -31744,8 +32235,9 @@
       "category": "animals",
       "subgroup": "Aquatic",
       "spoiler": true,
-      "guide": "Count the animals you've studied in the game's Aquatic group that don't have their own row here yet. 13 of the group's 18 are listed above.",
-      "tallyTarget": 5
+      "guide": "Count the animals you've studied in the game's Aquatic group that don't have their own row here yet. All of them now have their own row, so this counter is retired. If you counted one here, take it off this counter and tick its row instead.",
+      "tallyTarget": 5,
+      "retired": true
     },
     {
       "id": "an-burmese-python",
@@ -31762,7 +32254,8 @@
       "nx": 0.4895,
       "ny": 0.6701,
       "region": "Mariana County",
-      "area": "Grassrivers"
+      "area": "Grassrivers",
+      "slot": 3
     },
     {
       "id": "an-mutated-american-crocodile",
@@ -31791,7 +32284,8 @@
           "ny": 0.7807,
           "r": 0.007
         }
-      ]
+      ],
+      "slot": 15
     },
     {
       "id": "an-mutated-eastern-brown-pelican",
@@ -31815,7 +32309,8 @@
           "ny": 0.7106,
           "r": 0.0163
         }
-      ]
+      ],
+      "slot": 16
     },
     {
       "id": "an-mutated-american-herring-gull",
@@ -31839,7 +32334,8 @@
           "ny": 0.7166,
           "r": 0.0175
         }
-      ]
+      ],
+      "slot": 17
     },
     {
       "id": "an-mutated-mottled-duck",
@@ -31868,7 +32364,8 @@
           "ny": 0.6983,
           "r": 0.0105
         }
-      ]
+      ],
+      "slot": 18
     },
     {
       "id": "an-alien-frenchie",
@@ -31909,13 +32406,318 @@
       "slot": 5
     },
     {
+      "id": "an-patriot-cat",
+      "title": "Patriot Cat",
+      "category": "animals",
+      "subgroup": "Other",
+      "spoiler": true,
+      "guide": "A house cat dyed head to toe with the American flag.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Other"
+        },
+        {
+          "label": "Log entry",
+          "value": "1 of 23"
+        }
+      ],
+      "slot": 1
+    },
+    {
+      "id": "an-ride-em-chihuahua",
+      "title": "Ride 'em Chihuahua",
+      "category": "animals",
+      "subgroup": "Other",
+      "spoiler": true,
+      "guide": "A chihuahua with a tiny plush cowboy on its back. It wanders the greens at Frontier Adventure Golf in Waning Sands, Leonard County.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Other"
+        },
+        {
+          "label": "Log entry",
+          "value": "2 of 23"
+        }
+      ],
+      "slot": 2
+    },
+    {
+      "id": "an-diva-poodle",
+      "title": "Diva Poodle",
+      "category": "animals",
+      "subgroup": "Other",
+      "spoiler": true,
+      "guide": "A poodle with an extravagant salon trim and dye job.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Other"
+        },
+        {
+          "label": "Log entry",
+          "value": "6 of 23"
+        }
+      ],
+      "slot": 6
+    },
+    {
+      "id": "an-dodo",
+      "title": "Dodo",
+      "category": "animals",
+      "subgroup": "Other",
+      "spoiler": true,
+      "guide": "A cloned dodo, made for a publicity stunt.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Other"
+        },
+        {
+          "label": "Log entry",
+          "value": "7 of 23"
+        }
+      ],
+      "slot": 7
+    },
+    {
+      "id": "an-rainbow-poodle",
+      "title": "Rainbow Poodle",
+      "category": "animals",
+      "subgroup": "Other",
+      "spoiler": true,
+      "guide": "A poodle with a multicolour dye job and a mohawk.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Other"
+        },
+        {
+          "label": "Log entry",
+          "value": "8 of 23"
+        }
+      ],
+      "slot": 8
+    },
+    {
+      "id": "an-gertrude",
+      "title": "Gertrude",
+      "category": "animals",
+      "subgroup": "Other",
+      "spoiler": true,
+      "guide": "A poodle with a loud pink and green dye job.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Other"
+        },
+        {
+          "label": "Log entry",
+          "value": "9 of 23"
+        }
+      ],
+      "slot": 9
+    },
+    {
+      "id": "an-karkinos",
+      "title": "Karkinos",
+      "category": "animals",
+      "subgroup": "Other",
+      "spoiler": true,
+      "guide": "Giant lab-mutated land crab. Tied to the abandoned crab research outpost in the swamps south-west of Pelican Valley.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Other"
+        },
+        {
+          "label": "Log entry",
+          "value": "10 of 23"
+        }
+      ],
+      "slot": 10
+    },
+    {
+      "id": "an-snowbird-raccoon",
+      "title": "Snowbird Raccoon",
+      "category": "animals",
+      "subgroup": "Other",
+      "spoiler": true,
+      "guide": "A raccoon in a relaxed, Leonida-style outfit.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Other"
+        },
+        {
+          "label": "Log entry",
+          "value": "11 of 23"
+        }
+      ],
+      "slot": 11
+    },
+    {
+      "id": "an-pretty-pig",
+      "title": "Pretty Pig",
+      "category": "animals",
+      "subgroup": "Other",
+      "spoiler": true,
+      "guide": "A big pig in a ruffled dress.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Other"
+        },
+        {
+          "label": "Log entry",
+          "value": "12 of 23"
+        }
+      ],
+      "slot": 12
+    },
+    {
+      "id": "an-gomez",
+      "title": "Gomez",
+      "category": "animals",
+      "subgroup": "Other",
+      "spoiler": true,
+      "guide": "A black cat brought back from the dead in a strange ritual.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Other"
+        },
+        {
+          "label": "Log entry",
+          "value": "13 of 23"
+        }
+      ],
+      "slot": 13
+    },
+    {
+      "id": "an-baby-bonnet-cat",
+      "title": "Baby Bonnet Cat",
+      "category": "animals",
+      "subgroup": "Other",
+      "spoiler": true,
+      "guide": "A cat in an old-fashioned baby bonnet and bow.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Other"
+        },
+        {
+          "label": "Log entry",
+          "value": "14 of 23"
+        }
+      ],
+      "slot": 14
+    },
+    {
+      "id": "an-polar-bear",
+      "title": "Polar Bear",
+      "category": "animals",
+      "subgroup": "Other",
+      "spoiler": true,
+      "guide": "Caged in a Leonida Animal Service truck held up by Dodos Rising protesters, a random event on the freeways. Study it in the back of the truck.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Other"
+        },
+        {
+          "label": "Log entry",
+          "value": "19 of 23"
+        }
+      ],
+      "slot": 19
+    },
+    {
+      "id": "an-festive-poodle",
+      "title": "Festive Poodle",
+      "category": "animals",
+      "subgroup": "Other",
+      "spoiler": true,
+      "guide": "A poodle with a holiday trim, dye job and jingle-bell collar.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Other"
+        },
+        {
+          "label": "Log entry",
+          "value": "20 of 23"
+        }
+      ],
+      "slot": 20
+    },
+    {
+      "id": "an-police-poodle",
+      "title": "Police Poodle",
+      "category": "animals",
+      "subgroup": "Other",
+      "spoiler": true,
+      "guide": "A poodle in a novelty cop costume.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Other"
+        },
+        {
+          "label": "Log entry",
+          "value": "21 of 23"
+        }
+      ],
+      "slot": 21
+    },
+    {
+      "id": "an-bob-cut-maltese",
+      "title": "Bob-cut Maltese",
+      "category": "animals",
+      "subgroup": "Other",
+      "spoiler": true,
+      "guide": "A Maltese with a questionable bob haircut.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Other"
+        },
+        {
+          "label": "Log entry",
+          "value": "22 of 23"
+        }
+      ],
+      "slot": 22
+    },
+    {
+      "id": "an-star-spangled-raccoon",
+      "title": "Star-Spangled Raccoon",
+      "category": "animals",
+      "subgroup": "Other",
+      "spoiler": true,
+      "guide": "A raccoon in a stars and stripes shirt and hat.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Other"
+        },
+        {
+          "label": "Log entry",
+          "value": "23 of 23"
+        }
+      ],
+      "slot": 23
+    },
+    {
       "id": "an-other",
       "title": "Other animals",
       "category": "animals",
       "subgroup": "Other",
       "spoiler": true,
-      "guide": "Count the animals you've studied in the game's Other group that don't have their own row here yet. 7 of the group's 23 are listed above.",
-      "tallyTarget": 18
+      "guide": "Count the animals you've studied in the game's Other group that don't have their own row here yet. All of them now have their own row, so this counter is retired. If you counted one here, take it off this counter and tick its row instead.",
+      "tallyTarget": 18,
+      "retired": true
     },
     {
       "id": "bd-01-whitetail-buck",
@@ -38058,6 +38860,14 @@
       "slot": 9
     },
     {
+      "id": "vh-truffade-thrax",
+      "title": "Truffade Thrax",
+      "category": "vehicles",
+      "subgroup": "Supercars",
+      "spoiler": true,
+      "guide": "Supercar in the game's Vehicles log. It's the last car on Randy's Wish List, parked on Dalton Island."
+    },
+    {
       "id": "vh-brute-boxville",
       "imageURL": "https://leonidalog.app/images/vehicles/brute-boxville-v2.jpg",
       "title": "Brute Boxville",
@@ -41050,13 +41860,94 @@
       "slot": 5
     },
     {
+      "id": "vh-69-bravado-gauntlet-custom",
+      "title": "'69 Bravado Gauntlet Custom",
+      "category": "vehicles",
+      "subgroup": "Muscle cars",
+      "spoiler": true,
+      "guide": "Muscle car in the game's Vehicles log."
+    },
+    {
+      "id": "vh-vapid-dominator-asp",
+      "title": "Vapid Dominator ASP",
+      "category": "vehicles",
+      "subgroup": "Muscle cars",
+      "spoiler": true,
+      "guide": "Muscle car in the game's Vehicles log."
+    },
+    {
+      "id": "vh-declasse-vigero-zx-convertible",
+      "title": "Declasse Vigero ZX Convertible",
+      "category": "vehicles",
+      "subgroup": "Muscle cars",
+      "spoiler": true,
+      "guide": "Muscle car in the game's Vehicles log."
+    },
+    {
+      "id": "vh-72-schyster-deviant",
+      "title": "'72 Schyster Deviant",
+      "category": "vehicles",
+      "subgroup": "Muscle cars",
+      "spoiler": true,
+      "guide": "Muscle car in the game's Vehicles log. The fifth car in Wyman's Classic Car Collection."
+    },
+    {
+      "id": "vh-67-sirius-transgressor",
+      "title": "'67 Sirius Transgressor",
+      "category": "vehicles",
+      "subgroup": "Muscle cars",
+      "spoiler": true,
+      "guide": "Muscle car in the game's Vehicles log. The first car in Wyman's Classic Car Collection."
+    },
+    {
+      "id": "vh-59-albany-devanity",
+      "title": "'59 Albany DeVanity",
+      "category": "vehicles",
+      "subgroup": "Muscle cars",
+      "spoiler": true,
+      "guide": "Muscle car in the game's Vehicles log."
+    },
+    {
+      "id": "vh-67-declasse-yosemite",
+      "title": "'67 Declasse Yosemite",
+      "category": "vehicles",
+      "subgroup": "Muscle cars",
+      "spoiler": true,
+      "guide": "Muscle car in the game's Vehicles log."
+    },
+    {
+      "id": "vh-56-vapid-slamvan",
+      "title": "'56 Vapid Slamvan",
+      "category": "vehicles",
+      "subgroup": "Muscle cars",
+      "spoiler": true,
+      "guide": "Muscle car in the game's Vehicles log."
+    },
+    {
+      "id": "vh-55-declasse-bobcat-500",
+      "title": "'55 Declasse Bobcat 500",
+      "category": "vehicles",
+      "subgroup": "Muscle cars",
+      "spoiler": true,
+      "guide": "Muscle car in the game's Vehicles log."
+    },
+    {
+      "id": "vh-50-albany-hermes",
+      "title": "'50 Albany Hermes",
+      "category": "vehicles",
+      "subgroup": "Muscle cars",
+      "spoiler": true,
+      "guide": "Muscle car in the game's Vehicles log."
+    },
+    {
       "id": "vh-more-muscle-cars",
       "title": "More muscle cars",
       "category": "vehicles",
       "subgroup": "Muscle cars",
       "spoiler": true,
-      "guide": "Count the muscle cars you've discovered that don't have their own row here yet: 16 of the 26 are listed above, so 10 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
-      "tallyTarget": 11
+      "guide": "Count the muscle cars you've discovered that don't have their own row here yet: 16 of the 26 are listed above, so 10 left to count. All of them now have their own row, so this counter is retired. If you counted one here, take it off this counter and tick its row instead.",
+      "tallyTarget": 11,
+      "retired": true
     },
     {
       "id": "vh-vapid-marshall",
@@ -41201,13 +42092,22 @@
       "slot": 4
     },
     {
+      "id": "vh-85-schyster-woodland",
+      "title": "'85 Schyster Woodland",
+      "category": "vehicles",
+      "subgroup": "Sedans",
+      "spoiler": true,
+      "guide": "Sedan in the game's Vehicles log."
+    },
+    {
       "id": "vh-more-sedans",
       "title": "More sedans",
       "category": "vehicles",
       "subgroup": "Sedans",
       "spoiler": true,
-      "guide": "Count the sedans you've discovered that don't have their own row here yet: 28 of the 29 are listed above, so 1 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
-      "tallyTarget": 3
+      "guide": "Count the sedans you've discovered that don't have their own row here yet: 28 of the 29 are listed above, so 1 left to count. All of them now have their own row, so this counter is retired. If you counted one here, take it off this counter and tick its row instead.",
+      "tallyTarget": 3,
+      "retired": true
     },
     {
       "id": "vh-pfister-growler",
@@ -41245,13 +42145,22 @@
       "slot": 7
     },
     {
+      "id": "vh-reynolds-kit-car",
+      "title": "Reynolds Kit Car",
+      "category": "vehicles",
+      "subgroup": "Sports cars",
+      "spoiler": true,
+      "guide": "Sports car in the game's Vehicles log. The fourth car in Wyman's Classic Car Collection (Ultimate Edition)."
+    },
+    {
       "id": "vh-more-sports-cars",
       "title": "More sports cars",
       "category": "vehicles",
       "subgroup": "Sports cars",
       "spoiler": true,
-      "guide": "Count the sports cars you've discovered that don't have their own row here yet: 12 of the 13 are listed above, so 1 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
-      "tallyTarget": 2
+      "guide": "Count the sports cars you've discovered that don't have their own row here yet: 12 of the 13 are listed above, so 1 left to count. All of them now have their own row, so this counter is retired. If you counted one here, take it off this counter and tick its row instead.",
+      "tallyTarget": 2,
+      "retired": true
     },
     {
       "id": "vh-bravado-gresley-xt",
@@ -41278,13 +42187,22 @@
       "slot": 12
     },
     {
+      "id": "vh-70-vapid-riata",
+      "title": "'70 Vapid Riata",
+      "category": "vehicles",
+      "subgroup": "SUVs",
+      "spoiler": true,
+      "guide": "SUV in the game's Vehicles log. The second car in Wyman's Classic Car Collection."
+    },
+    {
       "id": "vh-more-suvs",
       "title": "More SUVs",
       "category": "vehicles",
       "subgroup": "SUVs",
       "spoiler": true,
-      "guide": "Count the SUVs you've discovered that don't have their own row here yet: 22 of the 23 are listed above, so 1 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
-      "tallyTarget": 2
+      "guide": "Count the SUVs you've discovered that don't have their own row here yet: 22 of the 23 are listed above, so 1 left to count. All of them now have their own row, so this counter is retired. If you counted one here, take it off this counter and tick its row instead.",
+      "tallyTarget": 2,
+      "retired": true
     },
     {
       "id": "vh-more-supercars",
@@ -41292,8 +42210,9 @@
       "category": "vehicles",
       "subgroup": "Supercars",
       "spoiler": true,
-      "guide": "Count the supercars you've discovered that don't have their own row here yet: 8 of the 9 are listed above, so 1 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
-      "tallyTarget": 1
+      "guide": "Count the supercars you've discovered that don't have their own row here yet: 8 of the 9 are listed above, so 1 left to count. All of them now have their own row, so this counter is retired. If you counted one here, take it off this counter and tick its row instead.",
+      "tallyTarget": 1,
+      "retired": true
     },
     {
       "id": "vh-karin-vivanite",
@@ -41444,13 +42363,38 @@
       "slot": 6
     },
     {
+      "id": "vh-82-maibatsu-caddy",
+      "title": "'82 Maibatsu Caddy",
+      "category": "vehicles",
+      "subgroup": "Utility vehicles",
+      "spoiler": true,
+      "guide": "Utility vehicle in the game's Vehicles log."
+    },
+    {
+      "id": "vh-32-vapid-golfer",
+      "title": "'32 Vapid Golfer",
+      "category": "vehicles",
+      "subgroup": "Utility vehicles",
+      "spoiler": true,
+      "guide": "Utility vehicle in the game's Vehicles log."
+    },
+    {
+      "id": "vh-hvy-th42-telehandler",
+      "title": "HVY TH42 Telehandler",
+      "category": "vehicles",
+      "subgroup": "Utility vehicles",
+      "spoiler": true,
+      "guide": "Utility vehicle in the game's Vehicles log."
+    },
+    {
       "id": "vh-more-utility-vehicles",
       "title": "More utility vehicles",
       "category": "vehicles",
       "subgroup": "Utility vehicles",
       "spoiler": true,
-      "guide": "Count the utility vehicles you've discovered that don't have their own row here yet: 6 of the 9 are listed above, so 3 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
-      "tallyTarget": 4
+      "guide": "Count the utility vehicles you've discovered that don't have their own row here yet: 6 of the 9 are listed above, so 3 left to count. All of them now have their own row, so this counter is retired. If you counted one here, take it off this counter and tick its row instead.",
+      "tallyTarget": 4,
+      "retired": true
     },
     {
       "id": "vh-hvy-bulldozer",
@@ -41559,13 +42503,30 @@
       "slot": 4
     },
     {
+      "id": "vh-interstate-ambulance",
+      "title": "Interstate Ambulance",
+      "category": "vehicles",
+      "subgroup": "Emergency vehicles",
+      "spoiler": true,
+      "guide": "Emergency vehicle in the game's Vehicles log."
+    },
+    {
+      "id": "vh-99-interstate-stockade",
+      "title": "'99 Interstate Stockade",
+      "category": "vehicles",
+      "subgroup": "Emergency vehicles",
+      "spoiler": true,
+      "guide": "Emergency vehicle in the game's Vehicles log."
+    },
+    {
       "id": "vh-more-emergency-vehicles",
       "title": "More emergency vehicles",
       "category": "vehicles",
       "subgroup": "Emergency vehicles",
       "spoiler": true,
-      "guide": "Count the emergency vehicles you've discovered that don't have their own row here yet: 5 of the 7 are listed above, so 2 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
-      "tallyTarget": 3
+      "guide": "Count the emergency vehicles you've discovered that don't have their own row here yet: 5 of the 7 are listed above, so 2 left to count. All of them now have their own row, so this counter is retired. If you counted one here, take it off this counter and tick its row instead.",
+      "tallyTarget": 3,
+      "retired": true
     },
     {
       "id": "vh-hauners-p-996-lazer",
@@ -41574,7 +42535,7 @@
       "category": "vehicles",
       "subgroup": "Military vehicles",
       "spoiler": true,
-      "guide": "Heavily armed supersonic fighter jet.",
+      "guide": "Heavily armed supersonic fighter jet. Several sit parked in the northern half of Mile Zero Air Station; taking one brings a 4-star wanted level and two jets give chase.",
       "stats": [
         {
           "label": "Era",
@@ -41640,13 +42601,30 @@
       "slot": 8
     },
     {
+      "id": "vh-hauners-apc",
+      "title": "Hauners APC",
+      "category": "vehicles",
+      "subgroup": "Military vehicles",
+      "spoiler": true,
+      "guide": "Military vehicle in the game's Vehicles log."
+    },
+    {
+      "id": "vh-hauners-ridgway",
+      "title": "Hauners Ridgway",
+      "category": "vehicles",
+      "subgroup": "Military vehicles",
+      "spoiler": true,
+      "guide": "Military vehicle in the game's Vehicles log."
+    },
+    {
       "id": "vh-more-military-vehicles",
       "title": "More military vehicles",
       "category": "vehicles",
       "subgroup": "Military vehicles",
       "spoiler": true,
-      "guide": "Count the military vehicles you've discovered that don't have their own row here yet: 6 of the 8 are listed above, so 2 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows. Fighter jets sit unlocked around the airfield in the northern half of Mile Zero Air Station; taking one brings an instant 4-star wanted level and two jets come after you.",
-      "tallyTarget": 5
+      "guide": "Count the military vehicles you've discovered that don't have their own row here yet: 6 of the 8 are listed above, so 2 left to count. All of them now have their own row, so this counter is retired. If you counted one here, take it off this counter and tick its row instead.",
+      "tallyTarget": 5,
+      "retired": true
     },
     {
       "id": "vh-whiffler-bus",
@@ -41697,13 +42675,22 @@
       "slot": 5
     },
     {
+      "id": "vh-whiffler-airport-bus",
+      "title": "Whiffler Airport Bus",
+      "category": "vehicles",
+      "subgroup": "Transport vehicles",
+      "spoiler": true,
+      "guide": "Transport vehicle in the game's Vehicles log."
+    },
+    {
       "id": "vh-more-transport-vehicles",
       "title": "More transport vehicles",
       "category": "vehicles",
       "subgroup": "Transport vehicles",
       "spoiler": true,
-      "guide": "Count the transport vehicles you've discovered that don't have their own row here yet: 5 of the 6 are listed above, so 1 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
-      "tallyTarget": 3
+      "guide": "Count the transport vehicles you've discovered that don't have their own row here yet: 5 of the 6 are listed above, so 1 left to count. All of them now have their own row, so this counter is retired. If you counted one here, take it off this counter and tick its row instead.",
+      "tallyTarget": 3,
+      "retired": true
     },
     {
       "id": "vh-endurex-aerobike",
@@ -41833,13 +42820,38 @@
       "slot": 17
     },
     {
+      "id": "vh-principe-lectro",
+      "title": "Principe Lectro",
+      "category": "vehicles",
+      "subgroup": "Bikes",
+      "spoiler": true,
+      "guide": "Bike in the game's Vehicles log."
+    },
+    {
+      "id": "vh-principe-esskey",
+      "title": "Principe Esskey",
+      "category": "vehicles",
+      "subgroup": "Bikes",
+      "spoiler": true,
+      "guide": "Bike in the game's Vehicles log."
+    },
+    {
+      "id": "vh-walter-crusher",
+      "title": "Walter Crusher",
+      "category": "vehicles",
+      "subgroup": "Bikes",
+      "spoiler": true,
+      "guide": "Bike in the game's Vehicles log."
+    },
+    {
       "id": "vh-more-bikes",
       "title": "More bikes",
       "category": "vehicles",
       "subgroup": "Bikes",
       "spoiler": true,
-      "guide": "Count the bikes you've discovered that don't have their own row here yet: 26 of the 29 are listed above, so 3 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
-      "tallyTarget": 7
+      "guide": "Count the bikes you've discovered that don't have their own row here yet: 26 of the 29 are listed above, so 3 left to count. All of them now have their own row, so this counter is retired. If you counted one here, take it off this counter and tick its row instead.",
+      "tallyTarget": 7,
+      "retired": true
     },
     {
       "id": "vh-seashark-sedna",
@@ -41866,13 +42878,62 @@
       "slot": 22
     },
     {
+      "id": "vh-dinka-marquis",
+      "title": "Dinka Marquis",
+      "category": "vehicles",
+      "subgroup": "Watercraft",
+      "spoiler": true,
+      "guide": "Boat in the game's Vehicles log."
+    },
+    {
+      "id": "vh-calder-dibnah",
+      "title": "Calder Dibnah",
+      "category": "vehicles",
+      "subgroup": "Watercraft",
+      "spoiler": true,
+      "guide": "Boat in the game's Vehicles log."
+    },
+    {
+      "id": "vh-calder-cb69",
+      "title": "Calder CB69",
+      "category": "vehicles",
+      "subgroup": "Watercraft",
+      "spoiler": true,
+      "guide": "Boat in the game's Vehicles log."
+    },
+    {
+      "id": "vh-hulls-flatdeck",
+      "title": "Hulls Flatdeck",
+      "category": "vehicles",
+      "subgroup": "Watercraft",
+      "spoiler": true,
+      "guide": "Boat in the game's Vehicles log."
+    },
+    {
+      "id": "vh-hulls-pontoon",
+      "title": "Hulls Pontoon",
+      "category": "vehicles",
+      "subgroup": "Watercraft",
+      "spoiler": true,
+      "guide": "Boat in the game's Vehicles log."
+    },
+    {
+      "id": "vh-rugger-cretacean",
+      "title": "Rugger Cretacean",
+      "category": "vehicles",
+      "subgroup": "Watercraft",
+      "spoiler": true,
+      "guide": "Boat in the game's Vehicles log."
+    },
+    {
       "id": "vh-more-watercraft",
       "title": "More watercraft",
       "category": "vehicles",
       "subgroup": "Watercraft",
       "spoiler": true,
-      "guide": "Count the watercraft you've discovered that don't have their own row here yet: 22 of the 28 are listed above, so 6 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
-      "tallyTarget": 7
+      "guide": "Count the watercraft you've discovered that don't have their own row here yet: 22 of the 28 are listed above, so 6 left to count. All of them now have their own row, so this counter is retired. If you counted one here, take it off this counter and tick its row instead.",
+      "tallyTarget": 7,
+      "retired": true
     },
     {
       "id": "vh-bottcher-015a",
@@ -41899,13 +42960,62 @@
       "slot": 1
     },
     {
+      "id": "vh-bottcher-020",
+      "title": "Bottcher 020",
+      "category": "vehicles",
+      "subgroup": "Aircraft",
+      "spoiler": true,
+      "guide": "Aircraft in the game's Vehicles log."
+    },
+    {
+      "id": "vh-decker-crake",
+      "title": "Decker Crake",
+      "category": "vehicles",
+      "subgroup": "Aircraft",
+      "spoiler": true,
+      "guide": "Aircraft in the game's Vehicles log."
+    },
+    {
+      "id": "vh-buckingham-shamal",
+      "title": "Buckingham Shamal",
+      "category": "vehicles",
+      "subgroup": "Aircraft",
+      "spoiler": true,
+      "guide": "Aircraft in the game's Vehicles log."
+    },
+    {
+      "id": "vh-lapwing-streamer-216-c",
+      "title": "Lapwing Streamer 216-C",
+      "category": "vehicles",
+      "subgroup": "Aircraft",
+      "spoiler": true,
+      "guide": "Aircraft in the game's Vehicles log."
+    },
+    {
+      "id": "vh-buckingham-swift",
+      "title": "Buckingham Swift",
+      "category": "vehicles",
+      "subgroup": "Aircraft",
+      "spoiler": true,
+      "guide": "Aircraft in the game's Vehicles log."
+    },
+    {
+      "id": "vh-buckingham-volatus",
+      "title": "Buckingham Volatus",
+      "category": "vehicles",
+      "subgroup": "Aircraft",
+      "spoiler": true,
+      "guide": "Aircraft in the game's Vehicles log."
+    },
+    {
       "id": "vh-more-aircraft",
       "title": "More aircraft",
       "category": "vehicles",
       "subgroup": "Aircraft",
       "spoiler": true,
-      "guide": "Count the aircraft you've discovered that don't have their own row here yet: 10 of the 16 are listed above, so 6 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
-      "tallyTarget": 7
+      "guide": "Count the aircraft you've discovered that don't have their own row here yet: 10 of the 16 are listed above, so 6 left to count. All of them now have their own row, so this counter is retired. If you counted one here, take it off this counter and tick its row instead.",
+      "tallyTarget": 7,
+      "retired": true
     },
     {
       "id": "sv-01",
@@ -43027,7 +44137,7 @@
       "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
-      "guide": "For Randy's Wish List. Look outside the houses in the wealthy northern part of Capri, where it's often parked. It isn't always there, so scan high-end cars with WAiNK to check.",
+      "guide": "For Randy's Wish List. It's kept in a villa garage on Vespucci Island in the Rialto Islands, between Vice City and Vice Beach. Climb the wooden fence, open the garage and use the key cloner.",
       "guideLinks": {
         "Randy's Wish List": "sf-30"
       }
@@ -43038,7 +44148,7 @@
       "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
-      "guide": "For Randy's Wish List. Try Ocean Beach in Vice Beach: it's often parked along the beachfront near the beach gym or driving up and down the strip. It isn't always there, so scan high-end cars with WAiNK to check.",
+      "guide": "For Randy's Wish List. No fixed spot. It's most often in Ocean Beach, Vice Beach: try outside Cirque de Cuisine off Fig St and along Shore Dr. Scan high-end cars with WAiNK to check.",
       "guideLinks": {
         "Randy's Wish List": "sf-30"
       }
@@ -43049,10 +44159,14 @@
       "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
-      "guide": "For Randy's Wish List. One is parked outside the Pegassi Residences on Bayside Dr, Tequesta Retreat, in the early evening, with guards nearby. It also turns up parked at the rich houses in Capri.",
+      "guide": "For Randy's Wish List. Parked outside the Pegassi Residences on Bayside Dr, Tequesta Retreat, from about 6:30 PM, with guards nearby. It also turns up at the rich houses in Capri.",
       "guideLinks": {
         "Randy's Wish List": "sf-30"
-      }
+      },
+      "nx": 0.6702,
+      "ny": 0.5743,
+      "region": "Vice-Dale County",
+      "area": "Tequesta Retreat"
     },
     {
       "id": "sv-randy-13",
@@ -43060,7 +44174,7 @@
       "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
-      "guide": "For Randy's Wish List. It has no fixed spot, but it's often around the rich houses of northern Capri, parked outside or driving by. Scan high-end cars with WAiNK to check.",
+      "guide": "For Randy's Wish List. Try the multi-storey car park on Fig St in Ocean Beach around 5 PM. Otherwise look along the Shore Dr beachfront or around the rich houses of northern Capri, and scan with WAiNK.",
       "guideLinks": {
         "Randy's Wish List": "sf-30"
       }
@@ -43071,7 +44185,7 @@
       "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
-      "guide": "For Randy's Wish List. It has no fixed spot, but it's often parked at the rich houses in Capri. Scan high-end cars with WAiNK to check.",
+      "guide": "For Randy's Wish List. No fixed spot. It's usually parked outside the villas in the rich part of Capri; also seen at the Status Auto Imports showroom in Bayside. Save and reload if it's not there.",
       "guideLinks": {
         "Randy's Wish List": "sf-30"
       }
@@ -43082,7 +44196,7 @@
       "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
-      "guide": "For Randy's Wish List. It has no fixed spot, but it's often parked in the public car parks of northern Capri. Scan cars with WAiNK to check.",
+      "guide": "For Randy's Wish List. No fixed spot. Check the public car parks of northern Capri and scan cars with WAiNK.",
       "guideLinks": {
         "Randy's Wish List": "sf-30"
       }
@@ -43104,7 +44218,7 @@
       "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
-      "guide": "For Randy's Wish List. It has no fixed spot, but it's often parked at the roadside outside Bite on Atlantic Ave in Vice Beach. Scan cars with WAiNK to check.",
+      "guide": "For Randy's Wish List. Often parked at the kerb outside the BITE store on Atlantic Ave, just north of Ocean Beach near Easy Electronics. Randy also takes the Bloodless Jugular from a garage off Chastity Ave in north Belville.",
       "guideLinks": {
         "Randy's Wish List": "sf-30"
       }
@@ -43148,7 +44262,7 @@
       "category": "vehicle-requests-randy",
       "subgroup": "Vehicle requests (1)",
       "spoiler": true,
-      "guide": "For Randy's Wish List. Randy adds it late on: it's at a mansion in Leaf Links, Vice Beach, and the key is in a bowl in the main house.",
+      "guide": "For Randy's Wish List. Randy adds it late on with the side job Dale Mamba!. It's behind the right-hand building of a guarded mansion in Leaf Links; the key is in a bowl behind the sofa in the main house. It has a tracker.",
       "guideLinks": {
         "Randy's Wish List": "sf-30"
       }
@@ -43376,7 +44490,7 @@
       "category": "wyman-classic-cars",
       "subgroup": "Wyman's classic cars",
       "spoiler": true,
-      "guide": "For Wyman's Classic Car Collection: the fifth car he rebuilds. There are no parts to scan: once the other four are done, Wyman calls you, you pay his mechanic fee through BuckMe and pick the car up at his scrapyard. Register it at a Pay 'n' Spray or park it in your garage to keep it."
+      "guide": "For Wyman's Classic Car Collection: the fifth and last car. No parts to scan: after the Reynolds Kit Car, Wyman calls and asks for a $1,000 mechanic fee through BuckMe. Then collect it at his scrapyard on the edge of Capri (Map > Vehicles > Wyman's Auto Salvage). Register it at a Pay 'n' Spray or park it in a garage to keep it."
     },
     {
       "id": "gr-01",
@@ -46483,6 +47597,57 @@
       "slot": 53
     },
     {
+      "id": "wp-schlamm-drx",
+      "title": "Schlamm DRX",
+      "category": "weapons",
+      "subgroup": "Guns",
+      "spoiler": true,
+      "guide": "Flashy modern 9mm pistol. Buy it at Ammu-Nation.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "17"
+        },
+        {
+          "label": "Fire style",
+          "value": "Semi-auto"
+        },
+        {
+          "label": "Brand",
+          "value": "Schlamm"
+        },
+        {
+          "label": "Caliber",
+          "value": "9mm"
+        },
+        {
+          "label": "Damage",
+          "value": "4.0"
+        },
+        {
+          "label": "Accuracy",
+          "value": "4.2"
+        },
+        {
+          "label": "Handling",
+          "value": "8.2"
+        },
+        {
+          "label": "Range",
+          "value": "4.2"
+        },
+        {
+          "label": "Category",
+          "value": "Guns"
+        },
+        {
+          "label": "Log entry",
+          "value": "7 of 53"
+        }
+      ],
+      "slot": 7
+    },
+    {
       "id": "wp-baseball-bat",
       "title": "Baseball Bat",
       "category": "weapons",
@@ -46601,6 +47766,63 @@
         }
       ],
       "slot": 8
+    },
+    {
+      "id": "wp-brass-knuckles",
+      "title": "Brass Knuckles",
+      "category": "weapons",
+      "subgroup": "Melee",
+      "spoiler": true,
+      "guide": "Discreet knuckle-duster that adds power to your punch. Sold at gun shops such as Big Shots in Hamlet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Melee"
+        },
+        {
+          "label": "Log entry",
+          "value": "2 of 9"
+        }
+      ],
+      "slot": 2
+    },
+    {
+      "id": "wp-golf-club",
+      "title": "Golf Club",
+      "category": "weapons",
+      "subgroup": "Melee",
+      "spoiler": true,
+      "guide": "Solid golf club that hits hard in the right hands.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Melee"
+        },
+        {
+          "label": "Log entry",
+          "value": "4 of 9"
+        }
+      ],
+      "slot": 4
+    },
+    {
+      "id": "wp-switchblade",
+      "title": "Switchblade",
+      "category": "weapons",
+      "subgroup": "Melee",
+      "spoiler": true,
+      "guide": "Short blade for close-quarters fights. Sold at gun shops such as Big Shots in Hamlet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Melee"
+        },
+        {
+          "label": "Log entry",
+          "value": "9 of 9"
+        }
+      ],
+      "slot": 9
     },
     {
       "id": "wp-flash-grenade",
@@ -47228,8 +48450,9 @@
       "category": "weapons",
       "subgroup": "Guns",
       "spoiler": true,
-      "guide": "Count the guns you've discovered that don't have their own row here yet: 52 of the 53 are listed above, so 1 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
-      "tallyTarget": 1
+      "guide": "Count the guns you've discovered that don't have their own row here yet: 52 of the 53 are listed above, so 1 left to count. All of them now have their own row, so this counter is retired. If you counted one here, take it off this counter and tick its row instead.",
+      "tallyTarget": 1,
+      "retired": true
     },
     {
       "id": "wp-more-melee",
@@ -47237,8 +48460,9 @@
       "category": "weapons",
       "subgroup": "Melee",
       "spoiler": true,
-      "guide": "Count the melee weapons you've discovered that don't have their own row here yet: 6 of the 9 are listed above, so 3 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
-      "tallyTarget": 3
+      "guide": "Count the melee weapons you've discovered that don't have their own row here yet: 6 of the 9 are listed above, so 3 left to count. All of them now have their own row, so this counter is retired. If you counted one here, take it off this counter and tick its row instead.",
+      "tallyTarget": 3,
+      "retired": true
     },
     {
       "id": "wp-more-explosives",
@@ -48076,7 +49300,7 @@
       "category": "weapons",
       "subgroup": "Variants",
       "spoiler": true,
-      "guide": "VF5 variant on the floor of a boat shack at an abandoned research outpost in Pelican Valley; the boardwalk door needs a code.",
+      "guide": "VF5 variant on the floor of a boat shack at an abandoned research outpost in Pelican Valley; the boardwalk door needs a code. The safe inside opens with 0072, and the boardwalk door code is 0212.",
       "stats": [
         {
           "label": "Category",
@@ -48876,13 +50100,188 @@
       ]
     },
     {
+      "id": "wp-pocketblast-dsg",
+      "title": "Pocketblast DSG",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Suppressed burst-fire SMG. Sold only at Griffin Shooting Range in Balsero once you get gold in all its challenges ($2,840).",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "30"
+        },
+        {
+          "label": "Fire style",
+          "value": "3-round burst"
+        },
+        {
+          "label": "Brand",
+          "value": "Deever Tech"
+        },
+        {
+          "label": "Caliber",
+          "value": "9mm"
+        },
+        {
+          "label": "Damage",
+          "value": "4.2"
+        },
+        {
+          "label": "Accuracy",
+          "value": "5.2"
+        },
+        {
+          "label": "Handling",
+          "value": "5.9"
+        },
+        {
+          "label": "Range",
+          "value": "4.4"
+        },
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-nightmare-kz-59",
+      "title": "Nightmare KZ-59",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Zombie-themed assault rifle. Sold only at Rodgers Ranch near Port Gellhorn once you get gold in all its ranges ($2,630).",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "40"
+        },
+        {
+          "label": "Fire style",
+          "value": "Full auto"
+        },
+        {
+          "label": "Brand",
+          "value": "Kozlov"
+        },
+        {
+          "label": "Caliber",
+          "value": "7.62×39mm"
+        },
+        {
+          "label": "Damage",
+          "value": "5.4"
+        },
+        {
+          "label": "Accuracy",
+          "value": "6.3"
+        },
+        {
+          "label": "Handling",
+          "value": "4.8"
+        },
+        {
+          "label": "Range",
+          "value": "5.9"
+        },
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-shack-attack-w-14",
+      "title": "Shack Attack W-14",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Tactical rifle in tropical colours. Buy it at Richardson Hunting Supplies in Big Pine.",
+      "stats": [
+        {
+          "label": "Mag size",
+          "value": "30"
+        },
+        {
+          "label": "Brand",
+          "value": "Wortham"
+        },
+        {
+          "label": "Caliber",
+          "value": "5.56×45mm"
+        },
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-donnies-knife",
+      "title": "Donnie's Knife",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Donnie's old knife, recovered from the Big Pine farm in North Mariana County where he died.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-cursed-knife",
+      "title": "Cursed Knife",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Odd knife covered in strange symbols, on the ocean floor near Little Hardin Island.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-bae-luxes-bat",
+      "title": "Bae-Luxe's Bat",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Zebra-print bat Bae-Luxe used to trash DWNPLY's ride. Where to pick it up isn't confirmed yet.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
+      "id": "wp-candy-suxxx-bat",
+      "title": "Candy Suxxx Bat",
+      "category": "weapons",
+      "subgroup": "Variants",
+      "spoiler": true,
+      "guide": "Signed bat from adult star Candy Suxxx, at Gil Reynolds' mansion in Peacock Estates.",
+      "stats": [
+        {
+          "label": "Category",
+          "value": "Variants"
+        }
+      ]
+    },
+    {
       "id": "wp-more-variants",
       "title": "More variants",
       "category": "weapons",
       "subgroup": "Variants",
       "spoiler": true,
-      "guide": "Count the variants you've discovered that don't have their own row here yet: 123 of the 130 are listed above, so 7 left to count. If you counted one here that now has its own row, take it off this counter and tick its row instead. This counter shrinks as more get their own rows.",
-      "tallyTarget": 7
+      "guide": "Count the variants you've discovered that don't have their own row here yet: 123 of the 130 are listed above, so 7 left to count. All of them now have their own row, so this counter is retired. If you counted one here, take it off this counter and tick its row instead.",
+      "tallyTarget": 7,
+      "retired": true
     },
     {
       "id": "kw-1",
@@ -48890,7 +50289,7 @@
       "category": "kenton-sets",
       "subgroup": "Wreck 1: Nuestra Señora del Ocio",
       "spoiler": true,
-      "guide": "Spanish cargo wreck off the coast of Key Lento, from Kenton's first job. Find all 10 doubloons with the metal detector and give them to Kenton.",
+      "guide": "Spanish cargo wreck east of Key Lento, beyond the island north-east of Kenton's shop; the Island Dreams wreck. Its 10 gold doubloons sit in 4 dig spots: a chest just north of the prow by scattered pottery; on the seabed under the coral a little north-east of the wreck (a second one lies nearby along the coral edge); at the base of the mushroom coral north of the wreck; and in the sand inside the opening into the hull. You can dig up the first three during Island Dreams; come back afterwards for the one in the hull. Use the metal detector and give them to Kenton.",
       "tallyTarget": 10,
       "nx": 0.6455,
       "ny": 0.7911
@@ -49480,7 +50879,11 @@
       "spoiler": true,
       "guide": "A chatty animal in Key Lento, from chapter 1.",
       "revealedTitle": "The talking parrot",
-      "revealedGuide": "After delivering Shirley's rum, go behind the Three Sheets liquor store in Key Lento, deal with the goons and talk to the parrot. It tips you off to cash hidden in a vent, with more loot nearby."
+      "revealedGuide": "After delivering Shirley's rum, go behind the Three Sheets liquor store in Key Lento, deal with the goons and talk to the parrot. It tips you off to cash hidden in a vent, with more loot nearby.",
+      "nx": 0.5459,
+      "ny": 0.8262,
+      "region": "Mariana County",
+      "area": "Key Lento"
     },
     {
       "id": "sa-001",
@@ -50617,9 +52020,12 @@
       "category": "easter-eggs",
       "spoiler": true,
       "region": "Leonard County",
+      "area": "Little Hardin Island",
       "guide": "A spooky tale tied to a lighthouse in Leonard County. Night-time, a boat and scuba gear needed.",
       "revealedTitle": "The ghost ship",
-      "revealedGuide": "At night, look at the top of St. Lucia Lighthouse on Little Hardin Island through binoculars (or climb up) to watch two ghosts argue until one shoves the other off. Break into the house north-west of the lighthouse and read the blue book by the fireplace. Then, in the small hours, take a boat (there's one at the house's dock) and scuba gear to the island's eastern point: the engine dies, fog rolls in and a voice speaks. Dive to the sunken boat (a metal detector helps) and take the Cursed Knife before dawn, then head back up the lighthouse to see the ghost ship."
+      "revealedGuide": "At night, look at the top of St. Lucia Lighthouse on Little Hardin Island through binoculars (or climb up) to watch two ghosts argue until one shoves the other off. Break into the house north-west of the lighthouse and read the blue book by the fireplace. Then, in the small hours, take a boat (there's one at the house's dock) and scuba gear to the island's eastern point: the engine dies, fog rolls in and a voice speaks. Dive to the sunken boat (a metal detector helps) and take the Cursed Knife before dawn, then head back up the lighthouse to see the ghost ship.",
+      "nx": 0.7034,
+      "ny": 0.2108
     },
     {
       "id": "ee-18",
@@ -50637,9 +52043,12 @@
       "category": "easter-eggs",
       "spoiler": true,
       "region": "Lummox County",
+      "area": "MacAlister Gold Mine",
       "guide": "A nod to a famous plumber, hidden in old ruins in Lummox County. Comes with a reward for both leads.",
       "revealedTitle": "Super Mario Bros",
-      "revealedGuide": "Go to the Lawton Co. Paper Mill ruins in south Moreau, just north of Mount Kalaga National Park. Find the bong on a purple tarp and take a hit: the smoke reveals a block floating overhead. Climb the ruins, stand right under it and jump into it (lining up takes a few tries) or shoot it. A jingle plays and two caps drop, one for Jason and one for Lucia."
+      "revealedGuide": "Go to the Lawton Co. Paper Mill ruins in south Moreau, just north of Mount Kalaga National Park. Find the bong on a purple tarp and take a hit: the smoke reveals a block floating overhead. Climb the ruins, stand right under it and jump into it (lining up takes a few tries) or shoot it. A jingle plays and two caps drop, one for Jason and one for Lucia.",
+      "nx": 0.4672,
+      "ny": 0.1565
     },
     {
       "id": "ee-20",
@@ -50677,9 +52086,12 @@
       "category": "easter-eggs",
       "spoiler": true,
       "region": "Mariana County",
+      "area": "Key Lento",
       "guide": "A nod to a previous GTA hero, moored at a home in Key Lento. Open from chapter 1.",
       "revealedTitle": "Michael's boat",
-      "revealedGuide": "Check the boat tied up at Jason's house in Key Lento and zoom in on the GPS on its dashboard: the map still shows south Los Santos and its port. There's no reward."
+      "revealedGuide": "Check the boat tied up at Jason's house in Key Lento and zoom in on the GPS on its dashboard: the map still shows south Los Santos and its port. There's no reward.",
+      "nx": 0.5527,
+      "ny": 0.8035
     },
     {
       "id": "ee-24",
@@ -50687,9 +52099,12 @@
       "category": "easter-eggs",
       "spoiler": true,
       "region": "Mariana County",
+      "area": "Key Lento",
       "guide": "A familiar name from a previous GTA, tucked inside a magazine at a home in Key Lento.",
       "revealedTitle": "Fabien LaRouche's story",
-      "revealedGuide": "At Jason's house in Key Lento, look at the Body Copy magazine on the patio table beside the weight bench. Page 3 carries a story by the yoga guru from GTA V. There's no reward."
+      "revealedGuide": "At Jason's house in Key Lento, look at the Body Copy magazine on the patio table beside the weight bench. Page 3 carries a story by the yoga guru from GTA V. There's no reward.",
+      "nx": 0.5527,
+      "ny": 0.8035
     },
     {
       "id": "ee-25",
@@ -50726,6 +52141,132 @@
       "revealedGuide": "In the Decor District, by a flyover on the road out of Vice City towards Leonard County, a wall is painted to look like a road tunnel under a bridge. From street level it looks real, but it's solid: drive into it and you crash hard, which can be fatal mid-heist. It's a nod to the Looney Tunes painted-tunnel gag. Nothing to unlock."
     },
     {
+      "id": "ee-28",
+      "title": "Easter egg 28",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "region": "Leonard County",
+      "area": "Waning Sands",
+      "guide": "A small nod to another Rockstar game, wandering near a mini-golf course in southern Waning Sands. Any time, no mission needed, and there's no reward.",
+      "revealedTitle": "Tiny Arthur on a chihuahua",
+      "revealedGuide": "By the entrance to Frontier Adventure Golf in southern Waning Sands, before the first hole, look for a chihuahua carrying a tiny Arthur Morgan figure on its back, a cowboy riding his horse. Entry is free. Nothing to unlock.",
+      "guideLinks": {
+        "Frontier Adventure Golf": "mg-2"
+      }
+    },
+    {
+      "id": "ee-29",
+      "title": "Easter egg 29",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "nx": 0.5467,
+      "ny": 0.2343,
+      "region": "Leonard County",
+      "area": "North Leonard County",
+      "guide": "A nod to a Stephen King novel, waiting in a garage in North Leonard County.",
+      "revealedTitle": "Christine (the Devanity in the garage)",
+      "revealedGuide": "North Leonard County: open the small garage opposite the farmhouse. Inside is the Albany Driveshaft Devanity, a red-eyed 1950s classic modelled on Christine (plate P05 ESD). You can drive it away.",
+      "guideLinks": {
+        "Albany Driveshaft Devanity": "sv-06"
+      }
+    },
+    {
+      "id": "ee-30",
+      "title": "Easter egg 30",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "area": "Ocean Beach",
+      "guide": "A nod to a classic gangster film, at a motel in Ocean Beach. Go around midday.",
+      "revealedTitle": "The Scarface chainsaw room",
+      "revealedGuide": "Ocean Beach: go to the Sunlite Motel on Shore Dr, at the south end of Ocean Beach, between 12 PM and 1 PM. Go upstairs and try the first room's door, walk along the balcony, go downstairs and back round to the front to watch the scene play out. Then go back up to the bloodied room and pick up the Little Friend W-10 SMG from the floor."
+    },
+    {
+      "id": "ee-31",
+      "title": "Easter egg 31",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "region": "Mariana County",
+      "guide": "Something huge on the seabed off the Leonida Keys. Bring a boat and scuba gear.",
+      "revealedTitle": "The Kraken",
+      "revealedGuide": "Leonida Keys: take a boat with scuba gear from the Gloriana Key docks into the deep water south-east of Gloriana Key and dive to the shipwreck on the seabed. A giant kraken has its tentacles wrapped around it. It doesn't move or attack, there's no map marker and no reward. Watch for sharks."
+    },
+    {
+      "id": "ee-32",
+      "title": "Easter egg 32",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "region": "Kelly County",
+      "guide": "A nod to a superhero film at the end of a strange farm questline in Kelly County. Chapter 3.",
+      "revealedTitle": "Red Hulk",
+      "revealedGuide": "Kelly County: Kyle's questline starts from the Pilot Wanted flyer outside the Starlet Motel reception (chapter 2). His final mission, Buddy? (Check on Kyle), unlocks in chapter 3: go to McKittrick Farm in Frogswater, north-east of the Starlet Motel, and investigate his disappearance. Kill the Red Hulk for $5,000, or spare him and you can hug him (it hurts, so have enough health)."
+    },
+    {
+      "id": "ee-33",
+      "title": "Easter egg 33",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "area": "Bluegrass",
+      "guide": "A cartoon home by a roadside near Bluegrass.",
+      "revealedTitle": "SpongeBob's pineapple",
+      "revealedGuide": "Bluegrass: by the bus stop sign on Cicada Ave, a big yellow pineapple with a round window and a bench inside serves as the bus shelter. You can walk in. There's no reward."
+    },
+    {
+      "id": "ee-34",
+      "title": "Easter egg 34",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "region": "Mariana County",
+      "area": "Shoeless Keys",
+      "guide": "A strange influencer on a remote beach in the Leonida Keys. Reach it by boat.",
+      "revealedTitle": "The merman",
+      "revealedGuide": "Shoeless Keys: take a boat or jet ski north-west of Key Lento to a small, isolated beach. A man in a sparkly mermaid tail is filming himself; he asks you to spray water on his tail. Knock over his tripod or step into shot and he turns on you. There's no reward."
+    },
+    {
+      "id": "ee-35",
+      "title": "Easter egg 35",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "nx": 0.3892,
+      "ny": 0.1966,
+      "region": "Lummox County",
+      "area": "Grayson",
+      "guide": "A nod to a horror novel, hidden in the woods in Lummox County.",
+      "revealedTitle": "Pet Sematary",
+      "revealedGuide": "Grayson: in the woods beside SR-73 in southern Grayson, follow the strange animal noises to a hidden pet cemetery. Scanning the graves also counts as the Pet Cemetery WAiNK curiosity.",
+      "guideLinks": {
+        "Pet Cemetery": "wc-pet-cemetery"
+      }
+    },
+    {
+      "id": "ee-36",
+      "title": "Easter egg 36",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "nx": 0.3763,
+      "ny": 0.2502,
+      "region": "Kelly County",
+      "area": "Manifest Canyon",
+      "guide": "A nod to an old GTA mountain mystery, north of Port Gellhorn.",
+      "revealedTitle": "Monument of Leonidan Supremacy",
+      "revealedGuide": "Manifest Canyon: north of Port Gellhorn, west of SR-73, a 1982 monument with four horse statues (wildlife, corruption, humanity and yeyo) is the game's Mount Chiliad-style mystery. It's also a WAiNK sculpture.",
+      "guideLinks": {
+        "WAiNK sculpture": "ws-23"
+      }
+    },
+    {
+      "id": "ee-37",
+      "title": "Easter egg 37",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "region": "Lummox County",
+      "area": "Kalaga National Park",
+      "guide": "Something out of this world at the top of Leonida's tallest peak.",
+      "revealedTitle": "The Mount Kalaga meteorite",
+      "revealedGuide": "Kalaga National Park: climb to the summit of Mount Kalaga to find a meteorite surrounded by Stonehenge-style standing stones."
+    },
+    {
       "id": "mu-1",
       "title": "Loophole Architecture",
       "category": "murals-1010",
@@ -50754,7 +52295,11 @@
       "title": "Privatized Pains Socialized Gains",
       "category": "murals-1010",
       "spoiler": true,
-      "guide": "Ocean Beach, Vice Beach: stand on the pavement just north-west of Effluvia Bar and photograph the painting on the underside of the car park to the south-east."
+      "guide": "Ocean Beach, Vice Beach: stand on the pavement just north-west of Effluvia Bar and photograph the painting on the underside of the car park to the south-east.",
+      "nx": 0.7446,
+      "ny": 0.4604,
+      "region": "Vice-Dale County",
+      "area": "Ocean Beach"
     },
     {
       "id": "mu-5",
