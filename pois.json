@@ -1,5 +1,5 @@
 {
-  "version": 130,
+  "version": 131,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -44689,7 +44689,12 @@
       "nx": 0.588,
       "ny": 0.6175,
       "region": "Vice-Dale County",
-      "area": "Southside"
+      "area": "Southside",
+      "guide": "For Randy's Wish List. There's always one in the middle of the three hexagonal showrooms in the north-east of Southside, Vice City. Taking it also earns Capital Offense. Randy pays about $3,150.",
+      "guideLinks": {
+        "Randy's Wish List": "sf-30",
+        "Capital Offense": "tr-45"
+      }
     },
     {
       "id": "sv-randy-02",
@@ -44715,7 +44720,11 @@
       "nx": 0.6151,
       "ny": 0.6664,
       "region": "Vice-Dale County",
-      "area": "Peacock Estates"
+      "area": "Peacock Estates",
+      "guide": "For Randy's Wish List. One is always parked in the driveway of the second house north of the main road on Vespucci Island, in the Rialto Islands, next to a Buckingham Jubilee. Randy pays about $20,200.",
+      "guideLinks": {
+        "Randy's Wish List": "sf-30"
+      }
     },
     {
       "id": "sv-randy-04",
@@ -44742,7 +44751,7 @@
       "ny": 0.4885,
       "region": "Vice-Dale County",
       "area": "Crosstown",
-      "guide": "For Randy's Wish List. It's on an upper level of the multi-storey garage at Crosstown Police Station on NW 9th St, Vice City. Slip in when a cop opens the gate; the roof's stunt jump is a quick way out.",
+      "guide": "For Randy's Wish List. It's on an upper level of the multi-storey garage at Crosstown Police Station on NW 9th St, Vice City. Slip in when a cop opens the gate, or use code 5270 on the stairwell door on the south side and climb to the 7th floor; the roof's stunt jump is a quick way out.",
       "guideLinks": {
         "Randy's Wish List": "sf-30"
       }
@@ -44782,7 +44791,11 @@
       "nx": 0.5885,
       "ny": 0.3524,
       "region": "Leonard County",
-      "area": "Belville"
+      "area": "Belville",
+      "guide": "For Randy's Wish List. One is always in the south corner of the car dealership west of Dynamix Fitness in Bayside, Vice City: drive it out through the east wall. Randy pays about $14,755.",
+      "guideLinks": {
+        "Randy's Wish List": "sf-30"
+      }
     },
     {
       "id": "sv-randy-09",
