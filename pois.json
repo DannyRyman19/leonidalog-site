@@ -1,5 +1,5 @@
 {
-  "version": 119,
+  "version": 121,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -936,9 +936,9 @@
         }
       ],
       "revealedTitle": "Family Matters",
-      "revealedGuide": "Finish the chapter 4 story mission Child's Play. Story trophy, so it can't be missed.",
+      "revealedGuide": "Finish the chapter 4 story mission Adventures in Babysitting. Story trophy, so it can't be missed.",
       "guideLinks": {
-        "Child's Play": "ms-076"
+        "Adventures in Babysitting": "ms-073"
       }
     },
     {
@@ -1254,10 +1254,6 @@
     },
     {
       "id": "tr-26",
-      "autoCollectedWhen": {
-        "category": "vehicle-requests-randy",
-        "atLeast": 22
-      },
       "revealedIconURL": "https://leonidalog.app/images/trophies/tr-26.png",
       "title": "Trophy 26",
       "category": "achievements",
@@ -1271,7 +1267,7 @@
         }
       ],
       "revealedTitle": "Supply & Demand",
-      "revealedGuide": "Finish Randy's Wish List: 22 cars to steal and deliver. It opens with the chapter 3 mission Clonin' Keys, Makin' Gs, which also gives you the Key Cloner. Scan high-end cars with WAiNK to see if he wants them; hotels at Vice Beach and Ocean Beach are good hunting grounds. Cars in better shape pay more. Still open after the story.",
+      "revealedGuide": "Finish Randy's Wish List: 22 cars to steal and deliver. It opens with the chapter 3 mission Clonin' Keys, Makin' Gs, which also gives you the Key Cloner. Scan high-end cars with WAiNK to see if he wants them; hotels at Vice Beach and Ocean Beach are good hunting grounds. Cars in better shape pay more. Delivering the last car isn't enough: a few in-game days later Randy has one final mission, and the trophy unlocks when you finish it. Still open after the story.",
       "linkedCategories": [
         "vehicle-requests-randy"
       ],
@@ -3461,10 +3457,6 @@
     },
     {
       "id": "sf-30",
-      "autoCollectedWhen": {
-        "category": "vehicle-requests-randy",
-        "atLeast": 22
-      },
       "title": "Side mission 30",
       "category": "stranger-missions",
       "chapter": 3,
@@ -3473,7 +3465,7 @@
       "guide": "Strangers & Freaks side mission, strand 10. Unlocks in chapter 3.",
       "revealedTitle": "Randy's Wish List",
       "revealedGivenBy": "Randy",
-      "revealedGuide": "Randy's strand, mission 1 of 1. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy. It's done once all 22 cars on Randy's list are delivered.",
+      "revealedGuide": "Randy's strand, mission 1 of 1. Unlocks in chapter 3. Counts towards the Strangers & Freaks trophy. Randy's list is done once all 22 cars are delivered; a few in-game days later Randy calls with one final mission, which finishes his strand.",
       "linkedCategories": [
         "vehicle-requests-randy"
       ],
@@ -52152,6 +52144,31 @@
       "revealedGuide": "By the entrance to Frontier Adventure Golf in southern Waning Sands, before the first hole, look for a chihuahua carrying a tiny Arthur Morgan figure on its back, a cowboy riding his horse. Entry is free. Nothing to unlock.",
       "guideLinks": {
         "Frontier Adventure Golf": "mg-2"
+      }
+    },
+    {
+      "id": "ee-38",
+      "title": "Easter egg 38",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "region": "Kelly County",
+      "area": "Port Gellhorn",
+      "guide": "A late-night invitation in northern Port Gellhorn leads to something unexpected. From chapter 2, either character. The rewards include a permanent boost.",
+      "revealedTitle": "A night with the devil",
+      "revealedGuide": "Around midnight, find the Circles of Hell house with its garage open in northern Port Gellhorn. Chat with the two metalheads there, answering \"Having fun?\" and then \"It's good\", and get into their van. At the campsite, stare into the fire to be pulled into a fight with Satan. Win it for a Circles of Hell top, a tattoo, the Hellspawn Comshot 12 shotgun next to his throne, and a permanent health increase. Works from chapter 2 as Jason or Lucia."
+    },
+    {
+      "id": "ee-39",
+      "title": "Easter egg 39",
+      "category": "easter-eggs",
+      "spoiler": true,
+      "region": "Lummox County",
+      "area": "Millport",
+      "guide": "A nod to a famous cartoon crew, hidden in a storm drain just north of Millport. Any time, no mission needed, and there's no reward.",
+      "revealedTitle": "Turtles in the storm drain",
+      "revealedGuide": "Just north of Millport, towards the Lake Tallaloko dam, take the stairs down to the storm drain outfall where green slime oozes down the wall. At the end of the drain are four turtles with pizza boxes, a nod to the Teenage Mutant Ninja Turtles. Easiest to spot at night. The slime is also the Intriguing Substance WAiNK scan. Nothing to unlock.",
+      "guideLinks": {
+        "Intriguing Substance": "wc-intriguing-substance"
       }
     },
     {
