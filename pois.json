@@ -1,5 +1,5 @@
 {
-  "version": 126,
+  "version": 127,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -240,6 +240,15 @@
       "verb": "found",
       "intro": "15 No Flusher tags on the sidewalks of Vice Beach. Scan each one with WAiNK: they count towards the 100 [WAiNK scans](category:waink) for 100% and the [You WAiNKer!](poi:tr-31) trophy.",
       "collectible": true
+    },
+    {
+      "id": "helipads",
+      "label": "Helipads",
+      "symbol": "h.circle.fill",
+      "colorHex": "5AB3FF",
+      "verb": "flown over",
+      "intro": "The helipads of the [Helipad Flyovers](poi:ch-30) challenge: fly at 100 ft or lower over all 41 in Vice City and Vice Beach inside 10 minutes. 42 are pinned from the game's map, numbered in a flying order of about 14 km; one of them may not count. Plan a route through them for a helicopter route with your next pad always marked.",
+      "collectible": false
     },
     {
       "id": "watches",
@@ -13367,8 +13376,11 @@
       "category": "game-challenges",
       "subgroup": "Exploration",
       "spoiler": true,
-      "guide": "Exploration challenge. Fly 100 ft or lower over all 41 helipads in Vice City and Vice Beach inside 10 minutes.",
-      "iconURL": "https://leonidalog.app/images/challenges/ch-30.jpg"
+      "guide": "Exploration challenge. Fly 100 ft or lower over all 41 helipads in Vice City and Vice Beach inside 10 minutes. The [Helipads](category:helipads) list pins them in a flying order.",
+      "iconURL": "https://leonidalog.app/images/challenges/ch-30.jpg",
+      "linkedCategories": [
+        "helipads"
+      ]
     },
     {
       "id": "ch-31",
@@ -15034,6 +15046,426 @@
       "guide": "Ocean Beach: on the sidewalk on Huevo St, outside the Bean Machine Coffee building. Scan it with WAiNK.",
       "region": "Vice-Dale County",
       "area": "Ocean Beach"
+    },
+    {
+      "id": "hl-01",
+      "title": "Helipad 1",
+      "category": "helipads",
+      "nx": 0.75105,
+      "ny": 0.40187,
+      "region": "Vice Beach",
+      "area": "Washington Beach",
+      "guide": "On the roof of Crimson Palms, Washington Beach."
+    },
+    {
+      "id": "hl-02",
+      "title": "Helipad 2",
+      "category": "helipads",
+      "nx": 0.75541,
+      "ny": 0.4147,
+      "region": "Vice Beach",
+      "area": "Washington Beach",
+      "guide": "Rooftop helipad in Washington Beach."
+    },
+    {
+      "id": "hl-03",
+      "title": "Helipad 3",
+      "category": "helipads",
+      "nx": 0.76314,
+      "ny": 0.43012,
+      "region": "Vice Beach",
+      "area": "Washington Beach",
+      "guide": "On the roof of La Villette, Washington Beach."
+    },
+    {
+      "id": "hl-04",
+      "title": "Helipad 4",
+      "category": "helipads",
+      "nx": 0.76926,
+      "ny": 0.45767,
+      "region": "Vice Beach",
+      "area": "Washington Beach",
+      "guide": "Rooftop helipad in Washington Beach."
+    },
+    {
+      "id": "hl-05",
+      "title": "Helipad 5",
+      "category": "helipads",
+      "nx": 0.7452,
+      "ny": 0.50832,
+      "region": "Vice Beach",
+      "area": "Ocean Beach",
+      "guide": "Helipad at ground level in Ocean Beach."
+    },
+    {
+      "id": "hl-06",
+      "title": "Helipad 6",
+      "category": "helipads",
+      "nx": 0.76905,
+      "ny": 0.54378,
+      "region": "Vice Beach",
+      "area": "Ocean Beach",
+      "guide": "On the roof of High Life Hotel, Ocean Beach."
+    },
+    {
+      "id": "hl-07",
+      "title": "Helipad 7",
+      "category": "helipads",
+      "nx": 0.76794,
+      "ny": 0.58885,
+      "region": "Vice Beach",
+      "area": "Dalton Island",
+      "guide": "Helipad at ground level in Dalton Island."
+    },
+    {
+      "id": "hl-08",
+      "title": "Helipad 8",
+      "category": "helipads",
+      "nx": 0.67247,
+      "ny": 0.58135,
+      "region": "Vice City",
+      "area": "Tequesta Retreat",
+      "guide": "Rooftop helipad in Tequesta Retreat."
+    },
+    {
+      "id": "hl-09",
+      "title": "Helipad 9",
+      "category": "helipads",
+      "nx": 0.66974,
+      "ny": 0.57527,
+      "region": "Vice City",
+      "area": "Tequesta Retreat",
+      "guide": "Rooftop helipad in Tequesta Retreat."
+    },
+    {
+      "id": "hl-10",
+      "title": "Helipad 10",
+      "category": "helipads",
+      "nx": 0.65002,
+      "ny": 0.55308,
+      "region": "Vice City",
+      "area": "Downtown",
+      "guide": "Rooftop helipad in Downtown, next to Downtown MVP Park."
+    },
+    {
+      "id": "hl-11",
+      "title": "Helipad 11",
+      "category": "helipads",
+      "nx": 0.64135,
+      "ny": 0.55536,
+      "region": "Vice City",
+      "area": "Downtown",
+      "guide": "On the roof of Rico Huxley Hotels, Downtown."
+    },
+    {
+      "id": "hl-12",
+      "title": "Helipad 12",
+      "category": "helipads",
+      "nx": 0.64643,
+      "ny": 0.54258,
+      "region": "Vice City",
+      "area": "Downtown",
+      "guide": "Rooftop helipad in Downtown, next to LNB HQ. Its map icon looks different, so it may be the one of these 42 that the challenge's 41 leave out."
+    },
+    {
+      "id": "hl-13",
+      "title": "Helipad 13",
+      "category": "helipads",
+      "nx": 0.64645,
+      "ny": 0.5394,
+      "region": "Vice City",
+      "area": "Downtown",
+      "guide": "Rooftop helipad in Downtown, next to Leonida Point Apartments."
+    },
+    {
+      "id": "hl-14",
+      "title": "Helipad 14",
+      "category": "helipads",
+      "nx": 0.64622,
+      "ny": 0.53573,
+      "region": "Vice City",
+      "area": "Downtown",
+      "guide": "Rooftop helipad in Downtown."
+    },
+    {
+      "id": "hl-15",
+      "title": "Helipad 15",
+      "category": "helipads",
+      "nx": 0.63274,
+      "ny": 0.53574,
+      "region": "Vice City",
+      "area": "Downtown",
+      "guide": "Rooftop helipad in Downtown, next to the Fleeca bank."
+    },
+    {
+      "id": "hl-16",
+      "title": "Helipad 16",
+      "category": "helipads",
+      "nx": 0.63277,
+      "ny": 0.51323,
+      "region": "Vice City",
+      "area": "Downtown",
+      "guide": "Rooftop helipad in Downtown."
+    },
+    {
+      "id": "hl-17",
+      "title": "Helipad 17",
+      "category": "helipads",
+      "nx": 0.64427,
+      "ny": 0.49936,
+      "region": "Vice City",
+      "area": "Downtown",
+      "guide": "On the roof of Maven Residences, Downtown."
+    },
+    {
+      "id": "hl-18",
+      "title": "Helipad 18",
+      "category": "helipads",
+      "nx": 0.6352,
+      "ny": 0.48934,
+      "region": "Vice City",
+      "area": "Crosstown",
+      "guide": "Rooftop helipad in Crosstown."
+    },
+    {
+      "id": "hl-19",
+      "title": "Helipad 19",
+      "category": "helipads",
+      "nx": 0.63066,
+      "ny": 0.48916,
+      "region": "Vice City",
+      "area": "Crosstown",
+      "guide": "On the roof of the police station, Crosstown."
+    },
+    {
+      "id": "hl-20",
+      "title": "Helipad 20",
+      "category": "helipads",
+      "nx": 0.61839,
+      "ny": 0.47883,
+      "region": "Vice City",
+      "area": "Rockridge",
+      "guide": "On the hospital roof, Rockridge. Its H is red on the map, so it may be the one of these 42 that the challenge's 41 leave out."
+    },
+    {
+      "id": "hl-21",
+      "title": "Helipad 21",
+      "category": "helipads",
+      "nx": 0.62484,
+      "ny": 0.51273,
+      "region": "Vice City",
+      "area": "Downtown",
+      "guide": "Rooftop helipad in Downtown."
+    },
+    {
+      "id": "hl-22",
+      "title": "Helipad 22",
+      "category": "helipads",
+      "nx": 0.62447,
+      "ny": 0.52441,
+      "region": "Vice City",
+      "area": "Downtown",
+      "guide": "On the roof of Vice Civic Center, Downtown."
+    },
+    {
+      "id": "hl-23",
+      "title": "Helipad 23",
+      "category": "helipads",
+      "nx": 0.62557,
+      "ny": 0.53424,
+      "region": "Vice City",
+      "area": "Downtown",
+      "guide": "Rooftop helipad in Downtown."
+    },
+    {
+      "id": "hl-24",
+      "title": "Helipad 24",
+      "category": "helipads",
+      "nx": 0.62988,
+      "ny": 0.54899,
+      "region": "Vice City",
+      "area": "Downtown",
+      "guide": "On the roof of Heath Bank, Downtown."
+    },
+    {
+      "id": "hl-25",
+      "title": "Helipad 25",
+      "category": "helipads",
+      "nx": 0.63911,
+      "ny": 0.56674,
+      "region": "Vice City",
+      "area": "Tequesta",
+      "guide": "Rooftop helipad in Tequesta, next to Aurum Condominiums."
+    },
+    {
+      "id": "hl-26",
+      "title": "Helipad 26",
+      "category": "helipads",
+      "nx": 0.64458,
+      "ny": 0.56721,
+      "region": "Vice City",
+      "area": "Tequesta",
+      "guide": "On the roof of Tequesta Tides Hotel & Spa West, Tequesta."
+    },
+    {
+      "id": "hl-27",
+      "title": "Helipad 27",
+      "category": "helipads",
+      "nx": 0.64589,
+      "ny": 0.57018,
+      "region": "Vice City",
+      "area": "Tequesta",
+      "guide": "On the roof of Tequesta Tides Hotel & Spa South, Tequesta."
+    },
+    {
+      "id": "hl-28",
+      "title": "Helipad 28",
+      "category": "helipads",
+      "nx": 0.63863,
+      "ny": 0.57389,
+      "region": "Vice City",
+      "area": "Tequesta",
+      "guide": "Rooftop helipad in Tequesta."
+    },
+    {
+      "id": "hl-29",
+      "title": "Helipad 29",
+      "category": "helipads",
+      "nx": 0.62639,
+      "ny": 0.56917,
+      "region": "Vice City",
+      "area": "Tequesta",
+      "guide": "Rooftop helipad in Tequesta."
+    },
+    {
+      "id": "hl-30",
+      "title": "Helipad 30",
+      "category": "helipads",
+      "nx": 0.63234,
+      "ny": 0.57695,
+      "region": "Vice City",
+      "area": "Tequesta",
+      "guide": "Rooftop helipad in Tequesta."
+    },
+    {
+      "id": "hl-31",
+      "title": "Helipad 31",
+      "category": "helipads",
+      "nx": 0.63009,
+      "ny": 0.58353,
+      "region": "Vice City",
+      "area": "Tequesta",
+      "guide": "On the roof of Sahara Tower, Tequesta."
+    },
+    {
+      "id": "hl-32",
+      "title": "Helipad 32",
+      "category": "helipads",
+      "nx": 0.63151,
+      "ny": 0.58964,
+      "region": "Vice City",
+      "area": "Tequesta",
+      "guide": "Rooftop helipad in Tequesta."
+    },
+    {
+      "id": "hl-33",
+      "title": "Helipad 33",
+      "category": "helipads",
+      "nx": 0.61422,
+      "ny": 0.58764,
+      "region": "Vice City",
+      "area": "Tequesta",
+      "guide": "Rooftop helipad in Tequesta."
+    },
+    {
+      "id": "hl-34",
+      "title": "Helipad 34",
+      "category": "helipads",
+      "nx": 0.6104,
+      "ny": 0.59797,
+      "region": "Vice City",
+      "area": "Tequesta",
+      "guide": "On the roof of Eternity Apartments, Tequesta."
+    },
+    {
+      "id": "hl-35",
+      "title": "Helipad 35",
+      "category": "helipads",
+      "nx": 0.61443,
+      "ny": 0.60037,
+      "region": "Vice City",
+      "area": "Tequesta",
+      "guide": "Rooftop helipad in Tequesta."
+    },
+    {
+      "id": "hl-36",
+      "title": "Helipad 36",
+      "category": "helipads",
+      "nx": 0.62784,
+      "ny": 0.6045,
+      "region": "Vice City",
+      "area": "Tequesta",
+      "guide": "On the roof of The Borough Condominiums, Tequesta."
+    },
+    {
+      "id": "hl-37",
+      "title": "Helipad 37",
+      "category": "helipads",
+      "nx": 0.61208,
+      "ny": 0.62632,
+      "region": "Vice City",
+      "area": "Peacock Bay",
+      "guide": "Rooftop helipad in Peacock Bay, next to The Fitz-Gerald North."
+    },
+    {
+      "id": "hl-38",
+      "title": "Helipad 38",
+      "category": "helipads",
+      "nx": 0.61325,
+      "ny": 0.6299,
+      "region": "Vice City",
+      "area": "Peacock Bay",
+      "guide": "Rooftop helipad in Peacock Bay, next to Peacock Bay Luxury Condominiums East."
+    },
+    {
+      "id": "hl-39",
+      "title": "Helipad 39",
+      "category": "helipads",
+      "nx": 0.60229,
+      "ny": 0.62876,
+      "region": "Vice City",
+      "area": "Peacock Bay",
+      "guide": "Rooftop helipad in Peacock Bay, next to Peacock Bay Luxury Condominiums North."
+    },
+    {
+      "id": "hl-40",
+      "title": "Helipad 40",
+      "category": "helipads",
+      "nx": 0.60226,
+      "ny": 0.63208,
+      "region": "Vice City",
+      "area": "Peacock Bay",
+      "guide": "Rooftop helipad in Peacock Bay, next to Peacock Bay Luxury Condominiums North."
+    },
+    {
+      "id": "hl-41",
+      "title": "Helipad 41",
+      "category": "helipads",
+      "nx": 0.60196,
+      "ny": 0.63603,
+      "region": "Vice City",
+      "area": "Peacock Bay",
+      "guide": "Rooftop helipad in Peacock Bay, next to Peacock Bay Luxury Condominiums South."
+    },
+    {
+      "id": "hl-42",
+      "title": "Helipad 42",
+      "category": "helipads",
+      "nx": 0.58444,
+      "ny": 0.64226,
+      "region": "Vice City",
+      "area": "Southside",
+      "guide": "Helipad at ground level in Southside."
     },
     {
       "id": "wl-fleeca-field",
