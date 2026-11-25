@@ -1,5 +1,5 @@
 {
-  "version": 117,
+  "version": 119,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -2228,7 +2228,7 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 2.",
       "revealedTitle": "Afternoon Delight",
-      "revealedGuide": "Chapter 2 story mission."
+      "revealedGuide": "Chapter 2 story mission. The safe in Frankie's back office at Delights in Port Gellhorn opens with 2008."
     },
     {
       "id": "ms-033",
@@ -2397,7 +2397,7 @@
       "spoiler": true,
       "guide": "A main story mission in chapter 3.",
       "revealedTitle": "First Impressions",
-      "revealedGuide": "Jason and Lucia finally meet Raul, fresh from a bank robbery, and keep the cops busy as his decoy before he pays them.",
+      "revealedGuide": "Jason and Lucia finally meet Raul, fresh from a bank robbery, and keep the cops busy as his decoy before he pays them. On Waxman Island, the garage wall panel code is 2404.",
       "revealedImageURL": "https://leonidalog.app/images/missions/ms-045-v2.jpg",
       "slot": 13
     },
@@ -23053,7 +23053,7 @@
       "area": "Hamlet",
       "guide": "Clear the operation.",
       "revealedTitle": "M7 Compound",
-      "revealedGuide": "Run by M7."
+      "revealedGuide": "Run by M7. Also known as the Nova Auto junkyard. The safe in the garage office opens with 7777, the number on the plate of the lowrider parked in that garage."
     },
     {
       "id": "go-10",
