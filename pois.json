@@ -1,5 +1,5 @@
 {
-  "version": 116,
+  "version": 117,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -23326,8 +23326,8 @@
       "title": "Gang operation 30",
       "category": "gang-ops",
       "spoiler": true,
-      "nx": 0.5984,
-      "ny": 0.5947,
+      "nx": 0.5527,
+      "ny": 0.4925,
       "region": "Vice-Dale County",
       "area": "Balsero",
       "guide": "Clear the operation.",
