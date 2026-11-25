@@ -1,5 +1,5 @@
 {
-  "version": 123,
+  "version": 124,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -1793,7 +1793,7 @@
         }
       ],
       "revealedTitle": "Ten Pin",
-      "revealedGuide": "On a bike, kick 10 pedestrians within 60 seconds. Busy spots like Ocean Beach are best."
+      "revealedGuide": "On a bike, kick 10 pedestrians within 60 seconds: ride alongside them and press Square (PlayStation) or X (Xbox) to kick. Busy spots like Ocean Beach are best."
     },
     {
       "id": "tr-52",
@@ -3173,8 +3173,12 @@
       "revealedGivenBy": "Bret",
       "revealedGuide": "Bret's strand, mission 2 of 2. Unlocks in chapter 2. Counts towards the Strangers & Freaks trophy. Finish Bret's hunting target decks.",
       "guideLinks": {
-        "Strangers & Freaks": "tr-25"
-      }
+        "Strangers & Freaks": "tr-25",
+        "Bret's hunting target decks": "category:bret-decks"
+      },
+      "linkedCategories": [
+        "bret-decks"
+      ]
     },
     {
       "id": "sf-12",
@@ -3492,6 +3496,10 @@
     },
     {
       "id": "sf-30",
+      "autoCollectedWhen": {
+        "category": "vehicle-requests-randy",
+        "atLeast": 22
+      },
       "title": "Side mission 30",
       "category": "stranger-missions",
       "chapter": 3,
@@ -13827,7 +13835,12 @@
       "subgroup": "Vehicle",
       "spoiler": true,
       "guide": "Vehicle challenge. Win 3 races: one in a muscle car, one in a sports car and one in a supercar.",
-      "iconURL": "https://leonidalog.app/images/challenges/ch-73.jpg"
+      "iconURL": "https://leonidalog.app/images/challenges/ch-73.jpg",
+      "objectives": [
+        "Win a race in a muscle car",
+        "Win a race in a sports car",
+        "Win a race in a supercar"
+      ]
     },
     {
       "id": "ch-74",
