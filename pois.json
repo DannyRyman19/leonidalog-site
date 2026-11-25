@@ -1,5 +1,5 @@
 {
-  "version": 127,
+  "version": 128,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -238,7 +238,7 @@
       "symbol": "toilet.fill",
       "colorHex": "8FD14F",
       "verb": "found",
-      "intro": "15 No Flusher tags on the sidewalks of Vice Beach. Scan each one with WAiNK: they count towards the 100 [WAiNK scans](category:waink) for 100% and the [You WAiNKer!](poi:tr-31) trophy.",
+      "intro": "15 No Flusher tags on the sidewalks of Vice Beach. Scan each one with WAiNK: they count towards the 100 [WAiNK scans](category:waink) for 100% and the [You WAiNKer!](poi:tr-31) trophy. Scanning 10 starts a trail that leads to [a free supercar](poi:sv-75). Once that trail is open, the remaining tags couldn't be scanned in one player's game, so 10 may be all you can get until it's finished.",
       "collectible": true
     },
     {
@@ -3554,6 +3554,21 @@
         "Strangers & Freaks": "tr-25",
         "Supply & Demand": "tr-26"
       }
+    },
+    {
+      "id": "sf-61",
+      "title": "Side mission 61",
+      "category": "stranger-missions",
+      "givenBy": "No Flushers",
+      "spoiler": true,
+      "nx": 0.73723,
+      "ny": 0.50135,
+      "region": "Vice Beach",
+      "area": "Ocean Beach",
+      "guide": "Optional side mission in Ocean Beach. Unlocks after scanning 10 No Flusher tags.",
+      "revealedTitle": "Meet with CantCloneThis89",
+      "revealedGivenBy": "CantCloneThis89 (No Flushers)",
+      "revealedGuide": "After 10 [No Flusher tags](category:no-flusher), a No Flusher from the WhatUp group chat asks to meet at his headquarters, a garage on the bay side of Ocean Beach. The door code is 8554013 (on a note on the wall: flip it over). Inside, the map on the wall leads to [Andrew Node's Thrax](poi:sv-75) on Starfish Island. While this is open, the remaining tags may not scan."
     },
     {
       "id": "sf-31",
@@ -14869,6 +14884,7 @@
     },
     {
       "id": "wf-01",
+      "imageURL": "https://leonidalog.app/images/no-flusher/wf-01.jpg",
       "title": "No Flusher tag",
       "category": "no-flusher",
       "subgroup": "No Flusher tags",
@@ -14881,6 +14897,7 @@
     },
     {
       "id": "wf-02",
+      "imageURL": "https://leonidalog.app/images/no-flusher/wf-02.jpg",
       "title": "No Flusher tag",
       "category": "no-flusher",
       "subgroup": "No Flusher tags",
@@ -14893,6 +14910,7 @@
     },
     {
       "id": "wf-03",
+      "imageURL": "https://leonidalog.app/images/no-flusher/wf-03.jpg",
       "title": "No Flusher tag",
       "category": "no-flusher",
       "subgroup": "No Flusher tags",
@@ -14905,6 +14923,7 @@
     },
     {
       "id": "wf-04",
+      "imageURL": "https://leonidalog.app/images/no-flusher/wf-04.jpg",
       "title": "No Flusher tag",
       "category": "no-flusher",
       "subgroup": "No Flusher tags",
@@ -14917,6 +14936,7 @@
     },
     {
       "id": "wf-05",
+      "imageURL": "https://leonidalog.app/images/no-flusher/wf-05.jpg",
       "title": "No Flusher tag",
       "category": "no-flusher",
       "subgroup": "No Flusher tags",
@@ -14929,6 +14949,7 @@
     },
     {
       "id": "wf-06",
+      "imageURL": "https://leonidalog.app/images/no-flusher/wf-06.jpg",
       "title": "No Flusher tag",
       "category": "no-flusher",
       "subgroup": "No Flusher tags",
@@ -14941,6 +14962,7 @@
     },
     {
       "id": "wf-07",
+      "imageURL": "https://leonidalog.app/images/no-flusher/wf-07.jpg",
       "title": "No Flusher tag",
       "category": "no-flusher",
       "subgroup": "No Flusher tags",
@@ -14953,6 +14975,7 @@
     },
     {
       "id": "wf-08",
+      "imageURL": "https://leonidalog.app/images/no-flusher/wf-08.jpg",
       "title": "No Flusher tag",
       "category": "no-flusher",
       "subgroup": "No Flusher tags",
@@ -14965,6 +14988,7 @@
     },
     {
       "id": "wf-09",
+      "imageURL": "https://leonidalog.app/images/no-flusher/wf-09.jpg",
       "title": "No Flusher tag",
       "category": "no-flusher",
       "subgroup": "No Flusher tags",
@@ -14977,6 +15001,7 @@
     },
     {
       "id": "wf-10",
+      "imageURL": "https://leonidalog.app/images/no-flusher/wf-10.jpg",
       "title": "No Flusher tag",
       "category": "no-flusher",
       "subgroup": "No Flusher tags",
@@ -14989,6 +15014,7 @@
     },
     {
       "id": "wf-11",
+      "imageURL": "https://leonidalog.app/images/no-flusher/wf-11.jpg",
       "title": "No Flusher tag",
       "category": "no-flusher",
       "subgroup": "No Flusher tags",
@@ -15001,6 +15027,7 @@
     },
     {
       "id": "wf-12",
+      "imageURL": "https://leonidalog.app/images/no-flusher/wf-12.jpg",
       "title": "No Flusher tag",
       "category": "no-flusher",
       "subgroup": "No Flusher tags",
@@ -15013,6 +15040,7 @@
     },
     {
       "id": "wf-13",
+      "imageURL": "https://leonidalog.app/images/no-flusher/wf-13.jpg",
       "title": "No Flusher tag",
       "category": "no-flusher",
       "subgroup": "No Flusher tags",
@@ -15025,6 +15053,7 @@
     },
     {
       "id": "wf-14",
+      "imageURL": "https://leonidalog.app/images/no-flusher/wf-14.jpg",
       "title": "No Flusher tag",
       "category": "no-flusher",
       "subgroup": "No Flusher tags",
@@ -15037,6 +15066,7 @@
     },
     {
       "id": "wf-15",
+      "imageURL": "https://leonidalog.app/images/no-flusher/wf-15.jpg",
       "title": "No Flusher tag",
       "category": "no-flusher",
       "subgroup": "No Flusher tags",
@@ -44440,10 +44470,12 @@
       "category": "standout-vehicles",
       "subgroup": "Standout",
       "spoiler": true,
-      "nx": 0.7109,
-      "ny": 0.506,
+      "nx": 0.70944,
+      "ny": 0.50424,
       "region": "Vice-Dale County",
-      "area": "Starfish Island"
+      "area": "Starfish Island",
+      "guide": "A supercar with no tracker, at the end of the trail the No Flusher tags start.",
+      "revealedGuide": "Scan 10 [No Flusher tags](category:no-flusher) with WAiNK and you're texted into the No Flushers' conspiracy chat, which leads to [their hideout garage in Ocean Beach](poi:sf-61). The door code is 8554013 (it's on a note on the wall: flip it over). Inside, the map on the wall marks Andrew Node's house on the south-east side of Starfish Island, off Sabal Circle. Two guards are there, so arriving by boat is easiest. His Truffade Thrax is in the garage, with no tracker. Registering it at a Pay 'n' Spray costs $70,000. Once the trail is open, the remaining tags may not scan until it's finished."
     },
     {
       "id": "sv-76",
