@@ -1,5 +1,5 @@
 {
-  "version": 133,
+  "version": 134,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -256,7 +256,7 @@
       "symbol": "watch.analog",
       "colorHex": "E0B84A",
       "verb": "found",
-      "intro": "34 luxury watches to pick up, most of them in gang operations; a gold watch icon marks each one. They're styles: 100% needs 70 of the 79 styles (Progress, Collections, Discovered Styles), and the other 45 come from magazines. 11 of 34 so far, more as guides find them.",
+      "intro": "34 luxury watches to pick up, most of them in gang operations; a gold watch icon marks each one. They're styles: 100% needs 70 of the 79 styles (Progress, Collections, Discovered Styles), and the other 45 come from magazines. 12 of 34 so far, more as guides find them.",
       "collectible": true
     },
     {
@@ -13692,11 +13692,22 @@
       "linkedCategories": [
         "hoops"
       ],
+      "autoCollectedWhen": {
+        "category": "hoops",
+        "atLeast": 1,
+        "perRegion": [
+          "Vice-Dale County",
+          "Leonard County",
+          "Kelly County",
+          "Mariana County",
+          "Lummox County"
+        ]
+      },
       "title": "Basketball Tour",
       "category": "game-challenges",
       "subgroup": "Sports",
       "spoiler": true,
-      "guide": "Sports challenge. Score a basket in every county.",
+      "guide": "Sports challenge. Score a basket in every county. Ticks itself once you've scored at a hoop in all five counties.",
       "iconURL": "https://leonidalog.app/images/challenges/ch-55.jpg"
     },
     {
@@ -16621,6 +16632,16 @@
       "region": "Mariana County",
       "area": "Key Lento",
       "guide": "Lucia only. In the house of a man lost in a VR game, just north-west of Manatee's Rest in Key Lento: open the safe; the watch sits on the shelf in front of the bathroom."
+    },
+    {
+      "id": "wt-12",
+      "title": "Crowex Octane 'Kaleidoscope'",
+      "category": "watches",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "area": "Casanova Island",
+      "guide": "In a mansion on the north side of Casanova Island in the Rialto Islands, between Vice City and Vice Beach: it's on the table in an upstairs bedroom."
     },
     {
       "id": "sm-01",
@@ -52989,6 +53010,7 @@
       "guide": "A hidden detective questline in Port Gellhorn that starts from a poster. Open from chapter 2.",
       "revealedTitle": "Missing Persons (the Port Gellhorn serial killer)",
       "revealedGuide": "Read the missing persons poster in the Starlet Motel reception (or the one on the wall outside the 247 store in Port Gellhorn, once the motel is gone) to get the Kelly County Tip Line contact. Break open the front shutter of the long, overgrown tin warehouse just north of Moses's garage in south Port Gellhorn and photograph the clues in the lockers in the trophy room; after that, you get in and out through a hole in its north-east corner. Then find three bodies and report each one to the tip line: in the trunk of the pink car with plate PRTYGRL in the junkyard just east of the Pay 'n' Spray, under a loose floor panel in the blue-green trailer below the rusty water tower in the abandoned trailer park west of Hank's Waffles, and in a sunken car by a dead tree in the small C-shaped pond west of town, between the airstrip and Port Gellhorn. The tip-line caller, Alvan West, is the killer. Go alone and he drugs you and you fight him in an old mine; go with both Jason and Lucia and one of them shoots him in the warehouse, which helps their relationship.",
+      "imageURL": "https://leonidalog.app/images/easter-eggs/ee-13-lockers.jpg",
       "areas": [
         {
           "nx": 0.3487,
@@ -53009,6 +53031,32 @@
           "nx": 0.323,
           "ny": 0.3522,
           "r": 0.003
+        }
+      ],
+      "gallery": [
+        {
+          "imageURL": "https://leonidalog.app/images/easter-eggs/ee-13-lockers.jpg",
+          "caption": "The clues: photograph the lockers in the warehouse's trophy room.",
+          "nx": 0.3487,
+          "ny": 0.3605
+        },
+        {
+          "imageURL": "https://leonidalog.app/images/easter-eggs/ee-13-junkyard.jpg",
+          "caption": "Body 1: the trunk of the pink PRTYGRL car in the junkyard.",
+          "nx": 0.3428,
+          "ny": 0.331
+        },
+        {
+          "imageURL": "https://leonidalog.app/images/easter-eggs/ee-13-trailer.jpg",
+          "caption": "Body 2: under the floor panel in the trailer below the water tower.",
+          "nx": 0.3533,
+          "ny": 0.2995
+        },
+        {
+          "imageURL": "https://leonidalog.app/images/easter-eggs/ee-13-pond.jpg",
+          "caption": "Body 3: the sunken car in the C-shaped pond west of town.",
+          "nx": 0.323,
+          "ny": 0.3522
         }
       ]
     },
