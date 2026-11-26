@@ -1,5 +1,5 @@
 {
-  "version": 137,
+  "version": 138,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -4417,7 +4417,7 @@
       "title": "WAiNK scans",
       "category": "exploration",
       "spoiler": true,
-      "guide": "Scan 100 things with the WAiNK app: there are 31 landmarks, 35 curiosities, 23 sculptures, 15 No Flusher tags and 4 Peewees billboards.",
+      "guide": "Scan 100 things with the WAiNK app: there are 31 landmarks, 35 curiosities, 23 sculptures, 15 No Flusher tags (only 10 can be scanned before their side mission stops you, so 10 count here) and 4 Peewees billboards.",
       "tallyTarget": 100,
       "linkedCategories": [
         "waink",
@@ -4430,7 +4430,8 @@
             "category": "waink"
           },
           {
-            "category": "no-flusher"
+            "category": "no-flusher",
+            "max": 10
           }
         ]
       },
@@ -19233,6 +19234,7 @@
     },
     {
       "id": "ub-017",
+      "imageURL": "https://leonidalog.app/images/under-bridges/ub-017.jpg",
       "title": "Gloriana Key West",
       "category": "under-bridges",
       "spoiler": true,
@@ -19246,6 +19248,7 @@
     },
     {
       "id": "ub-018",
+      "imageURL": "https://leonidalog.app/images/under-bridges/ub-018.jpg",
       "title": "Catalan Key East",
       "category": "under-bridges",
       "spoiler": true,
@@ -19284,6 +19287,7 @@
     },
     {
       "id": "ub-021",
+      "imageURL": "https://leonidalog.app/images/under-bridges/ub-021.jpg",
       "title": "Gloriana Key North",
       "category": "under-bridges",
       "spoiler": true,
@@ -19297,6 +19301,7 @@
     },
     {
       "id": "ub-022",
+      "imageURL": "https://leonidalog.app/images/under-bridges/ub-022.jpg",
       "title": "Port VC Bridge",
       "category": "under-bridges",
       "spoiler": true,
@@ -19335,6 +19340,7 @@
     },
     {
       "id": "ub-025",
+      "imageURL": "https://leonidalog.app/images/under-bridges/ub-025.jpg",
       "title": "Macalister Causeway",
       "category": "under-bridges",
       "spoiler": true,
@@ -19374,6 +19380,7 @@
     },
     {
       "id": "ub-028",
+      "imageURL": "https://leonidalog.app/images/under-bridges/ub-028.jpg",
       "title": "Rivo Bridge",
       "category": "under-bridges",
       "spoiler": true,
