@@ -1,5 +1,5 @@
 {
-  "version": 140,
+  "version": 141,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -257,7 +257,7 @@
       "symbol": "watch.analog",
       "colorHex": "E0B84A",
       "verb": "found",
-      "intro": "34 luxury watches to pick up, most of them in gang operations; a gold watch icon marks each one. They're styles: 100% needs 70 of the 79 styles (Progress, Collections, Discovered Styles), and the other 45 come from magazines. 13 of 34 so far, more as guides find them.",
+      "intro": "34 luxury watches to pick up, most of them in gang operations; a gold watch icon marks each one. They're styles: 100% needs 70 of the 79 styles (Progress, Collections, Discovered Styles), and the other 45 come from magazines. 14 of 34 so far, more as guides find them.",
       "collectible": true
     },
     {
@@ -6116,6 +6116,7 @@
     },
     {
       "id": "cd-04-12",
+      "imageURL": "https://leonidalog.app/images/cards/cd-04-12.jpg",
       "title": "Ellie Burke - Teal",
       "category": "cards",
       "subgroup": "Vice City Club De Futbol",
@@ -6124,7 +6125,7 @@
       "ny": 0.5373,
       "region": "Vice-Dale County",
       "area": "Little Cuba",
-      "guide": "One of the 30 cards in the Vice City Club De Futbol set. Follow the map pin."
+      "guide": "One of the 30 cards in the Vice City Club De Futbol set. In the upstairs apartment second from the left: stuck to the fridge door in the kitchen. A BOMBAZO! magazine is on the bed in the same apartment."
     },
     {
       "id": "cd-04-13",
@@ -8700,6 +8701,7 @@
     },
     {
       "id": "cd-13-09",
+      "imageURL": "https://leonidalog.app/images/cards/cd-13-09.jpg",
       "title": "Kandi - Standard",
       "category": "cards",
       "subgroup": "Delights Dancers",
@@ -8708,7 +8710,10 @@
       "ny": 0.5295,
       "region": "Vice-Dale County",
       "area": "Little Cuba",
-      "guide": "One of the 18 cards in the Delights Dancers set. Follow the map pin."
+      "guide": "One of the 18 cards in the Delights Dancers set. Upstairs above the pharmacy: on the toilet lid in the bathroom. A Novak Laurent Haute Grandeur watch is in the bedroom safe in the same place.",
+      "guideLinks": {
+        "Novak Laurent Haute Grandeur": "wt-14"
+      }
     },
     {
       "id": "cd-13-10",
@@ -9402,6 +9407,7 @@
     },
     {
       "id": "cd-15-10",
+      "imageURL": "https://leonidalog.app/images/cards/cd-15-10.jpg",
       "title": "Clarissa - Bronze",
       "category": "cards",
       "subgroup": "Nine1Nine Dancers",
@@ -9410,7 +9416,7 @@
       "ny": 0.538,
       "region": "Vice-Dale County",
       "area": "Little Cuba",
-      "guide": "One of the 36 cards in the Nine1Nine Dancers set. Follow the map pin."
+      "guide": "One of the 36 cards in the Nine1Nine Dancers set. On the rooftop: on the ground between the sun loungers and the red paddling pool."
     },
     {
       "id": "cd-15-11",
@@ -14621,9 +14627,17 @@
       "spoiler": true,
       "nx": 0.7589,
       "ny": 0.4758,
-      "guide": "Oldby Island, Washington Beach: magazine rack at Ron Stop'n'Snack.",
+      "guide": "Oldby Island, Washington Beach: magazine rack at Ron Stop'n'Snack. Another copy: Little Cuba, on the bed in the upstairs apartment second from the left (where the Ellie Burke card is on the fridge).",
       "region": "Vice Beach",
-      "area": "Ocean Beach"
+      "area": "Ocean Beach",
+      "gallery": [
+        {
+          "imageURL": "https://leonidalog.app/images/magazines/mz-20-little-cuba.jpg",
+          "caption": "Another copy: on the bed in a Little Cuba apartment.",
+          "nx": 0.6116,
+          "ny": 0.5373
+        }
+      ]
     },
     {
       "id": "mz-21",
@@ -16758,6 +16772,22 @@
       }
     },
     {
+      "id": "wt-14",
+      "imageURL": "https://leonidalog.app/images/watches/wt-14.jpg",
+      "title": "Novak Laurent Haute Grandeur",
+      "category": "watches",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "nx": 0.6095,
+      "ny": 0.5295,
+      "guide": "Little Cuba, upstairs above the pharmacy (the same place as the Kandi - Standard card): in the open safe on the bedside table in the bedroom.",
+      "region": "Vice-Dale County",
+      "area": "Little Cuba",
+      "guideLinks": {
+        "Kandi - Standard": "cd-13-09"
+      }
+    },
+    {
       "id": "sm-01",
       "title": "Sunset Blush Makeup",
       "category": "style-magazines",
@@ -18376,6 +18406,7 @@
     },
     {
       "id": "bx-004",
+      "imageURL": "https://leonidalog.app/images/base-jumps/bx-004.jpg",
       "title": "Vice Civic Center",
       "category": "base-jumps",
       "spoiler": true,
@@ -44227,6 +44258,7 @@
       "title": "Maibatsu Speedy Boomazoom",
       "category": "standout-vehicles",
       "subgroup": "Standout",
+      "guide": "Little Cuba: parked inside the garage at the pin.",
       "spoiler": true,
       "nx": 0.6151,
       "ny": 0.5295,
