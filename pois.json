@@ -1,5 +1,5 @@
 {
-  "version": 138,
+  "version": 140,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -257,7 +257,7 @@
       "symbol": "watch.analog",
       "colorHex": "E0B84A",
       "verb": "found",
-      "intro": "34 luxury watches to pick up, most of them in gang operations; a gold watch icon marks each one. They're styles: 100% needs 70 of the 79 styles (Progress, Collections, Discovered Styles), and the other 45 come from magazines. 12 of 34 so far, more as guides find them.",
+      "intro": "34 luxury watches to pick up, most of them in gang operations; a gold watch icon marks each one. They're styles: 100% needs 70 of the 79 styles (Progress, Collections, Discovered Styles), and the other 45 come from magazines. 13 of 34 so far, more as guides find them.",
       "collectible": true
     },
     {
@@ -5421,6 +5421,7 @@
     },
     {
       "id": "cd-02-05",
+      "imageURL": "https://leonidalog.app/images/cards/cd-02-05.jpg",
       "title": "Beck R. Heffer - Teal",
       "category": "cards",
       "subgroup": "Vice City Narcos",
@@ -5429,7 +5430,7 @@
       "ny": 0.5089,
       "region": "Vice-Dale County",
       "area": "Downtown",
-      "guide": "One of the 24 cards in the Vice City Narcos set. Follow the map pin."
+      "guide": "One of the 24 cards in the Vice City Narcos set. On the elevated train platform: on the end of the concrete bench, by the bin."
     },
     {
       "id": "cd-02-06",
@@ -5471,6 +5472,7 @@
     },
     {
       "id": "cd-02-09",
+      "imageURL": "https://leonidalog.app/images/cards/cd-02-09.jpg",
       "title": "Christoph Schulz - Standard",
       "category": "cards",
       "subgroup": "Vice City Narcos",
@@ -5479,10 +5481,11 @@
       "ny": 0.507,
       "region": "Vice-Dale County",
       "area": "Downtown",
-      "guide": "One of the 24 cards in the Vice City Narcos set. Follow the map pin."
+      "guide": "One of the 24 cards in the Vice City Narcos set. In the back stockroom of the shop by the Sahara Arena courtyard (a staff member shouts at you, but you can grab it): on the metal shelves between the clothes rails."
     },
     {
       "id": "cd-02-10",
+      "imageURL": "https://leonidalog.app/images/cards/cd-02-10.jpg",
       "title": "Dylan Ezequiel Mack Jr. - Bronze",
       "category": "cards",
       "subgroup": "Vice City Narcos",
@@ -5491,7 +5494,7 @@
       "ny": 0.506,
       "region": "Vice-Dale County",
       "area": "Downtown",
-      "guide": "One of the 24 cards in the Vice City Narcos set. Follow the map pin."
+      "guide": "One of the 24 cards in the Vice City Narcos set. In the courtyard between Eris and the Sahara Arena: on the edge of the round planter at the foot of the big basketball-net sculpture."
     },
     {
       "id": "cd-02-11",
@@ -5976,6 +5979,7 @@
     },
     {
       "id": "cd-04-01",
+      "imageURL": "https://leonidalog.app/images/cards/cd-04-01.jpg",
       "title": "Anne Florence - Dusty Pink",
       "category": "cards",
       "subgroup": "Vice City Club De Futbol",
@@ -5984,7 +5988,7 @@
       "ny": 0.5294,
       "region": "Vice-Dale County",
       "area": "Downtown",
-      "guide": "One of the 30 cards in the Vice City Club De Futbol set. Follow the map pin."
+      "guide": "One of the 30 cards in the Vice City Club De Futbol set. At the Aqua Jet Water Taxi ticket booth on the waterfront: on the counter."
     },
     {
       "id": "cd-04-02",
@@ -6136,6 +6140,7 @@
     },
     {
       "id": "cd-04-14",
+      "imageURL": "https://leonidalog.app/images/cards/cd-04-14.jpg",
       "title": "Emma Croydon - Gold",
       "category": "cards",
       "subgroup": "Vice City Club De Futbol",
@@ -6144,7 +6149,7 @@
       "ny": 0.507,
       "region": "Vice-Dale County",
       "area": "Downtown",
-      "guide": "One of the 30 cards in the Vice City Club De Futbol set. Follow the map pin."
+      "guide": "One of the 30 cards in the Vice City Club De Futbol set. On the roof: on the ground by the folding chair next to the white door, near the football."
     },
     {
       "id": "cd-04-15",
@@ -6519,6 +6524,7 @@
     },
     {
       "id": "cd-05-15",
+      "imageURL": "https://leonidalog.app/images/cards/cd-05-15.jpg",
       "title": "Juan Carlos Garcia - Standard",
       "category": "cards",
       "subgroup": "Liberty City Swingers",
@@ -6527,7 +6533,7 @@
       "ny": 0.5363,
       "region": "Vice-Dale County",
       "area": "Downtown",
-      "guide": "One of the 24 cards in the Liberty City Swingers set. Follow the map pin."
+      "guide": "One of the 24 cards in the Liberty City Swingers set. At the bus stop: on the ground at the end of the bench, by the Fleeca Bank advert."
     },
     {
       "id": "cd-05-16",
@@ -6826,15 +6832,16 @@
     },
     {
       "id": "cd-06-16",
+      "imageURL": "https://leonidalog.app/images/cards/cd-06-16.jpg",
       "title": "Noah Marcus - Silver",
       "category": "cards",
       "subgroup": "Liberty City Penetrators",
       "spoiler": true,
-      "nx": 0.6564,
-      "ny": 0.5675,
+      "nx": 0.656,
+      "ny": 0.5679,
       "region": "Vice-Dale County",
       "area": "Tequesta Retreat",
-      "guide": "One of the 24 cards in the Liberty City Penetrators set. Follow the map pin."
+      "guide": "One of the 24 cards in the Liberty City Penetrators set. On the rooftop terrace with the hot tub: on the low table in the cabana, next to a High Rollerz magazine."
     },
     {
       "id": "cd-06-17",
@@ -7674,6 +7681,7 @@
     },
     {
       "id": "cd-09-12",
+      "imageURL": "https://leonidalog.app/images/cards/cd-09-12.jpg",
       "title": "Lloyd Robinson - Standard",
       "category": "cards",
       "subgroup": "Los Santos Panic",
@@ -7682,7 +7690,7 @@
       "ny": 0.5626,
       "region": "Vice-Dale County",
       "area": "Tequesta",
-      "guide": "One of the 24 cards in the Los Santos Panic set. Follow the map pin."
+      "guide": "One of the 24 cards in the Los Santos Panic set. In the site office (the attendant tells you to leave, but you can grab it): on the desk under the window, by the phone and the cereal box."
     },
     {
       "id": "cd-09-13",
@@ -8028,6 +8036,7 @@
     },
     {
       "id": "cd-10-15",
+      "imageURL": "https://leonidalog.app/images/cards/cd-10-15.jpg",
       "title": "Randolph Topolski - Gold",
       "category": "cards",
       "subgroup": "Los Santos Pounders",
@@ -8036,7 +8045,7 @@
       "ny": 0.5743,
       "region": "Vice-Dale County",
       "area": "Tequesta",
-      "guide": "One of the 24 cards in the Los Santos Pounders set. Follow the map pin."
+      "guide": "One of the 24 cards in the Los Santos Pounders set. On the roof, below the helipad: on the ground beside the folding chair by the door, under the green pipe."
     },
     {
       "id": "cd-10-16",
@@ -8629,6 +8638,7 @@
     },
     {
       "id": "cd-13-04",
+      "imageURL": "https://leonidalog.app/images/cards/cd-13-04.jpg",
       "title": "Crystal - Standard",
       "category": "cards",
       "subgroup": "Delights Dancers",
@@ -8637,7 +8647,7 @@
       "ny": 0.5356,
       "region": "Vice-Dale County",
       "area": "Downtown",
-      "guide": "One of the 18 cards in the Delights Dancers set. Follow the map pin."
+      "guide": "One of the 18 cards in the Delights Dancers set. Go inside, up the stairs one floor, then through the door out to the balcony: on the floor by the folding chair and the stacked boxes."
     },
     {
       "id": "cd-13-05",
@@ -9583,6 +9593,7 @@
     },
     {
       "id": "cd-15-25",
+      "imageURL": "https://leonidalog.app/images/cards/cd-15-25.jpg",
       "title": "Lenora - Deep Red",
       "category": "cards",
       "subgroup": "Nine1Nine Dancers",
@@ -9591,7 +9602,7 @@
       "ny": 0.5799,
       "region": "Vice-Dale County",
       "area": "Tequesta Retreat",
-      "guide": "One of the 36 cards in the Nine1Nine Dancers set. Follow the map pin."
+      "guide": "One of the 36 cards in the Nine1Nine Dancers set. Against the side of the building: on the mustard-yellow sofa dumped by the bin bags and old picture frames."
     },
     {
       "id": "cd-15-26",
@@ -9888,6 +9899,7 @@
     },
     {
       "id": "cd-16-13",
+      "imageURL": "https://leonidalog.app/images/cards/cd-16-13.jpg",
       "title": "iFred - Blue",
       "category": "cards",
       "subgroup": "The Legends of Ratface",
@@ -9896,7 +9908,7 @@
       "ny": 0.5226,
       "region": "Vice-Dale County",
       "area": "Downtown",
-      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. By the Ferris wheel: climb up onto the roof above the Lizzy's hot dog stand; the card is on the low wall next to the striped deckchair."
     },
     {
       "id": "cd-16-14",
@@ -10922,15 +10934,16 @@
     },
     {
       "id": "cd-18-23",
+      "imageURL": "https://leonidalog.app/images/cards/cd-18-23.jpg",
       "title": "MR.I - Orange",
       "category": "cards",
       "subgroup": "Ed Comics Universe",
       "spoiler": true,
-      "nx": 0.6399,
-      "ny": 0.506,
+      "nx": 0.6405,
+      "ny": 0.5041,
       "region": "Vice-Dale County",
       "area": "Downtown",
-      "guide": "One of the 36 cards in the Ed Comics Universe set. Follow the map pin."
+      "guide": "One of the 36 cards in the Ed Comics Universe set. On the rooftop above NE 1st Ave, under the elevated railway: on the ledge by the folding chair, next to the razor wire."
     },
     {
       "id": "cd-18-24",
@@ -11356,12 +11369,13 @@
     },
     {
       "id": "pl-vault",
-      "nx": 0.6301,
-      "ny": 0.5034,
+      "imageURL": "https://leonidalog.app/images/playlists/pl-vault.jpg",
+      "nx": 0.6306,
+      "ny": 0.5036,
       "title": "The Vault Radio",
       "category": "playlists",
       "spoiler": true,
-      "guide": "Find the red poster just inside the entrance of The Vault nightclub, downtown.",
+      "guide": "Find the red poster just inside the entrance of The Vault nightclub, downtown, at the top of the steps up into the club.",
       "region": "Vice City",
       "area": "Downtown"
     },
@@ -14587,9 +14601,17 @@
       "spoiler": true,
       "nx": 0.636,
       "ny": 0.4678,
-      "guide": "Crosstown: Jack of Hearts club, second floor hallway west of the recording booths.",
+      "guide": "Crosstown: Jack of Hearts club, second floor hallway west of the recording booths. Another copy: Tequesta Retreat, on the low table in the cabana on the rooftop terrace with the hot tub (where the Noah Marcus card is).",
       "region": "Vice City",
-      "area": "Crosstown"
+      "area": "Crosstown",
+      "gallery": [
+        {
+          "imageURL": "https://leonidalog.app/images/magazines/mz-19-tequesta.jpg",
+          "caption": "Another copy: the cabana on a Tequesta Retreat rooftop terrace.",
+          "nx": 0.6564,
+          "ny": 0.5675
+        }
+      ]
     },
     {
       "id": "mz-20",
@@ -14825,6 +14847,7 @@
     },
     {
       "id": "wl-21",
+      "imageURL": "https://leonidalog.app/images/waink/wl-21.jpg",
       "title": "Dock Ring",
       "category": "waink",
       "subgroup": "Landmarks",
@@ -15640,6 +15663,7 @@
     },
     {
       "id": "wl-downtown-periscope",
+      "imageURL": "https://leonidalog.app/images/waink/wl-downtown-periscope.jpg",
       "title": "Downtown Periscope",
       "category": "waink",
       "subgroup": "Landmarks",
@@ -15775,6 +15799,7 @@
     },
     {
       "id": "wl-sahara-arena",
+      "imageURL": "https://leonidalog.app/images/waink/wl-sahara-arena.jpg",
       "title": "Sahara Arena",
       "category": "waink",
       "subgroup": "Landmarks",
@@ -15879,6 +15904,7 @@
     },
     {
       "id": "wl-iaa-s-friends-of-freedom",
+      "imageURL": "https://leonidalog.app/images/waink/wl-iaa-s-friends-of-freedom.jpg",
       "title": "IAA's Friends of Freedom",
       "category": "waink",
       "subgroup": "Landmarks",
@@ -16308,6 +16334,7 @@
     },
     {
       "id": "ws-leonida-snow",
+      "imageURL": "https://leonidalog.app/images/waink/ws-leonida-snow.jpg",
       "title": "Leonida Snow",
       "category": "waink",
       "subgroup": "Sculptures",
@@ -16718,6 +16745,19 @@
       "guide": "In a mansion on the north side of Casanova Island in the Rialto Islands, between Vice City and Vice Beach: it's on the table in an upstairs bedroom."
     },
     {
+      "id": "wt-13",
+      "title": "B&G Ark Royal Ashore (White Gold & Sapphire Pavé)",
+      "category": "watches",
+      "subgroup": "Vice-Dale County",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "area": "Balsero",
+      "guide": "A key valuable in a gang operation on the south-east edge of Balsero, Vice City: it's on a table in the room at the bottom of the stairs, the room with the safe.",
+      "guideLinks": {
+        "gang operation": "go-26"
+      }
+    },
+    {
       "id": "sm-01",
       "title": "Sunset Blush Makeup",
       "category": "style-magazines",
@@ -16776,6 +16816,46 @@
       "region": "Vice-Dale County",
       "area": "Catalan Key",
       "guide": "A hairstyle for Jason at the southern end of Catalan Key: on a sunbed by the pool behind one of the middle mansions in the gated community."
+    },
+    {
+      "id": "sm-07",
+      "title": "Pop Star Makeup",
+      "category": "style-magazines",
+      "subgroup": "Lucia",
+      "spoiler": true,
+      "region": "Mariana County",
+      "area": "Abismo Key",
+      "guide": "A makeup magazine for Lucia in the house on the west side of Abismo Key, next to Key Lento: it's on the floor beside a chair at the back of the house."
+    },
+    {
+      "id": "sm-08",
+      "title": "Floral Bun with Wavy Framing",
+      "category": "style-magazines",
+      "subgroup": "Lucia",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "area": "Decor District",
+      "guide": "A hairstyle magazine for Lucia in the Decor District, Vice City: in the garage on the south side of the cluster of buildings under the highway, next to a lamp."
+    },
+    {
+      "id": "sm-09",
+      "title": "Cowboy Horseshoe Mustache",
+      "category": "style-magazines",
+      "subgroup": "Jason",
+      "spoiler": true,
+      "region": "Mariana County",
+      "area": "Watson Bay",
+      "guide": "A facial hair magazine for Jason in Watson Bay, in a house north-east of Jim's Mini Mart: it's on the chair in the bedroom."
+    },
+    {
+      "id": "sm-10",
+      "title": "Van Dyke",
+      "category": "style-magazines",
+      "subgroup": "Jason",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "area": "Decor District",
+      "guide": "A facial hair magazine for Jason in the middle of the Decor District shopping area in north Vice City, next to the big round structure with stairs."
     },
     {
       "id": "sj-001",
@@ -17192,6 +17272,7 @@
     },
     {
       "id": "sj-shoreline-park-amphitheater",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-shoreline-park-amphitheater.jpg",
       "title": "Shoreline Park Amphitheater",
       "category": "stunt-jumps",
       "subgroup": "Vice-Dale County",
@@ -17199,7 +17280,8 @@
       "region": "Vice-Dale County",
       "area": "Downtown",
       "nx": 0.6622,
-      "ny": 0.5374
+      "ny": 0.5374,
+      "guide": "Shoreline Park, by the amphitheater: ride up the grass bank and jump through the ring of the \"Dive into our holes!\" billboard."
     },
     {
       "id": "sj-lake-bonner-construction-west",
@@ -18067,6 +18149,7 @@
     },
     {
       "id": "sj-downtown-mvp-park",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-downtown-mvp-park.jpg",
       "title": "Downtown MVP Park",
       "category": "stunt-jumps",
       "subgroup": "Vice-Dale County",
@@ -18074,7 +18157,8 @@
       "region": "Vice-Dale County",
       "area": "Downtown",
       "nx": 0.6478,
-      "ny": 0.5542
+      "ny": 0.5542,
+      "guide": "MVP Park parking garage, Downtown: on the roof (level 7), off the ramp of steel mesh against the wall."
     },
     {
       "id": "sj-7777-ocean-beach-parking",
@@ -18111,6 +18195,7 @@
     },
     {
       "id": "sj-tequesta-park-in",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-tequesta-park-in.jpg",
       "title": "Tequesta Park In",
       "category": "stunt-jumps",
       "subgroup": "Vice-Dale County",
@@ -18266,6 +18351,7 @@
     },
     {
       "id": "bx-002",
+      "imageURL": "https://leonidalog.app/images/base-jumps/bx-002.jpg",
       "title": "Pike Financial Center",
       "category": "base-jumps",
       "spoiler": true,
@@ -18398,6 +18484,7 @@
     },
     {
       "id": "bx-013",
+      "imageURL": "https://leonidalog.app/images/base-jumps/bx-013.jpg",
       "title": "Rico Huxley Hotels",
       "category": "base-jumps",
       "spoiler": true,
@@ -18482,6 +18569,7 @@
     },
     {
       "id": "bx-020",
+      "imageURL": "https://leonidalog.app/images/base-jumps/bx-020.jpg",
       "title": "Arcadia Towers South",
       "category": "base-jumps",
       "spoiler": true,
@@ -18506,6 +18594,7 @@
     },
     {
       "id": "bx-022",
+      "imageURL": "https://leonidalog.app/images/base-jumps/bx-022.jpg",
       "title": "Tequesta Tides Hotel & Spa South",
       "category": "base-jumps",
       "spoiler": true,
@@ -18530,6 +18619,7 @@
     },
     {
       "id": "bx-024",
+      "imageURL": "https://leonidalog.app/images/base-jumps/bx-024.jpg",
       "title": "Tequesta Tides Hotel & Spa West",
       "category": "base-jumps",
       "spoiler": true,
@@ -18542,6 +18632,7 @@
     },
     {
       "id": "bx-025",
+      "imageURL": "https://leonidalog.app/images/base-jumps/bx-025.jpg",
       "title": "Fenestra Plaza",
       "category": "base-jumps",
       "spoiler": true,
@@ -22188,6 +22279,7 @@
     },
     {
       "id": "hp-036",
+      "imageURL": "https://leonidalog.app/images/hoops/hp-036.jpg",
       "title": "Sahara Arena",
       "category": "hoops",
       "subgroup": "Vice-Dale County",
@@ -22203,6 +22295,7 @@
     },
     {
       "id": "hp-005",
+      "imageURL": "https://leonidalog.app/images/hoops/hp-005.jpg",
       "title": "U-shaped apartments",
       "category": "hoops",
       "subgroup": "Vice-Dale County",
@@ -53055,6 +53148,7 @@
     },
     {
       "id": "sa-106",
+      "imageURL": "https://leonidalog.app/images/street-art/sa-106.jpg",
       "title": "Chair 135 (Downtown)",
       "category": "street-art",
       "subgroup": "Chairs",
