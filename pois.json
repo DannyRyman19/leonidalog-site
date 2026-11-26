@@ -1,5 +1,5 @@
 {
-  "version": 136,
+  "version": 137,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -13547,8 +13547,29 @@
       "category": "game-challenges",
       "subgroup": "Fitness",
       "spoiler": true,
-      "guide": "Fitness challenge. Use every type of gym equipment in one in-game day. Types found so far: punch bag, kettlebell swings, dumbbell lifts, deadlifts, cable crossovers, dips, squats, pull-ups, exercise bike, treadmill, curls, shoulder press, EZ bar, leg extensions, lat pulldowns, hip thrusts, chest flys and bench press. This list isn't confirmed complete yet, so if the challenge doesn't tick, look for equipment you haven't used.",
-      "iconURL": "https://leonidalog.app/images/challenges/ch-35.jpg"
+      "guide": "Fitness challenge. Use every type of gym equipment in one in-game day. The checklist is every type found so far; it isn't confirmed complete yet, so if the challenge doesn't tick, look for equipment you haven't used.",
+      "iconURL": "https://leonidalog.app/images/challenges/ch-35.jpg",
+      "objectives": [
+        "Punch bag",
+        "Kettlebell swings",
+        "Dumbbell lifts",
+        "Deadlifts",
+        "Cable crossovers",
+        "Dips",
+        "Squats",
+        "Pull-ups",
+        "Exercise bike",
+        "Treadmill",
+        "Curls",
+        "Shoulder press",
+        "EZ bar",
+        "Leg extensions",
+        "Lat pulldowns",
+        "Hip thrusts",
+        "Chest flys",
+        "Bench press",
+        "Tyre flips"
+      ]
     },
     {
       "id": "ch-36",
