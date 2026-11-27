@@ -1,5 +1,5 @@
 {
-  "version": 152,
+  "version": 153,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -1413,10 +1413,21 @@
           "value": "15"
         }
       ],
-      "revealedGuide": "Hunt a unique animal for Bret Vogel. Jason only: Bret texts after the chapter 2 mission Coffee Break, and his first mission in Lummox County gives you his hunting rifle. Which animal pops it isn't confirmed yet, but it comes while working through his 15 target decks, which 100% needs anyway. You can track the decks under Map > Activities > Target Deck.",
+      "revealedGuide": "Hunt any unique animal. Jason only: Bret texts after the chapter 2 mission Coffee Break, and his first mission in Lummox County gives you his hunting rifle. Ticks itself once you tick any of the 8 unique animals, or tick it by hand.",
       "guideLinks": {
-        "Coffee Break": "ms-031"
-      }
+        "Coffee Break": "ms-031",
+        "unique animals": "category:animals"
+      },
+      "autoCollectedBy": [
+        "an-unique-swamp-alligator",
+        "an-unique-black-bear",
+        "an-unique-wild-boar",
+        "an-unique-coyote",
+        "an-unique-crocodile",
+        "an-unique-buck",
+        "an-unique-white-fox",
+        "an-unique-panther"
+      ]
     },
     {
       "id": "tr-30",
@@ -4665,8 +4676,25 @@
       "title": "Bret's target decks",
       "category": "exploration",
       "spoiler": true,
-      "guide": "Complete all 15 of Bret's hunting target decks.",
-      "tallyTarget": 15
+      "guide": "Complete all 15 of Bret's hunting target decks. Counts itself from the decks you finish in the checklist; step it on by hand for decks not listed yet.",
+      "tallyTarget": 15,
+      "countsFrom": {
+        "target": 15,
+        "sources": [
+          {
+            "category": "bret-decks",
+            "per": "subgroup"
+          }
+        ],
+        "unit": "decks",
+        "byHandToo": true
+      },
+      "linkedCategories": [
+        "bret-decks"
+      ],
+      "guideLinks": {
+        "Bret's hunting target decks": "category:bret-decks"
+      }
     },
     {
       "id": "dc-vehicles",
@@ -6096,6 +6124,7 @@
     },
     {
       "id": "cd-04-08",
+      "imageURL": "https://leonidalog.app/images/cards/cd-04-08.jpg",
       "title": "Badge - Silver",
       "category": "cards",
       "subgroup": "Vice City Club De Futbol",
@@ -6104,7 +6133,7 @@
       "ny": 0.2118,
       "region": "Lummox County",
       "area": "Kalaga National Park",
-      "guide": "One of the 30 cards in the Vice City Club De Futbol set. Follow the map pin."
+      "guide": "One of the 30 cards in the Vice City Club De Futbol set. Up in the wooden loft with the sleeping bags: on the floor by the football and the pile of magazines."
     },
     {
       "id": "cd-04-09",
@@ -6198,8 +6227,8 @@
       "category": "cards",
       "subgroup": "Vice City Club De Futbol",
       "spoiler": true,
-      "nx": 0.7783,
-      "ny": 0.5625,
+      "nx": 0.7779,
+      "ny": 0.5626,
       "region": "Vice-Dale County",
       "area": "Ocean Beach",
       "guide": "Inside the lifeguard tower on the beach, on the desk under the windows next to the football and the radio."
@@ -7208,15 +7237,16 @@
     },
     {
       "id": "cd-07-20",
+      "imageURL": "https://leonidalog.app/images/cards/cd-07-20.jpg",
       "title": "Robbie Stine - Silver",
       "category": "cards",
       "subgroup": "Liberty City Wrath",
       "spoiler": true,
-      "nx": 0.4674,
+      "nx": 0.4678,
       "ny": 0.1822,
       "region": "Lummox County",
       "area": "Kalaga National Park",
-      "guide": "One of the 24 cards in the Liberty City Wrath set. Follow the map pin."
+      "guide": "One of the 24 cards in the Liberty City Wrath set. Up the ladder into the office: on the desk by the drink can."
     },
     {
       "id": "cd-07-21",
@@ -8150,11 +8180,9 @@
       "category": "cards",
       "subgroup": "Los Santos Pounders",
       "spoiler": true,
-      "nx": 0.4572,
-      "ny": 0.2073,
       "region": "Lummox County",
       "area": "Kalaga National Park",
-      "guide": "One of the 24 cards in the Los Santos Pounders set. Follow the map pin."
+      "guide": "One of the 24 cards in the Los Santos Pounders set. Where it is isn't confirmed yet: the old pin turned out to be wrong. If you find it, report the spot."
     },
     {
       "id": "cd-10-22",
@@ -8210,6 +8238,7 @@
     },
     {
       "id": "cd-11-02",
+      "imageURL": "https://leonidalog.app/images/cards/cd-11-02.jpg",
       "title": "Blood Smith - Standard",
       "category": "cards",
       "subgroup": "Backyard Wrestling",
@@ -8218,7 +8247,7 @@
       "ny": 0.2857,
       "region": "Kelly County",
       "area": "Manifest Canyon",
-      "guide": "One of the 12 cards in the Backyard Wrestling set. Follow the map pin."
+      "guide": "One of the 12 cards in the Backyard Wrestling set. Up in the treehouse, on the floor by the lantern."
     },
     {
       "id": "cd-11-03",
@@ -8482,15 +8511,16 @@
     },
     {
       "id": "cd-12-12",
+      "imageURL": "https://leonidalog.app/images/cards/cd-12-12.jpg",
       "title": "Crystal - Standard",
       "category": "cards",
       "subgroup": "America's Next Top Hooker",
       "spoiler": true,
-      "nx": 0.484,
-      "ny": 0.2475,
+      "nx": 0.4834,
+      "ny": 0.2474,
       "region": "Kelly County",
       "area": "North Kelly County",
-      "guide": "One of the 24 cards in the America's Next Top Hooker set. Follow the map pin."
+      "guide": "One of the 24 cards in the America's Next Top Hooker set. In the toilet: on the floor by the magazine next to the bowl."
     },
     {
       "id": "cd-12-13",
@@ -8544,6 +8574,7 @@
     },
     {
       "id": "cd-12-17",
+      "imageURL": "https://leonidalog.app/images/cards/cd-12-17.jpg",
       "title": "Kalisha - Bronze",
       "category": "cards",
       "subgroup": "America's Next Top Hooker",
@@ -8552,7 +8583,7 @@
       "ny": 0.2006,
       "region": "Lummox County",
       "area": "Kalaga National Park",
-      "guide": "One of the 24 cards in the America's Next Top Hooker set. Follow the map pin."
+      "guide": "One of the 24 cards in the America's Next Top Hooker set. At the lovers' camp with the pink hearts: under the red tarp, on the bedding. A tattoo magazine is next to it."
     },
     {
       "id": "cd-12-18",
@@ -8667,6 +8698,7 @@
     },
     {
       "id": "cd-13-03",
+      "imageURL": "https://leonidalog.app/images/cards/cd-13-03.jpg",
       "title": "Cleo - Standard",
       "category": "cards",
       "subgroup": "Delights Dancers",
@@ -8675,7 +8707,7 @@
       "ny": 0.2002,
       "region": "Lummox County",
       "area": "Dawson Dam",
-      "guide": "One of the 18 cards in the Delights Dancers set. Follow the map pin."
+      "guide": "One of the 18 cards in the Delights Dancers set. Inside the storeroom with the life ring: on the yellow generator by the lockers."
     },
     {
       "id": "cd-13-04",
@@ -9152,6 +9184,7 @@
     },
     {
       "id": "cd-14-23",
+      "imageURL": "https://leonidalog.app/images/cards/cd-14-23.jpg",
       "title": "Malena - Pink",
       "category": "cards",
       "subgroup": "Jack of Hearts Dancers",
@@ -9160,7 +9193,7 @@
       "ny": 0.1725,
       "region": "Lummox County",
       "area": "Dawson Dam",
-      "guide": "One of the 36 cards in the Jack of Hearts Dancers set. Follow the map pin."
+      "guide": "One of the 36 cards in the Jack of Hearts Dancers set. Up in the watchtower: on the window ledge by the mug and the poster."
     },
     {
       "id": "cd-14-24",
@@ -9441,6 +9474,7 @@
     },
     {
       "id": "cd-15-09",
+      "imageURL": "https://leonidalog.app/images/cards/cd-15-09.jpg",
       "title": "Chrissie - Purple",
       "category": "cards",
       "subgroup": "Nine1Nine Dancers",
@@ -9449,7 +9483,7 @@
       "ny": 0.2629,
       "region": "Kelly County",
       "area": "Manifest Canyon",
-      "guide": "One of the 36 cards in the Nine1Nine Dancers set. Follow the map pin."
+      "guide": "One of the 36 cards in the Nine1Nine Dancers set. Inside the red rock cave: on the ground by the coiled rope and the old campfire."
     },
     {
       "id": "cd-15-10",
@@ -10513,6 +10547,7 @@
     },
     {
       "id": "cd-17-21",
+      "imageURL": "https://leonidalog.app/images/cards/cd-17-21.jpg",
       "title": "President Quinn - White",
       "category": "cards",
       "subgroup": "Right Wing: America's Hero",
@@ -10521,7 +10556,7 @@
       "ny": 0.229,
       "region": "Lummox County",
       "area": "Kalaga National Park",
-      "guide": "One of the 36 cards in the Right Wing: America's Hero set. Follow the map pin."
+      "guide": "One of the 36 cards in the Right Wing: America's Hero set. In the park rangers' building: on the desk, by the radio and the open magazine."
     },
     {
       "id": "cd-17-22",
@@ -10550,6 +10585,7 @@
     },
     {
       "id": "cd-17-24",
+      "imageURL": "https://leonidalog.app/images/cards/cd-17-24.jpg",
       "title": "Right Wing - White",
       "category": "cards",
       "subgroup": "Right Wing: America's Hero",
@@ -10558,7 +10594,7 @@
       "ny": 0.1791,
       "region": "Lummox County",
       "area": "Dawson Dam",
-      "guide": "One of the 36 cards in the Right Wing: America's Hero set. Follow the map pin."
+      "guide": "One of the 36 cards in the Right Wing: America's Hero set. On the notice board outside the camping store, next to Ammu-Nation."
     },
     {
       "id": "cd-17-25",
@@ -10803,11 +10839,9 @@
       "category": "cards",
       "subgroup": "Ed Comics Universe",
       "spoiler": true,
-      "nx": 0.4477,
-      "ny": 0.1961,
       "region": "Lummox County",
       "area": "Kalaga National Park",
-      "guide": "One of the 36 cards in the Ed Comics Universe set. Follow the map pin."
+      "guide": "One of the 36 cards in the Ed Comics Universe set. Where it is isn't confirmed yet: the old pin turned out to be wrong. If you find it, report the spot."
     },
     {
       "id": "cd-18-08",
@@ -11262,6 +11296,7 @@
     },
     {
       "id": "md-08",
+      "imageURL": "https://leonidalog.app/images/meditation/md-08.jpg",
       "title": "Red Rocks (1 of 2)",
       "category": "meditation",
       "subgroup": "Kelly County",
@@ -11311,6 +11346,7 @@
     },
     {
       "id": "md-12",
+      "imageURL": "https://leonidalog.app/images/meditation/md-12.jpg",
       "title": "Jutting Cliff (1 of 2)",
       "category": "meditation",
       "subgroup": "Lummox County",
@@ -14856,6 +14892,7 @@
     },
     {
       "id": "mz-23",
+      "imageURL": "https://leonidalog.app/images/magazines/mz-23.jpg",
       "title": "11:59 Survivalist Culture",
       "category": "magazines",
       "subgroup": "Lummox County",
@@ -15039,6 +15076,7 @@
     },
     {
       "id": "wl-18",
+      "imageURL": "https://leonidalog.app/images/waink/wl-18.jpg",
       "title": "Kalaga Lookout",
       "category": "waink",
       "subgroup": "Landmarks",
@@ -15108,6 +15146,7 @@
     },
     {
       "id": "wc-11",
+      "imageURL": "https://leonidalog.app/images/waink/wc-11.jpg",
       "title": "Imperial Spanish Ruins",
       "category": "waink",
       "subgroup": "Curiosities",
@@ -16246,6 +16285,7 @@
     },
     {
       "id": "wl-grayson-cairns",
+      "imageURL": "https://leonidalog.app/images/waink/wl-grayson-cairns.jpg",
       "title": "Grayson Cairns",
       "category": "waink",
       "subgroup": "Landmarks",
@@ -16309,6 +16349,7 @@
     },
     {
       "id": "wl-tallaloko-amphitheater",
+      "imageURL": "https://leonidalog.app/images/waink/wl-tallaloko-amphitheater.jpg",
       "title": "Tallaloko Amphitheater",
       "category": "waink",
       "subgroup": "Landmarks",
@@ -16762,6 +16803,7 @@
     },
     {
       "id": "wc-lovers-lookout",
+      "imageURL": "https://leonidalog.app/images/waink/wc-lovers-lookout.jpg",
       "title": "Lovers Lookout",
       "category": "waink",
       "subgroup": "Curiosities",
@@ -17586,6 +17628,22 @@
       ]
     },
     {
+      "id": "sm-22",
+      "imageURL": "https://leonidalog.app/images/magazines/sm-22.jpg",
+      "title": "Even Death Can't Part Us & One Life, One Love",
+      "category": "style-magazines",
+      "subgroup": "Tattoos",
+      "spoiler": true,
+      "region": "Lummox County",
+      "area": "Kalaga National Park",
+      "nx": 0.5356,
+      "ny": 0.2006,
+      "guide": "A tattoo magazine at the lovers' camp with the pink hearts in Mount Kalaga National Park: on the yellow tarp next to the bedding, by the trading card under the red tarp.",
+      "guideLinks": {
+        "trading card": "cd-12-17"
+      }
+    },
+    {
       "id": "sj-001",
       "title": "Mile Zero Air Station, southeast side",
       "category": "stunt-jumps",
@@ -18140,6 +18198,7 @@
     },
     {
       "id": "sj-north-kelly-county-ledge",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-north-kelly-county-ledge.jpg",
       "title": "North Kelly County Ledge",
       "category": "stunt-jumps",
       "subgroup": "Kelly County",
@@ -18162,6 +18221,7 @@
     },
     {
       "id": "sj-kalaga-pond",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-kalaga-pond.jpg",
       "title": "Kalaga Pond",
       "category": "stunt-jumps",
       "subgroup": "Lummox County",
@@ -18318,14 +18378,15 @@
     },
     {
       "id": "sj-kalaga-ramp",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-kalaga-ramp.jpg",
       "title": "Kalaga Ramp",
       "category": "stunt-jumps",
       "subgroup": "Lummox County",
       "spoiler": true,
       "region": "Lummox County",
       "area": "Kalaga National Park",
-      "nx": 0.4656,
-      "ny": 0.1906
+      "nx": 0.466,
+      "ny": 0.1909
     },
     {
       "id": "sj-gator-plaza-parking",
@@ -18443,6 +18504,7 @@
     },
     {
       "id": "sj-north-kelly-county-railroad",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-north-kelly-county-railroad.jpg",
       "title": "North Kelly County Railroad",
       "category": "stunt-jumps",
       "subgroup": "Kelly County",
@@ -18487,6 +18549,7 @@
     },
     {
       "id": "sj-west-kalaga-logging",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-west-kalaga-logging.jpg",
       "title": "West Kalaga Logging",
       "category": "stunt-jumps",
       "subgroup": "Lummox County",
@@ -18692,6 +18755,7 @@
     },
     {
       "id": "sj-manifest-canyon-trail-west",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-manifest-canyon-trail-west.jpg",
       "title": "Manifest Canyon Trail West",
       "category": "stunt-jumps",
       "subgroup": "Kelly County",
@@ -18703,6 +18767,7 @@
     },
     {
       "id": "sj-kalaga-ridge",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-kalaga-ridge.jpg",
       "title": "Kalaga Ridge",
       "category": "stunt-jumps",
       "subgroup": "Lummox County",
@@ -18747,6 +18812,7 @@
     },
     {
       "id": "sj-mount-kalaga-visitor-center",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-mount-kalaga-visitor-center.jpg",
       "title": "Mount Kalaga Visitor Center",
       "category": "stunt-jumps",
       "subgroup": "Lummox County",
@@ -18754,7 +18820,8 @@
       "region": "Lummox County",
       "area": "Dawson Dam",
       "nx": 0.507,
-      "ny": 0.1853
+      "ny": 0.1853,
+      "guide": "Ramp up and over the visitor center."
     },
     {
       "id": "sj-valdemar-on-the-river-parking-north",
@@ -18848,6 +18915,7 @@
     },
     {
       "id": "sj-manifest-canyon",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-manifest-canyon.jpg",
       "title": "Manifest Canyon",
       "category": "stunt-jumps",
       "subgroup": "Kelly County",
@@ -19020,6 +19088,7 @@
     },
     {
       "id": "sj-manifest-canyon-trail-east",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-manifest-canyon-trail-east.jpg",
       "title": "Manifest Canyon Trail East",
       "category": "stunt-jumps",
       "subgroup": "Kelly County",
@@ -19150,6 +19219,7 @@
     },
     {
       "id": "bx-007",
+      "imageURL": "https://leonidalog.app/images/base-jumps/bx-007.jpg",
       "title": "Kalaga Outcrop",
       "category": "base-jumps",
       "spoiler": true,
@@ -19174,6 +19244,7 @@
     },
     {
       "id": "bx-009",
+      "imageURL": "https://leonidalog.app/images/base-jumps/bx-009.jpg",
       "title": "Providence Canyon Antenna Mast",
       "category": "base-jumps",
       "spoiler": true,
@@ -23270,6 +23341,7 @@
     },
     {
       "id": "hp-098",
+      "imageURL": "https://leonidalog.app/images/hoops/hp-098.jpg",
       "title": "Kalaga hills shed",
       "category": "hoops",
       "subgroup": "Lummox County",
@@ -23282,12 +23354,13 @@
     },
     {
       "id": "hp-041",
+      "imageURL": "https://leonidalog.app/images/hoops/hp-041.jpg",
       "title": "Stone Hill Sawmill",
       "category": "hoops",
       "subgroup": "Lummox County",
       "spoiler": true,
-      "nx": 0.4669,
-      "ny": 0.1822,
+      "nx": 0.4668,
+      "ny": 0.182,
       "guide": "Side of the Stone Hill Sawmill, north Mount Kalaga National Park.",
       "region": "Lummox County",
       "area": "Kalaga National Park"
@@ -28858,7 +28931,7 @@
       "ny": 0.457,
       "region": "Kelly County",
       "area": "Buckskin Swamp",
-      "revealedGuide": "Counts towards the Legendary Hunter challenge, which needs all 8 unique animals. Hunting a unique animal for Bret Vogel also pops the Fair Game trophy; which one isn't confirmed yet.",
+      "revealedGuide": "Counts towards the Legendary Hunter challenge, which needs all 8 unique animals. Hunting any unique animal also pops the Fair Game trophy.",
       "guideLinks": {
         "Legendary Hunter": "ch-70",
         "Fair Game": "tr-29"
@@ -28894,7 +28967,7 @@
       "ny": 0.7135,
       "region": "Mariana County",
       "area": "Grassrivers",
-      "revealedGuide": "Counts towards the Legendary Hunter challenge, which needs all 8 unique animals. Hunting a unique animal for Bret Vogel also pops the Fair Game trophy; which one isn't confirmed yet.",
+      "revealedGuide": "Counts towards the Legendary Hunter challenge, which needs all 8 unique animals. Hunting any unique animal also pops the Fair Game trophy.",
       "guideLinks": {
         "Legendary Hunter": "ch-70",
         "Fair Game": "tr-29"
@@ -28926,7 +28999,7 @@
       "ny": 0.3599,
       "region": "Kelly County",
       "area": "Wild Hog Point",
-      "revealedGuide": "Counts towards the Legendary Hunter challenge, which needs all 8 unique animals. Hunting a unique animal for Bret Vogel also pops the Fair Game trophy; which one isn't confirmed yet.",
+      "revealedGuide": "Counts towards the Legendary Hunter challenge, which needs all 8 unique animals. Hunting any unique animal also pops the Fair Game trophy.",
       "guideLinks": {
         "Legendary Hunter": "ch-70",
         "Fair Game": "tr-29",
@@ -28958,7 +29031,7 @@
       "ny": 0.3436,
       "region": "Leonard County",
       "area": "Belville",
-      "revealedGuide": "Counts towards the Legendary Hunter challenge, which needs all 8 unique animals. Hunting a unique animal for Bret Vogel also pops the Fair Game trophy; which one isn't confirmed yet.",
+      "revealedGuide": "Counts towards the Legendary Hunter challenge, which needs all 8 unique animals. Hunting any unique animal also pops the Fair Game trophy.",
       "guideLinks": {
         "Legendary Hunter": "ch-70",
         "Fair Game": "tr-29"
@@ -28982,7 +29055,7 @@
       "ny": 0.7678,
       "region": "Mariana County",
       "area": "Grassrivers",
-      "revealedGuide": "Counts towards the Legendary Hunter challenge, which needs all 8 unique animals. Hunting a unique animal for Bret Vogel also pops the Fair Game trophy; which one isn't confirmed yet.",
+      "revealedGuide": "Counts towards the Legendary Hunter challenge, which needs all 8 unique animals. Hunting any unique animal also pops the Fair Game trophy.",
       "guideLinks": {
         "Legendary Hunter": "ch-70",
         "Fair Game": "tr-29"
@@ -29013,7 +29086,7 @@
       "ny": 0.1594,
       "region": "Lummox County",
       "area": "South West Lummox County",
-      "revealedGuide": "Counts towards the Legendary Hunter challenge, which needs all 8 unique animals. Hunting a unique animal for Bret Vogel also pops the Fair Game trophy; which one isn't confirmed yet.",
+      "revealedGuide": "Counts towards the Legendary Hunter challenge, which needs all 8 unique animals. Hunting any unique animal also pops the Fair Game trophy.",
       "guideLinks": {
         "Legendary Hunter": "ch-70",
         "Fair Game": "tr-29"
@@ -29044,7 +29117,7 @@
       "ny": 0.3907,
       "region": "Kelly County",
       "area": "Emerald Springs",
-      "revealedGuide": "Counts towards the Legendary Hunter challenge, which needs all 8 unique animals. Hunting a unique animal for Bret Vogel also pops the Fair Game trophy; which one isn't confirmed yet.",
+      "revealedGuide": "Counts towards the Legendary Hunter challenge, which needs all 8 unique animals. Hunting any unique animal also pops the Fair Game trophy.",
       "guideLinks": {
         "Legendary Hunter": "ch-70",
         "Fair Game": "tr-29",
@@ -29069,7 +29142,7 @@
       "ny": 0.536,
       "region": "Mariana County",
       "area": "Belpoint",
-      "revealedGuide": "Counts towards the Legendary Hunter challenge, which needs all 8 unique animals. Hunting a unique animal for Bret Vogel also pops the Fair Game trophy; which one isn't confirmed yet.",
+      "revealedGuide": "Counts towards the Legendary Hunter challenge, which needs all 8 unique animals. Hunting any unique animal also pops the Fair Game trophy.",
       "guideLinks": {
         "Legendary Hunter": "ch-70",
         "Fair Game": "tr-29"
