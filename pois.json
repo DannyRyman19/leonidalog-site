@@ -1,5 +1,5 @@
 {
-  "version": 144,
+  "version": 145,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -11261,6 +11261,7 @@
     },
     {
       "id": "md-10",
+      "imageURL": "https://leonidalog.app/images/meditation/md-10.jpg",
       "title": "Water Wheel (1 of 2)",
       "category": "meditation",
       "subgroup": "Lummox County",
@@ -14833,6 +14834,7 @@
     },
     {
       "id": "wl-05",
+      "imageURL": "https://leonidalog.app/images/waink/wl-05.jpg",
       "title": "Lawton Co. Paper Mill",
       "category": "waink",
       "subgroup": "Landmarks",
@@ -53861,7 +53863,21 @@
       "revealedTitle": "Super Mario Bros",
       "revealedGuide": "Go to the Lawton Co. Paper Mill ruins in south Moreau, just north of Mount Kalaga National Park. Find the bong on a purple tarp and take a hit: the smoke reveals a block floating overhead. Climb the ruins, stand right under it and jump into it (lining up takes a few tries) or shoot it. A jingle plays and two caps drop, one for Jason and one for Lucia.",
       "nx": 0.4672,
-      "ny": 0.1565
+      "ny": 0.1565,
+      "gallery": [
+        {
+          "imageURL": "https://leonidalog.app/images/easter-eggs/ee-19-bong.jpg",
+          "caption": "The bong on the purple tarp: take a hit."
+        },
+        {
+          "imageURL": "https://leonidalog.app/images/easter-eggs/ee-19-block.jpg",
+          "caption": "The smoke shows the block floating above the ruins."
+        },
+        {
+          "imageURL": "https://leonidalog.app/images/easter-eggs/ee-19-caps.jpg",
+          "caption": "Hit it and the caps drop on top of the wall."
+        }
+      ]
     },
     {
       "id": "ee-20",
