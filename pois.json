@@ -1,5 +1,5 @@
 {
-  "version": 151,
+  "version": 152,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -8085,15 +8085,16 @@
     },
     {
       "id": "cd-10-16",
+      "imageURL": "https://leonidalog.app/images/cards/cd-10-16.jpg",
       "title": "Randolph Topolski - Silver",
       "category": "cards",
       "subgroup": "Los Santos Pounders",
       "spoiler": true,
-      "nx": 0.3787,
-      "ny": 0.2662,
+      "nx": 0.3785,
+      "ny": 0.2647,
       "region": "Kelly County",
       "area": "Manifest Canyon",
-      "guide": "One of the 24 cards in the Los Santos Pounders set. Follow the map pin."
+      "guide": "One of the 24 cards in the Los Santos Pounders set. Up in the top of the barn, to the right of the TV: climb the tractor and in through the barn window."
     },
     {
       "id": "cd-10-17",
@@ -8328,8 +8329,8 @@
       "category": "cards",
       "subgroup": "Backyard Wrestling",
       "spoiler": true,
-      "nx": 0.3894,
-      "ny": 0.2124,
+      "nx": 0.3888,
+      "ny": 0.212,
       "region": "Lummox County",
       "area": "South West Lummox County",
       "guide": "One of the 12 cards in the Backyard Wrestling set. In the small bedroom with the US flag: on the bedside table, by the laundry basket."
@@ -14997,6 +14998,7 @@
     },
     {
       "id": "wl-06",
+      "imageURL": "https://leonidalog.app/images/waink/wl-06.jpg",
       "title": "Farmer Scrumpy's Apple Orchard",
       "category": "waink",
       "subgroup": "Landmarks",
@@ -15212,6 +15214,7 @@
     },
     {
       "id": "ws-23",
+      "imageURL": "https://leonidalog.app/images/waink/ws-23.jpg",
       "title": "Monument of Leonidan Supremacy",
       "category": "waink",
       "subgroup": "Sculptures",
@@ -45787,6 +45790,24 @@
       "ny": 0.1715,
       "region": "Lummox County",
       "area": "East Lummox County"
+    },
+    {
+      "id": "sv-86",
+      "title": "Declasse Applesauce Bobcat",
+      "category": "standout-vehicles",
+      "subgroup": "Standout",
+      "spoiler": true,
+      "nx": 0.3762,
+      "ny": 0.2658,
+      "region": "Kelly County",
+      "area": "Manifest Canyon",
+      "guide": "Locked in the garage at the pin. The magazine that unlocks it is up in the barn opposite the old country house (climb the tractor and in through the window): its issue number, month and year make the code, 360782.",
+      "gallery": [
+        {
+          "imageURL": "https://leonidalog.app/images/standout-vehicles/sv-86-magazine.jpg",
+          "caption": "The clue: the magazine on the whisky barrel up in the barn. Examine it for the issue number, month and year."
+        }
+      ]
     },
     {
       "id": "sv-randy-01",
