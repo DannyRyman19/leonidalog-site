@@ -44,6 +44,13 @@
     match on your iPhone and iPad. That copy is stored by Apple under your
     Apple Account; we cannot see it. You can switch iCloud Sync off in the app,
     or stop it for Leonida Log in your device&rsquo;s iCloud settings.</p>
+  <p>On Android, Premium&rsquo;s <strong>Google Drive Sync</strong> does the
+    same job: your progress, playthroughs and notes are kept in a hidden
+    app-data folder in your own Google Drive, which only Leonida Log can read
+    and which doesn&rsquo;t appear among your files. It is stored by Google
+    under your Google Account; we cannot see it. You can switch it off in the
+    app, or remove the app&rsquo;s access in your Google Account&rsquo;s
+    security settings, which deletes that folder.</p>
 
   <h2>Stream overlay (optional)</h2>
   <p>If you switch on <strong>More &rsaquo; Stream overlay</strong>, the app sends
@@ -78,6 +85,11 @@
     receives a yes or no entitlement status from Apple and never sees your
     payment details. Apple&rsquo;s handling of that transaction is covered by
     <a href="https://www.apple.com/legal/privacy/">Apple&rsquo;s Privacy Policy</a>.</p>
+  <p>On Android, Premium is sold through Google Play Billing instead. Google
+    processes the payment and the subscription; the app only receives the
+    purchase status from Google and never sees your payment details.
+    Google&rsquo;s handling of that transaction is covered by Google&rsquo;s
+    Privacy Policy.</p>
 
   <h2 id="ads">Advertising</h2>
   <p>The free version shows ads through Unity LevelPlay, which serves them from
@@ -104,6 +116,10 @@
     whether it may track you. If you don&rsquo;t allow it, your advertising
     identifier isn&rsquo;t shared. You can change that answer at any time in
     <strong>Settings &rsaquo; Privacy &amp; Security &rsaquo; Tracking</strong>.</p>
+  <p>On Android there is no tracking prompt: your advertising identifier is
+    controlled by your device. You can reset or delete it under
+    Settings &rsaquo; Privacy &rsaquo; Ads (on some phones Settings &rsaquo;
+    Google &rsaquo; Ads), and then it isn&rsquo;t shared.</p>
   <p>Nothing is asked and the ad services aren&rsquo;t started before your second
     time in the app, unless you choose to watch an ad sooner. With Premium the
     app never starts them.</p>
@@ -119,16 +135,21 @@
     privacy policy applies.</p>
 
   <h2>Reporting an issue</h2>
-  <p>If you report a problem from inside the app, it opens your email app with a
-    pre-filled message that includes the app version, your device model, and any
-    details you added, such as a corrected map location. Nothing is sent until
-    you choose to send it.</p>
-  <p>If you add a screenshot to a report, for example to show where an item
-    is, it goes with that email from your own mail app to our support
-    address, along with the item&rsquo;s ID and any spot you tapped on the
-    map. The app shrinks the picture and strips its embedded details (such
-    as where and when it was taken) before attaching it. We use it only to
-    fix or improve the guide.</p>
+  <p>If you report a problem or suggest something missing from inside the app,
+    the report is sent to our own server (run on Cloudflare) so we can fix or
+    improve the guide. It contains the item and what&rsquo;s wrong, any spot you
+    tapped on the map, any note you wrote, and the app version, language,
+    operating system version and device model. It doesn&rsquo;t include your
+    name, email address or any account details. To stop abuse, the app sends a
+    random ID it made for this install, and the server uses it, and your IP
+    address, only to limit how many reports can be sent; the ID is kept as a
+    one-way hash for a short time and neither is stored with the report.</p>
+  <p>If you add a screenshot, for example to show where an item is, the app
+    shrinks it and strips its embedded details (such as where and when it was
+    taken) before sending it with the report. We use it only to fix or improve
+    the guide, and delete it once the report has been dealt with.</p>
+  <p>If the report can&rsquo;t be sent, the app offers to send it by email from
+    your own mail app instead; nothing goes until you choose to send it.</p>
 
   <h2>Children</h2>
   <p>Leonida Log is not directed at children, and we don&rsquo;t knowingly
