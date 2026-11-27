@@ -1,5 +1,5 @@
 {
-  "version": 148,
+  "version": 149,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -17401,6 +17401,26 @@
       "region": "Lummox County",
       "area": "Kalaga National Park",
       "guide": "A tattoo magazine at the very top of the fire lookout tower in Mount Kalaga National Park."
+    },
+    {
+      "id": "sm-20",
+      "title": "Spiky Bun & Framing",
+      "category": "style-magazines",
+      "subgroup": "Lucia",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "area": "Ocean Beach",
+      "guide": "A hairstyle magazine for Lucia on the roof of the tall skyscraper at the south end of Vice Beach, the one above three clothing boutiques."
+    },
+    {
+      "id": "sm-21",
+      "title": "Diamond Adorned Pink Cat Eye",
+      "category": "style-magazines",
+      "subgroup": "Lucia",
+      "spoiler": true,
+      "region": "Leonard County",
+      "area": "Belville",
+      "guide": "A makeup magazine for Lucia in Belville's town centre, north-west of Peewees: on the living-room table of the house full of mannequins, in the northern row of houses."
     },
     {
       "id": "sj-001",
