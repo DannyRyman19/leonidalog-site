@@ -1,5 +1,5 @@
 {
-  "version": 154,
+  "version": 155,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -5140,6 +5140,7 @@
     },
     {
       "id": "cd-01-03",
+      "imageURL": "https://leonidalog.app/images/cards/cd-01-03.jpg",
       "title": "Angel Cienfuegos - Silver",
       "category": "cards",
       "subgroup": "Vice City Flamingos",
@@ -5148,7 +5149,7 @@
       "ny": 0.3791,
       "region": "Leonard County",
       "area": "Belville",
-      "guide": "One of the 24 cards in the Vice City Flamingos set. Follow the map pin."
+      "guide": "One of the 24 cards in the Vice City Flamingos set. In the garage (move the car out of the way first): on top of the grey filing cabinet by the bin."
     },
     {
       "id": "cd-01-04",
@@ -6145,15 +6146,16 @@
     },
     {
       "id": "cd-04-10",
+      "imageURL": "https://leonidalog.app/images/cards/cd-04-10.jpg",
       "title": "Ellie Burke - Dusty Pink",
       "category": "cards",
       "subgroup": "Vice City Club De Futbol",
       "spoiler": true,
-      "nx": 0.5678,
-      "ny": 0.3851,
+      "nx": 0.5681,
+      "ny": 0.3852,
       "region": "Leonard County",
       "area": "Belville",
-      "guide": "One of the 30 cards in the Vice City Club De Futbol set. Follow the map pin."
+      "guide": "One of the 30 cards in the Vice City Club De Futbol set. In the backyard of the yellow house: by the wooden steps up to the back porch, next to the football."
     },
     {
       "id": "cd-04-11",
@@ -7384,6 +7386,7 @@
     },
     {
       "id": "cd-08-08",
+      "imageURL": "https://leonidalog.app/images/cards/cd-08-08.jpg",
       "title": "Franklin Turner - Bronze",
       "category": "cards",
       "subgroup": "Los Santos Corkers",
@@ -8674,6 +8677,7 @@
     },
     {
       "id": "cd-13-01",
+      "imageURL": "https://leonidalog.app/images/cards/cd-13-01.jpg",
       "title": "Amber - Standard",
       "category": "cards",
       "subgroup": "Delights Dancers",
@@ -8682,7 +8686,7 @@
       "ny": 0.4493,
       "region": "Leonard County",
       "area": "South Leonard County",
-      "guide": "One of the 18 cards in the Delights Dancers set. Follow the map pin."
+      "guide": "One of the 18 cards in the Delights Dancers set. At the foot of the metal steps by the graffitied wall: on the floor under the plastic chair, among the magazines."
     },
     {
       "id": "cd-13-02",
@@ -8852,6 +8856,7 @@
     },
     {
       "id": "cd-13-15",
+      "imageURL": "https://leonidalog.app/images/cards/cd-13-15.jpg",
       "title": "Perla - Standard",
       "category": "cards",
       "subgroup": "Delights Dancers",
@@ -8860,7 +8865,7 @@
       "ny": 0.454,
       "region": "Vice-Dale County",
       "area": "Balsero",
-      "guide": "One of the 18 cards in the Delights Dancers set. Follow the map pin."
+      "guide": "One of the 18 cards in the Delights Dancers set. High up on the walkway over the railway tracks: on top of the grey electrical cabinet."
     },
     {
       "id": "cd-13-16",
@@ -9173,6 +9178,7 @@
     },
     {
       "id": "cd-14-22",
+      "imageURL": "https://leonidalog.app/images/cards/cd-14-22.jpg",
       "title": "Malena - Deep Red",
       "category": "cards",
       "subgroup": "Jack of Hearts Dancers",
@@ -9181,7 +9187,10 @@
       "ny": 0.38,
       "region": "Leonard County",
       "area": "Belville",
-      "guide": "One of the 36 cards in the Jack of Hearts Dancers set. Follow the map pin."
+      "guide": "One of the 36 cards in the Jack of Hearts Dancers set. In the house full of mannequins in Belville's town centre (the Pink Cat Eye makeup magazine is in the same house): in the green bedroom, on the desk.",
+      "guideLinks": {
+        "Pink Cat Eye makeup magazine": "sm-21"
+      }
     },
     {
       "id": "cd-14-23",
@@ -9568,6 +9577,7 @@
     },
     {
       "id": "cd-15-16",
+      "imageURL": "https://leonidalog.app/images/cards/cd-15-16.jpg",
       "title": "Jesenia - Bronze",
       "category": "cards",
       "subgroup": "Nine1Nine Dancers",
@@ -9576,7 +9586,7 @@
       "ny": 0.4517,
       "region": "Vice-Dale County",
       "area": "Balsero",
-      "guide": "One of the 36 cards in the Nine1Nine Dancers set. Follow the map pin."
+      "guide": "One of the 36 cards in the Nine1Nine Dancers set. On top of the round storage tank: by the white chair, next to the stack of magazines."
     },
     {
       "id": "cd-15-17",
@@ -10053,6 +10063,7 @@
     },
     {
       "id": "cd-16-18",
+      "imageURL": "https://leonidalog.app/images/cards/cd-16-18.jpg",
       "title": "Illuminaughty - Purple",
       "category": "cards",
       "subgroup": "The Legends of Ratface",
@@ -10061,7 +10072,11 @@
       "ny": 0.3782,
       "region": "Leonard County",
       "area": "Belville",
-      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. In the conspiracy theorist's garage in north Belville (force the garage door): on the desk under the corkboards. The Foiled magazine and a meteorite are in the same garage.",
+      "guideLinks": {
+        "Foiled magazine": "mz-13",
+        "a meteorite": "mt-05"
+      }
     },
     {
       "id": "cd-16-19",
@@ -14755,6 +14770,7 @@
     },
     {
       "id": "mz-13",
+      "imageURL": "https://leonidalog.app/images/magazines/mz-13.jpg",
       "title": "Foiled",
       "category": "magazines",
       "subgroup": "Leonard County",
@@ -15543,6 +15559,7 @@
     },
     {
       "id": "mt-05",
+      "imageURL": "https://leonidalog.app/images/meteorites/mt-05.jpg",
       "title": "Meteorite",
       "category": "meteorites",
       "spoiler": true,
@@ -17665,6 +17682,7 @@
     },
     {
       "id": "sm-21",
+      "imageURL": "https://leonidalog.app/images/magazines/sm-21.jpg",
       "title": "Diamond Adorned Pink Cat Eye",
       "category": "style-magazines",
       "subgroup": "Lucia",
@@ -17673,14 +17691,17 @@
       "ny": 0.3802,
       "region": "Leonard County",
       "area": "Belville",
-      "guide": "A makeup magazine for Lucia in Belville's town centre, north-west of Peewees: on the living-room table of the house full of mannequins, in the northern row of houses.",
+      "guide": "A makeup magazine for Lucia in Belville's town centre, north-west of Peewees: on the dining table of the house full of mannequins, in the northern row of houses. A trading card is in the green bedroom of the same house.",
       "areas": [
         {
           "nx": 0.591,
           "ny": 0.3802,
           "r": 0.008
         }
-      ]
+      ],
+      "guideLinks": {
+        "trading card": "cd-14-22"
+      }
     },
     {
       "id": "sm-22",
@@ -17832,6 +17853,7 @@
     },
     {
       "id": "sj-012",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-012.jpg",
       "title": "Leone Street",
       "category": "stunt-jumps",
       "subgroup": "Vice-Dale County",
@@ -18138,6 +18160,7 @@
     },
     {
       "id": "sj-waste-transfer-services-south",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-waste-transfer-services-south.jpg",
       "title": "Waste Transfer Services South",
       "category": "stunt-jumps",
       "subgroup": "Vice-Dale County",
@@ -18184,6 +18207,7 @@
     },
     {
       "id": "sj-waste-transfer-services-north",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-waste-transfer-services-north.jpg",
       "title": "Waste Transfer Services North",
       "category": "stunt-jumps",
       "subgroup": "Kelly County",
@@ -18312,6 +18336,7 @@
     },
     {
       "id": "sj-waste-transfer-services-pond",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-waste-transfer-services-pond.jpg",
       "title": "Waste Transfer Services Pond",
       "category": "stunt-jumps",
       "subgroup": "Kelly County",
@@ -18630,6 +18655,7 @@
     },
     {
       "id": "sj-waste-transfer-services-lake",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-waste-transfer-services-lake.jpg",
       "title": "Waste Transfer Services Lake",
       "category": "stunt-jumps",
       "subgroup": "Kelly County",
@@ -23615,6 +23641,7 @@
     },
     {
       "id": "hp-068",
+      "imageURL": "https://leonidalog.app/images/hoops/hp-068.jpg",
       "title": "Grace Ave, Belville",
       "category": "hoops",
       "subgroup": "Leonard County",
