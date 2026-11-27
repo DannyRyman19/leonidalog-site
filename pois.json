@@ -1,5 +1,5 @@
 {
-  "version": 150,
+  "version": 151,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -8323,6 +8323,7 @@
     },
     {
       "id": "cd-11-11",
+      "imageURL": "https://leonidalog.app/images/cards/cd-11-11.jpg",
       "title": "Luke X - Standard",
       "category": "cards",
       "subgroup": "Backyard Wrestling",
@@ -8331,7 +8332,7 @@
       "ny": 0.2124,
       "region": "Lummox County",
       "area": "South West Lummox County",
-      "guide": "One of the 12 cards in the Backyard Wrestling set. Follow the map pin."
+      "guide": "One of the 12 cards in the Backyard Wrestling set. In the small bedroom with the US flag: on the bedside table, by the laundry basket."
     },
     {
       "id": "cd-11-12",
@@ -8571,8 +8572,8 @@
       "category": "cards",
       "subgroup": "America's Next Top Hooker",
       "spoiler": true,
-      "nx": 0.4444,
-      "ny": 0.1198,
+      "nx": 0.4466,
+      "ny": 0.117,
       "region": "Lummox County",
       "area": "Bonanza",
       "guide": "One of the 24 cards in the America's Next Top Hooker set. At the end of the broken concrete jetty: on the rusty plate at the foot of the bollard."
@@ -16999,6 +17000,7 @@
     },
     {
       "id": "ws-chariot-to-valhalla",
+      "imageURL": "https://leonidalog.app/images/waink/ws-chariot-to-valhalla.jpg",
       "title": "Chariot to Valhalla",
       "category": "waink",
       "subgroup": "Sculptures",
@@ -18550,6 +18552,7 @@
     },
     {
       "id": "sj-grayson-rail-tunnel",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-grayson-rail-tunnel.jpg",
       "title": "Grayson Rail Tunnel",
       "category": "stunt-jumps",
       "subgroup": "Lummox County",
@@ -34522,6 +34525,39 @@
       "spoiler": true,
       "region": "Kelly County",
       "guide": "Deck 3 target. Hunt it in west and east Buckskin Swamp and Pelican Valley, then deliver the carcass to Bret in pristine or good condition."
+    },
+    {
+      "id": "bd-04-golden-fox",
+      "title": "Golden fox",
+      "category": "bret-decks",
+      "subgroup": "Deck 4: Rattlesnake Venom and an Armadillo Shell",
+      "spoiler": true,
+      "guide": "Deck 4 target. Hunt it, then deliver the carcass to Bret in pristine or good condition.",
+      "linkedMissions": [
+        "an-golden-fox"
+      ]
+    },
+    {
+      "id": "bd-04-eastern-diamondback-rattlesnake",
+      "title": "Eastern diamondback rattlesnake",
+      "category": "bret-decks",
+      "subgroup": "Deck 4: Rattlesnake Venom and an Armadillo Shell",
+      "spoiler": true,
+      "guide": "Deck 4 target. Hunt it, then deliver the carcass to Bret in pristine or good condition.",
+      "linkedMissions": [
+        "an-eastern-diamondback-rattlesnake"
+      ]
+    },
+    {
+      "id": "bd-04-nine-banded-armadillo",
+      "title": "Nine-banded armadillo",
+      "category": "bret-decks",
+      "subgroup": "Deck 4: Rattlesnake Venom and an Armadillo Shell",
+      "spoiler": true,
+      "guide": "Deck 4 target. Hunt it, then deliver the carcass to Bret in pristine or good condition.",
+      "linkedMissions": [
+        "an-nine-banded-armadillo"
+      ]
     },
     {
       "id": "vh-declasse-akane",
