@@ -1,5 +1,5 @@
 {
-  "version": 149,
+  "version": 150,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -8566,6 +8566,7 @@
     },
     {
       "id": "cd-12-19",
+      "imageURL": "https://leonidalog.app/images/cards/cd-12-19.jpg",
       "title": "Kalisha - Silver",
       "category": "cards",
       "subgroup": "America's Next Top Hooker",
@@ -8574,7 +8575,7 @@
       "ny": 0.1198,
       "region": "Lummox County",
       "area": "Bonanza",
-      "guide": "One of the 24 cards in the America's Next Top Hooker set. Follow the map pin."
+      "guide": "One of the 24 cards in the America's Next Top Hooker set. At the end of the broken concrete jetty: on the rusty plate at the foot of the bollard."
     },
     {
       "id": "cd-12-20",
@@ -8791,6 +8792,7 @@
     },
     {
       "id": "cd-13-13",
+      "imageURL": "https://leonidalog.app/images/cards/cd-13-13.jpg",
       "title": "Nevaeh - Standard",
       "category": "cards",
       "subgroup": "Delights Dancers",
@@ -8799,7 +8801,7 @@
       "ny": 0.1109,
       "region": "Lummox County",
       "area": "Bonanza",
-      "guide": "One of the 18 cards in the Delights Dancers set. Follow the map pin."
+      "guide": "One of the 18 cards in the Delights Dancers set. Up in the ramshackle hut on the cliff above the harbour: on the workbench, next to the paint tins and magazines."
     },
     {
       "id": "cd-13-14",
@@ -14237,8 +14239,18 @@
       "title": "Flamingo 9",
       "category": "flamingos",
       "spoiler": true,
+      "nx": 0.5248,
+      "ny": 0.8548,
       "guide": "Key Lento: in the garden of the odd-looking house in the middle of the island.",
-      "region": "Mariana County"
+      "region": "Mariana County",
+      "area": "Key Lento",
+      "areas": [
+        {
+          "nx": 0.5248,
+          "ny": 0.8548,
+          "r": 0.008
+        }
+      ]
     },
     {
       "id": "fl-010",
@@ -14296,8 +14308,18 @@
       "title": "Flamingo 14",
       "category": "flamingos",
       "spoiler": true,
+      "nx": 0.4625,
+      "ny": 0.8989,
       "guide": "Abismo Key: on the southeast shore.",
-      "region": "Mariana County"
+      "region": "Mariana County",
+      "area": "Abismo Key",
+      "areas": [
+        {
+          "nx": 0.4625,
+          "ny": 0.8989,
+          "r": 0.008
+        }
+      ]
     },
     {
       "id": "fl-015",
@@ -14315,8 +14337,18 @@
       "title": "Flamingo 16",
       "category": "flamingos",
       "spoiler": true,
+      "nx": 0.4775,
+      "ny": 0.7758,
       "guide": "Grassrivers: on the sandbar island south of Cottonmouth Lake.",
-      "region": "Grassrivers"
+      "region": "Grassrivers",
+      "area": "Grassrivers",
+      "areas": [
+        {
+          "nx": 0.4775,
+          "ny": 0.7758,
+          "r": 0.008
+        }
+      ]
     },
     {
       "id": "fl-017",
@@ -14342,8 +14374,18 @@
       "title": "Flamingo 19",
       "category": "flamingos",
       "spoiler": true,
+      "nx": 0.3987,
+      "ny": 0.1164,
       "guide": "Featherstone Islands: the south shore of the north island.",
-      "region": "Lummox County"
+      "region": "Lummox County",
+      "area": "Featherstone Islands",
+      "areas": [
+        {
+          "nx": 0.3987,
+          "ny": 0.1164,
+          "r": 0.008
+        }
+      ]
     },
     {
       "id": "fl-020",
@@ -14416,6 +14458,8 @@
       "title": "Flamingo 25",
       "category": "flamingos",
       "spoiler": true,
+      "nx": 0.5635,
+      "ny": 0.7872,
       "guide": "Key Lento: on the grass just east of The Rusty Anchor bar.",
       "region": "Mariana County",
       "area": "Key Lento"
@@ -14425,24 +14469,44 @@
       "title": "Flamingo 26",
       "category": "flamingos",
       "spoiler": true,
-      "guide": "Key Lento: next to the white house on Surfside Dr, a little south of the Kahuna shop.",
+      "nx": 0.5608,
+      "ny": 0.8175,
+      "guide": "Key Lento: behind the mailbox near the Kahuna shop.",
       "region": "Mariana County",
-      "area": "Key Lento"
+      "area": "Key Lento",
+      "areas": [
+        {
+          "nx": 0.5608,
+          "ny": 0.8175,
+          "r": 0.008
+        }
+      ]
     },
     {
       "id": "fl-027",
       "title": "Flamingo 27",
       "category": "flamingos",
       "spoiler": true,
+      "nx": 0.5312,
+      "ny": 0.8335,
       "guide": "Key Lento: against the fence of a house on Sunset Dr, mixed in with the garden flamingos. Look for the black and white beak.",
       "region": "Mariana County",
-      "area": "Key Lento"
+      "area": "Key Lento",
+      "areas": [
+        {
+          "nx": 0.5312,
+          "ny": 0.8335,
+          "r": 0.008
+        }
+      ]
     },
     {
       "id": "fl-028",
       "title": "Flamingo 28",
       "category": "flamingos",
       "spoiler": true,
+      "nx": 0.5202,
+      "ny": 0.8437,
       "guide": "Key Lento: on the rocks at the edge of the bay, north of The Wonder Whale.",
       "region": "Mariana County",
       "area": "Key Lento",
@@ -16166,6 +16230,7 @@
     },
     {
       "id": "wl-bonanza-giant",
+      "imageURL": "https://leonidalog.app/images/waink/wl-bonanza-giant.jpg",
       "title": "Bonanza Giant",
       "category": "waink",
       "subgroup": "Landmarks",
@@ -16566,6 +16631,7 @@
     },
     {
       "id": "wc-c0-b8-engine",
+      "imageURL": "https://leonidalog.app/images/waink/wc-c0-b8-engine.jpg",
       "title": "C0-B8 Engine",
       "category": "waink",
       "subgroup": "Curiosities",
@@ -16714,6 +16780,7 @@
     },
     {
       "id": "wc-fossilized-prints",
+      "imageURL": "https://leonidalog.app/images/waink/wc-fossilized-prints.jpg",
       "title": "Fossilized Prints",
       "category": "waink",
       "subgroup": "Curiosities",
@@ -17152,7 +17219,16 @@
       "guide": "In the ground-floor safe of the abandoned Marbelle Hotel on NW 8th St, south Crosstown, along with some cash. The code is on a note on the roof, which you can only reach after the hotel's strange events play out (see the easter egg).",
       "guideLinks": {
         "easter egg": "ee-16"
-      }
+      },
+      "nx": 0.638,
+      "ny": 0.4952,
+      "areas": [
+        {
+          "nx": 0.638,
+          "ny": 0.4952,
+          "r": 0.01
+        }
+      ]
     },
     {
       "id": "wt-11",
@@ -17170,6 +17246,8 @@
       "category": "watches",
       "subgroup": "Vice-Dale County",
       "spoiler": true,
+      "nx": 0.7103,
+      "ny": 0.457,
       "region": "Vice-Dale County",
       "area": "Casanova Island",
       "guide": "In a mansion on the north side of Casanova Island in the Rialto Islands, between Vice City and Vice Beach: it's on the table in an upstairs bedroom."
@@ -17185,7 +17263,9 @@
       "guide": "A key valuable in a gang operation on the south-east edge of Balsero, Vice City: it's on a table in the room at the bottom of the stairs, the room with the safe.",
       "guideLinks": {
         "gang operation": "go-26"
-      }
+      },
+      "nx": 0.5928,
+      "ny": 0.4986
     },
     {
       "id": "wt-14",
@@ -17209,9 +17289,11 @@
       "category": "style-magazines",
       "subgroup": "Lucia",
       "spoiler": true,
+      "nx": 0.5327,
+      "ny": 0.8315,
       "region": "Mariana County",
       "area": "Key Lento",
-      "guide": "A makeup magazine for Lucia on the north coast of Key Lento: in the bedroom of the house just west of Nifty Threads Island Wear."
+      "guide": "A makeup magazine for Lucia on Sunset Dr in central Key Lento, just north of the Christmas House: on the bed upstairs in the aqua building by Nifty Threads Island Wear."
     },
     {
       "id": "sm-02",
@@ -17219,6 +17301,8 @@
       "category": "style-magazines",
       "subgroup": "Jason",
       "spoiler": true,
+      "nx": 0.5612,
+      "ny": 0.7915,
       "region": "Mariana County",
       "area": "Key Lento",
       "guide": "A beard style for Jason in Key Lento: on the bed inside the trailer just east of The Rusty Anchor."
@@ -17229,6 +17313,8 @@
       "category": "style-magazines",
       "subgroup": "Jason",
       "spoiler": true,
+      "nx": 0.5765,
+      "ny": 0.7987,
       "region": "Mariana County",
       "area": "Key Lento",
       "guide": "A hairstyle for Jason in Key Lento: on the roof of the round building north of Manatee's Rest, beside a wooden table."
@@ -17239,9 +17325,18 @@
       "category": "style-magazines",
       "subgroup": "Lucia",
       "spoiler": true,
+      "nx": 0.5383,
+      "ny": 0.7011,
       "region": "Vice-Dale County",
       "area": "Hamlet",
-      "guide": "A makeup style for Lucia in Hamlet: in the back office of the warehouse across the street from the police station."
+      "guide": "A makeup style for Lucia in Hamlet: in the back office of the warehouse across the street from the police station.",
+      "areas": [
+        {
+          "nx": 0.5383,
+          "ny": 0.7011,
+          "r": 0.008
+        }
+      ]
     },
     {
       "id": "sm-05",
@@ -17249,9 +17344,18 @@
       "category": "style-magazines",
       "subgroup": "Lucia",
       "spoiler": true,
+      "nx": 0.5299,
+      "ny": 0.6938,
       "region": "Vice-Dale County",
       "area": "Hamlet",
-      "guide": "A hairstyle in Hamlet: on the coffee table of the trailer-park house just west of Righto Cash & Carry."
+      "guide": "A hairstyle magazine for Lucia in Hamlet: on the table in the main bedroom of the trailer-park house just west of Righto Cash & Carry.",
+      "areas": [
+        {
+          "nx": 0.5299,
+          "ny": 0.6938,
+          "r": 0.008
+        }
+      ]
     },
     {
       "id": "sm-06",
@@ -17259,6 +17363,8 @@
       "category": "style-magazines",
       "subgroup": "Jason",
       "spoiler": true,
+      "nx": 0.6528,
+      "ny": 0.6565,
       "region": "Vice-Dale County",
       "area": "Catalan Key",
       "guide": "A hairstyle for Jason at the southern end of Catalan Key: on a sunbed by the pool behind one of the middle mansions in the gated community."
@@ -17269,6 +17375,8 @@
       "category": "style-magazines",
       "subgroup": "Lucia",
       "spoiler": true,
+      "nx": 0.4083,
+      "ny": 0.891,
       "region": "Mariana County",
       "area": "Abismo Key",
       "guide": "A makeup magazine for Lucia in the house on the west side of Abismo Key, next to Key Lento: it's on the floor beside a chair at the back of the house."
@@ -17279,9 +17387,18 @@
       "category": "style-magazines",
       "subgroup": "Lucia",
       "spoiler": true,
+      "nx": 0.6582,
+      "ny": 0.4258,
       "region": "Vice-Dale County",
       "area": "Decor District",
-      "guide": "A hairstyle magazine for Lucia in the Decor District, Vice City: in the garage on the south side of the cluster of buildings under the highway, next to a lamp."
+      "guide": "A hairstyle magazine for Lucia in the Decor District, Vice City: in the garage on the south side of the cluster of buildings under the highway, next to a lamp.",
+      "areas": [
+        {
+          "nx": 0.6582,
+          "ny": 0.4258,
+          "r": 0.008
+        }
+      ]
     },
     {
       "id": "sm-09",
@@ -17289,6 +17406,8 @@
       "category": "style-magazines",
       "subgroup": "Jason",
       "spoiler": true,
+      "nx": 0.4239,
+      "ny": 0.677,
       "region": "Mariana County",
       "area": "Watson Bay",
       "guide": "A facial hair magazine for Jason in Watson Bay, in a house north-east of Jim's Mini Mart: it's on the chair in the bedroom."
@@ -17299,9 +17418,18 @@
       "category": "style-magazines",
       "subgroup": "Jason",
       "spoiler": true,
+      "nx": 0.657,
+      "ny": 0.4183,
       "region": "Vice-Dale County",
       "area": "Decor District",
-      "guide": "A facial hair magazine for Jason in the middle of the Decor District shopping area in north Vice City, next to the big round structure with stairs."
+      "guide": "A facial hair magazine for Jason in the middle of the Decor District shopping area in north Vice City, next to the big round structure with stairs.",
+      "areas": [
+        {
+          "nx": 0.657,
+          "ny": 0.4183,
+          "r": 0.008
+        }
+      ]
     },
     {
       "id": "sm-11",
@@ -17309,6 +17437,8 @@
       "category": "style-magazines",
       "subgroup": "Lucia",
       "spoiler": true,
+      "nx": 0.4045,
+      "ny": 0.3539,
       "region": "Kelly County",
       "area": "Port Gellhorn",
       "guide": "A hairstyle magazine for Lucia at the Starlet Motel in Port Gellhorn: on the ground next to a blue chair by the pool."
@@ -17329,6 +17459,8 @@
       "category": "style-magazines",
       "subgroup": "Tattoos",
       "spoiler": true,
+      "nx": 0.4161,
+      "ny": 0.3325,
       "region": "Kelly County",
       "area": "Port Gellhorn",
       "guide": "A tattoo magazine northeast of the Starlet Motel, Port Gellhorn: under the graffiti-covered bridge over the river, on the ground by the tents, in front of the yellow one."
@@ -17339,6 +17471,8 @@
       "category": "style-magazines",
       "subgroup": "Tattoos",
       "spoiler": true,
+      "nx": 0.445,
+      "ny": 0.3356,
       "region": "Kelly County",
       "area": "Frogswater",
       "guide": "A tattoo magazine at Dino Golf in Frogswater: on a table on the patio behind the main building.",
@@ -17352,6 +17486,8 @@
       "category": "style-magazines",
       "subgroup": "Tattoos",
       "spoiler": true,
+      "nx": 0.4485,
+      "ny": 0.2596,
       "region": "Kelly County",
       "area": "North Kelly County",
       "guide": "A tattoo magazine (one design, with a version for Jason and one for Lucia) inside Hoffman Observatory, the domed ruin on the hilltop in the west of North Kelly County: climb up the outside, get in, drop down to the lower floor and pick it up from the mattress.",
@@ -17375,6 +17511,8 @@
       "category": "style-magazines",
       "subgroup": "Tattoos",
       "spoiler": true,
+      "nx": 0.2147,
+      "ny": 0.4355,
       "region": "Kelly County",
       "area": "Sandbars",
       "guide": "A tattoo magazine by the deck chairs next to the Hovercraft Crash, on the north part of the southernmost Sandbars island.",
@@ -17388,9 +17526,11 @@
       "category": "style-magazines",
       "subgroup": "Tattoos",
       "spoiler": true,
+      "nx": 0.6794,
+      "ny": 0.61,
       "region": "Vice-Dale County",
       "area": "Catalan Key",
-      "guide": "A tattoo magazine in a small room of a warehouse on the north-east side of Catalan Key."
+      "guide": "A tattoo magazine on the Catalan Key docks: in the storeroom at the far end of the Oceanarium warehouse (where the Mermaid Display is), by the chair."
     },
     {
       "id": "sm-19",
@@ -17398,9 +17538,18 @@
       "category": "style-magazines",
       "subgroup": "Tattoos",
       "spoiler": true,
+      "nx": 0.4567,
+      "ny": 0.1994,
       "region": "Lummox County",
       "area": "Kalaga National Park",
-      "guide": "A tattoo magazine at the very top of the fire lookout tower in Mount Kalaga National Park."
+      "guide": "A tattoo magazine at the very top of the fire lookout tower in Mount Kalaga National Park.",
+      "areas": [
+        {
+          "nx": 0.4567,
+          "ny": 0.1994,
+          "r": 0.008
+        }
+      ]
     },
     {
       "id": "sm-20",
@@ -17418,9 +17567,18 @@
       "category": "style-magazines",
       "subgroup": "Lucia",
       "spoiler": true,
+      "nx": 0.591,
+      "ny": 0.3802,
       "region": "Leonard County",
       "area": "Belville",
-      "guide": "A makeup magazine for Lucia in Belville's town centre, north-west of Peewees: on the living-room table of the house full of mannequins, in the northern row of houses."
+      "guide": "A makeup magazine for Lucia in Belville's town centre, north-west of Peewees: on the living-room table of the house full of mannequins, in the northern row of houses.",
+      "areas": [
+        {
+          "nx": 0.591,
+          "ny": 0.3802,
+          "r": 0.008
+        }
+      ]
     },
     {
       "id": "sj-001",
@@ -18257,6 +18415,7 @@
     },
     {
       "id": "sj-bonanza-harbor",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-bonanza-harbor.jpg",
       "title": "Bonanza Harbor",
       "category": "stunt-jumps",
       "subgroup": "Lummox County",
@@ -24947,13 +25106,13 @@
       "category": "gang-ops",
       "subgroup": "Gang 9",
       "spoiler": true,
-      "nx": 0.475,
-      "ny": 0.097,
+      "nx": 0.4755,
+      "ny": 0.098,
       "region": "Lummox County",
       "area": "Bonanza",
       "guide": "Clear the operation.",
       "revealedTitle": "Carter Mining Boathouse",
-      "revealedGuide": "Run by other criminals."
+      "revealedGuide": "Run by other criminals. The code is 9360."
     },
     {
       "id": "go-35",
@@ -44695,6 +44854,7 @@
       "title": "Canis Nancy's Crawler",
       "category": "standout-vehicles",
       "subgroup": "Standout",
+      "guide": "MacAlister Gold Mine, at the pin. The code to get to it is 6156.",
       "spoiler": true,
       "nx": 0.4427,
       "ny": 0.1512,
