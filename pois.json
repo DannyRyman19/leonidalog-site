@@ -1,5 +1,5 @@
 {
-  "version": 145,
+  "version": 146,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -9614,7 +9614,7 @@
       "subgroup": "Nine1Nine Dancers",
       "spoiler": true,
       "nx": 0.4797,
-      "ny": 0.1551,
+      "ny": 0.1549,
       "region": "Lummox County",
       "area": "MacAlister Gold Mine",
       "guide": "One of the 36 cards in the Nine1Nine Dancers set. Follow the map pin."
