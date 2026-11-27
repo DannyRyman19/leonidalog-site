@@ -1,5 +1,5 @@
 {
-  "version": 147,
+  "version": 148,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -276,7 +276,7 @@
       "symbol": "paintbrush.fill",
       "colorHex": "E07AB8",
       "verb": "found",
-      "intro": "Magazines that unlock a new look (hair, makeup or facial hair) for Jason or Lucia when picked up. Along with the luxury watches they count towards the styles needed for 100% (Progress, Collections, Discovered Styles). Only a few are confirmed so far; more are added as guides find them.",
+      "intro": "Magazines that unlock a new look (hair, makeup, facial hair or a tattoo) for Jason or Lucia when picked up. Along with the luxury watches they count towards the styles needed for 100% (Progress, Collections, Discovered Styles). Only a few are confirmed so far; more are added as guides find them.",
       "collectible": true
     },
     {
@@ -704,7 +704,22 @@
       "title": "Hunting",
       "category": "activity-types",
       "spoiler": true,
-      "guide": "Go hunting."
+      "guide": "Go hunting.",
+      "retired": true
+    },
+    {
+      "id": "mn-10",
+      "title": "Base jumping",
+      "category": "activity-types",
+      "spoiler": true,
+      "guide": "Do a base jump.",
+      "autoCollectedBy": [
+        "category:base-jumps",
+        "ac-base-jumping"
+      ],
+      "guideLinks": {
+        "base jump": "category:base-jumps"
+      }
     },
     {
       "id": "mn-03",
@@ -791,17 +806,14 @@
       "title": "Stunts",
       "category": "activity-types",
       "spoiler": true,
-      "guide": "Land a stunt: a stunt jump, a base jump, a knife flight or a flight under a bridge.",
+      "guide": "Land a stunt: a stunt jump, a knife flight or a flight under a bridge.",
       "autoCollectedBy": [
         "category:stunt-jumps",
-        "category:base-jumps",
         "category:knife-flights",
-        "category:under-bridges",
-        "ac-base-jumping"
+        "category:under-bridges"
       ],
       "guideLinks": {
         "stunt jump": "category:stunt-jumps",
-        "base jump": "category:base-jumps",
         "knife flight": "category:knife-flights",
         "flight under a bridge": "category:under-bridges"
       }
@@ -1128,12 +1140,13 @@
           }
         ]
       },
-      "revealedGuide": "Have a go at each of the 9 kinds of activity the trophy counts: fishing, hunting, golf, a shooting range, pool, basketball, a video game, a race (a car race, race challenge or Top Fun drone race) and a stunt. The game tracks them under Progress, Activities. Most come up on their own through the story.",
+      "revealedGuide": "Have a go at each of the 9 kinds of activity the trophy counts: fishing, golf, a shooting range, pool, basketball, a video game, a race (a car race, race challenge or Top Fun drone race), a base jump and a stunt. The game tracks them under Progress, Activities. Most come up on their own through the story.",
       "guideLinks": {
         "shooting range": "category:shooting-ranges",
         "video game": "category:video-games",
         "race challenge": "category:race-challenges",
-        "Top Fun drone race": "category:drone-trials"
+        "Top Fun drone race": "category:drone-trials",
+        "base jump": "category:base-jumps"
       }
     },
     {
@@ -14399,6 +14412,45 @@
       "guide": "West Moreau, near the Lawton Co. Paper Mill ruins: on a stand among the breeze blocks, next to a white wooden deckchair. Shoot it and it drops a half brick of cocaine."
     },
     {
+      "id": "fl-025",
+      "title": "Flamingo 25",
+      "category": "flamingos",
+      "spoiler": true,
+      "guide": "Key Lento: on the grass just east of The Rusty Anchor bar.",
+      "region": "Mariana County",
+      "area": "Key Lento"
+    },
+    {
+      "id": "fl-026",
+      "title": "Flamingo 26",
+      "category": "flamingos",
+      "spoiler": true,
+      "guide": "Key Lento: next to the white house on Surfside Dr, a little south of the Kahuna shop.",
+      "region": "Mariana County",
+      "area": "Key Lento"
+    },
+    {
+      "id": "fl-027",
+      "title": "Flamingo 27",
+      "category": "flamingos",
+      "spoiler": true,
+      "guide": "Key Lento: against the fence of a house on Sunset Dr, mixed in with the garden flamingos. Look for the black and white beak.",
+      "region": "Mariana County",
+      "area": "Key Lento"
+    },
+    {
+      "id": "fl-028",
+      "title": "Flamingo 28",
+      "category": "flamingos",
+      "spoiler": true,
+      "guide": "Key Lento: on the rocks at the edge of the bay, north of The Wonder Whale.",
+      "region": "Mariana County",
+      "area": "Key Lento",
+      "guideLinks": {
+        "The Wonder Whale": "ws-the-wonder-whale"
+      }
+    },
+    {
       "id": "mz-01",
       "imageURL": "https://leonidalog.app/images/magazines/mz-01.jpg",
       "title": "Ashes of Glory",
@@ -17250,6 +17302,105 @@
       "region": "Vice-Dale County",
       "area": "Decor District",
       "guide": "A facial hair magazine for Jason in the middle of the Decor District shopping area in north Vice City, next to the big round structure with stairs."
+    },
+    {
+      "id": "sm-11",
+      "title": "Lilac-Brown 90s Beach Waves",
+      "category": "style-magazines",
+      "subgroup": "Lucia",
+      "spoiler": true,
+      "region": "Kelly County",
+      "area": "Port Gellhorn",
+      "guide": "A hairstyle magazine for Lucia at the Starlet Motel in Port Gellhorn: on the ground next to a blue chair by the pool."
+    },
+    {
+      "id": "sm-12",
+      "title": "Home Street Home",
+      "category": "style-magazines",
+      "subgroup": "Tattoos",
+      "spoiler": true,
+      "region": "Kelly County",
+      "area": "Port Gellhorn",
+      "guide": "A tattoo magazine in the woods west of the Starlet Motel, Port Gellhorn: at the camp of shacks, sitting on a stack of stools in front of a trailer."
+    },
+    {
+      "id": "sm-13",
+      "title": "The Bridge to Enlightenment",
+      "category": "style-magazines",
+      "subgroup": "Tattoos",
+      "spoiler": true,
+      "region": "Kelly County",
+      "area": "Port Gellhorn",
+      "guide": "A tattoo magazine northeast of the Starlet Motel, Port Gellhorn: under the graffiti-covered bridge over the river, on the ground by the tents, in front of the yellow one."
+    },
+    {
+      "id": "sm-14",
+      "title": "Tee'd Off Dino",
+      "category": "style-magazines",
+      "subgroup": "Tattoos",
+      "spoiler": true,
+      "region": "Kelly County",
+      "area": "Frogswater",
+      "guide": "A tattoo magazine at Dino Golf in Frogswater: on a table on the patio behind the main building.",
+      "guideLinks": {
+        "Dino Golf": "mg-3"
+      }
+    },
+    {
+      "id": "sm-15",
+      "title": "The Tower Tarot & The High Priestess Tarot",
+      "category": "style-magazines",
+      "subgroup": "Tattoos",
+      "spoiler": true,
+      "region": "Kelly County",
+      "area": "North Kelly County",
+      "guide": "A tattoo magazine (one design, with a version for Jason and one for Lucia) inside Hoffman Observatory, the domed ruin on the hilltop in the west of North Kelly County: climb up the outside, get in, drop down to the lower floor and pick it up from the mattress.",
+      "guideLinks": {
+        "Hoffman Observatory": "wl-hoffman-observatory"
+      }
+    },
+    {
+      "id": "sm-16",
+      "title": "Zombie Deer",
+      "category": "style-magazines",
+      "subgroup": "Tattoos",
+      "spoiler": true,
+      "region": "Lummox County",
+      "area": "Grayson",
+      "guide": "A tattoo magazine for Jason in Grayson: follow the black ghost cat to the locked building north-east of the bait shop, and the magazine is under the table inside."
+    },
+    {
+      "id": "sm-17",
+      "title": "Glide or Die Hovercraft",
+      "category": "style-magazines",
+      "subgroup": "Tattoos",
+      "spoiler": true,
+      "region": "Kelly County",
+      "area": "Sandbars",
+      "guide": "A tattoo magazine by the deck chairs next to the Hovercraft Crash, on the north part of the southernmost Sandbars island.",
+      "guideLinks": {
+        "Hovercraft Crash": "wc-hovercraft-crash"
+      }
+    },
+    {
+      "id": "sm-18",
+      "title": "Humanatee & Seductive Mermaid",
+      "category": "style-magazines",
+      "subgroup": "Tattoos",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "area": "Catalan Key",
+      "guide": "A tattoo magazine in a small room of a warehouse on the north-east side of Catalan Key."
+    },
+    {
+      "id": "sm-19",
+      "title": "Graffiti Point",
+      "category": "style-magazines",
+      "subgroup": "Tattoos",
+      "spoiler": true,
+      "region": "Lummox County",
+      "area": "Kalaga National Park",
+      "guide": "A tattoo magazine at the very top of the fire lookout tower in Mount Kalaga National Park."
     },
     {
       "id": "sj-001",
