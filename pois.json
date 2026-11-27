@@ -1,5 +1,5 @@
 {
-  "version": 153,
+  "version": 154,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -8276,15 +8276,16 @@
     },
     {
       "id": "cd-11-05",
+      "imageURL": "https://leonidalog.app/images/cards/cd-11-05.jpg",
       "title": "Chrissy Deangelo - Standard",
       "category": "cards",
       "subgroup": "Backyard Wrestling",
       "spoiler": true,
-      "nx": 0.5288,
-      "ny": 0.2202,
+      "nx": 0.5292,
+      "ny": 0.2199,
       "region": "Lummox County",
       "area": "Kalaga National Park",
-      "guide": "One of the 12 cards in the Backyard Wrestling set. Follow the map pin."
+      "guide": "One of the 12 cards in the Backyard Wrestling set. On the cabin's front porch: on the decking by the door, next to the camo backpack."
     },
     {
       "id": "cd-11-06",
@@ -10484,6 +10485,7 @@
     },
     {
       "id": "cd-17-16",
+      "imageURL": "https://leonidalog.app/images/cards/cd-17-16.jpg",
       "title": "President Blunt - Blue",
       "category": "cards",
       "subgroup": "Right Wing: America's Hero",
@@ -10492,7 +10494,7 @@
       "ny": 0.2907,
       "region": "Kelly County",
       "area": "Port Gellhorn",
-      "guide": "One of the 36 cards in the Right Wing: America's Hero set. Follow the map pin."
+      "guide": "One of the 36 cards in the Right Wing: America's Hero set. By the old cannons near the water, next to the one you can fire: on the orange sofa where two drifters hang out."
     },
     {
       "id": "cd-17-17",
@@ -10839,9 +10841,11 @@
       "category": "cards",
       "subgroup": "Ed Comics Universe",
       "spoiler": true,
-      "region": "Lummox County",
-      "area": "Kalaga National Park",
-      "guide": "One of the 36 cards in the Ed Comics Universe set. Where it is isn't confirmed yet: the old pin turned out to be wrong. If you find it, report the spot."
+      "nx": 0.611,
+      "ny": 0.4681,
+      "region": "Vice-Dale County",
+      "area": "La Perle",
+      "guide": "One of the 36 cards in the Ed Comics Universe set. In La Perle, Vice City: inside the building south-west of the Pay 'n' Spray, on a shelf in the large ground-floor room."
     },
     {
       "id": "cd-18-08",
@@ -10950,15 +10954,16 @@
     },
     {
       "id": "cd-18-17",
+      "imageURL": "https://leonidalog.app/images/cards/cd-18-17.jpg",
       "title": "Funny Bones - Orange",
       "category": "cards",
       "subgroup": "Ed Comics Universe",
       "spoiler": true,
-      "nx": 0.3551,
-      "ny": 0.3058,
+      "nx": 0.3532,
+      "ny": 0.3007,
       "region": "Kelly County",
       "area": "Port Gellhorn",
-      "guide": "One of the 36 cards in the Ed Comics Universe set. Follow the map pin."
+      "guide": "One of the 36 cards in the Ed Comics Universe set. Climb the water tower: it's on the roof, by the white chair."
     },
     {
       "id": "cd-18-18",
@@ -11423,9 +11428,9 @@
       "category": "meditation",
       "subgroup": "Lummox County",
       "spoiler": true,
-      "nx": 0.4951,
-      "ny": 0.2034,
-      "guide": "At the stone circle on the peak of Mount Kalaga. Opens up once you've done the others.",
+      "nx": 0.4995,
+      "ny": 0.2118,
+      "guide": "At the stone circle on the peak of Mount Kalaga. It has to be your last one: it only opens once you've done the other 17.",
       "region": "Lummox County",
       "area": "Kalaga National Park"
     },
@@ -15762,6 +15767,56 @@
       ]
     },
     {
+      "id": "mt-22",
+      "imageURL": "https://leonidalog.app/images/meteorites/mt-22.jpg",
+      "title": "Meteorite",
+      "category": "meteorites",
+      "spoiler": true,
+      "nx": 0.499,
+      "ny": 0.211,
+      "region": "Lummox County",
+      "area": "Kalaga National Park",
+      "guide": "Mount Kalaga, near the summit: in the patch of red flowers on the bare rock just below the stone circle. Found by Danny; the pin is rough.",
+      "areas": [
+        {
+          "nx": 0.4988,
+          "ny": 0.2108,
+          "r": 0.006
+        }
+      ]
+    },
+    {
+      "id": "mt-23",
+      "imageURL": "https://leonidalog.app/images/meteorites/mt-23.jpg",
+      "title": "Meteorite",
+      "category": "meteorites",
+      "spoiler": true,
+      "nx": 0.4985,
+      "ny": 0.2105,
+      "region": "Lummox County",
+      "area": "Kalaga National Park",
+      "guide": "Mount Kalaga, near the summit: down in a narrow crevice between two big boulders. Found by Danny; the pin is rough.",
+      "areas": [
+        {
+          "nx": 0.4988,
+          "ny": 0.2108,
+          "r": 0.006
+        }
+      ]
+    },
+    {
+      "id": "mt-24",
+      "imageURL": "https://leonidalog.app/images/meteorites/mt-24.jpg",
+      "title": "Meteorite",
+      "category": "meteorites",
+      "spoiler": true,
+      "nx": 0.4968,
+      "ny": 0.2036,
+      "region": "Lummox County",
+      "area": "Kalaga National Park",
+      "guide": "Mount Kalaga: on the cliff edge at the base jump, between the yellow cones, tucked in a split in the rock. Found by Danny."
+    },
+    {
       "id": "hl-01",
       "title": "Helipad 1",
       "category": "helipads",
@@ -18401,6 +18456,7 @@
     },
     {
       "id": "sj-kalaga-river",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-kalaga-river.jpg",
       "title": "Kalaga River",
       "category": "stunt-jumps",
       "subgroup": "Lummox County",
@@ -18435,6 +18491,7 @@
     },
     {
       "id": "sj-mount-kalaga-lookout-point",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-mount-kalaga-lookout-point.jpg",
       "title": "Mount Kalaga Lookout Point",
       "category": "stunt-jumps",
       "subgroup": "Lummox County",
@@ -18527,6 +18584,7 @@
     },
     {
       "id": "sj-the-free-state-of-henry-perculay",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-the-free-state-of-henry-perculay.jpg",
       "title": "The Free State of Henry Perculay",
       "category": "stunt-jumps",
       "subgroup": "Lummox County",
@@ -19232,6 +19290,7 @@
     },
     {
       "id": "bx-008",
+      "imageURL": "https://leonidalog.app/images/base-jumps/bx-008.jpg",
       "title": "Mount Kalaga",
       "category": "base-jumps",
       "spoiler": true,
