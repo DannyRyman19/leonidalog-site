@@ -1,5 +1,5 @@
 {
-  "version": 146,
+  "version": 147,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -8504,15 +8504,16 @@
     },
     {
       "id": "cd-12-15",
+      "imageURL": "https://leonidalog.app/images/cards/cd-12-15.jpg",
       "title": "Drake - Gold",
       "category": "cards",
       "subgroup": "America's Next Top Hooker",
       "spoiler": true,
-      "nx": 0.4762,
-      "ny": 0.1314,
+      "nx": 0.4764,
+      "ny": 0.1315,
       "region": "Lummox County",
       "area": "MacAlister Gold Mine",
-      "guide": "One of the 24 cards in the America's Next Top Hooker set. Follow the map pin."
+      "guide": "One of the 24 cards in the America's Next Top Hooker set. Inside the wooden lookout hut: on the workbench by the window, among the papers."
     },
     {
       "id": "cd-12-16",
@@ -8600,6 +8601,7 @@
     },
     {
       "id": "cd-12-23",
+      "imageURL": "https://leonidalog.app/images/cards/cd-12-23.jpg",
       "title": "Sapphire - Silver",
       "category": "cards",
       "subgroup": "America's Next Top Hooker",
@@ -8608,7 +8610,7 @@
       "ny": 0.1431,
       "region": "Lummox County",
       "area": "MacAlister Gold Mine",
-      "guide": "One of the 24 cards in the America's Next Top Hooker set. Follow the map pin."
+      "guide": "One of the 24 cards in the America's Next Top Hooker set. Among the boulders by the river: inside the open boot of the rusty car wreck."
     },
     {
       "id": "cd-12-24",
@@ -8872,6 +8874,7 @@
     },
     {
       "id": "cd-14-02",
+      "imageURL": "https://leonidalog.app/images/cards/cd-14-02.jpg",
       "title": "Brianna Blue - Pink",
       "category": "cards",
       "subgroup": "Jack of Hearts Dancers",
@@ -8880,7 +8883,10 @@
       "ny": 0.1202,
       "region": "Lummox County",
       "area": "Moreau",
-      "guide": "One of the 36 cards in the Jack of Hearts Dancers set. Follow the map pin."
+      "guide": "One of the 36 cards in the Jack of Hearts Dancers set. Inside Outlaw's Cabin (the WAiNK landmark): on the floor in the corner, beside the wooden chair.",
+      "guideLinks": {
+        "Outlaw's Cabin": "wl-outlaw-s-cabin"
+      }
     },
     {
       "id": "cd-14-03",
@@ -9393,6 +9399,7 @@
     },
     {
       "id": "cd-15-07",
+      "imageURL": "https://leonidalog.app/images/cards/cd-15-07.jpg",
       "title": "Chrissie - Deep Red",
       "category": "cards",
       "subgroup": "Nine1Nine Dancers",
@@ -9401,7 +9408,7 @@
       "ny": 0.1412,
       "region": "Lummox County",
       "area": "MacAlister Gold Mine",
-      "guide": "One of the 36 cards in the Nine1Nine Dancers set. Follow the map pin."
+      "guide": "One of the 36 cards in the Nine1Nine Dancers set. At the foot of the cliff by the muddy water: on the red blanket, next to the pillow and a radio."
     },
     {
       "id": "cd-15-08",
@@ -9609,6 +9616,7 @@
     },
     {
       "id": "cd-15-24",
+      "imageURL": "https://leonidalog.app/images/cards/cd-15-24.jpg",
       "title": "Lavinia - Purple",
       "category": "cards",
       "subgroup": "Nine1Nine Dancers",
@@ -9617,7 +9625,7 @@
       "ny": 0.1549,
       "region": "Lummox County",
       "area": "MacAlister Gold Mine",
-      "guide": "One of the 36 cards in the Nine1Nine Dancers set. Follow the map pin."
+      "guide": "One of the 36 cards in the Nine1Nine Dancers set. Inside the red shipping-container shack with the cannabis plants: on the bottom of the metal shelving."
     },
     {
       "id": "cd-15-25",
@@ -14367,6 +14375,30 @@
       }
     },
     {
+      "id": "fl-023",
+      "imageURL": "https://leonidalog.app/images/flamingos/fl-023.jpg",
+      "title": "Flamingo 23",
+      "category": "flamingos",
+      "spoiler": true,
+      "nx": 0.4797,
+      "ny": 0.1553,
+      "region": "Lummox County",
+      "area": "MacAlister Gold Mine",
+      "guide": "West Moreau, near the Lawton Co. Paper Mill ruins: on top of a big flat rock by the shack. Shoot it and it drops a half brick of cocaine."
+    },
+    {
+      "id": "fl-024",
+      "imageURL": "https://leonidalog.app/images/flamingos/fl-024.jpg",
+      "title": "Flamingo 24",
+      "category": "flamingos",
+      "spoiler": true,
+      "nx": 0.4781,
+      "ny": 0.1544,
+      "region": "Lummox County",
+      "area": "MacAlister Gold Mine",
+      "guide": "West Moreau, near the Lawton Co. Paper Mill ruins: on a stand among the breeze blocks, next to a white wooden deckchair. Shoot it and it drops a half brick of cocaine."
+    },
+    {
       "id": "mz-01",
       "imageURL": "https://leonidalog.app/images/magazines/mz-01.jpg",
       "title": "Ashes of Glory",
@@ -16044,6 +16076,7 @@
     },
     {
       "id": "wl-outlaw-s-cabin",
+      "imageURL": "https://leonidalog.app/images/waink/wl-outlaw-s-cabin.jpg",
       "title": "Outlaw's Cabin",
       "category": "waink",
       "subgroup": "Landmarks",
@@ -17497,6 +17530,7 @@
     },
     {
       "id": "sj-024",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-024.jpg",
       "title": "The broken bridge in north Moreau",
       "category": "stunt-jumps",
       "subgroup": "Lummox County",
@@ -18040,6 +18074,7 @@
     },
     {
       "id": "sj-dock-coal-company-freeway",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-dock-coal-company-freeway.jpg",
       "title": "Dock Coal Company Freeway",
       "category": "stunt-jumps",
       "subgroup": "Lummox County",
@@ -18218,6 +18253,7 @@
     },
     {
       "id": "sj-macalister-gold-mine",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-macalister-gold-mine.jpg",
       "title": "Macalister Gold Mine",
       "category": "stunt-jumps",
       "subgroup": "Lummox County",
@@ -18397,6 +18433,7 @@
     },
     {
       "id": "sj-moreau-coal-mound",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-moreau-coal-mound.jpg",
       "title": "Moreau Coal Mound",
       "category": "stunt-jumps",
       "subgroup": "Lummox County",
@@ -18590,6 +18627,7 @@
     },
     {
       "id": "sj-moreau-broken-bridge",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-moreau-broken-bridge.jpg",
       "title": "Moreau Broken Bridge",
       "category": "stunt-jumps",
       "subgroup": "Lummox County",
@@ -18634,6 +18672,7 @@
     },
     {
       "id": "sj-us-route-628",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-us-route-628.jpg",
       "title": "US Route 628",
       "category": "stunt-jumps",
       "subgroup": "Lummox County",
