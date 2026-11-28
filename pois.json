@@ -1,5 +1,5 @@
 {
-  "version": 157,
+  "version": 158,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -7,9 +7,9 @@
     "interstitialGraceDays": 2
   },
   "notice": {
-    "id": "early-days-1",
+    "id": "early-days-2",
     "title": "Early days",
-    "body": "GTA VI is brand new and we're still mapping it. Some items are missing, and some lists may change as we check them, so you might need to tick a few things again. We'll post here when the guide is complete."
+    "body": "GTA VI is brand new and we're still mapping it. Some items are missing, and some lists may change as we check them, so you might need to tick a few things again. We'll post here when the guide is complete. Leonida Log is also coming to Android: open News to help test it."
   },
   "categories": [
     {
@@ -6371,6 +6371,7 @@
     },
     {
       "id": "cd-04-27",
+      "imageURL": "https://leonidalog.app/images/cards/cd-04-27.jpg",
       "title": "Renata Vasquez - Dusty Pink",
       "category": "cards",
       "subgroup": "Vice City Club De Futbol",
@@ -6379,7 +6380,7 @@
       "ny": 0.4133,
       "region": "Vice-Dale County",
       "area": "Decor District",
-      "guide": "One of the 30 cards in the Vice City Club De Futbol set. Follow the map pin."
+      "guide": "One of the 30 cards in the Vice City Club De Futbol set. In the Decor District by the highway: climb the ladder to the roof garden, and it's on the raised block beside the small football goal, next to a radio."
     },
     {
       "id": "cd-04-28",
@@ -7925,6 +7926,7 @@
     },
     {
       "id": "cd-09-24",
+      "imageURL": "https://leonidalog.app/images/cards/cd-09-24.jpg",
       "title": "Terrance Ericks - Silver",
       "category": "cards",
       "subgroup": "Los Santos Panic",
@@ -7933,7 +7935,7 @@
       "ny": 0.4153,
       "region": "Vice-Dale County",
       "area": "Decor District",
-      "guide": "One of the 24 cards in the Los Santos Panic set. Follow the map pin."
+      "guide": "One of the 24 cards in the Los Santos Panic set. In the Decor District: in a small back office, pinned to the wall above the desk with the papers."
     },
     {
       "id": "cd-10-01",
@@ -10073,15 +10075,16 @@
     },
     {
       "id": "cd-16-17",
+      "imageURL": "https://leonidalog.app/images/cards/cd-16-17.jpg",
       "title": "Illuminaughty - Maroon",
       "category": "cards",
       "subgroup": "The Legends of Ratface",
       "spoiler": true,
-      "nx": 0.6516,
-      "ny": 0.4358,
+      "nx": 0.6519,
+      "ny": 0.4359,
       "region": "Vice-Dale County",
       "area": "Stockyard",
-      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. On the roof above Dr. Froogal and the Electric Fang tattoo parlour: on the ledge under the yellow \"What is... out there!?\" mural, by the garden gnome."
     },
     {
       "id": "cd-16-18",
@@ -10735,15 +10738,16 @@
     },
     {
       "id": "cd-17-32",
+      "imageURL": "https://leonidalog.app/images/cards/cd-17-32.jpg",
       "title": "The Educated Woman - Red",
       "category": "cards",
       "subgroup": "Right Wing: America's Hero",
       "spoiler": true,
-      "nx": 0.6574,
-      "ny": 0.4386,
+      "nx": 0.6571,
+      "ny": 0.4388,
       "region": "Vice-Dale County",
       "area": "Bayside",
-      "guide": "One of the 36 cards in the Right Wing: America's Hero set. Follow the map pin."
+      "guide": "One of the 36 cards in the Right Wing: America's Hero set. On the roof next to Chido! in Stockyard: on the ledge over the road, facing the park, by a radio."
     },
     {
       "id": "cd-17-33",
@@ -10898,6 +10902,7 @@
     },
     {
       "id": "cd-18-09",
+      "imageURL": "https://leonidalog.app/images/cards/cd-18-09.jpg",
       "title": "Dr. Placebo - Pink",
       "category": "cards",
       "subgroup": "Ed Comics Universe",
@@ -10906,7 +10911,7 @@
       "ny": 0.4308,
       "region": "Vice-Dale County",
       "area": "Bayside",
-      "guide": "One of the 36 cards in the Ed Comics Universe set. Follow the map pin."
+      "guide": "One of the 36 cards in the Ed Comics Universe set. At the car wash in Bayside: go in through the door inside the car wash, and it's on the bottom shelf of the storeroom shelves."
     },
     {
       "id": "cd-18-10",
@@ -11081,15 +11086,16 @@
     },
     {
       "id": "cd-18-24",
+      "imageURL": "https://leonidalog.app/images/cards/cd-18-24.jpg",
       "title": "MR.I - Pink",
       "category": "cards",
       "subgroup": "Ed Comics Universe",
       "spoiler": true,
       "nx": 0.6623,
-      "ny": 0.4288,
+      "ny": 0.4259,
       "region": "Vice-Dale County",
       "area": "Bayside",
-      "guide": "One of the 36 cards in the Ed Comics Universe set. Follow the map pin."
+      "guide": "One of the 36 cards in the Ed Comics Universe set. In Bayside, on the roof beside the building with the triangle-tiled facade: on the ledge by the billboard, looking down the street, next to a radio and a blue crate."
     },
     {
       "id": "cd-18-25",
@@ -17046,6 +17052,7 @@
     },
     {
       "id": "ws-gimme-all-your-oil",
+      "imageURL": "https://leonidalog.app/images/waink/ws-gimme-all-your-oil.jpg",
       "title": "Gimme All Your Oil",
       "category": "waink",
       "subgroup": "Sculptures",
