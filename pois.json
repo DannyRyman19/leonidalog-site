@@ -1,5 +1,5 @@
 {
-  "version": 158,
+  "version": 159,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -6376,8 +6376,8 @@
       "category": "cards",
       "subgroup": "Vice City Club De Futbol",
       "spoiler": true,
-      "nx": 0.6565,
-      "ny": 0.4133,
+      "nx": 0.6563,
+      "ny": 0.4136,
       "region": "Vice-Dale County",
       "area": "Decor District",
       "guide": "One of the 30 cards in the Vice City Club De Futbol set. In the Decor District by the highway: climb the ladder to the roof garden, and it's on the raised block beside the small football goal, next to a radio."
@@ -8761,6 +8761,7 @@
     },
     {
       "id": "cd-13-06",
+      "imageURL": "https://leonidalog.app/images/cards/cd-13-06.jpg",
       "title": "Daisy - Standard",
       "category": "cards",
       "subgroup": "Delights Dancers",
@@ -8769,7 +8770,7 @@
       "ny": 0.4316,
       "region": "Vice-Dale County",
       "area": "La Perle",
-      "guide": "One of the 18 cards in the Delights Dancers set. Follow the map pin."
+      "guide": "One of the 18 cards in the Delights Dancers set. At the Xero Food Mart in La Perle: in the back room, pinned to the corkboard above the microwave."
     },
     {
       "id": "cd-13-07",
@@ -18946,6 +18947,7 @@
     },
     {
       "id": "sj-interstate-97-east",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-interstate-97-east.jpg",
       "title": "Interstate 97 East",
       "category": "stunt-jumps",
       "subgroup": "Vice-Dale County",
@@ -19283,6 +19285,7 @@
     },
     {
       "id": "sj-interstate-97-west",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-interstate-97-west.jpg",
       "title": "Interstate 97 West",
       "category": "stunt-jumps",
       "subgroup": "Vice-Dale County",
@@ -53803,6 +53806,7 @@
     },
     {
       "id": "sa-024",
+      "imageURL": "https://leonidalog.app/images/street-art/sa-024.jpg",
       "title": "Wheel 71 (La Perle)",
       "category": "street-art",
       "subgroup": "Wheels",
