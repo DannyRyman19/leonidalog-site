@@ -1,10 +1,10 @@
 {
-  "version": 8,
+  "version": 9,
   "articles": [
     {
       "id": "android-testers",
       "title": "Leonida Log is coming to Android: help test it",
-      "date": "2026-11-28T12:00:00Z",
+      "date": "2026-11-28T11:00:00Z",
       "body": "Leonida Log is coming to Google Play, and Google needs a group of testers to have it installed for two weeks before it can launch. Got an Android phone or tablet, or a friend with one? It takes two steps and it's the full app, free.",
       "url": "https://leonidalog.app/android",
       "pinned": true
