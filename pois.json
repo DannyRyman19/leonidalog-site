@@ -1,5 +1,5 @@
 {
-  "version": 155,
+  "version": 157,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -400,6 +400,7 @@
       "symbol": "scope",
       "colorHex": "8FBF5A",
       "verb": "delivered",
+      "collectible": true,
       "intro": "Bret Vogel's hunting orders for Jason, grouped by deck. Each deck names two or three animals: tick them off as you deliver them. Bring carcasses to Bret in pristine or good condition (one clean shot to the head or heart keeps them pristine and pays more). Decks unlock one at a time after Bret's first job, which he texts about in chapter 2. There are 15 decks in all; more are added as guides publish them."
     },
     {
@@ -3251,6 +3252,9 @@
       },
       "linkedCategories": [
         "bret-decks"
+      ],
+      "linkedSubgroups": [
+        "*"
       ]
     },
     {
@@ -5776,8 +5780,8 @@
       "category": "cards",
       "subgroup": "Vice City Manatees",
       "spoiler": true,
-      "nx": 0.6389,
-      "ny": 0.4719,
+      "nx": 0.6391,
+      "ny": 0.4711,
       "region": "Vice-Dale County",
       "area": "Crosstown",
       "guide": "One of the 24 cards in the Vice City Manatees set. Follow the map pin."
@@ -6083,9 +6087,23 @@
       "ny": 0.3465,
       "region": "Kelly County",
       "area": "Port Gellhorn",
-      "guide": "One of the 30 cards in the Vice City Club De Futbol set. On the wooden bleachers by the chain-link fence: on the bench next to a drinks can and a camo backpack.",
+      "guide": "One of the 30 cards in the Vice City Club De Futbol set. Found in two places: on the bench of the wooden bleachers by the chain-link fence in Port Gellhorn, and in the open orange crate on top of the Valdemar on the River parking garage in Little Cuba.",
       "artImageURL": "https://leonidalog.app/images/cards/art/cd-04-04.jpg",
-      "slot": 3
+      "slot": 3,
+      "gallery": [
+        {
+          "imageURL": "https://leonidalog.app/images/cards/cd-04-04.jpg",
+          "caption": "Port Gellhorn: on the bench of the wooden bleachers by the chain-link fence.",
+          "nx": 0.328,
+          "ny": 0.3465
+        },
+        {
+          "imageURL": "https://leonidalog.app/images/cards/cd-04-04-garage.jpg",
+          "caption": "Little Cuba: in the open orange crate on top of the Valdemar on the River parking garage.",
+          "nx": 0.614,
+          "ny": 0.5428
+        }
+      ]
     },
     {
       "id": "cd-04-05",
@@ -9908,15 +9926,19 @@
     },
     {
       "id": "cd-16-06",
+      "imageURL": "https://leonidalog.app/images/cards/cd-16-06.jpg",
       "title": "Death of Swallow - Purple",
       "category": "cards",
       "subgroup": "The Legends of Ratface",
       "spoiler": true,
-      "nx": 0.638,
-      "ny": 0.4952,
+      "nx": 0.6376,
+      "ny": 0.4945,
       "region": "Vice-Dale County",
       "area": "Crosstown",
-      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. In the abandoned Marbelle Hotel on NW 8th St, south Crosstown: upstairs, on the chest of drawers by the lit candle at the top of the stairs. The Crowex 'Breakfast' watch is in the safe of the same hotel.",
+      "guideLinks": {
+        "Crowex 'Breakfast' watch": "wt-10"
+      }
     },
     {
       "id": "cd-16-07",
@@ -15834,6 +15856,56 @@
       "guide": "Mount Kalaga: on the cliff edge at the base jump, between the yellow cones, tucked in a split in the rock. Found by Danny."
     },
     {
+      "id": "mt-25",
+      "title": "Meteorite",
+      "category": "meteorites",
+      "spoiler": true,
+      "region": "Leonard County",
+      "guide": "Waning Sands: inside Sands of Time, the retirement home in the middle of the Vinewood Beach strip. Go downstairs, past the pool table, and it's on the desk in the office.",
+      "area": "Waning Sands"
+    },
+    {
+      "id": "mt-26",
+      "title": "Meteorite",
+      "category": "meteorites",
+      "spoiler": true,
+      "region": "Mariana County",
+      "guide": "Off the coast east of Kenton's, about twice as far out as the island: dive to the crashed yacht on the seabed and look underneath it."
+    },
+    {
+      "id": "mt-27",
+      "title": "Meteorite",
+      "category": "meteorites",
+      "spoiler": true,
+      "region": "Mariana County",
+      "guide": "Off the coast east of Kenton's, out from the southern tip of the island there (south of the crashed yacht): dive to the helicopter wreck and look under it."
+    },
+    {
+      "id": "mt-28",
+      "title": "Meteorite",
+      "category": "meteorites",
+      "spoiler": true,
+      "region": "Mariana County",
+      "guide": "Underwater, south-east of the helicopter wreck east of Kenton's: a big sunken cargo ship with seaweed rising off it. Swim in through the small hole in its side."
+    },
+    {
+      "id": "mt-29",
+      "title": "Meteorite",
+      "category": "meteorites",
+      "spoiler": true,
+      "region": "Mariana County",
+      "guide": "Underwater just east of the small island off the east side of Corsair Key: in the cockpit of a crashed plane. It's shallow enough to reach without scuba gear."
+    },
+    {
+      "id": "mt-30",
+      "title": "Meteorite",
+      "category": "meteorites",
+      "spoiler": true,
+      "region": "Lummox County",
+      "guide": "Frampton Islands: on the west coast of the largest island. Guides say there's a second one a little further north, by the cliff.",
+      "area": "Frampton Islands"
+    },
+    {
       "id": "hl-01",
       "title": "Helipad 1",
       "category": "helipads",
@@ -17049,7 +17121,8 @@
       "region": "Kelly County",
       "area": "Gellhorn",
       "nx": 0.3736,
-      "ny": 0.3484
+      "ny": 0.3484,
+      "guide": "Sculpture. Scan it with WAiNK in Manifest Canyon, north of Port Gellhorn, just west of SR-73: a tall pillar with a globe on top and four stone horses around its base. Guides place it at different points of the canyon, so look along the road that loops around it."
     },
     {
       "id": "ws-the-grand-turkey-of-capri",
@@ -17329,6 +17402,7 @@
     },
     {
       "id": "wt-10",
+      "imageURL": "https://leonidalog.app/images/watches/wt-10.jpg",
       "title": "Crowex Ambassador 'Breakfast'",
       "category": "watches",
       "subgroup": "Vice-Dale County",
@@ -17339,8 +17413,8 @@
       "guideLinks": {
         "easter egg": "ee-16"
       },
-      "nx": 0.638,
-      "ny": 0.4952,
+      "nx": 0.6377,
+      "ny": 0.4946,
       "areas": [
         {
           "nx": 0.638,
@@ -17718,6 +17792,146 @@
       "guideLinks": {
         "trading card": "cd-12-17"
       }
+    },
+    {
+      "id": "sm-23",
+      "title": "Tiger Eyes Makeup",
+      "category": "style-magazines",
+      "subgroup": "Lucia",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "area": "Stockyard",
+      "guide": "A makeup magazine for Lucia in Stockyard: go in the back entrance of Lot6, take the stairs up to the office, and it's on a table between the desks. Guides disagree on the floor (second or third), so check both. The police may turn up, so grab it quickly."
+    },
+    {
+      "id": "sm-24",
+      "title": "Orange-Purple Neon Cat Eye Makeup",
+      "category": "style-magazines",
+      "subgroup": "Lucia",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "area": "Ocean Beach",
+      "guide": "A makeup magazine for Lucia in a hotel penthouse in Vice Beach: take the lift to the penthouse, go through the door on the right, and it's in the dining area at the back, near the grill."
+    },
+    {
+      "id": "sm-25",
+      "title": "Pixie Cut",
+      "category": "style-magazines",
+      "subgroup": "Lucia",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "area": "Washington Beach",
+      "guide": "A hairstyle magazine for Lucia on the roof of the Albany Hotel in Washington Beach, next to the small rooftop pool. A helicopter is the easy way up."
+    },
+    {
+      "id": "sm-26",
+      "title": "Rose High Twin Buns",
+      "category": "style-magazines",
+      "subgroup": "Lucia",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "area": "La Perle",
+      "guide": "A hairstyle magazine for Lucia in south-west La Perle: in the run-down apartment block behind the clothing store, go into ground-floor room 05; it's on the bed."
+    },
+    {
+      "id": "sm-27",
+      "title": "80s Pop Shimmer Makeup",
+      "category": "style-magazines",
+      "subgroup": "Lucia",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "area": "Little Cuba",
+      "guide": "A makeup magazine for Lucia in Little Cuba: in the long green building with clothes painted on its walls, next to the Ammu-Nation, on a table in the office."
+    },
+    {
+      "id": "sm-28",
+      "title": "Smoky Blue Makeup",
+      "category": "style-magazines",
+      "subgroup": "Lucia",
+      "spoiler": true,
+      "region": "Kelly County",
+      "area": "Port Gellhorn",
+      "guide": "A makeup magazine for Lucia at the Easy Inn motel on the north-east edge of Port Gellhorn: on the floor by the chairs at the pool."
+    },
+    {
+      "id": "sm-29",
+      "title": "High Bun & MyMy Clip",
+      "category": "style-magazines",
+      "subgroup": "Lucia",
+      "spoiler": true,
+      "region": "Mariana County",
+      "area": "Capri",
+      "guide": "A hairstyle magazine for Lucia on the west side of Capri: in the house just south of the radio tower, all the way up the stairs on the top floor. One guide puts it in a house in south-east Capri instead, so check there if it's missing."
+    },
+    {
+      "id": "sm-30",
+      "title": "Mutton Chops",
+      "category": "style-magazines",
+      "subgroup": "Jason",
+      "spoiler": true,
+      "region": "Mariana County",
+      "area": "Watson Bay",
+      "guide": "A facial hair magazine for Jason at the Plaza Island Motel, in the middle of the southern Watson Bay island: on a table to the left inside the reception office."
+    },
+    {
+      "id": "sm-31",
+      "title": "Green & Red Shards Buzz Cut",
+      "category": "style-magazines",
+      "subgroup": "Jason",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "area": "Southside",
+      "guide": "A hairstyle magazine for Jason at the south end of Southside: in the alley between Mrs. B's and the red building next to it, go up the stairs to a white plastic chair; it's next to the chair."
+    },
+    {
+      "id": "sm-32",
+      "title": "Hipster Mustache",
+      "category": "style-magazines",
+      "subgroup": "Jason",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "area": "Tequesta",
+      "guide": "A facial hair magazine for Jason in the hotel at the south end of Tequesta: take the lift to the Terrace floor, and it's on a beige bench in the terrace area."
+    },
+    {
+      "id": "sm-33",
+      "title": "Lumberjack",
+      "category": "style-magazines",
+      "subgroup": "Jason",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "area": "Balsero",
+      "guide": "A facial hair magazine for Jason in Balsero: on the couch just inside a white trailer."
+    },
+    {
+      "id": "sm-34",
+      "title": "Rainbow Leopard Buzz Cut",
+      "category": "style-magazines",
+      "subgroup": "Jason",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "area": "Bayside",
+      "guide": "A hairstyle magazine for Jason in the park between Bayside and Panos Plaza: on one of the chess tables under the green canopy."
+    },
+    {
+      "id": "sm-35",
+      "title": "Blond-Brown Side Part Curtains",
+      "category": "style-magazines",
+      "subgroup": "Jason",
+      "spoiler": true,
+      "region": "Vice-Dale County",
+      "area": "Ocean Beach",
+      "guide": "A hairstyle magazine for Jason at the Emerald Hotel in Vice Beach, east of the big park: take the lift to the pool level, go up the stairs on the right and look around the pool deck."
+    },
+    {
+      "id": "sm-36",
+      "title": "Platinum Undercut Mullet",
+      "category": "style-magazines",
+      "subgroup": "Jason",
+      "spoiler": true,
+      "region": "Kelly County",
+      "area": "Port Gellhorn",
+      "guide": "A hairstyle magazine for Jason at a run-down beach shack in west Port Gellhorn: up the stairs and round the balcony, on the floor next to the lounge chairs at the end."
     },
     {
       "id": "sj-001",
@@ -18805,6 +19019,7 @@
     },
     {
       "id": "sj-vice-city-parking-department-downtown",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-vice-city-parking-department-downtown.jpg",
       "title": "Vice City Parking Department Downtown",
       "category": "stunt-jumps",
       "subgroup": "Vice-Dale County",
@@ -18909,6 +19124,7 @@
     },
     {
       "id": "sj-valdemar-on-the-river-parking-north",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-valdemar-on-the-river-parking-north.jpg",
       "title": "Valdemar on the River Parking North",
       "category": "stunt-jumps",
       "subgroup": "Vice-Dale County",
@@ -18977,6 +19193,7 @@
     },
     {
       "id": "sj-valdemar-on-the-river-parking-south",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-valdemar-on-the-river-parking-south.jpg",
       "title": "Valdemar on the River Parking South",
       "category": "stunt-jumps",
       "subgroup": "Vice-Dale County",
@@ -19254,6 +19471,7 @@
     },
     {
       "id": "bx-003",
+      "imageURL": "https://leonidalog.app/images/base-jumps/bx-003.jpg",
       "title": "Heath Bank",
       "category": "base-jumps",
       "spoiler": true,
@@ -19354,6 +19572,7 @@
     },
     {
       "id": "bx-011",
+      "imageURL": "https://leonidalog.app/images/base-jumps/bx-011.jpg",
       "title": "Maven Residences",
       "category": "base-jumps",
       "spoiler": true,
@@ -19415,6 +19634,7 @@
     },
     {
       "id": "bx-016",
+      "imageURL": "https://leonidalog.app/images/base-jumps/bx-016.jpg",
       "title": "Valdemar on the River",
       "category": "base-jumps",
       "spoiler": true,
@@ -19476,6 +19696,7 @@
     },
     {
       "id": "bx-021",
+      "imageURL": "https://leonidalog.app/images/base-jumps/bx-021.jpg",
       "title": "Arcadia Towers East",
       "category": "base-jumps",
       "spoiler": true,
@@ -34719,6 +34940,138 @@
       "guide": "Deck 4 target. Hunt it, then deliver the carcass to Bret in pristine or good condition.",
       "linkedMissions": [
         "an-nine-banded-armadillo"
+      ]
+    },
+    {
+      "id": "bd-05-northern-black-coyote",
+      "title": "Northern black coyote",
+      "category": "bret-decks",
+      "subgroup": "Deck 5: Black Fur and Predator Glands",
+      "spoiler": true,
+      "guide": "Look in open fields. Deck 5 target. Hunt it, then deliver the carcass to Bret in pristine or good condition.",
+      "linkedMissions": [
+        "an-northern-black-coyote"
+      ]
+    },
+    {
+      "id": "bd-05-black-fox",
+      "title": "Black fox",
+      "category": "bret-decks",
+      "subgroup": "Deck 5: Black Fur and Predator Glands",
+      "spoiler": true,
+      "guide": "Look in open fields. Deck 5 target. Hunt it, then deliver the carcass to Bret in pristine or good condition.",
+      "linkedMissions": [
+        "an-black-fox"
+      ]
+    },
+    {
+      "id": "bd-05-leonida-black-panther",
+      "title": "Leonida black panther",
+      "category": "bret-decks",
+      "subgroup": "Deck 5: Black Fur and Predator Glands",
+      "spoiler": true,
+      "guide": "It keeps to the thickest woodland. Deck 5 target. Hunt it, then deliver the carcass to Bret in pristine or good condition.",
+      "linkedMissions": [
+        "an-leonida-black-panther"
+      ]
+    },
+    {
+      "id": "bd-06-american-crocodile",
+      "title": "American crocodile",
+      "category": "bret-decks",
+      "subgroup": "Deck 6: Crocodile Meat and Cottonmouth Glands",
+      "spoiler": true,
+      "guide": "Deck 6 target. Hunt it, then deliver the carcass to Bret in pristine or good condition.",
+      "linkedMissions": [
+        "an-american-crocodile"
+      ]
+    },
+    {
+      "id": "bd-06-leonida-cottonmouth",
+      "title": "Leonida cottonmouth",
+      "category": "bret-decks",
+      "subgroup": "Deck 6: Crocodile Meat and Cottonmouth Glands",
+      "spoiler": true,
+      "guide": "Deck 6 target. Hunt it, then deliver the carcass to Bret in pristine or good condition.",
+      "linkedMissions": [
+        "an-leonida-cottonmouth"
+      ]
+    },
+    {
+      "id": "bd-06-marsh-rabbit",
+      "title": "Marsh rabbit",
+      "category": "bret-decks",
+      "subgroup": "Deck 6: Crocodile Meat and Cottonmouth Glands",
+      "spoiler": true,
+      "guide": "Look in the brush. Deck 6 target. Hunt it, then deliver the carcass to Bret in pristine or good condition.",
+      "linkedMissions": [
+        "an-marsh-rabbit"
+      ]
+    },
+    {
+      "id": "bd-07-northern-albino-raccoon",
+      "title": "Northern albino raccoon",
+      "category": "bret-decks",
+      "subgroup": "Deck 7: White Fur and Feathers",
+      "spoiler": true,
+      "guide": "Only comes out at night, after about 19:30. Deck 7 target. Hunt it, then deliver the carcass to Bret in pristine or good condition.",
+      "linkedMissions": [
+        "an-northern-albino-raccoon"
+      ]
+    },
+    {
+      "id": "bd-07-canada-goose",
+      "title": "Canada goose",
+      "category": "bret-decks",
+      "subgroup": "Deck 7: White Fur and Feathers",
+      "spoiler": true,
+      "guide": "Deck 7 target. Hunt it, then deliver the carcass to Bret in pristine or good condition.",
+      "linkedMissions": [
+        "an-canada-goose"
+      ]
+    },
+    {
+      "id": "bd-07-white-river-otter",
+      "title": "White river otter",
+      "category": "bret-decks",
+      "subgroup": "Deck 7: White Fur and Feathers",
+      "spoiler": true,
+      "guide": "Look in and around water. Deck 7 target. Hunt it, then deliver the carcass to Bret in pristine or good condition.",
+      "linkedMissions": [
+        "an-white-river-otter"
+      ]
+    },
+    {
+      "id": "bd-08-gloriana-opossum",
+      "title": "Gloriana opossum",
+      "category": "bret-decks",
+      "subgroup": "Deck 8: Boar Meat and Bear Meat",
+      "spoiler": true,
+      "guide": "Only comes out at night. Deck 8 target. Hunt it, then deliver the carcass to Bret in pristine or good condition.",
+      "linkedMissions": [
+        "an-gloriana-opossum"
+      ]
+    },
+    {
+      "id": "bd-08-spotted-wild-boar",
+      "title": "Spotted wild boar",
+      "category": "bret-decks",
+      "subgroup": "Deck 8: Boar Meat and Bear Meat",
+      "spoiler": true,
+      "guide": "They move in groups. Deck 8 target. Hunt it, then deliver the carcass to Bret in pristine or good condition.",
+      "linkedMissions": [
+        "an-spotted-wild-boar"
+      ]
+    },
+    {
+      "id": "bd-08-american-black-bear",
+      "title": "American black bear",
+      "category": "bret-decks",
+      "subgroup": "Deck 8: Boar Meat and Bear Meat",
+      "spoiler": true,
+      "guide": "Look in the forest. Deck 8 target. Hunt it, then deliver the carcass to Bret in pristine or good condition.",
+      "linkedMissions": [
+        "an-american-black-bear"
       ]
     },
     {
