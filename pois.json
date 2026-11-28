@@ -1,5 +1,5 @@
 {
-  "version": 159,
+  "version": 160,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -122,6 +122,15 @@
       "verb": "collected",
       "intro": "2 unique playlists, unlocked by finding their posters.",
       "collectible": true
+    },
+    {
+      "id": "playlist-posters",
+      "label": "Playlist posters",
+      "symbol": "music.note.list",
+      "colorHex": "E86FBF",
+      "verb": "found",
+      "complete": true,
+      "intro": "The posters that unlock a unique playlist. Scan every poster for a playlist and it's yours."
     },
     {
       "id": "video-games",
@@ -5494,15 +5503,16 @@
     },
     {
       "id": "cd-02-06",
+      "imageURL": "https://leonidalog.app/images/cards/cd-02-06.jpg",
       "title": "Branko Roncevic - Standard",
       "category": "cards",
       "subgroup": "Vice City Narcos",
       "spoiler": true,
-      "nx": 0.6243,
-      "ny": 0.467,
+      "nx": 0.6245,
+      "ny": 0.4666,
       "region": "Vice-Dale County",
       "area": "Crosstown",
-      "guide": "One of the 24 cards in the Vice City Narcos set. Follow the map pin."
+      "guide": "One of the 24 cards in the Vice City Narcos set. In Crosstown: on the porch of a red house, on the railing by the back steps, next to a radio."
     },
     {
       "id": "cd-02-07",
@@ -7111,6 +7121,7 @@
     },
     {
       "id": "cd-07-08",
+      "imageURL": "https://leonidalog.app/images/cards/cd-07-08.jpg",
       "title": "B'ryan Barnett - Bronze",
       "category": "cards",
       "subgroup": "Liberty City Wrath",
@@ -7119,7 +7130,7 @@
       "ny": 0.4631,
       "region": "Vice-Dale County",
       "area": "Crosstown",
-      "guide": "One of the 24 cards in the Liberty City Wrath set. Follow the map pin."
+      "guide": "One of the 24 cards in the Liberty City Wrath set. In Crosstown, by Dutch Courage: climb the ladders on the construction side of the building to the roof, and it's on the floor by the folding chair, next to the red wall."
     },
     {
       "id": "cd-07-09",
@@ -7902,6 +7913,7 @@
     },
     {
       "id": "cd-09-22",
+      "imageURL": "https://leonidalog.app/images/cards/cd-09-22.jpg",
       "title": "Terrance Ericks - Bronze",
       "category": "cards",
       "subgroup": "Los Santos Panic",
@@ -7910,7 +7922,7 @@
       "ny": 0.4602,
       "region": "Vice-Dale County",
       "area": "La Perle",
-      "guide": "One of the 24 cards in the Los Santos Panic set. Follow the map pin."
+      "guide": "One of the 24 cards in the Los Santos Panic set. In La Perle: in a dark storeroom, on the metal shelving above the blue crate with the magazine on it."
     },
     {
       "id": "cd-09-23",
@@ -8199,13 +8211,19 @@
     },
     {
       "id": "cd-10-21",
+      "imageURL": "https://leonidalog.app/images/cards/cd-10-21.jpg",
       "title": "Sione Apa - Silver",
       "category": "cards",
       "subgroup": "Los Santos Pounders",
       "spoiler": true,
-      "region": "Lummox County",
-      "area": "Kalaga National Park",
-      "guide": "One of the 24 cards in the Los Santos Pounders set. Where it is isn't confirmed yet: the old pin turned out to be wrong. If you find it, report the spot."
+      "nx": 0.6205,
+      "ny": 0.4745,
+      "region": "Vice-Dale County",
+      "area": "Rockridge",
+      "guide": "One of the 24 cards in the Los Santos Pounders set. In Rockridge: apartment 23, on the right-hand side of the top floor, on the desk in the corner. The same building as the Lenora card (apartment 21).",
+      "guideLinks": {
+        "Lenora card": "cd-15-26"
+      }
     },
     {
       "id": "cd-10-22",
@@ -9725,6 +9743,7 @@
     },
     {
       "id": "cd-15-26",
+      "imageURL": "https://leonidalog.app/images/cards/cd-15-26.jpg",
       "title": "Lenora - Pink",
       "category": "cards",
       "subgroup": "Nine1Nine Dancers",
@@ -9733,7 +9752,7 @@
       "ny": 0.4747,
       "region": "Vice-Dale County",
       "area": "Rockridge",
-      "guide": "One of the 36 cards in the Nine1Nine Dancers set. Follow the map pin."
+      "guide": "One of the 36 cards in the Nine1Nine Dancers set. In Rockridge: apartment 21, in the middle of the top floor, on the little table under the writing on the wall."
     },
     {
       "id": "cd-15-27",
@@ -10325,6 +10344,7 @@
     },
     {
       "id": "cd-16-36",
+      "imageURL": "https://leonidalog.app/images/cards/cd-16-36.jpg",
       "title": "Wokester - Purple",
       "category": "cards",
       "subgroup": "The Legends of Ratface",
@@ -10333,7 +10353,7 @@
       "ny": 0.4416,
       "region": "Vice-Dale County",
       "area": "La Perle",
-      "guide": "One of the 36 cards in The Legends of Ratface set. Follow the map pin."
+      "guide": "One of the 36 cards in The Legends of Ratface set. In a warehouse in La Perle: on the wooden pallets under the blue shelving, by the figurines and the candles."
     },
     {
       "id": "cd-17-01",
@@ -11481,36 +11501,30 @@
     {
       "id": "pl-sniper",
       "imageURL": "https://leonidalog.app/images/playlists/pl-sniper.jpg",
-      "nx": 0.6231,
-      "ny": 0.462,
       "title": "The Sniper of La Perle",
       "category": "playlists",
       "spoiler": true,
-      "guide": "Find its 4 posters: by the cashier at Aunt Zola's Soul Food, by the door at TWA Ponya Tattoo and by the clerk at Drip Drops (all in La Perle), and on a crate in the east recording booth on the second floor of the Jack of Hearts club in Crosstown.",
+      "guide": "Scan its 4 posters: at Aunt Zola's Soul Food, TWA Ponya Tattoo and Drip Drops in La Perle, and in the Jack of Hearts club in Crosstown. Each poster has its own pin.",
       "region": "Vice City",
       "area": "La Perle",
       "tallyTarget": 4,
-      "areas": [
-        {
-          "nx": 0.6228,
-          "ny": 0.4618,
-          "r": 0.0008
-        },
-        {
-          "nx": 0.617,
-          "ny": 0.4577,
-          "r": 0.0008
-        },
-        {
-          "nx": 0.6193,
-          "ny": 0.4526,
-          "r": 0.0008
-        },
-        {
-          "nx": 0.636,
-          "ny": 0.4678,
-          "r": 0.0008
-        }
+      "countsFrom": {
+        "target": 4,
+        "sources": [
+          {
+            "category": "playlist-posters",
+            "subgroups": [
+              "The Sniper of La Perle"
+            ]
+          }
+        ],
+        "unit": "posters"
+      },
+      "linkedCategories": [
+        "playlist-posters"
+      ],
+      "linkedSubgroups": [
+        "The Sniper of La Perle"
       ]
     },
     {
@@ -11524,6 +11538,67 @@
       "guide": "Find the red poster just inside the entrance of The Vault nightclub, downtown, at the top of the steps up into the club.",
       "region": "Vice City",
       "area": "Downtown"
+    },
+    {
+      "id": "pp-sniper-1",
+      "title": "Aunt Zola's Soul Food",
+      "category": "playlist-posters",
+      "subgroup": "The Sniper of La Perle",
+      "spoiler": true,
+      "nx": 0.6228,
+      "ny": 0.4618,
+      "region": "Vice City",
+      "area": "La Perle",
+      "guide": "By the cashier at Aunt Zola's Soul Food in La Perle. One of the 4 posters for The Sniper of La Perle playlist.",
+      "guideLinks": {
+        "The Sniper of La Perle": "pl-sniper"
+      }
+    },
+    {
+      "id": "pp-sniper-2",
+      "imageURL": "https://leonidalog.app/images/playlist-posters/pp-sniper-2.jpg",
+      "title": "TWA Ponya Tattoo",
+      "category": "playlist-posters",
+      "subgroup": "The Sniper of La Perle",
+      "spoiler": true,
+      "nx": 0.617,
+      "ny": 0.4577,
+      "region": "Vice City",
+      "area": "La Perle",
+      "guide": "By the door at TWA Ponya Tattoo in La Perle, on the low table by the window. One of the 4 posters for The Sniper of La Perle playlist.",
+      "guideLinks": {
+        "The Sniper of La Perle": "pl-sniper"
+      }
+    },
+    {
+      "id": "pp-sniper-3",
+      "title": "Drip Drops",
+      "category": "playlist-posters",
+      "subgroup": "The Sniper of La Perle",
+      "spoiler": true,
+      "nx": 0.6193,
+      "ny": 0.4526,
+      "region": "Vice City",
+      "area": "La Perle",
+      "guide": "By the clerk at Drip Drops in La Perle. One of the 4 posters for The Sniper of La Perle playlist.",
+      "guideLinks": {
+        "The Sniper of La Perle": "pl-sniper"
+      }
+    },
+    {
+      "id": "pp-sniper-4",
+      "title": "Jack of Hearts",
+      "category": "playlist-posters",
+      "subgroup": "The Sniper of La Perle",
+      "spoiler": true,
+      "nx": 0.636,
+      "ny": 0.4678,
+      "region": "Vice City",
+      "area": "Crosstown",
+      "guide": "On a crate in the east recording booth, on the second floor of the Jack of Hearts club in Crosstown. One of the 4 posters for The Sniper of La Perle playlist.",
+      "guideLinks": {
+        "The Sniper of La Perle": "pl-sniper"
+      }
     },
     {
       "id": "vg-1",
@@ -17096,14 +17171,15 @@
     },
     {
       "id": "ws-catalan-blvd-garden",
+      "imageURL": "https://leonidalog.app/images/waink/ws-catalan-blvd-garden.jpg",
       "title": "Catalan Blvd Garden",
       "category": "waink",
       "subgroup": "Sculptures",
       "spoiler": true,
       "region": "Vice-Dale County",
       "area": "Bayside",
-      "nx": 0.6571,
-      "ny": 0.4544,
+      "nx": 0.6594,
+      "ny": 0.4455,
       "guide": "Sculpture 12. Scan it with WAiNK: a big blue sculpture of a pointing hand with a bird on its fingertip, in the palm-lined paved plaza of the bayfront park on the east edge of Bayside.",
       "slot": 12
     },
@@ -18063,6 +18139,7 @@
     },
     {
       "id": "sj-011",
+      "imageURL": "https://leonidalog.app/images/stunt-jumps/sj-011.jpg",
       "title": "Blackwell Sandrock",
       "category": "stunt-jumps",
       "subgroup": "Vice-Dale County",
@@ -53847,10 +53924,15 @@
     },
     {
       "id": "sa-029",
+      "imageURL": "https://leonidalog.app/images/street-art/sa-029.jpg",
       "title": "Fridge 136 (La Perle)",
       "category": "street-art",
       "subgroup": "Fridges",
       "spoiler": true,
+      "nx": 0.619,
+      "ny": 0.46,
+      "region": "Vice-Dale County",
+      "area": "La Perle",
       "guide": "Beside the Tropical Thrift Store, next to a gate leading to the rear of the lot on Del Rio Blvd, La Perle. Scan it with WAiNK."
     },
     {
