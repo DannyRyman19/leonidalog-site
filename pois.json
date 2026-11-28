@@ -1,5 +1,5 @@
 {
-  "version": 160,
+  "version": 161,
   "ads": {
     "rewarded": true,
     "interstitial": true,
@@ -7041,8 +7041,8 @@
       "category": "cards",
       "subgroup": "Liberty City Wrath",
       "spoiler": true,
-      "nx": 0.6204,
-      "ny": 0.4534,
+      "nx": 0.621,
+      "ny": 0.4532,
       "region": "Vice-Dale County",
       "area": "La Perle",
       "guide": "One of the 24 cards in the Liberty City Wrath set. Follow the map pin."
